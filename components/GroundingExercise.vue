@@ -51,7 +51,7 @@
             <Icon name="ph:airplane-landing-duotone" class="text-2xl text-green-600" />
             <div>
               <div class="font-semibold text-gray-800">
-                Grounding Session - Step {{ currentStep }} of 5
+                Step {{ currentStep }} of 5
               </div>
               <div class="text-sm text-gray-500">{{ currentStepConfig.subtitle }}</div>
             </div>
@@ -69,7 +69,7 @@
 
       <!-- Main Exercise Card -->
       <div
-        class="border border-gray-200 bg-white p-8"
+        class="border border-gray-200 bg-white p-6 md:p-8"
         :style="{
           '--step-color': colorMap[currentStepConfig.color] || '#6b7280',
           '--step-color-light': lightColorMap[currentStepConfig.color] || '#f9fafb',

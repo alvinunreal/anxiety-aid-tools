@@ -17,7 +17,7 @@
             v-for="technique in techniques"
             :key="technique.key"
             @click="selectedTechnique = technique.key"
-            class="cursor-pointer border-2 p-6 transition-all duration-100 hover:border-blue-300 hover:bg-blue-50/50"
+            class="cursor-pointer border-2 p-6 touch-manipulation transition-all duration-100 hover:border-blue-300 hover:bg-blue-50/50"
             :class="
               selectedTechnique === technique.key
                 ? 'border-blue-500 bg-blue-50'

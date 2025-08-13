@@ -76,7 +76,7 @@
       </div>
 
       <!-- Breathing Visualization -->
-      <div class="border border-gray-200 bg-white p-8">
+      <div class="border border-gray-200 bg-white p-6 md:p-8">
         <div class="flex flex-col items-center">
           <!-- Breathing Animation -->
           <BreathingAnimation

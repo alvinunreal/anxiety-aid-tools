@@ -64,7 +64,7 @@
       </div>
 
       <!-- Main Exercise Area -->
-      <div class="border border-gray-200 bg-white p-8">
+      <div class="border border-gray-200 bg-white p-6 md:p-8">
         <!-- Labeled Thoughts Summary -->
         <div v-if="labeledThoughts.length > 0 && !currentThought" class="mb-8">
           <div class="mx-auto max-w-4xl">
