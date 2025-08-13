@@ -6,9 +6,9 @@
         <div class="mb-6">
           <Icon name="ph:mountains-fill" class="mx-auto text-6xl text-blue-600" />
         </div>
-        <h1 class="ptitle">{{ $t("techniques.visualization.name") }}</h1>
+        <h1 class="ptitle">{{ $t("techniques.peacefulVisualization.name") }}</h1>
         <p class="mx-auto mb-6 max-w-2xl leading-relaxed text-gray-600">
-          {{ $t("techniques.visualization.description") }}
+          {{ $t("techniques.peacefulVisualization.description") }}
         </p>
 
         <!-- Scene Selection Grid -->
