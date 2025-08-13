@@ -3,13 +3,13 @@
     "breathing": {
       "name": "2-Minute Breathing",
       "short_description": "Simple breathing exercise that calm your nervous system and reduce anxiety in just minutes",
-      "description": "When anxiety strikes, your breathing becomes shallow and rapid. This technique teaches you simple breathing patterns that activate your body's natural relaxation response. By focusing on slow, controlled breaths, you can quickly calm your nervous system and regain control over anxious feelings.",
+      "description": "When anxiety strikes, your breathing becomes shallow and rapid. This technique teaches you simple breathing patterns that activate your body's natural relaxation response.",
       "duration": "2-3 min"
     },
     "grounding": {
       "name": "5-4-3-2-1 Grounding",
       "short_description": "A sensory technique that pulls you out of anxious thoughts by focusing on what's around you right now",
-      "description": "This powerful grounding technique uses your five senses to anchor you in the present moment. By systematically noticing 5 things you can see, 4 you can touch, 3 you can hear, 2 you can smell, and 1 you can taste, you interrupt the cycle of anxious thoughts and reconnect with your immediate environment.",
+      "description": "Grounding technique uses your five senses to anchor you in the present moment. When noticing 5 things you can see, 4 you can touch, 3 you can hear, 2 you can smell, and 1 you can taste interrupts the cycle of anxious thoughts and reconnects you with your immediate environment.",
       "duration": "3-5 min"
     },
     "guidedBreathing": {
@@ -33,7 +33,7 @@
     "thoughtLabeling": {
       "name": "Thought Labeling",
       "short_description": "A mindfulness technique that helps you recognize anxious thoughts as temporary mental events, not facts",
-      "description": "Anxious thoughts can feel overwhelming when you treat them as absolute truths. This mindfulness practice teaches you to observe your thoughts with curiosity rather than judgment. By learning to label thoughts as 'thinking,' 'worrying,' or 'planning,' you create distance between yourself and your anxious mind, reducing their emotional impact.",
+      "description": "Anxious thoughts can feel overwhelming when you treat them as absolute truths. This mindfulness practice teaches you to observe your thoughts with curiosity rather than judgment. Learning to label thoughts as 'thinking,' 'worrying,' or 'planning' creates distance between yourself and your anxious mind, reducing their emotional impact.",
       "duration": "5-15 min"
     },
     "stressReliefBubbles": {
