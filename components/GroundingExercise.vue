@@ -34,7 +34,7 @@
 
         <button
           @click="startExercise"
-          class="mx-auto flex items-center gap-2 bg-green-600 px-8 py-4 text-lg font-medium text-white transition-colors duration-100 hover:bg-green-700"
+          class="mx-auto flex items-center gap-2 bg-green-600 px-8 py-4 text-lg font-medium text-white transition-colors duration-100 hover:bg-green-700 touch-manipulation"
         >
           <Icon name="ph:play-fill" class="text-xl" />
           <span>Begin Exercise</span>
@@ -96,35 +96,56 @@
             @click="toggleItem(currentStepConfig.key, index)"
           >
             <div
-              class="flex items-start gap-4 border p-5 transition-all duration-100"
+              class="border transition-all duration-100 cursor-pointer touch-manipulation"
               :class="[item.checked ? 'step-item-checked' : 'step-item-unchecked']"
             >
-              <div class="mt-0.5 flex-shrink-0">
-                <div
-                  class="flex h-6 w-6 items-center justify-center border-2 transition-all duration-100"
-                  :class="[item.checked ? 'step-checkbox-checked' : 'step-checkbox-unchecked']"
-                >
-                  <Icon v-if="item.checked" name="ph:check" class="text-sm text-white" />
+              <!-- Mobile Layout (< md) -->
+              <div class="md:hidden p-4 relative">
+                <div class="flex items-start justify-between gap-3">
+                  <div class="flex-1 min-w-0">
+                    <h4 class="text-sm font-medium text-gray-900 leading-snug mb-2">
+                      {{ item.text }}
+                    </h4>
+                    <p class="text-xs text-gray-500 leading-relaxed">
+                      {{ item.guidance }}
+                    </p>
+                  </div>
+                  <div class="flex-shrink-0 ml-3">
+                    <div
+                      class="flex h-5 w-5 items-center justify-center border-2 transition-all duration-100"
+                      :class="[item.checked ? 'step-checkbox-checked' : 'step-checkbox-unchecked']"
+                    >
+                      <Icon v-if="item.checked" name="ph:check" class="text-sm text-white" />
+                    </div>
+                  </div>
                 </div>
+                <Icon :name="item.icon" class="absolute bottom-4 right-4 text-xl text-gray-400" />
               </div>
-              <div class="flex-1">
-                <div class="mb-2">
-                  <span
-                    class="text-base transition-all duration-100"
-                    :class="item.checked ? 'font-medium text-gray-800' : 'text-gray-700'"
+
+              <!-- Desktop Layout (md+) -->
+              <div class="hidden md:flex items-start gap-4 p-5">
+                <div class="mt-0.5 flex-shrink-0">
+                  <div
+                    class="flex h-6 w-6 items-center justify-center border-2 transition-all duration-100"
+                    :class="[item.checked ? 'step-checkbox-checked' : 'step-checkbox-unchecked']"
                   >
-                    {{ item.text }}
-                  </span>
+                    <Icon v-if="item.checked" name="ph:check" class="text-sm text-white" />
+                  </div>
                 </div>
-
-                <!-- Specific guidance when not checked -->
-                <div
-                  class="flex items-start gap-2 text-sm italic text-gray-500"
-                >
-                  <Icon :name="item.icon" class="mt-0.5 flex-shrink-0 text-sm" />
-                  <span>{{ item.guidance }}</span>
+                <div class="flex-1">
+                  <div class="mb-2">
+                    <span
+                      class="text-base transition-all duration-100"
+                      :class="item.checked ? 'font-medium text-gray-800' : 'text-gray-700'"
+                    >
+                      {{ item.text }}
+                    </span>
+                  </div>
+                  <div class="flex items-start gap-2 text-sm italic text-gray-500">
+                    <Icon :name="item.icon" class="mt-0.5 flex-shrink-0 text-sm" />
+                    <span>{{ item.guidance }}</span>
+                  </div>
                 </div>
-
               </div>
             </div>
           </div>
@@ -161,7 +182,7 @@
                 @click="previousStep"
                 :disabled="currentStep === 1"
                 :class="[
-                  'flex items-center gap-2 border px-4 py-2 text-sm font-medium transition-all duration-100',
+                  'flex items-center gap-2 border px-4 py-3 text-sm font-medium transition-all duration-100 touch-manipulation',
                   currentStep > 1
                     ? 'border-gray-300 bg-white text-gray-700 hover:bg-gray-50'
                     : 'cursor-default border-transparent bg-transparent text-transparent',
@@ -188,7 +209,7 @@
                 @click="currentStep === 5 ? completeExercise() : nextStep()"
                 :disabled="currentStep === 5 ? senses.taste.checked < 1 : !canProceedToNext"
                 :class="[
-                  'flex min-w-[90px] items-center justify-center gap-2 px-4 py-2 text-sm font-medium transition-colors duration-100',
+                  'flex min-w-[90px] items-center justify-center gap-2 px-4 py-3 text-sm font-medium transition-colors duration-100 touch-manipulation',
                   (currentStep === 5 ? senses.taste.checked === 1 : canProceedToNext)
                     ? 'step-button-enabled text-white'
                     : 'cursor-not-allowed bg-gray-100 text-gray-400',
@@ -233,7 +254,7 @@
 
         <button
           @click="startExercise"
-          class="mx-auto flex items-center gap-2 bg-green-600 px-8 py-4 text-lg font-medium text-white transition-colors duration-100 hover:bg-green-700"
+          class="mx-auto flex items-center gap-2 bg-green-600 px-8 py-4 text-lg font-medium text-white transition-colors duration-100 hover:bg-green-700 touch-manipulation"
         >
           <Icon name="ph:arrow-counter-clockwise" class="text-xl" />
           <span>Practice Again</span>
