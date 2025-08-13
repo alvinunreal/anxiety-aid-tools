@@ -55,27 +55,18 @@
     <!-- Exercise Interface -->
     <div v-if="exerciseStarted && !exerciseCompleted">
       <!-- Session Header -->
-      <div class="mb-6 border border-gray-200 bg-white p-4">
-        <div class="flex items-center justify-between">
-          <div class="flex items-center gap-3">
-            <Icon
-              :name="currentTechnique.icon"
-              class="text-2xl"
-              :style="{ color: currentTechnique.color }"
-            />
-            <div>
-              <div class="font-semibold text-gray-800">{{ currentTechnique.name }}</div>
-              <div class="text-sm text-gray-500">{{ formatTime(elapsedTime) }} elapsed</div>
-            </div>
-          </div>
-          <div class="text-right">
-            <div class="text-sm font-medium text-gray-700">
-              {{ currentCycle }}/{{ totalCycles }}
-            </div>
-            <div class="text-xs text-gray-500">{{ currentTechnique.timing }} pattern</div>
-          </div>
-        </div>
-      </div>
+      <SessionHeader
+        :icon="currentTechnique.icon"
+        :title="currentTechnique.name"
+        :subtitle="currentTechnique.description"
+        :display-value="formatTime(elapsedTime)"
+        display-label="elapsed"
+        :progress="(currentCycle / totalCycles) * 100"
+        :status-text="`${currentTechnique.timing} pattern`"
+        status-type="active"
+        :secondary-info="`${currentCycle}/${totalCycles} cycles`"
+        :theme-color="currentTechnique.color"
+      />
 
       <!-- Main Exercise Area -->
       <div class="border border-gray-200 bg-white/60 p-8">

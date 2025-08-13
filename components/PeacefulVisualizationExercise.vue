@@ -55,23 +55,18 @@
     <!-- Exercise Interface -->
     <div v-if="exerciseStarted && !exerciseCompleted">
       <!-- Session Header -->
-      <div class="mb-6 border border-gray-200 bg-white p-4">
-        <div class="flex items-center justify-between">
-          <div class="flex items-center gap-3">
-            <Icon :name="currentScene.icon || 'ph:mountains-fill'" class="text-2xl text-blue-600" />
-            <div>
-              <div class="font-semibold text-gray-800">{{ currentScene.name }}</div>
-              <div class="text-sm text-gray-500">
-                {{ currentScene.soundscape }} • {{ currentScene.atmosphere }}
-              </div>
-            </div>
-          </div>
-          <div class="text-right">
-            <div class="text-sm font-medium text-gray-700">Visualization Journey</div>
-            <div class="text-xs text-gray-500">Immersive experience</div>
-          </div>
-        </div>
-      </div>
+      <SessionHeader
+        :icon="currentScene.icon || 'ph:mountains-fill'"
+        :title="currentScene.name"
+        :subtitle="`${currentScene.soundscape} • ${currentScene.atmosphere}`"
+        display-value="∞"
+        display-label="peaceful moments"
+        :progress="75"
+        status-text="Immersive visualization journey"
+        status-type="active"
+        secondary-info="Close your eyes and breathe"
+        theme-color="#2563eb"
+      />
 
       <!-- Immersive 3D Visualization Experience -->
       <div class="relative h-[70vh] min-h-[500px] overflow-hidden border border-gray-200 bg-black">

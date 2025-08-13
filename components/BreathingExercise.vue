@@ -49,31 +49,18 @@
     <!-- Exercise Interface -->
     <div v-if="exerciseActive">
       <!-- Progress Header -->
-      <div class="mb-6 border border-gray-200 bg-white p-4">
-        <div class="flex items-center justify-between">
-          <div class="flex items-center gap-3">
-            <Icon name="ph:wind-fill" class="text-2xl text-cyan-600" />
-            <div>
-              <div class="font-semibold text-gray-800">{{ $t("breathing.session.title") }}</div>
-              <div class="text-sm text-gray-500">
-                {{ formatTime(elapsedTime) }} {{ $t("breathing.session.elapsed") }}
-              </div>
-            </div>
-          </div>
-          <div class="text-right">
-            <div class="text-sm font-medium text-gray-700">
-              {{ currentBreath }}/{{ totalBreaths }}
-            </div>
-            <div class="text-xs text-gray-500">
-              {{
-                breathingPhase === "inhale"
-                  ? $t("breathing.session.inhaling")
-                  : $t("breathing.session.exhaling")
-              }}
-            </div>
-          </div>
-        </div>
-      </div>
+      <SessionHeader
+        icon="ph:wind-fill"
+        :title="$t('breathing.session.title')"
+        subtitle="4:6 Calming Rhythm"
+        :display-value="formatTime(elapsedTime)"
+        display-label="elapsed"
+        :progress="(currentBreath / totalBreaths) * 100"
+        :status-text="breathingPhase === 'inhale' ? $t('breathing.session.inhaling') : $t('breathing.session.exhaling')"
+        status-type="active"
+        :secondary-info="`${currentBreath}/${totalBreaths} breaths`"
+        theme-color="#0891b2"
+      />
 
       <!-- Breathing Visualization -->
       <div class="border border-gray-200 bg-white p-6 md:p-8">

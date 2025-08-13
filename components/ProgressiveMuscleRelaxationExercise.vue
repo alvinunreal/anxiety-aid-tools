@@ -24,31 +24,18 @@
     <!-- Exercise Interface -->
     <div v-if="exerciseStarted && !exerciseCompleted">
       <!-- Session Header -->
-      <div class="mb-6 border border-gray-200 bg-white p-4">
-        <div class="flex items-center justify-between">
-          <div class="flex items-center gap-3">
-            <Icon name="ph:user-focus" class="text-2xl text-indigo-600" />
-            <div>
-              <div class="font-semibold text-gray-800">Progressive Muscle Relaxation</div>
-              <div class="text-sm text-gray-500">
-                Muscle group {{ currentGroupIndex + 1 }}/{{ muscleGroups.length }}
-              </div>
-            </div>
-          </div>
-          <div class="text-right">
-            <div class="text-sm font-medium text-gray-700">{{ currentMuscleGroup.short_name }}</div>
-            <div class="text-xs text-gray-500">
-              {{
-                currentState === "tense"
-                  ? "5s tension"
-                  : currentState === "relax"
-                    ? "15s release"
-                    : "prepare"
-              }}
-            </div>
-          </div>
-        </div>
-      </div>
+      <SessionHeader
+        icon="ph:user-focus"
+        title="Progressive Muscle Relaxation"
+        subtitle="Systematic tension and release"
+        :display-value="currentGroupIndex + 1"
+        :display-label="`of ${muscleGroups.length} groups`"
+        :progress="((currentGroupIndex + 1) / muscleGroups.length) * 100"
+        :status-text="currentState === 'tense' ? 'Tense for 5 seconds' : currentState === 'relax' ? 'Release for 15 seconds' : 'Prepare to begin'"
+        :status-type="currentState === 'prepare' ? 'waiting' : 'active'"
+        :secondary-info="currentMuscleGroup.short_name"
+        theme-color="#4f46e5"
+      />
 
       <!-- Main Exercise Area -->
       <div class="border border-gray-200 bg-white/60 p-8">

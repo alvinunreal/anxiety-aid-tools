@@ -45,27 +45,18 @@
     <!-- Exercise Interface -->
     <div v-if="exerciseStarted && !exerciseCompleted">
       <!-- Progress Header -->
-      <div class="mb-6 border border-gray-200 bg-white p-4">
-        <div class="flex items-center justify-between">
-          <div class="flex items-center gap-3">
-            <Icon name="ph:airplane-landing-duotone" class="text-2xl text-green-600" />
-            <div>
-              <div class="font-semibold text-gray-800">
-                Step {{ currentStep }} of 5
-              </div>
-              <div class="text-sm text-gray-500">{{ currentStepConfig.subtitle }}</div>
-            </div>
-          </div>
-          <div class="text-right">
-            <div class="text-sm font-medium text-gray-700">
-              {{ totalChecked }}/{{ totalItems }} items found
-            </div>
-            <div class="text-xs text-gray-500">
-              Progress: {{ Math.round((currentStep / 5) * 100) }}% complete
-            </div>
-          </div>
-        </div>
-      </div>
+      <SessionHeader
+        icon="ph:airplane-landing-duotone"
+        title="5-4-3-2-1 Grounding"
+        :subtitle="currentStepConfig.subtitle"
+        :display-value="currentStep"
+        display-label="of 5 steps"
+        :progress="(currentStep / 5) * 100"
+        :status-text="currentStepConfig.instruction"
+        status-type="active"
+        :secondary-info="`${totalChecked}/${totalItems} items found`"
+        theme-color="#059669"
+      />
 
       <!-- Main Exercise Card -->
       <div
