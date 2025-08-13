@@ -103,7 +103,7 @@
           @click="changeScene"
           class="flex items-center gap-2 bg-blue-600 px-4 py-2 text-white transition-colors duration-100 hover:bg-blue-700"
         >
-          <Icon name="ph:mountains-fill" class="text-lg" />
+          <Icon :name="currentScene.icon || 'ph:mountains-fill'" class="text-lg" />
           <span>Change Scene</span>
         </button>
 
@@ -642,26 +642,52 @@ const skipToNext = () => {
     phaseTimer = null;
   }
 
-  // Just complete this phase and continue
+  // Find current guidance index and advance to next
   const guidance = currentScene.value.guidance;
   const currentIndex = guidance.findIndex((text) => text === currentGuidanceText.value);
+  const nextIndex = currentIndex + 1;
 
-  if (currentIndex < guidance.length - 1) {
-    startGuidanceSequence();
+  if (nextIndex < guidance.length) {
+    // Show next guidance immediately
+    isTransitioning.value = true;
+    setTimeout(() => {
+      currentGuidanceText.value = guidance[nextIndex];
+      isTransitioning.value = false;
+    }, 500);
+
+    // Continue sequence from next index
+    const showFollowingGuidance = () => {
+      const followingIndex = nextIndex + 1;
+      if (followingIndex >= guidance.length) {
+        completeExercise();
+        return;
+      }
+
+      isTransitioning.value = true;
+      setTimeout(() => {
+        currentGuidanceText.value = guidance[followingIndex];
+        isTransitioning.value = false;
+      }, 500);
+
+      phaseTimer = setTimeout(() => {
+        const newCurrentIndex = guidance.findIndex((text) => text === currentGuidanceText.value);
+        if (newCurrentIndex < guidance.length - 1) {
+          showFollowingGuidance();
+        } else {
+          completeExercise();
+        }
+      }, 8000);
+    };
+
+    // Start the continuing sequence after showing next guidance
+    setTimeout(() => {
+      showFollowingGuidance();
+    }, 8000);
   } else {
     completeExercise();
   }
 };
 
-const selectScene = (index) => {
-  currentSceneIndex.value = index;
-  createEnvironment();
-
-  if (exerciseStarted.value && !exerciseCompleted.value) {
-    if (phaseTimer) clearTimeout(phaseTimer);
-    startGuidanceSequence();
-  }
-};
 
 const changeScene = () => {
   currentSceneIndex.value = (currentSceneIndex.value + 1) % visualizationScenes.length;
