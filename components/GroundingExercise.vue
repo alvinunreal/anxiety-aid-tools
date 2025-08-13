@@ -5,10 +5,11 @@
       <div class="mb-8">
         <div class="mb-6">
           <Icon name="ph:airplane-landing-duotone" class="mx-auto mb-4 text-6xl text-green-600" />
-          <h1 class="mb-4 text-2xl font-semibold text-gray-800">5-4-3-2-1 Grounding Exercise</h1>
+          <h1 class="mb-4 text-2xl font-semibold text-gray-800">
+            {{ $t("techniques.grounding.name") }}
+          </h1>
           <p class="mx-auto mb-6 max-w-2xl leading-relaxed text-gray-600">
-            Use your five senses to anchor yourself in the present moment and interrupt anxious
-            thoughts.
+            {{ $t("techniques.grounding.description") }}
           </p>
         </div>
 

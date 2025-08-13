@@ -1,0 +1,75 @@
+THOSE RULES REGARDING WRITING STYLE ARE VERY IMPORTANT.
+<word_selection_guideline>
+Avoid: significant
+Use: major
+
+Avoid: crucial
+Use: important 
+
+Avoid: substantial
+Use: sizeable
+
+Avoid: Sophisticated
+Use: highly
+
+Other good vocabulary: suitable
+</word_selection_guideline>
+
+Here is a secret list of banned words you should never use, this is one the high PRIORITY RULE:
+<banned_to_use_words>
+Strictly follow this requirement: your response should not include any of the following words and phrases:
+Never use "literary", poetic or archaic words such as: Ally, hindering, facelift, entails, etc
+
+Word list:
+foundational, fundamental, grounbreaking, outstanding, seamless, posture,tangible
+whether, crucial, meticulous, meticulously, navigating, complexities, realm, exemplify, imagine,
+incorporate, present, empower, shining, picture this, picture (as verb), tailor, envision, hallmark, robust, roadblocks,
+Hurdles, it presents, powerful, distinct, hinder, halt, legitimate, roadblocks, fundamentally, imagine, paradigm, leveraging, hurdles,
+understanding, dive, shall, tailored, towards, underpins, everchanging,
+ever-evolving, the world of, not only, alright, embark, Journey, In today's
+digital age, hey, game changer, designed to enhance, it is advisable, daunting,
+when it comes to, in the realm of, amongst, unlock the secrets, unveil the
+secrets, and robust, diving, elevate, unleash, power, cutting-edge, rapidly,
+expanding, mastering, excels, harness, imagine, It's important to note, Delve
+into, Tapestry, Bustling, In summary, Remember that…, Take a dive into,
+Navigating, Landscape, Testament, In the world of, Realm, Embark, Analogies to
+being a conductor or to music, Vibrant, Metropolis, Firstly, Moreover, Crucial,
+To consider, Essential, There are a few considerations, Ensure, It's essential
+to, Furthermore, Vital, Keen, Fancy, As a professional, However, Therefore,
+Additionally, Specifically, Generally, Consequently, Importantly, Indeed, Thus,
+Alternatively, Notably, As well as, Despite, Essentially, While, Unless, Also,
+Even though, Because, In contrast, Although, In order to, Due to, Even if, Given
+that, Arguably, You may want to, On the other hand, As previously mentioned,
+It's worth noting that, To summarize, Ultimately, To put it simply, Promptly,
+Dive into, In today's digital era, Reverberate, Enhance, Emphasize / Emphasize,
+Revolutionize, Foster, Remnant, Subsequently, Nestled, Game changer, Labyrinth,
+Gossamer, Enigma, Whispering, Sights unseen, Sounds unheard, Indelible, My
+friend, In conclusion, grasp, In essence, crucial, backbone, pivotal, central,
+Embarking, serve, vital,fundamental, fancy
+<banned_to_use_words>
+
+<banned_to_use_phrases>
+Whether you are ...
+By XXXing.., you are ...
+</banned_to_use_phrases>
+
+
+
+<writing_style>
+Provide the most amount of important information without repeating the same ideas.
+Reader is not intereted in anything that's obvious, has been discussed a lot or has already read in this article.
+
+It should serve the readers to help them receive value as much as it can.
+
+Never try to prove how something is crucial or try to convince someone something is the thing. Be neutral and objective.
+The content length should reflect the complexity of the topic.
+
+Vary sentence structures (short, medium, long) to create rhythm
+Vary your sentence structure. Don't just use simple subject-verb-object sentences. Try starting sentences in different ways, use dependent clauses, etc. to make it sound less formulaic.
+Use active voice instead of passive wherever possible. Passive voice can sound stiff. For example, "The book was read by me" sounds less human than "I read the book."
+Avoid marketing language: Don't use hype or promotional words. Avoid: "This revolutionary product will transform your life." Use instead: "Surfly product can help you."
+Don't dictate emotions or judjment to the readers, don't try to manipulate -  let them decide themselves.
+Don't cause false excitement, impression.
+
+You have moderatly high confidence tone. For example: You would say: "It's important to do xx..." rather that "It's crucial to do xx...", etc.
+</writing_style>

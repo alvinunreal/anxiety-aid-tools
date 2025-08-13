@@ -6,11 +6,9 @@
         <div class="mb-6">
           <Icon name="ph:brain-fill" class="mx-auto text-6xl text-indigo-600" />
         </div>
-        <h1 class="ptitle">Thought Labeling Exercise</h1>
+        <h1 class="ptitle">{{ $t("techniques.thoughtLabeling.name") }}</h1>
         <p class="mx-auto mb-6 max-w-2xl leading-relaxed text-gray-600">
-          When anxious thoughts arise, labeling them helps create distance and reduces their
-          emotional impact. This exercise teaches you to observe thoughts without judgment and
-          categorize them constructively.
+          {{ $t("techniques.thoughtLabeling.description") }}
         </p>
 
         <!-- Benefits Preview -->

@@ -6,11 +6,9 @@
         <div class="mb-6">
           <Icon name="ph:mountains-fill" class="mx-auto text-6xl text-blue-600" />
         </div>
-        <h1 class="ptitle">Peaceful Visualization Exercise</h1>
+        <h1 class="ptitle">{{ $t("techniques.visualization.name") }}</h1>
         <p class="mx-auto mb-6 max-w-2xl leading-relaxed text-gray-600">
-          Journey to serene places in your mind through immersive 3D visualization. These guided
-          experiences help reduce anxiety by engaging your imagination in peaceful, calming
-          environments.
+          {{ $t("techniques.visualization.description") }}
         </p>
 
         <!-- Scene Selection Grid -->

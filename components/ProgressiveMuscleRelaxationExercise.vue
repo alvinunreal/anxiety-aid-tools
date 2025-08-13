@@ -6,10 +6,9 @@
         <div class="mb-6">
           <Icon name="ph:person-arms-spread-fill" class="mx-auto text-6xl text-indigo-600" />
         </div>
-        <h1 class="ptitle">Progressive Muscle Relaxation</h1>
+        <h1 class="ptitle">{{ $t("techniques.progressiveMuscleRelaxation.name") }}</h1>
         <p class="mx-auto mb-6 max-w-2xl leading-relaxed text-gray-600">
-          Systematically tense and release muscle groups throughout your body to achieve deep
-          physical and mental relaxation. This guided exercise takes you through 18 muscle groups.
+          {{ $t("techniques.progressiveMuscleRelaxation.description") }}
         </p>
 
         <button

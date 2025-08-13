@@ -10,11 +10,9 @@
           <div class="mb-6">
             <Icon name="ph:circles-four-fill" class="mx-auto text-6xl text-teal-600" />
           </div>
-          <h1 class="ptitle">Stress Relief Bubbles</h1>
+          <h1 class="ptitle">{{ $t("techniques.stressReliefBubbles.name") }}</h1>
           <p class="mx-auto mb-6 max-w-2xl leading-relaxed text-gray-600">
-            Pop bubbles to release tension and find calm through satisfying tactile interaction. The
-            repetitive popping motion helps redirect anxious energy into a soothing, mindful
-            activity.
+            {{ $t("techniques.stressReliefBubbles.description") }}
           </p>
 
           <!-- Bubble Container -->
@@ -106,7 +104,7 @@
               <span>{{ $t("stressReliefBubbles.whenToPractice.items.0") }}</span>
             </li>
             <li class="flex items-start">
-              <Icon name="ph:hand-moving" class="mr-2 mt-0.5 flex-shrink-0 text-cyan-500" />
+              <Icon name="ph:sun" class="mr-2 mt-0.5 flex-shrink-0 text-cyan-500" />
               <span>{{ $t("stressReliefBubbles.whenToPractice.items.1") }}</span>
             </li>
             <li class="flex items-start">
@@ -200,10 +198,10 @@ const popAudio = ref(null);
 const { t } = useI18n();
 
 useSeoMeta({
-  title: () => t("meta.pushPopBubbles.title"),
-  description: () => t("meta.pushPopBubbles.description"),
-  ogTitle: () => t("meta.pushPopBubbles.title"),
-  ogDescription: () => t("meta.pushPopBubbles.description"),
+  title: () => t("meta.stressReliefBubbles.title"),
+  description: () => t("meta.stressReliefBubbles.description"),
+  ogTitle: () => t("meta.stressReliefBubbles.title"),
+  ogDescription: () => t("meta.stressReliefBubbles.description"),
   ogType: "website",
   ogSiteName: "Anxiety Aid Tools",
   twitterCard: "summary_large_image",

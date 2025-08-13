@@ -1,16 +1,6 @@
 import { defineNuxtConfig } from "nuxt/config";
 
 export default defineNuxtConfig({
-  modules: [
-    "@nuxt/eslint",
-    "@nuxtjs/device",
-    "@nuxt/icon",
-    "@nuxt/image",
-    "@nuxtjs/tailwindcss",
-    "@nuxtjs/google-fonts",
-    "@nuxtjs/seo",
-    "@nuxtjs/i18n",
-  ],
   ssr: true,
   devtools: { enabled: true },
 
@@ -21,13 +11,31 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    preset: 'cloudflare-pages',
+    preset: "cloudflare_pages",
+    cloudflare: {
+      deployConfig: true,
+      nodeCompat: true,
+    },
     compressPublicAssets: true,
     logLevel: 4,
     prerender: {
-      autoSubfolderIndex: false
+      autoSubfolderIndex: false,
+      crawlLinks: true,
+      failOnError: false,
+      routes: ['/']
     }
   },
+
+  modules: [
+    "@nuxt/eslint",
+    "@nuxtjs/device",
+    "@nuxt/icon",
+    "@nuxt/image",
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/google-fonts",
+    "@nuxtjs/seo",
+    "@nuxtjs/i18n",
+  ],
 
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.css",
@@ -52,9 +60,30 @@ export default defineNuxtConfig({
   },
 
   image: {
-    provider: "ipx", // change to e.g 'vercel' if hosted on vercel
+    provider: process.env.NODE_ENV === 'production' ? 'ipxStatic' : 'ipx',
     quality: 80,
-    format: ["png", "jpeg", "webp"],
+    format: ["webp"],
+    domains: [],
+    dir: 'public',
+    screens: {
+      xs: 320,
+      sm: 640,
+      md: 768,
+      lg: 1024,
+      xl: 1280,
+      xxl: 1536
+    },
+    densities: [1, 2],
+    presets: {
+      blog: {
+        modifiers: {
+          format: 'webp',
+          quality: 80,
+          width: 800,
+          height: 450
+        }
+      }
+    }
   },
 
   googleFonts: {

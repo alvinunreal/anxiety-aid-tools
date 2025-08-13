@@ -6,11 +6,9 @@
         <div class="mb-6">
           <Icon name="ph:circles-three-fill" class="mx-auto text-6xl text-blue-600" />
         </div>
-        <h1 class="ptitle">Guided Breathing Exercise</h1>
+        <h1 class="ptitle">{{ $t("techniques.guidedBreathing.name") }}</h1>
         <p class="mx-auto mb-6 max-w-2xl leading-relaxed text-gray-600">
-          Select from proven breathing patterns designed for different needs and situations. These
-          guided techniques help regulate your nervous system and reduce anxiety through structured
-          breathing patterns.
+          {{ $t("techniques.guidedBreathing.description") }}
         </p>
 
         <!-- Technique Selection Grid -->

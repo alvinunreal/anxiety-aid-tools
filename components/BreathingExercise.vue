@@ -6,9 +6,9 @@
         <div class="mb-6">
           <Icon name="ph:wind-fill" class="mx-auto text-6xl text-cyan-600" />
         </div>
-        <h1 class="ptitle">{{ $t("breathing.title") }}</h1>
+        <h1 class="ptitle">{{ $t("techniques.breathing.name") }}</h1>
         <p class="mx-auto mb-6 max-w-2xl leading-relaxed text-gray-600">
-          {{ $t("breathing.description") }}
+          {{ $t("techniques.breathing.description") }}
         </p>
 
         <!-- Benefits Preview -->

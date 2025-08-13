@@ -2,42 +2,50 @@
   "techniques": {
     "breathing": {
       "name": "2-Minute Breathing",
-      "description": "Quick breathing exercises to help you feel calmer and more centered",
+      "short_description": "Simple breathing exercises that calm your nervous system and reduce anxiety in just minutes",
+      "description": "When anxiety strikes, your breathing becomes shallow and rapid. This technique teaches you simple breathing patterns that activate your body's natural relaxation response. By focusing on slow, controlled breaths, you can quickly calm your nervous system and regain control over anxious feelings.",
       "duration": "2-3 min"
     },
     "grounding": {
       "name": "5-4-3-2-1 Grounding",
-      "description": "Notice 5 things you see, 4 you can touch, 3 you hear, 2 you smell, 1 you taste to reconnect with the present",
+      "short_description": "A sensory technique that pulls you out of anxious thoughts by focusing on what's around you right now",
+      "description": "This powerful grounding technique uses your five senses to anchor you in the present moment. By systematically noticing 5 things you can see, 4 you can touch, 3 you can hear, 2 you can smell, and 1 you can taste, you interrupt the cycle of anxious thoughts and reconnect with your immediate environment.",
       "duration": "3-5 min"
     },
     "guidedBreathing": {
       "name": "Guided Breathing",
-      "description": "Follow along with breathing patterns designed to reduce stress and anxiety",
+      "short_description": "Step-by-step breathing patterns to slow your heart rate and ease tension",
+      "description": "Follow structured breathing exercises designed to regulate your autonomic nervous system. These visual guides help you maintain proper timing and rhythm, making it easier to achieve the deep relaxation state that comes from controlled breathing practice.",
       "duration": "5-10 min"
     },
     "progressiveMuscleRelaxation": {
       "name": "Progressive Muscle Relaxation",
-      "description": "Tense and release different muscle groups to melt away physical stress",
+      "short_description": "Release physical tension by systematically tightening and relaxing muscle groups throughout your body",
+      "description": "Anxiety often creates physical tension that you might not even notice. This technique teaches you to systematically tense and then release different muscle groups, helping you become aware of physical stress and learn to let it go. The contrast between tension and relaxation helps your body reach a deeper state of calm.",
       "duration": "8-12 min"
     },
     "peacefulVisualization": {
       "name": "Peaceful Visualization",
-      "description": "Imagine yourself in calm, soothing places to quiet your mind",
+      "short_description": "Guided mental imagery that transports you to calming environments to reduce stress and worry",
+      "description": "Your mind has the power to create vivid, calming experiences through visualization. This technique guides you through peaceful scenarios and serene environments, helping your brain shift away from anxious thoughts and into a state of tranquility. Regular practice can help you access this calm state more easily when you need it.",
       "duration": "10-12 min"
     },
     "thoughtLabeling": {
       "name": "Thought Labeling",
-      "description": "Learn to observe anxious thoughts without getting caught up in them",
+      "short_description": "A mindfulness technique that helps you recognize anxious thoughts as temporary mental events, not facts",
+      "description": "Anxious thoughts can feel overwhelming when you treat them as absolute truths. This mindfulness practice teaches you to observe your thoughts with curiosity rather than judgment. By learning to label thoughts as 'thinking,' 'worrying,' or 'planning,' you create distance between yourself and your anxious mind, reducing their emotional impact.",
       "duration": "5-15 min"
     },
     "stressReliefBubbles": {
       "name": "Stress Relief Bubbles",
-      "description": "Pop virtual bubbles to distract your mind and release nervous energy",
+      "short_description": "Interactive bubble-popping activity that redirects anxious energy into playful, repetitive motion",
+      "description": "Sometimes the best way to deal with anxiety is through gentle distraction and play. This interactive activity provides a simple, repetitive action that helps redirect nervous energy while giving your mind a break from anxious thoughts. The satisfying pop of virtual bubbles can help reset your mood and provide quick relief.",
       "duration": "2-5 min"
     },
     "soundTherapy": {
       "name": "Sound Therapy",
-      "description": "Calming sounds and frequencies to help your mind and body relax",
+      "short_description": "Healing frequencies that promote relaxation and mental clarity",
+      "description": "Specific sound frequencies have been shown to influence brainwave patterns and promote relaxation. These carefully selected healing frequencies help quiet mental chatter and guide your brain into more peaceful states. Use this therapy to create a calming environment that supports deep relaxation and stress relief.",
       "duration": "5-30 min"
     }
   }
