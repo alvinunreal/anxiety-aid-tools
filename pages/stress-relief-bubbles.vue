@@ -2,9 +2,7 @@
   <div class="min-h-screen bg-gradient-to-br from-teal-50 via-cyan-50 to-blue-50 py-8">
     <Breadcrumb duration="2-5 min" />
 
-    <!-- Exercise Component -->
     <section class="sektion">
-      <!-- Pre-Exercise State -->
       <div class="text-center">
         <div class="mb-8">
           <div class="mb-6">
@@ -15,9 +13,7 @@
             {{ $t("techniques.stressReliefBubbles.description") }}
           </p>
 
-          <!-- Bubble Container -->
           <div class="mb-8 flex flex-col items-center justify-center">
-            <!-- Bubble Grid -->
             <div class="mb-6 border border-gray-200 bg-white p-6 md:p-8">
               <div class="bubble-container">
                 <div class="bubble-grid">
@@ -26,16 +22,15 @@
                     :key="bubble.id"
                     class="bubble"
                     :class="{ popped: bubble.isPopped }"
-                    @mousedown="popBubble(bubble.id)"
+                    @touchstart.prevent="popBubble(bubble.id)"
                   ></div>
                 </div>
               </div>
             </div>
 
-            <!-- Reset Button -->
             <button
               @click="resetBubbles"
-              class="mx-auto flex items-center gap-2 bg-teal-600 px-8 py-4 text-lg font-medium text-white transition-colors duration-100 hover:bg-teal-700"
+              class="mx-auto flex items-center gap-2 rounded-md bg-teal-600 px-8 py-4 text-lg font-medium text-white shadow-md transition-colors duration-100 hover:bg-teal-700 active:shadow-sm"
             >
               <Icon name="ph:arrow-clockwise" class="text-xl" />
               <span>Reset Bubbles</span>
@@ -45,44 +40,41 @@
       </div>
     </section>
 
-    <!-- Educational Content -->
     <section class="mt-12 space-y-8">
-      <!-- How It Works -->
-      <div class="border border-gray-200 bg-white/60 p-6">
+      <div class="rounded-md border border-gray-200 bg-white/60 p-6 shadow-sm">
         <SectionHeader icon="ph:hand-pointing" color="gray">
           {{ $t("stressReliefBubbles.howItWorks.title") }}
         </SectionHeader>
         <p class="text-sm leading-relaxed text-gray-700">{{ $t("stressReliefBubbles.howItWorks.description") }}</p>
       </div>
 
-      <!-- Scientific Background -->
-      <div class="border border-gray-200 bg-white/60 p-6">
+      <div class="rounded-md border border-gray-200 bg-white/60 p-6 shadow-sm">
         <SectionHeader icon="ph:flask" color="purple">
           {{ $t("stressReliefBubbles.science.title") }}
         </SectionHeader>
-        
+
         <div class="mb-4">
           <p class="text-sm leading-relaxed text-gray-700">{{ $t("stressReliefBubbles.science.description") }}</p>
         </div>
 
         <div class="grid gap-4 md:grid-cols-3">
-          <div class="border border-purple-200 bg-purple-50 p-4">
+          <div class="rounded-md border border-purple-200 bg-purple-50 p-4">
             <div class="mb-2 flex items-center">
               <Icon name="ph:waves" class="mr-2 text-purple-600" />
               <span class="text-sm font-medium text-gray-800">{{ $t("stressReliefBubbles.science.research.sensory.title") }}</span>
             </div>
             <p class="text-xs text-gray-600">{{ $t("stressReliefBubbles.science.research.sensory.description") }}</p>
           </div>
-          
-          <div class="border border-purple-200 bg-purple-50 p-4">
+
+          <div class="rounded-md border border-purple-200 bg-purple-50 p-4">
             <div class="mb-2 flex items-center">
               <Icon name="ph:eye" class="mr-2 text-purple-600" />
               <span class="text-sm font-medium text-gray-800">{{ $t("stressReliefBubbles.science.research.attention.title") }}</span>
             </div>
             <p class="text-xs text-gray-600">{{ $t("stressReliefBubbles.science.research.attention.description") }}</p>
           </div>
-          
-          <div class="border border-purple-200 bg-purple-50 p-4">
+
+          <div class="rounded-md border border-purple-200 bg-purple-50 p-4">
             <div class="mb-2 flex items-center">
               <Icon name="ph:hand" class="mr-2 text-purple-600" />
               <span class="text-sm font-medium text-gray-800">{{ $t("stressReliefBubbles.science.research.motor.title") }}</span>
@@ -93,8 +85,7 @@
       </div>
 
       <div class="grid gap-8 md:grid-cols-2">
-        <!-- When to Use -->
-        <div class="border border-gray-200 bg-white/60 p-6">
+        <div class="rounded-md border border-gray-200 bg-white/60 p-6 shadow-sm">
           <SectionHeader icon="ph:calendar-check" color="blue">
             {{ $t("stressReliefBubbles.whenToPractice.title") }}
           </SectionHeader>
@@ -118,8 +109,7 @@
           </ul>
         </div>
 
-        <!-- What You'll Experience -->
-        <div class="border border-gray-200 bg-white/60 p-6">
+        <div class="rounded-md border border-gray-200 bg-white/60 p-6 shadow-sm">
           <SectionHeader icon="ph:trend-up" color="green">
             {{ $t("stressReliefBubbles.whatYoullNotice.title") }}
           </SectionHeader>
@@ -144,8 +134,7 @@
         </div>
       </div>
 
-      <!-- Tips Section -->
-      <div class="border border-indigo-200 bg-indigo-50 p-6">
+      <div class="rounded-md border border-indigo-200 bg-indigo-50 p-6 shadow-sm">
         <div class="mb-4 text-center">
           <Icon name="ph:lightbulb" class="mx-auto mb-2 text-2xl text-indigo-600" />
           <h2 class="font-semibold text-gray-800">{{ $t("stressReliefBubbles.tips.title") }}</h2>
@@ -166,11 +155,9 @@
         </div>
       </div>
 
-      <!-- Related Techniques -->
       <RelatedTechniques current-technique-id="stress-relief-bubbles" />
     </section>
 
-    <!-- Audio Elements -->
     <audio ref="popAudio" preload="auto">
       <source
         src="/d/pop.mp3"
@@ -181,10 +168,11 @@
 </template>
 
 <script setup>
+import { ref, onMounted } from "vue"; // <-- 1. IMPORT onMounted
+
 const totalBubbles = 64;
 const isResetting = ref(false);
 
-// Initialize bubbles
 const bubbles = ref([]);
 for (let i = 1; i <= totalBubbles; i++) {
   bubbles.value.push({
@@ -205,6 +193,25 @@ useSeoMeta({
   ogType: "website",
   ogSiteName: "Anxiety Aid Tools",
   twitterCard: "summary_large_image",
+});
+
+// 2. ADD onMounted HOOK TO WARM UP AUDIO
+onMounted(() => {
+  const warmUpAudio = () => {
+    // Play a tiny, silent sound to wake the audio hardware on iOS
+    const silentAudio = new Audio(
+      "data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA"
+    );
+    silentAudio.play().catch(() => {});
+
+    // Explicitly load your main audio file so it's ready to play instantly
+    if (popAudio.value) {
+      popAudio.value.load();
+    }
+  };
+
+  // Run the warm-up function only ONCE on the first user touch
+  window.addEventListener('touchstart', warmUpAudio, { once: true });
 });
 
 const getBubble = (id) => {
@@ -233,7 +240,10 @@ const resetBubbles = () => {
 const playPopSound = () => {
   if (popAudio.value) {
     popAudio.value.currentTime = 0;
-    popAudio.value.play().catch(() => {});
+    popAudio.value.play().catch((e) => {
+      // Catching potential errors is good practice, especially with audio
+      console.warn("Audio play failed. User interaction might be required.", e);
+    });
   }
 };
 </script>
@@ -266,37 +276,25 @@ const playPopSound = () => {
   border: 2px solid #55b9f3;
   border-radius: 50%;
   cursor: pointer;
-  transition: transform 0.1s ease-out;
+  transition:
+    transform 0.1s ease-out,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
   box-shadow: 2px 2px 0px #306989;
+  -webkit-tap-highlight-color: transparent; /* Disable the gray tap highlight on iOS */
 }
 
 .bubble:active:not(.popped) {
-  transform: scale(2.5);
+  transform: scale(1.15); /* Slightly reduced scale for a snappier feel */
 }
 
 .bubble.popped {
   background: linear-gradient(145deg, rgba(105, 150, 197, 0.49), rgba(101, 220, 255, 0.49));
   box-shadow:
-    inset 4px 4px 0px #4da8dd,
-    inset -4px -4px 0px rgba(147, 202, 255, 0.49);
+    inset 2px 2px 0px #4da8dd,
+    inset -2px -2px 0px rgba(147, 202, 255, 0.49);
   pointer-events: none;
   cursor: default;
-}
-
-.animate-flip {
-  animation: flip 0.4s ease-in-out;
-}
-
-@keyframes flip {
-  0% {
-    transform: scale(1) rotateY(0);
-  }
-  50% {
-    transform: scale(1.2) rotateY(-90deg);
-  }
-  100% {
-    transform: scale(1) rotateY(-180deg);
-  }
 }
 
 @media (max-width: 640px) {

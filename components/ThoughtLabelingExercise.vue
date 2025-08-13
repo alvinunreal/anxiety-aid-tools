@@ -185,8 +185,15 @@
                       {{ label.description }}
                     </p>
                   </div>
-                  <div v-if="selectedLabels.includes(label.id)" class="flex-shrink-0">
-                    <Icon name="ph:check-circle-fill" :class="`text-${label.color}-500`" />
+                  <div class="flex-shrink-0">
+                    <Icon 
+                      name="ph:check-circle-fill" 
+                      :class="[
+                        selectedLabels.includes(label.id) 
+                          ? `text-${label.color}-500 opacity-100` 
+                          : 'opacity-0'
+                      ]" 
+                    />
                   </div>
                 </div>
               </div>
@@ -480,6 +487,14 @@ const saveThought = () => {
     });
 
     clearCurrentThought();
+    
+    // Scroll to exercise header
+    nextTick(() => {
+      exerciseSection.value?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    });
   }
 };
 
