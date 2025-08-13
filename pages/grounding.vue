@@ -21,8 +21,8 @@
               amygdala—your brain's alarm system.
             </p>
             <p class="text-sm leading-relaxed text-gray-700">
-              By systematically using your five senses, you activate present-moment awareness and
-              break the cycle of anxious thinking patterns.
+              When you systematically use your five senses, it activates present-moment awareness and
+              breaks the cycle of anxious thinking patterns.
             </p>
           </div>
           <div>
