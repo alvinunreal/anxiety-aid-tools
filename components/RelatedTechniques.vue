@@ -21,7 +21,7 @@
           <Icon name="ph:arrow-right" class="text-sm text-gray-500" />
         </div>
         <p class="text-sm text-gray-600">
-          {{ $t(`techniques.${technique.id}.description`) }}
+          {{ $t(`techniques.${technique.id}.short_description`) }}
         </p>
       </NuxtLink>
     </div>
