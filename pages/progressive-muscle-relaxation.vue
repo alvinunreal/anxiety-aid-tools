@@ -17,15 +17,8 @@
             <p class="mb-3 text-sm leading-relaxed text-gray-700">
               Progressive Muscle Relaxation (PMR) works by teaching your body to recognize the
               difference between tension and relaxation. When you deliberately tense a muscle group
-              for 5 seconds and then release it, you activate the
-              <a
-                href="https://www.healthline.com/health/muscle-relaxation-technique"
-                class="text-indigo-600 underline hover:text-indigo-700"
-                target="_blank"
-                rel="noopener"
-                >relaxation response</a
-              >, which is the opposite of the stress response that contributes to anxiety and
-              physical tension.
+              for 5 seconds and then release it, you activate the relaxation response, which is the
+              opposite of the stress response that contributes to anxiety and physical tension.
             </p>
             <p class="mb-3 text-sm leading-relaxed text-gray-700">
               This technique leverages a natural physiological principle: after a muscle contracts

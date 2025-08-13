@@ -38,7 +38,7 @@
       />
 
       <!-- Main Exercise Area -->
-      <div class="border border-gray-200 bg-white/60 p-8">
+      <div class="border border-gray-200 bg-white p-6 md:p-8">
         <div class="flex flex-col items-center">
           <!-- Large Visual State -->
           <div

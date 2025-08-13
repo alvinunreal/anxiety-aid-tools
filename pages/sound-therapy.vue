@@ -16,7 +16,7 @@
           </p>
 
           <!-- Main Control Panel -->
-          <div class="mb-6 border border-gray-200 bg-white/60 p-8">
+          <div class="mb-6 border border-gray-200 bg-white p-6 md:p-8">
             <!-- Frequency Selection -->
             <div class="mb-8">
               <h4 class="mb-6 text-xl font-medium text-gray-900">Frequency</h4>

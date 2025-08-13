@@ -18,7 +18,7 @@
           <!-- Bubble Container -->
           <div class="mb-8 flex flex-col items-center justify-center">
             <!-- Bubble Grid -->
-            <div class="mb-6 border border-gray-200 bg-white/60 p-8">
+            <div class="mb-6 border border-gray-200 bg-white p-6 md:p-8">
               <div class="bubble-container">
                 <div class="bubble-grid">
                   <div
