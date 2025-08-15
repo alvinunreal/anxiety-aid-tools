@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-indigo-50 via-purple-50 to-blue-50 py-8">
+  <div class="min-h-screen bg-gradient-to-br from-indigo-50 via-purple-50 to-blue-50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-700 py-8 transition-colors duration-300">
     <Breadcrumb duration="2-3 min" />
 
     <!-- Exercise Component -->
@@ -8,30 +8,30 @@
     <!-- Educational Content -->
     <section>
       <!-- What happens in your body -->
-      <div class="border border-gray-200 bg-white/60 p-6">
+      <div class="border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-800/60 p-6 transition-colors duration-200">
         <div>
           <SectionHeader icon="ph:brain" color="gray">
             {{ $t("breathing.education.whatHappens.title") }}
           </SectionHeader>
           <div class="px-1">
-            <p class="mb-3 text-sm leading-relaxed text-gray-700">
+            <p class="mb-3 text-sm leading-relaxed text-gray-700 dark:text-slate-300">
               {{ $t("breathing.education.whatHappens.description") }}
             </p>
-            <p class="mb-3 text-sm leading-relaxed text-gray-700">
+            <p class="mb-3 text-sm leading-relaxed text-gray-700 dark:text-slate-300">
               {{ $t("breathing.education.whatHappens.benefits") }}
             </p>
-            <p class="mb-3 text-sm leading-relaxed text-gray-700">
+            <p class="mb-3 text-sm leading-relaxed text-gray-700 dark:text-slate-300">
               {{ $t("breathing.education.whatHappens.practice") }}
             </p>
             <div class="mt-4 grid gap-4 md:grid-cols-2">
-              <div class="border border-gray-200 bg-white/60 p-3">
+              <div class="border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-700/40 p-3 transition-colors duration-200">
                 <div class="mb-1 flex items-center">
-                  <Icon name="ph:arrow-down" class="mr-2 text-cyan-600" />
-                  <span class="text-xs font-medium text-gray-800">{{
+                  <Icon name="ph:arrow-down" class="mr-2 text-cyan-600 dark:text-cyan-400" />
+                  <span class="text-xs font-medium text-gray-800 dark:text-slate-100">{{
                     $t("breathing.education.inhale.title")
                   }}</span>
                 </div>
-                <p class="text-xs text-gray-600">
+                <p class="text-xs text-gray-600 dark:text-slate-400">
                   {{ $t("breathing.education.inhale.description") }}
                 </p>
               </div>
@@ -42,7 +42,7 @@
                     $t("breathing.education.exhale.title")
                   }}</span>
                 </div>
-                <p class="text-xs text-gray-600">
+                <p class="text-xs text-gray-600 dark:text-slate-400">
                   {{ $t("breathing.education.exhale.description") }}
                 </p>
               </div>
@@ -54,22 +54,22 @@
 
     <!-- Scientific Background -->
     <section>
-      <div class="border border-gray-200 bg-white/60 p-6">
+      <div class="border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-800/60 p-6 transition-colors duration-200">
         <SectionHeader icon="ph:flask" color="purple">
           {{ $t("breathing.education.science.title") }}
         </SectionHeader>
         
         <div class="mb-4">
-          <p class="text-sm leading-relaxed text-gray-700" v-html="$t('breathing.education.science.description')"></p>
+          <p class="text-sm leading-relaxed text-gray-700 dark:text-slate-300" v-html="$t('breathing.education.science.description')"></p>
         </div>
 
         <div class="grid gap-4 md:grid-cols-3">
-          <div class="border border-purple-200 bg-purple-50 p-4">
+          <div class="border border-purple-200 dark:border-purple-600 bg-purple-50 dark:bg-purple-900/20 p-4 transition-colors duration-200">
             <div class="mb-2 flex items-center">
-              <Icon name="ph:drop" class="mr-2 text-purple-600" />
-              <span class="text-sm font-medium text-gray-800">{{ $t("breathing.education.science.research.cortisol.title") }}</span>
+              <Icon name="ph:drop" class="mr-2 text-purple-600 dark:text-purple-400" />
+              <span class="text-sm font-medium text-gray-800 dark:text-slate-100">{{ $t("breathing.education.science.research.cortisol.title") }}</span>
             </div>
-            <p class="text-xs text-gray-600" v-html="$t('breathing.education.science.research.cortisol.description')"></p>
+            <p class="text-xs text-gray-600 dark:text-slate-300" v-html="$t('breathing.education.science.research.cortisol.description')"></p>
           </div>
           
           <div class="border border-purple-200 bg-purple-50 p-4">
@@ -94,11 +94,11 @@
     <section>
       <div class="grid gap-8 md:grid-cols-2">
         <!-- When to Use -->
-        <div class="border border-gray-200 bg-white/60 p-6">
+        <div class="border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-800/60 p-6 transition-colors duration-200">
           <SectionHeader icon="ph:calendar-check" color="blue">
             {{ $t("breathing.education.whenToPractice.title") }}
           </SectionHeader>
-          <ul class="space-y-3 text-sm text-gray-700">
+          <ul class="space-y-3 text-sm text-gray-700 dark:text-slate-300">
             <li class="flex items-start">
               <Icon name="ph:sun" class="mr-2 mt-0.5 flex-shrink-0 text-yellow-500" />
               <span>{{ $t("breathing.education.whenToPractice.items.0") }}</span>
@@ -119,11 +119,11 @@
         </div>
 
         <!-- What You'll Experience -->
-        <div class="border border-gray-200 bg-white/60 p-6">
+        <div class="border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-800/60 p-6 transition-colors duration-200">
           <SectionHeader icon="ph:trend-up" color="green">
             {{ $t("breathing.education.whatYoullNotice.title") }}
           </SectionHeader>
-          <ul class="space-y-3 text-sm text-gray-700">
+          <ul class="space-y-3 text-sm text-gray-700 dark:text-slate-300">
             <li class="flex items-start">
               <Icon name="ph:timer-fill" class="mr-2 mt-0.5 flex-shrink-0 text-blue-400" />
               <span>{{ $t("breathing.education.whatYoullNotice.items.0") }}</span>
@@ -147,35 +147,35 @@
 
     <!-- Tips Section -->
     <section>
-      <div class="border border-indigo-200 bg-indigo-50 p-6">
+      <div class="border border-indigo-200 dark:border-indigo-600 bg-indigo-50 dark:bg-indigo-900/20 p-6 transition-colors duration-200">
         <div class="mb-4 text-center">
-          <Icon name="ph:lightbulb" class="mx-auto mb-2 text-2xl text-indigo-600" />
-          <h2 class="font-semibold text-gray-800">
+          <Icon name="ph:lightbulb" class="mx-auto mb-2 text-2xl text-indigo-600 dark:text-indigo-400" />
+          <h2 class="font-semibold text-gray-800 dark:text-slate-100">
             {{ $t("breathing.education.bestResults.title") }}
           </h2>
         </div>
         <div class="grid gap-4 text-sm md:grid-cols-3">
           <div class="text-center">
-            <div class="mb-1 font-medium text-indigo-600">
+            <div class="mb-1 font-medium text-indigo-600 dark:text-indigo-400">
               {{ $t("breathing.education.bestResults.posture.title") }}
             </div>
-            <p class="text-gray-600">
+            <p class="text-gray-600 dark:text-slate-300">
               {{ $t("breathing.education.bestResults.posture.description") }}
             </p>
           </div>
           <div class="text-center">
-            <div class="mb-1 font-medium text-indigo-600">
+            <div class="mb-1 font-medium text-indigo-600 dark:text-indigo-400">
               {{ $t("breathing.education.bestResults.environment.title") }}
             </div>
-            <p class="text-gray-600">
+            <p class="text-gray-600 dark:text-slate-300">
               {{ $t("breathing.education.bestResults.environment.description") }}
             </p>
           </div>
           <div class="text-center">
-            <div class="mb-1 font-medium text-indigo-600">
+            <div class="mb-1 font-medium text-indigo-600 dark:text-indigo-400">
               {{ $t("breathing.education.bestResults.consistency.title") }}
             </div>
-            <p class="text-gray-600">
+            <p class="text-gray-600 dark:text-slate-300">
               {{ $t("breathing.education.bestResults.consistency.description") }}
             </p>
           </div>

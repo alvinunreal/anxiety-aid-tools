@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 py-8">
+  <div class="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-700 py-8 transition-colors duration-300">
     <Breadcrumb duration="3-5 min" />
 
     <!-- Exercise Component -->
@@ -8,68 +8,68 @@
     <section>
       <!-- Technique Overview -->
       <div class="mb-6 grid gap-6 md:grid-cols-2">
-        <div class="border border-blue-200 bg-blue-50 p-6">
+        <div class="border border-blue-200 dark:border-blue-600 bg-blue-50 dark:bg-blue-900/20 p-6 transition-colors duration-200">
           <div>
             <div class="flex items-center justify-start gap-2 mb-2">
-              <Icon name="ph:squares-four" class="flex-shrink-0 text-2xl text-blue-600" />
-              <h2 class="font-semibold text-gray-800">{{ $t("guidedBreathing.techniquesOverview.boxBreathing.title") }}</h2>
+              <Icon name="ph:squares-four" class="flex-shrink-0 text-2xl text-blue-600 dark:text-blue-400" />
+              <h2 class="font-semibold text-gray-800 dark:text-slate-100">{{ $t("guidedBreathing.techniquesOverview.boxBreathing.title") }}</h2>
             </div>
             <div class="px-1">
-              <p class="mb-3 text-sm leading-relaxed text-gray-700">
+              <p class="mb-3 text-sm leading-relaxed text-gray-700 dark:text-slate-300">
                 {{ $t("guidedBreathing.techniquesOverview.boxBreathing.description") }}
               </p>
-              <div class="text-xs font-medium text-blue-600">
+              <div class="text-xs font-medium text-blue-600 dark:text-blue-400">
                 {{ $t("guidedBreathing.techniquesOverview.boxBreathing.bestFor") }}
               </div>
             </div>
           </div>
         </div>
 
-        <div class="border border-purple-200 bg-purple-50 p-6">
+        <div class="border border-purple-200 dark:border-purple-600 bg-purple-50 dark:bg-purple-900/20 p-6 transition-colors duration-200">
           <div>
             <div class="flex items-center justify-start gap-2 mb-2">
-              <Icon name="ph:moon-stars" class="flex-shrink-0 text-2xl text-purple-600" />
-              <h2 class="font-semibold text-gray-800">{{ $t("guidedBreathing.techniquesOverview.calming.title") }}</h2>
+              <Icon name="ph:moon-stars" class="flex-shrink-0 text-2xl text-purple-600 dark:text-purple-400" />
+              <h2 class="font-semibold text-gray-800 dark:text-slate-100">{{ $t("guidedBreathing.techniquesOverview.calming.title") }}</h2>
             </div>
             <div class="px-1">
-              <p class="mb-3 text-sm leading-relaxed text-gray-700">
+              <p class="mb-3 text-sm leading-relaxed text-gray-700 dark:text-slate-300">
                 {{ $t("guidedBreathing.techniquesOverview.calming.description") }}
               </p>
-              <div class="text-xs font-medium text-purple-600">
+              <div class="text-xs font-medium text-purple-600 dark:text-purple-400">
                 {{ $t("guidedBreathing.techniquesOverview.calming.bestFor") }}
               </div>
             </div>
           </div>
         </div>
 
-        <div class="border border-green-200 bg-green-50 p-6">
+        <div class="border border-green-200 dark:border-green-600 bg-green-50 dark:bg-green-900/20 p-6 transition-colors duration-200">
           <div>
             <div class="flex items-center justify-start gap-2 mb-2">
-              <Icon name="ph:lightning" class="flex-shrink-0 text-2xl text-green-600" />
-              <h2 class="font-semibold text-gray-800">{{ $t("guidedBreathing.techniquesOverview.energizing.title") }}</h2>
+              <Icon name="ph:lightning" class="flex-shrink-0 text-2xl text-green-600 dark:text-green-400" />
+              <h2 class="font-semibold text-gray-800 dark:text-slate-100">{{ $t("guidedBreathing.techniquesOverview.energizing.title") }}</h2>
             </div>
             <div class="px-1">
-              <p class="mb-3 text-sm leading-relaxed text-gray-700">
+              <p class="mb-3 text-sm leading-relaxed text-gray-700 dark:text-slate-300">
                 {{ $t("guidedBreathing.techniquesOverview.energizing.description") }}
               </p>
-              <div class="text-xs font-medium text-green-600">
+              <div class="text-xs font-medium text-green-600 dark:text-green-400">
                 {{ $t("guidedBreathing.techniquesOverview.energizing.bestFor") }}
               </div>
             </div>
           </div>
         </div>
 
-        <div class="border border-orange-200 bg-orange-50 p-6">
+        <div class="border border-orange-200 dark:border-orange-600 bg-orange-50 dark:bg-orange-900/20 p-6 transition-colors duration-200">
           <div>
             <div class="flex items-center justify-start gap-2 mb-2">
-              <Icon name="ph:clock" class="flex-shrink-0 text-2xl text-orange-600" />
-              <h2 class="font-semibold text-gray-800">{{ $t("guidedBreathing.techniquesOverview.quickReset.title") }}</h2>
+              <Icon name="ph:clock" class="flex-shrink-0 text-2xl text-orange-600 dark:text-orange-400" />
+              <h2 class="font-semibold text-gray-800 dark:text-slate-100">{{ $t("guidedBreathing.techniquesOverview.quickReset.title") }}</h2>
             </div>
             <div class="px-1">
-              <p class="mb-3 text-sm leading-relaxed text-gray-700">
+              <p class="mb-3 text-sm leading-relaxed text-gray-700 dark:text-slate-300">
                 {{ $t("guidedBreathing.techniquesOverview.quickReset.description") }}
               </p>
-              <div class="text-xs font-medium text-orange-600">
+              <div class="text-xs font-medium text-orange-600 dark:text-orange-400">
                 {{ $t("guidedBreathing.techniquesOverview.quickReset.bestFor") }}
               </div>
             </div>
@@ -78,25 +78,25 @@
       </div>
 
       <!-- How It Works -->
-      <div class="border border-gray-200 bg-white/60 p-6">
+      <div class="border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-800/60 p-6 transition-colors duration-200">
         <div>
           <SectionHeader icon="ph:brain" color="gray">
             {{ $t("guidedBreathing.howItWorks.title") }}
           </SectionHeader>
           <div class="px-1">
-            <p class="mb-3 text-sm leading-relaxed text-gray-700">
+            <p class="mb-3 text-sm leading-relaxed text-gray-700 dark:text-slate-300">
               {{ $t("guidedBreathing.howItWorks.description1") }}
             </p>
-            <p class="mb-3 text-sm leading-relaxed text-gray-700">
+            <p class="mb-3 text-sm leading-relaxed text-gray-700 dark:text-slate-300">
               {{ $t("guidedBreathing.howItWorks.description2") }}
             </p>
             <div class="mt-4 grid gap-4 md:grid-cols-3">
-              <div class="border border-gray-200 bg-white/60 p-3">
+              <div class="border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-700/40 p-3 transition-colors duration-200">
                 <div class="mb-1 flex items-center">
-                  <Icon name="ph:target" class="mr-2 text-gray-600" />
-                  <span class="text-xs font-medium text-gray-800">{{ $t("guidedBreathing.howItWorks.focusedAttention.title") }}</span>
+                  <Icon name="ph:target" class="mr-2 text-gray-600 dark:text-slate-300" />
+                  <span class="text-xs font-medium text-gray-800 dark:text-slate-100">{{ $t("guidedBreathing.howItWorks.focusedAttention.title") }}</span>
                 </div>
-                <p class="text-xs text-gray-600">
+                <p class="text-xs text-gray-600 dark:text-slate-400">
                   {{ $t("guidedBreathing.howItWorks.focusedAttention.description") }}
                 </p>
               </div>
@@ -126,13 +126,13 @@
 
     <!-- Scientific Background -->
     <section>
-      <div class="border border-gray-200 bg-white/60 p-6">
+      <div class="border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-800/60 p-6 transition-colors duration-200">
         <SectionHeader icon="ph:flask" color="purple">
           {{ $t("guidedBreathing.science.title") }}
         </SectionHeader>
         
         <div class="mb-4">
-          <p class="text-sm leading-relaxed text-gray-700" v-html="$t('guidedBreathing.science.description')"></p>
+          <p class="text-sm leading-relaxed text-gray-700 dark:text-slate-300" v-html="$t('guidedBreathing.science.description')"></p>
         </div>
 
         <div class="grid gap-4 md:grid-cols-3">
@@ -166,11 +166,11 @@
     <section>
       <div class="grid gap-8 md:grid-cols-2">
         <!-- When to Use -->
-        <div class="border border-gray-200 bg-white/60 p-6">
+        <div class="border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-800/60 p-6 transition-colors duration-200">
           <SectionHeader icon="ph:calendar-check" color="blue">
             {{ $t("guidedBreathing.whenToPractice.title") }}
           </SectionHeader>
-          <ul class="space-y-3 text-sm text-gray-700">
+          <ul class="space-y-3 text-sm text-gray-700 dark:text-slate-300">
             <li class="flex items-start">
               <Icon name="ph:sun" class="mr-2 mt-0.5 flex-shrink-0 text-yellow-500" />
               <span>{{ $t("guidedBreathing.whenToPractice.items.0") }}</span>
@@ -191,11 +191,11 @@
         </div>
 
         <!-- What You'll Experience -->
-        <div class="border border-gray-200 bg-white/60 p-6">
+        <div class="border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-800/60 p-6 transition-colors duration-200">
           <SectionHeader icon="ph:trend-up" color="green">
             {{ $t("guidedBreathing.whatYoullNotice.title") }}
           </SectionHeader>
-          <ul class="space-y-3 text-sm text-gray-700">
+          <ul class="space-y-3 text-sm text-gray-700 dark:text-slate-300">
             <li class="flex items-start">
               <Icon name="ph:timer-fill" class="mr-2 mt-0.5 flex-shrink-0 text-blue-400" />
               <span>{{ $t("guidedBreathing.whatYoullNotice.items.0") }}</span>
@@ -219,27 +219,27 @@
 
     <!-- Tips Section -->
     <section>
-      <div class="border border-indigo-200 bg-indigo-50 p-6">
+      <div class="border border-indigo-200 dark:border-indigo-600 bg-indigo-50 dark:bg-indigo-900/20 p-6 transition-colors duration-200">
         <div class="mb-4 text-center">
-          <Icon name="ph:lightbulb" class="mx-auto mb-2 text-2xl text-indigo-600" />
-          <h2 class="font-semibold text-gray-800">{{ $t("guidedBreathing.tips.title") }}</h2>
+          <Icon name="ph:lightbulb" class="mx-auto mb-2 text-2xl text-indigo-600 dark:text-indigo-400" />
+          <h2 class="font-semibold text-gray-800 dark:text-slate-100">{{ $t("guidedBreathing.tips.title") }}</h2>
         </div>
         <div class="grid gap-4 text-sm md:grid-cols-3">
           <div class="text-center">
-            <div class="mb-1 font-medium text-indigo-600">{{ $t("guidedBreathing.tips.posture.title") }}</div>
-            <p class="text-gray-600">
+            <div class="mb-1 font-medium text-indigo-600 dark:text-indigo-400">{{ $t("guidedBreathing.tips.posture.title") }}</div>
+            <p class="text-gray-600 dark:text-slate-300">
               {{ $t("guidedBreathing.tips.posture.description") }}
             </p>
           </div>
           <div class="text-center">
-            <div class="mb-1 font-medium text-indigo-600">{{ $t("guidedBreathing.tips.environment.title") }}</div>
-            <p class="text-gray-600">
+            <div class="mb-1 font-medium text-indigo-600 dark:text-indigo-400">{{ $t("guidedBreathing.tips.environment.title") }}</div>
+            <p class="text-gray-600 dark:text-slate-300">
               {{ $t("guidedBreathing.tips.environment.description") }}
             </p>
           </div>
           <div class="text-center">
-            <div class="mb-1 font-medium text-indigo-600">{{ $t("guidedBreathing.tips.consistency.title") }}</div>
-            <p class="text-gray-600">
+            <div class="mb-1 font-medium text-indigo-600 dark:text-indigo-400">{{ $t("guidedBreathing.tips.consistency.title") }}</div>
+            <p class="text-gray-600 dark:text-slate-300">
               {{ $t("guidedBreathing.tips.consistency.description") }}
             </p>
           </div>

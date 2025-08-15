@@ -13,32 +13,32 @@
 
         <!-- Benefits Preview -->
         <div class="mx-auto mb-8 grid max-w-3xl gap-4 md:grid-cols-3">
-          <div class="border border-cyan-100 bg-white p-4">
-            <Icon name="ph:heart-fill" class="mx-auto mb-2 text-2xl text-cyan-600" />
-            <p class="mb-1 font-semibold text-gray-800">
+          <div class="border border-cyan-100 dark:border-cyan-600 bg-white dark:bg-slate-800 p-4 transition-colors duration-200">
+            <Icon name="ph:heart-fill" class="mx-auto mb-2 text-2xl text-cyan-600 dark:text-cyan-400" />
+            <p class="mb-1 font-semibold text-gray-800 dark:text-slate-100">
               {{ $t("breathing.benefits.calm.title") }}
             </p>
-            <p class="text-sm text-gray-600">{{ $t("breathing.benefits.calm.description") }}</p>
+            <p class="text-sm text-gray-600 dark:text-slate-300">{{ $t("breathing.benefits.calm.description") }}</p>
           </div>
-          <div class="border border-blue-100 bg-white p-4">
-            <Icon name="ph:brain-fill" class="mx-auto mb-2 text-2xl text-blue-600" />
-            <p class="mb-1 font-semibold text-gray-800">
+          <div class="border border-blue-100 dark:border-blue-600 bg-white dark:bg-slate-800 p-4 transition-colors duration-200">
+            <Icon name="ph:brain-fill" class="mx-auto mb-2 text-2xl text-blue-600 dark:text-blue-400" />
+            <p class="mb-1 font-semibold text-gray-800 dark:text-slate-100">
               {{ $t("breathing.benefits.focus.title") }}
             </p>
-            <p class="text-sm text-gray-600">{{ $t("breathing.benefits.focus.description") }}</p>
+            <p class="text-sm text-gray-600 dark:text-slate-300">{{ $t("breathing.benefits.focus.description") }}</p>
           </div>
-          <div class="border border-green-100 bg-white p-4">
-            <Icon name="ph:leaf-fill" class="mx-auto mb-2 text-2xl text-green-600" />
-            <p class="mb-1 font-semibold text-gray-800">
+          <div class="border border-green-100 dark:border-green-600 bg-white dark:bg-slate-800 p-4 transition-colors duration-200">
+            <Icon name="ph:leaf-fill" class="mx-auto mb-2 text-2xl text-green-600 dark:text-green-400" />
+            <p class="mb-1 font-semibold text-gray-800 dark:text-slate-100">
               {{ $t("breathing.benefits.relax.title") }}
             </p>
-            <p class="text-sm text-gray-600">{{ $t("breathing.benefits.relax.description") }}</p>
+            <p class="text-sm text-gray-600 dark:text-slate-300">{{ $t("breathing.benefits.relax.description") }}</p>
           </div>
         </div>
 
         <button
           @click="startExercise"
-          class="mx-auto flex items-center gap-2 bg-cyan-600 px-8 py-4 text-lg font-medium text-white transition-colors duration-100 hover:bg-cyan-700"
+          class="mx-auto flex items-center gap-2 bg-cyan-600 hover:bg-cyan-700 dark:bg-cyan-500 dark:hover:bg-cyan-600 px-8 py-4 text-lg font-medium text-white transition-colors duration-200"
         >
           <Icon name="ph:play-fill" class="text-xl" />
           <span>{{ $t("breathing.buttons.begin") }}</span>
@@ -63,7 +63,7 @@
       />
 
       <!-- Breathing Visualization -->
-      <div class="border border-gray-200 bg-white p-6 md:p-8">
+      <div class="border border-gray-200 dark:border-slate-600 bg-white dark:bg-slate-800 p-6 md:p-8 transition-colors duration-200">
         <div class="flex flex-col items-center">
           <!-- Breathing Animation -->
           <BreathingAnimation
@@ -76,14 +76,14 @@
           <!-- Breathing Guidance -->
           <div class="mb-6 text-center">
             <div class="transition-all duration-500">
-              <div class="mb-1 text-2xl font-light text-gray-700">
+              <div class="mb-1 text-2xl font-light text-gray-700 dark:text-slate-200">
                 {{
                   breathingPhase === "inhale"
                     ? $t("breathing.session.breatheIn")
                     : $t("breathing.session.breatheOut")
                 }}
               </div>
-              <div class="text-sm text-gray-400">
+              <div class="text-sm text-gray-400 dark:text-slate-500">
                 {{
                   breathingPhase === "inhale"
                     ? $t("breathing.session.fourSeconds")
@@ -98,10 +98,10 @@
             <!-- Session Progress -->
             <div class="mb-4">
               <div class="mb-2 flex items-center justify-between">
-                <span class="text-sm font-medium text-gray-700">{{
+                <span class="text-sm font-medium text-gray-700 dark:text-slate-200">{{
                   $t("breathing.session.sessionProgress")
                 }}</span>
-                <span class="text-sm text-gray-500">{{ currentBreath }}/{{ totalBreaths }}</span>
+                <span class="text-sm text-gray-500 dark:text-slate-400">{{ currentBreath }}/{{ totalBreaths }}</span>
               </div>
               <!-- Stepped progress indicator -->
               <div class="flex gap-1">
@@ -117,10 +117,10 @@
             <!-- Breath Progress -->
             <div class="mb-6">
               <div class="mb-2 flex items-center justify-between">
-                <span class="text-sm font-medium text-gray-700">{{
+                <span class="text-sm font-medium text-gray-700 dark:text-slate-200">{{
                   $t("breathing.session.currentBreath")
                 }}</span>
-                <span class="font-mono text-sm text-gray-500">{{
+                <span class="font-mono text-sm text-gray-500 dark:text-slate-400">{{
                   formatCountdown(remainingTime)
                 }}</span>
               </div>
@@ -137,7 +137,7 @@
           <div class="flex gap-3">
             <button
               @click="stopExercise"
-              class="flex items-center gap-2 bg-red-600 px-6 py-3 font-medium text-white transition-colors duration-100 hover:bg-red-700"
+              class="flex items-center gap-2 bg-red-600 hover:bg-red-700 dark:bg-red-500 dark:hover:bg-red-600 px-6 py-3 font-medium text-white transition-colors duration-200"
             >
               <Icon name="ph:stop-fill" class="text-lg" />
               <span>{{ $t("breathing.buttons.stop") }}</span>
@@ -149,12 +149,12 @@
 
     <!-- Completion State -->
     <div v-if="exerciseCompleted" class="text-center">
-      <div class="mb-8 border border-green-200 bg-green-50 p-8">
-        <Icon name="ph:check-circle-fill" class="mx-auto mb-6 text-6xl text-green-600" />
-        <h3 class="mb-4 text-3xl font-semibold text-gray-800">
+      <div class="mb-8 border border-green-200 dark:border-green-600 bg-green-50 dark:bg-green-900/20 p-8 transition-colors duration-200">
+        <Icon name="ph:check-circle-fill" class="mx-auto mb-6 text-6xl text-green-600 dark:text-green-400" />
+        <h3 class="mb-4 text-3xl font-semibold text-gray-800 dark:text-slate-100">
           {{ $t("breathing.completion.title") }}
         </h3>
-        <p class="mb-6 text-gray-600">
+        <p class="mb-6 text-gray-600 dark:text-slate-300">
           {{
             $t("breathing.completion.description", {
               count: totalBreaths,
@@ -164,24 +164,24 @@
         </p>
 
         <!-- Benefits Achieved -->
-        <div class="mb-6 flex items-center justify-center gap-6 text-sm text-gray-600">
+        <div class="mb-6 flex items-center justify-center gap-6 text-sm text-gray-600 dark:text-slate-300">
           <div class="flex items-center gap-1">
-            <Icon name="ph:heart-fill" class="text-red-500" />
+            <Icon name="ph:heart-fill" class="text-red-500 dark:text-red-400" />
             <span>{{ $t("breathing.completion.benefits.heartRate") }}</span>
           </div>
           <div class="flex items-center gap-1">
-            <Icon name="ph:brain-fill" class="text-cyan-500" />
+            <Icon name="ph:brain-fill" class="text-cyan-500 dark:text-cyan-400" />
             <span>{{ $t("breathing.completion.benefits.mind") }}</span>
           </div>
           <div class="flex items-center gap-1">
-            <Icon name="ph:wind-fill" class="text-blue-500" />
+            <Icon name="ph:wind-fill" class="text-blue-500 dark:text-blue-400" />
             <span>{{ $t("breathing.completion.benefits.breathing") }}</span>
           </div>
         </div>
 
         <button
           @click="resetExercise"
-          class="mx-auto flex items-center gap-2 bg-cyan-600 px-8 py-4 text-lg font-medium text-white transition-colors duration-100 hover:bg-cyan-700"
+          class="mx-auto flex items-center gap-2 bg-cyan-600 hover:bg-cyan-700 dark:bg-cyan-500 dark:hover:bg-cyan-600 px-8 py-4 text-lg font-medium text-white transition-colors duration-200"
         >
           <Icon name="ph:arrow-clockwise" class="text-xl" />
           <span>{{ $t("breathing.buttons.practiceAgain") }}</span>

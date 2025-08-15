@@ -22,12 +22,10 @@
   }
 }
 html {
-  @apply bg-white;
+  @apply bg-white dark:bg-slate-900;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-}
-html.dark {
-  @apply bg-slate-900;
+  transition: background-color 0.3s ease;
 }
 
 .sektion {
@@ -39,10 +37,12 @@ section {
 }
 
 .mybg {
-  @apply bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50
+  @apply bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50;
+  @apply dark:bg-gradient-to-br dark:from-slate-900 dark:via-slate-800 dark:to-slate-700;
 }
+
 .ptitle {
-  @apply text-4xl mb-6 font-semibold text-gray-800 text-center;
+  @apply text-4xl mb-6 font-semibold text-gray-800 dark:text-slate-100 text-center;
 }
 
 li::marker {

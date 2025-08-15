@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-teal-50 via-cyan-50 to-blue-50 py-8">
+  <div class="min-h-screen bg-gradient-to-br from-teal-50 via-cyan-50 to-blue-50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-700 py-8 transition-colors duration-300">
     <Breadcrumb duration="2-5 min" />
 
     <section class="sektion">
@@ -9,12 +9,12 @@
             <Icon name="ph:circles-four-fill" class="mx-auto text-6xl text-teal-600" />
           </div>
           <h1 class="ptitle">{{ $t("techniques.stressReliefBubbles.name") }}</h1>
-          <p class="mx-auto mb-6 max-w-2xl leading-relaxed text-gray-600">
+          <p class="mx-auto mb-6 max-w-2xl leading-relaxed text-gray-600 dark:text-slate-300">
             {{ $t("techniques.stressReliefBubbles.description") }}
           </p>
 
           <div class="mb-8 flex flex-col items-center justify-center">
-            <div class="mb-6 border border-gray-200 bg-white p-6 md:p-8">
+            <div class="mb-6 border border-gray-200 dark:border-slate-600 bg-white dark:bg-slate-800 p-6 md:p-8 transition-colors duration-200">
               <div class="bubble-container">
                 <div class="bubble-grid">
                   <div
@@ -31,7 +31,7 @@
 
             <button
               @click="resetBubbles"
-              class="mx-auto flex items-center gap-2 bg-teal-600 px-8 py-4 text-lg font-medium text-white shadow-md transition-colors duration-100 hover:bg-teal-700 active:shadow-sm"
+              class="mx-auto flex items-center gap-2 bg-teal-600 hover:bg-teal-700 dark:bg-teal-500 dark:hover:bg-teal-600 px-8 py-4 text-lg font-medium text-white shadow-md transition-colors duration-200 active:shadow-sm"
             >
               <Icon name="ph:arrow-clockwise" class="text-xl" />
               <span>{{ $t("stressReliefBubbles.resetButton") }}</span>
@@ -42,55 +42,55 @@
     </section>
 
     <section class="mt-12 space-y-8">
-      <div class="rounded-md border border-gray-200 bg-white/60 p-6 shadow-sm">
+      <div class="rounded-md border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-800/60 p-6 shadow-sm transition-colors duration-200">
         <SectionHeader icon="ph:hand-pointing" color="gray">
           {{ $t("stressReliefBubbles.howItWorks.title") }}
         </SectionHeader>
-        <p class="text-sm leading-relaxed text-gray-700">{{ $t("stressReliefBubbles.howItWorks.description") }}</p>
+        <p class="text-sm leading-relaxed text-gray-700 dark:text-slate-300">{{ $t("stressReliefBubbles.howItWorks.description") }}</p>
       </div>
 
-      <div class="rounded-md border border-gray-200 bg-white/60 p-6 shadow-sm">
+      <div class="rounded-md border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-800/60 p-6 shadow-sm transition-colors duration-200">
         <SectionHeader icon="ph:flask" color="purple">
           {{ $t("stressReliefBubbles.science.title") }}
         </SectionHeader>
 
         <div class="mb-4">
-          <p class="text-sm leading-relaxed text-gray-700">{{ $t("stressReliefBubbles.science.description") }}</p>
+          <p class="text-sm leading-relaxed text-gray-700 dark:text-slate-300">{{ $t("stressReliefBubbles.science.description") }}</p>
         </div>
 
         <div class="grid gap-4 md:grid-cols-3">
-          <div class="rounded-md border border-purple-200 bg-purple-50 p-4">
+          <div class="rounded-md border border-purple-200 dark:border-purple-600 bg-purple-50 dark:bg-purple-900/20 p-4 transition-colors duration-200">
             <div class="mb-2 flex items-center">
-              <Icon name="ph:waves" class="mr-2 text-purple-600" />
-              <span class="text-sm font-medium text-gray-800">{{ $t("stressReliefBubbles.science.research.sensory.title") }}</span>
+              <Icon name="ph:waves" class="mr-2 text-purple-600 dark:text-purple-400" />
+              <span class="text-sm font-medium text-gray-800 dark:text-slate-100">{{ $t("stressReliefBubbles.science.research.sensory.title") }}</span>
             </div>
-            <p class="text-xs text-gray-600">{{ $t("stressReliefBubbles.science.research.sensory.description") }}</p>
+            <p class="text-xs text-gray-600 dark:text-slate-300">{{ $t("stressReliefBubbles.science.research.sensory.description") }}</p>
           </div>
 
-          <div class="rounded-md border border-purple-200 bg-purple-50 p-4">
+          <div class="rounded-md border border-purple-200 dark:border-purple-600 bg-purple-50 dark:bg-purple-900/20 p-4 transition-colors duration-200">
             <div class="mb-2 flex items-center">
-              <Icon name="ph:eye" class="mr-2 text-purple-600" />
-              <span class="text-sm font-medium text-gray-800">{{ $t("stressReliefBubbles.science.research.attention.title") }}</span>
+              <Icon name="ph:eye" class="mr-2 text-purple-600 dark:text-purple-400" />
+              <span class="text-sm font-medium text-gray-800 dark:text-slate-100">{{ $t("stressReliefBubbles.science.research.attention.title") }}</span>
             </div>
-            <p class="text-xs text-gray-600">{{ $t("stressReliefBubbles.science.research.attention.description") }}</p>
+            <p class="text-xs text-gray-600 dark:text-slate-300">{{ $t("stressReliefBubbles.science.research.attention.description") }}</p>
           </div>
 
-          <div class="rounded-md border border-purple-200 bg-purple-50 p-4">
+          <div class="rounded-md border border-purple-200 dark:border-purple-600 bg-purple-50 dark:bg-purple-900/20 p-4 transition-colors duration-200">
             <div class="mb-2 flex items-center">
-              <Icon name="ph:hand" class="mr-2 text-purple-600" />
-              <span class="text-sm font-medium text-gray-800">{{ $t("stressReliefBubbles.science.research.motor.title") }}</span>
+              <Icon name="ph:hand" class="mr-2 text-purple-600 dark:text-purple-400" />
+              <span class="text-sm font-medium text-gray-800 dark:text-slate-100">{{ $t("stressReliefBubbles.science.research.motor.title") }}</span>
             </div>
-            <p class="text-xs text-gray-600">{{ $t("stressReliefBubbles.science.research.motor.description") }}</p>
+            <p class="text-xs text-gray-600 dark:text-slate-300">{{ $t("stressReliefBubbles.science.research.motor.description") }}</p>
           </div>
         </div>
       </div>
 
       <div class="grid gap-8 md:grid-cols-2">
-        <div class="rounded-md border border-gray-200 bg-white/60 p-6 shadow-sm">
+        <div class="rounded-md border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-800/60 p-6 shadow-sm transition-colors duration-200">
           <SectionHeader icon="ph:calendar-check" color="blue">
             {{ $t("stressReliefBubbles.whenToPractice.title") }}
           </SectionHeader>
-          <ul class="space-y-3 text-sm text-gray-700">
+          <ul class="space-y-3 text-sm text-gray-700 dark:text-slate-300">
             <li class="flex items-start">
               <Icon name="ph:lightning-slash" class="mr-2 mt-0.5 flex-shrink-0 text-teal-500" />
               <span>{{ $t("stressReliefBubbles.whenToPractice.items.0") }}</span>
@@ -110,11 +110,11 @@
           </ul>
         </div>
 
-        <div class="rounded-md border border-gray-200 bg-white/60 p-6 shadow-sm">
+        <div class="rounded-md border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-800/60 p-6 shadow-sm transition-colors duration-200">
           <SectionHeader icon="ph:trend-up" color="green">
             {{ $t("stressReliefBubbles.whatYoullNotice.title") }}
           </SectionHeader>
-          <ul class="space-y-3 text-sm text-gray-700">
+          <ul class="space-y-3 text-sm text-gray-700 dark:text-slate-300">
             <li class="flex items-start">
               <Icon name="ph:hand-peace" class="mr-2 mt-0.5 flex-shrink-0 text-teal-400" />
               <span>{{ $t("stressReliefBubbles.whatYoullNotice.items.0") }}</span>
@@ -135,23 +135,23 @@
         </div>
       </div>
 
-      <div class="rounded-md border border-indigo-200 bg-indigo-50 p-6 shadow-sm">
+      <div class="rounded-md border border-indigo-200 dark:border-indigo-600 bg-indigo-50 dark:bg-indigo-900/20 p-6 shadow-sm transition-colors duration-200">
         <div class="mb-4 text-center">
-          <Icon name="ph:lightbulb" class="mx-auto mb-2 text-2xl text-indigo-600" />
-          <h2 class="font-semibold text-gray-800">{{ $t("stressReliefBubbles.tips.title") }}</h2>
+          <Icon name="ph:lightbulb" class="mx-auto mb-2 text-2xl text-indigo-600 dark:text-indigo-400" />
+          <h2 class="font-semibold text-gray-800 dark:text-slate-100">{{ $t("stressReliefBubbles.tips.title") }}</h2>
         </div>
         <div class="grid gap-4 text-sm md:grid-cols-3">
           <div class="text-center">
-            <div class="mb-1 font-medium text-indigo-600">{{ $t("stressReliefBubbles.tips.mindful.title") }}</div>
-            <p class="text-gray-600">{{ $t("stressReliefBubbles.tips.mindful.description") }}</p>
+            <div class="mb-1 font-medium text-indigo-600 dark:text-indigo-400">{{ $t("stressReliefBubbles.tips.mindful.title") }}</div>
+            <p class="text-gray-600 dark:text-slate-300">{{ $t("stressReliefBubbles.tips.mindful.description") }}</p>
           </div>
           <div class="text-center">
-            <div class="mb-1 font-medium text-indigo-600">{{ $t("stressReliefBubbles.tips.breaks.title") }}</div>
-            <p class="text-gray-600">{{ $t("stressReliefBubbles.tips.breaks.description") }}</p>
+            <div class="mb-1 font-medium text-indigo-600 dark:text-indigo-400">{{ $t("stressReliefBubbles.tips.breaks.title") }}</div>
+            <p class="text-gray-600 dark:text-slate-300">{{ $t("stressReliefBubbles.tips.breaks.description") }}</p>
           </div>
           <div class="text-center">
-            <div class="mb-1 font-medium text-indigo-600">{{ $t("stressReliefBubbles.tips.environment.title") }}</div>
-            <p class="text-gray-600">{{ $t("stressReliefBubbles.tips.environment.description") }}</p>
+            <div class="mb-1 font-medium text-indigo-600 dark:text-indigo-400">{{ $t("stressReliefBubbles.tips.environment.title") }}</div>
+            <p class="text-gray-600 dark:text-slate-300">{{ $t("stressReliefBubbles.tips.environment.description") }}</p>
           </div>
         </div>
       </div>
