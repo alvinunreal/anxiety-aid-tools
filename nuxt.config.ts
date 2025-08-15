@@ -36,7 +36,12 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
     "@nuxtjs/i18n",
     '@sentry/nuxt/module',
+    "@nuxtjs/color-mode",
   ],
+
+  colorMode: {
+    classSuffix: "",
+  },
 
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.css",

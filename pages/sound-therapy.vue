@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-purple-50 via-indigo-50 to-blue-50 py-8">
+  <div class="min-h-screen bg-gradient-to-br from-purple-50 via-indigo-50 to-blue-50 py-8 dark:from-slate-800 dark:via-slate-900 dark:to-black">
     <Breadcrumb duration="5-20 min" />
 
     <!-- Exercise Component -->
@@ -10,16 +10,16 @@
           <div class="mb-6">
             <Icon name="ph:waveform-fill" class="mx-auto text-6xl text-purple-600" />
           </div>
-          <h1 class="ptitle">Sound Therapy & Frequency Healing</h1>
-          <p class="mx-auto mb-6 max-w-2xl leading-relaxed text-gray-600">
+          <h1 class="ptitle dark:text-gray-200">Sound Therapy & Frequency Healing</h1>
+          <p class="mx-auto mb-6 max-w-2xl leading-relaxed text-gray-600 dark:text-gray-400">
             {{ $t("soundTherapy.description") }}
           </p>
 
           <!-- Main Control Panel -->
-          <div class="mb-6 border border-gray-200 bg-white p-6 md:p-8">
+          <div class="mb-6 border border-gray-200 bg-white p-6 md:p-8 dark:bg-slate-800/20 dark:border-slate-700">
             <!-- Frequency Selection -->
             <div class="mb-8">
-              <h4 class="mb-6 text-xl font-medium text-gray-900">{{ $t("soundTherapy.interface.frequency") }}</h4>
+              <h4 class="mb-6 text-xl font-medium text-gray-900 dark:text-gray-200">{{ $t("soundTherapy.interface.frequency") }}</h4>
               <div class="grid grid-cols-2 gap-3 lg:grid-cols-4">
                 <button
                   v-for="freq in frequencies"
@@ -28,12 +28,12 @@
                   :class="[
                     'border p-4 text-left transition-all duration-200 hover:border-purple-300',
                     selectedFrequency?.value === freq.value
-                      ? 'border-purple-500 bg-purple-50'
-                      : 'border-gray-200 bg-white',
+                      ? 'border-purple-500 bg-purple-50 dark:bg-purple-900/20 dark:border-purple-500/50'
+                      : 'border-gray-200 bg-white dark:bg-slate-700/20 dark:border-slate-600',
                   ]"
                 >
-                  <div class="text-sm font-semibold text-gray-900">{{ $t(`soundTherapy.frequencies.${freq.index}.name`) }}</div>
-                  <div class="mt-1 text-xs leading-tight text-gray-500">{{ $t(`soundTherapy.frequencies.${freq.index}.description`) }}</div>
+                  <div class="text-sm font-semibold text-gray-900 dark:text-gray-200">{{ $t(`soundTherapy.frequencies.${freq.index}.name`) }}</div>
+                  <div class="mt-1 text-xs leading-tight text-gray-500 dark:text-gray-400">{{ $t(`soundTherapy.frequencies.${freq.index}.description`) }}</div>
                 </button>
               </div>
             </div>
@@ -42,7 +42,7 @@
             <div class="mb-8 grid grid-cols-1 gap-8 lg:grid-cols-3">
               <!-- Binaural Beats -->
               <div>
-                <h5 class="mb-4 text-lg font-medium text-gray-900">{{ $t("soundTherapy.interface.binauralBeats") }}</h5>
+                <h5 class="mb-4 text-lg font-medium text-gray-900 dark:text-gray-200">{{ $t("soundTherapy.interface.binauralBeats") }}</h5>
                 <div class="space-y-2">
                   <button
                     v-for="beat in binauralBeats"
@@ -51,19 +51,19 @@
                     :class="[
                       'w-full border p-3 text-left text-sm transition-all duration-200 hover:border-green-300',
                       selectedBeat === beat.value
-                        ? 'border-green-500 bg-green-50'
-                        : 'border-gray-200 bg-white',
+                        ? 'border-green-500 bg-green-50 dark:bg-green-900/20 dark:border-green-500/50'
+                        : 'border-gray-200 bg-white dark:bg-slate-700/20 dark:border-slate-600',
                     ]"
                   >
-                    <div class="font-medium text-gray-900">{{ $t(`soundTherapy.binauralBeats.${beat.index}.name`) }}</div>
-                    <div class="mt-1 text-xs text-gray-500">{{ $t(`soundTherapy.binauralBeats.${beat.index}.description`) }}</div>
+                    <div class="font-medium text-gray-900 dark:text-gray-200">{{ $t(`soundTherapy.binauralBeats.${beat.index}.name`) }}</div>
+                    <div class="mt-1 text-xs text-gray-500 dark:text-gray-400">{{ $t(`soundTherapy.binauralBeats.${beat.index}.description`) }}</div>
                   </button>
                 </div>
               </div>
 
               <!-- Modulation -->
               <div>
-                <h5 class="mb-4 text-lg font-medium text-gray-900">{{ $t("soundTherapy.interface.modulation") }}</h5>
+                <h5 class="mb-4 text-lg font-medium text-gray-900 dark:text-gray-200">{{ $t("soundTherapy.interface.modulation") }}</h5>
                 <div class="space-y-2">
                   <button
                     v-for="preset in lfoPresets"
@@ -72,31 +72,31 @@
                     :class="[
                       'w-full border p-3 text-left text-sm transition-all duration-200 hover:border-blue-300',
                       selectedLfoPreset?.index === preset.index
-                        ? 'border-blue-500 bg-blue-50'
-                        : 'border-gray-200 bg-white',
+                        ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/20 dark:border-blue-500/50'
+                        : 'border-gray-200 bg-white dark:bg-slate-700/20 dark:border-slate-600',
                     ]"
                   >
-                    <div class="font-medium text-gray-900">{{ $t(`soundTherapy.modulation.${preset.index}.name`) }}</div>
-                    <div class="mt-1 text-xs text-gray-500">{{ $t(`soundTherapy.modulation.${preset.index}.description`) }}</div>
+                    <div class="font-medium text-gray-900 dark:text-gray-200">{{ $t(`soundTherapy.modulation.${preset.index}.name`) }}</div>
+                    <div class="mt-1 text-xs text-gray-500 dark:text-gray-400">{{ $t(`soundTherapy.modulation.${preset.index}.description`) }}</div>
                   </button>
                 </div>
               </div>
 
               <!-- Volume -->
               <div>
-                <h5 class="mb-4 text-lg font-medium text-gray-900">{{ $t("soundTherapy.interface.volume") }}</h5>
-                <div class="border border-gray-200 bg-gray-50 p-4">
+                <h5 class="mb-4 text-lg font-medium text-gray-900 dark:text-gray-200">{{ $t("soundTherapy.interface.volume") }}</h5>
+                <div class="border border-gray-200 bg-gray-50 p-4 dark:bg-slate-700/20 dark:border-slate-600">
                   <div class="flex items-center gap-4">
-                    <Icon name="ph:speaker-high" class="flex-shrink-0 text-gray-500" />
+                    <Icon name="ph:speaker-high" class="flex-shrink-0 text-gray-500 dark:text-gray-400" />
                     <div class="flex-1">
                       <input
                         type="range"
                         min="0"
                         max="100"
                         v-model="volume"
-                        class="slider h-2 w-full cursor-pointer appearance-none bg-gray-300"
+                        class="slider h-2 w-full cursor-pointer appearance-none bg-gray-300 dark:bg-slate-600"
                       />
-                      <div class="mt-2 flex justify-between text-xs text-gray-500">
+                      <div class="mt-2 flex justify-between text-xs text-gray-500 dark:text-gray-400">
                         <span>0%</span>
                         <span class="font-medium">{{ volume }}%</span>
                         <span>100%</span>
@@ -121,15 +121,15 @@
           </div>
 
           <!-- Playing State -->
-          <div v-if="isPlaying" class="mb-6 border border-purple-200 bg-purple-50 p-8 text-center">
+          <div v-if="isPlaying" class="mb-6 border border-purple-200 bg-purple-50 p-8 text-center dark:bg-purple-900/10 dark:border-purple-500/20">
             <div class="mb-6">
-              <h4 class="mb-2 text-2xl font-light text-gray-900">
+              <h4 class="mb-2 text-2xl font-light text-gray-900 dark:text-gray-200">
                 {{ $t(`soundTherapy.frequencies.${selectedFrequency.index}.name`) }} - {{ $t(`soundTherapy.frequencies.${selectedFrequency.index}.description`) }}
               </h4>
-              <p class="mb-4 text-purple-700">
+              <p class="mb-4 text-purple-700 dark:text-purple-400">
                 {{ $t("soundTherapy.playingState.description") }}
               </p>
-              <p class="text-base opacity-90">
+              <p class="text-base opacity-90 dark:text-gray-400">
                 {{ $t("soundTherapy.playingState.instructions") }}
               </p>
             </div>
@@ -141,68 +141,68 @@
     <!-- Educational Content -->
     <section class="mt-12 space-y-8">
       <!-- How It Works -->
-      <div class="border border-gray-200 bg-white/60 p-6">
+      <div class="border border-gray-200 bg-white/60 p-6 dark:bg-slate-800/20 dark:border-slate-700">
         <SectionHeader icon="ph:waveform" color="purple">
           {{ $t("soundTherapy.howItWorks.title") }}
         </SectionHeader>
-        <p class="mb-4 text-sm leading-relaxed text-gray-700">{{ $t("soundTherapy.howItWorks.description") }}</p>
+        <p class="mb-4 text-sm leading-relaxed text-gray-700 dark:text-gray-400">{{ $t("soundTherapy.howItWorks.description") }}</p>
         
         <div class="grid gap-4 md:grid-cols-2">
-          <div class="border border-gray-200 bg-white/60 p-4">
-            <h3 class="mb-2 font-semibold text-gray-800">{{ $t("soundTherapy.howItWorks.frequencies.title") }}</h3>
-            <p class="text-sm text-gray-600">{{ $t("soundTherapy.howItWorks.frequencies.description") }}</p>
+          <div class="border border-gray-200 bg-white/60 p-4 dark:bg-slate-700/20 dark:border-slate-600">
+            <h3 class="mb-2 font-semibold text-gray-800 dark:text-gray-200">{{ $t("soundTherapy.howItWorks.frequencies.title") }}</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400">{{ $t("soundTherapy.howItWorks.frequencies.description") }}</p>
           </div>
-          <div class="border border-gray-200 bg-white/60 p-4">
-            <h3 class="mb-2 font-semibold text-gray-800">{{ $t("soundTherapy.howItWorks.binaural.title") }}</h3>
-            <p class="text-sm text-gray-600">{{ $t("soundTherapy.howItWorks.binaural.description") }}</p>
+          <div class="border border-gray-200 bg-white/60 p-4 dark:bg-slate-700/20 dark:border-slate-600">
+            <h3 class="mb-2 font-semibold text-gray-800 dark:text-gray-200">{{ $t("soundTherapy.howItWorks.binaural.title") }}</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400">{{ $t("soundTherapy.howItWorks.binaural.description") }}</p>
           </div>
         </div>
       </div>
 
       <!-- Scientific Background -->
-      <div class="border border-gray-200 bg-white/60 p-6">
+      <div class="border border-gray-200 bg-white/60 p-6 dark:bg-slate-800/20 dark:border-slate-700">
         <SectionHeader icon="ph:flask" color="purple">
           {{ $t("soundTherapy.science.title") }}
         </SectionHeader>
         
         <div class="mb-4">
-          <p class="text-sm leading-relaxed text-gray-700" v-html="$t('soundTherapy.science.description')"></p>
+          <p class="text-sm leading-relaxed text-gray-700 dark:text-gray-400" v-html="$t('soundTherapy.science.description')"></p>
         </div>
 
         <div class="grid gap-4 md:grid-cols-3">
-          <div class="border border-purple-200 bg-purple-50 p-4">
+          <div class="border border-purple-200 bg-purple-50 p-4 dark:bg-purple-900/10 dark:border-purple-500/20">
             <div class="mb-2 flex items-center">
               <Icon name="ph:hospital" class="mr-2 text-purple-600" />
-              <span class="text-sm font-medium text-gray-800">{{ $t("soundTherapy.science.research.clinical.title") }}</span>
+              <span class="text-sm font-medium text-gray-800 dark:text-gray-200">{{ $t("soundTherapy.science.research.clinical.title") }}</span>
             </div>
-            <p class="text-xs text-gray-600" v-html="$t('soundTherapy.science.research.clinical.description')"></p>
+            <p class="text-xs text-gray-600 dark:text-gray-400" v-html="$t('soundTherapy.science.research.clinical.description')"></p>
           </div>
           
-          <div class="border border-purple-200 bg-purple-50 p-4">
+          <div class="border border-purple-200 bg-purple-50 p-4 dark:bg-purple-900/10 dark:border-purple-500/20">
             <div class="mb-2 flex items-center">
               <Icon name="ph:wave-sine" class="mr-2 text-purple-600" />
-              <span class="text-sm font-medium text-gray-800">{{ $t("soundTherapy.science.research.frequency.title") }}</span>
+              <span class="text-sm font-medium text-gray-800 dark:text-gray-200">{{ $t("soundTherapy.science.research.frequency.title") }}</span>
             </div>
-            <p class="text-xs text-gray-600" v-html="$t('soundTherapy.science.research.frequency.description')"></p>
+            <p class="text-xs text-gray-600 dark:text-gray-400" v-html="$t('soundTherapy.science.research.frequency.description')"></p>
           </div>
           
-          <div class="border border-purple-200 bg-purple-50 p-4">
+          <div class="border border-purple-200 bg-purple-50 p-4 dark:bg-purple-900/10 dark:border-purple-500/20">
             <div class="mb-2 flex items-center">
               <Icon name="ph:music-notes" class="mr-2 text-purple-600" />
-              <span class="text-sm font-medium text-gray-800">{{ $t("soundTherapy.science.research.combined.title") }}</span>
+              <span class="text-sm font-medium text-gray-800 dark:text-gray-200">{{ $t("soundTherapy.science.research.combined.title") }}</span>
             </div>
-            <p class="text-xs text-gray-600" v-html="$t('soundTherapy.science.research.combined.description')"></p>
+            <p class="text-xs text-gray-600 dark:text-gray-400" v-html="$t('soundTherapy.science.research.combined.description')"></p>
           </div>
         </div>
       </div>
 
       <div class="grid gap-8 md:grid-cols-2">
         <!-- When to Use -->
-        <div class="border border-gray-200 bg-white/60 p-6">
+        <div class="border border-gray-200 bg-white/60 p-6 dark:bg-slate-800/20 dark:border-slate-700">
           <SectionHeader icon="ph:calendar-check" color="blue">
             {{ $t("soundTherapy.whenToPractice.title") }}
           </SectionHeader>
-          <ul class="space-y-3 text-sm text-gray-700">
+          <ul class="space-y-3 text-sm text-gray-700 dark:text-gray-400">
             <li class="flex items-start">
               <Icon name="ph:flower-lotus-duotone" class="mr-2 mt-0.5 flex-shrink-0 text-purple-500" />
               <span>{{ $t("soundTherapy.whenToPractice.items.0") }}</span>
@@ -227,11 +227,11 @@
         </div>
 
         <!-- What You'll Experience -->
-        <div class="border border-gray-200 bg-white/60 p-6">
+        <div class="border border-gray-200 bg-white/60 p-6 dark:bg-slate-800/20 dark:border-slate-700">
           <SectionHeader icon="ph:trend-up" color="green">
             {{ $t("soundTherapy.whatYoullNotice.title") }}
           </SectionHeader>
-          <ul class="space-y-3 text-sm text-gray-700">
+          <ul class="space-y-3 text-sm text-gray-700 dark:text-gray-400">
             <li class="flex items-start">
               <Icon name="ph:waves" class="mr-2 mt-0.5 flex-shrink-0 text-purple-400" />
               <span>{{ $t("soundTherapy.whatYoullNotice.items.0") }}</span>
@@ -257,23 +257,23 @@
       </div>
 
       <!-- Tips Section -->
-      <div class="border border-indigo-200 bg-indigo-50 p-6">
+      <div class="border border-indigo-200 bg-indigo-50 p-6 dark:bg-indigo-900/10 dark:border-indigo-500/20">
         <div class="mb-4 text-center">
           <Icon name="ph:lightbulb" class="mx-auto mb-2 text-2xl text-indigo-600" />
-          <h2 class="font-semibold text-gray-800">{{ $t("soundTherapy.tips.title") }}</h2>
+          <h2 class="font-semibold text-gray-800 dark:text-gray-200">{{ $t("soundTherapy.tips.title") }}</h2>
         </div>
         <div class="grid gap-4 text-sm md:grid-cols-3">
           <div class="text-center">
-            <div class="mb-1 font-medium text-indigo-600">{{ $t("soundTherapy.tips.headphones.title") }}</div>
-            <p class="text-gray-600">{{ $t("soundTherapy.tips.headphones.description") }}</p>
+            <div class="mb-1 font-medium text-indigo-600 dark:text-indigo-400">{{ $t("soundTherapy.tips.headphones.title") }}</div>
+            <p class="text-gray-600 dark:text-gray-400">{{ $t("soundTherapy.tips.headphones.description") }}</p>
           </div>
           <div class="text-center">
-            <div class="mb-1 font-medium text-indigo-600">{{ $t("soundTherapy.tips.volume.title") }}</div>
-            <p class="text-gray-600">{{ $t("soundTherapy.tips.volume.description") }}</p>
+            <div class="mb-1 font-medium text-indigo-600 dark:text-indigo-400">{{ $t("soundTherapy.tips.volume.title") }}</div>
+            <p class="text-gray-600 dark:text-gray-400">{{ $t("soundTherapy.tips.volume.description") }}</p>
           </div>
           <div class="text-center">
-            <div class="mb-1 font-medium text-indigo-600">{{ $t("soundTherapy.tips.consistency.title") }}</div>
-            <p class="text-gray-600">{{ $t("soundTherapy.tips.consistency.description") }}</p>
+            <div class="mb-1 font-medium text-indigo-600 dark:text-indigo-400">{{ $t("soundTherapy.tips.consistency.title") }}</div>
+            <p class="text-gray-600 dark:text-gray-400">{{ $t("soundTherapy.tips.consistency.description") }}</p>
           </div>
         </div>
       </div>

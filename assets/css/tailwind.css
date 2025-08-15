@@ -39,7 +39,7 @@ section {
 }
 
 .mybg {
-  @apply bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50
+  @apply bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-slate-800 dark:via-slate-900 dark:to-black;
 }
 .ptitle {
   @apply text-4xl mb-6 font-semibold text-gray-800 text-center;
