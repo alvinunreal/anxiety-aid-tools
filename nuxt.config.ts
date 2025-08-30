@@ -1,25 +1,32 @@
 import { defineNuxtConfig } from "nuxt/config";
 
+const isDocker = process.env.DOCKER_BUILD === 'true';
+
 export default defineNuxtConfig({
   ssr: true,
   devtools: { enabled: false },
-  sourcemap: {
+  sourcemap: isDocker ? false : {
     client: false,
     server: false
   },
 
   runtimeConfig: {
     public: {
-      baseUrl: process.env.VITE_BASE_URL || 'https://anxietyaidtools.com'
+      baseUrl: isDocker ? 'http://localhost:3000' : (process.env.VITE_BASE_URL || 'https://anxietyaidtools.com'),
+      sentry: {
+        dsn: isDocker ? null : undefined
+      }
     }
   },
 
   nitro: {
-    preset: "cloudflare_pages",
-    cloudflare: {
-      deployConfig: true,
-      nodeCompat: true,
-    },
+    preset: isDocker ? "static" : "cloudflare_pages",
+    ...(isDocker ? {} : {
+      cloudflare: {
+        deployConfig: true,
+        nodeCompat: true,
+      }
+    }),
     compressPublicAssets: true,
     logLevel: 4,
     prerender: {
@@ -45,7 +52,7 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "@nuxtjs/seo",
     "@nuxtjs/i18n",
-    '@sentry/nuxt/module',
+    ...(isDocker ? [] : ['@sentry/nuxt/module']),
     "@vite-pwa/nuxt",
   ],
 
@@ -201,14 +208,16 @@ export default defineNuxtConfig({
 
   compatibilityDate: "2024-12-26",
 
-  sentry: {
-    enabled: process.env.NODE_ENV === 'production',
-    sourceMapsUploadOptions: {
-      telemetry: false,
-      org: 'boring-dystopia-development',
-      project: 'anxietyaidtools',
+  ...(isDocker ? {} : {
+    sentry: {
+      enabled: process.env.NODE_ENV === 'production',
+      sourceMapsUploadOptions: {
+        telemetry: false,
+        org: 'boring-dystopia-development',
+        project: 'anxietyaidtools',
+      },
     },
-  },
+  }),
 
   sourcemap: {
     client: 'hidden',
