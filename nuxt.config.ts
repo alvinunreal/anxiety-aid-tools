@@ -7,7 +7,15 @@ export default defineNuxtConfig({
     client: false,
     server: false
   },
-
+  $production: {
+    scripts: {
+      registry: {
+        googleAnalytics: {
+          id: 'G-TMXBQDETE3',
+        }
+      }
+    }
+  },
   runtimeConfig: {
     public: {
       baseUrl: process.env.VITE_BASE_URL || 'https://anxietyaidtools.com'
@@ -47,6 +55,7 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
     '@sentry/nuxt/module',
     "@vite-pwa/nuxt",
+    '@nuxt/scripts',
   ],
 
   tailwindcss: {
