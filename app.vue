@@ -9,7 +9,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <VitePwaManifest />
+  <NuxtPwaManifest />
   <div class="relative">
     <div
       v-if="isLoading"
