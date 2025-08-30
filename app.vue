@@ -9,6 +9,7 @@ onMounted(() => {
 </script>
 
 <template>
+  <VitePwaManifest />
   <div class="relative">
     <div
       v-if="isLoading"
