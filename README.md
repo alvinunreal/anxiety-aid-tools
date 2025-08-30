@@ -104,34 +104,54 @@ npm run dev
 ```
 
 #### Docker
-# Clone Repository
+
+##### Using Pre-built Images (Recommended)
 ```bash
+# Pull and run the latest version
+docker run -d -p 3000:3000 --name anxiety_aid_tools alvinunreal/anxiety-aid-tools:latest
+
+# Or run a specific version
+docker run -d -p 3000:3000 --name anxiety_aid_tools alvinunreal/anxiety-aid-tools:v1.1.0
+```
+
+##### Building Locally
+```bash
+# Clone repository
 git clone https://github.com/alvinunreal/anxiety-aid-tools.git
 cd anxiety-aid-tools/
-```
 
-> v1.1.0 in the following commands, marks the used anxiety aid tool version.
+# Build production image
+docker build -t anxiety-aid-tools:latest .
 
-# Build Docker Image
-```bash
-docker build --no-cache -t anxiety-aid-tools:v1.1.0 .
-```
-
-# Deploy Docker Container
-```bash
-docker run -d -p 3000:3000 --name anxiety_aid_tools anxiety-aid-tools:v1.1.0
+# Run container
+docker run -d -p 3000:3000 --name anxiety_aid_tools anxiety-aid-tools:latest
 ```
 
 #### Docker Compose
 
-# Build Docker Image
-See Docker section
-
-# Docker Compose usage
-
-Remove -d, when trying to debug the running container or use "docker compose logs -f".
 ```bash
+# Clone repository if not already done
+git clone https://github.com/alvinunreal/anxiety-aid-tools.git
+cd anxiety-aid-tools/
+
+# Start services (builds automatically)
 docker compose up -d
+
+# View logs
+docker compose logs -f
+
+# Stop services
+docker compose down
+```
+
+##### Production Deployment
+```bash
+# Use pre-built image for production
+docker run -d \
+  -p 3000:3000 \
+  --name anxiety_aid_tools \
+  --restart unless-stopped \
+  alvinunreal/anxiety-aid-tools:latest
 ```
 
 ### **For Contributors**
