@@ -1,9 +1,22 @@
 version: '3.9'
+
 services:
-    anxiety-aid-tools:
-        image: 'anxiety-aid-tools:v1.1.0'
-        ports:
-            - '3000:3000'
-        tty: true
-        stdin_open: true
+  anxiety-aid-tools:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: anxiety-aid-tools:latest
+    container_name: anxiety_aid_tools
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=production
+      - DOCKER_BUILD=true
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:3000/health"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
 
