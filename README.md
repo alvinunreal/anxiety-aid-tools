@@ -122,6 +122,18 @@ docker build --no-cache -t anxiety-aid-tools:v1.1.0 .
 docker run -d -p 3000:3000 --name anxiety_aid_tools anxiety-aid-tools:v1.1.0
 ```
 
+#### Docker Compose
+
+# Build Docker Image
+See Docker section
+
+# Docker Compose usage
+
+Remove -d, when trying to debug the running container or use "docker compose logs -f".
+```bash
+docker compose up -d
+```
+
 ### **For Contributors**
 ```bash
 # Fork the repository
