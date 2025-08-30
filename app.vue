@@ -9,6 +9,7 @@ onMounted(() => {
 </script>
 
 <template>
+  <NuxtPwaManifest />
   <div class="relative">
     <div
       v-if="isLoading"
