@@ -48,6 +48,7 @@ const switchLocalePath = useSwitchLocalePath()
         </div>
       </div>
       
+      
       <div class="py-4 border-t border-gray-200 dark:border-slate-600">
         <div class="flex justify-center">
           <div class="flex flex-wrap justify-center gap-1 text-xs">
@@ -64,7 +65,7 @@ const switchLocalePath = useSwitchLocalePath()
         </div>
       </div>
       
-      <div class="pt-4 border-t border-gray-200 dark:border-slate-600">
+      <div class="py-4 border-t border-gray-200 dark:border-slate-600">
         <div class="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
           <p class="text-xs text-gray-500 dark:text-slate-400 text-center md:text-left max-w-2xl">
             {{ $t('footer.disclaimer') }}
@@ -72,6 +73,70 @@ const switchLocalePath = useSwitchLocalePath()
           <p class="text-xs text-gray-500 dark:text-slate-400">
             Open Source • GPL License
           </p>
+        </div>
+      </div>
+
+      <div class="pt-6 border-t border-gray-200 dark:border-slate-600">
+        <div class="text-center mb-4">
+          <p class="text-sm text-gray-600 dark:text-slate-300 mb-3">{{ $t('footer.projects.title') }}</p>
+          <div class="flex flex-wrap justify-center gap-x-4 gap-y-2">
+            <a 
+              href="https://awesomeclaude.ai/" 
+              rel="noopener noreferrer nofollow"
+              target="_blank"
+              class="text-xs text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 hover:underline transition-colors duration-200"
+            >
+              {{ $t('footer.projects.awesomeClaude.name') }}
+            </a>
+            <a 
+              href="https://awesomeclaude.ai/code-cheatsheet" 
+              rel="noopener noreferrer nofollow"
+              target="_blank"
+              class="text-xs text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 hover:underline transition-colors duration-200"
+            >
+              {{ $t('footer.projects.codeCheatsheet.name') }}
+            </a>
+            <a 
+              href="https://awesomeclaude.ai/awesome-claude-code" 
+              rel="noopener noreferrer nofollow"
+              target="_blank"
+              class="text-xs text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 hover:underline transition-colors duration-200"
+            >
+              {{ $t('footer.projects.awesomeClaudeCode.name') }}
+            </a>
+            <a 
+              href="https://tmuxai.dev/" 
+              rel="noopener noreferrer nofollow"
+              target="_blank"
+              class="text-xs text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 hover:underline transition-colors duration-200"
+            >
+              {{ $t('footer.projects.tmuxai.name') }}
+            </a>
+            <a 
+              href="https://tmuxai.dev/tmuxai-vs-warp" 
+              rel="noopener noreferrer nofollow"
+              target="_blank"
+              class="text-xs text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 hover:underline transition-colors duration-200"
+            >
+              {{ $t('footer.projects.tmuxVsWarp.name') }}
+            </a>
+            <a 
+              href="https://tmuxai.dev/tmux-getting-started" 
+              rel="noopener noreferrer nofollow"
+              target="_blank"
+              class="text-xs text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 hover:underline transition-colors duration-200"
+            >
+              {{ $t('footer.projects.tmuxGuide.name') }}
+            </a>
+            <a 
+              href="https://tmuxai.dev/tmux-cheat-sheet/" 
+              rel="noopener noreferrer nofollow"
+              target="_blank"
+              class="text-xs text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 hover:underline transition-colors duration-200"
+            >
+              {{ $t('footer.projects.tmuxCheatsheet.name') }}
+            </a>
+          </div>
         </div>
       </div>
     </div>
