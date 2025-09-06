@@ -61,14 +61,6 @@
       <!-- Main Exercise Card -->
       <div
         class="border border-gray-200 dark:border-slate-600 bg-white dark:bg-slate-800 p-6 md:p-8 transition-colors duration-200"
-        :style="{
-          '--step-color': colorMap[currentStepConfig.color] || '#6b7280',
-          '--step-color-light': lightColorMap[currentStepConfig.color] || '#f9fafb',
-          '--step-color-border': borderColorMap[currentStepConfig.color] || '#d1d5db',
-          '--step-color-hover': hoverColorMap[currentStepConfig.color] || '#f3f4f6',
-          '--step-color-dark': darkColorMap[currentStepConfig.color] || '#4b5563',
-          '--step-color-rgb': colorRgbMap[currentStepConfig.color] || '107, 114, 128',
-        }"
       >
         <div class="mb-8 text-center">
           <Icon
@@ -89,7 +81,11 @@
           >
             <div
               class="border transition-all duration-100 cursor-pointer touch-manipulation"
-              :class="[item.checked ? 'step-item-checked' : 'step-item-unchecked']"
+              :class="[
+                item.checked 
+                  ? 'border-green-200 bg-green-50 dark:border-green-600 dark:bg-green-900/20' 
+                  : 'border-gray-200 bg-white dark:border-slate-600 dark:bg-slate-800 hover:border-gray-300 hover:bg-gray-50 dark:hover:border-slate-500 dark:hover:bg-slate-700'
+              ]"
             >
               <!-- Mobile Layout (< md) -->
               <div class="md:hidden p-4 relative">
@@ -105,7 +101,7 @@
                   <div class="flex-shrink-0 ml-3">
                     <div
                       class="flex h-5 w-5 items-center justify-center border-2 transition-all duration-100"
-                      :class="[item.checked ? 'step-checkbox-checked' : 'step-checkbox-unchecked']"
+                      :class="[item.checked ? 'border-green-600 bg-green-600' : 'border-gray-300 dark:border-slate-500']"
                     >
                       <Icon v-if="item.checked" name="ph:check" class="text-sm text-white" />
                     </div>
@@ -119,7 +115,7 @@
                 <div class="mt-0.5 flex-shrink-0">
                   <div
                     class="flex h-6 w-6 items-center justify-center border-2 transition-all duration-100"
-                    :class="[item.checked ? 'step-checkbox-checked' : 'step-checkbox-unchecked']"
+                    :class="[item.checked ? 'border-green-600 bg-green-600' : 'border-gray-300 dark:border-slate-500 group-hover:border-green-600']"
                   >
                     <Icon v-if="item.checked" name="ph:check" class="text-sm text-white" />
                   </div>
@@ -203,7 +199,7 @@
                 :class="[
                   'flex min-w-[90px] items-center justify-center gap-2 px-4 py-3 text-sm font-medium transition-colors duration-100 touch-manipulation',
                   (currentStep === 5 ? senses.taste.checked === 1 : canProceedToNext)
-                    ? 'step-button-enabled text-white'
+                    ? 'bg-green-600 hover:bg-green-700 text-white'
                     : 'cursor-not-allowed bg-gray-100 dark:bg-slate-700 text-gray-400 dark:text-slate-500',
                 ]"
               >
@@ -371,6 +367,7 @@ const canProceedToNext = computed(() => {
   return currentSense.checked > 0;
 });
 
+
 const toggleItem = (senseKey, index) => {
   senses.value[senseKey].items[index].checked = !senses.value[senseKey].items[index].checked;
   updateProgress();
@@ -436,59 +433,3 @@ const resetChecklist = () => {
 };
 </script>
 
-<style scoped>
-.step-item-checked {
-  border-color: var(--step-color-border);
-  background-color: var(--step-color-light);
-}
-
-.dark .step-item-checked {
-  border-color: var(--step-color);
-  background-color: rgba(var(--step-color-rgb), 0.1);
-}
-
-.step-item-unchecked {
-  border-color: #e5e7eb;
-  background-color: white;
-}
-
-.dark .step-item-unchecked {
-  border-color: #475569;
-  background-color: #1e293b;
-}
-
-.step-item-unchecked:hover {
-  border-color: var(--step-color-border);
-  background-color: var(--step-color-hover);
-}
-
-.dark .step-item-unchecked:hover {
-  border-color: var(--step-color);
-  background-color: rgba(var(--step-color-rgb), 0.05);
-}
-
-.step-checkbox-checked {
-  border-color: var(--step-color);
-  background-color: var(--step-color);
-}
-
-.step-checkbox-unchecked {
-  border-color: #d1d5db;
-}
-
-.dark .step-checkbox-unchecked {
-  border-color: #64748b;
-}
-
-.group:hover .step-checkbox-unchecked {
-  border-color: var(--step-color);
-}
-
-.step-button-enabled {
-  background-color: var(--step-color);
-}
-
-.step-button-enabled:hover {
-  background-color: var(--step-color-dark);
-}
-</style>
