@@ -50,6 +50,7 @@ function initStressBall() {
   if (!ball) return
 
   const container = document.querySelector('.stress-ball-container')
+  if (!container) return
 
   ballProps = gsap.getProperty(ball)
   radius = ball.getBoundingClientRect().width / 2
@@ -86,6 +87,7 @@ function initStressBall() {
 
   window.addEventListener('resize', () => {
     const container = document.querySelector('.stress-ball-container')
+    if (!container) return
     vw = container.clientWidth
     vh = container.clientHeight
   })
@@ -218,7 +220,7 @@ function checkBounds() {
   }
 
   if (hitEdge) {
-    gsap.killTweensOf(ball, 'x,y')
+    gsap.killTweensOf(ball)
     animateBounce(xPos, yPos, vx, vy)
   }
 }
