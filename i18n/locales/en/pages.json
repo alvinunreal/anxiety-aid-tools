@@ -97,6 +97,9 @@
       "tmuxCheatsheet": {
         "name": "Tmux Cheat Sheet",
         "description": "Quick tmux reference"
+      },
+      "freeSubStats": {
+        "name": "FreeSubStats"
       }
     }
   }

@@ -81,7 +81,7 @@ const switchLocalePath = useSwitchLocalePath()
           <p class="text-xs text-gray-500 dark:text-slate-400 mb-4 font-medium">{{ $t('footer.projects.title') }}</p>
           
           <!-- Grouped responsive layout -->
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             
             <!-- TmuxAI Group -->
             <div class="space-y-3">
@@ -153,7 +153,19 @@ const switchLocalePath = useSwitchLocalePath()
                 </a>
               </div>
             </div>
-            
+
+            <!-- FreeSubStats Group -->
+            <div class="space-y-3">
+              <a
+                href="https://freesubstats.com/"
+                target="_blank"
+                class="inline-flex items-center justify-center text-xs font-medium text-gray-600 dark:text-slate-300 hover:text-gray-800 dark:hover:text-slate-100 transition-colors duration-200 mb-2"
+              >
+                <Icon name="mdi:chart-line" class="mr-1" />
+                {{ $t('footer.projects.freeSubStats.name') }}
+              </a>
+            </div>
+
           </div>
         </div>
       </div>
