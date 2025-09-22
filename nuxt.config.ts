@@ -214,7 +214,18 @@ export default defineNuxtConfig({
           'ru/pages.json',
           'ru/meta.json'
         ]
-      }
+      },{
+        code: 'he',
+        language: 'he',
+        name: 'Hebrew',
+        files: [
+          'he/navigation.json',
+          'he/techniques.json',
+          'he/exercises.json',
+          'he/pages.json',
+          'he/meta.json'
+        ]
+      },
     ],
     defaultLocale: 'en',
     strategy: 'prefix_except_default'

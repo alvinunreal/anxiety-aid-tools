@@ -1,125 +1,125 @@
 {
   "breathing": {
+  "benefits": {
+    "calm": {
+      "title": "רוגע",
+      "description": "הורדת קצב הלב ולחץ הדם"
+    },
+    "focus": {
+      "title": "מיקוד",
+      "description": "יותר חמצן למוח לחשיבה צלולה יותר"
+    },
+    "relax": {
+      "title": "הרפיה",
+      "description": "הפעלה של תגובת ההרפיה הטבעית"
+    }
+  },
+  "session": {
+    "title": "תרגול נשימה",
+    "subtitle": "קצב מרגיע 4:6",
+    "elapsed": "שחלף",
+    "inhaling": "שאיפה",
+    "exhaling": "נשיפה",
+    "breatheIn": "שאף",
+    "breatheOut": "נשוף",
+    "fourSeconds": "4 שניות",
+    "sixSeconds": "6 שניות",
+    "sessionProgress": "התקדמות התרגול",
+    "sessionProgressAriaLabel": "התקדמות תרגול: הושלמו {current} מתוך {total} מחזורי נשימה",
+    "currentBreath": "נשימה נוכחית",
+    "breathProgressAriaLabel": "התקדמות הנשימה הנוכחית: הושלם {progress}%",
+    "breaths": "נשימות"
+  },
+  "buttons": {
+    "begin": "התחל תרגיל",
+    "beginAriaLabel": "התחל את תרגול הנשימה",
+    "stop": "עצור",
+    "stopAriaLabel": "עצור את תרגול הנשימה הנוכחי",
+    "practiceAgain": "תרגל שוב",
+    "practiceAgainAriaLabel": "התחל תרגול נשימה נוסף"
+  },
+  "completion": {
+    "title": "עבודה מצוינת",
+    "description": "השלמת {count} מחזורי נשימה בתוך {time}. מערכת העצבים הפאראסימפתטית הופעלה ותומכת בהרפיה.",
     "benefits": {
-      "calm": {
-        "title": "Calm",
-        "description": "Lower heart rate and blood pressure"
-      },
-      "focus": {
-        "title": "Focus",
-        "description": "More oxygen to brain for clearer thinking"
-      },
-      "relax": {
-        "title": "Relax",
-        "description": "Activate natural relaxation response"
+      "heartRate": "קצב הלב ירד",
+      "mind": "המחשבות נרגעו",
+      "breathing": "הנשימה הוסדרה"
+    }
+  },
+  "education": {
+    "whatHappens": {
+      "title": "מה קורה בגוף",
+      "description": "Controlled breathing through the 4:6 pattern which emphasizes a longer exhalation stimulates the vagus nerve, a primary component of the parasympathetic nervous system. Activating this nerve sends signals that help transition the body from a \"fight or flight\" state to a \"rest and repair\" mode.",
+      "benefits": "This shift has several measurable physiological benefits. It can lead to a lower heart rate and reduced blood pressure. The relaxation of blood vessels allows for improved circulation, increasing oxygen flow to the brain. Furthermore, this calming response positively influences digestion and supports the body's immune system.",
+      "practice": "תרגול מודע של נשימת 4:6 הוא דרך יעילה לניהול סטרס ולקידום רווחה כללית."
+    },
+    "inhale": {
+      "title": "שאיפה של 4 שניות",
+      "description": "Steady breathing in brings fresh oxygen to your brain and helps you focus."
+    },
+    "exhale": {
+      "title": "נשיפה של 6 שניות",
+      "description": "The longer out-breath signals your body to slow down and relax."
+    },
+    "science": {
+      "title": "The Science Behind Breathing",
+      "description": "Research shows that <a href=\"https://pubmed.ncbi.nlm.nih.gov/36480101/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">diaphragmatic breathing</a> lowers cortisol levels and heart rate variability, with studies finding it reduces stress markers by up to 20% in healthy adults. A clinical trial on postoperative patients reported a 15% drop in anxiety scores after using the 4-7-8 method.",
+      "research": {
+        "cortisol": {
+          "title": "Stress Hormone Reduction",
+          "description": "Controlled breathing techniques significantly lower cortisol levels. One review found that <a href=\"https://pubmed.ncbi.nlm.nih.gov/34588511/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">deep breathing practices</a> reduce stress markers by up to 20% in healthy adults, with effects visible within a single session."
+        },
+        "anxiety": {
+          "title": "Clinical Anxiety Relief",
+          "description": "Meta-analyses confirm that breathwork cuts mental health symptoms, including anxiety, by an average effect size of 0.32 across 12 randomized trials. Researchers observed that practices emphasizing <a href=\"https://pubmed.ncbi.nlm.nih.gov/36624160/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">extended exhales</a>, like cyclic sighing, yield a 25% greater mood improvement than mindfulness alone."
+        },
+        "vagal": {
+          "title": "Vagal Tone Enhancement",
+          "description": "An experiment with older adults noted improved vagal tone and a 10% decrease in state anxiety following a single session of deep, slow breathing. In clinical settings, <a href=\"https://pubmed.ncbi.nlm.nih.gov/36630953/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">deep breathing</a> has decreased physiological arousal in stress-prone groups, with effects lasting up to 12 weeks of regular use."
+        }
       }
     },
-    "session": {
-      "title": "Breathing Session",
-      "subtitle": "4:6 Calming Rhythm",
-      "elapsed": "elapsed",
-      "inhaling": "Inhaling",
-      "exhaling": "Exhaling",
-      "breatheIn": "breathe in",
-      "breatheOut": "breathe out",
-      "fourSeconds": "4 seconds",
-      "sixSeconds": "6 seconds",
-      "sessionProgress": "Session Progress",
-      "sessionProgressAriaLabel": "Session progress: {current} of {total} breathing cycles completed",
-      "currentBreath": "Current Breath",
-      "breathProgressAriaLabel": "Current breath progress: {progress}% complete",
-      "breaths": "breaths"
+    "whenToPractice": {
+      "title": "מתי לתרגל",
+      "items": [
+        "When you feel overwhelmed or stressed",
+        "לפני שיחות או החלטות חשובות",
+        "During anxiety or panic episodes",
+        "אחרי אירועים מלחיצים כדי לאפס את מערכת העצבים"
+      ]
     },
-    "buttons": {
-      "begin": "Begin Exercise",
-      "beginAriaLabel": "Start the breathing exercise session",
-      "stop": "Stop",
-      "stopAriaLabel": "Stop the current breathing exercise",
-      "practiceAgain": "Practice Again",
-      "practiceAgainAriaLabel": "Start another breathing exercise session"
+    "whatYoullNotice": {
+      "title": "מה תרגיש/י",
+      "items": [
+        "אפקט הרגעה מיידי בתוך הדקה הראשונה",
+        "חשיבה בהירה יותר וקבלת החלטות טובה יותר",
+        "האטת דופק והפחתת מתח שרירי",
+        "חוסן טוב יותר לסטרס עם תרגול קבוע"
+      ]
     },
-    "completion": {
-      "title": "Excellent Work",
-      "description": "You've completed {count} breathing cycles in {time}. Your parasympathetic nervous system has been activated, promoting relaxation.",
-      "benefits": {
-        "heartRate": "Heart rate lowered",
-        "mind": "Mind calmed",
-        "breathing": "Breathing regulated"
-      }
-    },
-    "education": {
-      "whatHappens": {
-        "title": "What happens in your body",
-        "description": "Controlled breathing through the 4:6 pattern which emphasizes a longer exhalation stimulates the vagus nerve, a primary component of the parasympathetic nervous system. Activating this nerve sends signals that help transition the body from a \"fight or flight\" state to a \"rest and repair\" mode.",
-        "benefits": "This shift has several measurable physiological benefits. It can lead to a lower heart rate and reduced blood pressure. The relaxation of blood vessels allows for improved circulation, increasing oxygen flow to the brain. Furthermore, this calming response positively influences digestion and supports the body's immune system.",
-        "practice": "Consciously practicing 4:6 breathing technique is an effective way to manage stress and promote overall well-being."
+    "bestResults": {
+      "title": "טיפים לתוצאות מיטביות",
+      "posture": {
+        "title": "יציבה",
+        "description": "שב/י או עמוד/י זקוף/ה כדי לאפשר התרחבות מלאה של הריאות. כתפיים רפויות, לא מכווצות."
       },
-      "inhale": {
-        "title": "4-Second Inhale",
-        "description": "Steady breathing in brings fresh oxygen to your brain and helps you focus."
+      "environment": {
+        "title": "סביבה",
+        "description": "מצא/י מקום שקט ללא הפרעות. טמפרטורה נוחה מסייעת למיקוד."
       },
-      "exhale": {
-        "title": "6-Second Exhale",
-        "description": "The longer out-breath signals your body to slow down and relax."
-      },
-      "science": {
-        "title": "The Science Behind Breathing",
-        "description": "Research shows that <a href=\"https://pubmed.ncbi.nlm.nih.gov/36480101/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">diaphragmatic breathing</a> lowers cortisol levels and heart rate variability, with studies finding it reduces stress markers by up to 20% in healthy adults. A clinical trial on postoperative patients reported a 15% drop in anxiety scores after using the 4-7-8 method.",
-        "research": {
-          "cortisol": {
-            "title": "Stress Hormone Reduction",
-            "description": "Controlled breathing techniques significantly lower cortisol levels. One review found that <a href=\"https://pubmed.ncbi.nlm.nih.gov/34588511/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">deep breathing practices</a> reduce stress markers by up to 20% in healthy adults, with effects visible within a single session."
-          },
-          "anxiety": {
-            "title": "Clinical Anxiety Relief",
-            "description": "Meta-analyses confirm that breathwork cuts mental health symptoms, including anxiety, by an average effect size of 0.32 across 12 randomized trials. Researchers observed that practices emphasizing <a href=\"https://pubmed.ncbi.nlm.nih.gov/36624160/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">extended exhales</a>, like cyclic sighing, yield a 25% greater mood improvement than mindfulness alone."
-          },
-          "vagal": {
-            "title": "Vagal Tone Enhancement",
-            "description": "An experiment with older adults noted improved vagal tone and a 10% decrease in state anxiety following a single session of deep, slow breathing. In clinical settings, <a href=\"https://pubmed.ncbi.nlm.nih.gov/36630953/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">deep breathing</a> has decreased physiological arousal in stress-prone groups, with effects lasting up to 12 weeks of regular use."
-          }
-        }
-      },
-      "whenToPractice": {
-        "title": "When to practice",
-        "items": [
-          "When you feel overwhelmed or stressed",
-          "Before important conversations or decisions",
-          "During anxiety or panic episodes",
-          "After stressful events to reset your nervous system"
-        ]
-      },
-      "whatYoullNotice": {
-        "title": "What you'll notice",
-        "items": [
-          "Immediate calming effect within the first minute",
-          "Clearer thinking and improved decision-making",
-          "Slower heart rate and reduced muscle tension",
-          "Better stress resilience with regular practice"
-        ]
-      },
-      "bestResults": {
-        "title": "Tips for best results",
-        "posture": {
-          "title": "Posture",
-          "description": "Sit or stand straight to allow full lung expansion. Shoulders relaxed, not hunched."
-        },
-        "environment": {
-          "title": "Environment",
-          "description": "Find a quiet space where you won't be interrupted. Comfortable temperature helps focus."
-        },
-        "consistency": {
-          "title": "Consistency",
-          "description": "Practice the same technique for a week before switching. Building familiarity improves effectiveness."
-        }
+      "consistency": {
+        "title": "עקביות",
+        "description": "תרגל/י את אותה טכניקה במשך שבוע לפני שמחליפים. היכרות משפרת יעילות."
       }
     }
+  }
   },
   "grounding": {
     "exercise": {
       "title": "5-4-3-2-1 Grounding",
-      "beginExercise": "Begin Exercise",
-      "practiceAgain": "Practice Again",
+      "beginExercise": "התחל תרגיל",
+      "practiceAgain": "תרגל שוב",
       "ofSteps": "of 5 steps",
       "itemsFound": "items found",
       "found": "found",
@@ -317,13 +317,13 @@
   "guidedBreathing": {
     "interface": {
       "begin": "Begin",
-      "elapsed": "elapsed",
-      "sessionProgress": "Session Progress",
+      "elapsed": "שחלף",
+      "sessionProgress": "התקדמות התרגול",
       "currentPhase": "Current Phase",
-      "beginExercise": "Begin Exercise",
+      "beginExercise": "התחל תרגיל",
       "resume": "Resume",
       "pause": "Pause",
-      "stop": "Stop",
+      "stop": "עצור",
       "exerciseComplete": "Exercise Complete",
       "excellentWork": "Excellent work! You've completed {completedCycles} cycles of {techniqueName} in {totalTime}.",
       "breathingOptimized": "Breathing optimized",
@@ -453,372 +453,372 @@
       }
     }
   },
-  "progressiveMuscleRelaxation": {
-    "interface": {
-      "title": "Progressive Muscle Relaxation",
-      "subtitle": "Systematic tension and release",
-      "beginExercise": "Begin Exercise",
-      "start": "Start",
-      "skip": "Skip",
-      "stop": "Stop",
-      "pause": "Pause",
-      "resume": "Resume",
-      "back": "Back",
-      "next": "Next",
-      "complete": "Complete",
-      "ofGroups": "of {count} groups",
-      "sessionProgress": "Session Progress",
-      "prepare": "Prepare to begin",
-      "tenseFor10": "Tense for 10 seconds",
-      "releaseFor10": "Release for 10 seconds",
-      "tense": "Tense",
-      "relax": "Relax",
-      "tensionSteps": "Tension Steps:",
-      "relaxationSteps": "Relaxation Steps:"
+  "progressiveMuscleRelaxation":{
+  "interface": {
+    "title": "הרפיה פרוגרסיבית של שרירים",
+    "subtitle": "כיווץ והרפיה שיטתיים",
+    "beginExercise": "התחל תרגיל",
+    "start": "התחל",
+    "skip": "דלג",
+    "stop": "עצור",
+    "pause": "השהה",
+    "resume": "המשך",
+    "back": "חזור",
+    "next": "הבא",
+    "complete": "השלם",
+    "ofGroups": "מתוך {count} קבוצות",
+    "sessionProgress": "התקדמות התרגול",
+    "prepare": "התכונן להתחלה",
+    "tenseFor10": "כווץ למשך 10 שניות",
+    "releaseFor10": "שחרר למשך 10 שניות",
+    "tense": "כווץ",
+    "relax": "הרפה",
+    "tensionSteps": "שלבי כיווץ:",
+    "relaxationSteps": "שלבי הרפיה:"
+  },
+  "completion": {
+    "title": "הושגה הרפיה עמוקה",
+    "description": "שחררת באופן שיטתי את המתח בכל הגוף. שים לב כמה השרירים מרגישים שונים לעומת תחילת התרגול.",
+    "benefits": {
+      "tensionReleased": "המתח שוחרר",
+      "bodyRelaxed": "הגוף נרגע"
+    }
+  },
+  "howItWorks": {
+    "title": "מה קורה בגוף שלך",
+    "description": "הרפיה פרוגרסיבית של שרירים (PMR) מלמדת את הגוף לזהות את ההבדל בין מתח להרפיה. כאשר מכווצים במכוון קבוצת שרירים למשך 5 שניות ואז משחררים, מופעלת תגובת ההרפיה, שהיא ההפך מתגובת הסטרס התורמת לחרדה ולמתח פיזי.",
+    "physiology": "הטכניקה מנצלת עיקרון פיזיולוגי טבעי: לאחר התכווצות חזקה, השריר נרפה באופן עמוק יותר מאשר במצב מנוחה רגיל. אפקט זה עוזר להגיע להרפיה עמוקה יותר מזו שניתן להשיג רק באמצעות רצון. ההתקדמות השיטתית דרך קבוצות שרירים שונות מבטיחה שכל הגוף יהנה מהתגובה המרגיעה.",
+    "awareness": "PMR מסייעת גם לשבור את מעגל המתח הכרוני שלרוב מלווה הפרעות חרדה. אנשים רבים מחזיקים מתח בכתפיים, בלסת או בבטן מבלי לשים לב. עבודה שיטתית על כל קבוצת שרירים מגבירה את המודעות לגוף ומלמדת לשחרר מתח לפני שהוא מצטבר.",
+    "tension": {
+      "title": "כיווץ ל-5 שניות",
+      "description": "כיווץ מכוון של השרירים מגביר מודעות ומכין לשחרור עמוק."
     },
-    "completion": {
-      "title": "Deep Relaxation Achieved",
-      "description": "You've systematically released tension throughout your entire body. Notice how different your muscles feel compared to when you started.",
-      "benefits": {
-        "tensionReleased": "Tension released",
-        "bodyRelaxed": "Body relaxed"
-      }
+    "release": {
+      "title": "שחרור ל-15 שניות",
+      "description": "הרפיה ממושכת מאפשרת לשרירים להגיע למנוחה עמוקה יותר מהרגיל."
+    }
+  },
+  "whenToPractice": {
+    "title": "מתי לתרגל",
+    "items": [
+      "לפני השינה לשיפור איכות השינה",
+      "כאשר חשים מתח או נוקשות פיזית",
+      "לאחר ימים מלחיצים לשחרור מתח מצטבר",
+      "כחלק משגרת הרפיה יומית"
+    ]
+  },
+  "whatYoullNotice": {
+    "title": "מה תרגיש/י",
+    "items": [
+      "המתח הפיזי נמס שריר אחר שריר",
+      "המחשבות מתפוגגות כאשר הגוף נרגע לעומק",
+      "Body feels heavy, warm, and completely at ease",
+      "Deep relaxation that improves sleep quality"
+    ]
+  },
+  "bestResults": {
+    "title": "Tips for best results",
+    "environment": {
+      "title": "Environment",
+      "description": "Find a quiet, comfortable place where you won't be interrupted. Comfortable temperature helps focus."
     },
-    "howItWorks": {
-      "title": "What happens in your body",
-      "description": "Progressive Muscle Relaxation (PMR) works by teaching your body to recognize the difference between tension and relaxation. When you deliberately tense a muscle group for 5 seconds and then release it, you activate the relaxation response, which is the opposite of the stress response that contributes to anxiety and physical tension.",
-      "physiology": "This technique leverages a natural physiological principle: after a muscle contracts intensely, it automatically relaxes more deeply than it would at rest. This rebound effect helps achieve a state of relaxation that's deeper than what you can typically reach through willpower alone. The systematic progression through different muscle groups ensures your entire body benefits from this relaxation response.",
-      "awareness": "PMR also helps break the cycle of chronic muscle tension that often accompanies anxiety disorders. Many people hold tension in their shoulders, jaw, or stomach without realizing it. By systematically working through each muscle group, you develop greater body awareness and learn to release tension before it builds up.",
-      "tension": {
-        "title": "5-Second Tension",
-        "description": "Deliberately contracting muscles activates awareness and prepares for deep release."
-      },
-      "release": {
-        "title": "15-Second Release",
-        "description": "Extended relaxation allows muscles to reach deeper rest than normal baseline."
-      }
+    "tension": {
+      "title": "Tension Level",
+      "description": "Tense muscles firmly but avoid pain. Focus on the contrast between tension and relaxation."
     },
-    "whenToPractice": {
-      "title": "When to practice",
-      "items": [
-        "Before bedtime for better sleep quality",
-        "When feeling physically tense or tight",
-        "After stressful days to release accumulated tension",
-        "As part of daily relaxation routine"
-      ]
-    },
-    "whatYoullNotice": {
-      "title": "What you'll notice",
-      "items": [
-        "Physical tension melts away muscle by muscle",
-        "Mental chatter quiets as body deeply relaxes",
-        "Body feels heavy, warm, and completely at ease",
-        "Deep relaxation that improves sleep quality"
-      ]
-    },
-    "bestResults": {
-      "title": "Tips for best results",
-      "environment": {
-        "title": "Environment",
-        "description": "Find a quiet, comfortable place where you won't be interrupted. Comfortable temperature helps focus."
+    "consistency": {
+      "title": "Consistency",
+      "description": "Regular practice improves your ability to recognize and release muscle tension quickly."
+    }
+  },
+  "science": {
+    "title": "The Science Behind Progressive Muscle Relaxation",
+    "description": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/38322293/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">Meta-analyses</a> indicate this technique reduces anxiety with a pooled effect size of 0.51 across 15 trials in adults. In COVID-19 patients, four weeks of practice improved sleep quality and lowered anxiety by 25%.",
+    "research": {
+      "anxiety": {
+        "title": "Anxiety & Depression Relief",
+        "description": "Adolescents experienced a <a href=\"https://pubmed.ncbi.nlm.nih.gov/38905787/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">20% drop in depression and stress levels</a> after regular sessions. Combined with other methods, it achieves a 30% greater reduction in symptoms than standalone interventions."
       },
-      "tension": {
-        "title": "Tension Level",
-        "description": "Tense muscles firmly but avoid pain. Focus on the contrast between tension and relaxation."
+      "medical": {
+        "title": "Medical Applications",
+        "description": "Cancer patients saw enhanced outcomes, with one review noting a <a href=\"https://pubmed.ncbi.nlm.nih.gov/38281450/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">0.62 effect on fatigue and emotional distress</a>. In COVID-19 patients, four weeks of practice improved sleep quality and lowered anxiety by 25%."
       },
-      "consistency": {
-        "title": "Consistency",
-        "description": "Regular practice improves your ability to recognize and release muscle tension quickly."
-      }
-    },
-    "science": {
-      "title": "The Science Behind Progressive Muscle Relaxation",
-      "description": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/38322293/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">Meta-analyses</a> indicate this technique reduces anxiety with a pooled effect size of 0.51 across 15 trials in adults. In COVID-19 patients, four weeks of practice improved sleep quality and lowered anxiety by 25%.",
-      "research": {
-        "anxiety": {
-          "title": "Anxiety & Depression Relief",
-          "description": "Adolescents experienced a <a href=\"https://pubmed.ncbi.nlm.nih.gov/38905787/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">20% drop in depression and stress levels</a> after regular sessions. Combined with other methods, it achieves a 30% greater reduction in symptoms than standalone interventions."
-        },
-        "medical": {
-          "title": "Medical Applications",
-          "description": "Cancer patients saw enhanced outcomes, with one review noting a <a href=\"https://pubmed.ncbi.nlm.nih.gov/38281450/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">0.62 effect on fatigue and emotional distress</a>. In COVID-19 patients, four weeks of practice improved sleep quality and lowered anxiety by 25%."
-        },
-        "longterm": {
-          "title": "Long-term Effectiveness",
-          "description": "Systematic reviews confirm its role in lowering trait anxiety, with <a href=\"https://pubmed.ncbi.nlm.nih.gov/2693491/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">effects comparable to biofeedback</a> in long-term use. Meta-analyses indicate consistent anxiety reduction with a pooled effect size of 0.51 across 15 trials in adults."
-        }
-      }
-    },
-    "muscleGroups": {
-      "rightHand": {
-        "name": "Right Hand & Forearm",
-        "shortName": "R Hand",
-        "tensionCue": [
-          "Make a tight fist",
-          "Squeeze hard",
-          "Feel the tension in your fingers and forearm"
-        ],
-        "relaxationCue": [
-          "Open your hand",
-          "Let it go completely limp",
-          "Feel fingers naturally curved and relaxed"
-        ]
-      },
-      "leftHand": {
-        "name": "Left Hand & Forearm",
-        "shortName": "L Hand",
-        "tensionCue": [
-          "Make a tight fist",
-          "Squeeze hard",
-          "Feel the tension in your fingers and forearm"
-        ],
-        "relaxationCue": [
-          "Open your hand",
-          "Let it go completely limp",
-          "Notice the warm, heavy feeling"
-        ]
-      },
-      "rightUpperArm": {
-        "name": "Right Upper Arm",
-        "shortName": "R Bicep",
-        "tensionCue": [
-          "Bend elbow",
-          "Flex bicep hard",
-          "Press forearm against upper arm",
-          "Feel the muscle bulge"
-        ],
-        "relaxationCue": [
-          "Lower your arm to your side",
-          "Let the muscle go soft",
-          "Feel the relief and heaviness"
-        ]
-      },
-      "leftUpperArm": {
-        "name": "Left Upper Arm",
-        "shortName": "L Bicep",
-        "tensionCue": [
-          "Bend elbow",
-          "Flex bicep hard",
-          "Press forearm against upper arm",
-          "Feel the strength"
-        ],
-        "relaxationCue": [
-          "Lower your arm to your side",
-          "Let tension drain away",
-          "Feel the heaviness"
-        ]
-      },
-      "forehead": {
-        "name": "Forehead & Scalp",
-        "shortName": "Forehead",
-        "tensionCue": [
-          "Raise eyebrows high",
-          "Wrinkle forehead",
-          "Feel the tension across your scalp"
-        ],
-        "relaxationCue": [
-          "Let eyebrows drop naturally",
-          "Smooth out forehead",
-          "Feel skin completely relax"
-        ]
-      },
-      "eyesNose": {
-        "name": "Eyes & Nose",
-        "shortName": "Face",
-        "tensionCue": [
-          "Squeeze eyes tight",
-          "Scrunch nose up",
-          "Make your whole face scrunch together"
-        ],
-        "relaxationCue": [
-          "Let face go soft",
-          "Eyes gently closed",
-          "Nose and cheeks smooth and relaxed"
-        ]
-      },
-      "mouthJaw": {
-        "name": "Mouth & Jaw",
-        "shortName": "Jaw",
-        "tensionCue": [
-          "Bite down hard",
-          "Clench teeth",
-          "Feel jaw muscles working"
-        ],
-        "relaxationCue": [
-          "Let jaw drop slightly open",
-          "Lips barely touching",
-          "Tongue resting softly"
-        ]
-      },
-      "neckThroat": {
-        "name": "Neck & Throat",
-        "shortName": "Neck",
-        "tensionCue": [
-          "Chin down to chest",
-          "Push head back",
-          "Create tension from both directions"
-        ],
-        "relaxationCue": [
-          "Let head find natural position",
-          "Neck long and loose",
-          "Throat open"
-        ]
-      },
-      "shoulders": {
-        "name": "Shoulders",
-        "shortName": "Shoulders",
-        "tensionCue": [
-          "Pull shoulders up high",
-          "Try to touch your ears",
-          "Feel the squeeze in upper back"
-        ],
-        "relaxationCue": [
-          "Let shoulders drop naturally",
-          "Feel them sink lower",
-          "Heavy and loose"
-        ]
-      },
-      "upperBackChest": {
-        "name": "Upper Back & Chest",
-        "shortName": "Upper Back",
-        "tensionCue": [
-          "Squeeze shoulder blades together",
-          "Arch back",
-          "Expand chest with deep breath"
-        ],
-        "relaxationCue": [
-          "Let back settle naturally",
-          "Shoulder blades apart",
-          "Chest soft and open"
-        ]
-      },
-      "abdomen": {
-        "name": "Abdomen",
-        "shortName": "Stomach",
-        "tensionCue": [
-          "Tighten abs hard",
-          "Pull belly button in",
-          "Make stomach like a rock"
-        ],
-        "relaxationCue": [
-          "Let stomach go soft",
-          "Breathe into belly",
-          "Feel it rise and fall naturally"
-        ]
-      },
-      "lowerBack": {
-        "name": "Lower Back",
-        "shortName": "L Back",
-        "tensionCue": [
-          "Arch lower back gently",
-          "Push stomach out",
-          "Feel the curve in spine"
-        ],
-        "relaxationCue": [
-          "Let back settle to natural curve",
-          "Supported and comfortable",
-          "Tension melting"
-        ]
-      },
-      "hipsButtocks": {
-        "name": "Hips & Buttocks",
-        "shortName": "Glutes",
-        "tensionCue": [
-          "Squeeze buttocks together hard",
-          "Clench muscles tight",
-          "Feel tension in hips"
-        ],
-        "relaxationCue": [
-          "Let buttocks go soft",
-          "Feel them spread naturally",
-          "Heavy and relaxed"
-        ]
-      },
-      "rightThigh": {
-        "name": "Right Thigh",
-        "shortName": "R Thigh",
-        "tensionCue": [
-          "Straighten right leg",
-          "Flex thigh muscle hard",
-          "Feel it firm and strong"
-        ],
-        "relaxationCue": [
-          "Let leg rest naturally",
-          "Thigh muscle soft and loose",
-          "Heavy and comfortable"
-        ]
-      },
-      "leftThigh": {
-        "name": "Left Thigh",
-        "shortName": "L Thigh",
-        "tensionCue": [
-          "Straighten left leg",
-          "Flex thigh muscle hard",
-          "Feel the strength"
-        ],
-        "relaxationCue": [
-          "Let leg rest naturally",
-          "Thigh completely relaxed",
-          "Notice the contrast"
-        ]
-      },
-      "rightCalfShin": {
-        "name": "Right Calf & Shin",
-        "shortName": "R Calf",
-        "tensionCue": [
-          "Point foot down hard",
-          "Then flex up toward shin",
-          "Feel both sides working"
-        ],
-        "relaxationCue": [
-          "Let foot rest naturally",
-          "Calf and shin loose",
-          "Completely soft"
-        ]
-      },
-      "leftCalfShin": {
-        "name": "Left Calf & Shin",
-        "shortName": "L Calf",
-        "tensionCue": [
-          "Point foot down hard",
-          "Then flex up toward shin",
-          "Feel muscles engage"
-        ],
-        "relaxationCue": [
-          "Let foot rest naturally",
-          "All lower leg muscles relaxed and heavy"
-        ]
-      },
-      "rightFoot": {
-        "name": "Right Foot",
-        "shortName": "R Foot",
-        "tensionCue": [
-          "Curl toes down tight",
-          "Scrunch them up",
-          "Feel tension in foot arch"
-        ],
-        "relaxationCue": [
-          "Let toes uncurl naturally",
-          "Foot completely soft",
-          "Warm and relaxed"
-        ]
-      },
-      "leftFoot": {
-        "name": "Left Foot",
-        "shortName": "L Foot",
-        "tensionCue": [
-          "Curl toes down tight",
-          "Scrunch them up",
-          "Feel arch working"
-        ],
-        "relaxationCue": [
-          "Let toes spread naturally",
-          "Foot loose and relaxed",
-          "Tension gone"
-        ]
+      "longterm": {
+        "title": "Long-term Effectiveness",
+        "description": "Systematic reviews confirm its role in lowering trait anxiety, with <a href=\"https://pubmed.ncbi.nlm.nih.gov/2693491/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">effects comparable to biofeedback</a> in long-term use. Meta-analyses indicate consistent anxiety reduction with a pooled effect size of 0.51 across 15 trials in adults."
       }
     }
   },
+  "muscleGroups": {
+    "rightHand": {
+      "name": "Right Hand & Forearm",
+      "shortName": "R Hand",
+      "tensionCue": [
+        "Make a tight fist",
+        "Squeeze hard",
+        "Feel the tension in your fingers and forearm"
+      ],
+      "relaxationCue": [
+        "Open your hand",
+        "Let it go completely limp",
+        "Feel fingers naturally curved and relaxed"
+      ]
+    },
+    "leftHand": {
+      "name": "Left Hand & Forearm",
+      "shortName": "L Hand",
+      "tensionCue": [
+        "Make a tight fist",
+        "Squeeze hard",
+        "Feel the tension in your fingers and forearm"
+      ],
+      "relaxationCue": [
+        "Open your hand",
+        "Let it go completely limp",
+        "Notice the warm, heavy feeling"
+      ]
+    },
+    "rightUpperArm": {
+      "name": "Right Upper Arm",
+      "shortName": "R Bicep",
+      "tensionCue": [
+        "Bend elbow",
+        "Flex bicep hard",
+        "Press forearm against upper arm",
+        "Feel the muscle bulge"
+      ],
+      "relaxationCue": [
+        "Lower your arm to your side",
+        "Let the muscle go soft",
+        "Feel the relief and heaviness"
+      ]
+    },
+    "leftUpperArm": {
+      "name": "Left Upper Arm",
+      "shortName": "L Bicep",
+      "tensionCue": [
+        "Bend elbow",
+        "Flex bicep hard",
+        "Press forearm against upper arm",
+        "Feel the strength"
+      ],
+      "relaxationCue": [
+        "Lower your arm to your side",
+        "Let tension drain away",
+        "Feel the heaviness"
+      ]
+    },
+    "forehead": {
+      "name": "Forehead & Scalp",
+      "shortName": "Forehead",
+      "tensionCue": [
+        "Raise eyebrows high",
+        "Wrinkle forehead",
+        "Feel the tension across your scalp"
+      ],
+      "relaxationCue": [
+        "Let eyebrows drop naturally",
+        "Smooth out forehead",
+        "Feel skin completely relax"
+      ]
+    },
+    "eyesNose": {
+      "name": "Eyes & Nose",
+      "shortName": "Face",
+      "tensionCue": [
+        "Squeeze eyes tight",
+        "Scrunch nose up",
+        "Make your whole face scrunch together"
+      ],
+      "relaxationCue": [
+        "Let face go soft",
+        "Eyes gently closed",
+        "Nose and cheeks smooth and relaxed"
+      ]
+    },
+    "mouthJaw": {
+      "name": "Mouth & Jaw",
+      "shortName": "Jaw",
+      "tensionCue": [
+        "Bite down hard",
+        "Clench teeth",
+        "Feel jaw muscles working"
+      ],
+      "relaxationCue": [
+        "Let jaw drop slightly open",
+        "Lips barely touching",
+        "Tongue resting softly"
+      ]
+    },
+    "neckThroat": {
+      "name": "Neck & Throat",
+      "shortName": "Neck",
+      "tensionCue": [
+        "Chin down to chest",
+        "Push head back",
+        "Create tension from both directions"
+      ],
+      "relaxationCue": [
+        "Let head find natural position",
+        "Neck long and loose",
+        "Throat open"
+      ]
+    },
+    "shoulders": {
+      "name": "Shoulders",
+      "shortName": "Shoulders",
+      "tensionCue": [
+        "Pull shoulders up high",
+        "Try to touch your ears",
+        "Feel the squeeze in upper back"
+      ],
+      "relaxationCue": [
+        "Let shoulders drop naturally",
+        "Feel them sink lower",
+        "Heavy and loose"
+      ]
+    },
+    "upperBackChest": {
+      "name": "Upper Back & Chest",
+      "shortName": "Upper Back",
+      "tensionCue": [
+        "Squeeze shoulder blades together",
+        "Arch back",
+        "Expand chest with deep breath"
+      ],
+      "relaxationCue": [
+        "Let back settle naturally",
+        "Shoulder blades apart",
+        "Chest soft and open"
+      ]
+    },
+    "abdomen": {
+      "name": "Abdomen",
+      "shortName": "Stomach",
+      "tensionCue": [
+        "Tighten abs hard",
+        "Pull belly button in",
+        "Make stomach like a rock"
+      ],
+      "relaxationCue": [
+        "Let stomach go soft",
+        "Breathe into belly",
+        "Feel it rise and fall naturally"
+      ]
+    },
+    "lowerBack": {
+      "name": "Lower Back",
+      "shortName": "L Back",
+      "tensionCue": [
+        "Arch lower back gently",
+        "Push stomach out",
+        "Feel the curve in spine"
+      ],
+      "relaxationCue": [
+        "Let back settle to natural curve",
+        "Supported and comfortable",
+        "Tension melting"
+      ]
+    },
+    "hipsButtocks": {
+      "name": "Hips & Buttocks",
+      "shortName": "Glutes",
+      "tensionCue": [
+        "Squeeze buttocks together hard",
+        "Clench muscles tight",
+        "Feel tension in hips"
+      ],
+      "relaxationCue": [
+        "Let buttocks go soft",
+        "Feel them spread naturally",
+        "Heavy and relaxed"
+      ]
+    },
+    "rightThigh": {
+      "name": "Right Thigh",
+      "shortName": "R Thigh",
+      "tensionCue": [
+        "Straighten right leg",
+        "Flex thigh muscle hard",
+        "Feel it firm and strong"
+      ],
+      "relaxationCue": [
+        "Let leg rest naturally",
+        "Thigh muscle soft and loose",
+        "Heavy and comfortable"
+      ]
+    },
+    "leftThigh": {
+      "name": "Left Thigh",
+      "shortName": "L Thigh",
+      "tensionCue": [
+        "Straighten left leg",
+        "Flex thigh muscle hard",
+        "Feel the strength"
+      ],
+      "relaxationCue": [
+        "Let leg rest naturally",
+        "Thigh completely relaxed",
+        "Notice the contrast"
+      ]
+    },
+    "rightCalfShin": {
+      "name": "Right Calf & Shin",
+      "shortName": "R Calf",
+      "tensionCue": [
+        "Point foot down hard",
+        "Then flex up toward shin",
+        "Feel both sides working"
+      ],
+      "relaxationCue": [
+        "Let foot rest naturally",
+        "Calf and shin loose",
+        "Completely soft"
+      ]
+    },
+    "leftCalfShin": {
+      "name": "Left Calf & Shin",
+      "shortName": "L Calf",
+      "tensionCue": [
+        "Point foot down hard",
+        "Then flex up toward shin",
+        "Feel muscles engage"
+      ],
+      "relaxationCue": [
+        "Let foot rest naturally",
+        "All lower leg muscles relaxed and heavy"
+      ]
+    },
+    "rightFoot": {
+      "name": "Right Foot",
+      "shortName": "R Foot",
+      "tensionCue": [
+        "Curl toes down tight",
+        "Scrunch them up",
+        "Feel tension in foot arch"
+      ],
+      "relaxationCue": [
+        "Let toes uncurl naturally",
+        "Foot completely soft",
+        "Warm and relaxed"
+      ]
+    },
+    "leftFoot": {
+      "name": "Left Foot",
+      "shortName": "L Foot",
+      "tensionCue": [
+        "Curl toes down tight",
+        "Scrunch them up",
+        "Feel arch working"
+      ],
+      "relaxationCue": [
+        "Let toes spread naturally",
+        "Foot loose and relaxed",
+        "Tension gone"
+      ]
+    }
+  }
+},
   "peacefulVisualization": {
     "interface": {
       "beginExercise": "Begin {sceneName}",
