@@ -245,10 +245,13 @@ const resetSeed = (sceneIndex) => {
 const init3DScene = () => {
   if (!visualizationCanvas.value) return;
 
+  const width = visualizationCanvas.value?.clientWidth || 800;
+  const height = visualizationCanvas.value?.clientHeight || 600;
+
   scene = new THREE.Scene();
   camera = new THREE.PerspectiveCamera(
     75,
-    visualizationCanvas.value.clientWidth / visualizationCanvas.value.clientHeight,
+    width / height,
     0.1,
     1000
   );
@@ -258,7 +261,7 @@ const init3DScene = () => {
     antialias: true,
   });
 
-  renderer.setSize(visualizationCanvas.value.clientWidth, visualizationCanvas.value.clientHeight);
+  renderer.setSize(width, height);
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
   createEnvironment();
@@ -691,11 +694,14 @@ const completeExercise = () => {
 
 // Handle window resize for 3D canvas
 const handleResize = () => {
-  if (camera && renderer && visualizationCanvas.value) {
-    camera.aspect = visualizationCanvas.value.clientWidth / visualizationCanvas.value.clientHeight;
-    camera.updateProjectionMatrix();
-    renderer.setSize(visualizationCanvas.value.clientWidth, visualizationCanvas.value.clientHeight);
-  }
+  if (!camera || !renderer || !visualizationCanvas.value) return;
+
+  const width = visualizationCanvas.value?.clientWidth || 800;
+  const height = visualizationCanvas.value?.clientHeight || 600;
+
+  camera.aspect = width / height;
+  camera.updateProjectionMatrix();
+  renderer.setSize(width, height);
 };
 
 onMounted(() => {
