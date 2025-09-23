@@ -36,23 +36,18 @@
       "description": "ארגונים מובילים המספקים מידע ומשאבים מבוססי-מחקר לחרדה ודיכאון:",
       "list": [
         {
-          "name": "Anxiety & Depression Association of America (ADAA)",
-          "url": "https://adaa.org",
+          "name": "אנוש - העמותה הישראלית לבריאות הנפש",
+          "url": "https://www.enosh.org.il/",
           "description": "עמותה בינלאומית ללא מטרות רווח המוקדשת למניעה, טיפול וריפוי חרדה, דיכאון והפרעות נלוות. מציעה תכנים חינוכיים, וובינרים ומאגר מטפלים."
         },
         {
-          "name": "National Institute of Mental Health (NIMH)",
-          "url": "https://www.nimh.nih.gov/health/topics/anxiety-disorders",
-          "description": "הסוכנות הפדרלית המובילה למחקר בתחום בריאות הנפש, המספקת מידע מבוסס ראיות על הפרעות חרדה ודרכי טיפול."
+          "name": "המרכז הלאומי לבריאות הנפש – משרד הבריאות",
+          "url": "https://www.gov.il/he/departments/units/mental_health_unit/govil-landing-page",
+          "description": "האגף עוסק בקביעת מדיניות בריאות הנפש ויישומה במערך הארגוני והטיפולי בכל רצף השירותים."
         },
         {
-          "name": "Mental Health America (MHA)",
-          "url": "https://www.mhanational.org/",
-          "description": "ארגון קהילתי ללא מטרות רווח המציע כלים חינמיים להערכה עצמית, משאבים מעשיים והכוונה לשיחות בנושא בריאות הנפש."
-        },
-        {
-          "name": "American Psychological Association (APA)",
-          "url": "https://www.apa.org/topics/anxiety",
+          "name": "הסתדרות הפסיכולוגים בישראל",
+          "url": "https://www.psychology.org.il/",
           "description": "הארגון המדעי המוביל המספק מידע מקיף על טיפולים בחרדה, אפשרויות טיפול ותובנות ממומחים."
         }
       ]
