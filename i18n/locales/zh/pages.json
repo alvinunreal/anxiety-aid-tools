@@ -32,23 +32,23 @@
       ]
     },
     "organizations": {
-      "title": "权威心理健康机构",
-      "description": "以下机构提供经过科学验证的焦虑与抑郁相关信息和专业资源：",
+      "title": "专业心理健康机构",
+      "description": "以下权威机构提供科学可靠的心理健康信息与专业资源：",
       "list": [
         {
-          "name": "世界卫生组织中国 - 心理健康",
+          "name": "世界卫生组织中国办事处 - 心理健康",
           "url": "https://www.who.int/china/zh/health-topics/mental-health",
-          "description": "领先机构提供权威的、基于证据的焦虑障碍和治疗信息。"
+          "description": "国际权威组织，提供基于循证医学的焦虑障碍防治指南与科学信息。"
         },
         {
           "name": "中国心理学会",
           "url": "https://www.cpsbeijing.org/",
-          "description": "专业组织提供心理健康资源、筛查工具和实用指导。"
+          "description": "国内心理学专业学术组织，提供心理健康科普资源、评估工具和专业指导。"
         },
         {
-          "name": "国家卫生健康委员会 - 心理健康",
+          "name": "国家卫生健康委员会",
           "url": "https://www.nhc.gov.cn/",
-          "description": "政府机构提供关于焦虑治疗、疗法选项和专家见解的深入信息。"
+          "description": "国家卫生健康主管部门，发布心理健康政策、治疗规范和权威健康指导。"
         }
       ]
     }
