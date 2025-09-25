@@ -11,7 +11,7 @@
   },
   "header": {
     "title": "AnxietyAidTools",
-    "subtitle": "开源焦虑工具集"
+    "subtitle": "焦虑舒缓工具集"
   },
   "hero": {
     "title": "焦虑舒缓工具集",
@@ -27,6 +27,6 @@
   "error": {
     "page-not-found": "页面未找到",
     "return": "返回主页",
-    "message": "您访问的页面不存在或已移动。让我们带您回到焦虑工具集主页。"
+    "message": "您访问的页面不存在或已移动。让我们带您回到焦虑舒缓工具集主页。"
   }
 }
