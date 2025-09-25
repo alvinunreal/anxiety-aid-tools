@@ -61,37 +61,6 @@
       "title": "תרום",
       "github": "גיטהאב",
       "discussions": "דיונים"
-    },
-    "projects": {
-      "title": "פיתוח Boring Dystopia",
-      "awesomeClaude": {
-        "name": "Claude המומלץ",
-        "description": "כלים, SDKs, שרתי MCP ואינטגרציות נבחרות עבור Claude AI"
-      },
-      "codeCheatsheet": {
-        "name": "דף עזר לקוד Claude",
-        "description": "מדריך מהיר להתמצאות בקוד של Claude"
-      },
-      "awesomeClaudeCode": {
-        "name": "Claude Code המומלץ",
-        "description": "אוסף שנבנה על ידי הקהילה עבור Claude Code"
-      },
-      "tmuxai": {
-        "name": "TmuxAI",
-        "description": "עוזר מסוף מבוסס בינה מלאכותית שאינו פולשני"
-      },
-      "tmuxVsWarp": {
-        "name": "TmuxAI לעומת Warp",
-        "description": "מדריך השוואה"
-      },
-      "tmuxGuide": {
-        "name": "מדריך התחלה ל-Tmux",
-        "description": "מדריך למתחילים ב-Tmux"
-      },
-      "tmuxCheatsheet": {
-        "name": "דף עזר ל-Tmux",
-        "description": "מדריך מהיר ל-Tmux"
-      }
     }
   }
 }

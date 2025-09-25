@@ -66,37 +66,6 @@
       "title": "Помочь проекту",
       "github": "GitHub",
       "discussions": "Обсуждения"
-    },
-    "projects": {
-      "title": "Разработка Boring Dystopia",
-      "awesomeClaude": {
-        "name": "Awesome Claude",
-        "description": "Подборка инструментов, SDK и интеграций для Claude AI"
-      },
-      "codeCheatsheet": {
-        "name": "Claude Code Cheatsheet", 
-        "description": "Быстрая шпаргалка по Claude Code"
-      },
-      "awesomeClaudeCode": {
-        "name": "Awesome Claude Code",
-        "description": "Коллекция сообщества по Claude Code"
-      },
-      "tmuxai": {
-        "name": "TmuxAI",
-        "description": "Помощник в терминале с AI, ненавязчивый"
-      },
-      "tmuxVsWarp": {
-        "name": "TmuxAI vs Warp",
-        "description": "Сравнительный гид"
-      },
-      "tmuxGuide": {
-        "name": "Tmux Начало работы",
-        "description": "Руководство для новичков"
-      },
-      "tmuxCheatsheet": {
-        "name": "Tmux Cheatsheet",
-        "description": "Быстрая шпаргалка по tmux"
-      }
     }
   }
 }

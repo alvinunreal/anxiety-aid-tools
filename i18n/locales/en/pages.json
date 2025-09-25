@@ -67,40 +67,6 @@
       "title": "Contribute",
       "github": "GitHub",
       "discussions": "Discussions"
-    },
-    "projects": {
-      "title": "Boring Dystopia Development",
-      "awesomeClaude": {
-        "name": "Awesome Claude",
-        "description": "Curated tools, SDKs, MCP servers, and integrations for Claude AI"
-      },
-      "codeCheatsheet": {
-        "name": "Claude Code Cheatsheet", 
-        "description": "Quick reference guide for Claude Code"
-      },
-      "awesomeClaudeCode": {
-        "name": "Awesome Claude Code",
-        "description": "Community-curated collection for Claude Code"
-      },
-      "tmuxai": {
-        "name": "TmuxAI",
-        "description": "AI-Powered, Non-Intrusive Terminal Assistant"
-      },
-      "tmuxVsWarp": {
-        "name": "TmuxAI vs Warp",
-        "description": "Comparison guide"
-      },
-      "tmuxGuide": {
-        "name": "Tmux Getting Started",
-        "description": "Beginner tmux guide"
-      },
-      "tmuxCheatsheet": {
-        "name": "Tmux Cheat Sheet",
-        "description": "Quick tmux reference"
-      },
-      "freeSubStats": {
-        "name": "FreeSubStats"
-      }
     }
   }
 }
