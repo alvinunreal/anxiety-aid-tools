@@ -2,8 +2,20 @@ import { defineNuxtConfig } from "nuxt/config";
 
 export default defineNuxtConfig({
   ssr: true,
-  devtools: { enabled: true },
-
+  devtools: { enabled: false },
+  sourcemap: {
+    client: false,
+    server: false
+  },
+  $production: {
+    scripts: {
+      registry: {
+        googleAnalytics: {
+          id: 'G-TMXBQDETE3',
+        }
+      }
+    }
+  },
   runtimeConfig: {
     public: {
       baseUrl: process.env.VITE_BASE_URL || 'https://anxietyaidtools.com'
@@ -42,6 +54,8 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
     "@nuxtjs/i18n",
     '@sentry/nuxt/module',
+    "@vite-pwa/nuxt",
+    '@nuxt/scripts',
   ],
 
   tailwindcss: {
@@ -188,7 +202,30 @@ export default defineNuxtConfig({
           'zh/pages.json',
           'zh/meta.json'
         ]
-      }
+      },
+      {
+        code: 'ru',
+        language: 'ru',
+        name: 'Русский',
+        files: [
+          'ru/navigation.json',
+          'ru/techniques.json',
+          'ru/exercises.json',
+          'ru/pages.json',
+          'ru/meta.json'
+        ]
+      },{
+        code: 'he',
+        language: 'he',
+        name: 'Hebrew',
+        files: [
+          'he/navigation.json',
+          'he/techniques.json',
+          'he/exercises.json',
+          'he/pages.json',
+          'he/meta.json'
+        ]
+      },
     ],
     defaultLocale: 'en',
     strategy: 'prefix_except_default'
@@ -207,5 +244,45 @@ export default defineNuxtConfig({
 
   sourcemap: {
     client: 'hidden',
+  },
+
+  pwa: {
+    registerType: 'autoUpdate',
+    workbox: {
+      navigateFallback: '/',
+      globPatterns: ['**/*.{js,css,html,png,svg,ico}'],
+    },
+    client: {
+      installPrompt: true,
+    },
+    manifest: {
+      name: 'Anxiety Aid Tools',
+      short_name: 'AAT',
+      description: 'Evidence-based techniques to find calm when you need it most',
+      theme_color: '#9333ea',
+      background_color: '#ffffff',
+      display: 'standalone',
+      scope: '/',
+      start_url: '/',
+      icons: [
+        {
+          src: '/aat.svg',
+          sizes: 'any',
+          type: 'image/svg+xml'
+        },
+        {
+          src: '/web-app-manifest-192x192.png',
+          sizes: '192x192',
+          type: 'image/png',
+          purpose: 'maskable'
+        },
+        {
+          src: '/web-app-manifest-512x512.png',
+          sizes: '512x512',
+          type: 'image/png',
+          purpose: 'maskable'
+        }
+      ]
+    }
   },
 });

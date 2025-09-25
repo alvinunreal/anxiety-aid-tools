@@ -36,24 +36,19 @@
       "description": "Principales organisations offrant des informations et ressources fondées sur des preuves pour l'anxiété et la dépression :",
       "list": [
         {
-          "name": "Anxiety & Depression Association of America (ADAA)",
-          "url": "https://adaa.org",
-          "description": "Organisation internationale à but non lucratif dédiée à la prévention, au traitement et à la guérison de l'anxiété, de la dépression et des troubles associés. Propose du contenu éducatif, des webinaires et un annuaire de thérapeutes."
+          "name": "Psycom – Santé Mentale Info",
+          "url": "https://www.psycom.org/",
+          "description": "Organisme public d'information sur la santé mentale, offrant du contenu éducatif, des ressources sur l'anxiété et la dépression, et des orientations vers des professionnels."
         },
         {
-          "name": "National Institute of Mental Health (NIMH)",
-          "url": "https://www.nimh.nih.gov/health/topics/anxiety-disorders",
-          "description": "Principal organisme fédéral de recherche en santé mentale fournissant des informations fiables et fondées sur des preuves sur les troubles anxieux et leurs traitements."
+          "name": "Fondation de France - Santé Mentale",
+          "url": "https://www.fondationdefrance.org/fr/sante-mentale",
+          "description": "Fondation soutenant la recherche et les projets sur la santé mentale, y compris la prévention et le traitement des troubles anxieux et dépressifs."
         },
         {
-          "name": "Mental Health America (MHA)",
-          "url": "https://www.mhanational.org/",
-          "description": "Organisation communautaire à but non lucratif offrant des outils de dépistage gratuits, des ressources pratiques et des conseils pour parler de santé mentale."
-        },
-        {
-          "name": "American Psychological Association (APA)",
-          "url": "https://www.apa.org/topics/anxiety",
-          "description": "Organisation scientifique majeure fournissant des informations détaillées sur le traitement de l'anxiété, les options thérapeutiques et des analyses d'experts."
+          "name": "Unafam (Union Nationale des Amis et Familles de Malades Psychiques)",
+          "url": "https://www.unafam.org/",
+          "description": "Association nationale offrant du soutien aux familles, des ressources pratiques et des informations sur les troubles mentaux comme l'anxiété et la dépression."
         }
       ]
     }

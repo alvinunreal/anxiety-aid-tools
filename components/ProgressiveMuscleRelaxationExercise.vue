@@ -38,57 +38,42 @@
       />
 
       <!-- Main Exercise Area -->
-      <div class="border border-gray-200 dark:border-slate-600 bg-white dark:bg-slate-800 p-6 md:p-8 transition-colors duration-200">
-        <div class="mx-auto mb-8 flex md:min-h-[700px] max-w-2xl flex-col gap-4">
+      <div class="border border-gray-200 dark:border-slate-600 bg-white dark:bg-slate-800 p-4 md:p-6 transition-colors duration-200">
+        <div class="mx-auto mb-6 flex md:min-h-[400px] max-w-2xl flex-col gap-3">
           <!-- Large Visual State -->
           <div class="text-center">
             <div
-              class="mx-auto mb-6 flex h-32 w-32 items-center justify-center transition-all duration-300"
-              :class="[
-                currentState === 'prepare'
-                  ? 'bg-gray-100 dark:bg-slate-700 text-gray-600 dark:text-slate-300'
-                  : currentState === 'tense'
-                    ? 'bg-red-100 dark:bg-red-900/20 text-red-600 dark:text-red-400'
-                    : currentState === 'relax'
-                      ? 'bg-green-100 dark:bg-green-900/20 text-green-600 dark:text-green-400'
-                      : 'bg-blue-100 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400',
-              ]"
+              class="mx-auto mb-4 flex h-64 w-64 items-center justify-center rounded-full"
             >
-              <Icon
-                :name="
-                  currentState === 'prepare'
-                    ? currentMuscleGroup.icon
-                    : currentState === 'tense'
-                      ? 'ph:lightning'
-                      : 'ph:hand-peace'
-                "
-                class="text-6xl"
+              <img
+                :src="`/pmr/${currentMuscleGroup.key}-${currentState === 'tense' ? 'a' : currentState === 'relax' ? 'b' : 'a'}.svg`"
+                :alt="`${currentMuscleGroup.name} - ${currentState === 'tense' ? $t('progressiveMuscleRelaxation.interface.tensePhase') : currentState === 'relax' ? $t('progressiveMuscleRelaxation.interface.relaxPhase') : $t('progressiveMuscleRelaxation.interface.preparePhase')}`"
+                role="img"
+                :aria-label="`${currentMuscleGroup.name} muscle group illustration showing ${currentState === 'tense' ? 'tension' : currentState === 'relax' ? 'relaxation' : 'preparation'} phase`"
+                class="w-full h-full object-contain p-6"
               />
             </div>
 
             <!-- Clear Action Text -->
-            <div class="mb-6">
-              <p v-if="currentState === 'prepare'" class="mb-3 text-2xl font-light text-gray-700 dark:text-slate-200 transition-colors duration-200">
+            <div class="mb-4">
+              <p v-if="currentState === 'prepare'" class="mb-2 text-xl font-light text-gray-700 dark:text-slate-200 transition-colors duration-200">
                 {{ currentMuscleGroup.name }}
               </p>
-              <p v-else-if="currentState === 'tense'" class="mb-3 text-2xl font-light text-gray-700 dark:text-slate-200 transition-colors duration-200">
+              <p v-else-if="currentState === 'tense'" class="mb-2 text-xl font-light text-gray-700 dark:text-slate-200 transition-colors duration-200">
                 {{ $t('progressiveMuscleRelaxation.interface.tense') }}
               </p>
-              <p v-else-if="currentState === 'relax'" class="mb-3 text-2xl font-light text-gray-700 dark:text-slate-200 transition-colors duration-200">
+              <p v-else-if="currentState === 'relax'" class="mb-2 text-xl font-light text-gray-700 dark:text-slate-200 transition-colors duration-200">
                 {{ $t('progressiveMuscleRelaxation.interface.relax') }}
-              </p>
-
-              <p v-if="currentState === 'prepare'" class="text-lg text-gray-600 dark:text-slate-300 transition-colors duration-200">
-                {{ currentMuscleGroup.instruction_title }}
               </p>
             </div>
 
-            <!-- Timer (Only During Active Phases) -->
-            <div v-if="currentState !== 'prepare'" class="mb-6">
-              <div class="relative mx-auto h-20 w-20">
-                <svg class="h-20 w-20 -rotate-90 transform" viewBox="0 0 32 32">
+            <!-- Timer (Show in all states) -->
+            <div class="mb-4">
+              <div class="relative mx-auto h-16 w-16">
+                <svg class="h-16 w-16 -rotate-90 transform" viewBox="0 0 32 32">
                   <circle cx="16" cy="16" r="14" stroke="#e5e7eb" stroke-width="3" fill="none" />
                   <circle
+                    v-if="currentState !== 'prepare'"
                     cx="16"
                     cy="16"
                     r="14"
@@ -101,8 +86,8 @@
                   />
                 </svg>
                 <div class="absolute inset-0 flex items-center justify-center">
-                  <span class="text-2xl font-light text-gray-700 dark:text-slate-200 transition-colors duration-200">{{
-                    Math.ceil(timeRemaining / 1000)
+                  <span class="text-xl font-light text-gray-700 dark:text-slate-200 transition-colors duration-200">{{
+                    currentState === 'prepare' ? prepareCountdown : Math.ceil(timeRemaining / 1000)
                   }}</span>
                 </div>
               </div>
@@ -110,93 +95,99 @@
           </div>
 
           <!-- Step-by-step Action Cue -->
-          <div class="mb-6 w-full">
-            <div v-if="currentState === 'tense'" class="bg-red-50 dark:bg-red-900/20 p-4 transition-colors duration-200">
-              <p class="mb-3 font-semibold text-red-800 dark:text-red-300 transition-colors duration-200">{{ $t('progressiveMuscleRelaxation.interface.tensionSteps') }}</p>
-              <ol class="space-y-2 text-red-700 dark:text-red-300 transition-colors duration-200">
-                <li
-                  v-for="(step, index) in currentMuscleGroup.tension_cue"
-                  :key="index"
-                  class="flex items-start gap-2"
+          <div class="mb-4 w-full">
+            <!-- Always show tabbed interface -->
+            <div class="border border-gray-200 dark:border-slate-600 rounded-lg overflow-hidden">
+              <!-- Tab buttons -->
+              <div class="flex border-b border-gray-200 dark:border-slate-600">
+                <button
+                  @click="prepareCueTab = 'tension'"
+                  :class="[
+                    'flex-1 px-3 py-2 text-sm font-medium transition-colors',
+                    (currentState === 'tense' || (currentState === 'prepare' && prepareCueTab === 'tension'))
+                      ? 'bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-400 border-b-2 border-red-500'
+                      : 'bg-gray-50 dark:bg-slate-700 text-gray-600 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-600'
+                  ]"
                 >
-                  <span
-                    class="flex h-5 w-5 flex-shrink-0 items-center justify-center bg-red-200 dark:bg-red-800 text-xs font-bold text-red-800 dark:text-red-200 transition-colors duration-200"
-                    >{{ index + 1 }}</span
-                  >
-                  <span>{{ step }}</span>
-                </li>
-              </ol>
-            </div>
-
-            <div v-if="currentState === 'relax'" class="bg-green-50 dark:bg-green-900/20 p-4 transition-colors duration-200">
-              <p class="mb-3 font-semibold text-green-800 dark:text-green-300 transition-colors duration-200">{{ $t('progressiveMuscleRelaxation.interface.relaxationSteps') }}</p>
-              <ol class="space-y-2 text-green-700 dark:text-green-300 transition-colors duration-200">
-                <li
-                  v-for="(step, index) in currentMuscleGroup.relaxation_cue"
-                  :key="index"
-                  class="flex items-start gap-2"
+                  {{ $t('progressiveMuscleRelaxation.interface.tensionSteps') }}
+                </button>
+                <button
+                  @click="prepareCueTab = 'relaxation'"
+                  :class="[
+                    'flex-1 px-3 py-2 text-sm font-medium transition-colors',
+                    (currentState === 'relax' || (currentState === 'prepare' && prepareCueTab === 'relaxation'))
+                      ? 'bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-400 border-b-2 border-green-500'
+                      : 'bg-gray-50 dark:bg-slate-700 text-gray-600 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-600'
+                  ]"
                 >
-                  <span
-                    class="flex h-5 w-5 flex-shrink-0 items-center justify-center bg-green-200 dark:bg-green-800 text-xs font-bold text-green-800 dark:text-green-200 transition-colors duration-200"
-                    >{{ index + 1 }}</span
-                  >
-                  <span>{{ step }}</span>
-                </li>
-              </ol>
-            </div>
-          </div>
-
-          <!-- Progress Section -->
-          <div class="mb-6 w-full">
-            <!-- Session Progress -->
-            <div class="mb-4">
-              <div class="mb-2 flex items-center justify-between">
-                <span class="text-sm font-medium text-gray-700 dark:text-slate-300 transition-colors duration-200">{{ $t('progressiveMuscleRelaxation.interface.sessionProgress') }}</span>
-                <span class="text-sm text-gray-500 dark:text-slate-400 transition-colors duration-200"
-                  >{{ currentGroupIndex + 1 }}/{{ muscleGroups.length }}</span
-                >
+                  {{ $t('progressiveMuscleRelaxation.interface.relaxationSteps') }}
+                </button>
               </div>
-              <!-- Stepped progress indicator -->
-              <div class="flex gap-1">
-                <div
-                  v-for="(group, index) in muscleGroups"
-                  :key="index"
-                  class="h-1.5 flex-1 transition-all duration-100"
-                  :style="{
-                    backgroundColor: index <= currentGroupIndex ? '#3b82f6' : '#e5e7eb',
-                  }"
-                ></div>
+              
+              <!-- Tab content -->
+              <div class="p-3">
+                <ol v-if="currentState === 'tense' || (currentState === 'prepare' && prepareCueTab === 'tension')" 
+                    class="space-y-1 text-red-700 dark:text-red-400 text-sm"
+                    :class="{ 'opacity-70': currentState === 'prepare' }">
+                  <li
+                    v-for="(step, index) in currentMuscleGroup.tension_cue"
+                    :key="index"
+                    class="flex items-start gap-2"
+                  >
+                    <span
+                      class="flex h-4 w-4 flex-shrink-0 items-center justify-center bg-red-200 dark:bg-red-900/50 text-xs font-bold text-red-800 dark:text-red-300"
+                      >{{ index + 1 }}</span
+                    >
+                    <span>{{ step }}</span>
+                  </li>
+                </ol>
+                
+                <ol v-else 
+                    class="space-y-1 text-green-700 dark:text-green-400 text-sm"
+                    :class="{ 'opacity-70': currentState === 'prepare' }">
+                  <li
+                    v-for="(step, index) in currentMuscleGroup.relaxation_cue"
+                    :key="index"
+                    class="flex items-start gap-2"
+                  >
+                    <span
+                      class="flex h-4 w-4 flex-shrink-0 items-center justify-center bg-green-200 dark:bg-green-900/50 text-xs font-bold text-green-800 dark:text-green-300"
+                      >{{ index + 1 }}</span
+                    >
+                    <span>{{ step }}</span>
+                  </li>
+                </ol>
               </div>
             </div>
           </div>
 
           <!-- Controls Row -->
-          <div class="flex justify-center gap-3">
+          <div class="flex justify-center gap-2">
             <button
               v-if="currentState === 'prepare'"
               @click="startCurrentGroup"
-              class="flex items-center gap-2 bg-green-600 px-6 py-3 font-medium text-white transition-colors duration-100 hover:bg-green-700"
+              class="flex items-center gap-1.5 bg-green-600 px-4 py-2 text-sm font-medium text-white transition-colors duration-100 hover:bg-green-700"
             >
-              <Icon name="ph:play-fill" class="text-lg" />
+              <Icon name="ph:play-fill" class="text-base" />
               <span>{{ $t('progressiveMuscleRelaxation.interface.start') }}</span>
             </button>
 
             <button
               v-if="currentState !== 'prepare'"
               @click="isPaused ? resumeExercise() : pauseExercise()"
-              class="flex items-center gap-2 px-6 py-3 font-medium text-white transition-colors duration-100"
+              class="flex items-center gap-1.5 px-4 py-2 text-sm font-medium text-white transition-colors duration-100"
               :class="isPaused ? 'bg-green-600 hover:bg-green-700' : 'bg-orange-600 hover:bg-orange-700'"
             >
-              <Icon :name="isPaused ? 'ph:play-fill' : 'ph:pause-fill'" class="text-lg" />
+              <Icon :name="isPaused ? 'ph:play-fill' : 'ph:pause-fill'" class="text-base" />
               <span>{{ isPaused ? $t('progressiveMuscleRelaxation.interface.resume') : $t('progressiveMuscleRelaxation.interface.pause') }}</span>
             </button>
 
             <button
               v-if="exerciseStarted"
               @click="stopExercise"
-              class="flex items-center gap-2 bg-red-600 px-6 py-3 font-medium text-white transition-colors duration-100 hover:bg-red-700"
+              class="flex items-center gap-1.5 bg-red-600 px-4 py-2 text-sm font-medium text-white transition-colors duration-100 hover:bg-red-700"
             >
-              <Icon name="ph:stop-fill" class="text-lg" />
+              <Icon name="ph:stop-fill" class="text-base" />
               <span>{{ $t('progressiveMuscleRelaxation.interface.stop') }}</span>
             </button>
           </div>
@@ -225,7 +216,7 @@
               <!-- Center: Progress Dots (hidden on mobile) -->
               <div class="hidden md:flex items-center gap-1">
                 <div
-                  v-for="(group, index) in muscleGroups"
+                  v-for="(_, index) in muscleGroups"
                   :key="index"
                   class="h-2 w-2 transition-colors duration-100"
                   :class="index <= currentGroupIndex ? 'bg-indigo-600' : 'bg-gray-300 dark:bg-slate-600'"
@@ -282,10 +273,15 @@ const currentState = ref("prepare"); // 'prepare', 'tense', 'relax'
 const timeRemaining = ref(0);
 const timerProgress = ref(0);
 const isPaused = ref(false);
+const prepareCueTab = ref('tension'); // 'tension' or 'relaxation'
+const autoProgress = ref(true); // Auto-progress to next phase
+const prepareCountdown = ref(3); // Countdown in prepare state
 let phaseTimer = null;
 let progressTimer = null;
 let pausedTime = 0;
 let pauseStartTime = 0;
+let autoPrepareTimer = null;
+let prepareCountdownInterval = null;
 
 // Icon mapping for muscle groups
 const muscleGroupIcons = {
@@ -326,9 +322,6 @@ const muscleGroups = computed(() => {
         // Use individual t() calls to get each translation
         const name = t(`progressiveMuscleRelaxation.muscleGroups.${groupKey}.name`, groupKey);
         const shortName = t(`progressiveMuscleRelaxation.muscleGroups.${groupKey}.shortName`, groupKey);
-        const instructionTitle = t(`progressiveMuscleRelaxation.muscleGroups.${groupKey}.instructionTitle`, 'Exercise');
-        const simpleAction = t(`progressiveMuscleRelaxation.muscleGroups.${groupKey}.simpleAction`, 'Follow instructions');
-        const instruction = t(`progressiveMuscleRelaxation.muscleGroups.${groupKey}.instruction`, 'Please follow the visual guidance.');
         
         // For arrays, use tm() with rt() to render each item
         const tensionCueRaw = tm(`progressiveMuscleRelaxation.muscleGroups.${groupKey}.tensionCue`);
@@ -347,9 +340,6 @@ const muscleGroups = computed(() => {
           name: name,
           short_name: shortName,
           icon: muscleGroupIcons[groupKey] || 'ph:person-arms-spread-fill',
-          instruction_title: instructionTitle,
-          simple_action: simpleAction,
-          instruction: instruction,
           tension_cue: tensionCue,
           relaxation_cue: relaxationCue,
         };
@@ -360,9 +350,6 @@ const muscleGroups = computed(() => {
           name: groupKey,
           short_name: groupKey,
           icon: muscleGroupIcons[groupKey] || 'ph:person-arms-spread-fill',
-          instruction_title: 'Exercise',
-          simple_action: 'Follow instructions',
-          instruction: 'Please follow the visual guidance.',
           tension_cue: ['Hold tension'],
           relaxation_cue: ['Release and relax'],
         };
@@ -382,16 +369,12 @@ const currentMuscleGroup = computed(() => {
       name: 'Exercise',
       short_name: 'Exercise',
       icon: 'ph:person-arms-spread-fill',
-      instruction_title: 'Exercise',
-      simple_action: 'Follow instructions',
-      instruction: 'Please follow the visual guidance.',
       tension_cue: ['Hold tension'],
       relaxation_cue: ['Release and relax'],
     };
   }
   
-  const group = groups[currentGroupIndex.value];
-  return group || groups[0]; // Fallback to first group if index is out of bounds
+  return groups[currentGroupIndex.value] || groups[0]; // Fallback to first group if index is out of bounds
 });
 
 const exerciseSection = ref(null);
@@ -410,11 +393,38 @@ const startExercise = () => {
       behavior: 'smooth',
       block: 'start'
     });
+    
+    // Start auto-progression after 3 seconds
+    if (autoProgress.value) {
+      startAutoPrepareTimer();
+    }
   });
+};
+
+const startAutoPrepareTimer = () => {
+  if (autoPrepareTimer) clearTimeout(autoPrepareTimer);
+  if (prepareCountdownInterval) clearInterval(prepareCountdownInterval);
+  
+  prepareCountdown.value = 3;
+  
+  // Update countdown every second
+  prepareCountdownInterval = setInterval(() => {
+    if (prepareCountdown.value > 1) {
+      prepareCountdown.value--;
+    }
+  }, 1000);
+  
+  autoPrepareTimer = setTimeout(() => {
+    if (currentState.value === "prepare" && !isPaused.value) {
+      if (prepareCountdownInterval) clearInterval(prepareCountdownInterval);
+      startCurrentGroup();
+    }
+  }, 3000); // 3 seconds to review instructions
 };
 
 const startCurrentGroup = () => {
   currentState.value = "tense";
+  prepareCueTab.value = 'tension'; // Auto-switch to tension tab
   startPhase(10000); // 10 seconds tension
 };
 
@@ -457,6 +467,7 @@ const completeCurrentPhase = () => {
   if (currentState.value === "tense") {
     // Move to relaxation phase
     currentState.value = "relax";
+    prepareCueTab.value = 'relaxation'; // Auto-switch to relaxation tab
     startPhase(10000); // 10 seconds relaxation
   } else if (currentState.value === "relax") {
     // Move to next muscle group or complete
@@ -465,6 +476,12 @@ const completeCurrentPhase = () => {
       currentState.value = "prepare";
       timeRemaining.value = 0;
       timerProgress.value = 0;
+      prepareCueTab.value = 'tension'; // Reset to tension tab
+      
+      // Auto-progress to next group if enabled
+      if (autoProgress.value) {
+        startAutoPrepareTimer();
+      }
     } else {
       completeExercise();
     }
@@ -500,6 +517,7 @@ const skipCurrentPhase = () => {
 
   if (currentState.value === "tense") {
     currentState.value = "relax";
+    prepareCueTab.value = 'relaxation'; // Auto-switch to relaxation tab
     startPhase(10000);
   } else if (currentState.value === "relax") {
     if (currentGroupIndex.value < muscleGroups.value.length - 1) {
@@ -507,6 +525,12 @@ const skipCurrentPhase = () => {
       currentState.value = "prepare";
       timeRemaining.value = 0;
       timerProgress.value = 0;
+      prepareCueTab.value = 'tension'; // Reset to tension tab
+      
+      // Auto-progress if enabled
+      if (autoProgress.value) {
+        startAutoPrepareTimer();
+      }
     } else {
       completeExercise();
     }
@@ -522,6 +546,8 @@ const stopExercise = () => {
   timerProgress.value = 0;
   isPaused.value = false;
   pausedTime = 0;
+  prepareCueTab.value = 'tension';
+  prepareCountdown.value = 3;
 
   if (phaseTimer) {
     clearTimeout(phaseTimer);
@@ -531,6 +557,14 @@ const stopExercise = () => {
     clearInterval(progressTimer);
     progressTimer = null;
   }
+  if (autoPrepareTimer) {
+    clearTimeout(autoPrepareTimer);
+    autoPrepareTimer = null;
+  }
+  if (prepareCountdownInterval) {
+    clearInterval(prepareCountdownInterval);
+    prepareCountdownInterval = null;
+  }
 };
 
 const previousGroup = () => {
@@ -538,6 +572,8 @@ const previousGroup = () => {
     // Clear current timers
     if (phaseTimer) clearTimeout(phaseTimer);
     if (progressTimer) clearInterval(progressTimer);
+    if (autoPrepareTimer) clearTimeout(autoPrepareTimer);
+    if (prepareCountdownInterval) clearInterval(prepareCountdownInterval);
     
     currentGroupIndex.value--;
     currentState.value = "prepare";
@@ -545,6 +581,12 @@ const previousGroup = () => {
     timerProgress.value = 0;
     isPaused.value = false;
     pausedTime = 0;
+    prepareCueTab.value = 'tension';
+    
+    // Restart auto-progression
+    if (autoProgress.value) {
+      startAutoPrepareTimer();
+    }
   }
 };
 
@@ -553,6 +595,8 @@ const nextGroup = () => {
     // Clear current timers
     if (phaseTimer) clearTimeout(phaseTimer);
     if (progressTimer) clearInterval(progressTimer);
+    if (autoPrepareTimer) clearTimeout(autoPrepareTimer);
+    if (prepareCountdownInterval) clearInterval(prepareCountdownInterval);
     
     currentGroupIndex.value++;
     currentState.value = "prepare";
@@ -560,6 +604,12 @@ const nextGroup = () => {
     timerProgress.value = 0;
     isPaused.value = false;
     pausedTime = 0;
+    prepareCueTab.value = 'tension';
+    
+    // Restart auto-progression
+    if (autoProgress.value) {
+      startAutoPrepareTimer();
+    }
   } else {
     completeExercise();
   }
@@ -583,5 +633,7 @@ const completeExercise = () => {
 onUnmounted(() => {
   if (phaseTimer) clearTimeout(phaseTimer);
   if (progressTimer) clearInterval(progressTimer);
+  if (autoPrepareTimer) clearTimeout(autoPrepareTimer);
+  if (prepareCountdownInterval) clearInterval(prepareCountdownInterval);
 });
 </script>

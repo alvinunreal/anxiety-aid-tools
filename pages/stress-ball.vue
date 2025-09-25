@@ -1,11 +1,11 @@
 <template>
   <!-- Original Pen Author: Emil Andersson - https://codepen.io/emilandersson/pen/bNNOYyK -->
-  <div class="page-container">
+  <div class="page-container bg-white dark:bg-slate-900">
     <div class="stress-ball-container w-full h-full overflow-hidden font-medium">
       <div class="ball"></div>
     </div>
     
-    <div class="border-t border-gray-300">
+    <div class="border-t border-gray-300 dark:border-slate-600">
     <RelatedTechniques current-technique-id="progressive-muscle-relaxation" />
     </div>
   </div>
@@ -50,6 +50,7 @@ function initStressBall() {
   if (!ball) return
 
   const container = document.querySelector('.stress-ball-container')
+  if (!container) return
 
   ballProps = gsap.getProperty(ball)
   radius = ball.getBoundingClientRect().width / 2
@@ -86,6 +87,7 @@ function initStressBall() {
 
   window.addEventListener('resize', () => {
     const container = document.querySelector('.stress-ball-container')
+    if (!container) return
     vw = container.clientWidth
     vh = container.clientHeight
   })
@@ -133,7 +135,7 @@ function animateBounce(x = '+=0', y = '+=0', vx = 'auto', vy = 'auto') {
         y: vy
       },
       onUpdate: checkBounds,
-      overwrite: false
+      overwrite: 'auto'
     }
   )
 }
@@ -218,6 +220,7 @@ function checkBounds() {
   }
 
   if (hitEdge) {
+    gsap.killTweensOf(ball)
     animateBounce(xPos, yPos, vx, vy)
   }
 }
@@ -228,6 +231,7 @@ function checkBounds() {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 .stress-ball-container {
@@ -237,6 +241,7 @@ function checkBounds() {
   height: calc(100vh - 200px);
   min-height: 400px;
   overflow: hidden;
+  position: relative;
   border-bottom: 4px solid rgba(255, 255, 255, 0.2);
   background-image:
     radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
@@ -248,6 +253,13 @@ function checkBounds() {
       rgba(255, 255, 255, 0.02) 135deg,
       transparent 180deg);
   background-size: 40px 40px, 60px 60px, 80px 80px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .stress-ball-container {
+    background: linear-gradient(135deg, #334155 0%, #1e293b 50%, #0f172a 100%);
+    border-bottom-color: #475569;
+  }
 }
 
 .backdrop {

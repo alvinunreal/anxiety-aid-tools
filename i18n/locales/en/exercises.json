@@ -553,9 +553,6 @@
       "rightHand": {
         "name": "Right Hand & Forearm",
         "shortName": "R Hand",
-        "instructionTitle": "Make a tight fist",
-        "simpleAction": "Clench your right hand into a fist",
-        "instruction": "Hold your right hand out in front of you, then make a tight fist by curling your fingers into your palm. Squeeze tight to feel tension in your hand and forearm.",
         "tensionCue": [
           "Make a tight fist",
           "Squeeze hard",
@@ -570,9 +567,6 @@
       "leftHand": {
         "name": "Left Hand & Forearm",
         "shortName": "L Hand",
-        "instructionTitle": "Make a tight fist",
-        "simpleAction": "Clench your left hand into a fist",
-        "instruction": "Hold your left hand out in front of you, then make a tight fist by curling your fingers into your palm. Squeeze tight to feel tension in your hand and forearm.",
         "tensionCue": [
           "Make a tight fist",
           "Squeeze hard",
@@ -587,9 +581,6 @@
       "rightUpperArm": {
         "name": "Right Upper Arm",
         "shortName": "R Bicep",
-        "instructionTitle": "Flex your bicep muscle",
-        "simpleAction": "Bend your elbow and flex like showing off strength",
-        "instruction": "Bend your right elbow at 90 degrees, then flex your bicep muscle hard. Press your forearm against your upper arm to create maximum tension.",
         "tensionCue": [
           "Bend elbow",
           "Flex bicep hard",
@@ -605,9 +596,6 @@
       "leftUpperArm": {
         "name": "Left Upper Arm",
         "shortName": "L Bicep",
-        "instructionTitle": "Flex your bicep muscle",
-        "simpleAction": "Bend your elbow and flex like showing off strength",
-        "instruction": "Bend your left elbow at 90 degrees, then flex your bicep muscle hard. Press your forearm against your upper arm to create maximum tension.",
         "tensionCue": [
           "Bend elbow",
           "Flex bicep hard",
@@ -623,9 +611,6 @@
       "forehead": {
         "name": "Forehead & Scalp",
         "shortName": "Forehead",
-        "instructionTitle": "Raise your eyebrows high",
-        "simpleAction": "Lift eyebrows up as high as possible",
-        "instruction": "Look straight ahead, then raise your eyebrows as high as they'll go, creating wrinkles across your forehead. Hold this surprised expression.",
         "tensionCue": [
           "Raise eyebrows high",
           "Wrinkle forehead",
@@ -640,9 +625,6 @@
       "eyesNose": {
         "name": "Eyes & Nose",
         "shortName": "Face",
-        "instructionTitle": "Squint and scrunch nose",
-        "simpleAction": "Squeeze eyes shut and wrinkle nose up",
-        "instruction": "Close your eyes tightly and scrunch your nose upward like you smell something bad. Squeeze the middle of your face together.",
         "tensionCue": [
           "Squeeze eyes tight",
           "Scrunch nose up",
@@ -657,13 +639,9 @@
       "mouthJaw": {
         "name": "Mouth & Jaw",
         "shortName": "Jaw",
-        "instructionTitle": "Clench your teeth and lips",
-        "simpleAction": "Bite down hard and press lips together",
-        "instruction": "Bite down by clenching your teeth together firmly, then press your lips tightly together. Feel the tension in your jaw muscles.",
         "tensionCue": [
           "Bite down hard",
           "Clench teeth",
-          "Press lips together",
           "Feel jaw muscles working"
         ],
         "relaxationCue": [
@@ -675,9 +653,6 @@
       "neckThroat": {
         "name": "Neck & Throat",
         "shortName": "Neck",
-        "instructionTitle": "Push chin down and head back",
-        "simpleAction": "Create tension by pushing chin down while head goes back",
-        "instruction": "Pull your chin down toward your chest while simultaneously pushing the back of your head backward, creating a double tension.",
         "tensionCue": [
           "Chin down to chest",
           "Push head back",
@@ -692,9 +667,6 @@
       "shoulders": {
         "name": "Shoulders",
         "shortName": "Shoulders",
-        "instructionTitle": "Shrug shoulders to ears",
-        "simpleAction": "Lift shoulders up as high as possible",
-        "instruction": "Lift both shoulders straight up toward your ears as high as they'll go. Try to make them touch your earlobes.",
         "tensionCue": [
           "Pull shoulders up high",
           "Try to touch your ears",
@@ -709,9 +681,6 @@
       "upperBackChest": {
         "name": "Upper Back & Chest",
         "shortName": "Upper Back",
-        "instructionTitle": "Squeeze shoulder blades together",
-        "simpleAction": "Push shoulder blades together and arch back slightly",
-        "instruction": "Push your shoulder blades together behind you and arch your back slightly. Take a deep breath to expand your chest.",
         "tensionCue": [
           "Squeeze shoulder blades together",
           "Arch back",
@@ -726,9 +695,6 @@
       "abdomen": {
         "name": "Abdomen",
         "shortName": "Stomach",
-        "instructionTitle": "Tighten stomach muscles",
-        "simpleAction": "Make your abs hard like preparing for a punch",
-        "instruction": "Tighten your abdominal muscles as if someone is about to gently punch your stomach. Pull your belly button toward your spine.",
         "tensionCue": [
           "Tighten abs hard",
           "Pull belly button in",
@@ -743,9 +709,6 @@
       "lowerBack": {
         "name": "Lower Back",
         "shortName": "L Back",
-        "instructionTitle": "Arch your lower back",
-        "simpleAction": "Push stomach forward and arch back",
-        "instruction": "Gently arch your lower back by pushing your stomach forward and pulling your lower back inward, creating a curve.",
         "tensionCue": [
           "Arch lower back gently",
           "Push stomach out",
@@ -760,9 +723,6 @@
       "hipsButtocks": {
         "name": "Hips & Buttocks",
         "shortName": "Glutes",
-        "instructionTitle": "Squeeze buttocks together",
-        "simpleAction": "Clench your buttock muscles tightly",
-        "instruction": "Tighten your buttock muscles and squeeze them together as tightly as possible. Feel tension throughout your hip area.",
         "tensionCue": [
           "Squeeze buttocks together hard",
           "Clench muscles tight",
@@ -777,9 +737,6 @@
       "rightThigh": {
         "name": "Right Thigh",
         "shortName": "R Thigh",
-        "instructionTitle": "Straighten leg and flex thigh",
-        "simpleAction": "Straighten leg and tighten thigh muscle",
-        "instruction": "Straighten your right leg out in front of you and tighten the large muscle on the front of your thigh (quadriceps).",
         "tensionCue": [
           "Straighten right leg",
           "Flex thigh muscle hard",
@@ -794,9 +751,6 @@
       "leftThigh": {
         "name": "Left Thigh",
         "shortName": "L Thigh",
-        "instructionTitle": "Straighten leg and flex thigh",
-        "simpleAction": "Straighten leg and tighten thigh muscle",
-        "instruction": "Straighten your left leg out in front of you and tighten the large muscle on the front of your thigh (quadriceps).",
         "tensionCue": [
           "Straighten left leg",
           "Flex thigh muscle hard",
@@ -811,9 +765,6 @@
       "rightCalfShin": {
         "name": "Right Calf & Shin",
         "shortName": "R Calf",
-        "instructionTitle": "Point foot down, then flex up",
-        "simpleAction": "Point foot down hard, then pull toes toward shin",
-        "instruction": "First point your right foot downward to tense your calf, then flex it upward toward your shin to work the front muscles.",
         "tensionCue": [
           "Point foot down hard",
           "Then flex up toward shin",
@@ -828,9 +779,6 @@
       "leftCalfShin": {
         "name": "Left Calf & Shin",
         "shortName": "L Calf",
-        "instructionTitle": "Point foot down, then flex up",
-        "simpleAction": "Point foot down hard, then pull toes toward shin",
-        "instruction": "First point your left foot downward to tense your calf, then flex it upward toward your shin to work the front muscles.",
         "tensionCue": [
           "Point foot down hard",
           "Then flex up toward shin",
@@ -844,9 +792,6 @@
       "rightFoot": {
         "name": "Right Foot",
         "shortName": "R Foot",
-        "instructionTitle": "Curl toes tightly",
-        "simpleAction": "Scrunch toes downward into foot",
-        "instruction": "Curl your right toes downward tightly while tensing the arch of your foot. Scrunch like you're trying to pick up a towel with your toes.",
         "tensionCue": [
           "Curl toes down tight",
           "Scrunch them up",
@@ -861,9 +806,6 @@
       "leftFoot": {
         "name": "Left Foot",
         "shortName": "L Foot",
-        "instructionTitle": "Curl toes tightly",
-        "simpleAction": "Scrunch toes downward into foot",
-        "instruction": "Curl your left toes downward tightly while tensing the arch of your foot. Scrunch like you're trying to pick up a towel with your toes.",
         "tensionCue": [
           "Curl toes down tight",
           "Scrunch them up",

@@ -36,24 +36,19 @@
       "description": "Principais organizações que oferecem informações e recursos baseados em evidências sobre ansiedade e depressão:",
       "list": [
         {
-          "name": "Anxiety & Depression Association of America (ADAA)",
-          "url": "https://adaa.org",
-          "description": "Organização internacional sem fins lucrativos dedicada à prevenção, tratamento e cura da ansiedade, depressão e transtornos relacionados. Oferece conteúdo educativo, webinars e diretório de terapeutas."
+          "name": "Sociedade Portuguesa de Psiquiatria e Saúde Mental (SPPSM)",
+          "url": "https://www.sppsm.org/",
+          "description": "Sociedade profissional dedicada à psiquiatria e saúde mental, oferecendo conteúdo educacional, webinars e recursos sobre ansiedade e depressão."
         },
         {
-          "name": "National Institute of Mental Health (NIMH)",
-          "url": "https://www.nimh.nih.gov/health/topics/anxiety-disorders",
-          "description": "Principal agência federal de pesquisa em saúde mental, fornecendo informações confiáveis e baseadas em evidências sobre transtornos de ansiedade e tratamentos."
+          "name": "ADEB - Associação de Apoio a Doentes Depressivos e Bipolares",
+          "url": "https://www.adeb.pt/",
+          "description": "Associação de apoio a pacientes com depressão e transtornos bipolares, fornecendo informações, suporte e diretório de profissionais."
         },
         {
-          "name": "Mental Health America (MHA)",
-          "url": "https://www.mhanational.org/",
-          "description": "Organização comunitária sem fins lucrativos que oferece ferramentas de triagem gratuitas, recursos práticos e orientações sobre conversas relacionadas à saúde mental."
-        },
-        {
-          "name": "American Psychological Association (APA)",
-          "url": "https://www.apa.org/topics/anxiety",
-          "description": "Organização científica de destaque que fornece informações detalhadas sobre tratamento da ansiedade, opções de terapia e insights de especialistas."
+          "name": "FamiliarMente - Federação Nacional de Associações de Saúde Mental",
+          "url": "https://www.familiarmente.pt/",
+          "description": "Federação oferecendo ferramentas de triagem gratuitas, recursos práticos e orientação sobre conversas de saúde mental."
         }
       ]
     }

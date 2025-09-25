@@ -458,327 +458,269 @@
       "rightHand": {
         "name": "Mão e Antebraço Direito",
         "shortName": "Mão D",
-        "instructionTitle": "Faça um punho bem apertado",
-        "simpleAction": "Feche sua mão direita em um punho",
-        "instruction": "Estenda sua mão direita à sua frente e faça um punho bem apertado curvando os dedos na palma da mão. Aperte com força para sentir a tensão na mão e no antebraço.",
-        "tensionCue": {
-          "0": "Faça um punho bem apertado",
-          "1": "Aperte com força",
-          "2": "Sinta a tensão nos dedos e no antebraço"
-        },
-        "relaxationCue": {
-          "0": "Abra sua mão",
-          "1": "Deixe-a completamente relaxada",
-          "2": "Sinta os dedos naturalmente curvados e relaxados"
-        }
+        "tensionCue": [
+          "Faça um punho bem apertado",
+          "Aperte com força",
+          "Sinta a tensão nos dedos e no antebraço"
+        ],
+        "relaxationCue": [
+          "Abra sua mão",
+          "Deixe-a completamente relaxada",
+          "Sinta os dedos naturalmente curvados e relaxados"
+        ]
       },
       "leftHand": {
         "name": "Mão e Antebraço Esquerdo",
         "shortName": "Mão E",
-        "instructionTitle": "Faça um punho bem apertado",
-        "simpleAction": "Feche sua mão esquerda em um punho",
-        "instruction": "Estenda sua mão esquerda à sua frente e faça um punho bem apertado curvando os dedos na palma da mão. Aperte com força para sentir a tensão na mão e no antebraço.",
-        "tensionCue": {
-          "0": "Faça um punho bem apertado",
-          "1": "Aperte com força",
-          "2": "Sinta a tensão nos dedos e no antebraço"
-        },
-        "relaxationCue": {
-          "0": "Abra sua mão",
-          "1": "Deixe-a completamente relaxada",
-          "2": "Perceba a sensação quente e pesada"
-        }
+        "tensionCue": [
+          "Faça um punho bem apertado",
+          "Aperte com força",
+          "Sinta a tensão nos dedos e no antebraço"
+        ],
+        "relaxationCue": [
+          "Abra sua mão",
+          "Deixe-a completamente relaxada",
+          "Perceba a sensação quente e pesada"
+        ]
       },
       "rightUpperArm": {
         "name": "Braço Superior Direito",
         "shortName": "Bíceps D",
-        "instructionTitle": "Flexione seu músculo bíceps",
-        "simpleAction": "Dobre o cotovelo e flexione como mostrando força",
-        "instruction": "Dobre seu cotovelo direito em 90 graus, depois flexione seu músculo bíceps com força. Pressione seu antebraço contra o braço superior para criar tensão máxima.",
-        "tensionCue": {
-          "0": "Dobre o cotovelo",
-          "1": "Flexione o bíceps com força",
-          "2": "Pressione o antebraço contra o braço superior",
-          "3": "Sinta o músculo saltar"
-        },
-        "relaxationCue": {
-          "0": "Baixe o braço para o lado",
-          "1": "Deixe o músculo ficar mole",
-          "2": "Sinta o alívio e o peso"
-        }
+        "tensionCue": [
+          "Dobre o cotovelo",
+          "Flexione o bíceps com força",
+          "Pressione o antebraço contra o braço superior",
+          "Sinta o músculo saltar"
+        ],
+        "relaxationCue": [
+          "Baixe o braço para o lado",
+          "Deixe o músculo ficar mole",
+          "Sinta o alívio e o peso"
+        ]
       },
       "leftUpperArm": {
         "name": "Braço Superior Esquerdo",
         "shortName": "Bíceps E",
-        "instructionTitle": "Flexione seu músculo bíceps",
-        "simpleAction": "Dobre o cotovelo e flexione como mostrando força",
-        "instruction": "Dobre seu cotovelo esquerdo em 90 graus, depois flexione seu músculo bíceps com força. Pressione seu antebraço contra o braço superior para criar tensão máxima.",
-        "tensionCue": {
-          "0": "Dobre o cotovelo",
-          "1": "Flexione o bíceps com força",
-          "2": "Pressione o antebraço contra o braço superior",
-          "3": "Sinta a força"
-        },
-        "relaxationCue": {
-          "0": "Baixe o braço para o lado",
-          "1": "Deixe a tensão se dissipar",
-          "2": "Sinta o peso"
-        }
+        "tensionCue": [
+          "Dobre o cotovelo",
+          "Flexione o bíceps com força",
+          "Pressione o antebraço contra o braço superior",
+          "Sinta a força"
+        ],
+        "relaxationCue": [
+          "Baixe o braço para o lado",
+          "Deixe a tensão se dissipar",
+          "Sinta o peso"
+        ]
       },
       "forehead": {
         "name": "Testa e Couro Cabeludo",
         "shortName": "Testa",
-        "instructionTitle": "Levante as sobrancelhas bem alto",
-        "simpleAction": "Levante as sobrancelhas o mais alto possível",
-        "instruction": "Olhe diretamente para frente, depois levante as sobrancelhas o mais alto que conseguir, criando rugas pela testa. Mantenha essa expressão de surpresa.",
-        "tensionCue": {
-          "0": "Levante as sobrancelhas bem alto",
-          "1": "Enrugue a testa",
-          "2": "Sinta a tensão pelo couro cabeludo"
-        },
-        "relaxationCue": {
-          "0": "Deixe as sobrancelhas caírem naturalmente",
-          "1": "Alise a testa",
-          "2": "Sinta a pele completamente relaxada"
-        }
+        "tensionCue": [
+          "Levante as sobrancelhas bem alto",
+          "Enrugue a testa",
+          "Sinta a tensão pelo couro cabeludo"
+        ],
+        "relaxationCue": [
+          "Deixe as sobrancelhas caírem naturalmente",
+          "Alise a testa",
+          "Sinta a pele completamente relaxada"
+        ]
       },
       "eyesNose": {
         "name": "Olhos e Nariz",
         "shortName": "Rosto",
-        "instructionTitle": "Feche os olhos apertando e enrugue o nariz",
-        "simpleAction": "Aperte os olhos fechados e enrugue o nariz para cima",
-        "instruction": "Feche os olhos com força e enrugue o nariz para cima como se sentisse um cheiro ruim. Aperte o meio do rosto.",
-        "tensionCue": {
-          "0": "Aperte os olhos com força",
-          "1": "Enrugue o nariz para cima",
-          "2": "Faça todo o rosto se contrair"
-        },
-        "relaxationCue": {
-          "0": "Deixe o rosto ficar mole",
-          "1": "Olhos suavemente fechados",
-          "2": "Nariz e bochechas lisas e relaxadas"
-        }
+        "tensionCue": [
+          "Aperte os olhos com força",
+          "Enrugue o nariz para cima",
+          "Faça todo o rosto se contrair"
+        ],
+        "relaxationCue": [
+          "Deixe o rosto ficar mole",
+          "Olhos suavemente fechados",
+          "Nariz e bochechas lisas e relaxadas"
+        ]
       },
       "mouthJaw": {
         "name": "Boca e Mandíbula",
         "shortName": "Mandíbula",
-        "instructionTitle": "Aperte os dentes e os lábios",
-        "simpleAction": "Morda com força e pressione os lábios juntos",
-        "instruction": "Morda apertando os dentes com firmeza, depois pressione os lábios bem juntos. Sinta a tensão nos músculos da mandíbula.",
-        "tensionCue": {
-          "0": "Morda com força",
-          "1": "Aperte os dentes",
-          "2": "Pressione os lábios juntos",
-          "3": "Sinta os músculos da mandíbula trabalhando"
-        },
-        "relaxationCue": {
-          "0": "Deixe a mandíbula cair ligeiramente aberta",
-          "1": "Lábios mal se tocando",
-          "2": "Língua descansando suavemente"
-        }
+        "tensionCue": [
+          "Morda com força",
+          "Aperte os dentes",
+          "Sinta os músculos da mandíbula trabalhando"
+        ],
+        "relaxationCue": [
+          "Deixe a mandíbula cair ligeiramente aberta",
+          "Lábios mal se tocando",
+          "Língua descansando suavemente"
+        ]
       },
       "neckThroat": {
         "name": "Pescoço e Garganta",
         "shortName": "Pescoço",
-        "instructionTitle": "Empurre o queixo para baixo e a cabeça para trás",
-        "simpleAction": "Crie tensão empurrando o queixo para baixo enquanto a cabeça vai para trás",
-        "instruction": "Puxe o queixo em direção ao peito enquanto simultaneamente empurra a parte de trás da cabeça para trás, criando uma tensão dupla.",
-        "tensionCue": {
-          "0": "Queixo para baixo no peito",
-          "1": "Empurre a cabeça para trás",
-          "2": "Crie tensão das duas direções"
-        },
-        "relaxationCue": {
-          "0": "Deixe a cabeça encontrar a posição natural",
-          "1": "Pescoço longo e solto",
-          "2": "Garganta aberta"
-        }
+        "tensionCue": [
+          "Queixo para baixo no peito",
+          "Empurre a cabeça para trás",
+          "Crie tensão das duas direções"
+        ],
+        "relaxationCue": [
+          "Deixe a cabeça encontrar a posição natural",
+          "Pescoço longo e solto",
+          "Garganta aberta"
+        ]
       },
       "shoulders": {
         "name": "Ombros",
         "shortName": "Ombros",
-        "instructionTitle": "Encolha os ombros até as orelhas",
-        "simpleAction": "Levante os ombros o mais alto possível",
-        "instruction": "Levante ambos os ombros diretamente em direção às orelhas o mais alto que conseguir. Tente fazê-los tocar os lóbulos das orelhas.",
-        "tensionCue": {
-          "0": "Puxe os ombros bem para cima",
-          "1": "Tente tocar as orelhas",
-          "2": "Sinta o aperto nas costas superiores"
-        },
-        "relaxationCue": {
-          "0": "Deixe os ombros caírem naturalmente",
-          "1": "Sinta-os afundar mais baixo",
-          "2": "Pesados e soltos"
-        }
+        "tensionCue": [
+          "Puxe os ombros bem para cima",
+          "Tente tocar as orelhas",
+          "Sinta o aperto nas costas superiores"
+        ],
+        "relaxationCue": [
+          "Deixe os ombros caírem naturalmente",
+          "Sinta-os afundar mais baixo",
+          "Pesados e soltos"
+        ]
       },
       "upperBackChest": {
         "name": "Costas Superiores e Peito",
         "shortName": "Costas Sup",
-        "instructionTitle": "Aperte as omoplatas juntas",
-        "simpleAction": "Empurre as omoplatas juntas e arqueie ligeiramente as costas",
-        "instruction": "Empurre suas omoplatas juntas atrás de você e arqueie ligeiramente as costas. Respire fundo para expandir o peito.",
-        "tensionCue": {
-          "0": "Aperte as omoplatas juntas",
-          "1": "Arqueie as costas",
-          "2": "Expanda o peito com respiração profunda"
-        },
-        "relaxationCue": {
-          "0": "Deixe as costas se acomodarem naturalmente",
-          "1": "Omoplatas separadas",
-          "2": "Peito mole e aberto"
-        }
+        "tensionCue": [
+          "Aperte as omoplatas juntas",
+          "Arqueie as costas",
+          "Expanda o peito com respiração profunda"
+        ],
+        "relaxationCue": [
+          "Deixe as costas se acomodarem naturalmente",
+          "Omoplatas separadas",
+          "Peito mole e aberto"
+        ]
       },
       "abdomen": {
         "name": "Abdômen",
         "shortName": "Estômago",
-        "instructionTitle": "Contraia os músculos do estômago",
-        "simpleAction": "Deixe o abdômen duro como se preparando para um soco",
-        "instruction": "Contraia os músculos abdominais como se alguém fosse dar um soco suave no seu estômago. Puxe o umbigo em direção à coluna.",
-        "tensionCue": {
-          "0": "Contraia o abdômen com força",
-          "1": "Puxe o umbigo para dentro",
-          "2": "Deixe o estômago como uma rocha"
-        },
-        "relaxationCue": {
-          "0": "Deixe o estômago ficar mole",
-          "1": "Respire para a barriga",
-          "2": "Sinta-a subir e descer naturalmente"
-        }
+        "tensionCue": [
+          "Contraia o abdômen com força",
+          "Puxe o umbigo para dentro",
+          "Deixe o estômago como uma rocha"
+        ],
+        "relaxationCue": [
+          "Deixe o estômago ficar mole",
+          "Respire para a barriga",
+          "Sinta-a subir e descer naturalmente"
+        ]
       },
       "lowerBack": {
         "name": "Lombar",
         "shortName": "Lombar",
-        "instructionTitle": "Arqueie a lombar",
-        "simpleAction": "Empurre o estômago para frente e arqueie as costas",
-        "instruction": "Arqueie suavemente a lombar empurrando o estômago para frente e puxando a lombar para dentro, criando uma curva.",
-        "tensionCue": {
-          "0": "Arqueie a lombar suavemente",
-          "1": "Empurre o estômago para fora",
-          "2": "Sinta a curva na coluna"
-        },
-        "relaxationCue": {
-          "0": "Deixe as costas se acomodarem na curva natural",
-          "1": "Apoiadas e confortáveis",
-          "2": "Tensão se dissipando"
-        }
+        "tensionCue": [
+          "Arqueie a lombar suavemente",
+          "Empurre o estômago para fora",
+          "Sinta a curva na coluna"
+        ],
+        "relaxationCue": [
+          "Deixe as costas se acomodarem na curva natural",
+          "Apoiadas e confortáveis",
+          "Tensão se dissipando"
+        ]
       },
       "hipsButtocks": {
         "name": "Quadris e Glúteos",
         "shortName": "Glúteos",
-        "instructionTitle": "Aperte os glúteos juntos",
-        "simpleAction": "Contraia os músculos dos glúteos com força",
-        "instruction": "Contraia os músculos dos glúteos e aperte-os juntos o mais forte possível. Sinta a tensão por toda a área do quadril.",
-        "tensionCue": {
-          "0": "Aperte os glúteos juntos com força",
-          "1": "Contraia os músculos com força",
-          "2": "Sinta a tensão nos quadris"
-        },
-        "relaxationCue": {
-          "0": "Deixe os glúteos ficarem moles",
-          "1": "Sinta-os se espalharem naturalmente",
-          "2": "Pesados e relaxados"
-        }
+        "tensionCue": [
+          "Aperte os glúteos juntos com força",
+          "Contraia os músculos com força",
+          "Sinta a tensão nos quadris"
+        ],
+        "relaxationCue": [
+          "Deixe os glúteos ficarem moles",
+          "Sinta-os se espalharem naturalmente",
+          "Pesados e relaxados"
+        ]
       },
       "rightThigh": {
         "name": "Coxa Direita",
         "shortName": "Coxa D",
-        "instructionTitle": "Estique a perna e flexione a coxa",
-        "simpleAction": "Estique a perna e contraia o músculo da coxa",
-        "instruction": "Estique sua perna direita à sua frente e contraia o músculo grande da frente da coxa (quadríceps).",
-        "tensionCue": {
-          "0": "Estique a perna direita",
-          "1": "Flexione o músculo da coxa com força",
-          "2": "Sinta-o firme e forte"
-        },
-        "relaxationCue": {
-          "0": "Deixe a perna descansar naturalmente",
-          "1": "Músculo da coxa mole e solto",
-          "2": "Pesado e confortável"
-        }
+        "tensionCue": [
+          "Estique a perna direita",
+          "Flexione o músculo da coxa com força",
+          "Sinta-o firme e forte"
+        ],
+        "relaxationCue": [
+          "Deixe a perna descansar naturalmente",
+          "Músculo da coxa mole e solto",
+          "Pesado e confortável"
+        ]
       },
       "leftThigh": {
         "name": "Coxa Esquerda",
         "shortName": "Coxa E",
-        "instructionTitle": "Estique a perna e flexione a coxa",
-        "simpleAction": "Estique a perna e contraia o músculo da coxa",
-        "instruction": "Estique sua perna esquerda à sua frente e contraia o músculo grande da frente da coxa (quadríceps).",
-        "tensionCue": {
-          "0": "Estique a perna esquerda",
-          "1": "Flexione o músculo da coxa com força",
-          "2": "Sinta a força"
-        },
-        "relaxationCue": {
-          "0": "Deixe a perna descansar naturalmente",
-          "1": "Coxa completamente relaxada",
-          "2": "Perceba o contraste"
-        }
+        "tensionCue": [
+          "Estique a perna esquerda",
+          "Flexione o músculo da coxa com força",
+          "Sinta a força"
+        ],
+        "relaxationCue": [
+          "Deixe a perna descansar naturalmente",
+          "Coxa completamente relaxada",
+          "Perceba o contraste"
+        ]
       },
       "rightCalfShin": {
         "name": "Panturrilha e Canela Direita",
         "shortName": "Panturr D",
-        "instructionTitle": "Aponte o pé para baixo, depois flexione para cima",
-        "simpleAction": "Aponte o pé para baixo com força, depois puxe os dedos em direção à canela",
-        "instruction": "Primeiro aponte seu pé direito para baixo para tensionar a panturrilha, depois flexione-o para cima em direção à canela para trabalhar os músculos da frente.",
-        "tensionCue": {
-          "0": "Aponte o pé para baixo com força",
-          "1": "Depois flexione para cima em direção à canela",
-          "2": "Sinta ambos os lados trabalhando"
-        },
-        "relaxationCue": {
-          "0": "Deixe o pé descansar naturalmente",
-          "1": "Panturrilha e canela soltas",
-          "2": "Completamente moles"
-        }
+        "tensionCue": [
+          "Aponte o pé para baixo com força",
+          "Depois flexione para cima em direção à canela",
+          "Sinta ambos os lados trabalhando"
+        ],
+        "relaxationCue": [
+          "Deixe o pé descansar naturalmente",
+          "Panturrilha e canela soltas",
+          "Completamente moles"
+        ]
       },
       "leftCalfShin": {
         "name": "Panturrilha e Canela Esquerda",
         "shortName": "Panturr E",
-        "instructionTitle": "Aponte o pé para baixo, depois flexione para cima",
-        "simpleAction": "Aponte o pé para baixo com força, depois puxe os dedos em direção à canela",
-        "instruction": "Primeiro aponte seu pé esquerdo para baixo para tensionar a panturrilha, depois flexione-o para cima em direção à canela para trabalhar os músculos da frente.",
-        "tensionCue": {
-          "0": "Aponte o pé para baixo com força",
-          "1": "Depois flexione para cima em direção à canela",
-          "2": "Sinta os músculos se contraindo"
-        },
-        "relaxationCue": {
-          "0": "Deixe o pé descansar naturalmente",
-          "1": "Todos os músculos da perna inferior relaxados e pesados"
-        }
+        "tensionCue": [
+          "Aponte o pé para baixo com força",
+          "Depois flexione para cima em direção à canela",
+          "Sinta os músculos se contraindo"
+        ],
+        "relaxationCue": [
+          "Deixe o pé descansar naturalmente",
+          "Todos os músculos da perna inferior relaxados e pesados"
+        ]
       },
       "rightFoot": {
         "name": "Pé Direito",
         "shortName": "Pé D",
-        "instructionTitle": "Curve os dedos do pé com força",
-        "simpleAction": "Encolha os dedos para baixo no pé",
-        "instruction": "Curve os dedos do pé direito para baixo com força enquanto tensiona o arco do pé. Encolha como se estivesse tentando pegar uma toalha com os dedos dos pés.",
-        "tensionCue": {
-          "0": "Curve os dedos para baixo com força",
-          "1": "Encolha-os",
-          "2": "Sinta a tensão no arco do pé"
-        },
-        "relaxationCue": {
-          "0": "Deixe os dedos se desenrolarem naturalmente",
-          "1": "Pé completamente mole",
-          "2": "Quente e relaxado"
-        }
+        "tensionCue": [
+          "Curve os dedos para baixo com força",
+          "Encolha-os",
+          "Sinta a tensão no arco do pé"
+        ],
+        "relaxationCue": [
+          "Deixe os dedos se desenrolarem naturalmente",
+          "Pé completamente mole",
+          "Quente e relaxado"
+        ]
       },
       "leftFoot": {
         "name": "Pé Esquerdo",
         "shortName": "Pé E",
-        "instructionTitle": "Curve os dedos do pé com força",
-        "simpleAction": "Encolha os dedos para baixo no pé",
-        "instruction": "Curve os dedos do pé esquerdo para baixo com força enquanto tensiona o arco do pé. Encolha como se estivesse tentando pegar uma toalha com os dedos dos pés.",
-        "tensionCue": {
-          "0": "Curve os dedos para baixo com força",
-          "1": "Encolha-os",
-          "2": "Sinta o arco trabalhando"
-        },
-        "relaxationCue": {
-          "0": "Deixe os dedos se espalharem naturalmente",
-          "1": "Pé solto e relaxado",
-          "2": "Tensão foi embora"
-        }
+        "tensionCue": [
+          "Curve os dedos para baixo com força",
+          "Encolha-os",
+          "Sinta o arco trabalhando"
+        ],
+        "relaxationCue": [
+          "Deixe os dedos se espalharem naturalmente",
+          "Pé solto e relaxado",
+          "Tensão foi embora"
+        ]
       }
     },
     "interface": {

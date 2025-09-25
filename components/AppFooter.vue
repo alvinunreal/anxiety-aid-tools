@@ -48,6 +48,7 @@ const switchLocalePath = useSwitchLocalePath()
         </div>
       </div>
       
+      
       <div class="py-4 border-t border-gray-200 dark:border-slate-600">
         <div class="flex justify-center">
           <div class="flex flex-wrap justify-center gap-1 text-xs">
@@ -64,7 +65,7 @@ const switchLocalePath = useSwitchLocalePath()
         </div>
       </div>
       
-      <div class="pt-4 border-t border-gray-200 dark:border-slate-600">
+      <div class="py-4 border-t border-gray-200 dark:border-slate-600">
         <div class="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
           <p class="text-xs text-gray-500 dark:text-slate-400 text-center md:text-left max-w-2xl">
             {{ $t('footer.disclaimer') }}
@@ -72,6 +73,100 @@ const switchLocalePath = useSwitchLocalePath()
           <p class="text-xs text-gray-500 dark:text-slate-400">
             Open Source • GPL License
           </p>
+        </div>
+      </div>
+
+      <div class="pt-4 border-t border-gray-200 dark:border-slate-600">
+        <div class="text-center">
+          <p class="text-xs text-gray-500 dark:text-slate-400 mb-4 font-medium">{{ $t('footer.projects.title') }}</p>
+          
+          <!-- Grouped responsive layout -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <!-- TmuxAI Group -->
+            <div class="space-y-3">
+              <a 
+                href="https://tmuxai.dev/" 
+                target="_blank"
+                class="inline-flex items-center justify-center text-xs font-medium text-gray-600 dark:text-slate-300 hover:text-gray-800 dark:hover:text-slate-100 transition-colors duration-200 mb-2"
+              >
+                <Icon name="mdi:console" class="mr-1" />
+                TmuxAI
+              </a>
+              <div class="flex flex-wrap justify-center gap-1.5">
+                <a 
+                  href="https://tmuxai.dev/tmuxai-vs-warp" 
+                  target="_blank"
+                  class="inline-flex items-center px-2.5 py-1 text-xs rounded-full bg-gray-50 dark:bg-slate-700/50 text-gray-600 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-600 transition-all duration-100 hover:text-gray-800 dark:hover:text-slate-200"
+                >
+                  <Icon name="mdi:sword-fight" class="mr-1" />
+                  {{ $t('footer.projects.tmuxVsWarp.name') }}
+                </a>
+                
+                <a 
+                  href="https://tmuxai.dev/tmux-getting-started" 
+                  target="_blank"
+                  class="inline-flex items-center px-2.5 py-1 text-xs rounded-full bg-gray-50 dark:bg-slate-700/50 text-gray-600 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-600 transition-all duration-100 hover:text-gray-800 dark:hover:text-slate-200"
+                >
+                  <Icon name="mdi:rocket-launch" class="mr-1" />
+                  {{ $t('footer.projects.tmuxGuide.name') }}
+                </a>
+                
+                <a 
+                  href="https://tmuxai.dev/tmux-cheat-sheet/" 
+                  target="_blank"
+                  class="inline-flex items-center px-2.5 py-1 text-xs rounded-full bg-gray-50 dark:bg-slate-700/50 text-gray-600 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-600 transition-all duration-100 hover:text-gray-800 dark:hover:text-slate-200"
+                >
+                  <Icon name="mdi:file-document-outline" class="mr-1" />
+                  {{ $t('footer.projects.tmuxCheatsheet.name') }}
+                </a>
+              </div>
+            </div>
+            
+            <!-- AwesomeClaude Group -->
+            <div class="space-y-3">
+              <a 
+                href="https://awesomeclaude.ai/" 
+                target="_blank"
+                class="inline-flex items-center justify-center text-xs font-medium text-gray-600 dark:text-slate-300 hover:text-gray-800 dark:hover:text-slate-100 transition-colors duration-200 mb-2"
+              >
+                <Icon name="mdi:robot-excited" class="mr-1" />
+                AwesomeClaude
+              </a>
+              <div class="flex flex-wrap justify-center gap-1.5">
+                <a 
+                  href="https://awesomeclaude.ai/awesome-claude-code" 
+                  target="_blank"
+                  class="inline-flex items-center px-2.5 py-1 text-xs rounded-full bg-gray-50 dark:bg-slate-700/50 text-gray-600 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-600 transition-all duration-100 hover:text-gray-800 dark:hover:text-slate-200"
+                >
+                  <Icon name="mdi:code-tags" class="mr-1" />
+                  {{ $t('footer.projects.awesomeClaudeCode.name') }}
+                </a>
+                
+                <a 
+                  href="https://awesomeclaude.ai/code-cheatsheet" 
+                  target="_blank"
+                  class="inline-flex items-center px-2.5 py-1 text-xs rounded-full bg-gray-50 dark:bg-slate-700/50 text-gray-600 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-600 transition-all duration-100 hover:text-gray-800 dark:hover:text-slate-200"
+                >
+                  <Icon name="mdi:book-open-page-variant" class="mr-1" />
+                  {{ $t('footer.projects.codeCheatsheet.name') }}
+                </a>
+              </div>
+            </div>
+
+            <!-- FreeSubStats Group -->
+            <div class="space-y-3">
+              <a
+                href="https://freesubstats.com/"
+                target="_blank"
+                class="inline-flex items-center justify-center text-xs font-medium text-gray-600 dark:text-slate-300 hover:text-gray-800 dark:hover:text-slate-100 transition-colors duration-200 mb-2"
+              >
+                <Icon name="mdi:chart-line" class="mr-1" />
+                {{ $t('footer.projects.freeSubStats.name') }}
+              </a>
+            </div>
+
+          </div>
         </div>
       </div>
     </div>

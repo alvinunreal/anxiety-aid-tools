@@ -553,9 +553,6 @@
       "rightHand": {
         "name": "Main droite et avant-bras",
         "shortName": "Main D",
-        "instructionTitle": "Serrez le poing fermement",
-        "simpleAction": "Serrez votre main droite en poing",
-        "instruction": "Tenez votre main droite devant vous, puis formez un poing serré en repliant vos doigts dans votre paume. Serrez fort pour ressentir la tension dans votre main et avant-bras.",
         "tensionCue": [
           "Formez un poing serré",
           "Serrez fort",
@@ -570,9 +567,6 @@
       "leftHand": {
         "name": "Main gauche et avant-bras",
         "shortName": "Main G",
-        "instructionTitle": "Serrez le poing fermement",
-        "simpleAction": "Serrez votre main gauche en poing",
-        "instruction": "Tenez votre main gauche devant vous, puis formez un poing serré en repliant vos doigts dans votre paume. Serrez fort pour ressentir la tension dans votre main et avant-bras.",
         "tensionCue": [
           "Formez un poing serré",
           "Serrez fort",
@@ -587,9 +581,6 @@
       "rightUpperArm": {
         "name": "Bras droit supérieur",
         "shortName": "Biceps D",
-        "instructionTitle": "Contractez votre muscle biceps",
-        "simpleAction": "Pliez le coude et contractez comme pour montrer votre force",
-        "instruction": "Pliez votre coude droit à 90 degrés, puis contractez votre muscle biceps fermement. Pressez votre avant-bras contre votre bras supérieur pour créer une tension maximale.",
         "tensionCue": [
           "Pliez le coude",
           "Contractez le biceps fort",
@@ -605,9 +596,6 @@
       "leftUpperArm": {
         "name": "Bras gauche supérieur",
         "shortName": "Biceps G",
-        "instructionTitle": "Contractez votre muscle biceps",
-        "simpleAction": "Pliez le coude et contractez comme pour montrer votre force",
-        "instruction": "Pliez votre coude gauche à 90 degrés, puis contractez votre muscle biceps fermement. Pressez votre avant-bras contre votre bras supérieur pour créer une tension maximale.",
         "tensionCue": [
           "Pliez le coude",
           "Contractez le biceps fort",
@@ -623,9 +611,6 @@
       "forehead": {
         "name": "Front et cuir chevelu",
         "shortName": "Front",
-        "instructionTitle": "Levez les sourcils haut",
-        "simpleAction": "Soulevez les sourcils aussi haut que possible",
-        "instruction": "Regardez droit devant, puis soulevez vos sourcils aussi haut qu'ils peuvent aller, créant des rides sur votre front. Maintenez cette expression surprise.",
         "tensionCue": [
           "Levez les sourcils haut",
           "Plissez le front",
@@ -640,9 +625,6 @@
       "eyesNose": {
         "name": "Yeux et nez",
         "shortName": "Visage",
-        "instructionTitle": "Plissez les yeux et le nez",
-        "simpleAction": "Fermez les yeux fort et froncez le nez",
-        "instruction": "Fermez vos yeux fermement et plissez votre nez vers le haut comme si vous sentiez quelque chose de mauvais. Contractez le centre de votre visage.",
         "tensionCue": [
           "Fermez les yeux fort",
           "Plissez le nez vers le haut",
@@ -657,13 +639,9 @@
       "mouthJaw": {
         "name": "Bouche et mâchoire",
         "shortName": "Mâchoire",
-        "instructionTitle": "Serrez les dents et les lèvres",
-        "simpleAction": "Mordez fort et pressez les lèvres ensemble",
-        "instruction": "Mordez en serrant vos dents fermement, puis pressez vos lèvres étroitement ensemble. Ressentez la tension dans vos muscles de la mâchoire.",
         "tensionCue": [
           "Mordez fort",
           "Serrez les dents",
-          "Pressez les lèvres ensemble",
           "Sentez les muscles de la mâchoire travailler"
         ],
         "relaxationCue": [
@@ -675,9 +653,6 @@
       "neckThroat": {
         "name": "Cou et gorge",
         "shortName": "Cou",
-        "instructionTitle": "Poussez le menton vers le bas et la tête vers l'arrière",
-        "simpleAction": "Créez une tension en poussant le menton vers le bas pendant que la tête va vers l'arrière",
-        "instruction": "Tirez votre menton vers votre poitrine tout en poussant simultanément l'arrière de votre tête vers l'arrière, créant une double tension.",
         "tensionCue": [
           "Menton vers la poitrine",
           "Poussez la tête vers l'arrière",
@@ -692,9 +667,6 @@
       "shoulders": {
         "name": "Épaules",
         "shortName": "Épaules",
-        "instructionTitle": "Haussez les épaules vers les oreilles",
-        "simpleAction": "Soulevez les épaules aussi haut que possible",
-        "instruction": "Soulevez les deux épaules droites vers vos oreilles aussi haut qu'elles peuvent aller. Essayez de faire qu'elles touchent vos lobes d'oreilles.",
         "tensionCue": [
           "Tirez les épaules vers le haut",
           "Essayez de toucher vos oreilles",
@@ -709,9 +681,6 @@
       "upperBackChest": {
         "name": "Haut du dos et poitrine",
         "shortName": "Haut du dos",
-        "instructionTitle": "Serrez les omoplates ensemble",
-        "simpleAction": "Poussez les omoplates ensemble et cambrez légèrement le dos",
-        "instruction": "Poussez vos omoplates ensemble derrière vous et cambrez légèrement votre dos. Prenez une respiration profonde pour élargir votre poitrine.",
         "tensionCue": [
           "Serrez les omoplates ensemble",
           "Cambrez le dos",
@@ -726,9 +695,6 @@
       "abdomen": {
         "name": "Abdomen",
         "shortName": "Ventre",
-        "instructionTitle": "Contractez les muscles du ventre",
-        "simpleAction": "Rendez vos abdominaux durs comme pour vous préparer à un coup",
-        "instruction": "Contractez vos muscles abdominaux comme si quelqu'un allait doucement frapper votre ventre. Tirez votre nombril vers votre colonne vertébrale.",
         "tensionCue": [
           "Contractez les abdominaux fort",
           "Tirez le nombril vers l'intérieur",
@@ -743,9 +709,6 @@
       "lowerBack": {
         "name": "Bas du dos",
         "shortName": "Bas du dos",
-        "instructionTitle": "Cambrez votre bas du dos",
-        "simpleAction": "Poussez le ventre vers l'avant et cambrez le dos",
-        "instruction": "Cambrez doucement votre bas du dos en poussant votre ventre vers l'avant et en tirant votre bas du dos vers l'intérieur, créant une courbe.",
         "tensionCue": [
           "Cambrez doucement le bas du dos",
           "Poussez le ventre vers l'extérieur",
@@ -760,9 +723,6 @@
       "hipsButtocks": {
         "name": "Hanches et fessiers",
         "shortName": "Fessiers",
-        "instructionTitle": "Serrez les fessiers ensemble",
-        "simpleAction": "Contractez vos muscles fessiers fermement",
-        "instruction": "Contractez vos muscles fessiers et serrez-les ensemble aussi fermement que possible. Ressentez la tension dans toute votre région des hanches.",
         "tensionCue": [
           "Serrez les fessiers ensemble fort",
           "Contractez les muscles fermement",
@@ -777,9 +737,6 @@
       "rightThigh": {
         "name": "Cuisse droite",
         "shortName": "Cuisse D",
-        "instructionTitle": "Tendez la jambe et contractez la cuisse",
-        "simpleAction": "Tendez la jambe et contractez le muscle de la cuisse",
-        "instruction": "Tendez votre jambe droite devant vous et contractez le gros muscle à l'avant de votre cuisse (quadriceps).",
         "tensionCue": [
           "Tendez la jambe droite",
           "Contractez le muscle de la cuisse fort",
@@ -794,9 +751,6 @@
       "leftThigh": {
         "name": "Cuisse gauche",
         "shortName": "Cuisse G",
-        "instructionTitle": "Tendez la jambe et contractez la cuisse",
-        "simpleAction": "Tendez la jambe et contractez le muscle de la cuisse",
-        "instruction": "Tendez votre jambe gauche devant vous et contractez le gros muscle à l'avant de votre cuisse (quadriceps).",
         "tensionCue": [
           "Tendez la jambe gauche",
           "Contractez le muscle de la cuisse fort",
@@ -811,9 +765,6 @@
       "rightCalfShin": {
         "name": "Mollet et tibia droits",
         "shortName": "Mollet D",
-        "instructionTitle": "Pointez le pied vers le bas, puis fléchissez vers le haut",
-        "simpleAction": "Pointez le pied vers le bas fort, puis tirez les orteils vers le tibia",
-        "instruction": "D'abord pointez votre pied droit vers le bas pour contracter votre mollet, puis fléchissez-le vers le haut vers votre tibia pour travailler les muscles avant.",
         "tensionCue": [
           "Pointez le pied vers le bas fort",
           "Puis fléchissez vers le haut vers le tibia",
@@ -828,9 +779,6 @@
       "leftCalfShin": {
         "name": "Mollet et tibia gauches",
         "shortName": "Mollet G",
-        "instructionTitle": "Pointez le pied vers le bas, puis fléchissez vers le haut",
-        "simpleAction": "Pointez le pied vers le bas fort, puis tirez les orteils vers le tibia",
-        "instruction": "D'abord pointez votre pied gauche vers le bas pour contracter votre mollet, puis fléchissez-le vers le haut vers votre tibia pour travailler les muscles avant.",
         "tensionCue": [
           "Pointez le pied vers le bas fort",
           "Puis fléchissez vers le haut vers le tibia",
@@ -844,9 +792,6 @@
       "rightFoot": {
         "name": "Pied droit",
         "shortName": "Pied D",
-        "instructionTitle": "Recroquevillez les orteils fermement",
-        "simpleAction": "Contractez les orteils vers le bas dans le pied",
-        "instruction": "Recroquevillez vos orteils droits vers le bas fermement tout en contractant la voûte de votre pied. Contractez comme si vous essayiez de ramasser une serviette avec vos orteils.",
         "tensionCue": [
           "Recroquevillez les orteils vers le bas fermement",
           "Contractez-les",
@@ -861,9 +806,6 @@
       "leftFoot": {
         "name": "Pied gauche",
         "shortName": "Pied G",
-        "instructionTitle": "Recroquevillez les orteils fermement",
-        "simpleAction": "Contractez les orteils vers le bas dans le pied",
-        "instruction": "Recroquevillez vos orteils gauches vers le bas fermement tout en contractant la voûte de votre pied. Contractez comme si vous essayiez de ramasser une serviette avec vos orteils.",
         "tensionCue": [
           "Recroquevillez les orteils vers le bas fermement",
           "Contractez-les",
