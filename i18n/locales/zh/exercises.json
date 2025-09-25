@@ -39,8 +39,8 @@
       "practiceAgainAriaLabel": "开始另一个呼吸练习"
     },
     "completion": {
-      "title": "做得好",
-      "description": "你已经完成了 {count} 个呼吸周期，你的副交感神经已经被激活，促进了放松。",
+      "title": "做得很棒",
+      "description": "你已经在 {time} 内完成了 {count} 个呼吸周期。你的副交感神经系统已被激活，促进身心放松。",
       "benefits": {
         "heartRate": "心率降低",
         "mind": "思维冷静",
@@ -50,110 +50,110 @@
     "education": {
       "whatHappens": {
         "title": "身体发生了什么",
-        "description": "通过 4:6 模式控制呼吸，强调更长的呼气，刺激迷走神经，这是副交感神经系统的关键组成部分。激活这个神经发送信号，帮助身体从“战斗或逃跑”状态过渡到“休息和修复”模式。",
-        "benefits": "这种转变有几个可测量的生理益处。它可以降低心率和减少血压。血管的放松可以改善血液循环，增加大脑的氧气供应。此外，这种镇静反应积极影响消化，支持身体的免疫系统。",
-        "practice": "有意识地练习 4:6 呼吸技术是一种有效管理压力和促进整体健康的方法。"
+        "description": "通过 4:6 呼吸模式进行有控制的呼吸练习，其中强调较长的呼气时间，能够刺激迷走神经——副交感神经系统的重要组成部分。激活这条神经会发送信号，帮助身体从应激状态转换到放松模式。",
+        "benefits": "这种转变带来多种可测量的生理益处。它能够降低心率和血压，血管舒张改善血液循环，为大脑输送更多氧气。此外，这种平静反应还能积极影响消化功能，并增强身体免疫系统。",
+        "practice": "有意识地练习 4:6 呼吸技巧是管理压力、促进整体身心健康的有效方法。"
       },
       "inhale": {
         "title": "4 秒吸气",
-        "description": "稳定的吸气带来新鲜的氧气，帮助你集中注意力。"
+        "description": "稳定的吸气为身体提供新鲜氧气，帮助集中注意力。"
       },
       "exhale": {
         "title": "6 秒呼气",
-        "description": "更长的呼气信号你的身体放慢速度并放松。"
+        "description": "延长的呼气过程向身体发出信号，提示放缓节奏并进入放松状态。"
       },
       "science": {
-        "title": "呼吸的科学",
-        "description": "研究表明，<a href=\"https://pubmed.ncbi.nlm.nih.gov/36480101/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">膈肌呼吸</a>降低皮质醇水平和心率变异性，研究发现它可以在健康成年人中减少压力标记物高达20%。一项针对术后患者的临床试验报告说，使用4-7-8方法后焦虑得分下降了15%。",
+        "title": "呼吸的科学依据",
+        "description": "研究表明，<a href=\"https://pubmed.ncbi.nlm.nih.gov/36480101/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">膈肌呼吸</a>能够降低皮质醇水平和心率变异性，研究发现在健康成年人中可减少压力标志物高达20%。一项针对术后患者的临床试验报告显示，使用4-7-8呼吸法后焦虑评分下降了15%。",
         "research": {
           "cortisol": {
-            "title": "压力激素减少",
-            "description": "控制呼吸技术显著降低皮质醇水平。一项研究发现，<a href=\"https://pubmed.ncbi.nlm.nih.gov/34588511/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">深呼吸练习</a>可以在健康成年人中减少压力标记物高达20%，效果在单次会话中可见。"
+            "title": "压力激素的减少",
+            "description": "有控制的呼吸技术能显著降低皮质醇水平。一项研究发现，<a href=\"https://pubmed.ncbi.nlm.nih.gov/34588511/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">深呼吸练习</a>在健康成年人中可减少压力标志物高达20%，效果在单次练习中即可显现。"
           },
           "anxiety": {
-            "title": "临床焦虑缓解",
-            "description": "荟萃分析证实，呼吸练习可以减少心理健康症状，包括焦虑，在12个随机试验中平均效果大小为0.32。研究人员观察到，强调<a href=\"https://pubmed.ncbi.nlm.nih.gov/36624160/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">延长呼气</a>的实践，如循环叹息，比冥想本身产生25%更大的情绪改善。"
+            "title": "临床焦虑症状缓解",
+            "description": "荟萃分析证实，呼吸练习能够减少包括焦虑在内的心理健康症状，在12项随机试验中平均效应量为0.32。研究人员观察到，强调<a href=\"https://pubmed.ncbi.nlm.nih.gov/36624160/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">延长呼气</a>的练习方法，如循环叹息法，比单纯冥想产生的情绪改善效果高出25%。"
           },
           "vagal": {
-            "title": "迷走神经张力增强",
-            "description": "一项针对老年人的实验发现，深呼吸后迷走神经张力改善，焦虑状态下降10%。在临床环境中，<a href=\"https://pubmed.ncbi.nlm.nih.gov/36630953/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">深呼吸</a>在压力敏感群体中降低了生理唤醒，效果持续长达12周的常规使用。"
+            "title": "迷走神经张力的增强",
+            "description": "一项针对老年人的实验发现，深呼吸练习后迷走神经张力得到改善，焦虑状态下降10%。在临床环境中，<a href=\"https://pubmed.ncbi.nlm.nih.gov/36630953/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">深呼吸</a>在压力敏感人群中降低了生理唤醒水平，通过持续练习，效果可维持长达12周。"
           }
         }
       },
       "whenToPractice": {
-        "title": "何时练习",
+        "title": "最佳练习时机",
         "items": [
-          "当你感到压力过大或紧张时",
-          "在重要对话或决策之前",
-          "在焦虑或恐慌发作期间",
-          "在压力事件后重置你的神经系统"
+          "感到压力过大或身心紧张时",
+          "重要谈话或做出关键决策之前",
+          "焦虑或恐慌发作期间",
+          "压力事件结束后，需要重置神经系统时"
         ]
       },
       "whatYoullNotice": {
-        "title": "你会注意到什么",
+        "title": "练习后的感受",
         "items": [
-          "第一分钟内立即冷静效果",
-          "更清晰的思维和改进的决策",
-          "更慢的心率和减少肌肉紧张",
-          "更好的压力耐受性，通过定期练习"
+          "第一分钟内就能感受到即时的平静效果",
+          "思维变得更加清晰，决策能力得到改善",
+          "心率放缓，肌肉紧张感减轻",
+          "通过持续练习，压力承受能力得到提升"
         ]
       },
       "bestResults": {
-        "title": "最佳结果的提示",
+        "title": "获得最佳效果的建议",
         "posture": {
-          "title": "姿势",
-          "description": "坐或站直，允许完全肺部扩张。肩膀放松，不驼背。"
+          "title": "身体姿势",
+          "description": "保持端正的坐姿或站姿，让肺部能够充分扩张。肩膀自然放松，避免驼背。"
         },
         "environment": {
-          "title": "环境",
-          "description": "找到一个安静的空间，不会被打扰。舒适的温度有助于集中注意力。"
+          "title": "练习环境",
+          "description": "选择安静且不会被打扰的空间。舒适的温度有助于保持专注。"
         },
         "consistency": {
-          "title": "一致性",
-          "description": "在切换之前，练习同一技术一周。建立熟悉度可以提高有效性。"
+          "title": "持续性练习",
+          "description": "在尝试其他技巧之前，先坚持练习同一种方法一周。熟练掌握后效果会更加显著。"
         }
       }
     }
   },
   "grounding": {
     "exercise": {
-      "title": "5-4-3-2-1 接地练习",
+      "title": "5-4-3-2-1 正念接地法",
       "beginExercise": "开始练习",
-      "practiceAgain": "再练习一次",
-      "ofSteps": "5个步骤",
-      "itemsFound": "找到的物品",
-      "found": "找到",
-      "greatAwareness": "意识很好！",
+      "practiceAgain": "再次练习",
+      "ofSteps": "共 5 个步骤",
+      "itemsFound": "已找到的物品",
+      "found": "已找到",
+      "greatAwareness": "觉察力很棒！",
       "keepExploring": "继续探索...",
       "back": "返回",
-      "next": "下一个",
+      "next": "下一步",
       "complete": "完成",
-      "youAreGrounded": "你已经接地了",
-      "groundedDescription": "通过激活你的五种感官，你成功地将自己锚定在当下。",
+      "youAreGrounded": "你已经找到了内心的平静",
+      "groundedDescription": "通过调动你的五种感官，你成功地将自己固定在当下这一刻。",
       "benefits": {
         "immediateStability": {
-          "title": "立即稳定性",
-          "description": "连接你的环境并感到接地"
+          "title": "即刻安定",
+          "description": "与环境建立联系，获得内心稳定"
         },
         "mentalClarity": {
-          "title": "精神清晰",
-          "description": "中断快速思考并恢复专注"
+          "title": "头脑清明",
+          "description": "中断纷乱思绪，重新聚焦"
         },
         "calmPresence": {
-          "title": "平静存在",
-          "description": "感觉更平静和控制"
+          "title": "平静专注",
+          "description": "感受当下，掌控自如"
         },
         "stability": {
-          "title": "稳定性",
-          "description": "你连接并接地"
+          "title": "稳定感",
+          "description": "你与周围环境建立了联系"
         },
         "clarity": {
-          "title": "清晰",
-          "description": "快速思考已经减慢"
+          "title": "思绪清晰",
+          "description": "纷乱的思绪已经缓解"
         },
         "presence": {
-          "title": "存在",
-          "description": "你在这里，在这个时刻"
+          "title": "存在感",
+          "description": "你就在这里，在这一刻"
         }
       },
       "steps": {
@@ -162,155 +162,155 @@
           "subtitle": "找到 5 个你能看到的东西",
           "items": [
             {
-              "text": "一些有趣的颜色或图案",
-              "guidance": "寻找吸引你眼球的纹理、反射或颜色组合"
+              "text": "一些有趣的颜色或图案的东西",
+              "guidance": "寻找吸引你目光的纹理、光影或颜色搭配"
             },
             {
-              "text": "一个有光滑纹理的物体",
-              "guidance": "注意光线如何击中表面 - 它是光泽、哑光还是介于两者之间？"
+              "text": "一个有光滑质地的物体",
+              "guidance": "观察光线如何打在表面上——它是亮光、哑光还是介于两者之间？"
             },
             {
-              "text": "一个移动或有阴影的东西",
-              "guidance": "观察运动如何创造光和阴影的变化模式"
+              "text": "正在移动或有阴影的东西",
+              "guidance": "观察运动如何创造出光影的变化图案"
             },
             {
-              "text": "一个你之前没有注意到的细节",
-              "guidance": "仔细观察熟悉的物体 - 你错过了什么小细节？"
+              "text": "一个你以前没有注意到的细节",
+              "guidance": "仔细观察熟悉的物体——你错过了什么小细节？"
             },
             {
               "text": "一个让你感到舒适的东西",
-              "guidance": "专注于为什么这个物体让你感到舒适 - 它的颜色、形状或它持有的记忆"
+              "guidance": "专注于为什么这个物体让你感到温暖——它的颜色、形状或传达的情感"
             }
           ]
         },
         "touch": {
-          "title": "感受周围",
-          "subtitle": "找到 4 个你能触摸或感受的东西",
+          "title": "感受触觉",
+          "subtitle": "寻找 4 个你能触摸或感受到的事物",
           "items": [
             {
-              "text": "空气在你的皮肤上的温度",
-              "guidance": "注意它是温暖、凉爽还是中性 - 它在身体不同部位的感觉如何？"
+              "text": "空气在肌肤上的温度感受",
+              "guidance": "留意它是温暖、凉爽还是适中——在身体不同部位的感觉有何差异？"
             },
             {
-              "text": "你的衣服的质地",
-              "guidance": "感受手指之间的织物 - 它是柔软、粗糙、光滑还是纹理？"
+              "text": "衣物的材质触感",
+              "guidance": "用指尖感受布料——它是柔软、粗糙、光滑还是有纹理感？"
             },
             {
-              "text": "你坐或站的地方的表面",
-              "guidance": "轻轻按压它 - 它对你的身体来说是坚硬、柔软、温暖还是凉爽？"
+              "text": "身下座椅或脚下地面的质感",
+              "guidance": "轻轻感受支撑面——它给身体的感觉是坚实、柔软、温暖还是清凉？"
             },
             {
-              "text": "你附近的东西",
-              "guidance": "沿着表面运行你的手指 - 注意纹理的对比"
+              "text": "伸手可及的物品",
+              "guidance": "用手指轻抚表面——感受不同材质间的对比变化"
             }
           ]
         },
         "hear": {
-          "title": "仔细听",
-          "subtitle": "找到 3 个你能听到的东西",
+          "title": "用心聆听",
+          "subtitle": "寻找 3 个你能听到的声音",
           "items": [
             {
-              "text": "你的呼吸或心跳",
-              "guidance": "闭上眼睛并专注于内部 - 你能听到你的呼吸或脉搏吗？"
+              "text": "自己的呼吸声或心跳声",
+              "guidance": "闭上双眼，专注内在——能否听到自己的呼吸节奏或心脏跳动？"
             },
             {
-              "text": "来自外部的声音（交通、自然、人）",
-              "guidance": "倾听房间之外 - 你能识别出什么远处的声音？"
+              "text": "外界传来的声音（车辆、自然、人声）",
+              "guidance": "倾听室外空间——能辨识出哪些远处传来的声音？"
             },
             {
-              "text": "你通常忽略的细微声音",
-              "guidance": "注意安静的声音，如电子嗡嗡声、空气流动或沉淀噪音"
+              "text": "平时容易忽略的细微声响",
+              "guidance": "留意轻微的声音，比如电器嗡鸣、空气流动或环境背景音"
             }
           ]
         },
         "smell": {
-          "title": "深呼吸",
-          "subtitle": "找到 2 个你能闻到的东西",
+          "title": "深深嗅闻",
+          "subtitle": "寻找 2 个你能闻到的气味",
           "items": [
             {
-              "text": "这个房间的空气",
-              "guidance": "深吸一口气 - 它是新鲜的、陈旧的、有香味的还是中性的？"
+              "text": "当前空间的空气气息",
+              "guidance": "深深吸气——空气是清新的、沉闷的、带有香味的还是无味的？"
             },
             {
-              "text": "一些愉快或熟悉的东西",
-              "guidance": "寻找细微的气味 - 咖啡、肥皂、织物柔软剂或自然气味"
+              "text": "某种怡人或熟悉的味道",
+              "guidance": "寻找淡淡的香气——咖啡香、肥皂味、洗衣液香或自然芬芳"
             }
           ]
         },
         "taste": {
-          "title": "注意味道",
-          "subtitle": "找到 1 个你能尝到的东西",
+          "title": "品味感受",
+          "subtitle": "感受 1 个你能尝到的味道",
           "items": [
             {
-              "text": "你嘴里的味道",
-              "guidance": "在嘴里舔一圈 - 甜、咸、薄荷味或只是唾液的味道？"
+              "text": "口腔中的味觉体验",
+              "guidance": "轻舔唇舌——是甜味、咸味、薄荷味还是唾液的自然味道？"
             }
           ]
         }
       }
     },
     "howItWorks": {
-      "title": "接地如何工作",
+      "title": "正念接地法的原理",
       "neurological": {
-        "title": "神经学影响",
-        "description": "5-4-3-2-1 接地练习将注意力从内部焦虑思想转移到外部感官体验。这激活了你的前额叶皮质，同时平静了杏仁核——你的大脑的警报系统。",
-        "awareness": "当你系统地使用你的五种感官时，它激活了当下的意识，打破了焦虑思维模式的循环。"
+        "title": "神经系统影响",
+        "description": "5-4-3-2-1 正念接地法能够将注意力从内心的焦虑想法转移到外在的感官体验上。这样做能激活你的前额叶皮质，同时平静杏仁核——你大脑中的警报系统。",
+        "awareness": "当你系统性地调动五种感官时，能够激活当下意识，打破焦虑想法的循环。"
       },
       "stability": {
-        "title": "立即稳定性",
-        "description": "结构化的序列（5 个可以看到的东西，4 个可以触摸的东西等）在混乱的精神状态下给你一个具体的焦点，防止进一步螺旋进入焦虑。",
-        "grounding": "这种技术通过连接你与你的物理环境和当前现实立即接地。"
+        "title": "即刻稳定",
+        "description": "结构化的步骤序列（例如5个可见物、4个可触物等）在精神混乱时给予你具体的关注点，防止进一步陷入焦虑状态。",
+        "grounding": "这种技巧通过将你与当前的物理环境和现实连接，提供即刻的安全感。"
       }
     },
     "science": {
-      "title": "接地背后的科学",
-      "description": "这种感官方法出现在<a href=\"https://www.sciencedirect.com/org/science/article/pii/S2561326X25002082\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">压力耐受性干预</a>中，它打断了沉思，降低了情绪问题青少年急性不适。在灾难恢复计划中，参与者在四次练习中显示了12%的创伤后应激症状减少。",
+      "title": "正念接地法背后的科学依据",
+      "description": "这种感官接地方法在<a href=\"https://www.sciencedirect.com/org/science/article/pii/S2561326X25002082\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">压力耐受性干预研究</a>中表现出色，能够有效中断反刍思维，显著降低情绪障碍青少年的急性痛苦水平。在灾后心理恢复项目中，参与者经过四次练习后创伤后应激症状减少了12%。",
       "research": {
         "regulation": {
-          "title": "自我调节改善",
-          "description": "关于类似接地工具的研究报告说，自我调节得到了改善，其中一个工具验证发现<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7982724/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">85%的内部一致性</a>在评估减少分离。与情绪调节训练相结合，它有助于青少年中冲动控制问题减少18%。"
+          "title": "自我调节能力提升",
+          "description": "针对类似接地技巧的研究显示，自我调节能力得到显著改善，其中一项工具验证研究发现<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7982724/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">85%的内在一致性</a>有助于减少分离症状。当与情绪调节训练相结合时，青少年的冲动控制问题减少了18%。"
         },
         "anxiety": {
-          "title": "焦虑减少",
-          "description": "基于自然的版本增强了当下的意识，与<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10498981/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">10-15%的焦虑减少</a>在生活方式医学背景下相关。在灾难恢复计划中，参与者在四次练习中显示了12%的创伤后应激症状减少。"
+          "title": "焦虑症状缓解",
+          "description": "基于自然环境的接地练习能增强当下觉察力，在生活方式医学研究中与<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10498981/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">10-15%的焦虑水平降低</a>相关。在灾后心理恢复项目中，参与者经过四次练习后创伤后应激症状减少了12%。"
         },
         "stability": {
-          "title": "情绪稳定性",
-          "description": "对于自闭症个体，接地有助于管理过度刺激，如<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11134985/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">自我同情计划</a>中用户报告的更好的情绪稳定性。与情绪调节训练相结合，它有助于青少年中冲动控制问题减少18%。"
+          "title": "情绪稳定性增强",
+          "description": "对于自闭症谱系障碍患者，接地技巧有助于管理感官过载，正如<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11134985/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">自我关怀项目</a>中用户报告的情绪稳定性改善。当与情绪调节训练相结合时，青少年的冲动控制问题减少了18%。"
         }
       }
     },
     "whenToPractice": {
-      "title": "何时练习",
+      "title": "最佳练习时机",
       "items": [
-        "在恐慌发作或压倒性的焦虑时",
-        "当快速思考不会停止时",
-        "感觉与现实脱节",
-        "当情况感觉压倒性时"
+        "在恐慌发作或强烈焦虑时",
+        "当想法不断涌现、无法停止时",
+        "感觉与现实失去联系时",
+        "当情况让人感到无法承受时"
       ]
     },
     "whatYoullNotice": {
-      "title": "你会注意到什么",
+      "title": "练习后的感受",
       "items": [
-        "第一分钟内立即冷静效果",
-        "更清晰的思维和改进的决策",
-        "增强当下的意识",
-        "更好的压力耐受性，通过定期练习"
+        "第一分钟内即可感受到明显的平静效果",
+        "思维变得更加清晰，决策能力得到改善",
+        "对当下的觉察力显著增强",
+        "通过持续练习，压力承受能力逐步提升"
       ]
     },
     "bestResults": {
-      "title": "最佳结果的提示",
+      "title": "获得最佳效果的建议",
       "timing": {
-        "title": "时机",
-        "description": "不要匆忙完成步骤。花时间真正观察每种感官。"
+        "title": "练习节奏",
+        "description": "不要急于完成各个步骤。花充足的时间真正用心感受每一种感官体验。"
       },
       "detail": {
-        "title": "细节",
-        "description": "注意细节，如颜色、纹理、温度和特定声音。"
+        "title": "关注细节",
+        "description": "仔细留意各种感官细节，比如色彩的层次、材质的触感、温度的变化以及环境中的特定声响。"
       },
       "practice": {
-        "title": "练习",
-        "description": "即使在平静时使用这种技术，也可以建立对焦虑时刻的熟悉度。"
+        "title": "日常练习",
+        "description": "即使在心情平静时也要练习这种技巧，这样可以在焦虑时刻更熟练地运用。"
       }
     }
   },
@@ -337,119 +337,119 @@
       "pattern": "模式"
     },
     "science": {
-      "title": "引导呼吸背后的科学",
-      "description": "在<a href=\"https://pubmed.ncbi.nlm.nih.gov/38132030/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">虚拟环境中</a>引导的会话在面临侵入性程序的患者中将治疗相关焦虑降低了22%。设备引导的呼吸在学生中降低了焦虑得分平均14分。",
+      "title": "引导呼吸背后的科学依据",
+      "description": "在<a href=\"https://pubmed.ncbi.nlm.nih.gov/38132030/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">虚拟环境中</a>进行的引导呼吸练习能够使面临侵入性医疗程序的患者治疗相关焦虑降低22%。设备辅助的引导呼吸训练在学生群体中平均降低焦虑评分14分。",
       "research": {
         "effectiveness": {
-          "title": "增强有效性",
-          "description": "随机试验表明，引导方法优于非引导方法，当会话超过五分钟时，<a href=\"https://pubmed.ncbi.nlm.nih.gov/38137060/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">0.45效果大小</a>在情绪增强时。对COPD患者的可行性研究发现，每天两次引导练习在八周内将呼吸困难和焦虑降低了20%。"
+          "title": "疗效增强",
+          "description": "随机对照试验显示，引导式呼吸方法相比非引导方法效果更佳，当训练时长超过5分钟时，<a href=\"https://pubmed.ncbi.nlm.nih.gov/38137060/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">效应量达到0.45</a>，对情绪改善效果显著。针对慢性阻塞性肺病(COPD)患者的可行性研究表明，每日两次引导练习持续八周后，呼吸困难症状和焦虑水平均降低20%。"
         },
         "clinical": {
-          "title": "临床应用",
-          "description": "在老年人中，<a href=\"https://pubmed.ncbi.nlm.nih.gov/39652863/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">视频引导的放松呼吸</a>与心理教育相比，症状严重程度降低了18%。设备引导的呼吸在学生中降低了焦虑得分平均14分。"
+          "title": "临床应用效果",
+          "description": "在老年人群体中，<a href=\"https://pubmed.ncbi.nlm.nih.gov/39652863/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">视频引导放松呼吸</a>训练相比心理健康教育，能将症状严重程度降低18%。设备辅助的引导呼吸在学生中平均减少焦虑评分14分。"
         },
         "longterm": {
-          "title": "长期益处",
-          "description": "长期影响包括癫痫患者在20分钟冥想呼吸会话后<a href=\"https://pubmed.ncbi.nlm.nih.gov/38636139/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">生活质量提高15%</a>。在COPD患者中，一项可行性研究发现，每天两次引导练习在八周内将呼吸困难和焦虑降低了20%。"
+          "title": "长期获益效果",
+          "description": "长期效益包括癫痫患者在进行20分钟冥想呼吸训练后<a href=\"https://pubmed.ncbi.nlm.nih.gov/38636139/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">生活质量提升15%</a>。在慢性阻塞性肺病患者的可行性研究中发现，坚持每日两次引导练习八周后，呼吸困难和焦虑症状均减轻20%。"
         }
       }
     },
     "techniques": {
       "boxBreathing": {
-        "name": "4-4-4-4 盒式呼吸",
-        "description": "相等的计时为平静的焦点",
+        "name": "4-4-4-4 盒式呼吸法",
+        "description": "稳定的时间节奏，促进平静与专注",
         "timing": "4-4-4-4",
-        "bestFor": "专注 & 集中"
+        "bestFor": "适用于：专注力 & 集中力"
       },
       "calming": {
-        "name": "4-7-8 放松呼吸",
-        "description": "延长保持时间以获得深层次的放松",
+        "name": "4-7-8 放松呼吸法",
+        "description": "延长屏气时间，获得深度放松",
         "timing": "4-7-8",
-        "bestFor": "深层次的放松 & 睡眠"
+        "bestFor": "适用于：深度放松 & 睡眠"
       },
       "energizing": {
-        "name": "4-4-6 能量呼吸",
-        "description": "平衡的节奏，既能保持清醒，又能保持控制",
+        "name": "4-4-6 提神呼吸法",
+        "description": "平衡节奏，提神醒脑",
         "timing": "4-4-6",
-        "bestFor": "能量 & 精神清晰"
+        "bestFor": "适用于：提神醒脑"
       },
       "quickReset": {
-        "name": "3-3-3 快速重置",
-        "description": "快速技术，用于立即缓解",
+        "name": "3-3-3 快速重置法",
+        "description": "快速技巧，获得即刻缓解",
         "timing": "3-3-3",
-        "bestFor": "快速压力缓解"
+        "bestFor": "适用于：快速缓解压力"
       }
     },
     "techniquesOverview": {
       "boxBreathing": {
-        "title": "4-4-4-4 盒式呼吸",
-        "description": "相等的计时为精神清晰和焦点。由海军海豹突击队和应急响应人员用于在压力下保持冷静。对称的模式有助于调节你的自主神经系统并提高注意力。",
-        "bestFor": "最佳用于: 焦点, 集中, 压力管理"
+        "title": "4-4-4-4 盒式呼吸法",
+        "description": "稳定均匀的时间节奏，有助于调节自主神经系统，提高专注力。海军海豹突击队和应急人员常用此法在高压环境下保持冷静。",
+        "bestFor": "适用于：专注力 & 集中力 & 压力管理"
       },
       "calming": {
-        "title": "4-7-8 放松呼吸",
-        "description": "延长保持时间允许氧气完全饱和你的血液，而长呼气激活你的副交感神经系统。这种技术特别有效于减少焦虑和准备睡眠。",
-        "bestFor": "最佳用于: 焦虑缓解, 睡眠准备, 深层次的放松"
+        "title": "4-7-8 放松呼吸法",
+        "description": "延长屏气时间让氧气充分进入血液，长呼气激活副交感神经系统。特别适合缓解焦虑和改善睡眠质量。",
+        "bestFor": "适用于：深度放松 & 睡眠 & 焦虑缓解"
       },
       "energizing": {
-        "title": "4-4-6 能量呼吸",
-        "description": "平衡的节奏，既能保持清醒，又能保持控制。适度的呼气有助于清除精神迷雾并提高警觉性，而不会导致过度通气。",
-        "bestFor": "最佳用于: 精神清晰, 能量提升, 中午重置"
+        "title": "4-4-6 提神呼吸法",
+        "description": "平衡的呼吸节奏，既能保持清醒又不会过度换气。适度的呼气有助于清除思维迷雾，提升警觉性和精神状态。",
+        "bestFor": "适用于：提神醒脑 & 精神清晰 & 能量提升"
       },
       "quickReset": {
-        "title": "3-3-3 快速重置",
-        "description": "更快的节奏，用于立即缓解压力，当你只有一两分钟时。对于急性焦虑或需要快速情绪调节的时刻非常完美。",
-        "bestFor": "最佳用于: 快速压力缓解, 紧急冷静, 忙碌的日程"
+        "title": "3-3-3 快速重置法",
+        "description": "快速有效的呼吸技巧，适合时间紧迫时使用。能在短时间内缓解急性焦虑，帮助快速调节情绪状态。",
+        "bestFor": "适用于：快速缓解压力 & 紧急情况 & 忙碌时刻"
       }
     },
     "howItWorks": {
-      "title": "引导呼吸如何工作",
-      "description1": "结构化的呼吸模式给你的大脑提供了一个具体的东西来集中注意力，打断焦虑的思考。计时提示帮助调节你的自主神经系统 - 控制压力反应的自动部分。",
-      "description2": "每个技术针对放松的不同方面。长呼气激活你的身体 \"休息和消化 \"模式，而控制的保持优化氧气交换并建立精神韧性。",
+      "title": "引导呼吸的工作原理",
+      "description1": "结构化的呼吸模式为大脑提供了具体的专注点，有效中断焦虑思维循环。计时提示有助于调节自主神经系统——控制身体应激反应的自动调节部分。",
+      "description2": "每种技法都针对放松的不同层面。延长呼气能激活身体的\"休息与消化\"模式，而有控制的屏气则可优化氧气交换并增强心理韧性。",
       "focusedAttention": {
-        "title": "专注注意力",
-        "description": "计数和计时让你的大脑保持忙碌和专注"
+        "title": "专注力训练",
+        "description": "计数和计时让大脑保持专注，避免思维游离"
       },
       "nervousSystem": {
-        "title": "神经系统",
-        "description": "不同的模式激活不同的放松反应"
+        "title": "神经系统调节",
+        "description": "不同的呼吸模式激活相应的放松反应"
       },
       "skillBuilding": {
-        "title": "技能培养",
-        "description": "定期练习提高你的自然压力耐受性"
+        "title": "技能构建",
+        "description": "定期练习能够提升天然的压力耐受能力"
       }
     },
     "whenToPractice": {
-      "title": "何时练习",
+      "title": "最佳练习时机",
       "items": [
-        "在早上使用 4-4-6 能量呼吸",
-        "在重要会议或演讲前使用 4-4-4-4 盒式呼吸",
-        "在压力时刻使用 3-3-3 快速重置",
-        "在睡前 30 分钟使用 4-7-8 放松呼吸"
+        "在早上使用 4-4-6 提神呼吸法",
+        "在重要会议或演讲前使用 4-4-4-4 盒式呼吸法",
+        "在压力时刻使用 3-3-3 快速重置法",
+        "在睡前 30 分钟使用 4-7-8 放松呼吸法"
       ]
     },
     "whatYoullNotice": {
-      "title": "你会注意到什么",
+      "title": "练习后的感受",
       "items": [
-        "第一分钟内的立即冷静效果",
-        "更清晰的思维和改进的决策",
-        "更慢的心率和减少的肌肉紧张",
-        "更好的压力耐受性，通过定期练习"
+        "第一分钟内即可感受到立即的平静效果",
+        "思维变得更加清晰，决策能力得到改善",
+        "心率放缓，肌肉紧张感减轻",
+        "通过持续练习，压力承受能力逐步提升"
       ]
     },
     "tips": {
-      "title": "获得最佳结果的提示",
+      "title": "获得最佳效果的建议",
       "posture": {
-        "title": "姿势",
-        "description": "坐或站直，允许完全的肺部扩张。肩膀放松，不是驼背。"
+        "title": "身体姿势",
+        "description": "保持端正的坐姿或站姿，让肺部能够充分扩张。肩膀自然放松，避免驼背。"
       },
       "environment": {
-        "title": "环境",
-        "description": "找一个不会被打扰的安静空间。舒适的温度有助于集中注意力。"
+        "title": "练习环境",
+        "description": "选择安静且不会被打扰的空间。舒适的温度有助于保持专注。"
       },
       "consistency": {
-        "title": "一致性",
-        "description": "练习同一个技术一周前再切换。建立熟悉度提高有效性。"
+        "title": "持续性练习",
+        "description": "在尝试其他技巧之前，先坚持练习同一种方法一周。熟练掌握后效果会更加显著。"
       }
     }
   },
@@ -477,75 +477,75 @@
       "relaxationSteps": "放松步骤:"
     },
     "completion": {
-      "title": "放松完成",
-      "description": "你已经系统地释放了整个身体的紧张。注意你的肌肉与开始时有什么不同。",
+      "title": "放松练习完成",
+      "description": "你已经系统性地释放了全身的紧张感。感受一下现在的肌肉状态与练习开始时的差别。",
       "benefits": {
-        "tensionReleased": "紧张释放",
-        "bodyRelaxed": "身体放松"
+        "tensionReleased": "紧张感得到释放",
+        "bodyRelaxed": "身体完全放松"
       }
     },
     "howItWorks": {
-      "title": "身体里发生了什么",
-      "description": "渐进性肌肉放松（PMR）通过教会你的身体识别紧张和放松之间的区别。当你有意识地紧张一个肌肉群5秒，然后释放它时，你激活了放松反应，这是与压力反应相反的反应，它会导致焦虑和身体紧张。",
-      "physiology": "这种技术利用了一个自然的生理原理：当一个肌肉强烈收缩时，它会自动比在休息时更深地放松。这种反弹效应帮助实现一种比通过意志力 alone 通常能达到的更深的放松状态。系统地通过不同的肌肉群确保你的整个身体都受益于这种放松反应。",
-      "awareness": "PMR 也有助于打破慢性肌肉紧张的循环，这种循环通常伴随着焦虑症。许多人不知不觉地紧张他们的肩膀、下巴或腹部。通过系统地工作每个肌肉群，你发展了更大的身体意识，并学会了在紧张积累之前释放紧张。",
+      "title": "身体内发生的变化",
+      "description": "渐进性肌肉放松法（PMR）通过训练身体识别紧张与放松状态的差异来发挥作用。当你有意识地紧张某个肌肉群10秒钟，然后释放时，会激活身体的放松反应——这是一种与引发焦虑和身体紧张的应激反应相对的生理反应。",
+      "physiology": "这种技巧运用了一个天然的生理机制：当肌肉强烈收缩后，它会自然地放松到比静息状态更深的程度。这种反弹效应能够帮助你达到仅靠意志力难以实现的深度放松状态。通过系统性地练习不同肌肉群，确保全身都能从这种放松反应中获益。",
+      "awareness": "渐进性肌肉放松法还有助于打破慢性肌肉紧张的恶性循环，这种情况在焦虑症患者中十分常见。许多人会在不知不觉中紧张肩膀、下颌或腹部肌肉。通过系统性地练习每个肌肉群，你能够培养更强的身体觉察力，学会在紧张感累积之前就将其释放。",
       "tension": {
-        "title": "5秒紧张",
-        "description": "有意识地紧张肌肉激活了意识，为深层次的释放做准备。"
+        "title": "5秒紧张阶段",
+        "description": "有意识地紧张肌肉能够提高身体觉察力，为深层放松做好准备。"
       },
       "release": {
-        "title": "15秒释放",
-        "description": "延长放松允许肌肉达到比正常基线更深的休息。"
+        "title": "15秒释放阶段",
+        "description": "延长的放松时间让肌肉达到比正常基准更深的休息状态。"
       }
     },
     "whenToPractice": {
-      "title": "何时练习",
+      "title": "最佳练习时机",
       "items": [
-        "为了更好的睡眠质量，睡前练习",
-        "当你感到身体紧张或紧绷时",
-        "在压力大的日子后释放积累的紧张",
-        "作为日常放松的一部分"
+        "睡前练习，改善睡眠质量",
+        "感到身体紧张或僵硬时",
+        "压力较大的一天结束后，释放累积的紧张感",
+        "作为日常放松例行程序的一部分"
       ]
     },
     "whatYoullNotice": {
-      "title": "你会注意到什么",
+      "title": "练习后的感受",
       "items": [
-        "物理紧张通过肌肉逐渐消失",
-        "精神杂音随着身体深层次的放松而平静",
-        "身体感觉沉重、温暖，完全放松",
-        "深层次的放松，提高睡眠质量"
+        "身体紧张感逐渐从各个肌肉群中消散",
+        "心理杂念随着身体深度放松而趋于平静",
+        "身体感觉沉重、温暖，彻底放松",
+        "深层次的放松状态，有助于提升睡眠质量"
       ]
     },
     "bestResults": {
-      "title": "最佳结果的提示",
+      "title": "获得最佳效果的建议",
       "environment": {
-        "title": "环境",
-        "description": "找一个不会被打扰的安静空间。舒适的温度有助于集中注意力。"
+        "title": "练习环境",
+        "description": "选择一个安静、不受打扰的空间。适宜的温度有助于保持专注。"
       },
       "tension": {
-        "title": "紧张水平",
-        "description": "紧张肌肉但避免疼痛。专注于紧张和放松之间的对比。"
+        "title": "紧张程度",
+        "description": "适度紧张肌肉，但要避免疼痛。重点体会紧张与放松状态之间的对比。"
       },
       "consistency": {
-        "title": "一致性",
-        "description": "定期练习提高你快速识别和释放肌肉紧张的能力。"
+        "title": "坚持练习",
+        "description": "定期练习能够提升你快速识别和释放肌肉紧张的能力。"
       }
     },
     "science": {
-      "title": "渐进性肌肉放松背后的科学",
-      "description": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/38322293/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">荟萃分析</a>表明该技术能降低焦虑，在15项成人试验中合并效应量为0.51。在新冠患者中，四周练习改善了睡眠质量并使焦虑降低25%。",
+      "title": "渐进性肌肉放松的科学依据",
+      "description": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/38322293/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">荟萃分析</a>表明该技术能有效降低焦虑水平，在15项成年人研究中综合效应量达到0.51。新冠肺炎患者经过四周练习后，睡眠质量得到改善，焦虑水平降低25%。",
       "research": {
         "anxiety": {
-          "title": "焦虑与抑郁缓解",
-          "description": "青少年经过定期训练后<a href=\"https://pubmed.ncbi.nlm.nih.gov/38905787/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">抑郁和压力水平下降20%</a>。结合其他方法时，症状减轻幅度比单独干预高出30%。"
+          "title": "焦虑与抑郁症状缓解",
+          "description": "青少年群体经过定期训练后，<a href=\"https://pubmed.ncbi.nlm.nih.gov/38905787/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">抑郁和压力水平降低20%</a>。当与其他治疗方法相结合时，症状改善幅度比单一干预措施高出30%。"
         },
         "medical": {
-          "title": "医疗应用",
-          "description": "癌症患者获得增强的治疗效果，一项综述发现<a href=\"https://pubmed.ncbi.nlm.nih.gov/38281450/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">对疲劳和情绪困扰的效应为0.62</a>。在新冠患者中，四周练习改善了睡眠质量并使焦虑降低25%。"
+          "title": "医疗临床应用",
+          "description": "癌症患者的治疗效果得到显著提升，一项综述研究发现<a href=\"https://pubmed.ncbi.nlm.nih.gov/38281450/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">对疲劳和情绪困扰的改善效应量为0.62</a>。新冠肺炎患者经过四周练习后，睡眠质量得到改善，焦虑水平降低25%。"
         },
         "longterm": {
-          "title": "长期有效性",
-          "description": "系统综述证实其在降低特质焦虑方面的作用，<a href=\"https://pubmed.ncbi.nlm.nih.gov/2693491/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">长期使用效果与生物反馈相当</a>。荟萃分析显示在15项成人试验中持续的焦虑减轻，合并效应量为0.51。"
+          "title": "长期疗效验证",
+          "description": "系统综述证实了该技术在降低特质性焦虑方面的持久作用，<a href=\"https://pubmed.ncbi.nlm.nih.gov/2693491/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">长期使用效果与生物反馈疗法相当</a>。荟萃分析显示，在15项成年人试验中均呈现持续的焦虑缓解效果，综合效应量为0.51。"
         }
       }
     },
@@ -553,326 +553,326 @@
       "rightHand": {
         "name": "右手和前臂",
         "shortName": "右手",
-        "instructionTitle": "紧握拳头",
+        "instructionTitle": "握拳动作",
         "simpleAction": "将右手握成拳头",
-        "instruction": "将右手放在身前，然后将手指紧紧握成拳头。用力握紧，感受手部和前臂的紧张感。",
+        "instruction": "将右手舒适地放在身前，然后慢慢将手指紧紧握成拳头。感受手部和前臂肌肉的紧绷感。",
         "tensionCue": [
-          "紧握拳头",
-          "用力握紧",
-          "感受手指和前臂的紧张感"
+          "用力握拳",
+          "感受手指用力",
+          "体会前臂肌肉紧绷"
         ],
         "relaxationCue": [
-          "张开手掌",
-          "让手完全放松",
-          "感受手指自然弯曲和放松"
+          "慢慢张开手掌",
+          "让手指完全放松",
+          "感受手部自然舒展"
         ]
       },
       "leftHand": {
         "name": "左手和前臂",
         "shortName": "左手",
-        "instructionTitle": "紧握拳头",
+        "instructionTitle": "握拳动作",
         "simpleAction": "将左手握成拳头",
-        "instruction": "将左手放在身前，然后将手指紧紧握成拳头。用力握紧，感受手部和前臂的紧张感。",
+        "instruction": "将左手舒适地放在身前，然后慢慢将手指紧紧握成拳头。感受手部和前臂肌肉的紧绷感。",
         "tensionCue": [
-          "紧握拳头",
-          "用力握紧",
-          "感受手指和前臂的紧张感"
+          "用力握拳",
+          "感受手指用力",
+          "体会前臂肌肉紧绷"
         ],
         "relaxationCue": [
-          "张开手掌",
-          "让手完全放松",
-          "注意温暖沉重的感觉"
+          "慢慢张开手掌",
+          "让手指完全放松",
+          "体会温暖沉重的感觉"
         ]
       },
       "rightUpperArm": {
         "name": "右上臂",
         "shortName": "右二头肌",
-        "instructionTitle": "收缩二头肌",
-        "simpleAction": "弯曲肘部，像展示力量一样收缩",
-        "instruction": "将右肘弯曲90度，然后用力收缩二头肌。将前臂压向上臂以产生最大的紧张感。",
+        "instructionTitle": "收紧二头肌",
+        "simpleAction": "弯曲肘部，用力收缩上臂",
+        "instruction": "将右肘弯曲至90度，然后用力收紧二头肌。将前臂向上臂方向用力压紧，产生最大的肌肉紧张感。",
         "tensionCue": [
-          "弯曲肘部",
-          "用力收缩二头肌",
-          "将前臂压向上臂",
-          "感受肌肉隆起"
+          "弯曲肘部至90度",
+          "用力收紧二头肌",
+          "前臂向上臂压紧",
+          "感受肌肉鼓起"
         ],
         "relaxationCue": [
-          "将手臂放到身体一侧",
-          "让肌肉放松",
-          "感受释放和沉重感"
+          "将手臂自然放至身侧",
+          "让肌肉完全松弛",
+          "感受释放后的沉重感"
         ]
       },
       "leftUpperArm": {
         "name": "左上臂",
         "shortName": "左二头肌",
-        "instructionTitle": "收缩二头肌",
-        "simpleAction": "弯曲肘部，像展示力量一样收缩",
-        "instruction": "将左肘弯曲90度，然后用力收缩二头肌。将前臂压向上臂以产生最大的紧张感。",
+        "instructionTitle": "收紧二头肌",
+        "simpleAction": "弯曲肘部，用力收缩上臂",
+        "instruction": "将左肘弯曲至90度，然后用力收紧二头肌。将前臂向上臂方向用力压紧，产生最大的肌肉紧张感。",
         "tensionCue": [
-          "弯曲肘部",
-          "用力收缩二头肌",
-          "将前臂压向上臂",
-          "感受力量"
+          "弯曲肘部至90度",
+          "用力收紧二头肌",
+          "前臂向上臂压紧",
+          "感受肌肉力量"
         ],
         "relaxationCue": [
-          "将手臂放到身体一侧",
-          "让紧张感消散",
-          "感受沉重感"
+          "将手臂自然放至身侧",
+          "让紧张感完全消散",
+          "感受深度放松"
         ]
       },
       "forehead": {
         "name": "前额和头皮",
         "shortName": "前额",
-        "instructionTitle": "高高扬起眉毛",
-        "simpleAction": "尽可能高地抬起眉毛",
-        "instruction": "直视前方，然后尽可能高地抬起眉毛，在前额形成皱纹。保持这种惊讶的表情。",
+        "instructionTitle": "抬升眉毛",
+        "simpleAction": "尽力向上抬起眉毛",
+        "instruction": "保持双眼平视前方，然后尽可能高地抬起眉毛，使前额产生明显的皱纹。保持这种惊讶的表情。",
         "tensionCue": [
           "高高抬起眉毛",
-          "皱起前额",
-          "感受头皮的紧张感"
+          "皱起前额肌肉",
+          "感受头皮紧绷"
         ],
         "relaxationCue": [
-          "让眉毛自然下垂",
-          "抚平前额",
-          "感受皮肤完全放松"
+          "让眉毛自然回落",
+          "前额肌肉舒展平滑",
+          "感受面部皮肤完全放松"
         ]
       },
       "eyesNose": {
         "name": "眼部和鼻子",
-        "shortName": "面部",
-        "instructionTitle": "眯眼和皱鼻",
-        "simpleAction": "紧闭双眼并皱起鼻子",
-        "instruction": "紧紧闭上眼睛，并将鼻子向上皱起，就像闻到什么难闻的东西。收缩面部中央。",
+        "shortName": "面部中央",
+        "instructionTitle": "紧闭眼鼻",
+        "simpleAction": "用力闭眼并皱鼻",
+        "instruction": "用力紧闭双眼，同时将鼻子向上皱起，就像闻到刺鼻气味时的表情。让整个面部中央区域收紧。",
         "tensionCue": [
-          "紧闭双眼",
-          "向上皱鼻",
-          "整个面部收缩"
+          "用力紧闭双眼",
+          "向上皱起鼻子",
+          "面部中央收紧"
         ],
         "relaxationCue": [
-          "让面部放松",
-          "眼部轻轻闭合",
-          "鼻子和脸颊平滑放松"
+          "让面部肌肉松弛",
+          "双眼轻柔闭合",
+          "鼻部和脸颊平滑舒展"
         ]
       },
       "mouthJaw": {
         "name": "嘴部和下颌",
         "shortName": "下颌",
-        "instructionTitle": "紧咬牙齿和嘴唇",
-        "simpleAction": "用力咬紧并紧闭嘴唇",
-        "instruction": "通过紧咬牙齿来咬紧，然后将嘴唇紧紧闭合。感受下颌肌肉的紧张感。",
+        "instructionTitle": "紧咬牙关",
+        "simpleAction": "用力咬紧牙齿并紧闭双唇",
+        "instruction": "用力咬紧上下牙齿，然后将双唇紧紧闭合。充分感受下颌肌肉的紧张感。",
         "tensionCue": [
-          "用力咬紧",
-          "紧咬牙齿",
-          "紧闭嘴唇",
+          "用力咬紧牙关",
+          "上下牙齿紧咬",
+          "双唇紧紧闭合",
           "感受下颌肌肉工作"
         ],
         "relaxationCue": [
-          "让下颌微微张开",
-          "嘴唇轻轻触碰",
-          "舌头轻柔休息"
+          "让下颌微微分开",
+          "双唇轻柔相触",
+          "舌头自然安静地休息"
         ]
       },
       "neckThroat": {
         "name": "颈部和喉咙",
         "shortName": "颈部",
-        "instructionTitle": "下压下巴并后推头部",
-        "simpleAction": "通过下压下巴同时头部后推来产生紧张感",
-        "instruction": "将下巴向胸部拉下，同时将头部后方向后推，产生双重紧张感。",
+        "instructionTitle": "颈部双向用力",
+        "simpleAction": "下巴向胸前压，头部向后推",
+        "instruction": "将下巴用力向胸部方向压下，同时头部向后方用力推，在颈部产生双向的紧张感。",
         "tensionCue": [
-          "下巴向胸部",
-          "头部向后推",
-          "从两个方向产生紧张感"
+          "下巴向胸部压下",
+          "头部向后推压",
+          "感受双向拉力"
         ],
         "relaxationCue": [
-          "让头部找到自然位置",
-          "颈部修长放松",
-          "喉咙开放"
+          "让头部回到自然位置",
+          "颈部舒展延长",
+          "喉咙区域开放放松"
         ]
       },
       "shoulders": {
         "name": "肩部",
-        "shortName": "肩部",
-        "instructionTitle": "耸肩向耳部",
-        "simpleAction": "尽可能高地抬起肩部",
-        "instruction": "将双肩直接向耳朵方向抬起，尽可能高。试着让它们触碰到耳垂。",
+        "shortName": "肩膀",
+        "instructionTitle": "耸肩动作",
+        "simpleAction": "尽力向上抬起双肩",
+        "instruction": "将双肩直接向耳朵方向抬起，尽可能抬高。试着让肩膀碰触到耳垂。",
         "tensionCue": [
-          "将肩部抬高",
-          "试着触碰耳朵",
-          "感受上背部的挤压"
+          "双肩尽力上抬",
+          "努力触碰耳朵",
+          "感受上背部挤压"
         ],
         "relaxationCue": [
-          "让肩部自然下沉",
-          "感受它们下降更低",
-          "沉重且放松"
+          "让肩膀自然下沉",
+          "感受它们向下放松",
+          "体会沉重的舒适感"
         ]
       },
       "upperBackChest": {
         "name": "上背部和胸部",
         "shortName": "上背部",
-        "instructionTitle": "将肩胛骨挤在一起",
-        "simpleAction": "将肩胛骨挤在一起并轻微拱背",
-        "instruction": "将肩胛骨在背后挤在一起，并轻微拱起背部。深呼吸以扩张胸部。",
+        "instructionTitle": "挤压肩胛骨",
+        "simpleAction": "将肩胛骨向背部中央挤压",
+        "instruction": "将两侧肩胛骨在背部中央用力挤压靠拢，轻微拱起背部。同时深呼吸以扩张胸部。",
         "tensionCue": [
-          "将肩胛骨挤在一起",
-          "拱起背部",
-          "通过深呼吸扩张胸部"
+          "肩胛骨向中央挤压",
+          "轻微拱起背部",
+          "深呼吸扩张胸部"
         ],
         "relaxationCue": [
-          "让背部自然安顿",
-          "肩胛骨分开",
+          "让背部自然安放",
+          "肩胛骨分开复位",
           "胸部柔软开放"
         ]
       },
       "abdomen": {
         "name": "腹部",
         "shortName": "腹部",
-        "instructionTitle": "收紧腹部肌肉",
-        "simpleAction": "让腹肌变硬，就像准备承受拳击一样",
-        "instruction": "收紧腹部肌肉，就像有人要轻轻击打你的腹部一样。将肚脐向脊柱方向拉。",
+        "instructionTitle": "收紧腹肌",
+        "simpleAction": "用力收紧腹部肌肉",
+        "instruction": "用力收紧腹部肌肉，就像准备承受轻击一样。将肚脐向脊柱方向收拉。",
         "tensionCue": [
           "用力收紧腹肌",
-          "将肚脐向内拉",
-          "让腹部像岩石一样硬"
+          "肚脐向脊柱收拉",
+          "腹部硬如磐石"
         ],
         "relaxationCue": [
-          "让腹部放松",
-          "向腹部呼吸",
-          "感受它自然起伏"
+          "让腹部肌肉松弛",
+          "自然腹式呼吸",
+          "感受腹部自然起伏"
         ]
       },
       "lowerBack": {
         "name": "下背部",
         "shortName": "下背部",
-        "instructionTitle": "拱起下背部",
-        "simpleAction": "将腹部向前推并拱起背部",
-        "instruction": "通过将腹部向前推并将下背部向内拉，轻柔地拱起下背部，形成一个弧度。",
+        "instructionTitle": "拱起下背",
+        "simpleAction": "轻柔地向前拱起下背部",
+        "instruction": "将腹部轻柔地向前推出，同时下背部向内收拉，形成一个温和的拱形弧度。",
         "tensionCue": [
-          "轻柔地拱起下背部",
-          "将腹部向外推",
-          "感受脊柱的弧度"
+          "轻柔拱起下背部",
+          "腹部向前推出",
+          "感受脊柱弧度"
         ],
         "relaxationCue": [
-          "让背部恢复自然弧度",
-          "有支撑且舒适",
-          "紧张感融化"
+          "让背部回到自然弧度",
+          "舒适且有支撑",
+          "紧张感完全消融"
         ]
       },
       "hipsButtocks": {
         "name": "臀部和臀肌",
-        "shortName": "臀肌",
-        "instructionTitle": "将臀肌挤在一起",
-        "simpleAction": "用力收缩臀肌",
-        "instruction": "收紧臀肌并尽可能用力地将它们挤在一起。感受整个臀部区域的紧张感。",
+        "shortName": "臀部",
+        "instructionTitle": "收紧臀肌",
+        "simpleAction": "用力收缩臀部肌肉",
+        "instruction": "用力收紧臀部肌肉，尽可能将臀肌向中央挤压。感受整个臀部区域的紧张感。",
         "tensionCue": [
-          "用力将臀肌挤在一起",
-          "紧紧收缩肌肉",
-          "感受臀部的紧张感"
+          "用力收紧臀肌",
+          "向中央挤压肌肉",
+          "感受臀部区域紧张"
         ],
         "relaxationCue": [
-          "让臀肌放松",
-          "感受它们自然展开",
-          "沉重且放松"
+          "让臀肌完全松弛",
+          "感受肌肉自然展开",
+          "体会沉重的放松感"
         ]
       },
       "rightThigh": {
         "name": "右大腿",
         "shortName": "右大腿",
-        "instructionTitle": "伸直腿部并收缩大腿",
+        "instructionTitle": "伸直并收紧大腿",
         "simpleAction": "伸直腿部并收紧大腿肌肉",
-        "instruction": "将右腿伸直放在身前，收紧大腿前侧的大肌肉（四头肌）。",
+        "instruction": "将右腿向前伸直，用力收紧大腿前侧的股四头肌。",
         "tensionCue": [
-          "伸直右腿",
-          "用力收缩大腿肌肉",
-          "感受它坚实有力"
+          "右腿向前伸直",
+          "用力收紧大腿肌肉",
+          "感受肌肉坚实有力"
         ],
         "relaxationCue": [
-          "让腿部自然休息",
-          "大腿肌肉柔软放松",
-          "沉重且舒适"
+          "让腿部自然安放",
+          "大腿肌肉柔软松弛",
+          "体会沉重舒适感"
         ]
       },
       "leftThigh": {
         "name": "左大腿",
         "shortName": "左大腿",
-        "instructionTitle": "伸直腿部并收缩大腿",
+        "instructionTitle": "伸直并收紧大腿",
         "simpleAction": "伸直腿部并收紧大腿肌肉",
-        "instruction": "将左腿伸直放在身前，收紧大腿前侧的大肌肉（四头肌）。",
+        "instruction": "将左腿向前伸直，用力收紧大腿前侧的股四头肌。",
         "tensionCue": [
-          "伸直左腿",
-          "用力收缩大腿肌肉",
-          "感受力量"
+          "左腿向前伸直",
+          "用力收紧大腿肌肉",
+          "感受肌肉力量"
         ],
         "relaxationCue": [
-          "让腿部自然休息",
+          "让腿部自然安放",
           "大腿完全放松",
-          "注意对比"
+          "体会紧张与放松的对比"
         ]
       },
       "rightCalfShin": {
         "name": "右小腿和胫骨",
         "shortName": "右小腿",
-        "instructionTitle": "脚尖向下，然后向上弯曲",
-        "simpleAction": "用力向下指脚，然后将脚趾向胫骨拉",
-        "instruction": "首先将右脚向下指以收紧小腿，然后向上弯曲向胫骨方向以锻炼前侧肌肉。",
+        "instructionTitle": "足部双向用力",
+        "simpleAction": "脚尖向下压，再向上勾",
+        "instruction": "先将右脚脚尖用力向下压以收紧小腿后侧，然后将脚趾向胫骨方向用力勾起以锻炼小腿前侧肌肉。",
         "tensionCue": [
-          "用力向下指脚",
-          "然后向胫骨方向弯曲",
-          "感受两侧都在工作"
+          "脚尖用力向下压",
+          "再向胫骨方向勾起",
+          "感受小腿前后都在用力"
         ],
         "relaxationCue": [
-          "让脚部自然休息",
-          "小腿和胫骨放松",
-          "完全柔软"
+          "让脚部自然安放",
+          "小腿和胫骨完全放松",
+          "肌肉完全柔软"
         ]
       },
       "leftCalfShin": {
         "name": "左小腿和胫骨",
         "shortName": "左小腿",
-        "instructionTitle": "脚尖向下，然后向上弯曲",
-        "simpleAction": "用力向下指脚，然后将脚趾向胫骨拉",
-        "instruction": "首先将左脚向下指以收紧小腿，然后向上弯曲向胫骨方向以锻炼前侧肌肉。",
+        "instructionTitle": "足部双向用力",
+        "simpleAction": "脚尖向下压，再向上勾",
+        "instruction": "先将左脚脚尖用力向下压以收紧小腿后侧，然后将脚趾向胫骨方向用力勾起以锻炼小腿前侧肌肉。",
         "tensionCue": [
-          "用力向下指脚",
-          "然后向胫骨方向弯曲",
-          "感受肌肉参与"
+          "脚尖用力向下压",
+          "再向胫骨方向勾起",
+          "感受肌肉积极参与"
         ],
         "relaxationCue": [
-          "让脚部自然休息",
-          "所有小腿肌肉都放松沉重"
+          "让脚部自然安放",
+          "所有小腿肌肉放松沉重"
         ]
       },
       "rightFoot": {
         "name": "右脚",
         "shortName": "右脚",
-        "instructionTitle": "紧紧蜷缩脚趾",
-        "simpleAction": "将脚趾向下蜷缩到脚部",
-        "instruction": "将右脚趾紧紧向下蜷缩，同时收紧脚弓。像试图用脚趾捡起毛巾一样蜷缩。",
+        "instructionTitle": "蜷缩脚趾",
+        "simpleAction": "将脚趾向下用力蜷缩",
+        "instruction": "将右脚脚趾用力向下蜷缩，同时收紧足弓。就像试图用脚趾抓取毛巾一样用力蜷缩。",
         "tensionCue": [
-          "紧紧向下蜷缩脚趾",
-          "收缩它们",
-          "感受脚弓的紧张感"
+          "脚趾用力向下蜷缩",
+          "紧紧收缩脚趾",
+          "感受足弓紧张感"
         ],
         "relaxationCue": [
-          "让脚趾自然伸直",
+          "让脚趾自然伸展",
           "脚部完全柔软",
-          "温暖且放松"
+          "体会温暖放松感"
         ]
       },
       "leftFoot": {
         "name": "左脚",
         "shortName": "左脚",
-        "instructionTitle": "紧紧蜷缩脚趾",
-        "simpleAction": "将脚趾向下蜷缩到脚部",
-        "instruction": "将左脚趾紧紧向下蜷缩，同时收紧脚弓。像试图用脚趾捡起毛巾一样蜷缩。",
+        "instructionTitle": "蜷缩脚趾",
+        "simpleAction": "将脚趾向下用力蜷缩",
+        "instruction": "将左脚脚趾用力向下蜷缩，同时收紧足弓。就像试图用脚趾抓取毛巾一样用力蜷缩。",
         "tensionCue": [
-          "紧紧向下蜷缩脚趾",
-          "收缩它们",
-          "感受脚弓工作"
+          "脚趾用力向下蜷缩",
+          "紧紧收缩脚趾",
+          "感受足弓肌肉工作"
         ],
         "relaxationCue": [
           "让脚趾自然展开",
           "脚部松弛放松",
-          "紧张感消失"
+          "紧张感完全消失"
         ]
       }
     }
@@ -889,144 +889,144 @@
       "closeEyesAndBreathe": "闭上眼睛，深呼吸"
     },
     "completion": {
-      "title": "视觉化完成",
-      "description": "你已经成功地旅行到了你内心的平静之地。这种平静的状态总是可以被你访问。",
+      "title": "视觉化练习完成",
+      "description": "你已经成功地到达了内心的宁静之地。这种平和安详的状态永远属于你，随时可以回归。",
       "benefits": {
-        "mindCalmed": "心智平静",
-        "stressReduced": "压力减少",
-        "innerPeaceAchieved": "内心平静"
+        "mindCalmed": "心境平和",
+        "stressReduced": "压力释放",
+        "innerPeaceAchieved": "内心安宁"
       }
     },
     "scenes": {
       "mountainPeakSunrise": {
         "name": "山峰日出",
-        "description": "站在一个温柔的山峰上，看着太阳升起在无尽的山峰之上",
+        "description": "站在宁静的山峰之上，目睹太阳从连绵山脉中缓缓升起",
         "soundscape": "山风",
-        "atmosphere": "凉爽、清新的空气",
+        "atmosphere": "清新凉爽的空气",
         "guidance": [
-          "你发现自己站在一个宁静的山峰顶上，世界在你面前展开，像一幅美丽的画卷。",
-          "太阳升起时，天空被柔和的颜色 - 粉红色、温暖的橙色和金黄色 - 覆盖了整个地平线。",
-          "凉爽、清新的山风填满了你的肺。每次呼吸都是纯净和充满活力的，洗去任何紧张或担忧。",
-          "下面，山脉像沉睡的巨人一样滚动到远处，被一层柔软的晨雾覆盖。",
-          "你完全安全地站在这里，站在坚实的大地上，与地球下面的土地相连。",
-          "太阳的温暖轻抚着你的脸，给你带来和平与安静的力量。",
-          "这是你的平静之地 - 你可以随时通过闭上眼睛并记住这个时刻回到这里。"
+          "你发现自己站在一座宁静的山峰顶上，眼前的世界如画卷般徐徐展开。",
+          "朝阳初升，天空被柔和的色彩渲染——粉红、温暖的橙色和金黄，绵延整个地平线。",
+          "清新凉爽的山风轻抚过来，每一次呼吸都是纯净而富有生机的，洗涤着所有的紧张与忧虑。",
+          "山下，群山如沉睡的巨人般绵延向远方，被一层轻柔的晨雾轻纱般覆盖。",
+          "你安全地站立在这里，脚踏坚实的大地，与脚下的土地深深相连。",
+          "阳光的温暖轻抚着你的面庞，为你带来内心的平和与宁静的力量。",
+          "这里是你的宁静之地——随时闭上双眼回忆这一刻，你就能重回此处。"
         ]
       },
       "tranquilForestGrove": {
-        "name": "宁静的森林小径",
-        "description": "在一个阳光斑驳的空地上，被古老的、温柔的树木环绕",
-        "soundscape": "鸟鸣 & 树叶",
-        "atmosphere": "阳光斑驳",
+        "name": "宁静森林小径",
+        "description": "在阳光斑驳的林间空地，被古老温柔的树木环抱",
+        "soundscape": "鸟鸣与树叶沙沙声",
+        "atmosphere": "斑驳阳光",
         "guidance": [
-          "你走进一个美丽的森林空地，古老的树木围绕着你，形成了一个自然的教堂。",
-          "柔和的阳光透过树叶，在森林的地面上创造出光和影的图案。",
-          "这里的空气充满了新鲜的味道 - 苔藓、泥土和树叶的清新气味。",
-          "柔软的苔藓垫在你的脚下，你可以听到鸟儿在微风中歌唱和树叶沙沙作响的声音。",
-          "你坐在一棵光滑的树干旁边，感觉完全被自然拥抱，安全而舒适。",
-          "每次呼吸都带来更深的平静，仿佛森林本身在分享它的古老平静给你。",
-          "这个森林小径是你的避难所 - 一个你可以随时找到和平与更新的地方。"
+          "你走进一片美丽的森林空地，古老的树木环绕着你，仿佛形成了一座天然的圣殿。",
+          "柔和的阳光透过层层叶片洒下，在林地上编织出光影交错的美丽图案。",
+          "空气中弥漫着大自然的清香——苔藓、泥土和绿叶的清新气息。",
+          "脚下是柔软的苔藓地毯，耳边传来鸟儿在微风中的啁啾和树叶轻柔的沙沙声。",
+          "你靠在一棵光滑的树干旁休憩，感受到被大自然完全拥抱的安全与舒适。",
+          "每一次呼吸都带来更深层的宁静，仿佛森林正在与你分享它千年积淀的古老平静。",
+          "这片森林小径是你的心灵避难所——一个让你随时都能找到平和与重生的地方。"
         ]
       },
       "peacefulOceanBeach": {
-        "name": "平静的海滩",
-        "description": "在温暖的沙滩上，赤脚走在柔和、有节奏的波浪旁边",
-        "soundscape": "海浪",
-        "atmosphere": "海风",
+        "name": "宁静海滩",
+        "description": "在温暖的沙滩上漫步，聆听柔和而有节奏的海浪声",
+        "soundscape": "海浪声",
+        "atmosphere": "海风轻拂",
         "guidance": [
-          "你赤脚走在美丽的海滩上，感觉温暖的沙子在你的脚趾之间。",
-          "柔和的波浪在平静的节奏中滚向海岸，就像地球自己的呼吸，平静而稳定。",
-          "海洋在你面前无尽地延伸，它的表面在阳光下闪烁，像散落的钻石。",
-          "温暖的微风带着咸水的清新气味，轻轻地触碰你的皮肤，带来完美的舒适。",
-          "你找到一个完美的休息点，完全与无尽的波浪节奏和平相处。",
-          "每个滚来的波浪都带走任何压力或担忧，把它带到海洋中，完全溶解。",
-          "这个海滩是你的平静避难所 - 波浪将永远在这里，随时准备洗去你的烦恼，无论你何时回来。"
+          "你赤足走在美丽的海滩上，感受着温暖细沙在脚趾间轻柔流淌。",
+          "温柔的海浪以平稳的节奏涌向海岸，就像大地自己的呼吸，宁静而稳定。",
+          "海洋在你面前无边无际地延展，海面在阳光下波光粼粼，如同洒落的钻石。",
+          "温暖的海风带着海水的清新气息，轻抚你的肌肤，带来完美的舒适感。",
+          "你找到了一个完美的休憩之处，与那无穷无尽的波浪节拍完全和谐相处。",
+          "每一波涌来的海浪都带走你的压力与担忧，将它们带向深海，完全化解。",
+          "这片海滩是你的宁静避难所——海浪将永远在这里，随时准备洗涤你的烦忧，无论何时你选择回来。"
         ]
       },
       "sereneGardenParadise": {
-        "name": "宁静的花园天堂",
-        "description": "在一个美丽的花园里，充满了彩色花朵和柔和的喷泉",
-        "soundscape": "水流",
-        "atmosphere": "花香味",
+        "name": "宁静花园天堂",
+        "description": "在美丽的花园中，被绚烂花朵和潺潺喷泉环绕",
+        "soundscape": "流水声",
+        "atmosphere": "花香阵阵",
         "guidance": [
-          "你走进一个美丽的花园，每个花朵似乎都欢迎你，用鲜艳的颜色和柔和的香味。",
-          "一个小喷泉在花园的中心创造出最平静的声音，清澈的水流过光滑的石头。",
-          "柔软的花瓣在你周围创造了一个活生生的彩虹 - 深紫色、明黄色、柔和的粉色。",
-          "空气充满了自然的香味，一切都感觉温暖和欢迎。",
-          "你找到一个舒适的地方休息，感觉被自然的爱护。",
-          "这个花园随着你每次呼吸变得更美丽，仿佛回应你的平静存在。",
-          "这是你的和平花园 - 它将永远绽放，等待你，无论你需要美丽和宁静。"
+          "你步入一座美丽的花园，每一朵花儿都似乎在用绚烂的色彩和柔和的香气欢迎着你。",
+          "花园中央的小喷泉发出最为宁静的声响，清澈的水流轻抚过光滑的石头。",
+          "柔软的花瓣在你周围编织出一道活生生的彩虹——深紫、明黄、柔粉。",
+          "空气中充满了大自然的芬芳，一切都让人感到温暖和受欢迎。",
+          "你找到一处舒适的地方安坐，感受着被大自然温柔呵护的美好。",
+          "花园似乎随着你的每一次呼吸变得更加美丽，仿佛在回应你内心的宁静。",
+          "这是你的宁静花园——它将永远为你绽放，等待着你，无论何时你需要美丽与安宁。"
         ]
       },
       "starlitMeadowNight": {
-        "name": "星光草原之夜",
-        "description": "躺在柔软的草原上，被无数星星的毯子覆盖",
-        "soundscape": "夜声",
-        "atmosphere": "凉爽的夜风",
+        "name": "星空草甸夜",
+        "description": "躺在柔软的草甸上，被满天繁星如毯般覆盖",
+        "soundscape": "夜晚的自然声",
+        "atmosphere": "清凉夜风",
         "guidance": [
-          "你舒服地躺在柔软的草原上，抬头看着一个充满闪烁星星的天空。",
-          "草在你下面完美柔软，像自然自己的垫子，完全支持你的身体。",
-          "在你的头顶，银河在天空中延伸，像一条美丽的光河，美丽得无法描述。",
-          "夜风是舒适的，带着夜来香花的甜味。",
-          "你感觉最好 - 与广阔而平静的东西连接，安全地持有你。",
-          "每个星星似乎都为你闪耀，发出光芒，让你充满惊奇和和平。",
-          "在这个星星下的草原上，你是无限的平静 - 你可以随时抬头，在广阔中找到和平。"
+          "你舒适地躺在柔软的草甸上，仰望着缀满闪烁繁星的夜空。",
+          "脚下的青草完美柔软，如同大自然专为你铺设的天然床垫，完全承托着你的身体。",
+          "头顶上方，银河横贯夜空，如一条美丽的光之河流，美得无法言喻。",
+          "夜风清凉舒适，带着夜来香的甜美气息。",
+          "你感受到前所未有的美好——与浩瀚而宁静的宇宙相连，被安全地拥抱着。",
+          "每一颗星星都仿佛专为你闪烁，散发着光芒，让你内心充满惊叹与平和。",
+          "在这片星空下的草甸上，你拥有了无限的宁静——随时仰望星空，你都能在浩瀚中找到内心的平和。"
         ]
       }
     },
     "howItWorks": {
-      "title": "视觉化如何工作",
-      "description": "视觉化利用你大脑的自然能力，创造生动的心理体验，感觉真实到你的神经系统。当你详细想象平静的场景时，你的大脑激活了相同的神经路径，就像你实际上经历了那些环境一样，触发放松反应并减少压力激素。",
-      "multisensory": "视觉化的多感官性质 - 想象视觉、声音、气味和物理感觉 - 创造全面的平静体验。定期练习建立神经路径，使放松更容易获得，给你一个便携的工具来管理焦虑和压力。"
+      "title": "视觉化练习的工作原理",
+      "description": "视觉化练习利用大脑的天然能力，创造生动的心理体验，让你的神经系统感受到如同真实经历一般的效果。当你详细想象平静场景时，大脑会激活与实际体验相同的神经通路，从而触发放松反应并降低压力激素水平。",
+      "multisensory": "多感官视觉化——通过想象视觉、听觉、嗅觉和触觉感受——能够创造全方位的平静体验。定期练习有助于建立神经通路，让放松状态更容易达到，为你提供一个随时可用的焦虑和压力管理工具。"
     },
     "whenToPractice": {
-      "title": "何时练习",
+      "title": "最佳练习时机",
       "items": [
-        "用视觉化开始你的早晨，设定一个平静的基调",
-        "在压力事件前建立信心和内心平静",
-        "在午餐休息时进行心理重置和压力缓解",
-        "在睡前放松，准备休息的睡眠"
+        "晨起时进行视觉化练习，为一天营造平静基调",
+        "面临压力事件前，建立内心信心与安宁",
+        "午休时间进行心理重置，缓解工作压力",
+        "睡前放松练习，为优质睡眠做好准备"
       ]
     },
     "whatYoullNotice": {
-      "title": "你会注意到什么",
+      "title": "练习后的感受",
       "items": [
-        "心智变得平静，专注于平静的想象",
-        "压力消失时，心率减慢",
-        "呼吸变得更深，更自然",
-        "当你在心理上“访问”平静的地方时，整个身体放松"
+        "心境趋于平静，专注于宁静的想象画面",
+        "随着压力消散，心率逐渐放缓",
+        "呼吸变得更加深沉自然",
+        "当你在内心\"造访\"平静之地时，全身得到放松"
       ]
     },
     "tips": {
-      "title": "更深层次的视觉化提示",
+      "title": "获得最佳效果的建议",
       "preparation": {
-        "title": "准备",
-        "description": "找一个不会被打扰的舒适位置。闭上眼睛或放松你的目光。"
+        "title": "练习准备",
+        "description": "选择一个安静舒适、不会被打扰的地方。闭上双眼或让目光轻松放松。"
       },
       "engagement": {
-        "title": "参与",
-        "description": "参与所有五种感官 - 看、听、感觉、闻、尝。越生动，越有效。"
+        "title": "感官参与",
+        "description": "调动所有五种感官——视觉、听觉、触觉、嗅觉、味觉。画面越生动，效果越显著。"
       },
       "patience": {
-        "title": "耐心",
-        "description": "如果你的心智游荡，不要担心 - 轻轻地回到场景。允许自己有创意。"
+        "title": "保持耐心",
+        "description": "如果思绪游离，无需担心——轻柔地将注意力重新带回到场景中。允许自己发挥创造力。"
       }
     },
     "science": {
-      "title": "平静视觉化背后的科学",
-      "description": "根据 10 项研究的系统回顾，<a href=\"https://pubmed.ncbi.nlm.nih.gov/39845426/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">引导意象</a>可使手术患者的围手术期焦虑降低18%。基于自然的视觉化技术通过激活放松反应来减少状态焦虑，皮质醇水平下降15%。",
+      "title": "平静视觉化的科学依据",
+      "description": "根据10项研究的系统性回顾，<a href=\"https://pubmed.ncbi.nlm.nih.gov/39845426/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">引导意象疗法</a>能使手术患者的围手术期焦虑水平降低18%。基于自然场景的视觉化技术通过激活放松反应来减少状态性焦虑，皮质醇水平可下降15%。",
       "research": {
         "effectiveness": {
-          "title": "临床有效性",
-          "description": "在组间比较中，视觉化技术<a href=\"https://pubmed.ncbi.nlm.nih.gov/34306146/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">与深呼吸的20%放松效果相匹配</a>。虚拟现实个性化技术使飞行员焦虑降低22%，这与前额叶皮层的变化相关。"
+          "title": "临床有效性验证",
+          "description": "在组间对比研究中，视觉化技术<a href=\"https://pubmed.ncbi.nlm.nih.gov/34306146/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">达到了与深呼吸练习相当的20%放松效果</a>。虚拟现实个性化技术使飞行员的焦虑水平降低22%，这一改善与前额叶皮层的变化密切相关。"
         },
         "medical": {
-          "title": "医疗应用",
-          "description": "对于不孕症女性，治疗课程相比对照组<a href=\"https://pubmed.ncbi.nlm.nih.gov/37697567/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">使情感压力减少25%</a>。癌症幸存者在包含视觉化的冥想项目中报告生活质量提升20%。"
+          "title": "医疗临床应用",
+          "description": "针对不孕症女性的研究显示，治疗课程相比对照组<a href=\"https://pubmed.ncbi.nlm.nih.gov/37697567/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">使情感压力减少25%</a>。癌症康复者在包含视觉化元素的冥想项目中报告生活质量提升20%。"
         },
         "physiological": {
-          "title": "生理益处",
-          "description": "基于自然的视觉化技术通过激活放松反应来减少状态焦虑，<a href=\"https://pubmed.ncbi.nlm.nih.gov/30333777/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">皮质醇水平下降15%</a>。引导意象在10项研究中使手术患者的围手术期焦虑降低18%。"
+          "title": "生理机制效益",
+          "description": "基于自然场景的视觉化技术通过激活放松反应来减少状态性焦虑，<a href=\"https://pubmed.ncbi.nlm.nih.gov/30333777/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">皮质醇水平可降低15%</a>。在10项研究中，引导意象疗法使手术患者的围手术期焦虑水平降低18%。"
         }
       }
     }
@@ -1034,132 +1034,132 @@
   "thoughtLabeling": {
     "interface": {
       "title": "思维标记",
-      "subtitle": "观察并分类你的想法",
+      "subtitle": "观察并识别你的想法",
       "beginExercise": "开始练习",
-      "thoughtsLabeled": "已标记的思考",
-      "labelingActiveThought": "标记活跃的思考",
-      "readyForNextThought": "准备下一个思考",
+      "thoughtsLabeled": "已标记的想法",
+      "labelingActiveThought": "正在标记想法",
+      "readyForNextThought": "准备下一个想法",
       "elapsed": "已用时",
-      "yourLabeledThoughts": "你的标记思考",
+      "yourLabeledThoughts": "你标记的想法",
       "whatsOnYourMind": "你在想什么？",
-      "labelThisThought": "标记这个思考",
-      "chooseLabelsThatDescribe": "选择最能描述这个思考的标签：",
-      "writeAnxiousThought": "写下你现在正在焦虑的思考：",
-      "examplePlaceholder": "示例：'我担心我明天会搞砸我的演讲...'",
-      "labelThisThoughtButton": "标记这个思考",
-      "yourThought": "你的思考：",
+      "labelThisThought": "标记这个想法",
+      "chooseLabelsThatDescribe": "选择最能描述这个想法的标签：",
+      "writeAnxiousThought": "写下你当前焦虑的想法：",
+      "examplePlaceholder": "示例：'我担心明天的演讲会搞砸...'",
+      "labelThisThoughtButton": "标记这个想法",
+      "yourThought": "你的想法：",
       "cancel": "取消",
       "continue": "继续",
       "practiceAgain": "再次练习"
     },
     "benefits": {
       "awareness": {
-        "title": "意识",
-        "description": "注意思考，但不被它们消耗"
+        "title": "觉察力",
+        "description": "注意到想法，但不被它们左右"
       },
       "balance": {
-        "title": "平衡",
-        "description": "与焦虑思考保持健康距离"
+        "title": "平衡感",
+        "description": "与焦虑想法保持健康距离"
       },
       "clarity": {
-        "title": "清晰",
-        "description": "理解你的思考模式"
+        "title": "清晰度",
+        "description": "理解你的思维模式"
       }
     },
     "completion": {
-      "title": "出色的自我意识",
-      "description": "你成功标记了 {count} 个思考，用时 {time}。这个练习帮助你与焦虑思考保持健康距离。",
-      "sessionInsights": "会话洞察",
+      "title": "出色的自我觉察",
+      "description": "你成功标记了 {count} 个想法，用时 {time}。这个练习帮助你与焦虑想法保持健康距离。",
+      "sessionInsights": "本次洞察",
       "benefits": {
-        "awarenessIncreased": "意识增加",
-        "thoughtsOrganized": "思考组织",
-        "emotionalDistanceCreated": "情感距离创造"
+        "awarenessIncreased": "觉察力提升",
+        "thoughtsOrganized": "想法整理",
+        "emotionalDistanceCreated": "情感距离建立"
       }
     },
     "insights": {
       "commonPattern": {
-        "title": "常见的模式识别",
-        "description": "大多数你的思考被标记为 \"{labelName}\" - 认识这个模式是管理它的第一步。"
+        "title": "常见模式识别",
+        "description": "你的大部分想法被标记为\"{labelName}\" - 识别这个模式是管理它的第一步。"
       },
       "strongAwareness": {
-        "title": "强大的自我意识",
-        "description": "你展示了出色的能力，客观地观察和分类你的思考。"
+        "title": "强大的自我觉察",
+        "description": "你展现了出色的能力，能够客观地观察和分类你的想法。"
       }
     },
     "labels": {
       "worry": {
         "name": "担忧",
-        "description": "对未来事件或结果的担忧"
+        "description": "对未来事件或结果的忧虑"
       },
       "catastrophic": {
-        "name": "灾难性",
-        "description": "想象最坏的情况"
+        "name": "灾难化",
+        "description": "想象最坏的情况发生"
       },
       "selfDoubt": {
         "name": "自我怀疑",
-        "description": "质疑你的能力或价值"
+        "description": "质疑自己的能力或价值"
       },
       "perfectionist": {
-        "name": "完美主义者",
-        "description": "设定不现实的高标准"
+        "name": "完美主义",
+        "description": "设定过高的不现实标准"
       },
       "comparison": {
-        "name": "比较",
-        "description": "与他人比较自己"
+        "name": "比较心理",
+        "description": "拿自己与他人作比较"
       },
       "rumination": {
-        "name": "沉思",
+        "name": "反刍思维",
         "description": "反复思考过去的事件"
       },
       "control": {
-        "name": "控制",
-        "description": "想要控制无法控制的情况"
+        "name": "控制欲",
+        "description": "试图控制无法掌控的情况"
       },
       "rejection": {
-        "name": "拒绝",
-        "description": "害怕被拒绝或抛弃"
+        "name": "被拒恐惧",
+        "description": "害怕被拒绝或遗弃"
       },
       "performance": {
-        "name": "表现",
-        "description": "担心你的表现"
+        "name": "表现焦虑",
+        "description": "担心自己的表现"
       },
       "health": {
-        "name": "健康",
-        "description": "关于身体或心理健康的担忧"
+        "name": "健康焦虑",
+        "description": "对身体或心理健康的担忧"
       },
       "social": {
-        "name": "社交",
-        "description": "关于社交情况或关系的担忧"
+        "name": "社交焦虑",
+        "description": "对社交场合或人际关系的担忧"
       },
       "financial": {
-        "name": "财务",
+        "name": "经济焦虑",
         "description": "与金钱相关的压力和担忧"
       }
     },
     "howItWorks": {
-      "title": "思考标签如何工作",
+      "title": "思维标记的工作原理",
       "cognitive": {
-        "title": "认知意识",
-        "description": "当我们焦虑时，思考可以感觉压倒性和压倒性的。标签通过帮助你将思考视为心理事件，而不是绝对真理，创造心理距离。",
-        "therapy": "这种技术植根于认知行为疗法（CBT）和正念实践，帮助你发展元认知意识——思考你的思考的能力。"
+        "title": "认知觉察",
+        "description": "当我们焦虑时，思维会让人感到难以承受且混乱不堪。标记技巧通过帮助你将想法视为心理事件而非绝对真理，从而创造心理距离。",
+        "therapy": "这种技术根植于认知行为疗法（CBT）和正念练习，帮助你培养元认知觉察——即对自己思维过程的觉察能力。"
       },
       "pattern": {
         "title": "模式识别",
-        "description": "通过分类你的思考，你开始注意到你思考中的模式。你经常进行灾难性思考吗？自我怀疑吗？完美主义吗？",
-        "benefits": "认识这些模式是发展更健康思考习惯和减少焦虑思考情绪影响的第一步。"
+        "description": "通过对思维进行分类，你开始注意到自己思维中的规律。你是否经常进行灾难化思维？自我怀疑？完美主义倾向？",
+        "benefits": "识别这些模式是培养更健康思维习惯、减少焦虑思维情绪冲击的第一步。"
       }
     },
     "science": {
-      "title": "思维标记背后的科学",
-      "description": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/17576282/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">情感标记</a>能够减少杏仁核活动，对负面刺激的情绪反应性降低30%。在正念情境中，它与前扣带皮层激活相关，焦虑缓解程度达到15%。",
+      "title": "思维标记背后的科学依据",
+      "description": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/17576282/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">情绪标记</a>能够减少杏仁核活动，对负面刺激的情绪反应性降低30%。在正念练习中，它与前扣带皮层激活相关，焦虑缓解程度达到15%。",
       "research": {
         "cognitive": {
           "title": "认知益处",
-          "description": "焦虑障碍中的认知扭曲在被标记后，<a href=\"https://pubmed.ncbi.nlm.nih.gov/37834995/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">治疗试验中症状下降20%</a>。结合标记技术的暴露疗法能增强抑制性学习，治疗效果提升25%。"
+          "description": "焦虑障碍中的认知扭曲在被标记后，<a href=\"https://pubmed.ncbi.nlm.nih.gov/37834995/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">治疗试验中症状降低20%</a>。结合标记技术的暴露疗法能增强抑制性学习，治疗效果提升25%。"
         },
         "neurological": {
-          "title": "大脑变化",
-          "description": "包含标记技术的正念训练项目能诱导大脑变化，<a href=\"https://pubmed.ncbi.nlm.nih.gov/27429096/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">焦虑减轻效应量为0.40</a>。在正念情境中，它与前扣带皮层激活相关，焦虑缓解程度达到15%。"
+          "title": "神经变化",
+          "description": "包含标记技术的正念训练项目能够诱导大脑变化，<a href=\"https://pubmed.ncbi.nlm.nih.gov/27429096/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">焦虑减轻效应量为0.40</a>。在正念练习中，它与前扣带皮层激活相关，焦虑缓解程度达到15%。"
         },
         "clinical": {
           "title": "临床应用",
@@ -1168,111 +1168,111 @@
       }
     },
     "whenToPractice": {
-      "title": "何时练习",
+      "title": "最佳练习时机",
       "items": [
-        "当你的心智在快速思考时",
-        "当进行灾难性思考或最坏情况时",
-        "当陷入对过去事件的沉思时",
-        "当自我怀疑或质疑你的价值时"
+        "当思维快速运转、停不下来时",
+        "当进行灾难化思维或设想最坏情况时",
+        "当陷入对过往事件的反复思考时",
+        "当自我怀疑或质疑自己价值时"
       ]
     },
     "whatYoullNotice": {
-      "title": "你会注意到什么",
+      "title": "练习后的感受",
       "items": [
-        "与压倒性的思考保持更大距离",
-        "识别重复的思考模式",
-        "减少焦虑思考的情感反应",
-        "随着时间的推移，提高元认知意识"
+        "与压倒性思维保持更大的心理距离",
+        "识别重复出现的思维模式",
+        "减少对焦虑思维的情绪反应",
+        "随着时间推移，元认知觉察能力不断提升"
       ]
     },
     "tips": {
-      "title": "有效的思考标签的提示",
+      "title": "获得最佳效果的建议",
       "nonJudgmental": {
-        "title": "保持非批判性",
-        "description": "标签思考，没有批评。没有\"坏\"的思考——只有可能不适合你的思考。"
+        "title": "保持中立态度",
+        "description": "对思维进行标记时不要批判。没有\"坏\"的想法——只有可能不适合你的想法。"
       },
       "observe": {
-        "title": "观察，不要参与",
-        "description": "目标是注意和分类思考，而不是在当下解决或分析它们。"
+        "title": "观察而不参与",
+        "description": "目标是观察和分类思维，而不是在当下解决或深入分析它们。"
       },
       "practice": {
-        "title": "定期练习",
-        "description": "像任何技能一样，随着练习，思考标签变得更加有效。每天使用它，以获得最佳结果。"
+        "title": "坚持练习",
+        "description": "如同任何技能一样，思维标记随着练习会变得更加有效。每天坚持使用以获得最佳效果。"
       }
     }
   },
   "stressReliefBubbles": {
     "resetButton": "重置气泡",
     "science": {
-      "title": "触觉焦虑缓解的科学",
-      "description": "触觉焦虑缓解工具，如压力球，在透析患者中四周后降低焦虑15%。感官调节干预，包括弹跳动作，在心理健康环境中减少20%的痛苦水平，帮助在压力下改善自我调节。",
+      "title": "触觉减压的科学依据",
+      "description": "触觉减压工具如压力球，经过四周使用后能够使透析患者的焦虑水平降低15%。感官调节干预措施，包括弹跳动作，在心理健康环境中可减少20%的痛苦水平，有助于在压力状态下改善自我调节能力。",
       "research": {
         "sensory": {
-          "title": "感官调节",
-          "description": "感官调节干预，包括弹跳动作，在心理健康环境中减少20%的痛苦水平。焦虑设备在压力下改善自我调节，如实验室任务中稳定的心率。"
+          "title": "感官调节效果",
+          "description": "包括弹跳动作在内的感官调节干预措施，在心理健康环境中可减少20%的痛苦水平。减压设备能够在压力环境下改善自我调节，如在实验室任务中保持稳定的心率。"
         },
         "attention": {
-          "title": "注意力和专注",
-          "description": "在ADHD成人中，焦虑设备有助于持续注意力，提高12%的表现。自闭症儿童的父母将这些工具评为25%更有助于注意力，而不是在神经典型群体中。"
+          "title": "注意力与专注力提升",
+          "description": "在ADHD成年患者中，减压设备有助于维持持续注意力，表现提升12%。自闭症儿童的家长认为这些工具对注意力的帮助程度比在神经典型群体中高出25%。"
         },
         "motor": {
           "title": "运动控制益处",
-          "description": "初步数据表明，弹跳焦虑设备在短期内通过10%增强精细运动控制。触觉焦虑缓解工具，如压力球，在透析患者中四周后降低焦虑15%。"
+          "description": "初步数据表明，弹跳减压设备能够在短期内将精细运动控制能力提升10%。触觉减压工具如压力球，经过四周使用后能够使透析患者的焦虑水平降低15%。"
         }
       }
     },
     "howItWorks": {
-      "title": "触觉焦虑缓解如何工作",
-      "description": "通过重复弹跳动作提供即时感官反馈，帮助重新定向焦虑能量。满足的“弹跳”声音和物理感觉将你的神经系统带入平静、专注的活动。"
+      "title": "触觉减压的工作原理",
+      "description": "通过重复的弹跳动作提供即时的感官反馈，有助于重新引导焦虑能量。令人满足的\"弹跳\"声响和物理感受能够将你的神经系统引导至平静、专注的活动状态。"
     },
     "whenToPractice": {
-      "title": "何时使用",
+      "title": "最佳使用时机",
       "items": [
-        "在焦虑时刻需要立即分散注意力时",
-        "当感到不安或焦虑时",
-        "在电话或等待期间",
-        "在任务之间快速压力重置"
+        "焦虑时刻需要立即转移注意力时",
+        "感到烦躁不安或焦虑时",
+        "通话或等待期间",
+        "任务间隙需要快速压力重置时"
       ]
     },
     "whatYoullNotice": {
-      "title": "你会注意到什么",
+      "title": "练习后的感受",
       "items": [
-        "立即满足的触觉反馈",
-        "减少不安和焦虑",
-        "在重复任务中提高专注力",
-        "通过冥想弹跳快速缓解压力"
+        "获得即时满足的触觉反馈",
+        "烦躁不安和焦虑感减少",
+        "在重复性任务中专注力得到提升",
+        "通过专注弹跳获得快速压力缓解"
       ]
     },
     "tips": {
-      "title": "最佳结果的提示",
+      "title": "获得最佳效果的建议",
       "mindful": {
-        "title": "冥想弹跳",
-        "description": "专注于每个弹跳的触觉和声音，而不是匆忙通过。"
+        "title": "专注弹跳",
+        "description": "专注感受每次弹跳的触感和声音，而不要急于求成。"
       },
       "breaks": {
-        "title": "休息",
-        "description": "使用短至 2-5 分钟的会话，避免过度刺激。"
+        "title": "适度休息",
+        "description": "使用2-5分钟的短时练习，避免过度刺激。"
       },
       "environment": {
-        "title": "考虑他人",
-        "description": "在安静的环境或共享空间中注意声音水平。"
+        "title": "环境考量",
+        "description": "在安静环境或共享空间中注意控制声音水平。"
       }
     }
   },
   "soundTherapy": {
     "title": "声音疗法与频率治疗",
-    "description": "体验通过科学支持的声音疗法促进深度放松、减少焦虑和增强专注力。",
+    "description": "体验经过科学验证的声音疗法，实现深度放松、减轻焦虑并提升专注力。",
     "interface": {
       "frequency": "频率",
       "binauralBeats": "双耳节拍",
       "modulation": "调制",
       "volume": "音量",
       "startSession": "开始声音疗法",
-      "stopSession": "停止会话"
+      "stopSession": "停止疗程"
     },
     "playingState": {
-      "description": "允许治疗振动洗涤你。专注于你的呼吸，让频率引导你进入深度放松。",
-      "instructions": "闭上眼睛，允许振动深入渗透，带来内心的平静和身体的安宁。"
+      "description": "让治疗性的声波洗涤你的身心。专注于呼吸，让这些频率引导你进入深度放松状态。",
+      "instructions": "闭上双眼，让声波振动深入你的内在，为心灵带来宁静，为身体带来安宁。"
     },
     "frequencies": [
       {
@@ -1353,68 +1353,68 @@
       }
     ],
     "science": {
-        "title": "声音疗法的科学",
-        "description": "随机对照试验表明，<a href=\"https://pubmed.ncbi.nlm.nih.gov/16115248/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">θ频率的双耳节拍</a>可使术前焦虑降低20%。一项针对大学生的初步研究发现，不同节拍频率可使自主神经应激指标下降15%-25%。",
+      "title": "声音疗法背后的科学依据",
+      "description": "随机对照试验表明，<a href=\"https://pubmed.ncbi.nlm.nih.gov/16115248/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">θ频率双耳节拍</a>能使术前焦虑水平降低20%。一项针对大学生的初步研究发现，不同节拍频率可使自主神经应激指标下降15%-25%。",
       "research": {
         "clinical": {
-          "title": "临床应用",
-          "description": "在支气管镜患者中，<a href=\"https://pubmed.ncbi.nlm.nih.gov/35713444/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">音频暴露降低了焦虑得分</a>18分。元分析显示节拍降低了疼痛感知和焦虑，效果大小为0.35。"
+          "title": "临床应用效果",
+          "description": "在支气管镜检查患者中，<a href=\"https://pubmed.ncbi.nlm.nih.gov/35713444/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">音频治疗使焦虑评分降低</a>18分。荟萃分析显示双耳节拍能降低疼痛感知和焦虑水平，效应量为0.35。"
         },
         "frequency": {
-          "title": "频率效果",
-          "description": "在日记中每天使用，跟踪了<a href=\"https://pubmed.ncbi.nlm.nih.gov/11191043/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">10%的焦虑下降</a>。一项针对大学生的试验发现，不同的节拍频率降低了自主压力标记物15-25%。"
+          "title": "频率治疗效果",
+          "description": "通过日常使用追踪发现，<a href=\"https://pubmed.ncbi.nlm.nih.gov/11191043/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">焦虑水平降低10%</a>。一项针对大学生的试验发现，不同节拍频率可使自主神经压力指标降低15-25%。"
         },
         "combined": {
-          "title": "综合益处",
-          "description": "与音乐结合，它与单独的疗法在症状缓解方面相匹配，<a href=\"https://pubmed.ncbi.nlm.nih.gov/38723376/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">提高了12%</a>。元分析显示节拍降低了疼痛感知和焦虑，效果大小为0.35。"
+          "title": "综合治疗效益",
+          "description": "与音乐疗法结合使用时，在症状缓解方面与单一疗法效果相当，<a href=\"https://pubmed.ncbi.nlm.nih.gov/38723376/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">疗效提升12%</a>。荟萃分析显示双耳节拍能降低疼痛感知和焦虑水平，效应量为0.35。"
         }
       }
     },
     "howItWorks": {
-      "title": "声音疗法如何工作",
-      "description": "声音疗法使用特定的频率和双耳节拍同步脑波并促进放松。不同的频率针对不同的意识状态，从深度冥想到警觉专注。",
+      "title": "声音疗法的工作原理",
+      "description": "声音疗法通过特定频率和双耳节拍来同步脑电波并促进身心放松。不同频率针对不同的意识状态，从深度冥想到清醒专注状态都能实现。",
       "frequencies": {
-        "title": "治疗频率",
-        "description": "索尔菲格频率在冥想和治疗实践中已经使用了几个世纪。每个频率都被认为与身体和情感健康不同方面共鸣。"
+        "title": "治疗频率原理",
+        "description": "索尔菲格频率在冥想和治疗实践中已经沿用了数个世纪。每个频率都被认为能与身体和情感健康的不同层面产生共振效应。"
       },
       "binaural": {
-        "title": "双耳节拍",
-        "description": "当两个稍微不同的频率在每个耳朵中播放时，你的大脑创建第三个频率——双耳节拍。这可以将你的脑波引导到特定的状态，如放松或专注。"
+        "title": "双耳节拍机制",
+        "description": "当两个频率略有差异的声音分别传入左右耳时，大脑会创造出第三种频率——双耳节拍。这种现象能够引导脑电波进入特定状态，如放松或专注状态。"
       }
     },
     "whenToPractice": {
-      "title": "何时使用",
+      "title": "最佳使用时机",
       "items": [
-        "在冥想或深度放松会话期间",
-        "在医疗程序前需要减少焦虑时",
-        "用于疼痛管理和压力缓解",
-        "提高专注力和集中力",
-        "在睡眠前提高睡眠质量"
+        "冥想或深度放松训练期间",
+        "医疗程序前需要缓解焦虑时",
+        "疼痛管理和压力舒缓时",
+        "需要提高专注力和集中度时",
+        "睡前改善睡眠质量时"
       ]
     },
     "whatYoullNotice": {
-      "title": "你会注意到什么",
+      "title": "练习后的感受",
       "items": [
-        "呼吸与声音波同步逐渐",
-        "更深层次的放松和冷静状态",
-        "减少身体紧张和精神杂乱",
-        "增强专注或冥想状态",
-        "提高疼痛耐受性和压力弹性"
+        "呼吸节奏逐渐与声波频率同步",
+        "进入更深层次的放松和平静状态",
+        "身体紧张感和思维杂念减少",
+        "专注力或冥想状态得到增强",
+        "疼痛耐受性和压力承受力提升"
       ]
     },
     "tips": {
-      "title": "最佳结果的提示",
+      "title": "获得最佳效果的建议",
       "headphones": {
         "title": "使用耳机",
-        "description": "立体声耳机是体验双耳节拍的有效工具。"
+        "description": "立体声耳机是体验双耳节拍效果的必备工具。"
       },
       "volume": {
-        "title": "舒适的音量",
-        "description": "保持舒适的音量——疗法通过频率，而不是音量。"
+        "title": "音量适中",
+        "description": "保持舒适的音量水平——治疗效果来自频率本身，而非音量大小。"
       },
       "consistency": {
-        "title": "定期练习",
-        "description": "每天 10-20 分钟的会话提供了最大的焦虑缓解益处。"
+        "title": "坚持练习",
+        "description": "每日10-20分钟的练习能够提供最大的焦虑缓解效益。"
       }
     }
   }

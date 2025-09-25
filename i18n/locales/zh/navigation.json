@@ -1,32 +1,32 @@
 {
   "navigation": {
-    "techniques": "所有技术",
+    "techniques": "舒缓技巧",
     "about": "关于焦虑",
-    "resources": "资源",
+    "resources": "相关资源",
     "github": "GitHub",
     "openMobileMenu": "打开导航菜单",
     "closeMobileMenu": "关闭导航菜单",
     "mobileMenuLabel": "主导航",
-    "skipToMain": "跳到主要内容"
+    "skipToMain": "跳转到主要内容"
   },
   "header": {
     "title": "AnxietyAidTools",
-    "subtitle": "开源焦虑工具包"
+    "subtitle": "开源焦虑工具集"
   },
   "hero": {
-    "title": "焦虑工具包",
-    "description": "免费工具，帮助您在焦虑时放松。这些练习简单易行，不需要任何特殊设备——随时使用，当您的头脑感到过于忙碌或需要片刻平静时。"
+    "title": "焦虑舒缓工具集",
+    "description": "免费的身心舒缓工具，助您在焦虑时刻重获平静。这些练习简单易学，无需任何特殊设备——随时随地都能使用，当思绪纷乱或需要片刻宁静时。"
   },
   "breadcrumb": {
     "backToHome": "返回主页"
   },
   "relatedTechniques": {
-    "title": "尝试这些",
-    "description": "继续练习这些互补技术："
+    "title": "推荐练习",
+    "description": "继续探索这些相辅相成的舒缓技巧："
   },
   "error": {
     "page-not-found": "页面未找到",
     "return": "返回主页",
-    "message": "您正在寻找的页面不存在或已移动。让我们带您回到焦虑缓解工具。"
+    "message": "您访问的页面不存在或已移动。让我们带您回到焦虑工具集主页。"
   }
 }
