@@ -62,6 +62,40 @@
       "title": "参与贡献",
       "github": "GitHub",
       "discussions": "社区讨论"
+    },
+    "projects": {
+      "title": "无聊反乌托邦开发团队",
+      "awesomeClaude": {
+        "name": "Claude 资源精选",
+        "description": "Claude AI 的精选工具、SDK、MCP 服务器和集成资源"
+      },
+      "codeCheatsheet": {
+        "name": "Claude Code 速查表",
+        "description": "Claude Code 快速参考指南"
+      },
+      "awesomeClaudeCode": {
+        "name": "Claude Code 精选资源",
+        "description": "社区精选的 Claude Code 资源集合"
+      },
+      "tmuxai": {
+        "name": "TmuxAI",
+        "description": "AI 驱动的非侵入式终端助手"
+      },
+      "tmuxVsWarp": {
+        "name": "TmuxAI 与 Warp 对比",
+        "description": "详细对比指南"
+      },
+      "tmuxGuide": {
+        "name": "Tmux 入门指南",
+        "description": "Tmux 初学者教程"
+      },
+      "tmuxCheatsheet": {
+        "name": "Tmux 速查表",
+        "description": "Tmux 快速参考"
+      },
+      "freeSubStats": {
+        "name": "FreeSubStats"
+      }
     }
   }
 }
