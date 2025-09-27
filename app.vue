@@ -1,20 +1,9 @@
 <script setup lang="ts">
-const isLoading = ref(true);
-
-onMounted(() => {
-  nextTick(() => {
-    isLoading.value = false;
-  });
-});
 </script>
 
 <template>
   <NuxtPwaManifest />
-  <div class="relative">
-    <div
-      v-if="isLoading"
-      class="fixed inset-0 z-50 flex items-center justify-center bg-white transition-opacity duration-300 dark:bg-gray-900"
-    ></div>
+  <div>
     <NuxtLayout>
       <div>
         <NuxtPage />
