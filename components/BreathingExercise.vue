@@ -197,6 +197,7 @@
 <script setup>
 import { vAutoAnimate } from '@formkit/auto-animate/vue'
 
+const haptics = useHaptics()
 const exerciseActive = ref(false);
 const exerciseCompleted = ref(false);
 const currentBreath = ref(0);
@@ -219,6 +220,9 @@ const formatTime = (ms) => {
 const exerciseSection = ref(null);
 
 const startExercise = () => {
+  // Haptic feedback for exercise start
+  haptics.success();
+
   exerciseActive.value = true;
   exerciseCompleted.value = false;
   currentBreath.value = 0;
@@ -332,6 +336,9 @@ const stopExercise = () => {
 };
 
 const completeExercise = () => {
+  // Haptic feedback for exercise completion
+  haptics.success();
+
   exerciseActive.value = false;
   exerciseCompleted.value = true;
   breathingText.value = "Complete";
