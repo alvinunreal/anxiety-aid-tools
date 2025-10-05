@@ -1,0 +1,32 @@
+{
+  "navigation": {
+    "techniques": "Alle Technieken",
+    "about": "Over Angst",
+    "resources": "Bronnen",
+    "github": "GitHub",
+    "openMobileMenu": "Open navigatiemenu",
+    "closeMobileMenu": "Sluit navigatiemenu",
+    "mobileMenuLabel": "Hoofdnavigatie",
+    "skipToMain": "Ga naar hoofdinhoud"
+  },
+  "header": {
+    "title": "AnxietyAidTools",
+    "subtitle": "Open source angst toolkit"
+  },
+  "hero": {
+    "title": "Angst Toolkit",
+    "description": "Gratis tools om te helpen wanneer u zich angstig voelt. Deze oefeningen zijn eenvoudig te volgen en vereisen geen speciale apparatuur - gebruik ze wanneer uw geest te druk aanvoelt of wanneer u een moment van rust nodig heeft."
+  },
+  "breadcrumb": {
+    "backToHome": "Terug naar Home"
+  },
+  "relatedTechniques": {
+    "title": "Probeer Deze Volgende",
+    "description": "Vervolg uw praktijk met deze complementaire technieken:"
+  },
+  "error": {
+    "page-not-found": "Pagina Niet Gevonden",
+    "return": "Terug naar Home",
+    "message": "De pagina die u zoekt bestaat niet of is verplaatst. Laten we u terugbrengen naar de angstverlichtingstools."
+  }
+}
