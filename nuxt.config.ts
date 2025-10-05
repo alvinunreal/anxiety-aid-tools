@@ -226,6 +226,18 @@ export default defineNuxtConfig({
           'he/meta.json'
         ]
       },
+      {
+        code: 'nl',
+        language: 'nl',
+        name: 'Nederlands',
+        files: [
+          'nl/navigation.json',
+          'nl/techniques.json',
+          'nl/exercises.json',
+          'nl/pages.json',
+          'nl/meta.json'
+        ]
+      },
     ],
     defaultLocale: 'en',
     strategy: 'prefix_except_default'
@@ -240,10 +252,6 @@ export default defineNuxtConfig({
       org: 'boring-dystopia-development',
       project: 'anxietyaidtools',
     },
-  },
-
-  sourcemap: {
-    client: 'hidden',
   },
 
   pwa: {

@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "home": {
+      "title": "Open Source Angst Toolkit",
+      "description": "Community-gebouwde tools voor angstverlichting inclusief ademhalingstechnieken, gronding, en spierontspanning."
+    },
+    "breathing": {
+      "title": "2-Minuten Ademhalingsoefening",
+      "description": "Gratis begeleide ademhalingsoefening met 4:6 ademhalingspatroon. Activeert parasympatisch zenuwstelsel om angst en stress natuurlijk te verminderen."
+    },
+    "grounding": {
+      "title": "5-4-3-2-1 Grondingstechniek",
+      "description": "Gratis grondingsoefening met uw 5 zintuigen om angst en paniek te kalmeren. Evidence-based techniek voor onmiddellijke stressverlichting."
+    },
+    "guidedBreathing": {
+      "title": "Begeleide Ademhalingsoefening",
+      "description": "Uitgebreide begeleide ademhalingsoefeningen met zachte begeleiding. 5-10 minuten sessies voor diepere ontspanning en angstmanagement."
+    },
+    "progressiveMuscleRelaxation": {
+      "title": "Progressieve Spierontspanning",
+      "description": "Gratis begeleide spierontspanningsoefening. Laat fysieke spanning en angst los door systematische spierontspanningstechnieken."
+    },
+    "peacefulVisualization": {
+      "title": "Vreedzame Visualisatie",
+      "description": "Begeleide visualisatieoefeningen voor angstverlichting. Reis naar kalmerende plaatsen in uw geest voor stressreductie en ontspanning."
+    },
+    "thoughtLabeling": {
+      "title": "Gedachten Labelen",
+      "description": "Interactieve angst gedachten categorisatietool. Identificeer en label angstige gedachten om hun emotionele impact te verminderen."
+    },
+    "stressReliefBubbles": {
+      "title": "Stressverlichting Bellen - Interactief Spel",
+      "description": "Interactief bellen pop spel voor stressverlichting en angstmanagement. Bevredigende sensorische ervaring voor spanningsrelease."
+    },
+    "soundTherapy": {
+      "title": "Geluidstherapie - Helende Frequenties voor Angst",
+      "description": "Gratis geluidstherapie met helende frequenties en binaurale beats. Diepe ontspanning audio voor angst- en stressverlichting."
+    },
+    "stressBall": {
+      "title": "Interactieve Stressbal - Sleep & Gooi voor Angstverlichting",
+      "description": "Interactieve virtuele stressbal spel. Sleep, gooi, en stuiter voor onmiddellijke stressverlichting en angstmanagement. Gratis therapeutisch hulpmiddel."
+    }
+  }
+}

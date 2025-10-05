@@ -1,0 +1,71 @@
+{
+  "about": {
+    "title": "Angst Begrijpen",
+    "whatHappens": {
+      "title": "Wat Er Gebeurt Tijdens Angst",
+      "description": "Uw lichaam activeert de 'vechten of vluchten' reactie, verhogend hartslag, versnellend ademhaling, en vrijgevend stresshormonen zoals adrenaline. Dit triggert vaak onnodig tijdens alledaagse situaties, laat u zich op edge voelen."
+    },
+    "howHelp": {
+      "title": "Hoe Deze Technieken Helpen",
+      "description": "Deze evidence-based technieken activeren uw parasympatische zenuwstelsel, wat natuurlijk de stressreactie tegenwerkt. Regelmatige praktijk kan zowel de frequentie als intensiteit van angstgevoelens verminderen."
+    },
+    "tips": {
+      "title": "Tips Voor Beste Resultaten",
+      "items": [
+        "Vind een rustige, comfortabele ruimte waar u niet gestoord zult worden",
+        "Begin met kortere technieken (2-5 minuten) als u zich erg angstig voelt",
+        "Oefen regelmatig, zelfs wanneer u niet angstig bent, om uw vaardigheden op te bouwen",
+        "Wees geduldig met uzelf - deze technieken worden makkelijker met praktijk"
+      ]
+    }
+  },
+  "resources": {
+    "title": "Aanvullende Bronnen",
+    "professional": {
+      "title": "Wanneer Professionele Hulp Zoeken",
+      "description": "Als angst significant uw dagelijks leven, werk, of relaties beïnvloedt, overweeg dan contact op te nemen met een mentale gezondheid professional.",
+      "signs": [
+        "Angstaanvallen zijn frequent of ernstig",
+        "U vermijdt belangrijke activiteiten",
+        "Fysieke symptomen persisteren",
+        "Slaap of eetlust is significant beïnvloed"
+      ]
+    },
+    "organizations": {
+      "title": "Mentale Gezondheid Organisaties",
+      "description": "Toonaangevende Nederlandse organisaties die evidence-based informatie en ondersteuning bieden voor angst- en dwangstoornissen:",
+      "list": [
+        {
+          "name": "Angst Dwang en Fobie stichting (ADF stichting)",
+          "url": "https://adfstichting.nl/",
+          "description": "De Nederlandse patiëntenvereniging voor mensen met angst-, dwang- en fobieklachten en hun naasten. Ze bieden uitgebreide informatie, lotgenotencontact, voorlichting en een telefonische hulpdienst."
+        },
+        {
+          "name": "MIND",
+          "url": "https://wijzijnmind.nl/psychische-klachten/psychipedia/angst",
+          "description": "Een onafhankelijk en breed platform dat informatie biedt over mentale gezondheid en psychische problemen, waaronder angst. Ze bieden feitelijke informatie, zelftests en de MIND Korrelatie Hulplijn voor advies en ondersteuning."
+        },
+        {
+          "name": "Trimbos-instituut",
+          "url": "https://www.trimbos.nl/",
+          "description": "Het Nederlandse kennisinstituut voor mentale gezondheid, verslaving en maatschappelijke zorg. Ze doen onderzoek en ontwikkelen kennis over onder andere angststoornissen en effectieve preventie en behandeling."
+        },
+        {
+          "name": "Thuisarts",
+          "url": "https://www.thuisarts.nl/angst",
+          "description": "Biedt betrouwbare en onafhankelijke medische informatie voor patiënten, opgesteld door huisartsen, over verschillende soorten angststoornissen. Zeer feitelijke, evidence-based informatie met uitleg, zelfhulp tips en advies wanneer contact op te nemen met de huisarts."
+        }
+      ]
+    }
+  },
+  "footer": {
+    "title": "Anxiety Aid Tools",
+    "description": "Gratis open source tools om u te helpen kalmte te vinden wanneer u die het meest nodig heeft.",
+    "disclaimer": "Deze site biedt algemene angstinformatie en is geen vervanging voor professioneel medisch advies, diagnose, of behandeling. Raadpleeg altijd een healthcare provider voor persistente angst.",
+    "contribute": {
+      "title": "Bijdragen",
+      "github": "GitHub",
+      "discussions": "Discussies"
+    }
+  }
+}

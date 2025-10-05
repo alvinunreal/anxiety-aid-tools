@@ -1,0 +1,58 @@
+{
+  "techniques": {
+    "breathing": {
+      "name": "2-Minuten Ademhaling",
+      "short_description": "Eenvoudige ademhalingsoefening die uw zenuwstelsel kalmeert en angst vermindert in slechts enkele minuten",
+      "description": "Wanneer angst toeslaat, wordt uw ademhaling oppervlakkig en snel. Deze techniek leert u eenvoudige ademhalingspatronen die de natuurlijke ontspanningsreactie van uw lichaam activeren.",
+      "duration": "2-3 min"
+    },
+    "grounding": {
+      "name": "5-4-3-2-1 Gronding",
+      "short_description": "Een zintuiglijke techniek die u uit angstige gedachten haalt door te focussen op wat nu om u heen is",
+      "description": "De grondingstechniek gebruikt uw vijf zintuigen om u in het huidige moment te verankeren. Door 5 dingen te letten die u kunt zien, 4 die u kunt aanraken, 3 die u kunt horen, 2 die u kunt ruiken en 1 die u kunt proeven, wordt de cyclus van angstige gedachten onderbroken en opnieuw verbonden met uw onmiddellijke omgeving.",
+      "duration": "3-5 min"
+    },
+    "guidedBreathing": {
+      "name": "Begeleide Ademhaling",
+      "short_description": "Stapsgewijze ademhalingspatronen om uw hartslag te verlagen en spanning te verlichten",
+      "description": "Volg gestructureerde ademhalingsoefeningen die zijn ontworpen om uw autonome zenuwstelsel te reguleren. Deze visuele gidsen helpen u de juiste timing en ritme te behouden, waardoor het gemakkelijker wordt om de diepe ontspanningstoestand te bereiken die voortkomt uit gecontroleerde ademhalingsoefeningen.",
+      "duration": "5-10 min"
+    },
+    "progressiveMuscleRelaxation": {
+      "name": "Progressieve Spierontspanning",
+      "short_description": "Laat fysieke spanning los door systematisch spiergroepen in uw hele lichaam aan te spannen en te ontspannen",
+      "description": "Angst creëert vaak fysieke spanning die u misschien niet eens opmerkt. Deze techniek leert u om systematisch verschillende spiergroepen aan te spannen en vervolgens los te laten, waardoor u zich bewust wordt van fysieke stress en leert deze los te laten. Het contrast tussen spanning en ontspanning helpt uw lichaam om een diepere staat van kalmte te bereiken.",
+      "duration": "8-12 min"
+    },
+    "peacefulVisualization": {
+      "name": "Vreedzame Visualisatie",
+      "short_description": "Begeleide mentale beeldvorming die u naar kalmerende omgevingen transporteert om stress en zorgen te verminderen",
+      "description": "Uw geest heeft de kracht om levendige, kalmerende ervaringen te creëren door visualisatie. Deze techniek leidt u door vreedzame scenario's en serene omgevingen, waardoor uw hersenen zich verplaatsen van angstige gedachten naar een toestand van rust. Regelmatige praktijk kan u helpen deze rustige toestand gemakkelijker te benaderen wanneer u die nodig heeft.",
+      "duration": "10-12 min"
+    },
+    "thoughtLabeling": {
+      "name": "Gedachten Labelen",
+      "short_description": "Een mindfulness-techniek die u helpt angstige gedachten te herkennen als tijdelijke mentale gebeurtenissen, geen feiten",
+      "description": "Angstige gedachten kunnen overweldigend aanvoelen wanneer u ze behandelt als absolute waarheden. Deze mindfulness-oefening leert u om uw gedachten met nieuwsgierigheid te observeren in plaats van met oordeel. Het leren labelen van gedachten als 'denken', 'zorgen maken' of 'plannen' creëert afstand tussen uzelf en uw angstige geest, waardoor hun emotionele impact wordt verminderd.",
+      "duration": "5-15 min"
+    },
+    "stressReliefBubbles": {
+      "name": "Stressverlichting Bellen",
+      "short_description": "Interactieve bellen-pop activiteit die angstige energie omleidt naar speelse, repetitieve beweging",
+      "description": "Soms is de beste manier om met angst om te gaan door zachte afleiding en spel. Deze eenvoudige interactieve activiteit helpt nerveuze energie om te leiden terwijl uw geest een pauze krijgt van angstige gedachten.",
+      "duration": "2-5 min"
+    },
+    "soundTherapy": {
+      "name": "Geluidstherapie",
+      "short_description": "Helende frequenties die ontspanning en mentale helderheid bevorderen",
+      "description": "Specifieke geluidsfrequenties zijn aangetoond dat ze hersengolfpatronen beïnvloeden en ontspanning bevorderen. Deze zorgvuldig geselecteerde helende frequenties helpen mentale ruis te dempen en uw hersenen naar meer vreedzame toestanden te leiden. Gebruik deze therapie om een kalmerende omgeving te creëren die diepe ontspanning en stressverlichting ondersteunt.",
+      "duration": "5-30 min"
+    },
+    "stressBall": {
+      "name": "Stressbal",
+      "short_description": "Interactieve stressbal om spanning weg te knijpen en angstige energie om te leiden door tactiele betrokkenheid",
+      "description": "Soms heeft fysieke spanning een fysieke release nodig. Deze virtuele stressbal biedt een bevredigende tactiele ervaring die helpt nerveuze energie en angst te kanaliseren in doelmatige knijpbewegingen. De repetitieve actie helpt uw geest te kalmeren terwijl uw lichaam een manier krijgt om opgebouwde stress en spanning los te laten.",
+      "duration": "1-5 min"
+    }
+  }
+}
