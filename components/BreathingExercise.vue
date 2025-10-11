@@ -220,6 +220,8 @@ const elapsedTime = ref(0);
 const totalSessionTime = ref(0);
 let breathTimer = null;
 let elapsedTimer = null;
+let inhaleTimeout = null;
+let exhaleTimeout = null;
 
 const formatTime = (ms) => {
   const minutes = Math.floor(ms / 60000);
@@ -318,7 +320,7 @@ const startBreathingCycle = () => {
     breathingAudio.playInhaleCue();
   }
 
-  setTimeout(() => {
+  inhaleTimeout = setTimeout(() => {
     if (!exerciseActive.value) return;
 
     // Exhale phase
@@ -331,7 +333,7 @@ const startBreathingCycle = () => {
       breathingAudio.playExhaleCue();
     }
 
-    setTimeout(() => {
+    exhaleTimeout = setTimeout(() => {
       if (exerciseActive.value) {
         currentBreath.value++;
         startBreathingCycle();
@@ -361,6 +363,16 @@ const stopExercise = () => {
     clearInterval(elapsedTimer);
     elapsedTimer = null;
   }
+
+  if (inhaleTimeout) {
+    clearTimeout(inhaleTimeout);
+    inhaleTimeout = null;
+  }
+
+  if (exhaleTimeout) {
+    clearTimeout(exhaleTimeout);
+    exhaleTimeout = null;
+  }
 };
 
 const completeExercise = () => {
@@ -377,6 +389,16 @@ const completeExercise = () => {
   if (elapsedTimer) {
     clearInterval(elapsedTimer);
     elapsedTimer = null;
+  }
+
+  if (inhaleTimeout) {
+    clearTimeout(inhaleTimeout);
+    inhaleTimeout = null;
+  }
+
+  if (exhaleTimeout) {
+    clearTimeout(exhaleTimeout);
+    exhaleTimeout = null;
   }
 };
 
@@ -397,6 +419,12 @@ onUnmounted(() => {
   }
   if (elapsedTimer) {
     clearInterval(elapsedTimer);
+  }
+  if (inhaleTimeout) {
+    clearTimeout(inhaleTimeout);
+  }
+  if (exhaleTimeout) {
+    clearTimeout(exhaleTimeout);
   }
   breathingAudio.cleanup();
 });
