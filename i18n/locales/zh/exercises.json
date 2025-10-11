@@ -1,5 +1,8 @@
 {
   "breathing": {
+    "audio": {
+      "enableCues": "启用音频提示"
+    },
     "benefits": {
       "calm": {
         "title": "冷静",

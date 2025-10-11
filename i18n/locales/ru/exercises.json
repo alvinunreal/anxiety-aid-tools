@@ -1,5 +1,8 @@
 {
   "breathing": {
+    "audio": {
+      "enableCues": "Включить звуковые сигналы"
+    },
     "benefits": {
       "calm": {
         "title": "Спокойствие",

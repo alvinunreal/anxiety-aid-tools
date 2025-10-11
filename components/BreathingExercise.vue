@@ -36,6 +36,11 @@
           </div>
         </div>
 
+        <AudioControl
+          :enabled="audioEnabled"
+          @toggle="toggleAudio"
+        />
+
         <button
           @click="startExercise"
           class="mx-auto flex items-center gap-2 bg-cyan-600 hover:bg-cyan-700 dark:bg-cyan-500 dark:hover:bg-cyan-600 px-8 py-4 text-lg font-medium text-white transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2"
@@ -135,6 +140,10 @@
           </div>
 
           <!-- Controls -->
+          <AudioControl
+            :enabled="audioEnabled"
+            @toggle="toggleAudio"
+          />
           <div class="flex gap-3">
             <button
               @click="stopExercise"
@@ -196,8 +205,10 @@
 
 <script setup>
 import { vAutoAnimate } from '@formkit/auto-animate/vue'
+import { breathingAudio } from '~/utils/breathingAudio'
 
 const exerciseActive = ref(false);
+const audioEnabled = ref(false);
 const exerciseCompleted = ref(false);
 const currentBreath = ref(0);
 const totalBreaths = 12;
@@ -218,11 +229,18 @@ const formatTime = (ms) => {
 
 const exerciseSection = ref(null);
 
+const toggleAudio = (enabled) => {
+  audioEnabled.value = enabled;
+  breathingAudio.setEnabled(enabled);
+};
+
 const startExercise = () => {
   exerciseActive.value = true;
   exerciseCompleted.value = false;
   currentBreath.value = 0;
   elapsedTime.value = 0;
+  breathProgress.value = 0;
+  remainingTime.value = 0;
   breathingText.value = "Breathe In";
 
   // Scroll to exercise header
@@ -290,18 +308,28 @@ const startBreathingCycle = () => {
     return;
   }
 
-  // Exhale phase (start with this)
+  // Inhale phase
   breathingPhase.value = "inhale";
   breathingText.value = "Breathe In";
   updateBreathProgress(4000, "inhale");
 
+  // Play inhale audio cue
+  if (audioEnabled.value) {
+    breathingAudio.playInhaleCue();
+  }
+
   setTimeout(() => {
     if (!exerciseActive.value) return;
 
-    // Inhale phase
+    // Exhale phase
     breathingPhase.value = "exhale";
     breathingText.value = "Breathe Out";
     updateBreathProgress(6000, "exhale");
+
+    // Play exhale audio cue
+    if (audioEnabled.value) {
+      breathingAudio.playExhaleCue();
+    }
 
     setTimeout(() => {
       if (exerciseActive.value) {
@@ -319,6 +347,10 @@ const stopExercise = () => {
   breathProgress.value = 0;
   breathingText.value = "Ready to Begin";
   elapsedTime.value = 0;
+  remainingTime.value = 0;
+
+  // Stop any playing audio immediately
+  breathingAudio.stop();
 
   if (breathTimer) {
     clearInterval(breathTimer);
@@ -366,5 +398,6 @@ onUnmounted(() => {
   if (elapsedTimer) {
     clearInterval(elapsedTimer);
   }
+  breathingAudio.cleanup();
 });
 </script>

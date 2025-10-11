@@ -1,5 +1,8 @@
 {
   "breathing": {
+    "audio": {
+      "enableCues": "אפשר אותות קוליים"
+    },
     "benefits": {
       "calm": {
         "title": "רוגע",
