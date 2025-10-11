@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "home": {
+      "title": "Kit de Herramientas para la Ansiedad de Código Abierto",
+      "description": "Herramientas construidas por la comunidad para el alivio de la ansiedad incluyendo técnicas de respiración, conexión y relajación muscular."
+    },
+    "breathing": {
+      "title": "Ejercicio de Respiración de 2 Minutos",
+      "description": "Ejercicio de respiración guiada gratuita usando el patrón de respiración 4:6. Activa el sistema nervioso parasimpático para reducir la ansiedad y el estrés naturalmente."
+    },
+    "grounding": {
+      "title": "Técnica de Conexión 5-4-3-2-1",
+      "description": "Ejercicio de conexión gratuito usando tus 5 sentidos para calmar la ansiedad y el pánico. Técnica basada en evidencia para alivio inmediato del estrés."
+    },
+    "guidedBreathing": {
+      "title": "Ejercicio de Respiración Guiada",
+      "description": "Ejercicios de respiración guiada extendidos con orientación suave. Sesiones de 5-10 minutos para relajación más profunda y manejo de la ansiedad."
+    },
+    "progressiveMuscleRelaxation": {
+      "title": "Relajación Muscular Progresiva",
+      "description": "Ejercicio gratuito de relajación muscular guiada. Libera la tensión física y la ansiedad a través de técnicas sistemáticas de relajación muscular."
+    },
+    "peacefulVisualization": {
+      "title": "Visualización Pacífica",
+      "description": "Ejercicios de visualización guiada para el alivio de la ansiedad. Viaja a lugares tranquilos en tu mente para la reducción del estrés y la relajación."
+    },
+    "thoughtLabeling": {
+      "title": "Etiquetado de Pensamientos",
+      "description": "Herramienta interactiva de categorización de pensamientos de ansiedad. Identifica y etiqueta pensamientos ansiosos para reducir su impacto emocional."
+    },
+    "stressReliefBubbles": {
+      "title": "Burbujas de Alivio del Estrés - Juego Interactivo",
+      "description": "Juego interactivo de reventar burbujas para el alivio del estrés y el manejo de la ansiedad. Experiencia sensorial satisfactoria para liberar tensión."
+    },
+    "soundTherapy": {
+      "title": "Terapia de Sonido - Frecuencias Curativas para la Ansiedad",
+      "description": "Terapia de sonido gratuita con frecuencias curativas y ritmos binaurales. Audio de relajación profunda para el alivio de la ansiedad y el estrés."
+    },
+    "stressBall": {
+      "title": "Pelota de Estrés Interactiva - Arrastra y Lanza para el Alivio de la Ansiedad",
+      "description": "Juego interactivo de pelota de estrés virtual. Arrastra, lanza y rebota para alivio inmediato del estrés y manejo de la ansiedad. Herramienta terapéutica gratuita."
+    }
+  }
+}

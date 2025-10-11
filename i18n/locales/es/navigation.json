@@ -1,0 +1,32 @@
+{
+  "navigation": {
+    "techniques": "Todas las Técnicas",
+    "about": "Sobre la Ansiedad",
+    "resources": "Recursos",
+    "github": "GitHub",
+    "openMobileMenu": "Abrir menú de navegación",
+    "closeMobileMenu": "Cerrar menú de navegación",
+    "mobileMenuLabel": "Navegación principal",
+    "skipToMain": "Saltar al contenido principal"
+  },
+  "header": {
+    "title": "AnxietyAidTools",
+    "subtitle": "Kit de herramientas de ansiedad de código abierto"
+  },
+  "hero": {
+    "title": "Kit de Herramientas para la Ansiedad",
+    "description": "Herramientas gratuitas para ayudarte cuando te sientes ansioso. Estos ejercicios son simples de seguir y no requieren ningún equipo especial - úsalos siempre que tu mente se sienta demasiado ocupada o cuando necesites un momento de calma."
+  },
+  "breadcrumb": {
+    "backToHome": "Volver al Inicio"
+  },
+  "relatedTechniques": {
+    "title": "Prueba Estas Siguientes",
+    "description": "Continúa tu práctica con estas técnicas complementarias:"
+  },
+  "error": {
+    "page-not-found": "Página No Encontrada",
+    "return": "Volver al Inicio",
+    "message": "La página que buscas no existe o ha sido movida. Permítenos devolverte a las herramientas de alivio de la ansiedad."
+  }
+}
