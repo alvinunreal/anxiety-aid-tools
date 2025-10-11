@@ -1,0 +1,72 @@
+{
+  "about": {
+    "title": "Entender la Ansiedad",
+    "whatHappens": {
+      "title": "Qué Sucede Durante la Ansiedad",
+      "description": "Tu cuerpo activa la respuesta de 'lucha o huida', aumentando la frecuencia cardíaca, acelerando la respiración y liberando hormonas del estrés como la adrenalina. Esto a menudo se activa innecesariamente durante situaciones cotidianas, dejándote con los nervios de punta."
+    },
+    "howHelp": {
+      "title": "Cómo Ayudan Estas Técnicas",
+      "description": "Estas técnicas basadas en evidencia activan tu sistema nervioso parasimpático, que naturalmente contrarresta la respuesta al estrés. La práctica regular puede reducir tanto la frecuencia como la intensidad de los sentimientos ansiosos."
+    },
+    "tips": {
+      "title": "Consejos para Obtener los Mejores Resultados",
+      "items": [
+        "Encuentra un espacio tranquilo y cómodo donde no te interrumpan",
+        "Comienza con técnicas más cortas (2-5 minutos) si te sientes muy ansioso",
+        "Practica regularmente, incluso cuando no estés ansioso, para desarrollar tus habilidades",
+        "Ten paciencia contigo mismo - estas técnicas se vuelven más fáciles con la práctica"
+      ]
+    }
+  },
+  "resources": {
+    "title": "Recursos Adicionales",
+    "professional": {
+      "title": "Cuándo Buscar Ayuda Profesional",
+      "description": "Si la ansiedad está impactando significativamente tu vida diaria, trabajo o relaciones, considera contactar a un profesional de la salud mental.",
+      "signs": [
+        "Los ataques de ansiedad son frecuentes o severos",
+        "Estás evitando actividades importantes",
+        "Los síntomas físicos persisten",
+        "El sueño o el apetito están significativamente afectados"
+      ]
+    },
+    "organizations": {
+      "title": "Organizaciones de Salud Mental",
+      "description": "Organizaciones líderes que proporcionan información y recursos basados en evidencia para la ansiedad y la depresión:",
+      "list": [
+        {
+          "name": "Ministerio de Sanidad - Salud Mental",
+          "url": "https://www.sanidad.gob.es/ciudadanos/saludMental/home.htm",
+          "description": "Portal oficial del Gobierno español con información sobre salud mental, recursos, programas de prevención y atención a los trastornos mentales en España."
+        },
+        {
+          "name": "Confederación Salud Mental España",
+          "url": "https://consaludmental.org/",
+          "description": "Organización sin fines de lucro que agrupa a asociaciones de personas con enfermedad mental y sus familias. Ofrece información, apoyo y defensa de derechos en salud mental."
+        },
+        {
+          "name": "Asociación Multidisciplinar de Trastornos de Ansiedad y Estrés (AMTAES)",
+          "url": "https://amtaes.org/",
+          "description": "Asociación de profesionales dedicados al estudio y tratamiento de los trastornos de ansiedad y estrés. Proporciona recursos informativos y directorio de especialistas."
+        },
+        {
+          "name": "Teléfono de la Esperanza",
+          "url": "https://telefonodelaesperanza.org/",
+          "description": "Organización que ofrece apoyo emocional gratuito y confidencial a través de líneas telefónicas de ayuda, prevención del suicidio y acompañamiento en crisis emocionales."
+        }
+      ]
+    }
+  },
+
+  "footer": {
+    "title": "Anxiety Aid Tools",
+    "description": "Herramientas gratuitas de código abierto para ayudarte a encontrar la calma cuando más lo necesitas.",
+    "disclaimer": "Este sitio proporciona información general sobre la ansiedad y no sustituye el consejo médico profesional, diagnóstico o tratamiento. Siempre consulta con un proveedor de atención médica para la ansiedad persistente.",
+    "contribute": {
+      "title": "Contribuir",
+      "github": "GitHub",
+      "discussions": "Discusiones"
+    }
+  }
+}

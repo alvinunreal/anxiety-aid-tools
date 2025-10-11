@@ -1,0 +1,58 @@
+{
+  "techniques": {
+    "breathing": {
+      "name": "Respiración de 2 Minutos",
+      "short_description": "Ejercicio de respiración simple que calma tu sistema nervioso y reduce la ansiedad en solo minutos",
+      "description": "Cuando la ansiedad ataca, tu respiración se vuelve superficial y rápida. Esta técnica te enseña patrones de respiración simples que activan la respuesta de relajación natural de tu cuerpo.",
+      "duration": "2-3 min"
+    },
+    "grounding": {
+      "name": "Conexión 5-4-3-2-1",
+      "short_description": "Una técnica sensorial que te saca de los pensamientos ansiosos al enfocarte en lo que te rodea ahora mismo",
+      "description": "La técnica de conexión usa tus cinco sentidos para anclarte en el momento presente. Al notar 5 cosas que puedes ver, 4 que puedes tocar, 3 que puedes escuchar, 2 que puedes oler y 1 que puedes saborear, interrumpe el ciclo de pensamientos ansiosos y te reconecta con tu entorno inmediato.",
+      "duration": "3-5 min"
+    },
+    "guidedBreathing": {
+      "name": "Respiración Guiada",
+      "short_description": "Patrones de respiración paso a paso para disminuir tu frecuencia cardíaca y aliviar la tensión",
+      "description": "Sigue ejercicios de respiración estructurados diseñados para regular tu sistema nervioso autónomo. Estas guías visuales te ayudan a mantener el tiempo y ritmo adecuados, facilitando alcanzar el estado de relajación profunda que proviene de la práctica de la respiración controlada.",
+      "duration": "5-10 min"
+    },
+    "progressiveMuscleRelaxation": {
+      "name": "Relajación Muscular Progresiva",
+      "short_description": "Libera la tensión física sistemáticamente apretando y relajando grupos musculares por todo tu cuerpo",
+      "description": "La ansiedad a menudo crea tensión física que quizás ni siquiera notas. Esta técnica te enseña a apretar sistemáticamente y luego liberar diferentes grupos musculares, ayudándote a tomar conciencia del estrés físico y aprender a soltarlo. El contraste entre tensión y relajación ayuda a tu cuerpo a alcanzar un estado más profundo de calma.",
+      "duration": "8-12 min"
+    },
+    "peacefulVisualization": {
+      "name": "Visualización Pacífica",
+      "short_description": "Imágenes mentales guiadas que te transportan a entornos tranquilos para reducir el estrés y la preocupación",
+      "description": "Tu mente tiene el poder de crear experiencias vívidas y calmantes a través de la visualización. Esta técnica te guía a través de escenarios pacíficos y entornos serenos, ayudando a tu cerebro a alejarse de los pensamientos ansiosos y entrar en un estado de tranquilidad. La práctica regular puede ayudarte a acceder a este estado de calma más fácilmente cuando lo necesites.",
+      "duration": "10-12 min"
+    },
+    "thoughtLabeling": {
+      "name": "Etiquetado de Pensamientos",
+      "short_description": "Una técnica de atención plena que te ayuda a reconocer los pensamientos ansiosos como eventos mentales temporales, no como hechos",
+      "description": "Los pensamientos ansiosos pueden sentirse abrumadores cuando los tratas como verdades absolutas. Esta práctica de atención plena te enseña a observar tus pensamientos con curiosidad en lugar de juicio. Aprender a etiquetar los pensamientos como 'pensando', 'preocupándose' o 'planificando' crea distancia entre tú y tu mente ansiosa, reduciendo su impacto emocional.",
+      "duration": "5-15 min"
+    },
+    "stressReliefBubbles": {
+      "name": "Burbujas de Alivio del Estrés",
+      "short_description": "Actividad interactiva de reventar burbujas que redirige la energía ansiosa a un movimiento lúdico y repetitivo",
+      "description": "A veces la mejor manera de lidiar con la ansiedad es a través de una distracción suave y el juego. Esta simple actividad interactiva ayuda a redirigir la energía nerviosa mientras le da a tu mente un descanso de los pensamientos ansiosos.",
+      "duration": "2-5 min"
+    },
+    "soundTherapy": {
+      "name": "Terapia de Sonido",
+      "short_description": "Frecuencias curativas que promueven la relajación y la claridad mental",
+      "description": "Se ha demostrado que frecuencias de sonido específicas influyen en los patrones de ondas cerebrales y promueven la relajación. Estas frecuencias curativas cuidadosamente seleccionadas ayudan a silenciar el parloteo mental y guiar a tu cerebro hacia estados más pacíficos. Usa esta terapia para crear un ambiente calmante que apoye la relajación profunda y el alivio del estrés.",
+      "duration": "5-30 min"
+    },
+    "stressBall": {
+      "name": "Pelota de Estrés",
+      "short_description": "Pelota de estrés interactiva para apretar la tensión y redirigir la energía ansiosa a través del compromiso táctil",
+      "description": "A veces la tensión física necesita una liberación física. Esta pelota de estrés virtual proporciona una experiencia táctil satisfactoria que ayuda a canalizar la energía nerviosa y la ansiedad en movimientos de apretamiento con propósito. La acción repetitiva ayuda a calmar tu mente mientras le da a tu cuerpo una manera de liberar el estrés y la tensión acumulados.",
+      "duration": "1-5 min"
+    }
+  }
+}

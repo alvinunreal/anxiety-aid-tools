@@ -238,6 +238,18 @@ export default defineNuxtConfig({
           'nl/meta.json'
         ]
       },
+      {
+        code: 'es',
+        language: 'es-ES',
+        name: 'Español',
+        files: [
+          'es/navigation.json',
+          'es/techniques.json',
+          'es/exercises.json',
+          'es/pages.json',
+          'es/meta.json'
+        ]
+      },
     ],
     defaultLocale: 'en',
     strategy: 'prefix_except_default'
