@@ -79,98 +79,84 @@ const switchLocalePath = useSwitchLocalePath()
       <div class="pt-4 border-t border-gray-200 dark:border-slate-600">
         <div class="text-center">
           <p class="text-xs text-gray-500 dark:text-slate-400 mb-4 font-medium">Boring Dystopia Development</p>
-          
-          <!-- Grouped responsive layout -->
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            
-            <!-- TmuxAI Group -->
-            <div class="space-y-3">
-              <a 
-                href="https://tmuxai.dev/" 
+
+          <!-- Clean grid layout for projects -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
+
+            <!-- TmuxAI -->
+            <div class="text-center space-y-2">
+              <a
+                href="https://tmuxai.dev/"
                 target="_blank"
-                rel="noopener noreferrer nofollow"
-                class="inline-flex items-center justify-center text-xs font-medium text-gray-600 dark:text-slate-300 hover:text-gray-800 dark:hover:text-slate-100 transition-colors duration-200 mb-2"
+                class="group inline-flex flex-col items-center space-y-2"
               >
-                <Icon name="mdi:console" class="mr-1" />
-                TmuxAI
+                <div class="flex items-center justify-center w-8 h-8 rounded-md bg-gray-100 dark:bg-slate-700 group-hover:bg-gray-200 dark:group-hover:bg-slate-600 transition-colors duration-200">
+                  <Icon name="mdi:console" class="text-sm text-gray-600 dark:text-slate-300" />
+                </div>
+                <div>
+                  <h3 class="text-xs font-medium text-gray-800 dark:text-slate-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-200">TmuxAI</h3>
+                  <p class="text-xs text-gray-500 dark:text-slate-400 mt-0.5">AI-Powered Terminal Assistant</p>
+                </div>
               </a>
-              <div class="flex flex-wrap justify-center gap-1.5">
-                <a 
-                  href="https://tmuxai.dev/tmuxai-vs-warp" 
+              <div class="flex flex-wrap justify-center gap-1.5 pt-1">
+                <a
+                  href="https://tmuxai.dev/warp-terminal-alternatives"
                   target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  class="inline-flex items-center px-2.5 py-1 text-xs rounded-full bg-gray-50 dark:bg-slate-700/50 text-gray-600 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-600 transition-all duration-100 hover:text-gray-800 dark:hover:text-slate-200"
+                  class="inline-flex items-center px-2 py-1 text-xs rounded-md bg-gray-50 dark:bg-slate-700/30 text-gray-600 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-600/30 transition-all duration-150 hover:text-gray-800 dark:hover:text-slate-200"
                 >
-                  <Icon name="mdi:sword-fight" class="mr-1" />
-                  TmuxAI vs Warp
+                  <Icon name="mdi:sword-fight" class="mr-1 text-xs" />
+                  Warp Alternatives
                 </a>
-                
-                <a 
-                  href="https://tmuxai.dev/tmux-getting-started" 
+                <a
+                  href="https://tmuxai.dev/tmux-getting-started"
                   target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  class="inline-flex items-center px-2.5 py-1 text-xs rounded-full bg-gray-50 dark:bg-slate-700/50 text-gray-600 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-600 transition-all duration-100 hover:text-gray-800 dark:hover:text-slate-200"
+                  class="inline-flex items-center px-2 py-1 text-xs rounded-md bg-gray-50 dark:bg-slate-700/30 text-gray-600 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-600/30 transition-all duration-150 hover:text-gray-800 dark:hover:text-slate-200"
                 >
-                  <Icon name="mdi:rocket-launch" class="mr-1" />
+                  <Icon name="mdi:rocket-launch" class="mr-1 text-xs" />
                   Tmux Getting Started
                 </a>
-                
-                <a 
-                  href="https://tmuxai.dev/tmux-cheat-sheet/" 
+                <a
+                  href="https://tmuxai.dev/tmux-cheat-sheet/"
                   target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  class="inline-flex items-center px-2.5 py-1 text-xs rounded-full bg-gray-50 dark:bg-slate-700/50 text-gray-600 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-600 transition-all duration-100 hover:text-gray-800 dark:hover:text-slate-200"
+                  class="inline-flex items-center px-2 py-1 text-xs rounded-md bg-gray-50 dark:bg-slate-700/30 text-gray-600 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-600/30 transition-all duration-150 hover:text-gray-800 dark:hover:text-slate-200"
                 >
-                  <Icon name="mdi:file-document-outline" class="mr-1" />
+                  <Icon name="mdi:file-document-outline" class="mr-1 text-xs" />
                   Tmux Cheat Sheet
                 </a>
               </div>
             </div>
-            
-            <!-- AwesomeClaude Group -->
-            <div class="space-y-3">
-              <a 
-                href="https://awesomeclaude.ai/" 
+
+            <!-- GitDB -->
+            <div class="text-center space-y-2">
+              <a
+                href="https://gitdb.net/"
                 target="_blank"
-                rel="noopener noreferrer nofollow"
-                class="inline-flex items-center justify-center text-xs font-medium text-gray-600 dark:text-slate-300 hover:text-gray-800 dark:hover:text-slate-100 transition-colors duration-200 mb-2"
+                class="group inline-flex flex-col items-center space-y-2"
               >
-                <Icon name="mdi:robot-excited" class="mr-1" />
-                AwesomeClaude
+                <div class="flex items-center justify-center w-8 h-8 rounded-md bg-gray-100 dark:bg-slate-700 group-hover:bg-gray-200 dark:group-hover:bg-slate-600 transition-colors duration-200">
+                  <Icon name="mdi:database" class="text-sm text-gray-600 dark:text-slate-300" />
+                </div>
+                <div>
+                  <h3 class="text-xs font-medium text-gray-800 dark:text-slate-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-200">GitDB</h3>
+                  <p class="text-xs text-gray-500 dark:text-slate-400 mt-0.5">Open Source Project Discovery & Analytics</p>
+                </div>
               </a>
-              <div class="flex flex-wrap justify-center gap-1.5">
-                <a 
-                  href="https://awesomeclaude.ai/awesome-claude-code" 
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  class="inline-flex items-center px-2.5 py-1 text-xs rounded-full bg-gray-50 dark:bg-slate-700/50 text-gray-600 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-600 transition-all duration-100 hover:text-gray-800 dark:hover:text-slate-200"
-                >
-                  <Icon name="mdi:code-tags" class="mr-1" />
-                  Awesome Claude Code
-                </a>
-                
-                <a 
-                  href="https://awesomeclaude.ai/code-cheatsheet" 
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  class="inline-flex items-center px-2.5 py-1 text-xs rounded-full bg-gray-50 dark:bg-slate-700/50 text-gray-600 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-600 transition-all duration-100 hover:text-gray-800 dark:hover:text-slate-200"
-                >
-                  <Icon name="mdi:book-open-page-variant" class="mr-1" />
-                  Claude Code Cheatsheet
-                </a>
-              </div>
             </div>
 
-            <!-- FreeSubStats Group -->
-            <div class="space-y-3">
+            <!-- FreeSubStats -->
+            <div class="text-center space-y-2">
               <a
                 href="https://freesubstats.com/"
                 target="_blank"
-                rel="noopener noreferrer nofollow"
-                class="inline-flex items-center justify-center text-xs font-medium text-gray-600 dark:text-slate-300 hover:text-gray-800 dark:hover:text-slate-100 transition-colors duration-200 mb-2"
+                class="group inline-flex flex-col items-center space-y-2"
               >
-                <Icon name="mdi:chart-line" class="mr-1" />
-                FreeSubStats
+                <div class="flex items-center justify-center w-8 h-8 rounded-md bg-gray-100 dark:bg-slate-700 group-hover:bg-gray-200 dark:group-hover:bg-slate-600 transition-colors duration-200">
+                  <Icon name="mdi:chart-line" class="text-sm text-gray-600 dark:text-slate-300" />
+                </div>
+                <div>
+                  <h3 class="text-xs font-medium text-gray-800 dark:text-slate-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-200">FreeSubStats</h3>
+                  <p class="text-xs text-gray-500 dark:text-slate-400 mt-0.5">Subreddit Statistics & Growth Rates</p>
+                </div>
               </a>
             </div>
 
