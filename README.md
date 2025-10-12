@@ -28,9 +28,10 @@ A collection of anxiety management techniques built around four core principles.
 - **Works offline** - Available when you need it, regardless of connection
 
 ### 🔒 **Privacy First**
-- **No tracking** - Your usage patterns stay private
+- **Minimal analytics** - Privacy-focused Cloudflare Web Analytics only
+- **No personal tracking** - No cookies, fingerprinting, or personal data collection
 - **Local storage only** - All preferences saved on your device
-- **No data collection** - We don't know who you are or what you do
+- **Aggregate data only** - Analytics are anonymized and aggregated
 
 ### 🧬 **Open Source**
 - **Code is public** - Anyone can inspect, improve, or adapt it
@@ -82,7 +83,7 @@ A collection of anxiety management techniques built around four core principles.
 ### **Community Impact**
 - **Global reach** - No geographic restrictions
 - **Always free** - No premium features or paywalls
-- **Privacy first** - All data stays on your device
+- **Privacy respectful** - Minimal anonymized analytics to improve the service
 - **Community-driven** - Built by and for people who understand anxiety
 
 ---
