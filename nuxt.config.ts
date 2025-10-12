@@ -7,15 +7,7 @@ export default defineNuxtConfig({
     client: false,
     server: false
   },
-  $production: {
-    scripts: {
-      registry: {
-        googleAnalytics: {
-          id: 'G-TMXBQDETE3',
-        }
-      }
-    }
-  },
+
   runtimeConfig: {
     public: {
       baseUrl: process.env.VITE_BASE_URL || 'https://anxietyaidtools.com'
@@ -53,9 +45,7 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "@nuxtjs/seo",
     "@nuxtjs/i18n",
-    '@sentry/nuxt/module',
     "@vite-pwa/nuxt",
-    '@nuxt/scripts',
   ],
 
   tailwindcss: {
@@ -256,15 +246,6 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: "2024-12-26",
-
-  sentry: {
-    enabled: process.env.NODE_ENV === 'production',
-    sourceMapsUploadOptions: {
-      telemetry: false,
-      org: 'boring-dystopia-development',
-      project: 'anxietyaidtools',
-    },
-  },
 
   pwa: {
     registerType: 'autoUpdate',
