@@ -231,12 +231,12 @@ const formatTime = (ms) => {
 
 const exerciseSection = ref(null);
 
-const toggleAudio = (enabled) => {
+const toggleAudio = async (enabled) => {
   audioEnabled.value = enabled;
-  breathingAudio.setEnabled(enabled);
+  await breathingAudio.setEnabled(enabled);
 };
 
-const startExercise = () => {
+const startExercise = async () => {
   exerciseActive.value = true;
   exerciseCompleted.value = false;
   currentBreath.value = 0;
@@ -244,6 +244,11 @@ const startExercise = () => {
   breathProgress.value = 0;
   remainingTime.value = 0;
   breathingText.value = "Breathe In";
+
+  // Ensure audio is loaded and primed if enabled
+  if (audioEnabled.value) {
+    await breathingAudio.setEnabled(true);
+  }
 
   // Scroll to exercise header
   nextTick(() => {
