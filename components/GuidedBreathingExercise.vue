@@ -42,6 +42,11 @@
           </div>
         </div>
 
+        <AudioControl
+          :enabled="audioEnabled"
+          @toggle="toggleAudio"
+        />
+
         <button
           @click="startExercise"
           class="mx-auto flex items-center gap-2 bg-blue-600 dark:bg-blue-500 px-8 py-4 text-lg font-medium text-white transition-colors duration-100 hover:bg-blue-700 dark:hover:bg-blue-600"
@@ -132,6 +137,10 @@
           </div>
 
           <!-- Controls -->
+          <AudioControl
+            :enabled="audioEnabled"
+            @toggle="toggleAudio"
+          />
           <div class="flex gap-3">
             <button
               v-if="!exerciseStarted || isPaused"
@@ -187,6 +196,7 @@
 
 <script setup>
 import { vAutoAnimate } from '@formkit/auto-animate/vue'
+import { breathingAudio } from '~/utils/breathingAudio'
 const { t } = useI18n();
 
 const techniques = [
@@ -258,6 +268,7 @@ const sessionLengths = [
 const exerciseStarted = ref(false);
 const exerciseCompleted = ref(false);
 const isPaused = ref(false);
+const audioEnabled = ref(false);
 const selectedTechnique = ref("box");
 const selectedSessionLength = ref(8); // Default to standard (8 cycles)
 
@@ -298,7 +309,21 @@ const formatCountdown = (ms) => {
 
 const exerciseSection = ref(null);
 
-const startExercise = () => {
+// Watch for technique changes and update audio
+watch(selectedTechnique, (newTechnique) => {
+  if (audioEnabled.value) {
+    // Stop current audio and switch to new technique
+    breathingAudio.stopAll();
+    breathingAudio.setTechnique(newTechnique);
+  }
+});
+
+const toggleAudio = async (enabled) => {
+  audioEnabled.value = enabled;
+  await breathingAudio.setEnabled(enabled, selectedTechnique.value);
+};
+
+const startExercise = async () => {
   exerciseStarted.value = true;
   exerciseCompleted.value = false;
   isPaused.value = false;
@@ -306,6 +331,11 @@ const startExercise = () => {
   totalCycles.value = selectedSessionLength.value;
   currentPatternIndex.value = 0;
   elapsedTime.value = 0;
+
+  // Ensure audio is loaded and primed if enabled
+  if (audioEnabled.value) {
+    await breathingAudio.setEnabled(true, selectedTechnique.value);
+  }
 
   // Scroll to exercise header
   nextTick(() => {
@@ -334,6 +364,16 @@ const startBreathingPattern = () => {
   const pattern = currentTechnique.value.pattern[currentPatternIndex.value];
   breathingPhase.value = pattern.phase;
   remainingTime.value = pattern.duration;
+
+  // Play audio cue for inhale/exhale phases
+  if (audioEnabled.value) {
+    if (pattern.phase === 'inhale') {
+      breathingAudio.playInhaleCue();
+    } else if (pattern.phase === 'exhale') {
+      breathingAudio.playExhaleCue();
+    }
+    // No audio for hold_in and hold_out phases
+  }
 
   // Set initial progress based on phase type
   if (pattern.phase === "inhale") {
@@ -393,6 +433,8 @@ const startBreathingPattern = () => {
 
 const pauseExercise = () => {
   isPaused.value = true;
+  // Stop audio when pausing
+  breathingAudio.stop();
 };
 
 const resumeExercise = () => {
@@ -412,6 +454,9 @@ const stopExercise = () => {
   elapsedTime.value = 0;
   breathingPhase.value = "exhale";
 
+  // Stop any playing audio immediately
+  breathingAudio.stop();
+
   clearAllTimers();
 };
 
@@ -420,6 +465,9 @@ const completeExercise = () => {
   exerciseCompleted.value = true;
   completedCycles.value = totalCycles.value;
   totalSessionTime.value = elapsedTime.value;
+
+  // Stop audio on completion
+  breathingAudio.stop();
 
   clearAllTimers();
 };
@@ -439,7 +487,17 @@ const clearAllTimers = () => {
   }
 };
 
+// Cleanup on unmount
 onUnmounted(() => {
   clearAllTimers();
+  breathingAudio.stopAll();
+  // Don't fully cleanup as other exercises might use the same audio instance
+});
+
+// Stop audio when exercise is no longer active
+watch(exerciseStarted, (isStarted) => {
+  if (!isStarted) {
+    breathingAudio.stop();
+  }
 });
 </script>

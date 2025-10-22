@@ -233,7 +233,7 @@ const exerciseSection = ref(null);
 
 const toggleAudio = async (enabled) => {
   audioEnabled.value = enabled;
-  await breathingAudio.setEnabled(enabled);
+  await breathingAudio.setEnabled(enabled, 'simple');
 };
 
 const startExercise = async () => {
@@ -247,7 +247,7 @@ const startExercise = async () => {
 
   // Ensure audio is loaded and primed if enabled
   if (audioEnabled.value) {
-    await breathingAudio.setEnabled(true);
+    await breathingAudio.setEnabled(true, 'simple');
   }
 
   // Scroll to exercise header
@@ -431,6 +431,14 @@ onUnmounted(() => {
   if (exhaleTimeout) {
     clearTimeout(exhaleTimeout);
   }
-  breathingAudio.cleanup();
+  breathingAudio.stopAll();
+  // Don't fully cleanup as other exercises might use the same audio instance
+});
+
+// Stop audio when exercise is no longer active
+watch(exerciseActive, (isActive) => {
+  if (!isActive) {
+    breathingAudio.stop();
+  }
 });
 </script>
