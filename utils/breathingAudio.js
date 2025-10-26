@@ -9,24 +9,24 @@ class BreathingAudio {
     // Audio file mapping for different techniques
     this.audioFiles = {
       simple: {
-        inhale: '/audios/breath-in.mp3',
-        exhale: '/audios/breath-out.mp3'
+        inhale: '/audios/breathing/breath-in.mp3',
+        exhale: '/audios/breathing/breath-out.mp3'
       },
       box: {
-        inhale: '/audios/4-4-4-4-in-rest.mp3',
-        exhale: '/audios/4-4-4-4-out-rest.mp3'
+        inhale: '/audios/breathing/4-4-4-4-in-rest.mp3',
+        exhale: '/audios/breathing/4-4-4-4-out-rest.mp3'
       },
       calming: {
-        inhale: '/audios/4-7-8-in-rest.mp3',
-        exhale: '/audios/4-7-8-out.mp3'
+        inhale: '/audios/breathing/4-7-8-in-rest.mp3',
+        exhale: '/audios/breathing/4-7-8-out.mp3'
       },
       quick: {
-        inhale: '/audios/3-3-3-in-rest.mp3',
-        exhale: '/audios/3-3-3-out.mp3'
+        inhale: '/audios/breathing/3-3-3-in-rest.mp3',
+        exhale: '/audios/breathing/3-3-3-out.mp3'
       },
       energizing: {
-        inhale: '/audios/4-4-6-in-rest.mp3',
-        exhale: '/audios/4-4-6-out.mp3'
+        inhale: '/audios/breathing/4-4-6-in-rest.mp3',
+        exhale: '/audios/breathing/4-4-6-out.mp3'
       }
     }
     this.isPlaying = false

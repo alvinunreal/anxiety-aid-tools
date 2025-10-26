@@ -163,7 +163,7 @@
 
     <audio ref="popAudio" preload="auto">
       <source
-        src="/d/pop.mp3"
+        src="/audios/stress-relief-bubbles/pop.mp3"
         type="audio/mpeg"
       />
     </audio>
