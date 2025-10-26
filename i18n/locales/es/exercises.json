@@ -917,6 +917,66 @@
           "Cada estrella parece brillar solo para ti, enviando luz que te llena de asombro y paz.",
           "Este prado bajo las estrellas es tu lugar de calma infinita - siempre puedes mirar hacia arriba y encontrar paz en la inmensidad."
         ]
+      },
+      "cozyRainyCabin": {
+        "name": "Cabaña Acogedora Bajo la Lluvia",
+        "description": "Descansando a salvo dentro de una cabaña cálida mientras la lluvia suave golpea el techo",
+        "soundscape": "Lluvia en el techo",
+        "atmosphere": "Calor de chimenea",
+        "guidance": [
+          "Te acomodas en un sillón mullido junto a la ventana de una acogedora cabaña de madera mientras comienza a caer la lluvia del atardecer.",
+          "Las gotas de lluvia golpean el techo con un ritmo suave y constante, deslizándose por el cristal y creando la banda sonora más relajante.",
+          "Una pequeña chimenea arde cerca, llenando la habitación con luz dorada y el reconfortante crepitar de los troncos.",
+          "El aire huele tenuemente a pino y madera tibia, envolviéndote con el aroma limpio del bosque que rodea la cabaña.",
+          "Una manta gruesa descansa sobre tus piernas, y sientes cómo el sillón sostiene tu cuerpo por completo mientras se disuelve toda tensión.",
+          "Sostienes una taza caliente entre tus manos, dejando que el vapor ascienda lentamente hacia tu rostro mientras la lluvia sigue cantando.",
+          "Esta cabaña es tu refugio privado; cada vez que necesites paz, podrás volver a esta tarde lluviosa y descansar aquí."
+        ]
+      },
+      "mistyLakesideDawn": {
+        "name": "Amanecer Neblinoso en el Lago",
+        "description": "Sentado junto a un lago de montaña tranquilo mientras el amanecer colorea la mañana neblinosa",
+        "soundscape": "Agua suave en la orilla",
+        "atmosphere": "Fresca neblina matutina",
+        "guidance": [
+          "Te sientas en un muelle de madera lisa junto a un lago de montaña quieto justo antes del amanecer.",
+          "Una fina neblina flota sobre el agua, deslizándose lentamente mientras el amanecer empieza a colorear el cielo.",
+          "Cada respiración llena tus pulmones de aire fresco de la mañana con aroma a pino y a piedras frías.",
+          "Al otro lado del lago, las montañas brillan suavemente cuando la primera luz rosada toca sus cumbres.",
+          "La superficie del lago refleja el cielo que despierta, ondulando con olas muy suaves y silenciosas.",
+          "Un somorgujo lejano lanza un solo llamado, y el sonido resuena suavemente antes de volver a perderse en la quietud.",
+          "Este amanecer junto al lago te pertenece; vuelve siempre que necesites calma y el agua estará esperándote."
+        ]
+      },
+      "sunlitDesertOasis": {
+        "name": "Oasis Desértico Soleado",
+        "description": "Descansando junto a una palmera en un oasis mientras el desierto dorado brilla",
+        "soundscape": "Manantial suave y brisa",
+        "atmosphere": "Resplandor cálido del atardecer",
+        "guidance": [
+          "Descansas sobre una piedra lisa junto a un oasis de agua clara escondido entre dunas doradas del desierto.",
+          "Las palmeras se mecen sobre ti, dejando caer sombras moteadas mientras la luz del sol calienta suavemente tu piel.",
+          "Un manantial apacible alimenta la poza, su murmullo tranquilo combinándose con la brisa suave del desierto.",
+          "El aire huele dulce a flores de palma en flor, calmante y sereno.",
+          "Las dunas lejanas brillan a la luz de la tarde, sus curvas guiando tu mirada pacientemente hacia el horizonte.",
+          "Deslizas los dedos por el agua fresca, sintiendo cómo la tensión se derrite con cada círculo que trazas.",
+          "Este oasis es tu santuario; sin importar cuán caliente se sienta el mundo, siempre puedes refrescar tu espíritu aquí."
+        ]
+      },
+      "floatingCloudSanctuary": {
+        "name": "Santuario Flotante de Nubes",
+        "description": "Deslizándote por nubes suaves iluminadas por el sol muy por encima de la tierra",
+        "soundscape": "Brisa suave de gran altura",
+        "atmosphere": "Calma ingrávida",
+        "guidance": [
+          "Flotas sin peso entre nubes vastas y luminosas muy por encima del mundo.",
+          "Rayos de sol atraviesan las nubes a tu alrededor, pintándolas con suaves tonos dorados y plateados.",
+          "Una brisa delicada te envuelve con calidez, arrullándote con una melodía tranquila y eterna.",
+          "Cada nube se siente como terciopelo bajo tus dedos, fresca y suave mientras te deslizas a través de ellas.",
+          "Debajo de ti, el mundo se ve pacífico y pequeño, y cada preocupación queda muy lejos.",
+          "Con cada respiración, las nubes se apartan para revelar un cielo azul infinito, recordándote el espacio abierto dentro de ti.",
+          "Este santuario flotante siempre te eleva; regresa cada vez que quieras elevarte por encima de todo y descansar en el cielo."
+        ]
       }
     },
     "howItWorks": {

@@ -272,27 +272,29 @@ const currentScene = computed(() => {
   return visualizationScenes.value[currentSceneIndex.value] ?? visualizationScenes.value[0];
 });
 
-const sceneAudioBasePath = computed(() => `/audios/peaceful-visualization/${locale.value}`);
+const defaultAudioLocale = 'en';
+const sceneAudioBasePath = (targetLocale) => `/audios/peaceful-visualization/${targetLocale}`;
 
-const buildSceneAudioPath = (sceneKey, index) => {
-  return `${sceneAudioBasePath.value}/${sceneKey}/${String(index + 1).padStart(2, '0')}.mp3`;
+const buildSceneAudioPath = (sceneKey, index, targetLocale = locale.value) => {
+  return `${sceneAudioBasePath(targetLocale)}/${sceneKey}/${String(index + 1).padStart(2, '0')}.mp3`;
 };
 
-const getAudioCacheKey = (sceneKey) => `${locale.value}::${sceneKey}`;
+const getAudioCacheKey = (sceneKey, targetLocale = locale.value) => `${targetLocale}::${sceneKey}`;
 
-const loadAudioElement = (sceneKey, index) => {
+const loadAudioElement = (sceneKey, index, targetLocale = locale.value) => {
   if (!import.meta.client) {
     return Promise.resolve(null);
   }
 
   return new Promise((resolve, reject) => {
-    const src = buildSceneAudioPath(sceneKey, index);
+    const src = buildSceneAudioPath(sceneKey, index, targetLocale);
     const audio = new Audio();
     audio.preload = 'auto';
     audio.src = src;
     audio.crossOrigin = 'anonymous';
     audio.dataset.sceneKey = sceneKey;
     audio.dataset.guidanceIndex = String(index);
+    audio.dataset.locale = targetLocale;
 
     const cleanup = () => {
       audio.removeEventListener('canplaythrough', handleSuccess);
@@ -319,8 +321,8 @@ const loadAudioElement = (sceneKey, index) => {
   });
 };
 
-const ensureAudioArray = (sceneKey, guidanceLength) => {
-  const cacheKey = getAudioCacheKey(sceneKey);
+const ensureAudioArray = (sceneKey, guidanceLength, targetLocale = locale.value) => {
+  const cacheKey = getAudioCacheKey(sceneKey, targetLocale);
 
   if (!sceneAudioCache.has(cacheKey)) {
     sceneAudioCache.set(cacheKey, Array.from({ length: guidanceLength }, () => null));
@@ -340,47 +342,66 @@ const ensureAudioArray = (sceneKey, guidanceLength) => {
   return audioArray;
 };
 
-const getAudioForStep = async (sceneKey, index, guidanceLength) => {
+const getAudioForStep = async (sceneKey, index, guidanceLength, { allowFallback = true } = {}) => {
   if (!import.meta.client) {
     return null;
   }
 
-  const audioArray = ensureAudioArray(sceneKey, guidanceLength);
-  if (audioArray[index]) {
-    return audioArray[index];
+  const attemptLoad = async (targetLocale) => {
+    const audioArray = ensureAudioArray(sceneKey, guidanceLength, targetLocale);
+    if (audioArray[index]) {
+      return audioArray[index];
+    }
+
+    audioLoading.value = true;
+    audioError.value = null;
+
+    try {
+      const audio = await loadAudioElement(sceneKey, index, targetLocale);
+      audioArray[index] = audio;
+      return audio;
+    } catch (error) {
+      console.warn(`Peaceful visualization audio missing for ${sceneKey} step ${index + 1} (locale: ${targetLocale}):`, error);
+      return null;
+    } finally {
+      audioLoading.value = false;
+    }
+  };
+
+  const primaryLocale = locale.value;
+  const primaryAudio = await attemptLoad(primaryLocale);
+  if (primaryAudio) {
+    return primaryAudio;
   }
 
-  audioLoading.value = true;
-  audioError.value = null;
-
-  try {
-    const audio = await loadAudioElement(sceneKey, index);
-    audioArray[index] = audio;
-    return audio;
-  } catch (error) {
-    audioError.value = error;
-    console.warn(`Peaceful visualization audio missing for ${sceneKey} step ${index + 1}:`, error);
+  if (!allowFallback || primaryLocale === defaultAudioLocale) {
+    audioError.value = new Error(`Audio not found for ${sceneKey} step ${index + 1} in locale ${primaryLocale}`);
     return null;
-  } finally {
-    audioLoading.value = false;
   }
+
+  console.info(`Falling back to ${defaultAudioLocale} audio for ${sceneKey} step ${index + 1}`);
+  const fallbackAudio = await attemptLoad(defaultAudioLocale);
+  if (!fallbackAudio) {
+    audioError.value = new Error(`Audio not found for ${sceneKey} step ${index + 1} in locales ${primaryLocale} or ${defaultAudioLocale}`);
+  }
+  return fallbackAudio;
 };
 
-const preloadNextAudio = (sceneKey, index, guidanceLength) => {
+const preloadNextAudio = (sceneKey, index, guidanceLength, targetLocale = locale.value) => {
   if (!import.meta.client) return;
 
   const nextIndex = index + 1;
   if (nextIndex >= guidanceLength) return;
 
-  const audioArray = ensureAudioArray(sceneKey, guidanceLength);
+  const audioArray = ensureAudioArray(sceneKey, guidanceLength, targetLocale);
   if (audioArray[nextIndex]) return;
 
-  loadAudioElement(sceneKey, nextIndex)
+  loadAudioElement(sceneKey, nextIndex, targetLocale)
     .then((audio) => {
       audioArray[nextIndex] = audio;
     })
     .catch((error) => {
-      console.warn(`Unable to preload peaceful visualization audio for step ${nextIndex + 1}:`, error);
+      console.warn(`Unable to preload peaceful visualization audio for step ${nextIndex + 1} (locale: ${targetLocale}):`, error);
     });
 };
 
@@ -547,7 +568,8 @@ const showGuidanceAtIndex = async (index, { immediate = false } = {}) => {
   }
 
   await playAudioForStep(audioForStep, index);
-  preloadNextAudio(sceneKey, index, guidance.length);
+  const audioLocale = audioForStep?.dataset?.locale || locale.value;
+  preloadNextAudio(sceneKey, index, guidance.length, audioLocale);
 };
 
 // Seeded random number generator for consistent visuals

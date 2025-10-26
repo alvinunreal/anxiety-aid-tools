@@ -917,6 +917,66 @@
           "Chaque étoile semble briller juste pour vous, envoyant une lumière qui vous remplit d'émerveillement et de paix.",
           "Cette prairie sous les étoiles est votre lieu de calme infini - vous pouvez toujours lever les yeux et trouver la paix dans l'immensité."
         ]
+      },
+      "cozyRainyCabin": {
+        "name": "Cabane Douillette sous la Pluie",
+        "description": "Se reposer en sécurité dans une cabane chaleureuse tandis qu'une pluie douce tambourine sur le toit",
+        "soundscape": "Pluie sur le toit",
+        "atmosphere": "Chaleur du feu de cheminée",
+        "guidance": [
+          "Vous vous installez dans un fauteuil moelleux près de la fenêtre d'une cabane en bois chaleureuse alors que la pluie du soir commence à tomber.",
+          "Les gouttes de pluie tambourinent doucement sur le toit et glissent sur la vitre, créant la bande sonore la plus apaisante.",
+          "Une petite cheminée flamboie à proximité, remplissant la pièce d'une lumière dorée et du crépitement réconfortant des bûches.",
+          "L'air sent légèrement le pin et le bois tiède, vous enveloppant du parfum pur de la forêt qui entoure la cabane.",
+          "Une couverture épaisse repose sur vos jambes, et vous sentez le fauteuil soutenir entièrement votre corps pendant que toute tension se dissout.",
+          "Vous tenez une tasse chaude entre vos mains, laissant la vapeur monter lentement vers votre visage pendant que la pluie continue de chanter.",
+          "Cette cabane est votre refuge privé : chaque fois que vous avez besoin de paix, vous pouvez revenir à cette soirée pluvieuse pour vous y reposer."
+        ]
+      },
+      "mistyLakesideDawn": {
+        "name": "Aube Brumeuse au Bord du Lac",
+        "description": "Assis près d'un lac de montagne paisible tandis que l'aube colore le matin brumeux",
+        "soundscape": "Clapotis doux de l'eau",
+        "atmosphere": "Brume fraîche du matin",
+        "guidance": [
+          "Vous êtes assis sur un quai de bois lisse au bord d'un lac de montagne immobile juste avant le lever du soleil.",
+          "Une fine brume flotte au-dessus de l'eau, dérivant lentement tandis que l'aube commence à colorer le ciel.",
+          "Chaque respiration emplit vos poumons d'air matinal vif, parfumé de pin et de pierre fraîche.",
+          "De l'autre côté du lac, les montagnes se teintent doucement lorsque la première lumière rose touche leurs sommets.",
+          "La surface du lac reflète le ciel qui s'éveille, ondulant à peine sous de minuscules vaguelettes silencieuses.",
+          "Un huard lointain lance un appel unique qui résonne doucement avant de se dissoudre à nouveau dans le silence.",
+          "Cette aube au bord du lac vous appartient ; revenez-y chaque fois que vous cherchez le calme et l'eau vous y attendra."
+        ]
+      },
+      "sunlitDesertOasis": {
+        "name": "Oasis Ensoleillée du Désert",
+        "description": "Se reposer près d'une oasis ombragée de palmiers dans le désert doré",
+        "soundscape": "Source douce et brise",
+        "atmosphere": "Chaleur dorée du soleil couchant",
+        "guidance": [
+          "Vous reposez sur une pierre lisse à côté d'une oasis claire nichée au milieu des dunes dorées.",
+          "Les palmiers se balancent au-dessus de vous, projetant une ombre tachetée pendant que la lumière du soleil réchauffe délicatement votre peau.",
+          "Une source tranquille alimente le bassin, son murmure paisible s'unissant à la brise légère du désert.",
+          "L'air est subtilement parfumé de fleurs de dattiers, doux et apaisant.",
+          "Au loin, les dunes scintillent dans la lumière de l'après-midi, leurs courbes guidant tranquillement votre regard vers l'horizon.",
+          "Vous laissez vos doigts effleurer l'eau fraîche, sentant la tension fondre à chaque cercle que vous dessinez.",
+          "Cette oasis est votre sanctuaire : peu importe la chaleur du monde, vous pouvez toujours rafraîchir votre esprit ici."
+        ]
+      },
+      "floatingCloudSanctuary": {
+        "name": "Sanctuaire Flottant dans les Nuages",
+        "description": "Glisser à travers des nuages doux baignés de soleil, très haut au-dessus de la terre",
+        "soundscape": "Brise douce d'altitude",
+        "atmosphere": "Calme en apesanteur",
+        "guidance": [
+          "Vous dérivez sans poids parmi d'immenses nuages lumineux très haut au-dessus du monde.",
+          "Des rayons de soleil traversent les nuages autour de vous, les peignant de nuances d'or et d'argent.",
+          "Une brise délicate vous enveloppe de chaleur et vous berce comme une mélodie calme et infinie.",
+          "Chaque nuage est doux comme du velours sous vos doigts, frais et soyeux lorsque vous les traversez.",
+          "Sous vous, le monde paraît paisible et minuscule, et chaque souci reste loin derrière.",
+          "À chaque inspiration, les nuages s'écartent pour révéler un ciel bleu infini, vous rappelant l'espace ouvert en vous.",
+          "Ce sanctuaire flottant vous élève toujours ; revenez-y chaque fois que vous souhaitez vous élever au-dessus de tout et vous reposer dans le ciel."
+        ]
       }
     },
     "howItWorks": {

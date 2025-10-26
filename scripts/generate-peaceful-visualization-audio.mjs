@@ -238,6 +238,31 @@ const main = async () => {
     const sceneDir = path.join(audioBaseDir, locale, sceneKey);
     await ensureDir(sceneDir);
 
+    const hasExistingFolder = await audioExists(sceneDir);
+    let existingFiles = [];
+
+    if (hasExistingFolder) {
+      try {
+        existingFiles = (await readdir(sceneDir))
+          .filter((entry) => entry.toLowerCase().endsWith('.mp3'));
+      } catch (error) {
+        console.warn(`Unable to inspect ${sceneDir}:`, error.message || error);
+      }
+    }
+
+    const expectedFiles = guidance.map((_, idx) => `${String(idx + 1).padStart(2, '0')}.mp3`);
+    const hasAllFiles = expectedFiles.every((fileName) => existingFiles.includes(fileName));
+    const shouldSkipEntireScene =
+      selectedScene === 'all' &&
+      !options.overwrite &&
+      hasExistingFolder &&
+      hasAllFiles;
+
+    if (shouldSkipEntireScene) {
+      console.log(`\nSkipping ${locale} → ${sceneKey} (all audio already present)`);
+      continue;
+    }
+
     console.log(`\nProcessing ${locale} → ${sceneKey} (${guidance.length} sentences)`);
     for (const [index, sentence] of guidance.entries()) {
       const fileName = `${String(index + 1).padStart(2, '0')}.mp3`;
