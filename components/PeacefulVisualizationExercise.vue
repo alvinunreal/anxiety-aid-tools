@@ -149,8 +149,8 @@ const pauseBetweenGuidanceMs = 1500;
 const fallbackGuidanceDelayMs = 8000;
 
 const sceneAudioCache = new Map();
-let currentAudioEndHandler = null;
-let currentAudioErrorHandler = null;
+let audioContext = null;
+let currentAudioSource = null;
 
 let phaseTimer = null;
 let scene, camera, renderer, environmentMesh;
@@ -275,44 +275,51 @@ const buildSceneAudioPath = (sceneKey, index, targetLocale = locale.value) => {
 
 const getAudioCacheKey = (sceneKey, targetLocale = locale.value) => `${targetLocale}::${sceneKey}`;
 
-const loadAudioElement = (sceneKey, index, targetLocale = locale.value) => {
+const initAudioContext = () => {
+  if (!import.meta.client) return null;
+  if (audioContext) return audioContext;
+
+  try {
+    audioContext = new (window.AudioContext || window.webkitAudioContext)();
+    return audioContext;
+  } catch (error) {
+    console.error('Failed to create AudioContext:', error);
+    return null;
+  }
+};
+
+const loadAudioBuffer = async (sceneKey, index, targetLocale = locale.value) => {
   if (!import.meta.client) {
     return Promise.resolve(null);
   }
 
-  return new Promise((resolve, reject) => {
-    const src = buildSceneAudioPath(sceneKey, index, targetLocale);
-    const audio = new Audio();
-    audio.preload = 'auto';
-    audio.src = src;
-    audio.crossOrigin = 'anonymous';
-    audio.dataset.sceneKey = sceneKey;
-    audio.dataset.guidanceIndex = String(index);
-    audio.dataset.locale = targetLocale;
+  const ctx = initAudioContext();
+  if (!ctx) {
+    throw new Error('AudioContext not available');
+  }
 
-    const cleanup = () => {
-      audio.removeEventListener('canplaythrough', handleSuccess);
-      audio.removeEventListener('loadeddata', handleSuccess);
-      audio.removeEventListener('error', handleError);
+  const src = buildSceneAudioPath(sceneKey, index, targetLocale);
+
+  try {
+    const response = await fetch(src);
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+    }
+
+    const arrayBuffer = await response.arrayBuffer();
+    const audioBuffer = await ctx.decodeAudioData(arrayBuffer);
+
+    // Store metadata on the buffer object for reference
+    audioBuffer._metadata = {
+      sceneKey,
+      guidanceIndex: index,
+      locale: targetLocale,
     };
 
-    const handleSuccess = () => {
-      cleanup();
-      resolve(audio);
-    };
-
-    const handleError = (event) => {
-      cleanup();
-      reject(new Error(`Unable to load audio at ${src}`));
-    };
-
-    audio.addEventListener('canplaythrough', handleSuccess, { once: true });
-    audio.addEventListener('loadeddata', handleSuccess, { once: true });
-    audio.addEventListener('error', handleError, { once: true });
-
-    // Trigger loading explicitly
-    audio.load();
-  });
+    return audioBuffer;
+  } catch (error) {
+    throw new Error(`Unable to load audio at ${src}: ${error.message}`);
+  }
 };
 
 const ensureAudioArray = (sceneKey, guidanceLength, targetLocale = locale.value) => {
@@ -351,9 +358,9 @@ const getAudioForStep = async (sceneKey, index, guidanceLength, { allowFallback 
     audioError.value = null;
 
     try {
-      const audio = await loadAudioElement(sceneKey, index, targetLocale);
-      audioArray[index] = audio;
-      return audio;
+      const audioBuffer = await loadAudioBuffer(sceneKey, index, targetLocale);
+      audioArray[index] = audioBuffer;
+      return audioBuffer;
     } catch (error) {
       console.warn(`Peaceful visualization audio missing for ${sceneKey} step ${index + 1} (locale: ${targetLocale}):`, error);
       return null;
@@ -390,9 +397,9 @@ const preloadNextAudio = (sceneKey, index, guidanceLength, targetLocale = locale
   const audioArray = ensureAudioArray(sceneKey, guidanceLength, targetLocale);
   if (audioArray[nextIndex]) return;
 
-  loadAudioElement(sceneKey, nextIndex, targetLocale)
-    .then((audio) => {
-      audioArray[nextIndex] = audio;
+  loadAudioBuffer(sceneKey, nextIndex, targetLocale)
+    .then((audioBuffer) => {
+      audioArray[nextIndex] = audioBuffer;
     })
     .catch((error) => {
       console.warn(`Unable to preload peaceful visualization audio for step ${nextIndex + 1} (locale: ${targetLocale}):`, error);
@@ -400,50 +407,26 @@ const preloadNextAudio = (sceneKey, index, guidanceLength, targetLocale = locale
 };
 
 const stopCurrentAudio = () => {
-  if (!currentlyPlayingAudio.value) return;
+  if (!currentAudioSource) return;
 
-  if (currentAudioEndHandler) {
-    currentlyPlayingAudio.value.removeEventListener('ended', currentAudioEndHandler);
-    currentAudioEndHandler = null;
-  }
-
-  if (currentAudioErrorHandler) {
-    currentlyPlayingAudio.value.removeEventListener('error', currentAudioErrorHandler);
-    currentAudioErrorHandler = null;
+  try {
+    currentAudioSource.stop();
+  } catch (error) {
+    // Source might already be stopped
   }
 
   try {
-    currentlyPlayingAudio.value.pause();
+    currentAudioSource.disconnect();
   } catch (error) {
-    console.warn('Unable to pause current audio:', error);
+    // Already disconnected
   }
 
-  try {
-    currentlyPlayingAudio.value.currentTime = 0;
-  } catch (error) {
-    // Ignore if resetting currentTime fails (Safari quirks)
-  }
-
+  currentAudioSource = null;
   currentlyPlayingAudio.value = null;
 };
 
 const cleanupAudioCache = () => {
-  // Dispose all cached audio elements to prevent memory leaks
-  for (const [key, audioArray] of sceneAudioCache.entries()) {
-    if (Array.isArray(audioArray)) {
-      audioArray.forEach((audio) => {
-        if (audio && audio instanceof Audio) {
-          try {
-            audio.pause();
-            audio.src = '';
-            audio.load();
-          } catch (error) {
-            // Ignore errors during cleanup
-          }
-        }
-      });
-    }
-  }
+  // Clear all cached audio buffers (they'll be garbage collected)
   sceneAudioCache.clear();
 };
 
@@ -458,16 +441,34 @@ const scheduleNextGuidance = (nextIndex, delay = pauseBetweenGuidanceMs) => {
   }, delay);
 };
 
-const playAudioForStep = async (audioElement, index) => {
-  if (!audioElement) {
+const playAudioForStep = async (audioBuffer, index) => {
+  if (!audioBuffer) {
     scheduleNextGuidance(index + 1, fallbackGuidanceDelayMs);
     return;
   }
 
+  const ctx = initAudioContext();
+  if (!ctx) {
+    console.warn('AudioContext not available');
+    scheduleNextGuidance(index + 1, fallbackGuidanceDelayMs);
+    return;
+  }
+
+  // Resume AudioContext if suspended (Safari requirement)
+  if (ctx.state === 'suspended') {
+    try {
+      await ctx.resume();
+    } catch (error) {
+      console.warn('Failed to resume AudioContext:', error);
+      scheduleNextGuidance(index + 1, fallbackGuidanceDelayMs);
+      return;
+    }
+  }
+
   stopCurrentAudio();
 
-  const fallbackDelay = Number.isFinite(audioElement.duration) && audioElement.duration > 0
-    ? Math.ceil(audioElement.duration * 1000) + pauseBetweenGuidanceMs + 1500
+  const fallbackDelay = audioBuffer.duration > 0
+    ? Math.ceil(audioBuffer.duration * 1000) + pauseBetweenGuidanceMs + 1500
     : fallbackGuidanceDelayMs + 3000;
 
   if (phaseTimer) {
@@ -475,9 +476,18 @@ const playAudioForStep = async (audioElement, index) => {
     phaseTimer = null;
   }
 
+  // Create source node from buffer
+  const source = ctx.createBufferSource();
+  source.buffer = audioBuffer;
+  source.connect(ctx.destination);
+
+  currentAudioSource = source;
+  currentlyPlayingAudio.value = audioBuffer;
+
+  // Safety fallback timer
   phaseTimer = setTimeout(() => {
     console.warn('Audio playback fallback triggered, advancing to next guidance step.');
-    if (currentlyPlayingAudio.value === audioElement) {
+    if (currentlyPlayingAudio.value === audioBuffer) {
       stopCurrentAudio();
       showGuidanceAtIndex(index + 1, { immediate: true });
     }
@@ -488,41 +498,22 @@ const playAudioForStep = async (audioElement, index) => {
       clearTimeout(phaseTimer);
       phaseTimer = null;
     }
-    currentAudioEndHandler = null;
-    currentAudioErrorHandler = null;
+    currentAudioSource = null;
     currentlyPlayingAudio.value = null;
     scheduleNextGuidance(index + 1, pauseBetweenGuidanceMs);
   };
 
-  const handleError = (event) => {
-    console.warn('Audio playback error encountered:', event);
+  source.onended = handleEnded;
+
+  try {
+    source.start(0);
+  } catch (error) {
+    console.warn('Failed to play peaceful visualization audio:', error);
     if (phaseTimer) {
       clearTimeout(phaseTimer);
       phaseTimer = null;
     }
-    currentAudioEndHandler = null;
-    currentAudioErrorHandler = null;
-    currentlyPlayingAudio.value = null;
-    scheduleNextGuidance(index + 1, fallbackGuidanceDelayMs);
-  };
-
-  currentAudioEndHandler = handleEnded;
-  currentAudioErrorHandler = handleError;
-
-  audioElement.addEventListener('ended', handleEnded, { once: true });
-  audioElement.addEventListener('error', handleError, { once: true });
-
-  currentlyPlayingAudio.value = audioElement;
-
-  try {
-    audioElement.currentTime = 0;
-    await audioElement.play();
-  } catch (error) {
-    console.warn('Failed to play peaceful visualization audio:', error);
-    audioElement.removeEventListener('ended', handleEnded);
-    audioElement.removeEventListener('error', handleError);
-    currentAudioEndHandler = null;
-    currentAudioErrorHandler = null;
+    currentAudioSource = null;
     currentlyPlayingAudio.value = null;
     scheduleNextGuidance(index + 1, fallbackGuidanceDelayMs);
   }
@@ -582,7 +573,7 @@ const showGuidanceAtIndex = async (index, { immediate = false } = {}) => {
   }
 
   await playAudioForStep(audioForStep, index);
-  const audioLocale = audioForStep?.dataset?.locale || locale.value;
+  const audioLocale = audioForStep?._metadata?.locale || locale.value;
   preloadNextAudio(sceneKey, index, guidance.length, audioLocale);
 };
 
@@ -715,12 +706,23 @@ const startSceneExercise = (sceneIndex) => {
   startExercise();
 };
 
-const startExercise = () => {
+const startExercise = async () => {
   exerciseStarted.value = true;
   exerciseCompleted.value = false;
   currentGuidanceText.value = "";
   currentGuidanceIndex.value = -1;
   audioError.value = null;
+
+  // CRITICAL: Unlock AudioContext with user gesture (solves Safari autoplay issue)
+  const ctx = initAudioContext();
+  if (ctx && ctx.state === 'suspended') {
+    try {
+      await ctx.resume();
+      console.log('AudioContext unlocked successfully');
+    } catch (error) {
+      console.warn('Failed to unlock AudioContext:', error);
+    }
+  }
 
   nextTick(async () => {
     exerciseSection.value?.scrollIntoView({
@@ -826,6 +828,16 @@ const handlePageUnload = () => {
   // Stop all audio immediately on page unload
   stopCurrentAudio();
   cleanupAudioCache();
+
+  // Close AudioContext
+  if (audioContext && audioContext.state !== 'closed') {
+    try {
+      audioContext.close();
+    } catch (error) {
+      // Ignore errors during page unload
+    }
+    audioContext = null;
+  }
 };
 
 onMounted(() => {
@@ -844,6 +856,16 @@ onUnmounted(() => {
   if (animationId) cancelAnimationFrame(animationId);
   stopCurrentAudio();
   cleanupAudioCache();
+
+  // Close AudioContext
+  if (audioContext && audioContext.state !== 'closed') {
+    try {
+      audioContext.close();
+    } catch (error) {
+      console.warn('Failed to close AudioContext:', error);
+    }
+    audioContext = null;
+  }
 
   // Dispose 3D resources
   if (scene?.background?.dispose) {

@@ -160,19 +160,12 @@
 
       <RelatedTechniques current-technique-id="stress-relief-bubbles" />
     </section>
-
-    <audio ref="popAudio" preload="auto">
-      <source
-        src="/audios/stress-relief-bubbles/pop.mp3"
-        type="audio/mpeg"
-      />
-    </audio>
     </main>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue"; // <-- 1. IMPORT onMounted
+import { ref, onMounted, onUnmounted } from "vue";
 
 const totalBubbles = 64;
 const isResetting = ref(false);
@@ -185,7 +178,9 @@ for (let i = 1; i <= totalBubbles; i++) {
   });
 }
 
-const popAudio = ref(null);
+// Web Audio API
+let audioContext = null;
+let popAudioBuffer = null;
 
 const { t } = useI18n();
 
@@ -199,23 +194,62 @@ useSeoMeta({
   twitterCard: "summary_large_image",
 });
 
-// 2. ADD onMounted HOOK TO WARM UP AUDIO
-onMounted(() => {
-  const warmUpAudio = () => {
-    // Play a tiny, silent sound to wake the audio hardware on iOS
-    const silentAudio = new Audio(
-      "data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA"
-    );
-    silentAudio.play().catch(() => {});
+// Initialize AudioContext
+const initAudioContext = () => {
+  if (audioContext) return audioContext;
 
-    // Explicitly load your main audio file so it's ready to play instantly
-    if (popAudio.value) {
-      popAudio.value.load();
+  try {
+    audioContext = new (window.AudioContext || window.webkitAudioContext)();
+    return audioContext;
+  } catch (error) {
+    console.error('Failed to create AudioContext:', error);
+    return null;
+  }
+};
+
+// Load pop sound buffer
+const loadPopSound = async () => {
+  const ctx = initAudioContext();
+  if (!ctx) return;
+
+  try {
+    const response = await fetch('/audios/stress-relief-bubbles/pop.mp3');
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
     }
-  };
 
-  // Run the warm-up function only ONCE on the first user touch
+    const arrayBuffer = await response.arrayBuffer();
+    popAudioBuffer = await ctx.decodeAudioData(arrayBuffer);
+  } catch (error) {
+    console.warn('Failed to load pop sound:', error);
+  }
+};
+
+// Warm up audio on first user interaction
+const warmUpAudio = async () => {
+  const ctx = initAudioContext();
+  if (!ctx) return;
+
+  // CRITICAL: Unlock AudioContext with user gesture (solves Safari autoplay issue)
+  if (ctx.state === 'suspended') {
+    try {
+      await ctx.resume();
+      console.log('AudioContext unlocked successfully');
+    } catch (error) {
+      console.warn('Failed to unlock AudioContext:', error);
+    }
+  }
+
+  // Load the pop sound if not already loaded
+  if (!popAudioBuffer) {
+    await loadPopSound();
+  }
+};
+
+onMounted(() => {
+  // Run the warm-up function only ONCE on the first user touch/click
   window.addEventListener('touchstart', warmUpAudio, { once: true });
+  window.addEventListener('click', warmUpAudio, { once: true });
 });
 
 const getBubble = (id) => {
@@ -241,15 +275,49 @@ const resetBubbles = () => {
   }, 400);
 };
 
-const playPopSound = () => {
-  if (popAudio.value) {
-    popAudio.value.currentTime = 0;
-    popAudio.value.play().catch((e) => {
-      // Catching potential errors is good practice, especially with audio
-      console.warn("Audio play failed. User interaction might be required.", e);
-    });
+const playPopSound = async () => {
+  if (!popAudioBuffer) {
+    // Try to load if not already loaded
+    await loadPopSound();
+    if (!popAudioBuffer) return;
+  }
+
+  const ctx = initAudioContext();
+  if (!ctx) return;
+
+  // Resume AudioContext if suspended (Safari requirement)
+  if (ctx.state === 'suspended') {
+    try {
+      await ctx.resume();
+    } catch (error) {
+      console.warn('Failed to resume AudioContext:', error);
+      return;
+    }
+  }
+
+  try {
+    // Create source node from buffer
+    const source = ctx.createBufferSource();
+    source.buffer = popAudioBuffer;
+    source.connect(ctx.destination);
+    source.start(0);
+  } catch (error) {
+    console.warn('Failed to play pop sound:', error);
   }
 };
+
+onUnmounted(() => {
+  // Close AudioContext on component unmount
+  if (audioContext && audioContext.state !== 'closed') {
+    try {
+      audioContext.close();
+    } catch (error) {
+      console.warn('Failed to close AudioContext:', error);
+    }
+    audioContext = null;
+  }
+  popAudioBuffer = null;
+});
 </script>
 
 <style scoped>

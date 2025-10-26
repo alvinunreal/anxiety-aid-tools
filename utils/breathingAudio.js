@@ -1,10 +1,12 @@
-// Audio utility for breathing exercise cues
+// Audio utility for breathing exercise cues (Web Audio API)
 class BreathingAudio {
   constructor() {
     this.enabled = false
-    this.audioCache = {} // Cache for different audio instances
+    this.audioCache = {} // Cache for AudioBuffers
     this.currentTechnique = 'simple' // Default technique
     this.loaded = false
+    this.audioContext = null
+    this.currentSource = null
 
     // Audio file mapping for different techniques
     this.audioFiles = {
@@ -30,12 +32,45 @@ class BreathingAudio {
       }
     }
     this.isPlaying = false
-    this.currentlyPlayingAudio = null
+  }
+
+  // Initialize AudioContext
+  _initAudioContext() {
+    if (this.audioContext) return this.audioContext
+
+    try {
+      this.audioContext = new (window.AudioContext || window.webkitAudioContext)()
+      return this.audioContext
+    } catch (error) {
+      console.error('Failed to create AudioContext:', error)
+      return null
+    }
   }
 
   // Set the breathing technique to use
   setTechnique(technique) {
     this.currentTechnique = technique || 'simple'
+  }
+
+  // Load audio buffer from URL
+  async _loadAudioBuffer(url) {
+    const ctx = this._initAudioContext()
+    if (!ctx) {
+      throw new Error('AudioContext not available')
+    }
+
+    try {
+      const response = await fetch(url)
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`)
+      }
+
+      const arrayBuffer = await response.arrayBuffer()
+      const audioBuffer = await ctx.decodeAudioData(arrayBuffer)
+      return audioBuffer
+    } catch (error) {
+      throw new Error(`Unable to load audio at ${url}: ${error.message}`)
+    }
   }
 
   // Initialize and load audio on user interaction
@@ -54,82 +89,23 @@ class BreathingAudio {
     const cacheKey = this.currentTechnique
 
     if (!this.audioCache[cacheKey]) {
-      const inhaleAudio = new Audio(files.inhale)
-      inhaleAudio.preload = 'auto'
-      // iOS optimization: set explicit properties
-      inhaleAudio.autoplay = false
-      inhaleAudio.loop = false
-      inhaleAudio.load()
-
-      const exhaleAudio = new Audio(files.exhale)
-      exhaleAudio.preload = 'auto'
-      // iOS optimization: set explicit properties
-      exhaleAudio.autoplay = false
-      exhaleAudio.loop = false
-      exhaleAudio.load()
-
-      // Add event listeners to track when audio ends (helps with iOS)
-      inhaleAudio.addEventListener('ended', () => {
-        if (this.currentlyPlayingAudio === inhaleAudio) {
-          this.currentlyPlayingAudio = null
-          this.isPlaying = false
-        }
-      })
-
-      exhaleAudio.addEventListener('ended', () => {
-        if (this.currentlyPlayingAudio === exhaleAudio) {
-          this.currentlyPlayingAudio = null
-          this.isPlaying = false
-        }
-      })
-
-      this.audioCache[cacheKey] = {
-        inhale: inhaleAudio,
-        exhale: exhaleAudio
-      }
-
-      // Wait for both audio files to be loaded
       try {
-        await Promise.all([
-          new Promise((resolve, reject) => {
-            if (inhaleAudio.readyState >= 3) {
-              resolve()
-            } else {
-              const timeoutId = setTimeout(() => {
-                reject(new Error('Audio loading timeout'))
-              }, 10000) // 10 second timeout
-
-              inhaleAudio.addEventListener('canplaythrough', () => {
-                clearTimeout(timeoutId)
-                resolve()
-              }, { once: true })
-
-              inhaleAudio.addEventListener('error', (e) => {
-                clearTimeout(timeoutId)
-                reject(e)
-              }, { once: true })
-            }
-          }),
-          new Promise((resolve, reject) => {
-            if (exhaleAudio.readyState >= 3) {
-              resolve()
-            } else {
-              const timeoutId = setTimeout(() => {
-                reject(new Error('Audio loading timeout'))
-              }, 10000) // 10 second timeout
-
-              exhaleAudio.addEventListener('canplaythrough', () => {
-                clearTimeout(timeoutId)
-                resolve()
-              }, { once: true })
-
-              exhaleAudio.addEventListener('error', (e) => {
-                clearTimeout(timeoutId)
-                reject(e)
-              }, { once: true })
-            }
-          })
+        // Load both audio files using Web Audio API
+        const [inhaleBuffer, exhaleBuffer] = await Promise.race([
+          Promise.all([
+            this._loadAudioBuffer(files.inhale),
+            this._loadAudioBuffer(files.exhale)
+          ]),
+          new Promise((_, reject) =>
+            setTimeout(() => reject(new Error('Audio loading timeout')), 10000)
+          )
         ])
+
+        this.audioCache[cacheKey] = {
+          inhale: inhaleBuffer,
+          exhale: exhaleBuffer
+        }
+
         this.loaded = true
       } catch (err) {
         console.warn('Audio loading failed:', err)
@@ -137,105 +113,123 @@ class BreathingAudio {
     }
   }
 
-  // Prime audio for mobile - play silently at volume 0 to unlock audio
+  // Prime audio for mobile - unlock AudioContext with user gesture
   async prime() {
     const audio = this.audioCache[this.currentTechnique]
     if (!audio) {
       await this.init()
     }
 
-    const currentAudio = this.audioCache[this.currentTechnique]
-    if (!currentAudio) return
+    const ctx = this._initAudioContext()
+    if (!ctx) {
+      console.warn('AudioContext not available')
+      return
+    }
 
-    // Play both audio files at volume 0 to unlock audio playback on mobile
-    const originalInhaleVolume = currentAudio.inhale.volume
-    const originalExhaleVolume = currentAudio.exhale.volume
-
-    try {
-      currentAudio.inhale.volume = 0
-      currentAudio.exhale.volume = 0
-
-      await Promise.all([
-        currentAudio.inhale.play().then(() => {
-          currentAudio.inhale.pause()
-          currentAudio.inhale.currentTime = 0
-        }),
-        currentAudio.exhale.play().then(() => {
-          currentAudio.exhale.pause()
-          currentAudio.exhale.currentTime = 0
-        })
-      ])
-
-      currentAudio.inhale.volume = originalInhaleVolume
-      currentAudio.exhale.volume = originalExhaleVolume
-    } catch (err) {
-      console.warn('Audio priming failed:', err)
+    // CRITICAL: Unlock AudioContext with user gesture (solves Safari autoplay issue)
+    if (ctx.state === 'suspended') {
+      try {
+        await ctx.resume()
+        console.log('BreathingAudio: AudioContext unlocked successfully')
+      } catch (err) {
+        console.warn('AudioContext unlock failed:', err)
+      }
     }
   }
 
   // Play inhale audio cue
-  playInhaleCue() {
+  async playInhaleCue() {
     if (!this.enabled) return
 
     const audio = this.audioCache[this.currentTechnique]
     if (!audio || !audio.inhale) return
 
-    // Stop any currently playing audio first (important for iOS)
+    const ctx = this._initAudioContext()
+    if (!ctx) {
+      console.warn('AudioContext not available')
+      return
+    }
+
+    // Resume AudioContext if suspended (Safari requirement)
+    if (ctx.state === 'suspended') {
+      try {
+        await ctx.resume()
+      } catch (error) {
+        console.warn('Failed to resume AudioContext:', error)
+        return
+      }
+    }
+
+    // Stop any currently playing audio first
     this.stopCurrentlyPlaying()
 
-    // Reset and play
     try {
-      audio.inhale.currentTime = 0
-      audio.inhale.volume = 1.0
+      // Create source node from buffer
+      const source = ctx.createBufferSource()
+      source.buffer = audio.inhale
+      source.connect(ctx.destination)
 
-      const playPromise = audio.inhale.play()
-      if (playPromise !== undefined) {
-        playPromise
-          .then(() => {
-            this.isPlaying = true
-            this.currentlyPlayingAudio = audio.inhale
-          })
-          .catch(err => {
-            console.warn('Inhale audio play failed:', err)
-            this.isPlaying = false
-            this.currentlyPlayingAudio = null
-          })
+      this.currentSource = source
+      this.isPlaying = true
+
+      source.onended = () => {
+        this.currentSource = null
+        this.isPlaying = false
       }
+
+      source.start(0)
     } catch (err) {
       console.warn('Inhale audio error:', err)
+      this.currentSource = null
+      this.isPlaying = false
     }
   }
 
   // Play exhale audio cue
-  playExhaleCue() {
+  async playExhaleCue() {
     if (!this.enabled) return
 
     const audio = this.audioCache[this.currentTechnique]
     if (!audio || !audio.exhale) return
 
-    // Stop any currently playing audio first (important for iOS)
+    const ctx = this._initAudioContext()
+    if (!ctx) {
+      console.warn('AudioContext not available')
+      return
+    }
+
+    // Resume AudioContext if suspended (Safari requirement)
+    if (ctx.state === 'suspended') {
+      try {
+        await ctx.resume()
+      } catch (error) {
+        console.warn('Failed to resume AudioContext:', error)
+        return
+      }
+    }
+
+    // Stop any currently playing audio first
     this.stopCurrentlyPlaying()
 
-    // Reset and play
     try {
-      audio.exhale.currentTime = 0
-      audio.exhale.volume = 1.0
+      // Create source node from buffer
+      const source = ctx.createBufferSource()
+      source.buffer = audio.exhale
+      source.connect(ctx.destination)
 
-      const playPromise = audio.exhale.play()
-      if (playPromise !== undefined) {
-        playPromise
-          .then(() => {
-            this.isPlaying = true
-            this.currentlyPlayingAudio = audio.exhale
-          })
-          .catch(err => {
-            console.warn('Exhale audio play failed:', err)
-            this.isPlaying = false
-            this.currentlyPlayingAudio = null
-          })
+      this.currentSource = source
+      this.isPlaying = true
+
+      source.onended = () => {
+        this.currentSource = null
+        this.isPlaying = false
       }
+
+      source.start(0)
     } catch (err) {
       console.warn('Exhale audio error:', err)
+      this.currentSource = null
+      this.isPlaying = false
     }
   }
 
@@ -262,14 +256,20 @@ class BreathingAudio {
 
   // Stop currently playing audio (single instance)
   stopCurrentlyPlaying() {
-    if (this.currentlyPlayingAudio) {
+    if (this.currentSource) {
       try {
-        this.currentlyPlayingAudio.pause()
-        this.currentlyPlayingAudio.currentTime = 0
+        this.currentSource.stop()
       } catch (err) {
-        console.warn('Error stopping audio:', err)
+        // Source might already be stopped
       }
-      this.currentlyPlayingAudio = null
+
+      try {
+        this.currentSource.disconnect()
+      } catch (err) {
+        // Already disconnected
+      }
+
+      this.currentSource = null
       this.isPlaying = false
     }
   }
@@ -277,72 +277,31 @@ class BreathingAudio {
   // Stop currently playing audio for current technique
   stop() {
     this.stopCurrentlyPlaying()
-
-    const audio = this.audioCache[this.currentTechnique]
-    if (audio) {
-      try {
-        if (audio.inhale) {
-          audio.inhale.pause()
-          audio.inhale.currentTime = 0
-        }
-        if (audio.exhale) {
-          audio.exhale.pause()
-          audio.exhale.currentTime = 0
-        }
-      } catch (err) {
-        console.warn('Error stopping technique audio:', err)
-      }
-    }
   }
 
   // Stop all audio across all techniques (comprehensive cleanup)
   stopAll() {
     this.stopCurrentlyPlaying()
-
-    Object.values(this.audioCache).forEach(audio => {
-      try {
-        if (audio.inhale) {
-          audio.inhale.pause()
-          audio.inhale.currentTime = 0
-        }
-        if (audio.exhale) {
-          audio.exhale.pause()
-          audio.exhale.currentTime = 0
-        }
-      } catch (err) {
-        console.warn('Error in stopAll:', err)
-      }
-    })
   }
 
   // Cleanup
   cleanup() {
     this.stopAll()
 
-    // Remove event listeners and nullify audio objects
-    Object.values(this.audioCache).forEach(audio => {
-      try {
-        if (audio.inhale) {
-          audio.inhale.pause()
-          audio.inhale.src = ''
-          audio.inhale.load()
-          audio.inhale = null
-        }
-        if (audio.exhale) {
-          audio.exhale.pause()
-          audio.exhale.src = ''
-          audio.exhale.load()
-          audio.exhale = null
-        }
-      } catch (err) {
-        console.warn('Error during cleanup:', err)
-      }
-    })
-
+    // Clear audio buffers (they'll be garbage collected)
     this.audioCache = {}
     this.loaded = false
     this.isPlaying = false
-    this.currentlyPlayingAudio = null
+
+    // Close AudioContext
+    if (this.audioContext && this.audioContext.state !== 'closed') {
+      try {
+        this.audioContext.close()
+      } catch (err) {
+        console.warn('Error closing AudioContext:', err)
+      }
+      this.audioContext = null
+    }
   }
 }
 
