@@ -155,80 +155,388 @@
 import { vAutoAnimate } from '@formkit/auto-animate/vue'
 import * as THREE from "three";
 
-const { t, tm, rt } = useI18n();
+const { t, tm, rt, locale } = useI18n();
 
 const exerciseStarted = ref(false);
 const exerciseCompleted = ref(false);
 const currentSceneIndex = ref(0);
 const currentGuidanceText = ref("");
 const isTransitioning = ref(false);
+const currentGuidanceIndex = ref(-1);
+const audioLoading = ref(false);
+const audioError = ref(null);
+const currentlyPlayingAudio = ref(null);
+
+const pauseBetweenGuidanceMs = 1500;
+const fallbackGuidanceDelayMs = 8000;
+
+const sceneAudioCache = new Map();
+let currentAudioEndHandler = null;
+let currentAudioErrorHandler = null;
 
 let phaseTimer = null;
 let scene, camera, renderer, environmentMesh;
 let animationId = null;
 
 const visualizationCanvas = ref(null);
+const exerciseSection = ref(null);
+
+const sceneDefinitions = [
+  {
+    key: 'mountainPeakSunrise',
+    icon: 'ph:mountains-fill',
+    color1: 0x87ceeb,
+    color2: 0xffe4b5,
+    geometryType: 'peaks',
+  },
+  {
+    key: 'tranquilForestGrove',
+    icon: 'ph:tree-fill',
+    color1: 0x228b22,
+    color2: 0xf0e68c,
+    geometryType: 'trees',
+  },
+  {
+    key: 'peacefulOceanBeach',
+    icon: 'ph:waves-fill',
+    color1: 0x4682b4,
+    color2: 0xf5deb3,
+    geometryType: 'waves',
+  },
+  {
+    key: 'sereneGardenParadise',
+    icon: 'ph:flower-fill',
+    color1: 0x9370db,
+    color2: 0xff69b4,
+    geometryType: 'garden',
+  },
+  {
+    key: 'starlitMeadowNight',
+    icon: 'ph:moon-stars-fill',
+    color1: 0x191970,
+    color2: 0xe6e6fa,
+    geometryType: 'stars',
+  },
+];
 
 // Rich visualization scenes with detailed environments
-const visualizationScenes = computed(() => [
-  {
-    name: t('peacefulVisualization.scenes.mountainPeakSunrise.name'),
-    description: t('peacefulVisualization.scenes.mountainPeakSunrise.description'),
-    soundscape: t('peacefulVisualization.scenes.mountainPeakSunrise.soundscape'),
-    atmosphere: t('peacefulVisualization.scenes.mountainPeakSunrise.atmosphere'),
-    icon: "ph:mountains-fill",
-    color1: 0x87ceeb, // Sky blue
-    color2: 0xffe4b5, // Moccasin
-    geometryType: "peaks",
-    guidance: tm('peacefulVisualization.scenes.mountainPeakSunrise.guidance').map(rt),
-  },
-  {
-    name: t('peacefulVisualization.scenes.tranquilForestGrove.name'),
-    description: t('peacefulVisualization.scenes.tranquilForestGrove.description'),
-    soundscape: t('peacefulVisualization.scenes.tranquilForestGrove.soundscape'),
-    atmosphere: t('peacefulVisualization.scenes.tranquilForestGrove.atmosphere'),
-    icon: "ph:tree-fill",
-    color1: 0x228b22, // Forest green
-    color2: 0xf0e68c, // Khaki
-    geometryType: "trees",
-    guidance: tm('peacefulVisualization.scenes.tranquilForestGrove.guidance').map(rt),
-  },
-  {
-    name: t('peacefulVisualization.scenes.peacefulOceanBeach.name'),
-    description: t('peacefulVisualization.scenes.peacefulOceanBeach.description'),
-    soundscape: t('peacefulVisualization.scenes.peacefulOceanBeach.soundscape'),
-    atmosphere: t('peacefulVisualization.scenes.peacefulOceanBeach.atmosphere'),
-    icon: "ph:waves-fill",
-    color1: 0x4682b4, // Steel blue
-    color2: 0xf5deb3, // Wheat
-    geometryType: "waves",
-    guidance: tm('peacefulVisualization.scenes.peacefulOceanBeach.guidance').map(rt),
-  },
-  {
-    name: t('peacefulVisualization.scenes.sereneGardenParadise.name'),
-    description: t('peacefulVisualization.scenes.sereneGardenParadise.description'),
-    soundscape: t('peacefulVisualization.scenes.sereneGardenParadise.soundscape'),
-    atmosphere: t('peacefulVisualization.scenes.sereneGardenParadise.atmosphere'),
-    icon: "ph:flower-fill",
-    color1: 0x9370db, // Medium purple
-    color2: 0xff69b4, // Hot pink
-    geometryType: "garden",
-    guidance: tm('peacefulVisualization.scenes.sereneGardenParadise.guidance').map(rt),
-  },
-  {
-    name: t('peacefulVisualization.scenes.starlitMeadowNight.name'),
-    description: t('peacefulVisualization.scenes.starlitMeadowNight.description'),
-    soundscape: t('peacefulVisualization.scenes.starlitMeadowNight.soundscape'),
-    atmosphere: t('peacefulVisualization.scenes.starlitMeadowNight.atmosphere'),
-    icon: "ph:moon-stars-fill",
-    color1: 0x191970, // Midnight blue
-    color2: 0xe6e6fa, // Lavender
-    geometryType: "stars",
-    guidance: tm('peacefulVisualization.scenes.starlitMeadowNight.guidance').map(rt),
-  },
-]);
+const visualizationScenes = computed(() => {
+  return sceneDefinitions.map((definition) => {
+    const basePath = `peacefulVisualization.scenes.${definition.key}`;
+    const rawGuidance = tm(`${basePath}.guidance`);
+    const guidance = Array.isArray(rawGuidance) ? rawGuidance.map(rt) : [];
 
-const currentScene = computed(() => visualizationScenes.value[currentSceneIndex.value]);
+    return {
+      key: definition.key,
+      name: t(`${basePath}.name`),
+      description: t(`${basePath}.description`),
+      soundscape: t(`${basePath}.soundscape`),
+      atmosphere: t(`${basePath}.atmosphere`),
+      icon: definition.icon,
+      color1: definition.color1,
+      color2: definition.color2,
+      geometryType: definition.geometryType,
+      guidance,
+    };
+  });
+});
+
+const currentScene = computed(() => {
+  if (!visualizationScenes.value.length) {
+    return {
+      key: '',
+      name: '',
+      description: '',
+      soundscape: '',
+      atmosphere: '',
+      icon: 'ph:mountains-fill',
+      color1: 0x87ceeb,
+      color2: 0xffe4b5,
+      geometryType: 'peaks',
+      guidance: [],
+    };
+  }
+
+  return visualizationScenes.value[currentSceneIndex.value] ?? visualizationScenes.value[0];
+});
+
+const sceneAudioBasePath = computed(() => `/audios/peaceful-visualization/${locale.value}`);
+
+const buildSceneAudioPath = (sceneKey, index) => {
+  return `${sceneAudioBasePath.value}/${sceneKey}/${String(index + 1).padStart(2, '0')}.mp3`;
+};
+
+const getAudioCacheKey = (sceneKey) => `${locale.value}::${sceneKey}`;
+
+const loadAudioElement = (sceneKey, index) => {
+  if (!import.meta.client) {
+    return Promise.resolve(null);
+  }
+
+  return new Promise((resolve, reject) => {
+    const src = buildSceneAudioPath(sceneKey, index);
+    const audio = new Audio();
+    audio.preload = 'auto';
+    audio.src = src;
+    audio.crossOrigin = 'anonymous';
+    audio.dataset.sceneKey = sceneKey;
+    audio.dataset.guidanceIndex = String(index);
+
+    const cleanup = () => {
+      audio.removeEventListener('canplaythrough', handleSuccess);
+      audio.removeEventListener('loadeddata', handleSuccess);
+      audio.removeEventListener('error', handleError);
+    };
+
+    const handleSuccess = () => {
+      cleanup();
+      resolve(audio);
+    };
+
+    const handleError = (event) => {
+      cleanup();
+      reject(new Error(`Unable to load audio at ${src}`));
+    };
+
+    audio.addEventListener('canplaythrough', handleSuccess, { once: true });
+    audio.addEventListener('loadeddata', handleSuccess, { once: true });
+    audio.addEventListener('error', handleError, { once: true });
+
+    // Trigger loading explicitly
+    audio.load();
+  });
+};
+
+const ensureAudioArray = (sceneKey, guidanceLength) => {
+  const cacheKey = getAudioCacheKey(sceneKey);
+
+  if (!sceneAudioCache.has(cacheKey)) {
+    sceneAudioCache.set(cacheKey, Array.from({ length: guidanceLength }, () => null));
+  }
+
+  const audioArray = sceneAudioCache.get(cacheKey);
+
+  if (audioArray.length < guidanceLength) {
+    audioArray.length = guidanceLength;
+    for (let i = 0; i < audioArray.length; i += 1) {
+      if (typeof audioArray[i] === 'undefined') {
+        audioArray[i] = null;
+      }
+    }
+  }
+
+  return audioArray;
+};
+
+const getAudioForStep = async (sceneKey, index, guidanceLength) => {
+  if (!import.meta.client) {
+    return null;
+  }
+
+  const audioArray = ensureAudioArray(sceneKey, guidanceLength);
+  if (audioArray[index]) {
+    return audioArray[index];
+  }
+
+  audioLoading.value = true;
+  audioError.value = null;
+
+  try {
+    const audio = await loadAudioElement(sceneKey, index);
+    audioArray[index] = audio;
+    return audio;
+  } catch (error) {
+    audioError.value = error;
+    console.warn(`Peaceful visualization audio missing for ${sceneKey} step ${index + 1}:`, error);
+    return null;
+  } finally {
+    audioLoading.value = false;
+  }
+};
+
+const preloadNextAudio = (sceneKey, index, guidanceLength) => {
+  if (!import.meta.client) return;
+
+  const nextIndex = index + 1;
+  if (nextIndex >= guidanceLength) return;
+
+  const audioArray = ensureAudioArray(sceneKey, guidanceLength);
+  if (audioArray[nextIndex]) return;
+
+  loadAudioElement(sceneKey, nextIndex)
+    .then((audio) => {
+      audioArray[nextIndex] = audio;
+    })
+    .catch((error) => {
+      console.warn(`Unable to preload peaceful visualization audio for step ${nextIndex + 1}:`, error);
+    });
+};
+
+const stopCurrentAudio = () => {
+  if (!currentlyPlayingAudio.value) return;
+
+  if (currentAudioEndHandler) {
+    currentlyPlayingAudio.value.removeEventListener('ended', currentAudioEndHandler);
+    currentAudioEndHandler = null;
+  }
+
+  if (currentAudioErrorHandler) {
+    currentlyPlayingAudio.value.removeEventListener('error', currentAudioErrorHandler);
+    currentAudioErrorHandler = null;
+  }
+
+  try {
+    currentlyPlayingAudio.value.pause();
+  } catch (error) {
+    console.warn('Unable to pause current audio:', error);
+  }
+
+  try {
+    currentlyPlayingAudio.value.currentTime = 0;
+  } catch (error) {
+    // Ignore if resetting currentTime fails (Safari quirks)
+  }
+
+  currentlyPlayingAudio.value = null;
+};
+
+const scheduleNextGuidance = (nextIndex, delay = pauseBetweenGuidanceMs) => {
+  if (phaseTimer) {
+    clearTimeout(phaseTimer);
+    phaseTimer = null;
+  }
+
+  phaseTimer = setTimeout(() => {
+    showGuidanceAtIndex(nextIndex);
+  }, delay);
+};
+
+const playAudioForStep = async (audioElement, index) => {
+  if (!audioElement) {
+    scheduleNextGuidance(index + 1, fallbackGuidanceDelayMs);
+    return;
+  }
+
+  stopCurrentAudio();
+
+  const fallbackDelay = Number.isFinite(audioElement.duration) && audioElement.duration > 0
+    ? Math.ceil(audioElement.duration * 1000) + pauseBetweenGuidanceMs + 1500
+    : fallbackGuidanceDelayMs + 3000;
+
+  if (phaseTimer) {
+    clearTimeout(phaseTimer);
+    phaseTimer = null;
+  }
+
+  phaseTimer = setTimeout(() => {
+    console.warn('Audio playback fallback triggered, advancing to next guidance step.');
+    if (currentlyPlayingAudio.value === audioElement) {
+      stopCurrentAudio();
+      showGuidanceAtIndex(index + 1, { immediate: true });
+    }
+  }, fallbackDelay);
+
+  const handleEnded = () => {
+    if (phaseTimer) {
+      clearTimeout(phaseTimer);
+      phaseTimer = null;
+    }
+    currentAudioEndHandler = null;
+    currentAudioErrorHandler = null;
+    currentlyPlayingAudio.value = null;
+    scheduleNextGuidance(index + 1, pauseBetweenGuidanceMs);
+  };
+
+  const handleError = (event) => {
+    console.warn('Audio playback error encountered:', event);
+    if (phaseTimer) {
+      clearTimeout(phaseTimer);
+      phaseTimer = null;
+    }
+    currentAudioEndHandler = null;
+    currentAudioErrorHandler = null;
+    currentlyPlayingAudio.value = null;
+    scheduleNextGuidance(index + 1, fallbackGuidanceDelayMs);
+  };
+
+  currentAudioEndHandler = handleEnded;
+  currentAudioErrorHandler = handleError;
+
+  audioElement.addEventListener('ended', handleEnded, { once: true });
+  audioElement.addEventListener('error', handleError, { once: true });
+
+  currentlyPlayingAudio.value = audioElement;
+
+  try {
+    audioElement.currentTime = 0;
+    await audioElement.play();
+  } catch (error) {
+    console.warn('Failed to play peaceful visualization audio:', error);
+    audioElement.removeEventListener('ended', handleEnded);
+    audioElement.removeEventListener('error', handleError);
+    currentAudioEndHandler = null;
+    currentAudioErrorHandler = null;
+    currentlyPlayingAudio.value = null;
+    scheduleNextGuidance(index + 1, fallbackGuidanceDelayMs);
+  }
+};
+
+const showGuidanceAtIndex = async (index, { immediate = false } = {}) => {
+  const guidance = currentScene.value.guidance || [];
+
+  if (!guidance.length) {
+    completeExercise();
+    return;
+  }
+
+  if (index >= guidance.length) {
+    completeExercise();
+    return;
+  }
+
+  if (phaseTimer) {
+    clearTimeout(phaseTimer);
+    phaseTimer = null;
+  }
+
+  stopCurrentAudio();
+  currentGuidanceIndex.value = index;
+
+  if (immediate) {
+    isTransitioning.value = false;
+    currentGuidanceText.value = guidance[index];
+  } else {
+    isTransitioning.value = true;
+    await new Promise((resolve) => {
+      setTimeout(() => {
+        currentGuidanceText.value = guidance[index];
+        isTransitioning.value = false;
+        resolve();
+      }, 500);
+    });
+  }
+
+  if (!import.meta.client) {
+    scheduleNextGuidance(index + 1, fallbackGuidanceDelayMs);
+    return;
+  }
+
+  const sceneKey = currentScene.value.key;
+  if (!sceneKey) {
+    scheduleNextGuidance(index + 1, fallbackGuidanceDelayMs);
+    return;
+  }
+
+  const audioForStep = await getAudioForStep(sceneKey, index, guidance.length);
+
+  if (!audioForStep) {
+    scheduleNextGuidance(index + 1, fallbackGuidanceDelayMs);
+    return;
+  }
+
+  await playAudioForStep(audioForStep, index);
+  preloadNextAudio(sceneKey, index, guidance.length);
+};
 
 // Seeded random number generator for consistent visuals
 let seed = 12345; // Fixed seed for consistent results
@@ -528,22 +836,31 @@ const animate3D = () => {
   renderer.render(scene, camera);
 };
 
-const exerciseSection = ref(null);
+const startGuidanceSequence = async ({ immediate = true } = {}) => {
+  const guidance = currentScene.value.guidance || [];
+
+  if (!guidance.length) {
+    completeExercise();
+    return;
+  }
+
+  await showGuidanceAtIndex(0, { immediate });
+};
 
 const startExercise = () => {
   exerciseStarted.value = true;
   exerciseCompleted.value = false;
   currentGuidanceText.value = "";
+  currentGuidanceIndex.value = -1;
+  audioError.value = null;
 
-  // Scroll to exercise header
-  nextTick(() => {
+  nextTick(async () => {
     exerciseSection.value?.scrollIntoView({
       behavior: 'smooth',
-      block: 'start'
+      block: 'start',
     });
-    
+
     if (visualizationCanvas.value) {
-      // Always reinitialize the scene to ensure proper canvas binding
       if (renderer) {
         renderer.dispose();
       }
@@ -553,114 +870,48 @@ const startExercise = () => {
       if (environmentMesh?.material) {
         environmentMesh.material.dispose();
       }
-
-      // Clear any existing animation
       if (animationId) {
         cancelAnimationFrame(animationId);
         animationId = null;
       }
 
-      // Reinitialize everything
       init3DScene();
     }
-    startVisualization();
+
+    await startGuidanceSequence({ immediate: true });
   });
 };
 
-const startVisualization = () => {
-  exerciseStarted.value = true;
-  startGuidanceSequence();
-};
+const skipToNext = async () => {
+  if (!exerciseStarted.value) return;
 
-const startGuidanceSequence = () => {
-  const guidance = currentScene.value.guidance;
-  let currentIndex = 0;
-
-  const showNextGuidance = () => {
-    if (currentIndex >= guidance.length) {
-      completeExercise();
-      return;
-    }
-
-    isTransitioning.value = true;
-
-    setTimeout(() => {
-      currentGuidanceText.value = guidance[currentIndex];
-      isTransitioning.value = false;
-    }, 500);
-
-    // Each guidance text shows for 8 seconds
-    const duration = 8000;
-
-    phaseTimer = setTimeout(() => {
-      currentIndex++;
-      showNextGuidance();
-    }, duration);
-  };
-
-  showNextGuidance();
-};
-
-const skipToNext = () => {
-  if (phaseTimer) {
-    clearTimeout(phaseTimer);
-    phaseTimer = null;
-  }
-
-  // Find current guidance index and advance to next
-  const guidance = currentScene.value.guidance;
-  const currentIndex = guidance.findIndex((text) => text === currentGuidanceText.value);
-  const nextIndex = currentIndex + 1;
-
-  if (nextIndex < guidance.length) {
-    // Show next guidance immediately
-    isTransitioning.value = true;
-    setTimeout(() => {
-      currentGuidanceText.value = guidance[nextIndex];
-      isTransitioning.value = false;
-    }, 500);
-
-    // Continue sequence from next index
-    const showFollowingGuidance = () => {
-      const followingIndex = nextIndex + 1;
-      if (followingIndex >= guidance.length) {
-        completeExercise();
-        return;
-      }
-
-      isTransitioning.value = true;
-      setTimeout(() => {
-        currentGuidanceText.value = guidance[followingIndex];
-        isTransitioning.value = false;
-      }, 500);
-
-      phaseTimer = setTimeout(() => {
-        const newCurrentIndex = guidance.findIndex((text) => text === currentGuidanceText.value);
-        if (newCurrentIndex < guidance.length - 1) {
-          showFollowingGuidance();
-        } else {
-          completeExercise();
-        }
-      }, 8000);
-    };
-
-    // Start the continuing sequence after showing next guidance
-    setTimeout(() => {
-      showFollowingGuidance();
-    }, 8000);
-  } else {
+  const guidance = currentScene.value.guidance || [];
+  if (!guidance.length) {
     completeExercise();
+    return;
   }
+
+  const nextIndex = Math.max(0, currentGuidanceIndex.value + 1);
+  if (nextIndex >= guidance.length) {
+    completeExercise();
+    return;
+  }
+
+  await showGuidanceAtIndex(nextIndex, { immediate: true });
 };
 
+const changeScene = async () => {
+  if (!visualizationScenes.value.length) return;
 
-const changeScene = () => {
   currentSceneIndex.value = (currentSceneIndex.value + 1) % visualizationScenes.value.length;
   createEnvironment();
 
   if (exerciseStarted.value && !exerciseCompleted.value) {
-    if (phaseTimer) clearTimeout(phaseTimer);
-    startGuidanceSequence();
+    if (phaseTimer) {
+      clearTimeout(phaseTimer);
+      phaseTimer = null;
+    }
+    await startGuidanceSequence({ immediate: true });
   }
 };
 
@@ -668,13 +919,16 @@ const stopExercise = () => {
   exerciseStarted.value = false;
   exerciseCompleted.value = false;
   currentGuidanceText.value = "";
+  currentGuidanceIndex.value = -1;
+  audioError.value = null;
 
   if (phaseTimer) {
     clearTimeout(phaseTimer);
     phaseTimer = null;
   }
 
-  // Stop the animation loop when stopping exercise
+  stopCurrentAudio();
+
   if (animationId) {
     cancelAnimationFrame(animationId);
     animationId = null;
@@ -685,11 +939,14 @@ const completeExercise = () => {
   exerciseStarted.value = false;
   exerciseCompleted.value = true;
   currentGuidanceText.value = "";
+  currentGuidanceIndex.value = -1;
 
   if (phaseTimer) {
     clearTimeout(phaseTimer);
     phaseTimer = null;
   }
+
+  stopCurrentAudio();
 };
 
 // Handle window resize for 3D canvas
@@ -703,6 +960,25 @@ const handleResize = () => {
   camera.updateProjectionMatrix();
   renderer.setSize(width, height);
 };
+
+watch(locale, async () => {
+  if (!import.meta.client) return;
+
+  sceneAudioCache.clear();
+  stopCurrentAudio();
+
+  if (phaseTimer) {
+    clearTimeout(phaseTimer);
+    phaseTimer = null;
+  }
+
+  currentGuidanceText.value = "";
+  currentGuidanceIndex.value = -1;
+
+  if (exerciseStarted.value && !exerciseCompleted.value) {
+    await startGuidanceSequence({ immediate: true });
+  }
+});
 
 onMounted(() => {
   window.addEventListener("resize", handleResize);
@@ -718,6 +994,7 @@ onUnmounted(() => {
 
   if (phaseTimer) clearTimeout(phaseTimer);
   if (animationId) cancelAnimationFrame(animationId);
+  stopCurrentAudio();
 
   if (renderer) {
     renderer.dispose();

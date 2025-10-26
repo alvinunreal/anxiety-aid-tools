@@ -153,6 +153,9 @@ pnpm build
 
 # Check translations are in sync
 pnpm sync-locales
+
+# Generate scene narration (see "Peaceful Visualization Audio" below)
+pnpm generate:peaceful-visualization --lang en
 ```
 
 ### **Code Structure**
@@ -170,6 +173,26 @@ anxiety-aid-tools/
 └── public/            # Static assets
     └── aat.svg        # App logo
 ```
+
+### **Peaceful Visualization Audio**
+
+We generate the narration tracks with the ElevenLabs Text-to-Speech API.
+
+1. Create an API key at [ElevenLabs](https://elevenlabs.io/app/settings/api-keys) and expose it before running the generator:
+   ```bash
+   export ELEVENLABS_API_KEY=sk-your-key-here
+   ```
+   You can also place it in a `.env` file that your shell loads.
+2. Run the helper script from the project root:
+   ```bash
+   pnpm generate:peaceful-visualization --lang en
+   ```
+   - Choose a single scene when prompted, or pass `--scene all` to batch the whole exercise.
+   - Use `--overwrite` to re-generate clips that already exist, or `--dry-run` to preview without hitting the API.
+3. Generated audio files are written to `public/audios/peaceful-visualization/<locale>/<scene>/<step>.mp3`.  
+   The Vue exercise automatically picks them up based on the current locale and scene.
+
+Repeat step 2 for each supported locale once you have suitable voices configured in ElevenLabs.
 
 ---
 
