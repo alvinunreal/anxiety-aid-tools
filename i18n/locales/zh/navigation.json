@@ -18,7 +18,8 @@
     "description": "免费的身心舒缓工具，助您在焦虑时刻重获平静。这些练习简单易学，无需任何特殊设备——随时随地都能使用，当思绪纷乱或需要片刻宁静时。"
   },
   "breadcrumb": {
-    "backToHome": "返回主页"
+    "backToHome": "返回主页",
+    "back": "返回"
   },
   "relatedTechniques": {
     "title": "推荐练习",

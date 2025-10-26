@@ -3,13 +3,24 @@
     <nav class="flex" aria-label="Breadcrumb">
       <ol class="flex items-center space-x-2">
         <li>
-          <NuxtLink
-            :to="localePath('/')"
-            class="group flex items-center text-gray-700 dark:text-slate-300 hover:text-gray-900 dark:hover:text-slate-100 transition-colors duration-200"
-            aria-label="Go back to home"
+          <button
+            v-if="backAction"
+            type="button"
+            @click="backAction"
+            class="group flex items-center text-gray-700 dark:text-slate-300 hover:text-gray-900 dark:hover:text-slate-100 transition-colors duration-200 cursor-pointer"
+            :aria-label="backLabel || $t('breadcrumb.backToHome')"
           >
             <Icon name="ph:arrow-left" class="mr-2 text-lg group-hover:transform group-hover:-translate-x-0.5 transition-transform duration-200" />
-            <span class="font-medium">{{ $t('breadcrumb.backToHome') }}</span>
+            <span class="font-medium">{{ backLabel || $t('breadcrumb.backToHome') }}</span>
+          </button>
+          <NuxtLink
+            v-else
+            :to="backTo || localePath('/')"
+            class="group flex items-center text-gray-700 dark:text-slate-300 hover:text-gray-900 dark:hover:text-slate-100 transition-colors duration-200"
+            :aria-label="backLabel || $t('breadcrumb.backToHome')"
+          >
+            <Icon name="ph:arrow-left" class="mr-2 text-lg group-hover:transform group-hover:-translate-x-0.5 transition-transform duration-200" />
+            <span class="font-medium">{{ backLabel || $t('breadcrumb.backToHome') }}</span>
           </NuxtLink>
         </li>
       </ol>
@@ -28,6 +39,18 @@ defineProps({
   duration: {
     type: String,
     default: '5-10 min'
+  },
+  backLabel: {
+    type: String,
+    default: ''
+  },
+  backTo: {
+    type: String,
+    default: ''
+  },
+  backAction: {
+    type: Function,
+    default: null
   }
 })
 </script>

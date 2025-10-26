@@ -18,7 +18,8 @@
     "description": "Gratis tools om te helpen wanneer u zich angstig voelt. Deze oefeningen zijn eenvoudig te volgen en vereisen geen speciale apparatuur - gebruik ze wanneer uw geest te druk aanvoelt of wanneer u een moment van rust nodig heeft."
   },
   "breadcrumb": {
-    "backToHome": "Terug naar Home"
+    "backToHome": "Terug naar Home",
+    "back": "Terug"
   },
   "relatedTechniques": {
     "title": "Probeer Deze Volgende",

@@ -18,7 +18,8 @@
     "description": "Free tools to help when you're feeling anxious. These exercises are simple to follow and don't require any special equipment - use them whenever your mind feels too busy or when you need a moment of calm."
   },
   "breadcrumb": {
-    "backToHome": "Back to Home"
+    "backToHome": "Back to Home",
+    "back": "Back"
   },
   "relatedTechniques": {
     "title": "Try These Next",

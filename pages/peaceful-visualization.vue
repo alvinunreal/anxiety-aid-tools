@@ -1,11 +1,15 @@
 <template>
   <div class="min-h-screen bg-gradient-to-br from-green-50 via-blue-50 to-purple-50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-700 py-8 transition-colors duration-300">
-    <Breadcrumb duration="10-12 min" />
+    <Breadcrumb
+      duration="10-12 min"
+      :back-label="isExerciseActive ? $t('breadcrumb.back') : undefined"
+      :back-action="isExerciseActive ? handleStopExercise : null"
+    />
 
     <main id="main-content" tabindex="-1">
 
     <!-- Exercise Component -->
-    <PeacefulVisualizationExercise />
+    <PeacefulVisualizationExercise ref="exerciseComponent" />
 
     <!-- Educational Content -->
     <section>
@@ -139,6 +143,18 @@
 
 <script setup>
 const { t } = useI18n();
+
+const exerciseComponent = ref(null);
+
+const isExerciseActive = computed(() => {
+  return exerciseComponent.value?.exerciseStarted || false;
+});
+
+const handleStopExercise = () => {
+  if (exerciseComponent.value?.stopExercise) {
+    exerciseComponent.value.stopExercise();
+  }
+};
 
 useSeoMeta({
   title: () => t("meta.peacefulVisualization.title"),

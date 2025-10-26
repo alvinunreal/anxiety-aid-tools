@@ -18,7 +18,8 @@
     "description": "Herramientas gratuitas para ayudarte cuando te sientes ansioso. Estos ejercicios son simples de seguir y no requieren ningún equipo especial - úsalos siempre que tu mente se sienta demasiado ocupada o cuando necesites un momento de calma."
   },
   "breadcrumb": {
-    "backToHome": "Volver al Inicio"
+    "backToHome": "Volver al Inicio",
+    "back": "Volver"
   },
   "relatedTechniques": {
     "title": "Prueba Estas Siguientes",

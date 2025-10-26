@@ -770,6 +770,12 @@ const stopExercise = () => {
   }
 };
 
+// Expose state and actions to parent
+defineExpose({
+  exerciseStarted,
+  stopExercise
+});
+
 const completeExercise = () => {
   exerciseStarted.value = false;
   exerciseCompleted.value = true;
