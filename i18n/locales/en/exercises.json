@@ -917,6 +917,66 @@
           "Each star seems to shine just for you, sending down light that fills you with wonder and peace.",
           "This meadow under the stars is your place of infinite calm - you can always look up and find peace in the vastness."
         ]
+      },
+      "cozyRainyCabin": {
+        "name": "Cozy Rainy Cabin",
+        "description": "Resting safely inside a warm cabin while gentle rain taps on the roof",
+        "soundscape": "Rain on roof",
+        "atmosphere": "Fireplace warmth",
+        "guidance": [
+          "You settle into a soft armchair beside the window of a snug wooden cabin as evening rain begins to fall.",
+          "Raindrops drum a gentle rhythm on the roof and trickle down the glass, creating the most soothing soundtrack.",
+          "A small fireplace glows nearby, filling the room with a golden light and the comforting crackle of burning logs.",
+          "The air smells faintly of pine and warm cedar, wrapping you in the clean fragrance of the surrounding forest.",
+          "A thick blanket rests across your legs, and you feel perfectly supported by the chair as your entire body unwinds.",
+          "You cradle a warm mug between your hands, letting the steam rise slowly toward your face as the rain continues to sing.",
+          "This cabin is your private refuge—whenever you need peace, you can return to this cozy, rain-kissed evening and rest here."
+        ]
+      },
+      "mistyLakesideDawn": {
+        "name": "Misty Lakeside Dawn",
+        "description": "Sitting by a quiet mountain lake as sunrise colors the foggy morning",
+        "soundscape": "Gentle water lapping",
+        "atmosphere": "Cool morning mist",
+        "guidance": [
+          "You sit on a smooth wooden dock beside a still mountain lake just before sunrise.",
+          "Thin mist floats above the water, drifting lazily as dawn begins to color the sky.",
+          "Each breath draws in crisp morning air scented with pine and cool stone.",
+          "Across the lake, mountains glow softly as the first pink light touches their peaks.",
+          "The lake surface mirrors the awakening sky, rippling gently with only the quietest waves.",
+          "A distant loon calls once and the sound echoes softly before fading back into silence.",
+          "This lakeside dawn belongs to you—return to it whenever you need calm, and the water will be waiting."
+        ]
+      },
+      "sunlitDesertOasis": {
+        "name": "Sunlit Desert Oasis",
+        "description": "Resting beside a palm-shaded oasis pool in the golden desert",
+        "soundscape": "Soft spring and breeze",
+        "atmosphere": "Warm sunset glow",
+        "guidance": [
+          "You rest on a smooth stone by a clear oasis pool tucked within golden desert dunes.",
+          "Palm fronds sway above you, scattering dappled shade while sunlight glows warm on your skin.",
+          "A gentle spring feeds the pool, its quiet trickle harmonizing with the soft desert breeze.",
+          "The air smells sweet with blooming date flowers, soothing and still.",
+          "Far-off dunes shimmer in the afternoon light, their curves guiding your eyes peacefully to the horizon.",
+          "You trail your fingers in the cool water, feeling tension melt with every circle you trace.",
+          "This oasis is your sanctuary—no matter how hot the world feels, you can always cool your spirit here."
+        ]
+      },
+      "floatingCloudSanctuary": {
+        "name": "Floating Cloud Sanctuary",
+        "description": "Gliding through soft, sunlit clouds high above the earth",
+        "soundscape": "Soft high-altitude breeze",
+        "atmosphere": "Weightless calm",
+        "guidance": [
+          "You drift weightlessly among vast, glowing clouds high above the world.",
+          "Sunbeams pour through the clouds around you, painting them with soft gold and silver light.",
+          "A gentle breeze wraps you in warmth, rocking you like a calm and endless lullaby.",
+          "Each cloud feels like velvet beneath your fingers, cool and soft as you glide through them.",
+          "Below you, the world looks peaceful and small, and every worry seems far away.",
+          "With each breath, the clouds part to reveal endless blue sky, reminding you of your own open space within.",
+          "This floating sanctuary always lifts you—return whenever you want to rise above everything and rest in the sky."
+        ]
       }
     },
     "howItWorks": {

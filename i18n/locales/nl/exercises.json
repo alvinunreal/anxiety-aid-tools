@@ -917,6 +917,66 @@
           "Elke ster lijkt alleen voor u te schijnen, zendend licht dat u vult met verwondering en vrede.",
           "Deze weide onder de sterren is uw plaats van oneindige kalmte - u kunt altijd opkijken en vrede vinden in de immensiteit."
         ]
+      },
+      "cozyRainyCabin": {
+        "name": "Gezellige Regenhut",
+        "description": "Veilig uitrusten in een warme hut terwijl zachte regen op het dak tikt",
+        "soundscape": "Regen op het dak",
+        "atmosphere": "Warmte van het haardvuur",
+        "guidance": [
+          "U zakt in een zachte leunstoel naast het raam van een knusse houten hut terwijl de avondregen begint te vallen.",
+          "Regendruppels roffelen in een zacht, gelijkmatig ritme op het dak en glijden langs het glas, waardoor de meest rustgevende soundtrack ontstaat.",
+          "Een kleine open haard brandt vlakbij, vult de kamer met goud licht en het troostende knisperen van brandende blokken.",
+          "De lucht ruikt licht naar dennen en warm hout en omhult u met de frisse geur van het bos rond de hut.",
+          "Een dikke deken ligt over uw benen en u voelt hoe de stoel uw lichaam volledig ondersteunt terwijl alle spanning verdwijnt.",
+          "U houdt een warme mok tussen uw handen en laat de stoom langzaam naar uw gezicht opstijgen terwijl de regen blijft zingen.",
+          "Deze hut is uw persoonlijke toevluchtsoord; wanneer u rust nodig heeft, kunt u terugkeren naar deze regenachtige avond en hier uitademen."
+        ]
+      },
+      "mistyLakesideDawn": {
+        "name": "Mistige Ochtend bij het Meer",
+        "description": "Zittend aan een stil bergmeer terwijl de dageraad de nevelige ochtend kleurt",
+        "soundscape": "Zacht klotsend water",
+        "atmosphere": "Koele ochtendmist",
+        "guidance": [
+          "U zit op een gladde houten steiger aan een stil bergmeer net voor zonsopgang.",
+          "Een dunne mist zweeft boven het water en drijft langzaam terwijl de dageraad de lucht begint te kleuren.",
+          "Elke ademteug vult uw longen met frisse ochtendlucht met een vleugje dennen en koele steen.",
+          "Aan de overkant lichten de bergen zacht op wanneer het eerste roze licht hun toppen raakt.",
+          "Het wateroppervlak spiegelt de ontwakende hemel en rimpelt slechts met de stilste golfjes.",
+          "In de verte roept een fuut één keer; het geluid echoot zacht voordat het opnieuw opgaat in de stilte.",
+          "Deze ochtend aan het meer is van u; keer terug wanneer u kalmte zoekt en het water zal op u wachten."
+        ]
+      },
+      "sunlitDesertOasis": {
+        "name": "Zonnige Woestijnoase",
+        "description": "Rustend naast een met palmen omzoomde oase in de gouden woestijn",
+        "soundscape": "Zachte bron en bries",
+        "atmosphere": "Warme gloed van de ondergaande zon",
+        "guidance": [
+          "U rust op een gladde steen naast een heldere oase die verscholen ligt tussen gouden duinen.",
+          "Palmen zwaaien boven u en werpen gevlekte schaduw terwijl het zonlicht uw huid zacht verwarmt.",
+          "Een rustige bron voedt de poel en het zachte kabbelen mengt zich met de milde woestijnbries.",
+          "De lucht ruikt zoet naar bloeiende dadelpalmen, kalmerend en stil.",
+          "Verre duinen fonkelen in het namiddaglicht en hun golvende lijnen leiden uw blik rustig naar de horizon.",
+          "U laat uw vingers door het koele water gaan en voelt hoe elke cirkel de spanning uit uw lichaam haalt.",
+          "Deze oase is uw heiligdom; hoe heet de wereld ook voelt, hier kunt u altijd uw geest verfrissen."
+        ]
+      },
+      "floatingCloudSanctuary": {
+        "name": "Zwevend Wolkenheiligdom",
+        "description": "Glijden door zachte, zonovergoten wolken hoog boven de aarde",
+        "soundscape": "Zachte hoogtevriend bries",
+        "atmosphere": "Gewichtsloze stilte",
+        "guidance": [
+          "U zweeft gewichtloos tussen uitgestrekte, lichtgevende wolken hoog boven de wereld.",
+          "Zonnebundels vallen door de wolken rondom u en kleuren ze met zachte gouden en zilveren tinten.",
+          "Een delicate bries omhult u met warmte en wiegt u als een kalm, eindeloos wiegelied.",
+          "Elke wolk voelt als fluweel onder uw vingers, koel en zacht terwijl u erdoorheen glijdt.",
+          "Onder u lijkt de wereld vredig en klein en elke zorg blijft ver onder u achter.",
+          "Bij elke ademhaling wijken de wolken uiteen om een eindeloze blauwe lucht te tonen die u herinnert aan de ruimte binnenin u.",
+          "Dit zwevende heiligdom tilt u altijd op; keer terug wanneer u boven alles wilt uitstijgen en in de lucht wilt rusten."
+        ]
       }
     },
     "howItWorks": {

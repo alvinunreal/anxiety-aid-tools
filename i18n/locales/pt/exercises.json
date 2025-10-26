@@ -917,6 +917,66 @@
           "Cada estrela parece brilhar só para você, enviando luz que o(a) enche de admiração e paz.",
           "Este prado sob as estrelas é seu lugar de calma infinita — você pode sempre olhar para cima e encontrar paz na imensidão."
         ]
+      },
+      "cozyRainyCabin": {
+        "name": "Cabana aconchegante na chuva",
+        "description": "Descansando em segurança dentro de uma cabana quente enquanto a chuva suave toca o telhado",
+        "soundscape": "Chuva no telhado",
+        "atmosphere": "Calor da lareira",
+        "guidance": [
+          "Você se acomoda em uma poltrona macia ao lado da janela de uma cabana de madeira acolhedora enquanto a chuva da tarde começa a cair.",
+          "As gotas de chuva batem no telhado em um ritmo suave e constante, escorrendo pelo vidro e criando a trilha sonora mais relaxante.",
+          "Uma pequena lareira crepita por perto, preenchendo o ambiente com luz dourada e o som reconfortante da lenha queimando.",
+          "O ar tem um leve cheiro de pinho e madeira aquecida, envolvendo você com o aroma puro da floresta ao redor.",
+          "Um cobertor grosso repousa sobre suas pernas, e você sente a poltrona sustentar todo o seu corpo enquanto qualquer tensão se dissolve.",
+          "Você segura uma caneca quente entre as mãos, deixando o vapor subir lentamente até o rosto enquanto a chuva continua a cantar.",
+          "Esta cabana é seu refúgio particular — sempre que precisar de paz, você pode voltar para esta tarde chuvosa e descansar aqui."
+        ]
+      },
+      "mistyLakesideDawn": {
+        "name": "Alvorada enevoada à beira do lago",
+        "description": "Sentado(a) à margem de um lago de montanha tranquilo enquanto o amanhecer colore a manhã envolta em névoa",
+        "soundscape": "Água suave na margem",
+        "atmosphere": "Névoa fresca da manhã",
+        "guidance": [
+          "Você se senta em um deque de madeira lisa ao lado de um lago de montanha silencioso pouco antes do nascer do sol.",
+          "Uma névoa fina flutua sobre a água, deslizando lentamente enquanto o amanhecer começa a colorir o céu.",
+          "Cada respiração enche seus pulmões com o ar fresco da manhã, perfumado com pinho e pedra fria.",
+          "Do outro lado do lago, as montanhas brilham suavemente quando a primeira luz rosada toca seus picos.",
+          "A superfície do lago reflete o céu que desperta, ondulando com pequenas ondas silenciosas.",
+          "Um mergulhão distante solta um único chamado, e o som ecoa suavemente antes de desaparecer novamente no silêncio.",
+          "Esta alvorada à beira do lago pertence a você — volte sempre que precisar de calma, e a água estará esperando."
+        ]
+      },
+      "sunlitDesertOasis": {
+        "name": "Oásis ensolarado no deserto",
+        "description": "Descansando ao lado de um oásis sombreado por palmeiras no deserto dourado",
+        "soundscape": "Fonte suave e brisa",
+        "atmosphere": "Brilho quente do entardecer",
+        "guidance": [
+          "Você descansa sobre uma pedra lisa ao lado de um oásis de água cristalina escondido entre dunas douradas.",
+          "Palmeiras balançam acima de você, lançando sombras pontilhadas enquanto a luz do sol aquece suavemente sua pele.",
+          "Uma fonte tranquila alimenta a lagoa, e o suave murmúrio da água se mistura com a brisa leve do deserto.",
+          "O ar tem um perfume doce de flores de tamareira, relaxante e sereno.",
+          "As dunas distantes brilham na luz da tarde, e suas curvas conduzem seu olhar com calma até o horizonte.",
+          "Você desliza os dedos pela água fresca e sente a tensão se desfazer a cada círculo que desenha.",
+          "Este oásis é seu santuário — por mais quente que o mundo esteja, aqui você sempre pode refrescar o espírito."
+        ]
+      },
+      "floatingCloudSanctuary": {
+        "name": "Santuário flutuante nas nuvens",
+        "description": "Deslizando por nuvens macias banhadas pelo sol bem acima da terra",
+        "soundscape": "Brisa suave em grande altitude",
+        "atmosphere": "Calma sem peso",
+        "guidance": [
+          "Você flutua sem peso entre nuvens vastas e luminosas muito acima do mundo.",
+          "Feixes de sol atravessam as nuvens ao seu redor, pintando-as com tons suaves de ouro e prata.",
+          "Uma brisa delicada envolve seu corpo com calor, embalando-o(a) como uma canção de ninar tranquila e infinita.",
+          "Cada nuvem parece veludo sob seus dedos, fresca e macia enquanto você desliza por elas.",
+          "Abaixo de você, o mundo parece pacífico e pequeno, e toda preocupação fica para trás.",
+          "A cada respiração, as nuvens se abrem para revelar um céu azul sem fim, lembrando o espaço aberto dentro de você.",
+          "Este santuário flutuante sempre o(a) eleva — volte sempre que quiser se erguer acima de tudo e descansar no céu."
+        ]
       }
     },
     "howItWorks": {

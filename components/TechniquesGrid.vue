@@ -5,13 +5,19 @@
       :key="technique.id"
       :to="getLocalizedTechniqueRoute(technique)"
       :class="[
-        'bg-white dark:bg-slate-800 border-2 p-6 transition-all duration-200 hover:bg-gray-50 dark:hover:bg-slate-700 active:bg-gray-100 dark:active:bg-slate-600 cursor-pointer group block touch-manipulation hover:shadow-lg dark:hover:shadow-slate-900/30 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2',
-        isRecommended(technique) 
-          ? 'border-blue-300 dark:border-blue-500 bg-blue-50 dark:bg-blue-900/20' 
+        'bg-white dark:bg-slate-800 border-2 p-6 transition-all duration-200 hover:bg-gray-50 dark:hover:bg-slate-700 active:bg-gray-100 dark:active:bg-slate-600 cursor-pointer group block touch-manipulation hover:shadow-lg dark:hover:shadow-slate-900/30 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 relative',
+        isRecommended(technique)
+          ? 'border-blue-300 dark:border-blue-500 bg-blue-50 dark:bg-blue-900/20'
           : 'border-gray-200 dark:border-slate-600'
       ]"
       :aria-describedby="`technique-${technique.id}-description`"
     >
+      <span
+        v-if="technique.isNew"
+        class="absolute top-2 right-2 text-[10px] font-bold px-1.5 py-0.5 rounded bg-gradient-to-r from-green-500 to-emerald-500 text-white uppercase tracking-wide shadow-sm"
+      >
+        New
+      </span>
       <div class="flex flex-col items-center text-center">
         <div class="mb-4 transition-transform duration-200 group-hover:scale-110">
           <Icon :name="technique.icon" class="text-5xl" :class="technique.iconColor" />

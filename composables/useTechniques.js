@@ -28,7 +28,8 @@ export const useTechniques = () => {
       id: 'peacefulVisualization',
       icon: 'material-symbols:landscape',
       iconColor: 'text-green-600',
-      tags: ['moderate-anxiety', 'medium-time']
+      tags: ['moderate-anxiety', 'medium-time'],
+      isNew: true
     },
     'thought-labeling': {
       id: 'thoughtLabeling',

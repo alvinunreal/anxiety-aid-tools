@@ -15,7 +15,8 @@
     "lint": "eslint --ext .ts,.js,.vue .",
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --write . --fix",
-    "sync-locales": "node scripts/sync-locales.js"
+    "sync-locales": "node scripts/sync-locales.js",
+    "generate:peaceful-visualization": "node scripts/generate-peaceful-visualization-audio.mjs"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.27.1",
@@ -47,6 +48,7 @@
     "typescript": "5.8.3"
   },
   "dependencies": {
+    "@elevenlabs/elevenlabs-js": "^2.20.1",
     "@formkit/auto-animate": "^0.8.2",
     "@nuxtjs/color-mode": "^3.5.2",
     "@nuxtjs/i18n": "^10.0.4",
