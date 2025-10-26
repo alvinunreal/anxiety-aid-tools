@@ -90,23 +90,7 @@
       </div>
 
       <!-- Controls -->
-      <div class="mt-6 flex justify-center gap-3">
-        <button
-          @click="skipToNext"
-          class="flex items-center gap-2 bg-gray-600 px-4 py-2 text-white transition-colors duration-200 hover:bg-gray-700 dark:bg-slate-700 dark:hover:bg-slate-600"
-        >
-          <Icon name="ph:skip-forward-fill" class="text-lg" />
-          <span>{{ $t('peacefulVisualization.interface.skip') }}</span>
-        </button>
-
-        <button
-          @click="changeScene"
-          class="flex items-center gap-2 bg-blue-600 px-4 py-2 text-white transition-colors duration-200 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-600"
-        >
-          <Icon :name="currentScene.icon || 'ph:mountains-fill'" class="text-lg" />
-          <span>{{ $t('peacefulVisualization.interface.changeScene') }}</span>
-        </button>
-
+      <div class="mt-6 flex justify-center">
         <button
           @click="stopExercise"
           class="flex items-center gap-2 bg-red-600 px-4 py-2 text-white transition-colors duration-200 hover:bg-red-700 dark:bg-red-700 dark:hover:bg-red-600"
@@ -216,6 +200,34 @@ const sceneDefinitions = [
     color1: 0x191970,
     color2: 0xe6e6fa,
     geometryType: 'stars',
+  },
+  {
+    key: 'cozyRainyCabin',
+    icon: 'ph:house-line',
+    color1: 0x1f2937,
+    color2: 0xffa07a,
+    geometryType: 'rain',
+  },
+  {
+    key: 'mistyLakesideDawn',
+    icon: 'ph:sun-horizon-fill',
+    color1: 0x6baed6,
+    color2: 0xfef3c7,
+    geometryType: 'mist',
+  },
+  {
+    key: 'sunlitDesertOasis',
+    icon: 'ph:sun-fill',
+    color1: 0xf59e0b,
+    color2: 0xc08457,
+    geometryType: 'oasis',
+  },
+  {
+    key: 'floatingCloudSanctuary',
+    icon: 'ph:cloud-fill',
+    color1: 0xdbeafe,
+    color2: 0xf5f5f5,
+    geometryType: 'clouds',
   },
 ];
 
@@ -880,39 +892,6 @@ const startExercise = () => {
 
     await startGuidanceSequence({ immediate: true });
   });
-};
-
-const skipToNext = async () => {
-  if (!exerciseStarted.value) return;
-
-  const guidance = currentScene.value.guidance || [];
-  if (!guidance.length) {
-    completeExercise();
-    return;
-  }
-
-  const nextIndex = Math.max(0, currentGuidanceIndex.value + 1);
-  if (nextIndex >= guidance.length) {
-    completeExercise();
-    return;
-  }
-
-  await showGuidanceAtIndex(nextIndex, { immediate: true });
-};
-
-const changeScene = async () => {
-  if (!visualizationScenes.value.length) return;
-
-  currentSceneIndex.value = (currentSceneIndex.value + 1) % visualizationScenes.value.length;
-  createEnvironment();
-
-  if (exerciseStarted.value && !exerciseCompleted.value) {
-    if (phaseTimer) {
-      clearTimeout(phaseTimer);
-      phaseTimer = null;
-    }
-    await startGuidanceSequence({ immediate: true });
-  }
 };
 
 const stopExercise = () => {
