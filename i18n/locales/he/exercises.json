@@ -824,7 +824,7 @@
   },
   "peacefulVisualization": {
     "interface": {
-      "beginExercise": "התחל {sceneName}",
+      "play": "נגן",
       "skip": "דלג",
       "changeScene": "שנה סצנה",
       "stop": "עצור",

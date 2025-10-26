@@ -824,7 +824,7 @@
   },
   "peacefulVisualization": {
     "interface": {
-      "beginExercise": "Iniciar {sceneName}",
+      "play": "Reproduzir",
       "skip": "Pular",
       "changeScene": "Mudar cena",
       "stop": "Parar",

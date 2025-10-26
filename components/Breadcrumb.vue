@@ -3,8 +3,8 @@
     <nav class="flex" aria-label="Breadcrumb">
       <ol class="flex items-center space-x-2">
         <li>
-          <NuxtLink 
-            :to="localePath('/')" 
+          <NuxtLink
+            :to="localePath('/')"
             class="group flex items-center text-gray-700 dark:text-slate-300 hover:text-gray-900 dark:hover:text-slate-100 transition-colors duration-200"
             aria-label="Go back to home"
           >

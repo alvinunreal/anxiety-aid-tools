@@ -824,7 +824,7 @@
   },
   "peacefulVisualization": {
     "interface": {
-      "beginExercise": "开始 {sceneName}",
+      "play": "播放",
       "skip": "跳过",
       "changeScene": "改变场景",
       "stop": "停止",

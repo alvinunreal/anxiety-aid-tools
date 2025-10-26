@@ -12,23 +12,16 @@
         </p>
 
         <!-- Scene Selection Grid -->
-        <div class="mx-auto mb-8 grid max-w-4xl gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div class="mx-auto mb-8 grid max-w-6xl gap-4 md:grid-cols-2 lg:grid-cols-3">
           <div
             v-for="(scene, index) in visualizationScenes"
             :key="index"
-            @click="currentSceneIndex = index"
-            class="cursor-pointer border-2 p-6 transition-all duration-200 hover:border-blue-300 hover:bg-blue-50/50 dark:hover:border-blue-500 dark:hover:bg-blue-900/20"
-            :class="
-              currentSceneIndex === index
-                ? 'border-blue-500 bg-blue-50 dark:border-blue-400 dark:bg-blue-900/30'
-                : 'border-gray-200 bg-white dark:border-slate-600 dark:bg-slate-800'
-            "
+            class="relative border border-gray-200 dark:border-slate-600 bg-white dark:bg-slate-800 p-6 transition-colors duration-200"
           >
             <div class="mb-3">
               <Icon
                 :name="scene.icon || 'ph:mountains-fill'"
-                class="mx-auto text-3xl"
-                :class="currentSceneIndex === index ? 'text-blue-600 dark:text-blue-400' : 'text-gray-400 dark:text-slate-400'"
+                class="mx-auto text-3xl text-blue-600 dark:text-blue-400"
               />
             </div>
             <p class="mb-2 font-semibold text-gray-800 dark:text-slate-100 transition-colors duration-200">{{ scene.name }}</p>
@@ -39,16 +32,17 @@
             <div class="mt-2 text-xs text-gray-500 dark:text-slate-400 transition-colors duration-200">
               {{ scene.atmosphere }}
             </div>
+
+            <!-- Play Button -->
+            <button
+              @click.stop="startSceneExercise(index)"
+              class="mt-4 flex w-full items-center justify-center gap-2 border border-gray-300 dark:border-slate-600 bg-gray-50 dark:bg-slate-700/50 px-4 py-2 text-sm text-gray-700 dark:text-slate-300 transition-colors duration-200 hover:bg-gray-100 dark:hover:bg-slate-700"
+            >
+              <Icon name="ph:play-fill" class="text-base" />
+              <span>{{ $t('peacefulVisualization.interface.play') }}</span>
+            </button>
           </div>
         </div>
-
-        <button
-          @click="startExercise"
-          class="mx-auto flex items-center gap-2 bg-blue-600 px-8 py-4 text-lg font-medium text-white transition-colors duration-200 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-600"
-        >
-          <Icon name="ph:play-fill" class="text-xl" />
-          <span>{{ $t('peacefulVisualization.interface.beginExercise', { sceneName: currentScene.name }) }}</span>
-        </button>
       </div>
     </div>
 
@@ -433,6 +427,26 @@ const stopCurrentAudio = () => {
   currentlyPlayingAudio.value = null;
 };
 
+const cleanupAudioCache = () => {
+  // Dispose all cached audio elements to prevent memory leaks
+  for (const [key, audioArray] of sceneAudioCache.entries()) {
+    if (Array.isArray(audioArray)) {
+      audioArray.forEach((audio) => {
+        if (audio && audio instanceof Audio) {
+          try {
+            audio.pause();
+            audio.src = '';
+            audio.load();
+          } catch (error) {
+            // Ignore errors during cleanup
+          }
+        }
+      });
+    }
+  }
+  sceneAudioCache.clear();
+};
+
 const scheduleNextGuidance = (nextIndex, delay = pauseBetweenGuidanceMs) => {
   if (phaseTimer) {
     clearTimeout(phaseTimer);
@@ -572,18 +586,6 @@ const showGuidanceAtIndex = async (index, { immediate = false } = {}) => {
   preloadNextAudio(sceneKey, index, guidance.length, audioLocale);
 };
 
-// Seeded random number generator for consistent visuals
-let seed = 12345; // Fixed seed for consistent results
-const seededRandom = () => {
-  seed = (seed * 9301 + 49297) % 233280;
-  return seed / 233280;
-};
-
-// Reset seed for each scene to ensure consistency
-const resetSeed = (sceneIndex) => {
-  seed = 12345 + sceneIndex * 1000; // Different seed per scene but consistent
-};
-
 const init3DScene = () => {
   if (!visualizationCanvas.value) return;
 
@@ -611,9 +613,6 @@ const init3DScene = () => {
 };
 
 const createEnvironment = () => {
-  // Reset seed for consistent generation per scene
-  resetSeed(currentSceneIndex.value);
-
   // Clear existing environment
   if (environmentMesh) {
     scene.remove(environmentMesh);
@@ -621,180 +620,60 @@ const createEnvironment = () => {
     if (environmentMesh.material) environmentMesh.material.dispose();
   }
 
-  const sceneData = currentScene.value;
-  let geometry, material;
-
-  // Create beautiful starfield
-  switch (sceneData.geometryType) {
-    case "starfield":
-      // Create realistic starfield with different star sizes and brightness
-      geometry = new THREE.BufferGeometry();
-      const starCount = 3000;
-      const starPositions = new Float32Array(starCount * 3);
-      const starColors = new Float32Array(starCount * 3);
-      const starSizes = new Float32Array(starCount);
-
-      for (let i = 0; i < starCount; i++) {
-        const i3 = i * 3;
-
-        // Create a dome-like distribution for natural sky appearance
-        const phi = seededRandom() * Math.PI * 2; // Full rotation
-        const theta = Math.acos(1 - seededRandom()); // Weighted towards horizon
-        const radius = 100 + seededRandom() * 200; // Varying distances
-
-        starPositions[i3] = radius * Math.sin(theta) * Math.cos(phi);
-        starPositions[i3 + 1] = radius * Math.cos(theta);
-        starPositions[i3 + 2] = radius * Math.sin(theta) * Math.sin(phi);
-
-        // Different star types and colors
-        const starType = seededRandom();
-        let r, g, b, size;
-
-        if (starType < 0.7) {
-          // White/blue-white stars (most common bright stars)
-          r = 0.9 + seededRandom() * 0.1;
-          g = 0.9 + seededRandom() * 0.1;
-          b = 1;
-          size = 0.8 + seededRandom() * 1.5;
-        } else if (starType < 0.9) {
-          // Golden/yellow stars (like our sun)
-          r = 1;
-          g = 0.9 + seededRandom() * 0.1;
-          b = 0.7 + seededRandom() * 0.2;
-          size = 1 + seededRandom() * 2;
-        } else {
-          // Red giants (rare but prominent)
-          r = 1;
-          g = 0.3 + seededRandom() * 0.3;
-          b = 0.2 + seededRandom() * 0.3;
-          size = 1.5 + seededRandom() * 2.5;
-        }
-
-        starColors[i3] = r;
-        starColors[i3 + 1] = g;
-        starColors[i3 + 2] = b;
-        starSizes[i] = size;
-      }
-
-      // Add some extra bright stars for major constellations
-      const brightStars = [
-        // Polaris (North Star)
-        { x: 0, y: 180, z: -50, size: 3, color: [1, 1, 0.9] },
-        // Sirius (brightest star)
-        { x: -80, y: 20, z: -120, size: 4, color: [1, 1, 1] },
-        // Betelgeuse (red giant in Orion)
-        { x: 60, y: 40, z: -100, size: 3.5, color: [1, 0.4, 0.2] },
-        // Vega (bright blue star)
-        { x: 40, y: 120, z: -80, size: 3, color: [0.9, 0.9, 1] },
-      ];
-
-      brightStars.forEach((star, index) => {
-        const baseIndex = starCount - brightStars.length + index;
-        const i3 = baseIndex * 3;
-
-        starPositions[i3] = star.x;
-        starPositions[i3 + 1] = star.y;
-        starPositions[i3 + 2] = star.z;
-
-        starColors[i3] = star.color[0];
-        starColors[i3 + 1] = star.color[1];
-        starColors[i3 + 2] = star.color[2];
-        starSizes[baseIndex] = star.size;
-      });
-
-      geometry.setAttribute("position", new THREE.BufferAttribute(starPositions, 3));
-      geometry.setAttribute("color", new THREE.BufferAttribute(starColors, 3));
-      geometry.setAttribute("size", new THREE.BufferAttribute(starSizes, 1));
-
-      material = new THREE.PointsMaterial({
-        size: 2,
-        sizeAttenuation: false,
-        transparent: true,
-        opacity: 0.9,
-        vertexColors: true,
-        blending: THREE.AdditiveBlending,
-      });
-
-      environmentMesh = new THREE.Points(geometry, material);
-      break;
-
-    default:
-      // Default flowing abstract form
-      geometry = new THREE.SphereGeometry(12, 64, 32);
-      const defaultPositions = geometry.attributes.position.array;
-
-      for (let i = 0; i < defaultPositions.length; i += 3) {
-        const x = defaultPositions[i];
-        const y = defaultPositions[i + 1];
-        const z = defaultPositions[i + 2];
-
-        const flow = Math.sin(x * 0.1) * Math.cos(y * 0.1) * Math.sin(z * 0.1) * 2;
-        const length = Math.sqrt(x * x + y * y + z * z);
-        const factor = 1 + (flow * 0.3) / length;
-
-        defaultPositions[i] = x * factor;
-        defaultPositions[i + 1] = y * factor;
-        defaultPositions[i + 2] = z * factor;
-      }
-      geometry.attributes.position.needsUpdate = true;
-
-      material = new THREE.MeshBasicMaterial({
-        color: sceneData.color1,
-        transparent: true,
-        opacity: 0.5,
-        wireframe: true,
-      });
+  // Dispose old background texture to prevent memory leak
+  if (scene.background && scene.background.dispose) {
+    scene.background.dispose();
+    scene.background = null;
   }
 
-  if (!environmentMesh) {
-    environmentMesh = new THREE.Mesh(geometry, material);
-  }
+  // Always create the same calm sphere shape with consistent blue color
+  const geometry = new THREE.SphereGeometry(12, 64, 32);
+  const positions = geometry.attributes.position.array;
 
+  for (let i = 0; i < positions.length; i += 3) {
+    const x = positions[i];
+    const y = positions[i + 1];
+    const z = positions[i + 2];
+
+    const flow = Math.sin(x * 0.1) * Math.cos(y * 0.1) * Math.sin(z * 0.1) * 2;
+    const length = Math.sqrt(x * x + y * y + z * z);
+    const factor = 1 + (flow * 0.3) / length;
+
+    positions[i] = x * factor;
+    positions[i + 1] = y * factor;
+    positions[i + 2] = z * factor;
+  }
+  geometry.attributes.position.needsUpdate = true;
+
+  // Use bright blue color for wireframe lines
+  const material = new THREE.MeshBasicMaterial({
+    color: 0x3b82f6, // Vibrant blue
+    transparent: true,
+    opacity: 0.8, // Much higher opacity for visible blue
+    wireframe: true,
+  });
+
+  environmentMesh = new THREE.Mesh(geometry, material);
   scene.add(environmentMesh);
 
   // Set camera position for optimal viewing
   camera.position.set(0, 0, 5);
   camera.lookAt(0, 0, 0);
 
-  // Create beautiful night sky background
+  // Create simple dark background so blue lines pop
   const canvas = document.createElement("canvas");
-  canvas.width = 1024;
-  canvas.height = 1024;
+  canvas.width = 512;
+  canvas.height = 512;
   const context = canvas.getContext("2d");
 
-  // Create gradient from horizon to zenith like a real night sky
-  const gradient = context.createLinearGradient(0, 1024, 0, 0);
-  gradient.addColorStop(0, "#000022"); // Deep blue at horizon
-  gradient.addColorStop(0.3, "#000033"); // Darker blue
-  gradient.addColorStop(0.7, "#000011"); // Very dark blue
-  gradient.addColorStop(1, "#000000"); // Pure black at zenith
+  // Create dark gradient - nearly black so blue stands out
+  const gradient = context.createLinearGradient(0, 512, 0, 0);
+  gradient.addColorStop(0, "#0a0e1a"); // Very dark blue-black
+  gradient.addColorStop(0.5, "#050810"); // Nearly black
+  gradient.addColorStop(1, "#000000"); // Pure black
 
   context.fillStyle = gradient;
-  context.fillRect(0, 0, 1024, 1024);
-
-  // Add subtle Milky Way glow
-  const milkyWayGradient = context.createRadialGradient(700, 400, 0, 700, 400, 300);
-  milkyWayGradient.addColorStop(0, "rgba(100, 100, 150, 0.1)");
-  milkyWayGradient.addColorStop(0.5, "rgba(80, 80, 120, 0.05)");
-  milkyWayGradient.addColorStop(1, "rgba(60, 60, 100, 0)");
-
-  context.fillStyle = milkyWayGradient;
-  context.fillRect(0, 0, 1024, 1024);
-
-  // Add some subtle nebula clouds
-  for (let i = 0; i < 5; i++) {
-    const x = seededRandom() * 1024;
-    const y = seededRandom() * 512 + 256; // Keep in upper half
-    const size = 100 + seededRandom() * 200;
-
-    const nebulaGradient = context.createRadialGradient(x, y, 0, x, y, size);
-    nebulaGradient.addColorStop(0, "rgba(120, 100, 200, 0.03)");
-    nebulaGradient.addColorStop(0.5, "rgba(100, 80, 150, 0.02)");
-    nebulaGradient.addColorStop(1, "rgba(80, 60, 120, 0)");
-
-    context.fillStyle = nebulaGradient;
-    context.fillRect(0, 0, 1024, 1024);
-  }
+  context.fillRect(0, 0, 512, 512);
 
   const texture = new THREE.CanvasTexture(canvas);
   scene.background = texture;
@@ -807,63 +686,13 @@ const animate3D = () => {
 
   const time = Date.now() * 0.001;
 
-  // Beautiful star twinkling animation
+  // Gentle sphere animation
   if (environmentMesh) {
-    const sceneType = currentScene.value.geometryType;
+    // Very gentle rotation for light effect
+    environmentMesh.rotation.y += 0.0005;
 
-    switch (sceneType) {
-      case "starfield":
-        // Gentle star twinkling effect
-        if (environmentMesh.geometry.attributes.color) {
-          const colors = environmentMesh.geometry.attributes.color.array;
-          const sizes = environmentMesh.geometry.attributes.size.array;
-          const positions = environmentMesh.geometry.attributes.position.array;
-
-          for (let i = 0; i < colors.length; i += 3) {
-            const starIndex = i / 3;
-            const x = positions[i];
-            const y = positions[i + 1];
-            const z = positions[i + 2];
-
-            // Create unique twinkling pattern for each star
-            const twinkleSpeed = 2 + (starIndex % 5) * 0.5;
-            const twinkleOffset = (starIndex * 0.1) % (Math.PI * 2);
-            const twinkle = 0.7 + Math.sin(time * twinkleSpeed + twinkleOffset) * 0.3;
-
-            // Slightly vary the twinkling with position for more randomness
-            const positionNoise =
-              Math.sin(x * 0.001 + time * 0.5) * Math.cos(y * 0.001 + time * 0.3) * 0.1;
-            const finalTwinkle = Math.max(0.3, twinkle + positionNoise);
-
-            // Apply twinkling to brightness while preserving star color
-            const baseR = colors[i] / (colors[i] + colors[i + 1] + colors[i + 2]) || 0.33;
-            const baseG = colors[i + 1] / (colors[i] + colors[i + 1] + colors[i + 2]) || 0.33;
-            const baseB = colors[i + 2] / (colors[i] + colors[i + 1] + colors[i + 2]) || 0.33;
-
-            colors[i] = baseR * finalTwinkle;
-            colors[i + 1] = baseG * finalTwinkle;
-            colors[i + 2] = baseB * finalTwinkle;
-
-            // Slightly vary star sizes for more natural look
-            const sizeVariation = 1 + Math.sin(time * (twinkleSpeed * 0.5) + twinkleOffset) * 0.2;
-            sizes[starIndex] = sizes[starIndex] * sizeVariation;
-          }
-
-          environmentMesh.geometry.attributes.color.needsUpdate = true;
-          environmentMesh.geometry.attributes.size.needsUpdate = true;
-        }
-
-        // Very slow rotation to simulate earth's rotation
-        environmentMesh.rotation.y += 0.0001;
-        break;
-
-      default:
-        // Default gentle rotation
-        environmentMesh.rotation.y += 0.002;
-    }
-
-    // Minimal camera movement - just breathing effect
-    camera.position.y = Math.sin(time * 0.05) * 0.1;
+    // Extremely subtle camera movement
+    camera.position.y = Math.sin(time * 0.03) * 0.05;
     camera.lookAt(0, 0, 0);
   }
 
@@ -879,6 +708,11 @@ const startGuidanceSequence = async ({ immediate = true } = {}) => {
   }
 
   await showGuidanceAtIndex(0, { immediate });
+};
+
+const startSceneExercise = (sceneIndex) => {
+  currentSceneIndex.value = sceneIndex;
+  startExercise();
 };
 
 const startExercise = () => {
@@ -965,8 +799,9 @@ const handleResize = () => {
 watch(locale, async () => {
   if (!import.meta.client) return;
 
-  sceneAudioCache.clear();
+  // Properly cleanup audio before clearing cache
   stopCurrentAudio();
+  cleanupAudioCache();
 
   if (phaseTimer) {
     clearTimeout(phaseTimer);
@@ -981,22 +816,33 @@ watch(locale, async () => {
   }
 });
 
+const handlePageUnload = () => {
+  // Stop all audio immediately on page unload
+  stopCurrentAudio();
+  cleanupAudioCache();
+};
+
 onMounted(() => {
   window.addEventListener("resize", handleResize);
-  nextTick(() => {
-    if (visualizationCanvas.value) {
-      init3DScene();
-    }
-  });
+  window.addEventListener("beforeunload", handlePageUnload);
+  window.addEventListener("pagehide", handlePageUnload); // For iOS Safari
+  // Note: 3D scene is initialized in startExercise when canvas is actually visible
 });
 
 onUnmounted(() => {
   window.removeEventListener("resize", handleResize);
+  window.removeEventListener("beforeunload", handlePageUnload);
+  window.removeEventListener("pagehide", handlePageUnload);
 
   if (phaseTimer) clearTimeout(phaseTimer);
   if (animationId) cancelAnimationFrame(animationId);
   stopCurrentAudio();
+  cleanupAudioCache();
 
+  // Dispose 3D resources
+  if (scene?.background?.dispose) {
+    scene.background.dispose();
+  }
   if (renderer) {
     renderer.dispose();
   }

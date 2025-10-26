@@ -824,7 +824,7 @@
   },
   "peacefulVisualization": {
     "interface": {
-      "beginExercise": "Commencer {sceneName}",
+      "play": "Jouer",
       "skip": "Passer",
       "changeScene": "Changer de scène",
       "stop": "Arrêter",

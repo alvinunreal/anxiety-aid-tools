@@ -824,7 +824,7 @@
   },
   "peacefulVisualization": {
     "interface": {
-      "beginExercise": "Начать {sceneName}",
+      "play": "Воспроизвести",
       "skip": "Пропустить",
       "changeScene": "Сменить сцену",
       "stop": "Остановить",
