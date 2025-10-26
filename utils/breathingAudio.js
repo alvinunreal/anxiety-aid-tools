@@ -2,7 +2,7 @@
 class BreathingAudio {
   constructor() {
     this.enabled = false
-    this.audioCache = {} // Cache for different audio instances
+    this.singleAudioElement = null // Single audio element for all playback
     this.currentTechnique = 'simple' // Default technique
     this.loaded = false
 
@@ -30,7 +30,6 @@ class BreathingAudio {
       }
     }
     this.isPlaying = false
-    this.currentlyPlayingAudio = null
   }
 
   // Set the breathing technique to use
@@ -38,7 +37,7 @@ class BreathingAudio {
     this.currentTechnique = technique || 'simple'
   }
 
-  // Initialize and load audio on user interaction
+  // Initialize single audio element on user interaction (critical for iOS)
   async init(technique = null) {
     if (technique) {
       this.setTechnique(technique)
@@ -50,124 +49,45 @@ class BreathingAudio {
       return
     }
 
-    // Create cache key for this technique
-    const cacheKey = this.currentTechnique
+    // Create single audio element if it doesn't exist
+    if (!this.singleAudioElement) {
+      this.singleAudioElement = new Audio()
+      this.singleAudioElement.preload = 'auto'
+      this.singleAudioElement.autoplay = false
+      this.singleAudioElement.loop = false
 
-    if (!this.audioCache[cacheKey]) {
-      const inhaleAudio = new Audio(files.inhale)
-      inhaleAudio.preload = 'auto'
-      // iOS optimization: set explicit properties
-      inhaleAudio.autoplay = false
-      inhaleAudio.loop = false
-      inhaleAudio.load()
-
-      const exhaleAudio = new Audio(files.exhale)
-      exhaleAudio.preload = 'auto'
-      // iOS optimization: set explicit properties
-      exhaleAudio.autoplay = false
-      exhaleAudio.loop = false
-      exhaleAudio.load()
-
-      // Add event listeners to track when audio ends (helps with iOS)
-      inhaleAudio.addEventListener('ended', () => {
-        if (this.currentlyPlayingAudio === inhaleAudio) {
-          this.currentlyPlayingAudio = null
-          this.isPlaying = false
-        }
+      // Add event listener to track when audio ends
+      this.singleAudioElement.addEventListener('ended', () => {
+        this.isPlaying = false
       })
-
-      exhaleAudio.addEventListener('ended', () => {
-        if (this.currentlyPlayingAudio === exhaleAudio) {
-          this.currentlyPlayingAudio = null
-          this.isPlaying = false
-        }
-      })
-
-      this.audioCache[cacheKey] = {
-        inhale: inhaleAudio,
-        exhale: exhaleAudio
-      }
-
-      // Wait for both audio files to be loaded
-      try {
-        await Promise.all([
-          new Promise((resolve, reject) => {
-            if (inhaleAudio.readyState >= 3) {
-              resolve()
-            } else {
-              const timeoutId = setTimeout(() => {
-                reject(new Error('Audio loading timeout'))
-              }, 10000) // 10 second timeout
-
-              inhaleAudio.addEventListener('canplaythrough', () => {
-                clearTimeout(timeoutId)
-                resolve()
-              }, { once: true })
-
-              inhaleAudio.addEventListener('error', (e) => {
-                clearTimeout(timeoutId)
-                reject(e)
-              }, { once: true })
-            }
-          }),
-          new Promise((resolve, reject) => {
-            if (exhaleAudio.readyState >= 3) {
-              resolve()
-            } else {
-              const timeoutId = setTimeout(() => {
-                reject(new Error('Audio loading timeout'))
-              }, 10000) // 10 second timeout
-
-              exhaleAudio.addEventListener('canplaythrough', () => {
-                clearTimeout(timeoutId)
-                resolve()
-              }, { once: true })
-
-              exhaleAudio.addEventListener('error', (e) => {
-                clearTimeout(timeoutId)
-                reject(e)
-              }, { once: true })
-            }
-          })
-        ])
-        this.loaded = true
-      } catch (err) {
-        console.warn('Audio loading failed:', err)
-      }
     }
+
+    this.loaded = true
   }
 
   // Prime audio for mobile - play silently at volume 0 to unlock audio
   async prime() {
-    const audio = this.audioCache[this.currentTechnique]
-    if (!audio) {
+    if (!this.singleAudioElement) {
       await this.init()
     }
 
-    const currentAudio = this.audioCache[this.currentTechnique]
-    if (!currentAudio) return
+    if (!this.singleAudioElement) return
 
-    // Play both audio files at volume 0 to unlock audio playback on mobile
-    const originalInhaleVolume = currentAudio.inhale.volume
-    const originalExhaleVolume = currentAudio.exhale.volume
+    const files = this.audioFiles[this.currentTechnique]
+    if (!files) return
+
+    const originalVolume = this.singleAudioElement.volume
 
     try {
-      currentAudio.inhale.volume = 0
-      currentAudio.exhale.volume = 0
+      // Play a short silent sound to unlock audio on iOS
+      this.singleAudioElement.volume = 0
+      this.singleAudioElement.src = files.inhale
 
-      await Promise.all([
-        currentAudio.inhale.play().then(() => {
-          currentAudio.inhale.pause()
-          currentAudio.inhale.currentTime = 0
-        }),
-        currentAudio.exhale.play().then(() => {
-          currentAudio.exhale.pause()
-          currentAudio.exhale.currentTime = 0
-        })
-      ])
+      await this.singleAudioElement.play()
+      this.singleAudioElement.pause()
+      this.singleAudioElement.currentTime = 0
 
-      currentAudio.inhale.volume = originalInhaleVolume
-      currentAudio.exhale.volume = originalExhaleVolume
+      this.singleAudioElement.volume = originalVolume
     } catch (err) {
       console.warn('Audio priming failed:', err)
     }
@@ -177,28 +97,29 @@ class BreathingAudio {
   playInhaleCue() {
     if (!this.enabled) return
 
-    const audio = this.audioCache[this.currentTechnique]
-    if (!audio || !audio.inhale) return
+    if (!this.singleAudioElement) return
+
+    const files = this.audioFiles[this.currentTechnique]
+    if (!files || !files.inhale) return
 
     // Stop any currently playing audio first (important for iOS)
     this.stopCurrentlyPlaying()
 
-    // Reset and play
+    // Change source and play
     try {
-      audio.inhale.currentTime = 0
-      audio.inhale.volume = 1.0
+      this.singleAudioElement.src = files.inhale
+      this.singleAudioElement.currentTime = 0
+      this.singleAudioElement.volume = 1.0
 
-      const playPromise = audio.inhale.play()
+      const playPromise = this.singleAudioElement.play()
       if (playPromise !== undefined) {
         playPromise
           .then(() => {
             this.isPlaying = true
-            this.currentlyPlayingAudio = audio.inhale
           })
           .catch(err => {
             console.warn('Inhale audio play failed:', err)
             this.isPlaying = false
-            this.currentlyPlayingAudio = null
           })
       }
     } catch (err) {
@@ -210,28 +131,29 @@ class BreathingAudio {
   playExhaleCue() {
     if (!this.enabled) return
 
-    const audio = this.audioCache[this.currentTechnique]
-    if (!audio || !audio.exhale) return
+    if (!this.singleAudioElement) return
+
+    const files = this.audioFiles[this.currentTechnique]
+    if (!files || !files.exhale) return
 
     // Stop any currently playing audio first (important for iOS)
     this.stopCurrentlyPlaying()
 
-    // Reset and play
+    // Change source and play
     try {
-      audio.exhale.currentTime = 0
-      audio.exhale.volume = 1.0
+      this.singleAudioElement.src = files.exhale
+      this.singleAudioElement.currentTime = 0
+      this.singleAudioElement.volume = 1.0
 
-      const playPromise = audio.exhale.play()
+      const playPromise = this.singleAudioElement.play()
       if (playPromise !== undefined) {
         playPromise
           .then(() => {
             this.isPlaying = true
-            this.currentlyPlayingAudio = audio.exhale
           })
           .catch(err => {
             console.warn('Exhale audio play failed:', err)
             this.isPlaying = false
-            this.currentlyPlayingAudio = null
           })
       }
     } catch (err) {
@@ -243,7 +165,7 @@ class BreathingAudio {
   async setEnabled(enabled, technique = null) {
     // Stop all audio when disabling
     if (!enabled) {
-      this.stopAll()
+      this.stopCurrentlyPlaying()
     }
 
     this.enabled = enabled
@@ -254,95 +176,50 @@ class BreathingAudio {
       this.setTechnique(technique)
     }
 
-    if (enabled && !this.audioCache[this.currentTechnique]) {
+    if (enabled && !this.singleAudioElement) {
       await this.init()
       await this.prime()
     }
   }
 
-  // Stop currently playing audio (single instance)
+  // Stop currently playing audio
   stopCurrentlyPlaying() {
-    if (this.currentlyPlayingAudio) {
+    if (this.singleAudioElement) {
       try {
-        this.currentlyPlayingAudio.pause()
-        this.currentlyPlayingAudio.currentTime = 0
+        this.singleAudioElement.pause()
+        this.singleAudioElement.currentTime = 0
       } catch (err) {
         console.warn('Error stopping audio:', err)
       }
-      this.currentlyPlayingAudio = null
       this.isPlaying = false
     }
   }
 
-  // Stop currently playing audio for current technique
+  // Stop currently playing audio (alias for consistency)
   stop() {
     this.stopCurrentlyPlaying()
-
-    const audio = this.audioCache[this.currentTechnique]
-    if (audio) {
-      try {
-        if (audio.inhale) {
-          audio.inhale.pause()
-          audio.inhale.currentTime = 0
-        }
-        if (audio.exhale) {
-          audio.exhale.pause()
-          audio.exhale.currentTime = 0
-        }
-      } catch (err) {
-        console.warn('Error stopping technique audio:', err)
-      }
-    }
   }
 
-  // Stop all audio across all techniques (comprehensive cleanup)
+  // Stop all audio (alias for consistency)
   stopAll() {
     this.stopCurrentlyPlaying()
-
-    Object.values(this.audioCache).forEach(audio => {
-      try {
-        if (audio.inhale) {
-          audio.inhale.pause()
-          audio.inhale.currentTime = 0
-        }
-        if (audio.exhale) {
-          audio.exhale.pause()
-          audio.exhale.currentTime = 0
-        }
-      } catch (err) {
-        console.warn('Error in stopAll:', err)
-      }
-    })
   }
 
   // Cleanup
   cleanup() {
-    this.stopAll()
-
-    // Remove event listeners and nullify audio objects
-    Object.values(this.audioCache).forEach(audio => {
+    if (this.singleAudioElement) {
       try {
-        if (audio.inhale) {
-          audio.inhale.pause()
-          audio.inhale.src = ''
-          audio.inhale.load()
-          audio.inhale = null
-        }
-        if (audio.exhale) {
-          audio.exhale.pause()
-          audio.exhale.src = ''
-          audio.exhale.load()
-          audio.exhale = null
-        }
+        this.singleAudioElement.pause()
+        this.singleAudioElement.src = ''
+        this.singleAudioElement.load()
       } catch (err) {
         console.warn('Error during cleanup:', err)
       }
-    })
+      this.singleAudioElement = null
+    }
 
-    this.audioCache = {}
     this.loaded = false
     this.isPlaying = false
-    this.currentlyPlayingAudio = null
   }
 }
 

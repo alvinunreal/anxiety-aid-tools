@@ -148,7 +148,8 @@ const currentlyPlayingAudio = ref(null);
 const pauseBetweenGuidanceMs = 1500;
 const fallbackGuidanceDelayMs = 8000;
 
-const sceneAudioCache = new Map();
+// Single audio element for the entire exercise session
+let singleAudioElement = null;
 let currentAudioEndHandler = null;
 let currentAudioErrorHandler = null;
 
@@ -273,153 +274,121 @@ const buildSceneAudioPath = (sceneKey, index, targetLocale = locale.value) => {
   return `${sceneAudioBasePath(targetLocale)}/${sceneKey}/${String(index + 1).padStart(2, '0')}.mp3`;
 };
 
-const getAudioCacheKey = (sceneKey, targetLocale = locale.value) => `${targetLocale}::${sceneKey}`;
+// Initialize the single audio element (called during user gesture)
+const initAudioElement = () => {
+  if (!import.meta.client) return null;
 
-const loadAudioElement = (sceneKey, index, targetLocale = locale.value) => {
-  if (!import.meta.client) {
-    return Promise.resolve(null);
+  if (!singleAudioElement) {
+    singleAudioElement = new Audio();
+    singleAudioElement.preload = 'auto';
+    singleAudioElement.crossOrigin = 'anonymous';
   }
 
-  return new Promise((resolve, reject) => {
-    const src = buildSceneAudioPath(sceneKey, index, targetLocale);
-    const audio = new Audio();
-    audio.preload = 'auto';
-    audio.src = src;
-    audio.crossOrigin = 'anonymous';
-    audio.dataset.sceneKey = sceneKey;
-    audio.dataset.guidanceIndex = String(index);
-    audio.dataset.locale = targetLocale;
+  return singleAudioElement;
+};
+
+// Check if audio file exists by attempting to load it
+const checkAudioExists = (audioPath) => {
+  if (!import.meta.client) {
+    return Promise.resolve(false);
+  }
+
+  return new Promise((resolve) => {
+    const testAudio = new Audio();
+    const timeout = setTimeout(() => {
+      cleanup();
+      resolve(false);
+    }, 5000);
 
     const cleanup = () => {
-      audio.removeEventListener('canplaythrough', handleSuccess);
-      audio.removeEventListener('loadeddata', handleSuccess);
-      audio.removeEventListener('error', handleError);
+      clearTimeout(timeout);
+      testAudio.removeEventListener('canplaythrough', handleSuccess);
+      testAudio.removeEventListener('loadeddata', handleSuccess);
+      testAudio.removeEventListener('error', handleError);
+      testAudio.src = '';
     };
 
     const handleSuccess = () => {
       cleanup();
-      resolve(audio);
+      resolve(true);
     };
 
-    const handleError = (event) => {
+    const handleError = () => {
       cleanup();
-      reject(new Error(`Unable to load audio at ${src}`));
+      resolve(false);
     };
 
-    audio.addEventListener('canplaythrough', handleSuccess, { once: true });
-    audio.addEventListener('loadeddata', handleSuccess, { once: true });
-    audio.addEventListener('error', handleError, { once: true });
-
-    // Trigger loading explicitly
-    audio.load();
+    testAudio.addEventListener('canplaythrough', handleSuccess, { once: true });
+    testAudio.addEventListener('loadeddata', handleSuccess, { once: true });
+    testAudio.addEventListener('error', handleError, { once: true });
+    testAudio.src = audioPath;
+    testAudio.load();
   });
 };
 
-const ensureAudioArray = (sceneKey, guidanceLength, targetLocale = locale.value) => {
-  const cacheKey = getAudioCacheKey(sceneKey, targetLocale);
-
-  if (!sceneAudioCache.has(cacheKey)) {
-    sceneAudioCache.set(cacheKey, Array.from({ length: guidanceLength }, () => null));
-  }
-
-  const audioArray = sceneAudioCache.get(cacheKey);
-
-  if (audioArray.length < guidanceLength) {
-    audioArray.length = guidanceLength;
-    for (let i = 0; i < audioArray.length; i += 1) {
-      if (typeof audioArray[i] === 'undefined') {
-        audioArray[i] = null;
-      }
-    }
-  }
-
-  return audioArray;
-};
-
-const getAudioForStep = async (sceneKey, index, guidanceLength, { allowFallback = true } = {}) => {
+// Get the audio path for a step with fallback logic
+const getAudioPathForStep = async (sceneKey, index, { allowFallback = true } = {}) => {
   if (!import.meta.client) {
     return null;
   }
 
-  const attemptLoad = async (targetLocale) => {
-    const audioArray = ensureAudioArray(sceneKey, guidanceLength, targetLocale);
-    if (audioArray[index]) {
-      return audioArray[index];
+  audioLoading.value = true;
+  audioError.value = null;
+
+  try {
+    // Try primary locale first
+    const primaryLocale = locale.value;
+    const primaryPath = buildSceneAudioPath(sceneKey, index, primaryLocale);
+    const primaryExists = await checkAudioExists(primaryPath);
+
+    if (primaryExists) {
+      return { path: primaryPath, locale: primaryLocale };
     }
 
-    audioLoading.value = true;
-    audioError.value = null;
+    console.warn(`Peaceful visualization audio missing for ${sceneKey} step ${index + 1} (locale: ${primaryLocale})`);
 
-    try {
-      const audio = await loadAudioElement(sceneKey, index, targetLocale);
-      audioArray[index] = audio;
-      return audio;
-    } catch (error) {
-      console.warn(`Peaceful visualization audio missing for ${sceneKey} step ${index + 1} (locale: ${targetLocale}):`, error);
+    // Try fallback locale if allowed
+    if (!allowFallback || primaryLocale === defaultAudioLocale) {
+      audioError.value = new Error(`Audio not found for ${sceneKey} step ${index + 1} in locale ${primaryLocale}`);
       return null;
-    } finally {
-      audioLoading.value = false;
     }
-  };
 
-  const primaryLocale = locale.value;
-  const primaryAudio = await attemptLoad(primaryLocale);
-  if (primaryAudio) {
-    return primaryAudio;
-  }
+    console.info(`Falling back to ${defaultAudioLocale} audio for ${sceneKey} step ${index + 1}`);
+    const fallbackPath = buildSceneAudioPath(sceneKey, index, defaultAudioLocale);
+    const fallbackExists = await checkAudioExists(fallbackPath);
 
-  if (!allowFallback || primaryLocale === defaultAudioLocale) {
-    audioError.value = new Error(`Audio not found for ${sceneKey} step ${index + 1} in locale ${primaryLocale}`);
-    return null;
-  }
+    if (fallbackExists) {
+      return { path: fallbackPath, locale: defaultAudioLocale };
+    }
 
-  console.info(`Falling back to ${defaultAudioLocale} audio for ${sceneKey} step ${index + 1}`);
-  const fallbackAudio = await attemptLoad(defaultAudioLocale);
-  if (!fallbackAudio) {
     audioError.value = new Error(`Audio not found for ${sceneKey} step ${index + 1} in locales ${primaryLocale} or ${defaultAudioLocale}`);
+    return null;
+  } finally {
+    audioLoading.value = false;
   }
-  return fallbackAudio;
-};
-
-const preloadNextAudio = (sceneKey, index, guidanceLength, targetLocale = locale.value) => {
-  if (!import.meta.client) return;
-
-  const nextIndex = index + 1;
-  if (nextIndex >= guidanceLength) return;
-
-  const audioArray = ensureAudioArray(sceneKey, guidanceLength, targetLocale);
-  if (audioArray[nextIndex]) return;
-
-  loadAudioElement(sceneKey, nextIndex, targetLocale)
-    .then((audio) => {
-      audioArray[nextIndex] = audio;
-    })
-    .catch((error) => {
-      console.warn(`Unable to preload peaceful visualization audio for step ${nextIndex + 1} (locale: ${targetLocale}):`, error);
-    });
 };
 
 const stopCurrentAudio = () => {
-  if (!currentlyPlayingAudio.value) return;
+  if (!singleAudioElement) return;
 
   if (currentAudioEndHandler) {
-    currentlyPlayingAudio.value.removeEventListener('ended', currentAudioEndHandler);
+    singleAudioElement.removeEventListener('ended', currentAudioEndHandler);
     currentAudioEndHandler = null;
   }
 
   if (currentAudioErrorHandler) {
-    currentlyPlayingAudio.value.removeEventListener('error', currentAudioErrorHandler);
+    singleAudioElement.removeEventListener('error', currentAudioErrorHandler);
     currentAudioErrorHandler = null;
   }
 
   try {
-    currentlyPlayingAudio.value.pause();
+    singleAudioElement.pause();
   } catch (error) {
     console.warn('Unable to pause current audio:', error);
   }
 
   try {
-    currentlyPlayingAudio.value.currentTime = 0;
+    singleAudioElement.currentTime = 0;
   } catch (error) {
     // Ignore if resetting currentTime fails (Safari quirks)
   }
@@ -427,48 +396,56 @@ const stopCurrentAudio = () => {
   currentlyPlayingAudio.value = null;
 };
 
-const cleanupAudioCache = () => {
-  // Dispose all cached audio elements to prevent memory leaks
-  for (const [key, audioArray] of sceneAudioCache.entries()) {
-    if (Array.isArray(audioArray)) {
-      audioArray.forEach((audio) => {
-        if (audio && audio instanceof Audio) {
-          try {
-            audio.pause();
-            audio.src = '';
-            audio.load();
-          } catch (error) {
-            // Ignore errors during cleanup
-          }
-        }
-      });
+const cleanupAudioElement = () => {
+  // Dispose the single audio element
+  if (singleAudioElement) {
+    stopCurrentAudio();
+    try {
+      singleAudioElement.src = '';
+      singleAudioElement.load();
+    } catch (error) {
+      // Ignore errors during cleanup
     }
+    singleAudioElement = null;
   }
-  sceneAudioCache.clear();
 };
 
 const scheduleNextGuidance = (nextIndex, delay = pauseBetweenGuidanceMs) => {
+  // Don't schedule if exercise is not running
+  if (!exerciseStarted.value) {
+    return;
+  }
+
   if (phaseTimer) {
     clearTimeout(phaseTimer);
     phaseTimer = null;
   }
 
   phaseTimer = setTimeout(() => {
+    // Check again when timer fires
+    if (!exerciseStarted.value) {
+      return;
+    }
     showGuidanceAtIndex(nextIndex);
   }, delay);
 };
 
-const playAudioForStep = async (audioElement, index) => {
-  if (!audioElement) {
+const playAudioForStep = async (audioPath, index) => {
+  if (!audioPath) {
+    scheduleNextGuidance(index + 1, fallbackGuidanceDelayMs);
+    return;
+  }
+
+  const audio = initAudioElement();
+  if (!audio) {
     scheduleNextGuidance(index + 1, fallbackGuidanceDelayMs);
     return;
   }
 
   stopCurrentAudio();
 
-  const fallbackDelay = Number.isFinite(audioElement.duration) && audioElement.duration > 0
-    ? Math.ceil(audioElement.duration * 1000) + pauseBetweenGuidanceMs + 1500
-    : fallbackGuidanceDelayMs + 3000;
+  // Set up fallback timer (will be cleared if audio plays successfully)
+  const fallbackDelay = fallbackGuidanceDelayMs + 3000;
 
   if (phaseTimer) {
     clearTimeout(phaseTimer);
@@ -476,8 +453,12 @@ const playAudioForStep = async (audioElement, index) => {
   }
 
   phaseTimer = setTimeout(() => {
+    // Check if exercise is still running
+    if (!exerciseStarted.value) {
+      return;
+    }
     console.warn('Audio playback fallback triggered, advancing to next guidance step.');
-    if (currentlyPlayingAudio.value === audioElement) {
+    if (currentlyPlayingAudio.value) {
       stopCurrentAudio();
       showGuidanceAtIndex(index + 1, { immediate: true });
     }
@@ -509,18 +490,58 @@ const playAudioForStep = async (audioElement, index) => {
   currentAudioEndHandler = handleEnded;
   currentAudioErrorHandler = handleError;
 
-  audioElement.addEventListener('ended', handleEnded, { once: true });
-  audioElement.addEventListener('error', handleError, { once: true });
+  audio.addEventListener('ended', handleEnded, { once: true });
+  audio.addEventListener('error', handleError, { once: true });
 
-  currentlyPlayingAudio.value = audioElement;
+  currentlyPlayingAudio.value = audio;
 
   try {
-    audioElement.currentTime = 0;
-    await audioElement.play();
+    // Change the source and load the new audio
+    audio.src = audioPath;
+    audio.load();
+
+    // Wait for audio to be ready
+    await new Promise((resolve, reject) => {
+      const handleCanPlay = () => {
+        audio.removeEventListener('canplaythrough', handleCanPlay);
+        audio.removeEventListener('loadeddata', handleCanPlay);
+        resolve();
+      };
+      const handleLoadError = () => {
+        audio.removeEventListener('error', handleLoadError);
+        reject(new Error('Failed to load audio'));
+      };
+
+      audio.addEventListener('canplaythrough', handleCanPlay, { once: true });
+      audio.addEventListener('loadeddata', handleCanPlay, { once: true });
+      audio.addEventListener('error', handleLoadError, { once: true });
+    });
+
+    audio.currentTime = 0;
+    await audio.play();
+
+    // Update fallback timer based on actual duration
+    if (Number.isFinite(audio.duration) && audio.duration > 0) {
+      const newFallbackDelay = Math.ceil(audio.duration * 1000) + pauseBetweenGuidanceMs + 1500;
+      if (phaseTimer) {
+        clearTimeout(phaseTimer);
+      }
+      phaseTimer = setTimeout(() => {
+        // Check if exercise is still running
+        if (!exerciseStarted.value) {
+          return;
+        }
+        console.warn('Audio playback fallback triggered, advancing to next guidance step.');
+        if (currentlyPlayingAudio.value) {
+          stopCurrentAudio();
+          showGuidanceAtIndex(index + 1, { immediate: true });
+        }
+      }, newFallbackDelay);
+    }
   } catch (error) {
     console.warn('Failed to play peaceful visualization audio:', error);
-    audioElement.removeEventListener('ended', handleEnded);
-    audioElement.removeEventListener('error', handleError);
+    audio.removeEventListener('ended', handleEnded);
+    audio.removeEventListener('error', handleError);
     currentAudioEndHandler = null;
     currentAudioErrorHandler = null;
     currentlyPlayingAudio.value = null;
@@ -529,6 +550,11 @@ const playAudioForStep = async (audioElement, index) => {
 };
 
 const showGuidanceAtIndex = async (index, { immediate = false } = {}) => {
+  // Don't continue if exercise is not running
+  if (!exerciseStarted.value) {
+    return;
+  }
+
   const guidance = currentScene.value.guidance || [];
 
   if (!guidance.length) {
@@ -563,6 +589,11 @@ const showGuidanceAtIndex = async (index, { immediate = false } = {}) => {
     });
   }
 
+  // Check again after async transition
+  if (!exerciseStarted.value) {
+    return;
+  }
+
   if (!import.meta.client) {
     scheduleNextGuidance(index + 1, fallbackGuidanceDelayMs);
     return;
@@ -574,16 +605,14 @@ const showGuidanceAtIndex = async (index, { immediate = false } = {}) => {
     return;
   }
 
-  const audioForStep = await getAudioForStep(sceneKey, index, guidance.length);
+  const audioInfo = await getAudioPathForStep(sceneKey, index);
 
-  if (!audioForStep) {
+  if (!audioInfo || !audioInfo.path) {
     scheduleNextGuidance(index + 1, fallbackGuidanceDelayMs);
     return;
   }
 
-  await playAudioForStep(audioForStep, index);
-  const audioLocale = audioForStep?.dataset?.locale || locale.value;
-  preloadNextAudio(sceneKey, index, guidance.length, audioLocale);
+  await playAudioForStep(audioInfo.path, index);
 };
 
 const init3DScene = () => {
@@ -722,6 +751,9 @@ const startExercise = () => {
   currentGuidanceIndex.value = -1;
   audioError.value = null;
 
+  // Initialize audio element during user gesture (critical for iOS)
+  initAudioElement();
+
   nextTick(async () => {
     exerciseSection.value?.scrollIntoView({
       behavior: 'smooth',
@@ -805,9 +837,8 @@ const handleResize = () => {
 watch(locale, async () => {
   if (!import.meta.client) return;
 
-  // Properly cleanup audio before clearing cache
+  // Stop current audio but keep the element for reuse
   stopCurrentAudio();
-  cleanupAudioCache();
 
   if (phaseTimer) {
     clearTimeout(phaseTimer);
@@ -823,9 +854,10 @@ watch(locale, async () => {
 });
 
 const handlePageUnload = () => {
-  // Stop all audio immediately on page unload
-  stopCurrentAudio();
-  cleanupAudioCache();
+  // Stop exercise and all audio immediately on page unload
+  exerciseStarted.value = false;
+  exerciseCompleted.value = false;
+  cleanupAudioElement();
 };
 
 onMounted(() => {
@@ -836,14 +868,17 @@ onMounted(() => {
 });
 
 onUnmounted(() => {
+  // Stop exercise immediately to prevent any pending operations
+  exerciseStarted.value = false;
+  exerciseCompleted.value = false;
+
   window.removeEventListener("resize", handleResize);
   window.removeEventListener("beforeunload", handlePageUnload);
   window.removeEventListener("pagehide", handlePageUnload);
 
   if (phaseTimer) clearTimeout(phaseTimer);
   if (animationId) cancelAnimationFrame(animationId);
-  stopCurrentAudio();
-  cleanupAudioCache();
+  cleanupAudioElement();
 
   // Dispose 3D resources
   if (scene?.background?.dispose) {

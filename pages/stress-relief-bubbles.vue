@@ -172,10 +172,11 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue"; // <-- 1. IMPORT onMounted
+import { ref } from "vue";
 
 const totalBubbles = 64;
 const isResetting = ref(false);
+const audioPrimed = ref(false);
 
 const bubbles = ref([]);
 for (let i = 1; i <= totalBubbles; i++) {
@@ -199,30 +200,44 @@ useSeoMeta({
   twitterCard: "summary_large_image",
 });
 
-// 2. ADD onMounted HOOK TO WARM UP AUDIO
-onMounted(() => {
-  const warmUpAudio = () => {
-    // Play a tiny, silent sound to wake the audio hardware on iOS
-    const silentAudio = new Audio(
-      "data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA"
-    );
-    silentAudio.play().catch(() => {});
+// Prime audio on first interaction (critical for iOS)
+const primeAudio = () => {
+  if (audioPrimed.value || !popAudio.value) return;
 
-    // Explicitly load your main audio file so it's ready to play instantly
-    if (popAudio.value) {
-      popAudio.value.load();
-    }
-  };
+  const originalVolume = popAudio.value.volume;
 
-  // Run the warm-up function only ONCE on the first user touch
-  window.addEventListener('touchstart', warmUpAudio, { once: true });
-});
+  try {
+    // Play at volume 0 to unlock audio playback on iOS
+    popAudio.value.volume = 0;
+    popAudio.value.currentTime = 0;
+
+    popAudio.value.play()
+      .then(() => {
+        popAudio.value.pause();
+        popAudio.value.currentTime = 0;
+        popAudio.value.volume = originalVolume;
+        audioPrimed.value = true;
+      })
+      .catch((err) => {
+        console.warn('Audio priming failed:', err);
+        popAudio.value.volume = originalVolume;
+      });
+  } catch (err) {
+    console.warn('Audio priming error:', err);
+    popAudio.value.volume = originalVolume;
+  }
+};
 
 const getBubble = (id) => {
   return bubbles.value.find((b) => b.id === id) || { isPopped: false };
 };
 
 const popBubble = (bubbleId) => {
+  // Prime audio on first interaction
+  if (!audioPrimed.value) {
+    primeAudio();
+  }
+
   const bubble = bubbles.value.find((b) => b.id === bubbleId);
   if (bubble && !bubble.isPopped) {
     bubble.isPopped = true;
@@ -231,6 +246,11 @@ const popBubble = (bubbleId) => {
 };
 
 const resetBubbles = () => {
+  // Prime audio on first interaction
+  if (!audioPrimed.value) {
+    primeAudio();
+  }
+
   isResetting.value = true;
   bubbles.value.forEach((bubble) => {
     bubble.isPopped = false;
