@@ -35,17 +35,6 @@ const switchLocalePath = useSwitchLocalePath()
             </a>
           </div>
         </div>
-        
-        <div class="text-center md:text-right">
-          <a 
-            href="https://www.reddit.com/user/alvinunreal/" 
-            rel="noopener noreferrer nofollow"
-            target="_blank"
-            class="text-sm font-medium text-gray-700 dark:text-slate-200 hover:text-gray-900 dark:hover:text-slate-100 transition-colors duration-200"
-          >
-            Alvin Unreal
-          </a>
-        </div>
       </div>
       
       
@@ -70,96 +59,18 @@ const switchLocalePath = useSwitchLocalePath()
           <p class="text-xs text-gray-500 dark:text-slate-400 text-center md:text-left max-w-2xl">
             {{ $t('footer.disclaimer') }}
           </p>
-          <p class="text-xs text-gray-500 dark:text-slate-400">
-            Open Source • GPL License
-          </p>
-        </div>
-      </div>
-
-      <div class="pt-4 border-t border-gray-200 dark:border-slate-600">
-        <div class="text-center">
-          <p class="text-xs text-gray-500 dark:text-slate-400 mb-4 font-medium">Boring Dystopia Development</p>
-
-          <!-- Clean grid layout for projects -->
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
-
-            <!-- TmuxAI -->
-            <div class="text-center space-y-2">
-              <a
-                href="https://tmuxai.dev/"
-                target="_blank"
-                class="group inline-flex flex-col items-center space-y-2"
-              >
-                <div class="flex items-center justify-center w-8 h-8 rounded-md bg-gray-100 dark:bg-slate-700 group-hover:bg-gray-200 dark:group-hover:bg-slate-600 transition-colors duration-200">
-                  <Icon name="mdi:console" class="text-sm text-gray-600 dark:text-slate-300" />
-                </div>
-                <div>
-                  <h3 class="text-xs font-medium text-gray-800 dark:text-slate-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-200">TmuxAI</h3>
-                  <p class="text-xs text-gray-500 dark:text-slate-400 mt-0.5">AI-Powered Terminal Assistant</p>
-                </div>
-              </a>
-              <div class="flex flex-wrap justify-center gap-1.5 pt-1">
-                <a
-                  href="https://tmuxai.dev/warp-terminal-alternatives"
-                  target="_blank"
-                  class="inline-flex items-center px-2 py-1 text-xs rounded-md bg-gray-50 dark:bg-slate-700/30 text-gray-600 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-600/30 transition-all duration-150 hover:text-gray-800 dark:hover:text-slate-200"
-                >
-                  <Icon name="mdi:sword-fight" class="mr-1 text-xs" />
-                  Warp Alternatives
-                </a>
-                <a
-                  href="https://tmuxai.dev/tmux-getting-started"
-                  target="_blank"
-                  class="inline-flex items-center px-2 py-1 text-xs rounded-md bg-gray-50 dark:bg-slate-700/30 text-gray-600 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-600/30 transition-all duration-150 hover:text-gray-800 dark:hover:text-slate-200"
-                >
-                  <Icon name="mdi:rocket-launch" class="mr-1 text-xs" />
-                  Tmux Getting Started
-                </a>
-                <a
-                  href="https://tmuxai.dev/tmux-cheat-sheet/"
-                  target="_blank"
-                  class="inline-flex items-center px-2 py-1 text-xs rounded-md bg-gray-50 dark:bg-slate-700/30 text-gray-600 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-600/30 transition-all duration-150 hover:text-gray-800 dark:hover:text-slate-200"
-                >
-                  <Icon name="mdi:file-document-outline" class="mr-1 text-xs" />
-                  Tmux Cheat Sheet
-                </a>
-              </div>
-            </div>
-
-            <!-- GitDB -->
-            <div class="text-center space-y-2">
-              <a
-                href="https://gitdb.net/"
-                target="_blank"
-                class="group inline-flex flex-col items-center space-y-2"
-              >
-                <div class="flex items-center justify-center w-8 h-8 rounded-md bg-gray-100 dark:bg-slate-700 group-hover:bg-gray-200 dark:group-hover:bg-slate-600 transition-colors duration-200">
-                  <Icon name="mdi:database" class="text-sm text-gray-600 dark:text-slate-300" />
-                </div>
-                <div>
-                  <h3 class="text-xs font-medium text-gray-800 dark:text-slate-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-200">GitDB</h3>
-                  <p class="text-xs text-gray-500 dark:text-slate-400 mt-0.5">Open Source Project Discovery & Analytics</p>
-                </div>
-              </a>
-            </div>
-
-            <!-- FreeSubStats -->
-            <div class="text-center space-y-2">
-              <a
-                href="https://freesubstats.com/"
-                target="_blank"
-                class="group inline-flex flex-col items-center space-y-2"
-              >
-                <div class="flex items-center justify-center w-8 h-8 rounded-md bg-gray-100 dark:bg-slate-700 group-hover:bg-gray-200 dark:group-hover:bg-slate-600 transition-colors duration-200">
-                  <Icon name="mdi:chart-line" class="text-sm text-gray-600 dark:text-slate-300" />
-                </div>
-                <div>
-                  <h3 class="text-xs font-medium text-gray-800 dark:text-slate-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-200">FreeSubStats</h3>
-                  <p class="text-xs text-gray-500 dark:text-slate-400 mt-0.5">Subreddit Statistics & Growth Rates</p>
-                </div>
-              </a>
-            </div>
-
+          <div class="flex items-center gap-3 text-xs text-gray-500 dark:text-slate-400">
+            <NuxtLink to="/privacy" class="hover:text-gray-700 dark:hover:text-slate-200 transition-colors duration-200">
+              {{ $t('footer.privacy') }}
+            </NuxtLink>
+            <span>•</span>
+            <NuxtLink to="/terms" class="hover:text-gray-700 dark:hover:text-slate-200 transition-colors duration-200">
+              {{ $t('footer.terms') }}
+            </NuxtLink>
+            <span>•</span>
+            <NuxtLink to="/support" class="hover:text-gray-700 dark:hover:text-slate-200 transition-colors duration-200">
+              {{ $t('footer.support') }}
+            </NuxtLink>
           </div>
         </div>
       </div>

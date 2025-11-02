@@ -154,7 +154,8 @@ export default defineNuxtConfig({
           'en/techniques.json',
           'en/exercises.json',
           'en/pages.json',
-          'en/meta.json'
+          'en/meta.json',
+          'en/legal.json'
         ]
       },
       {
