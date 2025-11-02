@@ -167,7 +167,8 @@ export default defineNuxtConfig({
           'fr/techniques.json',
           'fr/exercises.json',
           'fr/pages.json',
-          'fr/meta.json'
+          'fr/meta.json',
+          'en/legal.json'
         ]
       },
       {
@@ -179,7 +180,8 @@ export default defineNuxtConfig({
           'pt/techniques.json',
           'pt/exercises.json',
           'pt/pages.json',
-          'pt/meta.json'
+          'pt/meta.json',
+          'en/legal.json'
         ]
       },
       {
@@ -191,7 +193,8 @@ export default defineNuxtConfig({
           'zh/techniques.json',
           'zh/exercises.json',
           'zh/pages.json',
-          'zh/meta.json'
+          'zh/meta.json',
+          'en/legal.json'
         ]
       },
       {
@@ -203,7 +206,8 @@ export default defineNuxtConfig({
           'ru/techniques.json',
           'ru/exercises.json',
           'ru/pages.json',
-          'ru/meta.json'
+          'ru/meta.json',
+          'en/legal.json'
         ]
       },{
         code: 'he',
@@ -214,7 +218,8 @@ export default defineNuxtConfig({
           'he/techniques.json',
           'he/exercises.json',
           'he/pages.json',
-          'he/meta.json'
+          'he/meta.json',
+          'en/legal.json'
         ]
       },
       {
@@ -226,7 +231,8 @@ export default defineNuxtConfig({
           'nl/techniques.json',
           'nl/exercises.json',
           'nl/pages.json',
-          'nl/meta.json'
+          'nl/meta.json',
+          'en/legal.json'
         ]
       },
       {
@@ -238,7 +244,8 @@ export default defineNuxtConfig({
           'es/techniques.json',
           'es/exercises.json',
           'es/pages.json',
-          'es/meta.json'
+          'es/meta.json',
+          'en/legal.json'
         ]
       },
     ],

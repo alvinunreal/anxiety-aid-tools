@@ -61,15 +61,15 @@ const switchLocalePath = useSwitchLocalePath()
           </p>
           <div class="flex items-center gap-3 text-xs text-gray-500 dark:text-slate-400">
             <NuxtLink to="/privacy" class="hover:text-gray-700 dark:hover:text-slate-200 transition-colors duration-200">
-              {{ $t('footer.privacy') }}
+              Privacy
             </NuxtLink>
             <span>•</span>
             <NuxtLink to="/terms" class="hover:text-gray-700 dark:hover:text-slate-200 transition-colors duration-200">
-              {{ $t('footer.terms') }}
+              Terms
             </NuxtLink>
             <span>•</span>
             <NuxtLink to="/support" class="hover:text-gray-700 dark:hover:text-slate-200 transition-colors duration-200">
-              {{ $t('footer.support') }}
+              Support
             </NuxtLink>
           </div>
         </div>
