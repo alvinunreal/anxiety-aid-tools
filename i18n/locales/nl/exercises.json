@@ -462,7 +462,6 @@
       "subtitle": "Systematische spanning en loslating",
       "beginExercise": "Begin Oefening",
       "start": "Start",
-      "skip": "Overslaan",
       "stop": "Stop",
       "pause": "Pauzeren",
       "resume": "Hervatten",
@@ -470,7 +469,6 @@
       "next": "Volgende",
       "complete": "Voltooien",
       "ofGroups": "van {count} groepen",
-      "sessionProgress": "Sessievoortgang",
       "prepare": "Voorbereiden om te beginnen",
       "tenseFor10": "Span 10 seconden aan",
       "releaseFor10": "Laat 10 seconden los",
@@ -825,8 +823,6 @@
   "peacefulVisualization": {
     "interface": {
       "play": "Afspelen",
-      "skip": "Overslaan",
-      "changeScene": "Verander Scene",
       "stop": "Stop",
       "visitAnotherPlace": "Bezoek Een Andere Plaats",
       "peacefulMoments": "vredige momenten",

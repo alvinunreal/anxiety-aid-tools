@@ -1,12 +1,7 @@
 {
   "navigation": {
     "techniques": "舒缓技巧",
-    "about": "关于焦虑",
-    "resources": "相关资源",
     "github": "GitHub",
-    "openMobileMenu": "打开导航菜单",
-    "closeMobileMenu": "关闭导航菜单",
-    "mobileMenuLabel": "主导航",
     "skipToMain": "跳转到主要内容"
   },
   "header": {

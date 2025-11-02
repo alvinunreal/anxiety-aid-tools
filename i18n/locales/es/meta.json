@@ -39,6 +39,18 @@
     "stressBall": {
       "title": "Pelota de Estrés Interactiva - Arrastra y Lanza para el Alivio de la Ansiedad",
       "description": "Juego interactivo de pelota de estrés virtual. Arrastra, lanza y rebota para alivio inmediato del estrés y manejo de la ansiedad. Herramienta terapéutica gratuita."
+    },
+    "privacy": {
+      "title": "Política de Privacidad - Anxiety Aid Tools",
+      "description": "Política de privacidad de Anxiety Aid Tools. Aprende cómo protegemos tus datos con análisis mínimos y almacenamiento solo local."
+    },
+    "terms": {
+      "title": "Términos de Servicio - Anxiety Aid Tools",
+      "description": "Términos de servicio de Anxiety Aid Tools. Aplicación de código abierto con licencia GPL para el manejo de la ansiedad."
+    },
+    "support": {
+      "title": "Soporte - Anxiety Aid Tools",
+      "description": "Obtén ayuda con Anxiety Aid Tools. FAQ, información de contacto y solución de problemas para nuestra aplicación de manejo de ansiedad."
     }
   }
 }

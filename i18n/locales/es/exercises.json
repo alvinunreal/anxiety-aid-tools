@@ -462,7 +462,6 @@
       "subtitle": "Tensión y liberación sistemática",
       "beginExercise": "Comenzar Ejercicio",
       "start": "Iniciar",
-      "skip": "Omitir",
       "stop": "Detener",
       "pause": "Pausar",
       "resume": "Reanudar",
@@ -470,7 +469,6 @@
       "next": "Siguiente",
       "complete": "Completar",
       "ofGroups": "de {count} grupos",
-      "sessionProgress": "Progreso de la Sesión",
       "prepare": "Prepárate para comenzar",
       "tenseFor10": "Tensa durante 10 segundos",
       "releaseFor10": "Libera durante 10 segundos",
@@ -825,8 +823,6 @@
   "peacefulVisualization": {
     "interface": {
       "play": "Reproducir",
-      "skip": "Omitir",
-      "changeScene": "Cambiar Escena",
       "stop": "Detener",
       "visitAnotherPlace": "Visitar Otro Lugar",
       "peacefulMoments": "momentos pacíficos",

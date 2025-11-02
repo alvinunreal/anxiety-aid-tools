@@ -1,12 +1,7 @@
 {
   "navigation": {
     "techniques": "Alle Technieken",
-    "about": "Over Angst",
-    "resources": "Bronnen",
     "github": "GitHub",
-    "openMobileMenu": "Open navigatiemenu",
-    "closeMobileMenu": "Sluit navigatiemenu",
-    "mobileMenuLabel": "Hoofdnavigatie",
     "skipToMain": "Ga naar hoofdinhoud"
   },
   "header": {

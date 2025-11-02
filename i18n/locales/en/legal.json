@@ -1,0 +1,153 @@
+{
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated",
+    "date": "January 2025",
+    "overview": {
+      "title": "Overview",
+      "description": "Anxiety Aid Tools is built with privacy as a core principle. We collect minimal data, store everything locally on your device, and use only privacy-focused analytics. No personal information is collected or shared."
+    },
+    "dataCollection": {
+      "title": "Data Collection",
+      "noPersonalData": {
+        "title": "No Personal Data",
+        "description": "We do not collect, store, or process any personal information such as names, email addresses, phone numbers, or location data."
+      },
+      "analytics": {
+        "title": "Analytics",
+        "description": "We use Cloudflare Web Analytics, a privacy-focused analytics service that collects only aggregated, anonymized data:",
+        "items": [
+          "Page views and visit counts",
+          "Browser and device type (aggregated)",
+          "General geographic region (country-level only)",
+          "No cookies, fingerprinting, or personal tracking"
+        ]
+      },
+      "localStorage": {
+        "title": "Local Storage",
+        "description": "Your preferences (such as language selection and dark mode) are stored only on your device using browser local storage. This data never leaves your device."
+      }
+    },
+    "rights": {
+      "title": "Your Rights",
+      "description": "Since we don't collect personal data, there is no personal information to access, modify, or delete. You can clear your local preferences at any time through your browser settings."
+    },
+    "changes": {
+      "title": "Changes to This Policy",
+      "description": "We may update this privacy policy occasionally. The date at the top indicates the last revision. Continued use of the app constitutes acceptance of any changes."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "For questions about this privacy policy, please visit our",
+      "link": "GitHub Discussions"
+    }
+  },
+
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated",
+    "date": "January 2025",
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "description": "By using Anxiety Aid Tools, you agree to these terms. If you do not agree, please do not use this application."
+    },
+    "medicalDisclaimer": {
+      "title": "Medical Disclaimer",
+      "description": "Anxiety Aid Tools provides general anxiety management techniques and educational information. It is NOT a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified healthcare provider with any questions regarding a medical or mental health condition. Never disregard professional medical advice or delay seeking it because of something you have learned through this app. If you are experiencing a mental health crisis, please contact emergency services or a crisis hotline immediately."
+    },
+    "license": {
+      "title": "Use License",
+      "description": "This application is provided free of charge under the GPL license. You may:",
+      "items": [
+        "Use the app for personal anxiety management",
+        "Access all features without registration or payment",
+        "Modify and redistribute the source code under GPL terms"
+      ]
+    },
+    "liability": {
+      "title": "Limitation of Liability",
+      "description": "Anxiety Aid Tools is provided \"as is\" without warranties of any kind. We are not liable for any outcomes resulting from the use of this application. The techniques provided are general wellness tools and may not be suitable for everyone."
+    },
+    "opensource": {
+      "title": "Open Source",
+      "description": "This application is open source and available on",
+      "link": "GitHub"
+    },
+    "changes": {
+      "title": "Changes to Terms",
+      "description": "We may revise these terms at any time. The date at the top indicates the last revision. Continued use constitutes acceptance of revised terms."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "For questions about these terms, please visit our",
+      "link": "GitHub Discussions"
+    }
+  },
+
+  "support": {
+    "title": "Support",
+    "description": "Get help with Anxiety Aid Tools. Available on web and iOS.",
+    "about": {
+      "title": "About Anxiety Aid Tools",
+      "description": "Anxiety Aid Tools is a free, open-source application providing evidence-based anxiety management techniques. No ads, no accounts, no tracking.",
+      "available": "Available as a web application and iOS app."
+    },
+    "features": {
+      "title": "What's Included",
+      "items": [
+        "Breathing exercises with visual guidance",
+        "5-4-3-2-1 grounding technique for sensory awareness",
+        "Progressive muscle relaxation",
+        "Guided peaceful visualization with optional audio",
+        "Thought labeling for cognitive reframing",
+        "Interactive stress relief activities",
+        "Calming sound therapy",
+        "Works offline after initial load"
+      ]
+    },
+    "help": {
+      "title": "Getting Help",
+      "description": "If you need assistance, have questions, or want to report an issue:",
+      "website": {
+        "title": "Website"
+      },
+      "github": {
+        "title": "Community Discussions",
+        "link": "GitHub Discussions"
+      },
+      "bugs": {
+        "title": "Report Technical Issues",
+        "link": "GitHub Issues"
+      }
+    },
+    "questions": {
+      "title": "Common Questions",
+      "items": [
+        {
+          "q": "Is this free?",
+          "a": "Yes. Completely free with no ads, no premium features, and no hidden costs."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. The app works immediately without signup. Your preferences are stored locally on your device."
+        },
+        {
+          "q": "Does it work offline?",
+          "a": "Yes. After the initial load, all techniques work offline except audio narration for peaceful visualization."
+        },
+        {
+          "q": "Is my data private?",
+          "a": "Yes. All preferences stay on your device. We use minimal privacy-focused analytics. See our privacy policy for details."
+        },
+        {
+          "q": "Which technique should I start with?",
+          "a": "For immediate anxiety relief, try the 2-minute breathing exercise. For grounding during panic, use the 5-4-3-2-1 technique."
+        }
+      ]
+    },
+    "disclaimer": {
+      "title": "Important Medical Information",
+      "text": "This app provides general anxiety management techniques and is NOT a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider for persistent anxiety or mental health concerns."
+    }
+  }
+}

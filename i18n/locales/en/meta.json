@@ -39,6 +39,18 @@
     "stressBall": {
       "title": "Interactive Stress Ball - Drag & Throw for Anxiety Relief",
       "description": "Interactive virtual stress ball game. Drag, throw, and bounce for immediate stress relief and anxiety management. Free therapeutic tool."
+    },
+    "privacy": {
+      "title": "Privacy Policy - Anxiety Aid Tools",
+      "description": "Privacy policy for Anxiety Aid Tools. Learn how we protect your data with minimal analytics and local-only storage."
+    },
+    "terms": {
+      "title": "Terms of Service - Anxiety Aid Tools",
+      "description": "Terms of service for Anxiety Aid Tools. Open source GPL licensed anxiety management application."
+    },
+    "support": {
+      "title": "Support - Anxiety Aid Tools",
+      "description": "Get help with Anxiety Aid Tools. FAQ, contact information, and troubleshooting for our anxiety management app."
     }
   }
 }

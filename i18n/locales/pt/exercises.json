@@ -731,7 +731,6 @@
       "subtitle": "Tensão e relaxamento sistemáticos",
       "beginExercise": "Iniciar exercício",
       "start": "Iniciar",
-      "skip": "Pular",
       "stop": "Parar",
       "pause": "Pausar",
       "resume": "Retomar",
@@ -739,7 +738,6 @@
       "next": "Próximo",
       "complete": "Completar",
       "ofGroups": "de {count} grupos",
-      "sessionProgress": "Progresso da sessão",
       "prepare": "Prepare-se para começar",
       "tenseFor10": "Tense por 10 segundos",
       "releaseFor10": "Relaxe por 10 segundos",
@@ -825,8 +823,6 @@
   "peacefulVisualization": {
     "interface": {
       "play": "Reproduzir",
-      "skip": "Pular",
-      "changeScene": "Mudar cena",
       "stop": "Parar",
       "visitAnotherPlace": "Visitar outro lugar",
       "peacefulMoments": "momentos de paz",

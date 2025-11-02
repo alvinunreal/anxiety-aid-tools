@@ -1,12 +1,7 @@
 {
   "navigation": {
     "techniques": "Все техники",
-    "about": "О тревоге",
-    "resources": "Ресурсы",
     "github": "GitHub",
-    "openMobileMenu": "Открыть меню навигации",
-    "closeMobileMenu": "Закрыть меню навигации",
-    "mobileMenuLabel": "Главная навигация",
     "skipToMain": "Перейти к основному содержанию"
   },
   "header": {
