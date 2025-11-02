@@ -39,6 +39,18 @@
     "stressBall": {
       "title": "虚拟压力球游戏",
       "description": "互动式虚拟压力球体验工具。通过拖拽、抛掷和反弹动作，即时缓解压力与焦虑情绪。免费的数字治疗工具。"
+    },
+    "privacy": {
+      "title": "隐私政策 - Anxiety Aid Tools",
+      "description": "Anxiety Aid Tools 的隐私政策。了解我们如何通过最小化分析和仅本地存储来保护您的数据。"
+    },
+    "terms": {
+      "title": "服务条款 - Anxiety Aid Tools",
+      "description": "Anxiety Aid Tools 的服务条款。采用 GPL 许可证的开源焦虑管理应用程序。"
+    },
+    "support": {
+      "title": "支持 - Anxiety Aid Tools",
+      "description": "获取 Anxiety Aid Tools 的帮助。常见问题、联系信息以及我们焦虑管理应用程序的故障排除。"
     }
   }
 }

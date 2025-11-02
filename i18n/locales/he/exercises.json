@@ -462,7 +462,6 @@
       "subtitle": "כיווץ והרפיה שיטתיים",
       "beginExercise": "התחל תרגיל",
       "start": "התחל",
-      "skip": "דלג",
       "stop": "עצור",
       "pause": "השהה",
       "resume": "המשך",
@@ -470,7 +469,6 @@
       "next": "הבא",
       "complete": "השלם",
       "ofGroups": "מתוך {count} קבוצות",
-      "sessionProgress": "התקדמות התרגול",
       "prepare": "התכונן להתחלה",
       "tenseFor10": "כווץ למשך 10 שניות",
       "releaseFor10": "שחרר למשך 10 שניות",
@@ -825,8 +823,6 @@
   "peacefulVisualization": {
     "interface": {
       "play": "נגן",
-      "skip": "דלג",
-      "changeScene": "שנה סצנה",
       "stop": "עצור",
       "visitAnotherPlace": "בקר במקום אחר",
       "peacefulMoments": "רגעים שלווים",

@@ -39,6 +39,18 @@
     "stressBall": {
       "title": "Interactieve Stressbal - Sleep & Gooi voor Angstverlichting",
       "description": "Interactieve virtuele stressbal spel. Sleep, gooi, en stuiter voor onmiddellijke stressverlichting en angstmanagement. Gratis therapeutisch hulpmiddel."
+    },
+    "privacy": {
+      "title": "Privacybeleid - Anxiety Aid Tools",
+      "description": "Privacybeleid voor Anxiety Aid Tools. Leer hoe we uw gegevens beschermen met minimale analytics en alleen lokale opslag."
+    },
+    "terms": {
+      "title": "Servicevoorwaarden - Anxiety Aid Tools",
+      "description": "Servicevoorwaarden voor Anxiety Aid Tools. Open source GPL-gelicenseerde angstmanagementapplicatie."
+    },
+    "support": {
+      "title": "Ondersteuning - Anxiety Aid Tools",
+      "description": "Krijg hulp met Anxiety Aid Tools. FAQ, contactinformatie en probleemoplossing voor onze angstmanagement app."
     }
   }
 }

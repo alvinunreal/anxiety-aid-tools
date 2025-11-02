@@ -462,7 +462,6 @@
       "subtitle": "Systematic tension and release",
       "beginExercise": "Begin Exercise",
       "start": "Start",
-      "skip": "Skip",
       "stop": "Stop",
       "pause": "Pause",
       "resume": "Resume",
@@ -470,7 +469,6 @@
       "next": "Next",
       "complete": "Complete",
       "ofGroups": "of {count} groups",
-      "sessionProgress": "Session Progress",
       "prepare": "Prepare to begin",
       "tenseFor10": "Tense for 10 seconds",
       "releaseFor10": "Release for 10 seconds",
@@ -825,8 +823,6 @@
   "peacefulVisualization": {
     "interface": {
       "play": "Play",
-      "skip": "Skip",
-      "changeScene": "Change Scene",
       "stop": "Stop",
       "visitAnotherPlace": "Visit Another Place",
       "peacefulMoments": "peaceful moments",

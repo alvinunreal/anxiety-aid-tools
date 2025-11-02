@@ -1,12 +1,7 @@
 {
   "navigation": {
     "techniques": "Todas las Técnicas",
-    "about": "Sobre la Ansiedad",
-    "resources": "Recursos",
     "github": "GitHub",
-    "openMobileMenu": "Abrir menú de navegación",
-    "closeMobileMenu": "Cerrar menú de navegación",
-    "mobileMenuLabel": "Navegación principal",
     "skipToMain": "Saltar al contenido principal"
   },
   "header": {

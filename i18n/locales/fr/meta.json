@@ -39,6 +39,18 @@
     "stressBall": {
       "title": "Balle anti-stress interactive - Glisser et lancer contre l'anxiété",
       "description": "Jeu de balle anti-stress virtuelle interactive. Glissez, lancez et rebondissez pour un soulagement immédiat du stress et une gestion de l'anxiété. Outil thérapeutique gratuit."
+    },
+    "privacy": {
+      "title": "Politique de confidentialité - Anxiety Aid Tools",
+      "description": "Politique de confidentialité pour Anxiety Aid Tools. Découvrez comment nous protégeons vos données avec des analyses minimales et un stockage local uniquement."
+    },
+    "terms": {
+      "title": "Conditions d'utilisation - Anxiety Aid Tools",
+      "description": "Conditions d'utilisation pour Anxiety Aid Tools. Application de gestion de l'anxiété sous licence GPL open source."
+    },
+    "support": {
+      "title": "Support - Anxiety Aid Tools",
+      "description": "Obtenez de l'aide avec Anxiety Aid Tools. FAQ, coordonnées et dépannage pour notre application de gestion de l'anxiété."
     }
   }
 }

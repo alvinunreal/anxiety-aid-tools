@@ -1,12 +1,7 @@
 {
   "navigation": {
     "techniques": "כל הטכניקות",
-    "about": "אודות חרדה",
-    "resources": "משאבים",
     "github": "גיטהאב",
-    "openMobileMenu": "פתח תפריט ניווט",
-    "closeMobileMenu": "סגור תפריט ניווט",
-    "mobileMenuLabel": "ניווט ראשי",
     "skipToMain": "דלג לתוכן הראשי"
   },
   "header": {

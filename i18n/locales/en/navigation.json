@@ -1,12 +1,7 @@
 {
   "navigation": {
     "techniques": "All Techniques",
-    "about": "About Anxiety",
-    "resources": "Resources",
     "github": "GitHub",
-    "openMobileMenu": "Open navigation menu",
-    "closeMobileMenu": "Close navigation menu",
-    "mobileMenuLabel": "Main navigation",
     "skipToMain": "Skip to main content"
   },
   "header": {

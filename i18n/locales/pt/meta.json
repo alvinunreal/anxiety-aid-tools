@@ -39,6 +39,18 @@
     "stressBall": {
       "title": "Bola anti-estresse interativa - arraste e jogue para alívio da ansiedade",
       "description": "Jogo interativo de bola anti-estresse virtual. Arraste, jogue e faça quicar para alívio imediato do estresse e manejo da ansiedade. Ferramenta terapêutica gratuita."
+    },
+    "privacy": {
+      "title": "Política de Privacidade - Anxiety Aid Tools",
+      "description": "Política de privacidade para Anxiety Aid Tools. Saiba como protegemos seus dados com análise mínima e armazenamento apenas local."
+    },
+    "terms": {
+      "title": "Termos de Serviço - Anxiety Aid Tools",
+      "description": "Termos de serviço para Anxiety Aid Tools. Aplicação de gerenciamento de ansiedade de código aberto licenciada GPL."
+    },
+    "support": {
+      "title": "Suporte - Anxiety Aid Tools",
+      "description": "Obtenha ajuda com Anxiety Aid Tools. FAQ, informações de contato e solução de problemas para nosso aplicativo de gerenciamento de ansiedade."
     }
   }
 }

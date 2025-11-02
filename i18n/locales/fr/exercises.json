@@ -462,7 +462,6 @@
       "subtitle": "Tension et relâchement systématiques",
       "beginExercise": "Commencer l'exercice",
       "start": "Démarrer",
-      "skip": "Passer",
       "stop": "Arrêter",
       "pause": "Pause",
       "resume": "Reprendre",
@@ -470,7 +469,6 @@
       "next": "Suivant",
       "complete": "Terminer",
       "ofGroups": "sur {count} groupes",
-      "sessionProgress": "Progression de la séance",
       "prepare": "Préparez-vous à commencer",
       "tenseFor10": "Tendre pendant 10 secondes",
       "releaseFor10": "Relâcher pendant 10 secondes",
@@ -825,8 +823,6 @@
   "peacefulVisualization": {
     "interface": {
       "play": "Jouer",
-      "skip": "Passer",
-      "changeScene": "Changer de scène",
       "stop": "Arrêter",
       "visitAnotherPlace": "Visiter un autre lieu",
       "peacefulMoments": "moments paisibles",

@@ -10,6 +10,15 @@ const __dirname = dirname(__filename);
 const LOCALES_DIR = join(__dirname, "..", "i18n", "locales");
 const BASE_LOCALE = "en";
 
+// Paths that are locale-specific and should not be checked for synchronization
+const SKIP_PATHS = [
+  "resources.organizations.list", // Each locale has its own mental health organizations
+];
+
+function shouldSkipPath(path) {
+  return SKIP_PATHS.some(skipPath => path === skipPath || path.startsWith(skipPath + "."));
+}
+
 function deepCompare(base, target, path = "") {
   const result = {
     missing: [],
@@ -20,6 +29,11 @@ function deepCompare(base, target, path = "") {
   // Check for missing keys in target
   for (const key in base) {
     const currentPath = path ? `${path}.${key}` : key;
+
+    // Skip locale-specific paths
+    if (shouldSkipPath(currentPath)) {
+      continue;
+    }
 
     if (!(key in target)) {
       if (typeof base[key] === "object" && base[key] !== null) {
@@ -58,6 +72,11 @@ function deepCompare(base, target, path = "") {
   // Check for extra keys in target
   for (const key in target) {
     const currentPath = path ? `${path}.${key}` : key;
+
+    // Skip locale-specific paths
+    if (shouldSkipPath(currentPath)) {
+      continue;
+    }
 
     if (!(key in base)) {
       if (typeof target[key] === "object" && target[key] !== null) {
@@ -178,6 +197,7 @@ function compareLocales(targetLocale) {
 
   for (const file of baseFiles) {
     if (file.startsWith(".")) continue; // Skip hidden files
+    if (file === "legal.json") continue; // Skip legal.json - not translated
     const basePath = join(baseDir, file);
     const targetPath = join(targetDir, file);
 

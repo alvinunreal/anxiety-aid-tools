@@ -462,7 +462,6 @@
       "subtitle": "系统性的紧张和释放",
       "beginExercise": "开始练习",
       "start": "开始",
-      "skip": "跳过",
       "stop": "停止",
       "pause": "暂停",
       "resume": "继续",
@@ -470,7 +469,6 @@
       "next": "下一个",
       "complete": "完成",
       "ofGroups": "组",
-      "sessionProgress": "会话进度",
       "prepare": "准备开始",
       "tenseFor10": "紧张 10 秒",
       "releaseFor10": "释放 10 秒",
@@ -825,8 +823,6 @@
   "peacefulVisualization": {
     "interface": {
       "play": "播放",
-      "skip": "跳过",
-      "changeScene": "改变场景",
       "stop": "停止",
       "visitAnotherPlace": "访问另一个地方",
       "peacefulMoments": "平静的时刻",
