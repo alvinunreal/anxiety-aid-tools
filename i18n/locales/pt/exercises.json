@@ -1260,6 +1260,15 @@
       }
     }
   },
+  "fidgetSpinner": {
+    "aria": {
+      "spinnerLabel": "Fidget spinner interativo para aliviar a ansiedade. Arraste para girar e solte para deixá-lo deslizar.",
+      "status": {
+        "spinning": "Spinner em movimento",
+        "still": "Spinner parado"
+      }
+    }
+  },
   "soundTherapy": {
     "title": "Terapia sonora e cura por frequência",
     "description": "Experimente frequências terapêuticas e sons binaurais para promover relaxamento profundo, reduzir a ansiedade e aumentar o foco por meio de terapia sonora respaldada cientificamente.",

@@ -65,6 +65,7 @@ A collection of anxiety management techniques built around four core principles.
 - **🌅 Peaceful Visualization** - Immersive guided imagery sessions
 - **🧠 Thought Labeling** - Cognitive techniques to reframe anxious thoughts
 - **🫧 Stress Relief Bubbles** - Interactive bubble-popping for instant relief
+- **🌀 Online Fidget Spinner** - Minimal virtual spinner with realistic momentum for restless energy
 - **🎵 Sound Therapy** - Calming ambient soundscapes
 - **⚾ Virtual Stress Ball** - Tactile relief through digital interaction
 

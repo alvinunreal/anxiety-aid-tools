@@ -42,6 +42,12 @@
       "description": "Soms is de beste manier om met angst om te gaan door zachte afleiding en spel. Deze eenvoudige interactieve activiteit helpt nerveuze energie om te leiden terwijl uw geest een pauze krijgt van angstige gedachten.",
       "duration": "2-5 min"
     },
+    "fidgetSpinner": {
+      "name": "Online Fidget Spinner",
+      "short_description": "Breng onrustige handen tot rust met een gelijkmatige draaibeweging op elk apparaat.",
+      "description": "Laat hem draaien, laat weer los en kijk hoe het momentum afneemt. De eenvoudige tactiele focus geeft je handen iets constants terwijl je blik een ongecompliceerd patroon volgt—handig wanneer je een stille uitlaatklep zoekt voor overtollige energie.",
+      "duration": "1-3 min"
+    },
     "soundTherapy": {
       "name": "Geluidstherapie",
       "short_description": "Helende frequenties die ontspanning en mentale helderheid bevorderen",

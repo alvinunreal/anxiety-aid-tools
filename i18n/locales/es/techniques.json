@@ -42,6 +42,12 @@
       "description": "A veces la mejor manera de lidiar con la ansiedad es a través de una distracción suave y el juego. Esta simple actividad interactiva ayuda a redirigir la energía nerviosa mientras le da a tu mente un descanso de los pensamientos ansiosos.",
       "duration": "2-5 min"
     },
+    "fidgetSpinner": {
+      "name": "Fidget Spinner en Línea",
+      "short_description": "Calma las manos inquietas con un giro suave y repetible en cualquier dispositivo.",
+      "description": "Hazlo girar, suéltalo y observa cómo el impulso se disipa. El enfoque táctil sencillo da a tus manos algo constante mientras tu mente sigue un patrón visual sin distracciones; útil cuando necesitas una salida silenciosa para el exceso de energía.",
+      "duration": "1-3 min"
+    },
     "soundTherapy": {
       "name": "Terapia de Sonido",
       "short_description": "Frecuencias curativas que promueven la relajación y la claridad mental",

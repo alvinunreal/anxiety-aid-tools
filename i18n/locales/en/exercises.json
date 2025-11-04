@@ -1260,6 +1260,15 @@
       }
     }
   },
+  "fidgetSpinner": {
+    "aria": {
+      "spinnerLabel": "Interactive fidget spinner for anxiety relief. Drag to spin and release to let it glide.",
+      "status": {
+        "spinning": "Spinner in motion",
+        "still": "Spinner resting"
+      }
+    }
+  },
   "soundTherapy": {
     "title": "Sound Therapy & Frequency Healing",
     "description": "Experience therapeutic frequencies and binaural beats to promote deep relaxation, reduce anxiety, and enhance focus through scientifically-backed sound therapy.",

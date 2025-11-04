@@ -1260,6 +1260,15 @@
       }
     }
   },
+  "fidgetSpinner": {
+    "aria": {
+      "spinnerLabel": "Fidget spinner interactif pour soulager l'anxiété. Faites glisser pour le faire tourner puis relâchez pour le laisser glisser.",
+      "status": {
+        "spinning": "Spinner en mouvement",
+        "still": "Spinner immobile"
+      }
+    }
+  },
   "soundTherapy": {
     "title": "Thérapie sonore et guérison par les fréquences",
     "description": "Découvrez des fréquences thérapeutiques et des battements binauraux pour favoriser une relaxation profonde, réduire l'anxiété et améliorer la concentration grâce à une thérapie sonore soutenue par la science.",
