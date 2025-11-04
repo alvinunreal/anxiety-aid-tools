@@ -43,6 +43,13 @@ export const useTechniques = () => {
       iconColor: 'text-teal-600',
       tags: ['high-anxiety', 'short-time']
     },
+    'fidget-spinner': {
+      id: 'fidgetSpinner',
+      icon: 'ph:spinner-gap',
+      iconColor: 'text-lime-600',
+      tags: ['high-anxiety', 'short-time'],
+      isNew: true
+    },
     'sound-therapy': {
       id: 'soundTherapy',
       icon: 'ph:waveform-fill',

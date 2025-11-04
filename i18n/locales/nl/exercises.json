@@ -1260,6 +1260,15 @@
       }
     }
   },
+  "fidgetSpinner": {
+    "aria": {
+      "spinnerLabel": "Interactieve fidget spinner voor angstverlichting. Sleep om te draaien en laat los zodat hij zijn baan afmaakt.",
+      "status": {
+        "spinning": "Spinner draait",
+        "still": "Spinner staat stil"
+      }
+    }
+  },
   "soundTherapy": {
     "title": "Geluidstherapie & Frequentie Genezing",
     "description": "Ervaar therapeutische frequenties en binaurale beats om diepe ontspanning te bevorderen, angst te verminderen en focus te verbeteren door wetenschappelijk onderbouwde geluidstherapie.",

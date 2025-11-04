@@ -42,6 +42,12 @@
       "description": "Sometimes the best way to deal with anxiety is through gentle distraction and play. This simple interactive activity helps redirect nervous energy while giving your mind a break from anxious thoughts.",
       "duration": "2-5 min"
     },
+    "fidgetSpinner": {
+      "name": "Online Fidget Spinner",
+      "short_description": "Steady restless hands with a calm, repeatable spinning motion on any device.",
+      "description": "Spin, release, and watch the momentum unwind. The simple tactile focus gives your hands something consistent to do while your mind follows an unfussy visual pattern—useful when you need a quiet outlet for excess energy.",
+      "duration": "1-3 min"
+    },
     "soundTherapy": {
       "name": "Sound Therapy",
       "short_description": "Healing frequencies that promote relaxation and mental clarity",

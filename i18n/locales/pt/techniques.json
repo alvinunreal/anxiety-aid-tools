@@ -42,6 +42,12 @@
       "description": "Às vezes, a melhor maneira de lidar com a ansiedade é através de distração suave e brincadeira. Esta atividade interativa ajuda a redirecionar a energia nervosa, dando ao(a) seu(sua) cérebro uma pausa dos pensamentos ansiosos.",
       "duration": "2-5 min"
     },
+    "fidgetSpinner": {
+      "name": "Fidget Spinner Online",
+      "short_description": "Acalme mãos inquietas com um giro suave e repetitivo em qualquer dispositivo.",
+      "description": "Gire, solte e observe o impulso diminuir. O foco tátil simples oferece algo constante para as mãos enquanto a mente acompanha um padrão visual discreto — útil quando você precisa de uma saída silenciosa para o excesso de energia.",
+      "duration": "1-3 min"
+    },
     "soundTherapy": {
       "name": "Terapia sonora",
       "short_description": "Frequências de cura que promovem relaxamento e clareza mental",

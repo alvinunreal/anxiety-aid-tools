@@ -1260,6 +1260,15 @@
       }
     }
   },
+  "fidgetSpinner": {
+    "aria": {
+      "spinnerLabel": "交互式指尖陀螺，可在焦虑时使用。拖动让它旋转，松开让它自行滑行。",
+      "status": {
+        "spinning": "陀螺旋转中",
+        "still": "陀螺静止"
+      }
+    }
+  },
   "soundTherapy": {
     "title": "声音疗法与频率治疗",
     "description": "体验经过科学验证的声音疗法，实现深度放松、减轻焦虑并提升专注力。",

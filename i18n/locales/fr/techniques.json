@@ -42,6 +42,12 @@
       "description": "Parfois, la meilleure façon de gérer l'anxiété est par une distraction douce et ludique. Cette activité interactive simple aide à rediriger l'énergie nerveuse tout en offrant à votre esprit une pause face aux pensées anxieuses.",
       "duration": "2-5 min"
     },
+    "fidgetSpinner": {
+      "name": "Fidget Spinner en Ligne",
+      "short_description": "Stabilisez des mains agitées avec un mouvement de rotation régulier, accessible sur tout appareil.",
+      "description": "Faites-le tourner, relâchez et observez l'élan se dissiper. Ce repère tactile simple offre à vos mains un geste constant tandis que votre esprit suit un motif visuel épuré—pratique quand vous avez besoin d'une sortie discrète pour l'excès d'énergie.",
+      "duration": "1-3 min"
+    },
     "soundTherapy": {
       "name": "Thérapie sonore",
       "short_description": "Fréquences curatives qui favorisent la relaxation et la clarté mentale",
