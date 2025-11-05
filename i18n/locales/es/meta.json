@@ -55,6 +55,10 @@
     "support": {
       "title": "Soporte - Anxiety Aid Tools",
       "description": "Obtén ayuda con Anxiety Aid Tools. FAQ, información de contacto y solución de problemas para nuestra aplicación de manejo de ansiedad."
+    },
+    "mobile": {
+      "title": "Aplicaciones Móviles - Anxiety Aid Tools para iOS y Android",
+      "description": "Descarga la aplicación móvil Anxiety Aid Tools para iOS y Android. Técnicas gratuitas de alivio de ansiedad en movimiento - ejercicios de respiración, anclaje y más."
     }
   }
 }

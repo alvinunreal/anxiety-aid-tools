@@ -55,6 +55,10 @@
     "support": {
       "title": "Support - Anxiety Aid Tools",
       "description": "Get help with Anxiety Aid Tools. FAQ, contact information, and troubleshooting for our anxiety management app."
+    },
+    "mobile": {
+      "title": "Mobile Apps - Anxiety Aid Tools for iOS & Android",
+      "description": "Download Anxiety Aid Tools mobile app for iOS and Android. Free anxiety relief techniques on the go - breathing exercises, grounding, and more."
     }
   }
 }
