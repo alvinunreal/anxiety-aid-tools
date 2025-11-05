@@ -55,6 +55,10 @@
     "support": {
       "title": "Ondersteuning - Anxiety Aid Tools",
       "description": "Krijg hulp met Anxiety Aid Tools. FAQ, contactinformatie en probleemoplossing voor onze angstmanagement app."
+    },
+    "mobile": {
+      "title": "Mobiele Apps - Anxiety Aid Tools voor iOS en Android",
+      "description": "Download de mobiele app Anxiety Aid Tools voor iOS en Android. Gratis angstverlichting technieken onderweg - ademhalingsoefeningen, grounding en meer."
     }
   }
 }

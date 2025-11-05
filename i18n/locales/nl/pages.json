@@ -58,6 +58,12 @@
       ]
     }
   },
+  "mobileAppBanner": {
+    "text": "Gratis mobiele apps nu beschikbaar",
+    "cta": "Meer informatie",
+    "dismiss": "Sluiten"
+  },
+
   "footer": {
     "title": "Anxiety Aid Tools",
     "description": "Gratis open source tools om u te helpen kalmte te vinden wanneer u die het meest nodig heeft.",
@@ -66,6 +72,61 @@
       "title": "Bijdragen",
       "github": "GitHub",
       "discussions": "Discussies"
+    }
+  },
+
+  "mobile": {
+    "title": "Mobiele Apps",
+    "description": "Neem Anxiety Aid Tools overal mee naartoe. Download onze app voor iOS en Android apparaten.",
+    "ios": {
+      "title": "iOS App",
+      "subtitle": "Beschikbaar op de App Store",
+      "description": "Download onze app van de Apple App Store voor uw iPhone of iPad. Krijg directe toegang tot alle angstverlichting technieken waar u ook bent.",
+      "button": "App Store"
+    },
+    "android": {
+      "title": "Android App",
+      "subtitle": "Directe APK Download",
+      "description": "Download de Android versie van Anxiety Aid Tools. We werken eraan om de app beschikbaar te maken op Google Play Store.",
+      "status": {
+        "title": "Binnenkort op Play Store",
+        "description": "We werken eraan om onze app te publiceren op Google Play Store. In de tussentijd kunt u het APK-bestand direct downloaden en installeren op uw Android-apparaat."
+      },
+      "button": "Download APK",
+      "instructions": {
+        "title": "Hoe APK te installeren op Android",
+        "steps": [
+          "Download het APK-bestand met de bovenstaande knop",
+          "Open de Instellingen van uw apparaat en ga naar Beveiliging of Privacy",
+          "Schakel 'Apps installeren uit onbekende bronnen' of 'Toestaan vanuit deze bron' in",
+          "Open het gedownloade APK-bestand vanuit uw Downloads-map",
+          "Volg de instructies op het scherm om de installatie te voltooien",
+          "Na installatie kunt u 'onbekende bronnen' uitschakelen voor beveiliging"
+        ]
+      }
+    },
+    "features": {
+      "title": "Mobiele App Functies",
+      "items": [
+        "Toegang tot alle angstverlichting technieken offline",
+        "Begeleide ademhalingsoefeningen met haptische feedback",
+        "Interactieve grounding en visualisatie tools",
+        "Houd uw voortgang en favoriete technieken bij",
+        "Donkere modus ondersteuning voor comfortabel gebruik op elk moment",
+        "Geen advertenties, geen tracking, volledig gratis en open source"
+      ]
+    },
+    "privacy": {
+      "title": "Uw Privacy is Belangrijk",
+      "description": "Al uw gegevens blijven op uw apparaat. We verzamelen, bewaren of delen geen persoonlijke informatie. Geen account vereist."
+    },
+    "support": {
+      "description": "Hulp nodig met de mobiele app of heeft u vragen?",
+      "link": "Bezoek Ondersteuningspagina"
+    },
+    "screenshots": {
+      "title": "App Voorbeeld",
+      "hint": "Scroll om meer te zien"
     }
   }
 }

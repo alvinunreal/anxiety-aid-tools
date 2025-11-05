@@ -58,6 +58,12 @@
       ]
     }
   },
+  "mobileAppBanner": {
+    "text": "Aplicaciones móviles gratuitas ya disponibles",
+    "cta": "Más información",
+    "dismiss": "Cerrar"
+  },
+
   "footer": {
     "title": "Anxiety Aid Tools",
     "description": "Herramientas gratuitas de código abierto para ayudarte a encontrar la calma cuando más lo necesitas.",
@@ -66,6 +72,61 @@
       "title": "Contribuir",
       "github": "GitHub",
       "discussions": "Discusiones"
+    }
+  },
+
+  "mobile": {
+    "title": "Aplicaciones Móviles",
+    "description": "Lleva Anxiety Aid Tools contigo a todas partes. Descarga nuestra aplicación para dispositivos iOS y Android.",
+    "ios": {
+      "title": "App iOS",
+      "subtitle": "Disponible en App Store",
+      "description": "Descarga nuestra aplicación desde Apple App Store para tu iPhone o iPad. Accede instantáneamente a todas las técnicas de alivio de ansiedad donde quiera que estés.",
+      "button": "App Store"
+    },
+    "android": {
+      "title": "App Android",
+      "subtitle": "Descarga Directa de APK",
+      "description": "Obtén la versión Android de Anxiety Aid Tools. Estamos trabajando para que la aplicación esté disponible en Google Play Store.",
+      "status": {
+        "title": "Próximamente en Play Store",
+        "description": "Estamos trabajando para publicar nuestra aplicación en Google Play Store. Mientras tanto, puedes descargar el archivo APK directamente e instalarlo en tu dispositivo Android."
+      },
+      "button": "Descargar APK",
+      "instructions": {
+        "title": "Cómo instalar APK en Android",
+        "steps": [
+          "Descarga el archivo APK usando el botón de arriba",
+          "Abre la Configuración de tu dispositivo y navega a Seguridad o Privacidad",
+          "Habilita 'Instalar aplicaciones de fuentes desconocidas' o 'Permitir desde esta fuente'",
+          "Abre el archivo APK descargado desde tu carpeta de Descargas",
+          "Sigue las instrucciones en pantalla para completar la instalación",
+          "Una vez instalado, puedes deshabilitar 'fuentes desconocidas' por seguridad"
+        ]
+      }
+    },
+    "features": {
+      "title": "Características de la Aplicación Móvil",
+      "items": [
+        "Accede a todas las técnicas de alivio de ansiedad sin conexión",
+        "Ejercicios de respiración guiada con retroalimentación háptica",
+        "Herramientas interactivas de anclaje y visualización",
+        "Rastrea tu progreso y técnicas favoritas",
+        "Soporte de modo oscuro para uso cómodo en cualquier momento",
+        "Sin anuncios, sin rastreo, completamente gratis y de código abierto"
+      ]
+    },
+    "privacy": {
+      "title": "Tu Privacidad Importa",
+      "description": "Todos tus datos permanecen en tu dispositivo. No recopilamos, almacenamos ni compartimos ninguna información personal. No se requiere cuenta."
+    },
+    "support": {
+      "description": "¿Necesitas ayuda con la aplicación móvil o tienes preguntas?",
+      "link": "Visitar Página de Soporte"
+    },
+    "screenshots": {
+      "title": "Vista Previa de la App",
+      "hint": "Desliza para ver más"
     }
   }
 }

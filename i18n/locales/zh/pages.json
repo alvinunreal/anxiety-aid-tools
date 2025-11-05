@@ -53,6 +53,12 @@
       ]
     }
   },
+  "mobileAppBanner": {
+    "text": "免费移动应用现已推出",
+    "cta": "了解更多",
+    "dismiss": "关闭"
+  },
+
   "footer": {
     "title": "焦虑舒缓工具集",
     "description": "免费开源的身心舒缓工具，助您在需要时重获内心平静。",
@@ -61,6 +67,61 @@
       "title": "参与贡献",
       "github": "GitHub",
       "discussions": "社区讨论"
+    }
+  },
+
+  "mobile": {
+    "title": "移动应用",
+    "description": "随身携带焦虑舒缓工具。下载适用于 iOS 和 Android 设备的应用。",
+    "ios": {
+      "title": "iOS 应用",
+      "subtitle": "App Store 可用",
+      "description": "从 Apple App Store 下载适用于 iPhone 或 iPad 的应用。随时随地即时访问所有焦虑缓解技巧。",
+      "button": "App Store"
+    },
+    "android": {
+      "title": "Android 应用",
+      "subtitle": "直接下载 APK",
+      "description": "获取焦虑舒缓工具的 Android 版本。我们正在努力将应用发布到 Google Play 商店。",
+      "status": {
+        "title": "即将登陆 Play 商店",
+        "description": "我们正在努力将应用发布到 Google Play 商店。与此同时，您可以直接下载 APK 文件并安装到 Android 设备上。"
+      },
+      "button": "下载 APK",
+      "instructions": {
+        "title": "如何在 Android 上安装 APK",
+        "steps": [
+          "使用上方按钮下载 APK 文件",
+          "打开设备设置并导航至安全或隐私",
+          "启用\"安装未知来源的应用\"或\"允许来自此来源\"",
+          "从下载文件夹打开下载的 APK 文件",
+          "按照屏幕上的说明完成安装",
+          "安装完成后，您可以关闭\"未知来源\"以保证安全"
+        ]
+      }
+    },
+    "features": {
+      "title": "移动应用功能",
+      "items": [
+        "离线访问所有焦虑缓解技巧",
+        "带触觉反馈的引导式呼吸练习",
+        "交互式接地和可视化工具",
+        "追踪您的进度和喜爱的技巧",
+        "支持深色模式，随时舒适使用",
+        "无广告、无跟踪，完全免费且开源"
+      ]
+    },
+    "privacy": {
+      "title": "您的隐私很重要",
+      "description": "您的所有数据都保留在您的设备上。我们不收集、存储或共享任何个人信息。无需账户。"
+    },
+    "support": {
+      "description": "需要移动应用帮助或有疑问？",
+      "link": "访问支持页面"
+    },
+    "screenshots": {
+      "title": "应用预览",
+      "hint": "滑动查看更多"
     }
   }
 }
