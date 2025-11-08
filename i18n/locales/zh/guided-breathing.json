@@ -1,0 +1,142 @@
+{
+  "guidedBreathing": {
+    "interface": {
+      "begin": "开始",
+      "elapsed": "已过",
+      "sessionProgress": "练习进度",
+      "currentPhase": "当前阶段",
+      "beginExercise": "开始练习",
+      "resume": "继续",
+      "pause": "暂停",
+      "stop": "停止",
+      "exerciseComplete": "练习完成",
+      "excellentWork": "做得很好!您已在{totalTime}内完成了{completedCycles}个{techniqueName}周期。",
+      "breathingOptimized": "呼吸已优化",
+      "mindCentered": "心神已集中",
+      "ready": "准备就绪",
+      "breatheIn": "吸气",
+      "breatheOut": "呼气",
+      "hold": "屏住",
+      "seconds": "秒",
+      "cycles": "周期",
+      "pattern": "模式"
+    },
+    "techniques": {
+      "boxBreathing": {
+        "name": "方块呼吸法",
+        "description": "均等节奏带来平静专注",
+        "timing": "4-4-4-4",
+        "bestFor": "专注与集中"
+      },
+      "calming": {
+        "name": "4-7-8 技巧",
+        "description": "延长屏气深度放松",
+        "timing": "4-7-8",
+        "bestFor": "深度放松与睡眠"
+      },
+      "energizing": {
+        "name": "提神 4-4-6",
+        "description": "平衡模式提升警觉",
+        "timing": "4-4-6",
+        "bestFor": "能量与思维清晰"
+      },
+      "quickReset": {
+        "name": "快速重置",
+        "description": "快速技巧立即缓解",
+        "timing": "3-3-3",
+        "bestFor": "快速缓解压力"
+      }
+    },
+    "techniquesOverview": {
+      "boxBreathing": {
+        "title": "方块呼吸法(4-4-4-4)",
+        "description": "所有阶段的均等时间创造思维清晰和专注。海豹突击队和紧急救援人员用它在压力下保持冷静。对称的模式有助于调节您的神经系统并改善注意力。",
+        "bestFor": "最适合:专注、集中、压力管理"
+      },
+      "calming": {
+        "title": "4-7-8 平静法",
+        "description": "延长的屏气使氧气充分饱和您的血液,而长时间的呼气会激活您的副交感神经系统。这种技巧对于减轻焦虑和准备睡眠特别有效。",
+        "bestFor": "最适合:缓解焦虑、睡眠准备、深度放松"
+      },
+      "energizing": {
+        "title": "4-4-6 提神法",
+        "description": "平衡的模式在保持控制的同时增加氧气流动。适度的呼气有助于清除大脑迷雾并提高警觉性,而不会导致过度换气。",
+        "bestFor": "最适合:思维清晰、能量提升、午间重置"
+      },
+      "quickReset": {
+        "title": "3-3-3 快速重置",
+        "description": "当您只有一两分钟时,更快的节奏可立即缓解压力。非常适合急性焦虑时刻或需要快速情绪调节时。",
+        "bestFor": "最适合:快速缓解压力、紧急平静、繁忙日程"
+      }
+    },
+    "howItWorks": {
+      "title": "引导呼吸如何起作用",
+      "description1": "结构化的呼吸模式通过向您的神经系统发出清晰的节奏信号来工作,使您从压力模式转换到平静模式。当您遵循特定的计数时—如4-7-8或方块呼吸—您正在控制一个自动过程,这会激活连接大脑与心脏和消化系统的迷走神经。",
+      "description2": "不同的模式服务于不同的目的。均等时间(如方块呼吸)通过平衡您的神经系统创造思维清晰和专注。延长的呼气(如4-7-8)通过更强烈地激活您的副交感神经系统触发更深的放松。较短的模式在您需要立即平静时提供快速缓解。",
+      "description3": "计数本身就是治疗性的—它给您的思维一些具体的东西来专注,打断焦虑的想法,而您的身体自然地跟随节奏进入更平静的状态。",
+      "rhythmicControl": {
+        "title": "节奏控制",
+        "description": "遵循特定的计数使您的思维集中,同时向您的神经系统发出从压力转向平静的信号。"
+      },
+      "patternVariety": {
+        "title": "模式多样性",
+        "description": "不同的呼吸比例服务于不同的需求—均等时间用于专注,延长呼气用于深度放松,较短模式用于快速缓解。"
+      },
+      "neuralRegulation": {
+        "title": "神经调节",
+        "description": "结构化呼吸激活迷走神经,它控制您的心率、消化和压力反应,促进系统性的平静。"
+      }
+    },
+    "science": {
+      "title": "引导呼吸背后的科学",
+      "description": "多项临床试验表明,引导呼吸技术可产生焦虑、压力激素和生理唤醒的可测量减少。一项<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5455070/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">为期8周、包含20次15分钟膈肌呼吸训练</a>的计划,以每分钟4次呼吸的频率,在健康成年人中将PANAS量表上的负面情绪降低了2.55分,并将唾液皮质醇水平降低了1.32-1.66 ng/mL。",
+      "research": {
+        "anxietyReduction": {
+          "title": "快速减轻焦虑",
+          "description": "在COVID-19患者中,<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11535222/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">5天的引导深呼吸</a>(每天4次,每次15-20分钟)将DASS-21上的焦虑评分从14.86降至8.44—改善了43%—而对照组显示变化很小。"
+        },
+        "panicReduction": {
+          "title": "惊恐发作管理",
+          "description": "一项<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9954474/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">对16项研究的回顾</a>发现,在2-12个月内以每分钟8-10次呼吸的速度缓慢呼吸,减少了惊恐发作的频率,并将患有惊恐障碍和广场恐惧症的患者的CO2水平从低碳酸血症正常化至35-40 mmHg。"
+        },
+        "gadImprovement": {
+          "title": "广泛性焦虑缓解",
+          "description": "在41名广泛性焦虑症患者中,<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8989478/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3个月的每日呼吸练习</a>(15-20分钟,每周4天以上)将BAI评分从40.90降至13.24—改善了68%—GAD-7评分从19.33降至5.86。"
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "何时练习",
+      "items": [
+        "当您感到焦虑或不堪重负并需要立即缓解时",
+        "睡前平息奔腾的思绪并准备休息",
+        "在紧张的工作情况下或重要事件之前",
+        "作为日常练习以建立长期压力恢复力"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "您会注意到什么",
+      "items": [
+        "练习的前1-2分钟内立即产生镇静效果",
+        "心率变慢,全身身体紧张度降低",
+        "随着氧气流动改善和焦虑想法平息,思维更清晰",
+        "通过持续的日常练习,更好地应对压力的能力"
+      ]
+    },
+    "tips": {
+      "title": "获得最佳效果的技巧",
+      "technique": {
+        "title": "技巧",
+        "description": "在尝试其他模式之前,至少坚持一种模式一周。单一技巧的一致性建立更深的熟悉度和有效性。"
+      },
+      "environment": {
+        "title": "环境",
+        "description": "找一个安静的空间,不会被打扰。舒适地坐着,背部有支撑,肩膀放松。"
+      },
+      "progression": {
+        "title": "进展",
+        "description": "从较短的练习(2-3分钟)开始,随着舒适度的增加逐渐延长。不要强迫呼吸—在模式中找到您的自然节奏。"
+      }
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "guidedBreathing": {
+    "interface": {
+      "begin": "Comenzar",
+      "elapsed": "transcurrido",
+      "sessionProgress": "Progreso de la Sesión",
+      "currentPhase": "Fase Actual",
+      "beginExercise": "Comenzar Ejercicio",
+      "resume": "Reanudar",
+      "pause": "Pausar",
+      "stop": "Detener",
+      "exerciseComplete": "Ejercicio Completado",
+      "excellentWork": "¡Excelente trabajo! Has completado {completedCycles} ciclos de {techniqueName} en {totalTime}.",
+      "breathingOptimized": "Respiración optimizada",
+      "mindCentered": "Mente centrada",
+      "ready": "listo",
+      "breatheIn": "inhalar",
+      "breatheOut": "exhalar",
+      "hold": "sostener",
+      "seconds": "segundos",
+      "cycles": "ciclos",
+      "pattern": "patrón"
+    },
+    "techniques": {
+      "boxBreathing": {
+        "name": "Respiración Cuadrada",
+        "description": "Tiempo igual para enfoque calmado",
+        "timing": "4-4-4-4",
+        "bestFor": "Enfoque y concentración"
+      },
+      "calming": {
+        "name": "Técnica 4-7-8",
+        "description": "Retención prolongada para relajación profunda",
+        "timing": "4-7-8",
+        "bestFor": "Relajación profunda y sueño"
+      },
+      "energizing": {
+        "name": "Energizante 4-4-6",
+        "description": "Patrón equilibrado para el estado de alerta",
+        "timing": "4-4-6",
+        "bestFor": "Energía y claridad mental"
+      },
+      "quickReset": {
+        "name": "Reinicio Rápido",
+        "description": "Técnica rápida para alivio inmediato",
+        "timing": "3-3-3",
+        "bestFor": "Alivio rápido del estrés"
+      }
+    },
+    "techniquesOverview": {
+      "boxBreathing": {
+        "title": "Respiración Cuadrada (4-4-4-4)",
+        "description": "El tiempo igual para todas las fases crea claridad mental y enfoque. Utilizado por los Navy SEALs y los servicios de emergencia para mantener la calma bajo presión. El patrón simétrico ayuda a regular tu sistema nervioso y mejorar la concentración.",
+        "bestFor": "Mejor para: Enfoque, concentración, manejo del estrés"
+      },
+      "calming": {
+        "title": "4-7-8 Calmante",
+        "description": "La retención prolongada permite que el oxígeno sature completamente tu sangre, mientras que la exhalación larga activa tu sistema nervioso parasimpático. Esta técnica es particularmente efectiva para reducir la ansiedad y prepararse para dormir.",
+        "bestFor": "Mejor para: Alivio de la ansiedad, preparación para el sueño, relajación profunda"
+      },
+      "energizing": {
+        "title": "4-4-6 Energizante",
+        "description": "Patrón equilibrado que aumenta el flujo de oxígeno mientras mantiene el control. La exhalación moderada ayuda a despejar la niebla mental y aumentar el estado de alerta sin causar hiperventilación.",
+        "bestFor": "Mejor para: Claridad mental, impulso de energía, reinicio de mediodía"
+      },
+      "quickReset": {
+        "title": "3-3-3 Reinicio Rápido",
+        "description": "Ritmo más rápido para alivio inmediato del estrés cuando solo tienes uno o dos minutos. Perfecto para momentos de ansiedad aguda o cuando necesitas una regulación emocional rápida.",
+        "bestFor": "Mejor para: Alivio rápido del estrés, calma de emergencia, horarios ocupados"
+      }
+    },
+    "howItWorks": {
+      "title": "Cómo Funciona la Respiración Guiada",
+      "description1": "Los patrones de respiración estructurados funcionan dando a tu sistema nervioso señales claras y rítmicas que te cambian del modo de estrés al modo de calma. Cuando sigues un conteo específico—como 4-7-8 o respiración cuadrada—estás tomando el control de un proceso automático, lo que activa el nervio vago que conecta tu cerebro con tu corazón y sistema digestivo.",
+      "description2": "Diferentes patrones sirven diferentes propósitos. El tiempo igual (como la respiración cuadrada) crea claridad mental y enfoque al equilibrar tu sistema nervioso. Las exhalaciones prolongadas (como 4-7-8) desencadenan una relajación más profunda al activar tu sistema nervioso parasimpático más fuertemente. Los patrones más cortos proporcionan alivio rápido cuando necesitas calma inmediata.",
+      "description3": "El conteo en sí es terapéutico—le da a tu mente algo concreto en qué enfocarse, interrumpiendo los pensamientos ansiosos mientras tu cuerpo sigue naturalmente el ritmo hacia un estado más calmado.",
+      "rhythmicControl": {
+        "title": "Control Rítmico",
+        "description": "Seguir un conteo específico le da enfoque a tu mente mientras señala a tu sistema nervioso que cambie del estrés a la calma."
+      },
+      "patternVariety": {
+        "title": "Variedad de Patrones",
+        "description": "Diferentes proporciones de respiración sirven diferentes necesidades—tiempo igual para enfoque, exhalaciones prolongadas para relajación profunda, patrones más cortos para alivio rápido."
+      },
+      "neuralRegulation": {
+        "title": "Regulación Neural",
+        "description": "La respiración estructurada activa el nervio vago, que controla tu frecuencia cardíaca, digestión y respuesta al estrés, promoviendo una calma sistemática."
+      }
+    },
+    "science": {
+      "title": "La Ciencia Detrás de la Respiración Guiada",
+      "description": "Múltiples ensayos clínicos demuestran que las técnicas de respiración guiada producen reducciones medibles en la ansiedad, las hormonas del estrés y la excitación fisiológica. Un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5455070/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">programa de 8 semanas con 20 sesiones de 15 minutos de respiración diafragmática</a> a 4 respiraciones por minuto redujo el afecto negativo en 2.55 puntos en la escala PANAS y disminuyó los niveles de cortisol salival en 1.32-1.66 ng/mL en adultos sanos.",
+      "research": {
+        "anxietyReduction": {
+          "title": "Reducción Rápida de la Ansiedad",
+          "description": "En pacientes con COVID-19, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11535222/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">5 días de respiración profunda guiada</a> (4 sesiones diarias, 15-20 minutos cada una) redujeron las puntuaciones de ansiedad en DASS-21 de 14.86 a 8.44—una mejora del 43%—mientras que los controles mostraron un cambio mínimo."
+        },
+        "panicReduction": {
+          "title": "Manejo de Ataques de Pánico",
+          "description": "Una <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9954474/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">revisión de 16 estudios</a> encontró que la respiración lenta a 8-10 respiraciones por minuto durante 2-12 meses redujo la frecuencia de ataques de pánico y normalizó los niveles de CO2 de hipocápnico a 35-40 mmHg en pacientes con trastorno de pánico y agorafobia."
+        },
+        "gadImprovement": {
+          "title": "Alivio de la Ansiedad Generalizada",
+          "description": "En 41 pacientes con TAG, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8989478/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3 meses de práctica diaria de respiración</a> (15-20 minutos, 4+ días/semana) redujeron las puntuaciones BAI de 40.90 a 13.24—una mejora del 68%—y las puntuaciones GAD-7 de 19.33 a 5.86."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Cuándo Practicar",
+      "items": [
+        "Cuando te sientas ansioso o abrumado y necesites alivio inmediato",
+        "Antes de dormir para calmar pensamientos acelerados y prepararte para descansar",
+        "Durante situaciones laborales estresantes o antes de eventos importantes",
+        "Como práctica diaria para desarrollar resiliencia al estrés a largo plazo"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Lo Que Notarás",
+      "items": [
+        "Efecto calmante inmediato dentro de los primeros 1-2 minutos de práctica",
+        "Frecuencia cardíaca más lenta y tensión física reducida en todo tu cuerpo",
+        "Pensamiento más claro a medida que mejora el flujo de oxígeno y los pensamientos de ansiedad se calman",
+        "Mejor capacidad para manejar el estrés con práctica diaria consistente"
+      ]
+    },
+    "tips": {
+      "title": "Consejos Para Mejores Resultados",
+      "technique": {
+        "title": "Técnica",
+        "description": "Comienza con un patrón durante al menos una semana antes de probar otros. La consistencia con una sola técnica construye una familiaridad y efectividad más profundas."
+      },
+      "environment": {
+        "title": "Ambiente",
+        "description": "Encuentra un espacio tranquilo donde no te interrumpan. Siéntate cómodamente con la espalda apoyada y los hombros relajados."
+      },
+      "progression": {
+        "title": "Progresión",
+        "description": "Comienza con sesiones más cortas (2-3 minutos) y extiéndelas gradualmente a medida que aumenta la comodidad. No fuerces la respiración—encuentra tu ritmo natural dentro del patrón."
+      }
+    }
+  }
+}

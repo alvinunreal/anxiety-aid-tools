@@ -1,0 +1,15 @@
+{
+  "fidgetSpinner": {
+    "audioMute": "Mute Sound",
+    "audioUnmute": "Unmute Sound",
+    "aria": {
+      "spinnerLabel": "Interactive fidget spinner. Click and drag to spin, or press Space/Enter to boost spin.",
+      "muteAudio": "Mute spinner sound effects",
+      "unmuteAudio": "Unmute spinner sound effects",
+      "status": {
+        "spinning": "Spinner is spinning",
+        "still": "Spinner is still"
+      }
+    }
+  }
+}

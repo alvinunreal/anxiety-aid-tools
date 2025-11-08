@@ -1,0 +1,177 @@
+{
+  "thoughtLabeling": {
+    "interface": {
+      "title": "Etiquetado de Pensamientos",
+      "subtitle": "Observa y categoriza tus pensamientos",
+      "beginExercise": "Comenzar Ejercicio",
+      "thoughtsLabeled": "pensamientos etiquetados",
+      "labelingActiveThought": "Etiquetando pensamiento activo",
+      "readyForNextThought": "Listo para el siguiente pensamiento",
+      "elapsed": "transcurrido",
+      "yourLabeledThoughts": "Tus Pensamientos Etiquetados",
+      "whatsOnYourMind": "¿Qué Tienes en Mente?",
+      "labelThisThought": "Etiquetar Este Pensamiento",
+      "chooseLabelsThatDescribe": "Elige las etiquetas que mejor describan este pensamiento:",
+      "writeAnxiousThought": "Escribe un pensamiento ansioso que estés teniendo ahora:",
+      "examplePlaceholder": "Ejemplo: 'Me preocupa que voy a arruinar mi presentación mañana...'",
+      "labelThisThoughtButton": "Etiquetar Este Pensamiento",
+      "yourThought": "Tu Pensamiento:",
+      "cancel": "Cancelar",
+      "continue": "Continuar",
+      "practiceAgain": "Practicar de Nuevo"
+    },
+    "benefits": {
+      "awareness": {
+        "title": "Consciencia",
+        "description": "Notar pensamientos sin ser consumido por ellos"
+      },
+      "balance": {
+        "title": "Equilibrio",
+        "description": "Crear distancia saludable del pensamiento ansioso"
+      },
+      "clarity": {
+        "title": "Claridad",
+        "description": "Comprender patrones en tu pensamiento"
+      }
+    },
+    "completion": {
+      "title": "Excelente Autoconocimiento",
+      "description": "Has etiquetado exitosamente {count} pensamiento{plural} en {time}. Esta práctica ayuda a crear una distancia saludable del pensamiento ansioso.",
+      "sessionInsights": "Perspectivas de la Sesión",
+      "benefits": {
+        "awarenessIncreased": "Consciencia aumentada",
+        "thoughtsOrganized": "Pensamientos organizados",
+        "emotionalDistanceCreated": "Distancia emocional creada"
+      }
+    },
+    "insights": {
+      "commonPattern": {
+        "title": "Patrón Común Identificado",
+        "description": "La mayoría de tus pensamientos fueron etiquetados como \"{labelName}\" - reconocer este patrón es el primer paso para manejarlo."
+      },
+      "strongAwareness": {
+        "title": "Fuerte Autoconocimiento",
+        "description": "Has mostrado una excelente capacidad para observar y categorizar tus pensamientos objetivamente."
+      }
+    },
+    "labels": {
+      "worry": {
+        "name": "Preocupación",
+        "description": "Inquietudes sobre eventos o resultados futuros"
+      },
+      "catastrophic": {
+        "name": "Catastrófico",
+        "description": "Imaginar escenarios del peor caso"
+      },
+      "selfDoubt": {
+        "name": "Duda Personal",
+        "description": "Cuestionar tus habilidades o valor"
+      },
+      "perfectionist": {
+        "name": "Perfeccionista",
+        "description": "Establecer estándares irrealmente altos"
+      },
+      "comparison": {
+        "name": "Comparación",
+        "description": "Medirte contra otros"
+      },
+      "rumination": {
+        "name": "Rumiación",
+        "description": "Pensar repetidamente sobre eventos pasados"
+      },
+      "control": {
+        "name": "Control",
+        "description": "Querer controlar situaciones incontrolables"
+      },
+      "rejection": {
+        "name": "Rechazo",
+        "description": "Miedo a ser rechazado o abandonado"
+      },
+      "performance": {
+        "name": "Rendimiento",
+        "description": "Ansiedad sobre cómo te desempeñarás"
+      },
+      "health": {
+        "name": "Salud",
+        "description": "Preocupaciones sobre salud física o mental"
+      },
+      "social": {
+        "name": "Social",
+        "description": "Preocupaciones sobre situaciones sociales o relaciones"
+      },
+      "financial": {
+        "name": "Financiero",
+        "description": "Estrés y preocupaciones relacionadas con el dinero"
+      }
+    },
+    "howItWorks": {
+      "title": "Cómo Funciona el Etiquetado de Pensamientos",
+      "description1": "Cuando estás ansioso, tus pensamientos pueden sentirse abrumadores y completamente ciertos. El etiquetado de pensamientos te ayuda a dar un paso atrás y ver los pensamientos como eventos mentales—patrones temporales en tu mente, no verdades absolutas. Al simplemente nombrar lo que estás experimentando (\"preocupación\", \"duda personal\", \"catastrofización\"), creas una pequeña pero poderosa brecha entre tú y el pensamiento.",
+      "description2": "Esta práctica activa tu corteza prefrontal—la parte racional y observadora de tu cerebro—mientras reduce la actividad en la amígdala, el centro de alarma del cerebro. En lugar de quedar atrapado en una espiral de pensamiento ansioso, te conviertes en el testigo de tus pensamientos. Este cambio de \"Estoy ansioso\" a \"Estoy teniendo pensamientos ansiosos\" cambia fundamentalmente tu relación con la ansiedad.",
+      "description3": "Con práctica regular, el etiquetado te ayuda a reconocer patrones de pensamiento antes de que se conviertan en espiral. Empezarás a notar: \"Este es ese pensamiento catastrófico de nuevo\" o \"Aquí está mi patrón perfeccionista\". El reconocimiento se convierte en tu primera línea de defensa, permitiéndote responder hábilmente en lugar de reaccionar automáticamente.",
+      "cognitiveDefusion": {
+        "title": "Defusión Cognitiva",
+        "description": "Etiquetar te separa de tus pensamientos, reduciendo su agarre emocional y credibilidad."
+      },
+      "emotionalRegulation": {
+        "title": "Regulación Emocional",
+        "description": "Nombrar activa tu cerebro racional mientras calma la amígdala, disminuyendo la reactividad emocional."
+      },
+      "patternRecognition": {
+        "title": "Reconocimiento de Patrones",
+        "description": "El etiquetado regular revela patrones de pensamiento recurrentes, haciéndolos más fáciles de manejar con el tiempo."
+      }
+    },
+    "science": {
+      "title": "La Ciencia Detrás del Etiquetado de Pensamientos",
+      "description": "La investigación demuestra que el etiquetado de pensamientos produce reducciones medibles en los síntomas de ansiedad y la reactividad emocional. Un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7270208/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">estudio de sujeto único con una vocalista</a> usando etiquetado de pensamientos como parte de la defusión cognitiva redujo las puntuaciones de credibilidad de pensamientos ansiosos de 94 a 28 en el seguimiento de 3 meses—una mejora del 70%—con la inflexibilidad psicológica disminuyendo de 39 a 12 en la escala AAQ-2.",
+      "research": {
+        "performanceAnxiety": {
+          "title": "Alivio de Ansiedad de Rendimiento",
+          "description": "En una vocalista con ansiedad severa de rendimiento musical, la <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7270208/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">intervención de etiquetado de pensamientos</a> redujo la Credibilidad en Pensamientos Ansiosos de 94 a 28 (mejora del 70%) y la inflexibilidad psicológica de 39 a 12 (mejora del 69%) en el seguimiento de 3 meses, con índices de cambio confiables de -8.74 y -10.92 respectivamente."
+        },
+        "mindfulnessEnhancement": {
+          "title": "Mejora de Habilidades de Mindfulness",
+          "description": "Un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5801080/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">programa de meditación de 8 semanas</a> que enfatiza el etiquetado de pensamientos aumentó significativamente el uso de etiquetado de los participantes (F(1,28)=58.00, p<0.001, d=2.88) y la no reactividad a experiencias internas (F(1,29)=38.35, p<0.001, d=2.30), apoyando un mejor manejo de pensamientos que provocan ansiedad."
+        },
+        "attentionControl": {
+          "title": "Control de Atención Mejorado",
+          "description": "Solo <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5329004/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3 días de entrenamiento de mindfulness</a> con etiquetado de pensamientos redujeron la divagación mental y mejoraron la atención sostenida en 9.84 puntos (p=0.003), ayudando a interrumpir el ciclo de rumiación que alimenta la ansiedad."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Cuándo Practicar",
+      "items": [
+        "Cuando notes pensamientos repetitivos o intrusivos girando en tu mente.",
+        "Antes de situaciones de alta presión donde la duda personal o la preocupación típicamente surgen.",
+        "Durante momentos de abrumación cuando los pensamientos se sienten caóticos e inmanejables.",
+        "Como parte de la práctica diaria de mindfulness para construir consciencia de patrones de pensamiento."
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Lo Que Notarás",
+      "items": [
+        "Reducción inmediata en la intensidad y credibilidad de los pensamientos ansiosos.",
+        "Mayor distancia emocional, haciendo que los pensamientos se sientan menos personales y consumidores.",
+        "Reconocimiento de patrones recurrentes, ayudándote a anticiparlos y manejarlos.",
+        "Capacidad mejorada para observar pensamientos sin reaccionar automáticamente a ellos."
+      ]
+    },
+    "tips": {
+      "title": "Consejos Para Mejores Resultados",
+      "observation": {
+        "title": "Postura de Observador",
+        "description": "Acércate a tus pensamientos con curiosidad, no juicio. Eres un científico estudiando tu mente, no un crítico condenándola."
+      },
+      "consistency": {
+        "title": "Construir el Hábito",
+        "description": "Practica el etiquetado durante todo el día, no solo durante picos de ansiedad. El uso regular fortalece tu capacidad de crear distancia de los pensamientos."
+      },
+      "simplicity": {
+        "title": "Mantener Etiquetas Simples",
+        "description": "Usa etiquetas cortas y claras como \"preocupación\", \"juicio\" o \"catastrofización\". Estás identificando patrones, no escribiendo ensayos."
+      }
+    }
+  }
+}

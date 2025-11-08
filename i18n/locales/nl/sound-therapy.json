@@ -1,0 +1,165 @@
+{
+  "soundTherapy": {
+    "title": "Geluidtherapie & Frequentiegenezing",
+    "description": "Ervaar therapeutische frequenties en binaurale beats om diepe ontspanning te bevorderen, angst te verminderen en focus te verbeteren door wetenschappelijk onderbouwde geluidtherapie.",
+    "interface": {
+      "frequency": "Frequentie",
+      "binauralBeats": "Binaurale Beats",
+      "modulation": "Modulatie",
+      "volume": "Volume",
+      "startSession": "Start Geluidtherapie",
+      "stopSession": "Stop Sessie"
+    },
+    "playingState": {
+      "description": "Laat de helende trillingen over je heen spoelen. Focus op je ademhaling en laat de frequenties je leiden naar diepe ontspanning.",
+      "instructions": "Sluit je ogen en sta de trillingen toe diep door te dringen, om vrede te brengen aan je geest en lichaam."
+    },
+    "frequencies": [
+      {
+        "name": "396Hz",
+        "description": "Bevrijding van angst en schuld"
+      },
+      {
+        "name": "417Hz",
+        "description": "Verandering en transformatie vergemakkelijken"
+      },
+      {
+        "name": "528Hz",
+        "description": "Liefdesfrequentie en DNA-herstel"
+      },
+      {
+        "name": "639Hz",
+        "description": "Harmonieuze relaties"
+      },
+      {
+        "name": "741Hz",
+        "description": "Intuïtie en expressie ontwaken"
+      },
+      {
+        "name": "852Hz",
+        "description": "Terugkeer naar spirituele orde"
+      },
+      {
+        "name": "963Hz",
+        "description": "Verbinding met universeel bewustzijn"
+      },
+      {
+        "name": "174Hz",
+        "description": "Natuurlijk anestheticum en pijnverlichting"
+      }
+    ],
+    "binauralBeats": [
+      {
+        "name": "Geen",
+        "description": "Pure frequentie"
+      },
+      {
+        "name": "Delta 2Hz",
+        "description": "Diepe slaap"
+      },
+      {
+        "name": "Theta 4Hz",
+        "description": "Diepe meditatie"
+      },
+      {
+        "name": "Alpha 8Hz",
+        "description": "Ontspannen focus"
+      },
+      {
+        "name": "Beta 15Hz",
+        "description": "Waakzaam bewustzijn"
+      }
+    ],
+    "modulation": [
+      {
+        "name": "Uit",
+        "description": "Geen modulatie"
+      },
+      {
+        "name": "Zeer Subtiel",
+        "description": "Nauwelijks waarneembaar"
+      },
+      {
+        "name": "Zacht",
+        "description": "Zacht ademhalingseffect"
+      },
+      {
+        "name": "Gematigd",
+        "description": "Merkbare golven"
+      },
+      {
+        "name": "Sterk",
+        "description": "Diepe pulsering"
+      }
+    ],
+    "howItWorks": {
+      "title": "Hoe Geluidtherapie Werkt",
+      "description1": "Geluidtherapie gebruikt specifieke frequenties en binaurale beats om direct invloed uit te oefenen op de elektrische activiteit van je hersenen. Wanneer je naar twee licht verschillende tonen in elk oor luistert, creëert je brein een derde 'fantoom' frequentie—de binaurale beat—die je hersengolven kan leiden naar toestanden van diepe ontspanning, focus of kalmte.",
+      "description2": "Verschillende frequenties resoneren met verschillende delen van je zenuwstelsel. Theta-golven (4-8 Hz) bevorderen meditatie en angstverlichting, terwijl alfa-golven (8-12 Hz) ontspannen alertheid verbeteren. De pure tonen creëren ook sympathetische trillingen in je lichaamsweefsels, wat fysieke ontspanning bevordert naast mentale kalmte.",
+      "description3": "Met consistent gebruik kan geluidtherapie helpen om de basistoestand van je zenuwstelsel opnieuw te trainen, waardoor kalmte gemakkelijker toegankelijk wordt, zelfs zonder de audio. Onderzoek toont aan dat deze effecten meetbaar zijn in hersenscans, hartslagvariabiliteit en stresshormoonspiegels.",
+      "brainwaveEntrainment": {
+        "title": "Hersengolf-Entrainment",
+        "description": "Je hersenen synchroniseren met externe ritmische prikkels, die elektrische activiteit leiden naar therapeutische patronen."
+      },
+      "autonomicBalance": {
+        "title": "Autonoom Evenwicht",
+        "description": "Specifieke frequenties activeren het parasympathische zenuwstelsel, verlagen de hartslag en verminderen cortisolproductie."
+      },
+      "physiologicalResonance": {
+        "title": "Fysiologische Resonantie",
+        "description": "Geluidstrillingen creëren subtiele fysieke effecten door je hele lichaam, waardoor spierspanning wordt vrijgemaakt en circulatie wordt bevorderd."
+      }
+    },
+    "science": {
+      "title": "De Wetenschap Achter Geluidtherapie",
+      "description": "Geluidtherapie wordt ondersteund door rigoureus klinisch onderzoek dat meetbare verminderingen in angst, stress en fysiologische spanning aantoont. Een <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5871151/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">onderzoek met 62 deelnemers</a> toonde aan dat Tibetaanse klankschaal-meditatie angstscores verlaagde met 0,67 punten in het algemeen en 0,89 punten bij beginners, waarbij spanning met 1,12 punten afnam. Meerdere studies bevestigen dat op geluid gebaseerde interventies consistente, meetbare voordelen opleveren.",
+      "research": {
+        "proceduralAnxiety": {
+          "title": "Procedurele Angstvermindering",
+          "description": "Bij 112 patiënten die een bronchoscopie ondergingen, verlaagde <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9276398/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">binaurale beat-audio</a> angstscores met 7,26 punten en verlaagde de systolische bloeddruk met 9,89 mmHg—significant beter dan muziek of geen interventie."
+        },
+        "thetaBeatsAddiction": {
+          "title": "Theta Beats voor Comorbide Angst",
+          "description": "Acht sessies van 20 minuten met <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11811546/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">7,5 Hz theta binaurale beats</a> bij 30 opioïdafhankelijke mannen verminderden angstinventaris-scores van 27,47 naar 10,00—een verbetering van 64% met grote effectgrootte (η²=0,949)."
+        },
+        "emergencyStaff": {
+          "title": "Stressverlichting in Hoge-Druk Omgevingen",
+          "description": "Onder 54 spoedeisende hulp verpleegkundigen tijdens COVID-19, verlaagden <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9534204/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">15 minuten 432 Hz muziek</a> de mediane angstscores van 34 naar 29, verminderde de ademhalingsfrequentie met 2,7 ademhalingen/min en verlaagde de systolische bloeddruk met 3,8 mmHg."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Wanneer Te Oefenen",
+      "items": [
+        "Wanneer je je overweldigd, angstig of niet in staat voelt om je geest te kalmeren",
+        "Voor medische procedures, stressvolle gebeurtenissen of belangrijke gesprekken om je zenuwstelsel te kalmeren",
+        "Tijdens acute angst- of paniekepisodes om de stressreactie te onderbreken",
+        "Voor het slapengaan om diepe ontspanning te bevorderen en voor te bereiden op herstellende slaap"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Wat Je Zult Opmerken",
+      "items": [
+        "Onmiddellijk kalmerend effect binnen de eerste 1-2 minuten terwijl je zenuwstelsel begint te reageren",
+        "Langzamere hartslag, diepere ademhaling en verminderde spierspanning door je hele lichaam",
+        "Verhoogde mentale helderheid en emotionele afstand van angstige gedachten",
+        "Cumulatieve veerkracht met regelmatige oefening—je basis stressniveau neemt geleidelijk af in de loop van de tijd"
+      ]
+    },
+    "tips": {
+      "title": "Tips Voor Beste Resultaten",
+      "headphones": {
+        "title": "Koptelefoon",
+        "description": "Gebruik stereo koptelefoon om binaurale beats goed te laten werken. Elk oor moet een aparte frequentie horen."
+      },
+      "environment": {
+        "title": "Omgeving",
+        "description": "Zoek een rustige, comfortabele ruimte waar je niet gestoord wordt. Gedimd licht of gesloten ogen verbeteren de focus op de geluiden."
+      },
+      "consistency": {
+        "title": "Consistentie",
+        "description": "Oefen dagelijks 10-20 minuten voor de beste resultaten. Hersengolf-entrainment wordt effectiever met regelmatige blootstelling."
+      }
+    }
+  }
+}

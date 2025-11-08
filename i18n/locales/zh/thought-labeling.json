@@ -1,0 +1,177 @@
+{
+  "thoughtLabeling": {
+    "interface": {
+      "title": "思维标签",
+      "subtitle": "观察和分类你的想法",
+      "beginExercise": "开始练习",
+      "thoughtsLabeled": "想法已标记",
+      "labelingActiveThought": "标记活跃想法",
+      "readyForNextThought": "准备下一个想法",
+      "elapsed": "已过",
+      "yourLabeledThoughts": "你的已标记想法",
+      "whatsOnYourMind": "你在想什么？",
+      "labelThisThought": "标记这个想法",
+      "chooseLabelsThatDescribe": "选择最能描述这个想法的标签：",
+      "writeAnxiousThought": "写下你现在正在想的焦虑想法：",
+      "examplePlaceholder": "例如：'我担心我明天会搞砸我的演讲...'",
+      "labelThisThoughtButton": "标记这个想法",
+      "yourThought": "你的想法：",
+      "cancel": "取消",
+      "continue": "继续",
+      "practiceAgain": "再次练习"
+    },
+    "benefits": {
+      "awareness": {
+        "title": "觉察",
+        "description": "注意到想法而不被它们吞噬"
+      },
+      "balance": {
+        "title": "平衡",
+        "description": "与焦虑思维创造健康距离"
+      },
+      "clarity": {
+        "title": "清晰",
+        "description": "理解你的思维模式"
+      }
+    },
+    "completion": {
+      "title": "出色的自我觉察",
+      "description": "你在{time}内成功标记了{count}个想法{plural}。这种练习有助于与焦虑思维创造健康距离。",
+      "sessionInsights": "会话洞察",
+      "benefits": {
+        "awarenessIncreased": "觉察力提高",
+        "thoughtsOrganized": "想法已整理",
+        "emotionalDistanceCreated": "情感距离已建立"
+      }
+    },
+    "insights": {
+      "commonPattern": {
+        "title": "识别出常见模式",
+        "description": "你的大多数想法被标记为「{labelName}」——识别这个模式是管理它的第一步。"
+      },
+      "strongAwareness": {
+        "title": "强大的自我觉察",
+        "description": "你展现了出色的客观观察和分类想法的能力。"
+      }
+    },
+    "labels": {
+      "worry": {
+        "name": "担忧",
+        "description": "对未来事件或结果的关注"
+      },
+      "catastrophic": {
+        "name": "灾难性",
+        "description": "想象最坏的情况"
+      },
+      "selfDoubt": {
+        "name": "自我怀疑",
+        "description": "质疑你的能力或价值"
+      },
+      "perfectionist": {
+        "name": "完美主义",
+        "description": "设定不切实际的高标准"
+      },
+      "comparison": {
+        "name": "比较",
+        "description": "拿自己与他人比较"
+      },
+      "rumination": {
+        "name": "反刍",
+        "description": "反复思考过去的事件"
+      },
+      "control": {
+        "name": "控制",
+        "description": "想要控制无法控制的情况"
+      },
+      "rejection": {
+        "name": "拒绝",
+        "description": "害怕被拒绝或被抛弃"
+      },
+      "performance": {
+        "name": "表现",
+        "description": "对你将如何表现的焦虑"
+      },
+      "health": {
+        "name": "健康",
+        "description": "对身体或心理健康的担忧"
+      },
+      "social": {
+        "name": "社交",
+        "description": "对社交情况或关系的担忧"
+      },
+      "financial": {
+        "name": "财务",
+        "description": "与金钱有关的压力和担忧"
+      }
+    },
+    "howItWorks": {
+      "title": "思维标签的工作原理",
+      "description1": "当你焦虑时，你的想法可能感觉压倒性的和完全真实的。思维标签帮助你退后一步，将想法视为心理事件——你心中的暂时模式，而不是绝对真理。通过简单地命名你正在经历的东西（「担忧」、「自我怀疑」、「灾难化」），你在自己和想法之间创造了一个小但强大的间隙。",
+      "description2": "这种练习激活你的前额叶皮层——你大脑的理性观察部分——同时减少杏仁核的活动，即大脑的警报中心。你不再陷入焦虑思维的螺旋，而是成为你想法的见证者。这种从「我很焦虑」到「我正在经历焦虑的想法」的转变从根本上改变了你与焦虑的关系。",
+      "description3": "通过定期练习，标签帮助你在思维模式成为螺旋之前识别它们。你会开始注意到：「这又是那种灾难性思维」或「这是我的完美主义模式」。识别成为你的第一道防线，让你能够熟练地回应而不是自动反应。",
+      "cognitiveDefusion": {
+        "title": "认知解离",
+        "description": "标签将你与想法分离，减少它们的情感控制和可信度。"
+      },
+      "emotionalRegulation": {
+        "title": "情绪调节",
+        "description": "命名激活你的理性大脑，同时平静杏仁核，降低情绪反应性。"
+      },
+      "patternRecognition": {
+        "title": "模式识别",
+        "description": "定期标签揭示反复出现的思维模式，使它们随时间更容易管理。"
+      }
+    },
+    "science": {
+      "title": "思维标签背后的科学",
+      "description": "研究表明，思维标签在焦虑症状和情绪反应性方面产生可测量的减少。一项<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7270208/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">针对一位歌手的单一受试者研究</a>，使用思维标签作为认知解离的一部分，在3个月随访时将焦虑想法可信度评分从94降至28——改善70%——心理僵化从AAQ-2量表的39降至12。",
+      "research": {
+        "performanceAnxiety": {
+          "title": "表现焦虑缓解",
+          "description": "对于一位患有严重音乐表演焦虑的歌手，<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7270208/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">思维标签干预</a>在3个月随访时将焦虑想法可信度从94降至28（改善70%），心理僵化从39降至12（改善69%），可靠变化指数分别为-8.74和-10.92。"
+        },
+        "mindfulnessEnhancement": {
+          "title": "正念技能提升",
+          "description": "一项<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5801080/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">为期8周的冥想计划</a>强调思维标签，显著增加了参与者标签的使用（F(1,28)=58.00, p<0.001, d=2.88）和对内在体验的非反应性（F(1,29)=38.35, p<0.001, d=2.30），支持更好地管理引发焦虑的想法。"
+        },
+        "attentionControl": {
+          "title": "注意力控制改善",
+          "description": "仅<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5329004/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3天的正念训练</a>结合思维标签减少了思维游离，并将持续注意力提高了9.84分（p=0.003），帮助中断助长焦虑的反刍循环。"
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "何时练习",
+      "items": [
+        "当你注意到重复或侵入性想法在你脑海中打转时。",
+        "在通常会出现自我怀疑或担忧的高压情况之前。",
+        "在想法感觉混乱和无法管理的压倒性时刻。",
+        "作为日常正念练习的一部分，以建立对思维模式的觉察。"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "你会注意到什么",
+      "items": [
+        "焦虑想法的强度和可信度立即降低。",
+        "更大的情感距离，使想法感觉不那么私人和吞噬性。",
+        "识别反复出现的模式，帮助你预测和管理它们。",
+        "改进的观察想法而不自动对其做出反应的能力。"
+      ]
+    },
+    "tips": {
+      "title": "获得最佳效果的提示",
+      "observation": {
+        "title": "观察者姿态",
+        "description": "以好奇心而非评判来对待你的想法。你是研究自己心灵的科学家，而不是谴责它的批评者。"
+      },
+      "consistency": {
+        "title": "建立习惯",
+        "description": "全天练习标签，而不仅仅在焦虑高峰期。定期使用增强你与想法创造距离的能力。"
+      },
+      "simplicity": {
+        "title": "保持标签简单",
+        "description": "使用简短、清晰的标签，如「担忧」、「评判」或「灾难化」。你是在识别模式，而不是写论文。"
+      }
+    }
+  }
+}

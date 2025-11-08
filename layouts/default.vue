@@ -14,6 +14,7 @@ const head = useLocaleHead()
         </template>
       </Head>
       <Body>
+        <MobileAppBanner />
         <AppHeader />
         <main>
           <div class="">

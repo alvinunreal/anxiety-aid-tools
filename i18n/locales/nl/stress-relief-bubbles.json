@@ -1,0 +1,74 @@
+{
+  "stressReliefBubbles": {
+    "resetButton": "Reset Bubbels",
+    "howItWorks": {
+      "title": "Hoe Tactiele Afleiding Werkt",
+      "description1": "Stressverlichting bubbels werken door een eenvoudig maar krachtig mechanisme: tactiele afleiding. Wanneer je de bubbels indrukt en laat knappen, verschuift je brein de aandacht van angstige gedachten naar de onmiddellijke fysieke sensatie. Deze zintuiglijke betrokkenheid activeert verschillende neurale paden, waardoor ruminatiepatronen worden onderbroken.",
+      "description2": "De bevredigende knal creëert een feedbackloop—je onderneemt een actie, ontvangt onmiddellijke zintuiglijke beloning (het knal geluid en tactiele gevoel), en ervaart een kleine vrijgave van spanning. Dit proces herhalen over meerdere bubbels biedt aanhoudende afleiding, terwijl de ritmische, repetitieve beweging een natuurlijk kalmerend effect heeft op het zenuwstelsel.",
+      "description3": "Met consistent gebruik kunnen tactiele hulpmiddelen zoals deze helpen gezondere stressreacties op te bouwen. Je brein leert angstige energie om te leiden naar een fysieke, controleerbare actie in plaats van te spiraleren in zorgen.",
+      "focusRedirection": {
+        "title": "Focus Omleiding",
+        "description": "Verschuift aandacht van angstige gedachten naar onmiddellijke fysieke sensatie"
+      },
+      "sensoryFeedback": {
+        "title": "Zintuiglijke Feedback",
+        "description": "Knal geluiden en tactiel gevoel creëren bevredigende feedbackloop"
+      },
+      "nervousSystemCalm": {
+        "title": "Zenuwstelsel Kalmte",
+        "description": "Repetitieve beweging activeert natuurlijke ontspanningsreactie"
+      }
+    },
+    "science": {
+      "title": "De Wetenschap Achter Tactiele Stressverlichting",
+      "description": "Onderzoek toont aan dat tactiele afleidingshulpmiddelen angst in stressvolle situaties aanzienlijk kunnen verminderen. Een <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8488815/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">gerandomiseerde gecontroleerde studie bij kinderen tijdens tandheelkundige procedures</a> ontdekte dat het gebruik van een fidget spinner angstscores met 3 punten verlaagde en de polsslag met 15,54 slagen per minuut verminderde vergeleken met controles (p < 0,001).",
+      "research": {
+        "pediatricAnxiety": {
+          "title": "Pediatrische Angstverlichting",
+          "description": "In een <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12381172/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">onderzoek met 90 kinderen van 6-12 jaar tijdens IV-katheterisatie</a>, verlaagde het gebruik van een stressbal gemiddelde angstscores van 4,9 naar 1,0 op de Venham Picture Test (p < 0,001)—een vermindering van 80%. Pijnperceptie daalde ook dramatisch, met scores van 14,5 versus 50,5 bij controles."
+        },
+        "medicalProcedures": {
+          "title": "Medische Procedure Stress",
+          "description": "Een <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11366058/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">studie met 120 patiënten die angiografie ondergingen</a> toonde aan dat het gebruik van een stressbal State-Trait Anxiety Inventory scores verlaagde van 15,89 naar 14,92, terwijl controles toenamen van 11,30 naar 12,67 (p = 0,019). Mannelijke deelnemers zagen scores dalen van 16,59 naar 11,93."
+        },
+        "attentionSupport": {
+          "title": "Aanhoudende Aandacht",
+          "description": "Onderzoek bij <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11246969/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">70 volwassenen met ADHD die cognitieve taken uitvoeren</a> vond dat hogere friemelniveaus correleerden met correcte antwoorden (t-score van 10,72, p < 0,001). Friemelen nam toe van 2,3 naar 3,5 instanties over proeven terwijl 96,3% nauwkeurigheid behouden bleef, wat suggereert dat het helpt opwinding te behouden zonder prestaties te schaden."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Wanneer Te Oefenen",
+      "items": [
+        "Wanneer je rusteloos energie voelt of je handen bezig moet houden tijdens angst",
+        "Tijdens wachtperiodes of voor stressvolle gebeurtenissen wanneer je afleiding nodig hebt",
+        "Wanneer angstige gedachten racen en je de cyclus moet doorbreken",
+        "Als snelle reset tussen taken om opgebouwde spanning vrij te geven"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Wat Je Zult Opmerken",
+      "items": [
+        "Onmiddellijke voldoening van elke knal en zintuiglijke feedback",
+        "Geleidelijke verschuiving van focus weg van angstige gedachten naar de activiteit",
+        "Fysieke vrijgave van rusteloos energie en friemeldrang",
+        "Kalmere toestand na het voltooien van een volledige ronde bubbels knappen"
+      ]
+    },
+    "tips": {
+      "title": "Tips Voor Beste Resultaten",
+      "posture": {
+        "title": "Ritme",
+        "description": "Knal bubbels in je eigen tempo—snel voor energievrijgave, langzaam voor methodische kalmte. Er is geen juiste snelheid."
+      },
+      "environment": {
+        "title": "Geluid",
+        "description": "Het knalgeluid voegt toe aan de ervaring. Gebruik het waar je comfortabel bent of demp indien nodig in rustige ruimtes."
+      },
+      "consistency": {
+        "title": "Herhaling",
+        "description": "Meerdere rondes zijn prima. Reset en herhaal zo vaak als je nodig hebt om spanning volledig vrij te geven."
+      }
+    }
+  }
+}

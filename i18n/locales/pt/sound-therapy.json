@@ -1,0 +1,165 @@
+{
+  "soundTherapy": {
+    "title": "Terapia Sonora e Cura por Frequência",
+    "description": "Experimente frequências terapêuticas e batidas binaurais para promover relaxamento profundo, reduzir ansiedade e melhorar o foco através de terapia sonora cientificamente comprovada.",
+    "interface": {
+      "frequency": "Frequência",
+      "binauralBeats": "Batidas Binaurais",
+      "modulation": "Modulação",
+      "volume": "Volume",
+      "startSession": "Iniciar Terapia Sonora",
+      "stopSession": "Parar Sessão"
+    },
+    "playingState": {
+      "description": "Permita que as vibrações de cura o envolvam. Concentre-se na sua respiração e deixe as frequências guiá-lo para um relaxamento profundo.",
+      "instructions": "Feche os olhos e permita que as vibrações penetrem profundamente, trazendo paz à sua mente e corpo."
+    },
+    "frequencies": [
+      {
+        "name": "396Hz",
+        "description": "Libertação do medo e culpa"
+      },
+      {
+        "name": "417Hz",
+        "description": "Facilitando mudança e transformação"
+      },
+      {
+        "name": "528Hz",
+        "description": "Frequência do amor e reparação do DNA"
+      },
+      {
+        "name": "639Hz",
+        "description": "Relações harmoniosas"
+      },
+      {
+        "name": "741Hz",
+        "description": "Despertar da intuição e expressão"
+      },
+      {
+        "name": "852Hz",
+        "description": "Retorno à ordem espiritual"
+      },
+      {
+        "name": "963Hz",
+        "description": "Conexão com a consciência universal"
+      },
+      {
+        "name": "174Hz",
+        "description": "Anestésico natural e alívio da dor"
+      }
+    ],
+    "binauralBeats": [
+      {
+        "name": "Nenhum",
+        "description": "Frequência pura"
+      },
+      {
+        "name": "Delta 2Hz",
+        "description": "Sono profundo"
+      },
+      {
+        "name": "Theta 4Hz",
+        "description": "Meditação profunda"
+      },
+      {
+        "name": "Alpha 8Hz",
+        "description": "Foco relaxado"
+      },
+      {
+        "name": "Beta 15Hz",
+        "description": "Consciência alerta"
+      }
+    ],
+    "modulation": [
+      {
+        "name": "Desligado",
+        "description": "Sem modulação"
+      },
+      {
+        "name": "Muito Sutil",
+        "description": "Mal perceptível"
+      },
+      {
+        "name": "Suave",
+        "description": "Efeito de respiração suave"
+      },
+      {
+        "name": "Moderado",
+        "description": "Ondas perceptíveis"
+      },
+      {
+        "name": "Forte",
+        "description": "Pulsação profunda"
+      }
+    ],
+    "howItWorks": {
+      "title": "Como a Terapia Sonora Funciona",
+      "description1": "A terapia sonora usa frequências específicas e batidas binaurais para influenciar diretamente a atividade elétrica do seu cérebro. Quando você ouve dois tons ligeiramente diferentes em cada ouvido, seu cérebro cria uma terceira frequência 'fantasma'—a batida binaural—que pode guiar suas ondas cerebrais para estados de relaxamento profundo, foco ou calma.",
+      "description2": "Diferentes frequências ressoam com diferentes partes do seu sistema nervoso. Ondas theta (4-8 Hz) promovem meditação e alívio da ansiedade, enquanto ondas alfa (8-12 Hz) melhoram o estado de alerta relaxado. Os tons puros também criam vibrações simpáticas nos tecidos do seu corpo, promovendo relaxamento físico junto com calma mental.",
+      "description3": "Com uso consistente, a terapia sonora pode ajudar a retreinar o estado base do seu sistema nervoso, facilitando o acesso à calma mesmo sem o áudio. Pesquisas mostram que esses efeitos são mensuráveis em exames cerebrais, variabilidade da frequência cardíaca e níveis de hormônios do estresse.",
+      "brainwaveEntrainment": {
+        "title": "Sincronização de Ondas Cerebrais",
+        "description": "Seu cérebro sincroniza com estímulos rítmicos externos, guiando a atividade elétrica para padrões terapêuticos."
+      },
+      "autonomicBalance": {
+        "title": "Equilíbrio Autonômico",
+        "description": "Frequências específicas ativam o sistema nervoso parassimpático, diminuindo a frequência cardíaca e reduzindo a produção de cortisol."
+      },
+      "physiologicalResonance": {
+        "title": "Ressonância Fisiológica",
+        "description": "Vibrações sonoras criam efeitos físicos sutis por todo o seu corpo, liberando tensão muscular e promovendo circulação."
+      }
+    },
+    "science": {
+      "title": "A Ciência Por Trás da Terapia Sonora",
+      "description": "A terapia sonora é apoiada por pesquisas clínicas rigorosas que demonstram reduções mensuráveis na ansiedade, estresse e tensão fisiológica. Um <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5871151/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">estudo com 62 participantes</a> mostrou que a meditação com tigelas cantantes tibetanas reduziu os scores de ansiedade em 0,67 pontos no geral e 0,89 pontos em iniciantes, com a tensão diminuindo em 1,12 pontos. Múltiplos ensaios confirmam que intervenções baseadas em som produzem benefícios consistentes e mensuráveis.",
+      "research": {
+        "proceduralAnxiety": {
+          "title": "Redução de Ansiedade Processual",
+          "description": "Em 112 pacientes submetidos a broncoscopia, o <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9276398/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">áudio de batidas binaurais</a> reduziu os scores de ansiedade em 7,26 pontos e diminuiu a pressão arterial sistólica em 9,89 mmHg—superando significativamente música ou nenhuma intervenção."
+        },
+        "thetaBeatsAddiction": {
+          "title": "Batidas Theta para Ansiedade Comórbida",
+          "description": "Oito sessões de 20 minutos de <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11811546/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">batidas binaurais theta de 7,5 Hz</a> em 30 homens dependentes de opioides reduziram os scores de inventário de ansiedade de 27,47 para 10,00—uma melhoria de 64% com grande tamanho de efeito (η²=0,949)."
+        },
+        "emergencyStaff": {
+          "title": "Alívio de Estresse em Ambientes de Alta Pressão",
+          "description": "Entre 54 enfermeiras de emergência durante COVID-19, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9534204/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">15 minutos de música a 432 Hz</a> reduziram os scores medianos de ansiedade de 34 para 29, diminuíram a frequência respiratória em 2,7 respirações/min e reduziram a pressão arterial sistólica em 3,8 mmHg."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Quando Praticar",
+      "items": [
+        "Quando você se sentir sobrecarregado, ansioso ou incapaz de acalmar sua mente",
+        "Antes de procedimentos médicos, eventos estressantes ou conversas importantes para acalmar seu sistema nervoso",
+        "Durante episódios agudos de ansiedade ou pânico para interromper a resposta ao estresse",
+        "Na hora de dormir para promover relaxamento profundo e preparar para sono restaurador"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "O Que Você Notará",
+      "items": [
+        "Efeito calmante imediato nos primeiros 1-2 minutos conforme seu sistema nervoso começa a responder",
+        "Frequência cardíaca mais lenta, respiração mais profunda e tensão muscular reduzida por todo o corpo",
+        "Clareza mental aumentada e distância emocional de pensamentos ansiosos",
+        "Resiliência cumulativa com prática regular—seu nível base de estresse diminui gradualmente ao longo do tempo"
+      ]
+    },
+    "tips": {
+      "title": "Dicas Para Melhores Resultados",
+      "headphones": {
+        "title": "Fones de Ouvido",
+        "description": "Use fones de ouvido estéreo para que as batidas binaurais funcionem corretamente. Cada ouvido deve ouvir uma frequência distinta."
+      },
+      "environment": {
+        "title": "Ambiente",
+        "description": "Encontre um espaço tranquilo e confortável onde você não será interrompido. Iluminação suave ou olhos fechados melhoram o foco nos sons."
+      },
+      "consistency": {
+        "title": "Consistência",
+        "description": "Pratique 10-20 minutos diariamente para melhores resultados. A sincronização de ondas cerebrais torna-se mais eficaz com exposição regular."
+      }
+    }
+  }
+}

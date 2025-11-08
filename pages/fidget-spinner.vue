@@ -9,22 +9,23 @@
             <h1 class="ptitle">{{ $t("techniques.fidgetSpinner.name") }}</h1>
           </header>
 
-          <div class="flex justify-center">
-            <div
-              ref="spinnerRef"
-              class="spinner"
-              role="button"
-              :class="{ 'is-grabbing': isPointerActive }"
-              :style="spinnerStyle"
-              :aria-label="t('fidgetSpinner.aria.spinnerLabel')"
-              tabindex="0"
-              @pointerdown="onPointerDown"
-              @pointermove="onPointerMove"
-              @pointerup="onPointerUp"
-              @pointercancel="onPointerCancel"
-              @keydown.space.prevent="boostSpin(1)"
-              @keydown.enter.prevent="boostSpin(1)"
-            >
+          <div class="space-y-6">
+            <div class="flex justify-center">
+              <div
+                ref="spinnerRef"
+                class="spinner"
+                role="button"
+                :class="{ 'is-grabbing': isPointerActive }"
+                :style="spinnerStyle"
+                :aria-label="t('fidgetSpinner.aria.spinnerLabel')"
+                tabindex="0"
+                @pointerdown="onPointerDown"
+                @pointermove="onPointerMove"
+                @pointerup="onPointerUp"
+                @pointercancel="onPointerCancel"
+                @keydown.space.prevent="boostSpin(1)"
+                @keydown.enter.prevent="boostSpin(1)"
+              >
               <div class="spinner-core">
                 <div class="spinner-grip"></div>
               </div>
@@ -46,6 +47,20 @@
                   <div class="bearing-core"></div>
                 </div>
               </div>
+              </div>
+            </div>
+
+            <!-- Audio Control -->
+            <div class="flex justify-center">
+              <button
+                type="button"
+                class="rounded-lg bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm transition-all hover:bg-gray-50 dark:bg-slate-800 dark:text-gray-200 dark:hover:bg-slate-700"
+                :aria-label="audioMuted ? t('fidgetSpinner.aria.unmuteAudio') : t('fidgetSpinner.aria.muteAudio')"
+                @click="toggleAudio"
+              >
+                <span v-if="audioMuted">🔇 {{ t('fidgetSpinner.audioUnmute') }}</span>
+                <span v-else>🔊 {{ t('fidgetSpinner.audioMute') }}</span>
+              </button>
             </div>
           </div>
 
@@ -55,7 +70,7 @@
         </div>
       </section>
 
-      <div class="mx-auto mt-12 max-w-4xl border-t border-gray-200 pt-8 transition-colors duration-200 dark:border-slate-700">
+      <div class="mx-auto mt-12 max-w-6xl border-t border-gray-200 pt-8 transition-colors duration-200 dark:border-slate-700">
         <RelatedTechniques current-technique-id="fidget-spinner" />
       </div>
     </main>
@@ -63,7 +78,8 @@
 </template>
 
 <script setup>
-import { computed, onUnmounted, ref } from 'vue'
+import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
+import { SpinnerAudio } from '~/utils/spinnerAudio'
 
 const { t } = useI18n()
 
@@ -81,11 +97,29 @@ const spinnerRef = ref(null)
 const rotation = ref(0)
 const velocity = ref(0)
 const isPointerActive = ref(false)
+const audioMuted = ref(true) // Default to muted
 
 const pointerState = {
   lastAngle: 0,
   lastTime: 0
 }
+
+// Audio system
+let spinnerAudio = null
+
+onMounted(() => {
+  spinnerAudio = new SpinnerAudio()
+  spinnerAudio.init()
+  
+  // Load mute preference from localStorage, default to muted
+  const savedMutedState = localStorage.getItem('fidgetSpinnerAudioMuted')
+  if (savedMutedState !== null) {
+    audioMuted.value = savedMutedState === 'true'
+  } else {
+    audioMuted.value = true // Default to muted on first visit
+  }
+  spinnerAudio.setMuted(audioMuted.value)
+})
 
 const FRICTION = 0.96
 let momentumFrame = null
@@ -117,6 +151,9 @@ const onPointerMove = (event) => {
 
   const deltaTime = Math.max(now - pointerState.lastTime, 1)
   velocity.value = (deltaDeg / deltaTime) * (1000 / 60)
+
+  // Update audio during active drag
+  spinnerAudio?.update(rotation.value, velocity.value)
 
   pointerState.lastAngle = angle
   pointerState.lastTime = now
@@ -152,6 +189,9 @@ const startMomentum = () => {
   const step = () => {
     rotation.value += velocity.value
     velocity.value *= FRICTION
+
+    // Update audio based on rotation and velocity
+    spinnerAudio?.update(rotation.value, velocity.value)
 
     if (Math.abs(velocity.value) > 0.05) {
       momentumFrame = requestAnimationFrame(step)
@@ -190,8 +230,19 @@ const normalizeAngle = (angle) => {
 
 const radToDeg = (radians) => radians * (180 / Math.PI)
 
+const toggleAudio = () => {
+  audioMuted.value = !audioMuted.value
+  spinnerAudio?.setMuted(audioMuted.value)
+  
+  // Save preference to localStorage
+  localStorage.setItem('fidgetSpinnerAudioMuted', audioMuted.value.toString())
+}
+
 onUnmounted(() => {
   cancelMomentum()
+  if (spinnerAudio?.audioContext) {
+    spinnerAudio.audioContext.close()
+  }
 })
 </script>
 

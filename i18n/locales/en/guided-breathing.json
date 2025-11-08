@@ -1,0 +1,142 @@
+{
+  "guidedBreathing": {
+    "interface": {
+      "begin": "Begin",
+      "elapsed": "elapsed",
+      "sessionProgress": "Session Progress",
+      "currentPhase": "Current Phase",
+      "beginExercise": "Begin Exercise",
+      "resume": "Resume",
+      "pause": "Pause",
+      "stop": "Stop",
+      "exerciseComplete": "Exercise Complete",
+      "excellentWork": "Excellent work! You've completed {completedCycles} cycles of {techniqueName} in {totalTime}.",
+      "breathingOptimized": "Breathing optimized",
+      "mindCentered": "Mind centered",
+      "ready": "ready",
+      "breatheIn": "breathe in",
+      "breatheOut": "breathe out",
+      "hold": "hold",
+      "seconds": "seconds",
+      "cycles": "cycles",
+      "pattern": "pattern"
+    },
+    "techniques": {
+      "boxBreathing": {
+        "name": "Box Breathing",
+        "description": "Equal timing for calm focus",
+        "timing": "4-4-4-4",
+        "bestFor": "Focus & concentration"
+      },
+      "calming": {
+        "name": "4-7-8 Technique",
+        "description": "Extended hold for deep relaxation",
+        "timing": "4-7-8",
+        "bestFor": "Deep relaxation & sleep"
+      },
+      "energizing": {
+        "name": "Energizing 4-4-6",
+        "description": "Balanced pattern for alertness",
+        "timing": "4-4-6",
+        "bestFor": "Energy & mental clarity"
+      },
+      "quickReset": {
+        "name": "Quick Reset",
+        "description": "Fast technique for immediate relief",
+        "timing": "3-3-3",
+        "bestFor": "Quick stress relief"
+      }
+    },
+    "techniquesOverview": {
+      "boxBreathing": {
+        "title": "Box Breathing (4-4-4-4)",
+        "description": "Equal timing for all phases creates mental clarity and focus. Used by Navy SEALs and emergency responders to maintain calm under pressure. The symmetrical pattern helps regulate your nervous system and improve concentration.",
+        "bestFor": "Best for: Focus, concentration, stress management"
+      },
+      "calming": {
+        "title": "4-7-8 Calming",
+        "description": "Extended hold allows oxygen to fully saturate your blood, while the long exhale activates your parasympathetic nervous system. This technique is particularly effective for reducing anxiety and preparing for sleep.",
+        "bestFor": "Best for: Anxiety relief, sleep preparation, deep relaxation"
+      },
+      "energizing": {
+        "title": "4-4-6 Energizing",
+        "description": "Balanced pattern that increases oxygen flow while maintaining control. The moderate exhale helps clear mental fog and boost alertness without causing hyperventilation.",
+        "bestFor": "Best for: Mental clarity, energy boost, midday reset"
+      },
+      "quickReset": {
+        "title": "3-3-3 Quick Reset",
+        "description": "Faster rhythm for immediate stress relief when you only have a minute or two. Perfect for moments of acute anxiety or when you need quick emotional regulation.",
+        "bestFor": "Best for: Quick stress relief, emergency calm, busy schedules"
+      }
+    },
+    "howItWorks": {
+      "title": "How Guided Breathing Works",
+      "description1": "Structured breathing patterns work by giving your nervous system clear, rhythmic signals that shift you from stress mode to calm mode. When you follow a specific count—like 4-7-8 or box breathing—you're taking control of an automatic process, which activates the vagus nerve connecting your brain to your heart and digestive system.",
+      "description2": "Different patterns serve different purposes. Equal timing (like box breathing) creates mental clarity and focus by balancing your nervous system. Extended exhales (like 4-7-8) trigger deeper relaxation by activating your parasympathetic nervous system more strongly. Shorter patterns provide quick relief when you need immediate calm.",
+      "description3": "The counting itself is therapeutic—it gives your mind something concrete to focus on, interrupting anxious thoughts while your body naturally follows the rhythm into a calmer state.",
+      "rhythmicControl": {
+        "title": "Rhythmic Control",
+        "description": "Following a specific count gives your mind focus while signaling your nervous system to shift from stress to calm."
+      },
+      "patternVariety": {
+        "title": "Pattern Variety",
+        "description": "Different breathing ratios serve different needs—equal timing for focus, extended exhales for deep relaxation, shorter patterns for quick relief."
+      },
+      "neuralRegulation": {
+        "title": "Neural Regulation",
+        "description": "Structured breathing activates the vagus nerve, which controls your heart rate, digestion, and stress response, promoting systematic calm."
+      }
+    },
+    "science": {
+      "title": "The Science Behind Guided Breathing",
+      "description": "Multiple clinical trials demonstrate that guided breathing techniques produce measurable reductions in anxiety, stress hormones, and physiological arousal. An <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5455070/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">8-week program with 20 sessions of 15-minute diaphragmatic breathing</a> at 4 breaths per minute lowered negative affect by 2.55 points on the PANAS scale and decreased salivary cortisol levels by 1.32-1.66 ng/mL in healthy adults.",
+      "research": {
+        "anxietyReduction": {
+          "title": "Rapid Anxiety Reduction",
+          "description": "In COVID-19 patients, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11535222/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">5 days of guided deep breathing</a> (4 sessions daily, 15-20 minutes each) reduced anxiety scores on DASS-21 from 14.86 to 8.44—a 43% improvement—while controls showed minimal change."
+        },
+        "panicReduction": {
+          "title": "Panic Attack Management",
+          "description": "A <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9954474/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">review of 16 studies</a> found slow breathing at 8-10 breaths per minute over 2-12 months reduced panic attack frequency and normalized CO2 levels from hypocapnic to 35-40 mmHg in patients with panic disorder and agoraphobia."
+        },
+        "gadImprovement": {
+          "title": "Generalized Anxiety Relief",
+          "description": "In 41 GAD patients, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8989478/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3 months of daily breathing practice</a> (15-20 minutes, 4+ days/week) reduced BAI scores from 40.90 to 13.24—a 68% improvement—and GAD-7 scores from 19.33 to 5.86."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "When To Practice",
+      "items": [
+        "When you're feeling anxious or overwhelmed and need immediate relief",
+        "Before sleep to calm racing thoughts and prepare for rest",
+        "During stressful work situations or before important events",
+        "As a daily practice to build long-term stress resilience"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "What You'll Notice",
+      "items": [
+        "Immediate calming effect within the first 1-2 minutes of practice",
+        "Slower heart rate and reduced physical tension throughout your body",
+        "Clearer thinking as oxygen flow improves and anxiety thoughts quiet",
+        "Better ability to handle stress with consistent daily practice"
+      ]
+    },
+    "tips": {
+      "title": "Tips For Best Results",
+      "technique": {
+        "title": "Technique",
+        "description": "Start with one pattern for at least a week before trying others. Consistency with a single technique builds deeper familiarity and effectiveness."
+      },
+      "environment": {
+        "title": "Environment",
+        "description": "Find a quiet space where you won't be interrupted. Sit comfortably with your back supported and shoulders relaxed."
+      },
+      "progression": {
+        "title": "Progression",
+        "description": "Begin with shorter sessions (2-3 minutes) and gradually extend as comfort increases. Don't force the breath—find your natural rhythm within the pattern."
+      }
+    }
+  }
+}

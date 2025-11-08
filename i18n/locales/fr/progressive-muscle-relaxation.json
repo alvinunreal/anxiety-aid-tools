@@ -1,0 +1,370 @@
+{
+  "progressiveMuscleRelaxation": {
+    "interface": {
+      "title": "Relaxation Musculaire Progressive",
+      "subtitle": "Tension et relâchement systématiques",
+      "beginExercise": "Commencer l'Exercice",
+      "start": "Démarrer",
+      "stop": "Arrêter",
+      "pause": "Pause",
+      "resume": "Reprendre",
+      "back": "Retour",
+      "next": "Suivant",
+      "complete": "Terminer",
+      "ofGroups": "de {count} groupes",
+      "prepare": "Préparez-vous à commencer",
+      "tenseFor10": "Tendre pendant 10 secondes",
+      "releaseFor10": "Relâcher pendant 10 secondes",
+      "tense": "Tendre",
+      "relax": "Relaxer",
+      "tensionSteps": "Étapes de Tension :",
+      "relaxationSteps": "Étapes de Relaxation :"
+    },
+    "completion": {
+      "title": "Relaxation Profonde Atteinte",
+      "description": "Vous avez systématiquement relâché la tension dans tout votre corps. Remarquez à quel point vos muscles se sentent différents par rapport au début.",
+      "benefits": {
+        "tensionReleased": "Tension relâchée",
+        "bodyRelaxed": "Corps détendu"
+      }
+    },
+    "muscleGroups": {
+      "rightHand": {
+        "name": "Main et Avant-bras Droit",
+        "shortName": "Main D",
+        "tensionCue": [
+          "Formez un poing serré",
+          "Serrez fort",
+          "Sentez la tension dans vos doigts et votre avant-bras"
+        ],
+        "relaxationCue": [
+          "Ouvrez votre main",
+          "Laissez-la complètement molle",
+          "Sentez les doigts naturellement courbés et détendus"
+        ]
+      },
+      "leftHand": {
+        "name": "Main et Avant-bras Gauche",
+        "shortName": "Main G",
+        "tensionCue": [
+          "Formez un poing serré",
+          "Serrez fort",
+          "Sentez la tension dans vos doigts et votre avant-bras"
+        ],
+        "relaxationCue": [
+          "Ouvrez votre main",
+          "Laissez-la complètement molle",
+          "Remarquez la sensation chaude et lourde"
+        ]
+      },
+      "rightUpperArm": {
+        "name": "Bras Supérieur Droit",
+        "shortName": "Biceps D",
+        "tensionCue": [
+          "Pliez le coude",
+          "Contractez le biceps fort",
+          "Pressez l'avant-bras contre le bras supérieur",
+          "Sentez le muscle gonfler"
+        ],
+        "relaxationCue": [
+          "Abaissez votre bras sur le côté",
+          "Laissez le muscle se ramollir",
+          "Sentez le soulagement et la lourdeur"
+        ]
+      },
+      "leftUpperArm": {
+        "name": "Bras Supérieur Gauche",
+        "shortName": "Biceps G",
+        "tensionCue": [
+          "Pliez le coude",
+          "Contractez le biceps fort",
+          "Pressez l'avant-bras contre le bras supérieur",
+          "Sentez la force"
+        ],
+        "relaxationCue": [
+          "Abaissez votre bras sur le côté",
+          "Laissez la tension s'évacuer",
+          "Sentez la lourdeur"
+        ]
+      },
+      "forehead": {
+        "name": "Front et Cuir Chevelu",
+        "shortName": "Front",
+        "tensionCue": [
+          "Levez les sourcils haut",
+          "Plissez le front",
+          "Sentez la tension sur votre cuir chevelu"
+        ],
+        "relaxationCue": [
+          "Laissez les sourcils retomber naturellement",
+          "Lissez le front",
+          "Sentez la peau complètement détendue"
+        ]
+      },
+      "eyesNose": {
+        "name": "Yeux et Nez",
+        "shortName": "Visage",
+        "tensionCue": [
+          "Fermez les yeux fort",
+          "Plissez le nez",
+          "Faites plisser tout votre visage"
+        ],
+        "relaxationCue": [
+          "Laissez le visage se détendre",
+          "Yeux doucement fermés",
+          "Nez et joues lisses et détendus"
+        ]
+      },
+      "mouthJaw": {
+        "name": "Bouche et Mâchoire",
+        "shortName": "Mâchoire",
+        "tensionCue": [
+          "Mordez fort",
+          "Serrez les dents",
+          "Sentez les muscles de la mâchoire travailler"
+        ],
+        "relaxationCue": [
+          "Laissez la mâchoire s'entrouvrir légèrement",
+          "Lèvres à peine touchantes",
+          "Langue reposant doucement"
+        ]
+      },
+      "neckThroat": {
+        "name": "Cou et Gorge",
+        "shortName": "Cou",
+        "tensionCue": [
+          "Menton vers la poitrine",
+          "Poussez la tête en arrière",
+          "Créez une tension dans les deux directions"
+        ],
+        "relaxationCue": [
+          "Laissez la tête trouver sa position naturelle",
+          "Cou long et souple",
+          "Gorge ouverte"
+        ]
+      },
+      "shoulders": {
+        "name": "Épaules",
+        "shortName": "Épaules",
+        "tensionCue": [
+          "Remontez les épaules haut",
+          "Essayez de toucher vos oreilles",
+          "Sentez la compression dans le haut du dos"
+        ],
+        "relaxationCue": [
+          "Laissez les épaules retomber naturellement",
+          "Sentez-les s'enfoncer plus bas",
+          "Lourdes et souples"
+        ]
+      },
+      "upperBackChest": {
+        "name": "Haut du Dos et Poitrine",
+        "shortName": "Haut du Dos",
+        "tensionCue": [
+          "Serrez les omoplates ensemble",
+          "Cambrez le dos",
+          "Élargissez la poitrine avec une respiration profonde"
+        ],
+        "relaxationCue": [
+          "Laissez le dos se poser naturellement",
+          "Omoplates écartées",
+          "Poitrine douce et ouverte"
+        ]
+      },
+      "abdomen": {
+        "name": "Abdomen",
+        "shortName": "Ventre",
+        "tensionCue": [
+          "Contractez les abdominaux fort",
+          "Rentrez le nombril",
+          "Faites le ventre comme un roc"
+        ],
+        "relaxationCue": [
+          "Laissez le ventre se ramollir",
+          "Respirez dans le ventre",
+          "Sentez-le monter et descendre naturellement"
+        ]
+      },
+      "lowerBack": {
+        "name": "Bas du Dos",
+        "shortName": "Dos Bas",
+        "tensionCue": [
+          "Cambrez doucement le bas du dos",
+          "Poussez le ventre vers l'extérieur",
+          "Sentez la courbe de la colonne"
+        ],
+        "relaxationCue": [
+          "Laissez le dos revenir à sa courbe naturelle",
+          "Soutenu et confortable",
+          "Tension qui fond"
+        ]
+      },
+      "hipsButtocks": {
+        "name": "Hanches et Fessiers",
+        "shortName": "Fessiers",
+        "tensionCue": [
+          "Serrez fort les fessiers",
+          "Contractez les muscles fermement",
+          "Sentez la tension dans les hanches"
+        ],
+        "relaxationCue": [
+          "Laissez les fessiers se ramollir",
+          "Sentez-les s'étaler naturellement",
+          "Lourds et détendus"
+        ]
+      },
+      "rightThigh": {
+        "name": "Cuisse Droite",
+        "shortName": "Cuisse D",
+        "tensionCue": [
+          "Tendez la jambe droite",
+          "Contractez fort le muscle de la cuisse",
+          "Sentez-le ferme et fort"
+        ],
+        "relaxationCue": [
+          "Laissez la jambe reposer naturellement",
+          "Muscle de la cuisse doux et souple",
+          "Lourd et confortable"
+        ]
+      },
+      "leftThigh": {
+        "name": "Cuisse Gauche",
+        "shortName": "Cuisse G",
+        "tensionCue": [
+          "Tendez la jambe gauche",
+          "Contractez fort le muscle de la cuisse",
+          "Sentez la force"
+        ],
+        "relaxationCue": [
+          "Laissez la jambe reposer naturellement",
+          "Cuisse complètement détendue",
+          "Remarquez le contraste"
+        ]
+      },
+      "rightCalfShin": {
+        "name": "Mollet et Tibia Droit",
+        "shortName": "Mollet D",
+        "tensionCue": [
+          "Pointez le pied vers le bas fort",
+          "Puis fléchissez vers le haut vers le tibia",
+          "Sentez les deux côtés travailler"
+        ],
+        "relaxationCue": [
+          "Laissez le pied reposer naturellement",
+          "Mollet et tibia souples",
+          "Complètement doux"
+        ]
+      },
+      "leftCalfShin": {
+        "name": "Mollet et Tibia Gauche",
+        "shortName": "Mollet G",
+        "tensionCue": [
+          "Pointez le pied vers le bas fort",
+          "Puis fléchissez vers le haut vers le tibia",
+          "Sentez les muscles s'engager"
+        ],
+        "relaxationCue": [
+          "Laissez le pied reposer naturellement",
+          "Tous les muscles du mollet détendus et lourds"
+        ]
+      },
+      "rightFoot": {
+        "name": "Pied Droit",
+        "shortName": "Pied D",
+        "tensionCue": [
+          "Recroquevillez les orteils vers le bas fort",
+          "Plissez-les",
+          "Sentez la tension dans la voûte plantaire"
+        ],
+        "relaxationCue": [
+          "Laissez les orteils se dérouler naturellement",
+          "Pied complètement mou",
+          "Chaud et détendu"
+        ]
+      },
+      "leftFoot": {
+        "name": "Pied Gauche",
+        "shortName": "Pied G",
+        "tensionCue": [
+          "Recroquevillez les orteils vers le bas fort",
+          "Plissez-les",
+          "Sentez la voûte travailler"
+        ],
+        "relaxationCue": [
+          "Laissez les orteils s'écarter naturellement",
+          "Pied souple et détendu",
+          "Tension disparue"
+        ]
+      }
+    },
+    "howItWorks": {
+      "title": "Comment Fonctionne la Relaxation Musculaire Progressive",
+      "description1": "La relaxation musculaire progressive enseigne à votre corps la différence entre tension et relaxation en tendant puis relâchant systématiquement des groupes musculaires. Lorsque vous tendez délibérément un muscle puis le relâchez, le relâchement crée un état de relaxation plus profond que celui que le muscle avait avant la tension.",
+      "description2": "Ce cycle tension-relâchement active votre système nerveux parasympathique, qui contrôle la réponse repos-digestion de votre corps. À mesure que chaque groupe musculaire se détend, votre fréquence cardiaque ralentit, la pression artérielle diminue et les hormones de stress diminuent, créant une cascade d'effets apaisants dans tout votre corps.",
+      "description3": "Avec une pratique régulière, vous développez une plus grande conscience corporelle et pouvez reconnaître la tension plus tôt. Cela vous permet de relâcher le stress physique avant qu'il ne s'accumule, vous donnant un outil puissant pour gérer l'anxiété en temps réel.",
+      "tensionContrast": {
+        "title": "Contraste de Tension",
+        "description": "Tendre délibérément les muscles rend le relâchement ultérieur plus perceptible et efficace"
+      },
+      "nervousSystemShift": {
+        "title": "Changement du Système Nerveux",
+        "description": "Le relâchement déclenche l'activation parasympathique, ralentissant le rythme cardiaque et réduisant les hormones de stress"
+      },
+      "bodyAwareness": {
+        "title": "Conscience Corporelle",
+        "description": "La pratique vous entraîne à reconnaître et relâcher automatiquement la tension tout au long de votre journée"
+      }
+    },
+    "science": {
+      "title": "La Science Derrière la Relaxation Musculaire Progressive",
+      "description": "La recherche démontre systématiquement que la relaxation musculaire progressive produit une réduction significative de l'anxiété dans diverses populations et contextes. Dans un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7102525/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">essai randomisé avec 51 patients COVID-19</a>, 30 minutes de pratique quotidienne pendant 5 jours ont réduit les scores de l'Inventaire d'Anxiété État-Trait de 57,88 à 44,96—une réduction de 22%—tandis que les scores du groupe témoin sont restés inchangés (p<0,001).",
+      "research": {
+        "nurseStress": {
+          "title": "Grand Effet dans les Environnements à Haut Stress",
+          "description": "Parmi <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10844009/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">46 infirmières dans un essai contrôlé randomisé de 2022</a>, la relaxation musculaire progressive a significativement réduit les scores d'anxiété sur le DASS-21 avec une grande taille d'effet de d de Cohen=1,61 par rapport aux témoins, démontrant des bénéfices durables dans des environnements de travail exigeants."
+        },
+        "studentAnxiety": {
+          "title": "Passage d'une Anxiété Modérée à Faible",
+          "description": "Chez <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC4280725/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">49 étudiants en soins infirmiers</a>, quatre sessions supervisées plus une pratique quotidienne ont fait passer 91,7% des participants d'une anxiété modérée à faible sur l'Échelle d'Anxiété aux Examens de Sarason, sans changement comparable dans le groupe témoin de 25 personnes (p=0,00)."
+        },
+        "clinicalTraining": {
+          "title": "Réduction Majeure en Milieu Clinique",
+          "description": "Parmi <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9047807/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">90 étudiants infirmiers de première année en formation clinique</a>, cinq sessions de 45 minutes ciblant 13 groupes musculaires ont réduit les scores de l'Inventaire d'Anxiété État-Trait de 55 à 24,4—une diminution de 56%—sans effets indésirables signalés (t=30,783, p=0,001)."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Quand Pratiquer",
+      "items": [
+        "Lorsque vous sentez une tension physique s'accumuler dans votre corps—épaules tendues, mâchoire serrée ou raideur musculaire",
+        "Avant des événements stressants comme des présentations, des examens ou des rendez-vous médicaux pour relâcher la tension anticipatoire",
+        "À la fin de votre journée de travail pour relâcher le stress physique accumulé et passer à la relaxation",
+        "Avant de vous coucher pour relâcher la tension physique qui pourrait interférer avec l'endormissement ou le maintien du sommeil"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Ce Que Vous Remarquerez",
+      "items": [
+        "Conscience immédiate de la tension que vous ne réalisiez pas maintenir dans divers groupes musculaires",
+        "Relaxation physique profonde à mesure que chaque groupe musculaire se relâche, créant une vague de calme dans votre corps",
+        "Rythme cardiaque plus lent et respiration plus profonde à mesure que votre système nerveux parasympathique s'active",
+        "Plus grande capacité à reconnaître et relâcher la tension tout au long de votre journée avec une pratique continue"
+      ]
+    },
+    "tips": {
+      "title": "Conseils Pour de Meilleurs Résultats",
+      "position": {
+        "title": "Position",
+        "description": "Allongez-vous ou inclinez-vous dans une chaise confortable où tout votre corps peut être soutenu. Retirez les vêtements serrés et assurez-vous de ne pas être interrompu pendant 12-15 minutes."
+      },
+      "technique": {
+        "title": "Technique",
+        "description": "Tendez chaque groupe musculaire fermement mais pas au point de douleur ou de crampes. Maintenez pendant 10 secondes, puis relâchez complètement et remarquez le contraste pendant 10 secondes supplémentaires avant de continuer."
+      },
+      "focus": {
+        "title": "Concentration",
+        "description": "Portez attention à la différence entre tension et relaxation dans chaque groupe musculaire. Cette conscience est essentielle pour reconnaître et relâcher la tension dans la vie quotidienne."
+      }
+    }
+  }
+}

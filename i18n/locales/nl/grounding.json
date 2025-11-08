@@ -1,0 +1,206 @@
+{
+    "grounding": {
+        "exercise": {
+            "title": "5-4-3-2-1 Grounding",
+            "beginExercise": "Begin Oefening",
+            "practiceAgain": "Oefen Opnieuw",
+            "ofSteps": "van 5 stappen",
+            "itemsFound": "items gevonden",
+            "found": "gevonden",
+            "greatAwareness": "Geweldig bewustzijn!",
+            "keepExploring": "Blijf verkennen...",
+            "back": "Terug",
+            "next": "Volgende",
+            "complete": "Voltooi",
+            "youAreGrounded": "Je Bent Gegrond",
+            "groundedDescription": "Door je vijf zintuigen te activeren, heb je jezelf met succes verankerd in het huidige moment.",
+            "benefits": {
+                "immediateStability": {
+                    "title": "Onmiddellijke Stabiliteit",
+                    "description": "Verbind met je omgeving en voel je gegrond"
+                },
+                "mentalClarity": {
+                    "title": "Mentale Helderheid",
+                    "description": "Onderbreek razende gedachten en herwin je focus"
+                },
+                "calmPresence": {
+                    "title": "Kalme Aanwezigheid",
+                    "description": "Voel je meer aanwezig en in controle"
+                },
+                "stability": {
+                    "title": "Stabiliteit",
+                    "description": "Je bent verbonden en gegrond"
+                },
+                "clarity": {
+                    "title": "Helderheid",
+                    "description": "Razende gedachten zijn vertraagd"
+                },
+                "presence": {
+                    "title": "Aanwezigheid",
+                    "description": "Je bent hier in dit moment"
+                }
+            },
+            "steps": {
+                "see": {
+                    "title": "Kijk om je heen",
+                    "subtitle": "Vind 5 dingen die je kunt zien",
+                    "items": [
+                        {
+                            "text": "Iets met een interessante kleur of patroon",
+                            "guidance": "Zoek naar texturen, reflecties of kleurencombinaties die je aandacht trekken"
+                        },
+                        {
+                            "text": "Een object met een gladde textuur",
+                            "guidance": "Merk op hoe het licht op het oppervlak valt - is het glanzend, mat of ergens tussenin?"
+                        },
+                        {
+                            "text": "Iets dat beweegt of schaduwen heeft",
+                            "guidance": "Kijk hoe beweging veranderende patronen van licht en schaduw creëert"
+                        },
+                        {
+                            "text": "Een detail dat je nog niet eerder had opgemerkt",
+                            "guidance": "Kijk beter naar vertrouwde objecten - welke kleine details heb je gemist?"
+                        },
+                        {
+                            "text": "Iets dat je troost brengt",
+                            "guidance": "Focus op waarom dit object troostend aanvoelt - zijn kleuren, vorm of de herinneringen die het vasthoudt"
+                        }
+                    ]
+                },
+                "touch": {
+                    "title": "Voel om je heen",
+                    "subtitle": "Vind 4 dingen die je kunt aanraken of voelen",
+                    "items": [
+                        {
+                            "text": "De temperatuur van de lucht op je huid",
+                            "guidance": "Merk op of het warm, koel of neutraal is - hoe voelt het op verschillende delen van je lichaam?"
+                        },
+                        {
+                            "text": "De textuur van je kleding",
+                            "guidance": "Voel de stof tussen je vingers - is het zacht, ruw, glad of getextureerd?"
+                        },
+                        {
+                            "text": "Het oppervlak waarop je zit of staat",
+                            "guidance": "Druk er lichtjes op - is het stevig, zacht, warm of koel tegen je lichaam?"
+                        },
+                        {
+                            "text": "Iets glad of ruw bij je in de buurt",
+                            "guidance": "Laat je vingers over het oppervlak glijden - merk het contrast in texturen op"
+                        }
+                    ]
+                },
+                "hear": {
+                    "title": "Luister aandachtig",
+                    "subtitle": "Vind 3 dingen die je kunt horen",
+                    "items": [
+                        {
+                            "text": "Je eigen ademhaling of hartslag",
+                            "guidance": "Sluit je ogen en focus naar binnen - kun je je ademhaling of hartslag horen?"
+                        },
+                        {
+                            "text": "Geluiden van buiten (verkeer, natuur, mensen)",
+                            "guidance": "Luister verder dan de kamer - welke verre geluiden kun je identificeren?"
+                        },
+                        {
+                            "text": "Subtiele geluiden die je normaal negeert",
+                            "guidance": "Merk stille geluiden op zoals zoemende elektronica, luchtbeweging of krakende geluiden"
+                        }
+                    ]
+                },
+                "smell": {
+                    "title": "Neem een ademhaling",
+                    "subtitle": "Vind 2 dingen die je kunt ruiken",
+                    "items": [
+                        {
+                            "text": "De lucht in deze ruimte",
+                            "guidance": "Neem een langzame, diepe ademhaling - is het fris, muf, geparfumeerd of neutraal?"
+                        },
+                        {
+                            "text": "Iets aangenaam of vertrouwd",
+                            "guidance": "Zoek naar subtiele geuren - koffie, zeep, wasverzachter of natuurlijke geuren"
+                        }
+                    ]
+                },
+                "taste": {
+                    "title": "Merk de smaak op",
+                    "subtitle": "Vind 1 ding dat je kunt proeven",
+                    "items": [
+                        {
+                            "text": "De huidige smaak in je mond",
+                            "guidance": "Beweeg je tong rond in je mond - zoet, zout, munt of gewoon de smaak van speeksel?"
+                        }
+                    ]
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "Hoe 5-4-3-2-1 Grounding Werkt",
+            "description1": "De 5-4-3-2-1 techniek werkt door de aandacht van je hersenen om te leiden van angstige gedachten naar onmiddellijke zintuiglijke ervaringen. Wanneer angst het dreigingsdetectiesysteem van je hersenen activeert, creëert het bewust activeren van elk van je vijf zintuigen concurrerende neurale signalen die de angstreactie onderbreken.",
+            "description2": "Door systematisch dingen te identificeren die je kunt zien, aanraken, horen, ruiken en proeven, verschuif je je zenuwstelsel van een staat van hyperopwinding naar bewustzijn van het huidige moment. Deze zintuiglijke betrokkenheid activeert de prefrontale cortex—het redeneringcentrum van je hersenen—dat helpt de amygdala te reguleren, het emotionele alarmsysteem dat angst triggert.",
+            "description3": "De aftelstructuur (5-4-3-2-1) biedt cognitieve ondersteuning die je geest een concrete taak geeft, waardoor het niet in zorgen kan spiraliseren terwijl het je tegelijkertijd verankert in je fysieke omgeving en het huidige moment.",
+            "sensoryEngagement": {
+                "title": "Zintuiglijke Betrokkenheid",
+                "description": "Het tegelijkertijd activeren van meerdere zintuigen creëert sterke neurale signalen die concurreren met en angstpatronen in de hersenen overrulen."
+            },
+            "neuralInterruption": {
+                "title": "Neurale Onderbreking",
+                "description": "De gestructureerde afteltaak betrekt je prefrontale cortex, onderbreekt de angstreactie van de amygdala en herstelt rationeel denken."
+            },
+            "presentMomentAnchoring": {
+                "title": "Verankering in het Huidige Moment",
+                "description": "Het identificeren van concrete zintuiglijke details wortelt je bewustzijn in het hier-en-nu, doorbreekt de cyclus van piekeren over het verleden of zorgen over de toekomst."
+            }
+        },
+        "science": {
+            "title": "De Wetenschap Achter 5-4-3-2-1 Grounding",
+            "description": "Onderzoek toont aan dat zintuiglijke grounding technieken meetbare verbeteringen in angstsymptomen produceren bij diverse populaties. In een <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12550066/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">gerandomiseerde gecontroleerde studie van 121 kinderen met het Syndroom van Tourette</a>, leidden grounding oefeningen tot een vermindering van 36 punten in angstscores—aanzienlijk meer dan controles—met bijzonder sterke effecten op scheidingsangst (vermindering van 11,31 punten, effectgrootte 0,55) en sociale angst (vermindering van 11,05 punten, effectgrootte 0,65).",
+            "research": {
+                "anxietyReduction": {
+                    "title": "Angstvermindering in Klinische Populaties",
+                    "description": "Bij kinderen met het Syndroom van Tourette bereikte een <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12550066/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">protocol dat zintuiglijke grounding incorporeert</a> een vermindering van 36,02 punten in totale angstscores, waarbij scheidingsangst daalde met 11,31 punten (effectgrootte 0,55) en sociale angst met 11,05 punten (effectgrootte 0,65)."
+                },
+                "mentalHealthImprovement": {
+                    "title": "Verbeteringen in Mentale Gezondheid & Functioneren",
+                    "description": "Patiënten met functionele neurologische aandoeningen die de <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10272915/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">5-4-3-2-1 grounding techniek</a> gebruiken, toonden een stijging van 39 punten in mentale gezondheidsscores, een verbetering van 35 punten in emotioneel functioneren en halveerden hun beperkingsniveaus van 25,7 tot 13,2 op invaliditeitsschalen."
+                },
+                "symptomFrequencyReduction": {
+                    "title": "Vermindering van Symptoomfrequentie",
+                    "description": "Een <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8515382/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">meta-analyse van psychologische behandelingen</a> die zintuiglijke grounding incorporeert, toonde aan dat 82% van de patiënten ten minste 50% vermindering in functionele aanvalsfrequentie bereikte, met aanhoudende verbeteringen bij 6-maanden follow-up en begeleidende verminderingen in angstscores."
+                }
+            }
+        },
+        "whenToPractice": {
+            "title": "Wanneer Te Oefenen",
+            "items": [
+                "Tijdens paniekaanvallen of acute angstepisodes om de escalatiecyclus te onderbreken",
+                "Wanneer je je overweldigd, gedissocieerd of ontkoppeld van je omgeving voelt",
+                "Voor stressvolle gebeurtenissen zoals presentaties of moeilijke gesprekken om kalmte te creëren",
+                "Na traumatische triggers of flashbacks om opnieuw verbinding te maken met het huidige moment"
+            ]
+        },
+        "whatYoullNotice": {
+            "title": "Wat Je Zult Merken",
+            "items": [
+                "Onmiddellijke vermindering van razende gedachten en mentale overweldiging binnen de eerste minuut",
+                "Vertraagde hartslag en verminderde fysieke spanning naarmate je zenuwstelsel kalmeert",
+                "Helderder denken en verbeterd vermogen om te reageren in plaats van te reageren op situaties",
+                "Groter gevoel van controle en stabiliteit wanneer regelmatig geoefend tijdens stress"
+            ]
+        },
+        "tips": {
+            "title": "Tips Voor Beste Resultaten",
+            "tip1": {
+                "title": "Ga Langzaam",
+                "description": "Neem de tijd om elk zintuiglijk detail te identificeren—haasten verstoort het doel. Besteed 5-10 seconden aan het echt observeren van elk item dat je identificeert."
+            },
+            "tip2": {
+                "title": "Wees Specifiek",
+                "description": "In plaats van \"Ik zie een stoel\", probeer \"Ik zie een houten stoel met gebogen armleuningen en een rood kussen\". Gedetailleerde observatie versterkt het grounding effect."
+            },
+            "tip3": {
+                "title": "Herhaal Wanneer Nodig",
+                "description": "Als angst terugkeert na één ronde, doe dan onmiddellijk nog een. Je kunt deze techniek zo vaak oefenen als nodig is totdat je je gegrond voelt."
+            }
+        }
+    }
+}

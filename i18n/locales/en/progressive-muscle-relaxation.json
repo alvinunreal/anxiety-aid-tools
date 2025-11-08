@@ -1,0 +1,370 @@
+{
+  "progressiveMuscleRelaxation": {
+    "interface": {
+      "title": "Progressive Muscle Relaxation",
+      "subtitle": "Systematic tension and release",
+      "beginExercise": "Begin Exercise",
+      "start": "Start",
+      "stop": "Stop",
+      "pause": "Pause",
+      "resume": "Resume",
+      "back": "Back",
+      "next": "Next",
+      "complete": "Complete",
+      "ofGroups": "of {count} groups",
+      "prepare": "Prepare to begin",
+      "tenseFor10": "Tense for 10 seconds",
+      "releaseFor10": "Release for 10 seconds",
+      "tense": "Tense",
+      "relax": "Relax",
+      "tensionSteps": "Tension Steps:",
+      "relaxationSteps": "Relaxation Steps:"
+    },
+    "completion": {
+      "title": "Deep Relaxation Achieved",
+      "description": "You've systematically released tension throughout your entire body. Notice how different your muscles feel compared to when you started.",
+      "benefits": {
+        "tensionReleased": "Tension released",
+        "bodyRelaxed": "Body relaxed"
+      }
+    },
+    "muscleGroups": {
+      "rightHand": {
+        "name": "Right Hand & Forearm",
+        "shortName": "R Hand",
+        "tensionCue": [
+          "Make a tight fist",
+          "Squeeze hard",
+          "Feel the tension in your fingers and forearm"
+        ],
+        "relaxationCue": [
+          "Open your hand",
+          "Let it go completely limp",
+          "Feel fingers naturally curved and relaxed"
+        ]
+      },
+      "leftHand": {
+        "name": "Left Hand & Forearm",
+        "shortName": "L Hand",
+        "tensionCue": [
+          "Make a tight fist",
+          "Squeeze hard",
+          "Feel the tension in your fingers and forearm"
+        ],
+        "relaxationCue": [
+          "Open your hand",
+          "Let it go completely limp",
+          "Notice the warm, heavy feeling"
+        ]
+      },
+      "rightUpperArm": {
+        "name": "Right Upper Arm",
+        "shortName": "R Bicep",
+        "tensionCue": [
+          "Bend elbow",
+          "Flex bicep hard",
+          "Press forearm against upper arm",
+          "Feel the muscle bulge"
+        ],
+        "relaxationCue": [
+          "Lower your arm to your side",
+          "Let the muscle go soft",
+          "Feel the relief and heaviness"
+        ]
+      },
+      "leftUpperArm": {
+        "name": "Left Upper Arm",
+        "shortName": "L Bicep",
+        "tensionCue": [
+          "Bend elbow",
+          "Flex bicep hard",
+          "Press forearm against upper arm",
+          "Feel the strength"
+        ],
+        "relaxationCue": [
+          "Lower your arm to your side",
+          "Let tension drain away",
+          "Feel the heaviness"
+        ]
+      },
+      "forehead": {
+        "name": "Forehead & Scalp",
+        "shortName": "Forehead",
+        "tensionCue": [
+          "Raise eyebrows high",
+          "Wrinkle forehead",
+          "Feel the tension across your scalp"
+        ],
+        "relaxationCue": [
+          "Let eyebrows drop naturally",
+          "Smooth out forehead",
+          "Feel skin completely relax"
+        ]
+      },
+      "eyesNose": {
+        "name": "Eyes & Nose",
+        "shortName": "Face",
+        "tensionCue": [
+          "Squeeze eyes tight",
+          "Scrunch nose up",
+          "Make your whole face scrunch together"
+        ],
+        "relaxationCue": [
+          "Let face go soft",
+          "Eyes gently closed",
+          "Nose and cheeks smooth and relaxed"
+        ]
+      },
+      "mouthJaw": {
+        "name": "Mouth & Jaw",
+        "shortName": "Jaw",
+        "tensionCue": [
+          "Bite down hard",
+          "Clench teeth",
+          "Feel jaw muscles working"
+        ],
+        "relaxationCue": [
+          "Let jaw drop slightly open",
+          "Lips barely touching",
+          "Tongue resting softly"
+        ]
+      },
+      "neckThroat": {
+        "name": "Neck & Throat",
+        "shortName": "Neck",
+        "tensionCue": [
+          "Chin down to chest",
+          "Push head back",
+          "Create tension from both directions"
+        ],
+        "relaxationCue": [
+          "Let head find natural position",
+          "Neck long and loose",
+          "Throat open"
+        ]
+      },
+      "shoulders": {
+        "name": "Shoulders",
+        "shortName": "Shoulders",
+        "tensionCue": [
+          "Pull shoulders up high",
+          "Try to touch your ears",
+          "Feel the squeeze in upper back"
+        ],
+        "relaxationCue": [
+          "Let shoulders drop naturally",
+          "Feel them sink lower",
+          "Heavy and loose"
+        ]
+      },
+      "upperBackChest": {
+        "name": "Upper Back & Chest",
+        "shortName": "Upper Back",
+        "tensionCue": [
+          "Squeeze shoulder blades together",
+          "Arch back",
+          "Expand chest with deep breath"
+        ],
+        "relaxationCue": [
+          "Let back settle naturally",
+          "Shoulder blades apart",
+          "Chest soft and open"
+        ]
+      },
+      "abdomen": {
+        "name": "Abdomen",
+        "shortName": "Stomach",
+        "tensionCue": [
+          "Tighten abs hard",
+          "Pull belly button in",
+          "Make stomach like a rock"
+        ],
+        "relaxationCue": [
+          "Let stomach go soft",
+          "Breathe into belly",
+          "Feel it rise and fall naturally"
+        ]
+      },
+      "lowerBack": {
+        "name": "Lower Back",
+        "shortName": "L Back",
+        "tensionCue": [
+          "Arch lower back gently",
+          "Push stomach out",
+          "Feel the curve in spine"
+        ],
+        "relaxationCue": [
+          "Let back settle to natural curve",
+          "Supported and comfortable",
+          "Tension melting"
+        ]
+      },
+      "hipsButtocks": {
+        "name": "Hips & Buttocks",
+        "shortName": "Glutes",
+        "tensionCue": [
+          "Squeeze buttocks together hard",
+          "Clench muscles tight",
+          "Feel tension in hips"
+        ],
+        "relaxationCue": [
+          "Let buttocks go soft",
+          "Feel them spread naturally",
+          "Heavy and relaxed"
+        ]
+      },
+      "rightThigh": {
+        "name": "Right Thigh",
+        "shortName": "R Thigh",
+        "tensionCue": [
+          "Straighten right leg",
+          "Flex thigh muscle hard",
+          "Feel it firm and strong"
+        ],
+        "relaxationCue": [
+          "Let leg rest naturally",
+          "Thigh muscle soft and loose",
+          "Heavy and comfortable"
+        ]
+      },
+      "leftThigh": {
+        "name": "Left Thigh",
+        "shortName": "L Thigh",
+        "tensionCue": [
+          "Straighten left leg",
+          "Flex thigh muscle hard",
+          "Feel the strength"
+        ],
+        "relaxationCue": [
+          "Let leg rest naturally",
+          "Thigh completely relaxed",
+          "Notice the contrast"
+        ]
+      },
+      "rightCalfShin": {
+        "name": "Right Calf & Shin",
+        "shortName": "R Calf",
+        "tensionCue": [
+          "Point foot down hard",
+          "Then flex up toward shin",
+          "Feel both sides working"
+        ],
+        "relaxationCue": [
+          "Let foot rest naturally",
+          "Calf and shin loose",
+          "Completely soft"
+        ]
+      },
+      "leftCalfShin": {
+        "name": "Left Calf & Shin",
+        "shortName": "L Calf",
+        "tensionCue": [
+          "Point foot down hard",
+          "Then flex up toward shin",
+          "Feel muscles engage"
+        ],
+        "relaxationCue": [
+          "Let foot rest naturally",
+          "All lower leg muscles relaxed and heavy"
+        ]
+      },
+      "rightFoot": {
+        "name": "Right Foot",
+        "shortName": "R Foot",
+        "tensionCue": [
+          "Curl toes down tight",
+          "Scrunch them up",
+          "Feel tension in foot arch"
+        ],
+        "relaxationCue": [
+          "Let toes uncurl naturally",
+          "Foot completely soft",
+          "Warm and relaxed"
+        ]
+      },
+      "leftFoot": {
+        "name": "Left Foot",
+        "shortName": "L Foot",
+        "tensionCue": [
+          "Curl toes down tight",
+          "Scrunch them up",
+          "Feel arch working"
+        ],
+        "relaxationCue": [
+          "Let toes spread naturally",
+          "Foot loose and relaxed",
+          "Tension gone"
+        ]
+      }
+    },
+    "howItWorks": {
+      "title": "How Progressive Muscle Relaxation Works",
+      "description1": "Progressive muscle relaxation teaches your body the difference between tension and relaxation by systematically tensing and then releasing muscle groups. When you deliberately tense a muscle and then let it go, the release creates a deeper state of relaxation than the muscle had before tensing.",
+      "description2": "This tension-release cycle activates your parasympathetic nervous system, which controls your body's rest-and-digest response. As each muscle group relaxes, your heart rate slows, blood pressure decreases, and stress hormones diminish, creating a cascade of calming effects throughout your entire body.",
+      "description3": "With regular practice, you develop greater body awareness and can recognize tension earlier. This allows you to release physical stress before it accumulates, giving you a powerful tool for managing anxiety in real-time.",
+      "tensionContrast": {
+        "title": "Tension Contrast",
+        "description": "Deliberately tensing muscles makes the subsequent release more noticeable and effective"
+      },
+      "nervousSystemShift": {
+        "title": "Nervous System Shift",
+        "description": "Release triggers parasympathetic activation, slowing heart rate and reducing stress hormones"
+      },
+      "bodyAwareness": {
+        "title": "Body Awareness",
+        "description": "Practice trains you to recognize and release tension automatically throughout your day"
+      }
+    },
+    "science": {
+      "title": "The Science Behind Progressive Muscle Relaxation",
+      "description": "Research consistently demonstrates that progressive muscle relaxation produces significant anxiety reduction across diverse populations and settings. In a <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7102525/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">randomized trial with 51 COVID-19 patients</a>, 30 minutes of daily practice over 5 days lowered State-Trait Anxiety Inventory scores from 57.88 to 44.96—a 22% reduction—while control group scores remained unchanged (p<0.001).",
+      "research": {
+        "nurseStress": {
+          "title": "Large Effect In High-Stress Environments",
+          "description": "Among <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10844009/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">46 nurses in a 2022 randomized controlled trial</a>, progressive muscle relaxation significantly reduced anxiety scores on the DASS-21 with a large effect size of Cohen's d=1.61 compared to controls, demonstrating sustained benefits in demanding work settings."
+        },
+        "studentAnxiety": {
+          "title": "Shift From Moderate To Low Anxiety",
+          "description": "In <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC4280725/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">49 nursing students</a>, four supervised sessions plus daily practice shifted 91.7% of participants from moderate to low anxiety on the Sarason Test Anxiety Scale, with no comparable change in the 25-person control group (p=0.00)."
+        },
+        "clinicalTraining": {
+          "title": "Major Reduction In Clinical Settings",
+          "description": "Among <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9047807/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">90 first-year nursing students during clinical training</a>, five 45-minute sessions targeting 13 muscle groups reduced State-Trait Anxiety Inventory scores from 55 to 24.4—a 56% decrease—with no adverse effects reported (t=30.783, p=0.001)."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "When To Practice",
+      "items": [
+        "When you feel physical tension building in your body—tight shoulders, clenched jaw, or muscle stiffness",
+        "Before stressful events like presentations, exams, or medical appointments to release anticipatory tension",
+        "At the end of your workday to release accumulated physical stress and transition into relaxation",
+        "Before bed to release physical tension that might interfere with falling asleep or staying asleep"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "What You'll Notice",
+      "items": [
+        "Immediate awareness of tension you didn't realize you were holding in various muscle groups",
+        "Deep physical relaxation as each muscle group releases, creating a wave of calm through your body",
+        "Slower heart rate and deeper breathing as your parasympathetic nervous system activates",
+        "Greater ability to recognize and release tension throughout your day with continued practice"
+      ]
+    },
+    "tips": {
+      "title": "Tips For Best Results",
+      "position": {
+        "title": "Position",
+        "description": "Lie down or recline in a comfortable chair where your entire body can be supported. Remove tight clothing and ensure you won't be interrupted for 12-15 minutes."
+      },
+      "technique": {
+        "title": "Technique",
+        "description": "Tense each muscle group firmly but not to the point of pain or cramping. Hold for 10 seconds, then release completely and notice the contrast for another 10 seconds before moving on."
+      },
+      "focus": {
+        "title": "Focus",
+        "description": "Pay attention to the difference between tension and relaxation in each muscle group. This awareness is key to recognizing and releasing tension in daily life."
+      }
+    }
+  }
+}

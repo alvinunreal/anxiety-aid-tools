@@ -1,0 +1,165 @@
+{
+  "soundTherapy": {
+    "title": "Sound Therapy & Frequency Healing",
+    "description": "Experience therapeutic frequencies and binaural beats to promote deep relaxation, reduce anxiety, and enhance focus through scientifically-backed sound therapy.",
+    "interface": {
+      "frequency": "Frequency",
+      "binauralBeats": "Binaural Beats",
+      "modulation": "Modulation",
+      "volume": "Volume",
+      "startSession": "Start Sound Therapy",
+      "stopSession": "Stop Session"
+    },
+    "playingState": {
+      "description": "Allow the healing vibrations to wash over you. Focus on your breath and let the frequencies guide you into deep relaxation.",
+      "instructions": "Close your eyes and allow the vibrations to penetrate deeply, bringing peace to your mind and body."
+    },
+    "frequencies": [
+      {
+        "name": "396Hz",
+        "description": "Liberation from fear and guilt"
+      },
+      {
+        "name": "417Hz",
+        "description": "Facilitating change and transformation"
+      },
+      {
+        "name": "528Hz",
+        "description": "Love frequency and DNA repair"
+      },
+      {
+        "name": "639Hz",
+        "description": "Harmonious relationships"
+      },
+      {
+        "name": "741Hz",
+        "description": "Awakening intuition and expression"
+      },
+      {
+        "name": "852Hz",
+        "description": "Returning to spiritual order"
+      },
+      {
+        "name": "963Hz",
+        "description": "Connection to universal consciousness"
+      },
+      {
+        "name": "174Hz",
+        "description": "Natural anesthetic and pain relief"
+      }
+    ],
+    "binauralBeats": [
+      {
+        "name": "None",
+        "description": "Pure frequency"
+      },
+      {
+        "name": "Delta 2Hz",
+        "description": "Deep sleep"
+      },
+      {
+        "name": "Theta 4Hz",
+        "description": "Deep meditation"
+      },
+      {
+        "name": "Alpha 8Hz",
+        "description": "Relaxed focus"
+      },
+      {
+        "name": "Beta 15Hz",
+        "description": "Alert awareness"
+      }
+    ],
+    "modulation": [
+      {
+        "name": "Off",
+        "description": "No modulation"
+      },
+      {
+        "name": "Very Subtle",
+        "description": "Barely perceptible"
+      },
+      {
+        "name": "Gentle",
+        "description": "Soft breathing effect"
+      },
+      {
+        "name": "Moderate",
+        "description": "Noticeable waves"
+      },
+      {
+        "name": "Strong",
+        "description": "Deep pulsing"
+      }
+    ],
+    "howItWorks": {
+      "title": "How Sound Therapy Works",
+      "description1": "Sound therapy uses specific frequencies and binaural beats to directly influence your brain's electrical activity. When you listen to two slightly different tones in each ear, your brain creates a third 'phantom' frequency—the binaural beat—that can guide your brainwaves into states of deep relaxation, focus, or calm.",
+      "description2": "Different frequencies resonate with different parts of your nervous system. Theta waves (4-8 Hz) promote meditation and anxiety relief, while alpha waves (8-12 Hz) enhance relaxed alertness. The pure tones also create sympathetic vibrations in your body's tissues, promoting physical relaxation alongside mental calm.",
+      "description3": "With consistent use, sound therapy can help retrain your nervous system's baseline state, making it easier to access calm even without the audio. Research shows these effects are measurable in brain scans, heart rate variability, and stress hormone levels.",
+      "brainwaveEntrainment": {
+        "title": "Brainwave Entrainment",
+        "description": "Your brain synchronizes with external rhythmic stimuli, guiding electrical activity into therapeutic patterns."
+      },
+      "autonomicBalance": {
+        "title": "Autonomic Balance",
+        "description": "Specific frequencies activate the parasympathetic nervous system, lowering heart rate and reducing cortisol production."
+      },
+      "physiologicalResonance": {
+        "title": "Physiological Resonance",
+        "description": "Sound vibrations create subtle physical effects throughout your body, releasing muscle tension and promoting circulation."
+      }
+    },
+    "science": {
+      "title": "The Science Behind Sound Therapy",
+      "description": "Sound therapy is backed by rigorous clinical research demonstrating measurable reductions in anxiety, stress, and physiological tension. A <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5871151/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">study of 62 participants</a> showed Tibetan singing bowl meditation lowered anxiety scores by 0.67 points overall and 0.89 points in beginners, with tension decreasing by 1.12 points. Multiple trials confirm sound-based interventions produce consistent, measurable benefits.",
+      "research": {
+        "proceduralAnxiety": {
+          "title": "Procedural Anxiety Reduction",
+          "description": "In 112 patients undergoing bronchoscopy, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9276398/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">binaural beat audio</a> reduced anxiety scores by 7.26 points and lowered systolic blood pressure by 9.89 mmHg—significantly outperforming music or no intervention."
+        },
+        "thetaBeatsAddiction": {
+          "title": "Theta Beats for Co-Occurring Anxiety",
+          "description": "Eight 20-minute sessions of <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11811546/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">7.5 Hz theta binaural beats</a> in 30 opioid-dependent men reduced anxiety inventory scores from 27.47 to 10.00—a 64% improvement with large effect size (η²=0.949)."
+        },
+        "emergencyStaff": {
+          "title": "Stress Relief in High-Pressure Settings",
+          "description": "Among 54 emergency nurses during COVID-19, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9534204/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">15 minutes of 432 Hz music</a> lowered median anxiety scores from 34 to 29, decreased respiratory rate by 2.7 breaths/min, and reduced systolic BP by 3.8 mmHg."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "When To Practice",
+      "items": [
+        "When feeling overwhelmed, anxious, or unable to settle your mind",
+        "Before medical procedures, stressful events, or important conversations to calm your nervous system",
+        "During acute anxiety or panic episodes to interrupt the stress response",
+        "At bedtime to promote deep relaxation and prepare for restorative sleep"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "What You'll Notice",
+      "items": [
+        "Immediate calming effect within the first 1-2 minutes as your nervous system begins to respond",
+        "Slower heart rate, deeper breathing, and reduced muscle tension throughout your body",
+        "Enhanced mental clarity and emotional distance from anxious thoughts",
+        "Cumulative resilience with regular practice—your baseline stress level gradually lowers over time"
+      ]
+    },
+    "tips": {
+      "title": "Tips For Best Results",
+      "headphones": {
+        "title": "Headphones",
+        "description": "Use stereo headphones for binaural beats to work properly. Each ear must hear a distinct frequency."
+      },
+      "environment": {
+        "title": "Environment",
+        "description": "Find a quiet, comfortable space where you won't be interrupted. Dim lighting or closed eyes enhance focus on the sounds."
+      },
+      "consistency": {
+        "title": "Consistency",
+        "description": "Practice 10-20 minutes daily for best results. Brainwave entrainment becomes more effective with regular exposure."
+      }
+    }
+  }
+}

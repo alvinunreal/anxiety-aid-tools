@@ -1,0 +1,15 @@
+{
+  "fidgetSpinner": {
+    "audioMute": "Geluid dempen",
+    "audioUnmute": "Geluid inschakelen",
+    "aria": {
+      "spinnerLabel": "Interactieve fidget spinner. Klik en sleep om te draaien, of druk op spatie/Enter om de draai te versnellen.",
+      "muteAudio": "Geluideffecten van spinner dempen",
+      "unmuteAudio": "Geluideffecten van spinner inschakelen",
+      "status": {
+        "spinning": "Spinner draait",
+        "still": "Spinner staat stil"
+      }
+    }
+  }
+}

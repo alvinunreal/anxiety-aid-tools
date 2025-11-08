@@ -1,0 +1,206 @@
+{
+    "grounding": {
+        "exercise": {
+            "title": "5-4-3-2-1 正念觉察",
+            "beginExercise": "开始练习",
+            "practiceAgain": "再次练习",
+            "ofSteps": "共5步",
+            "itemsFound": "找到的项目",
+            "found": "已找到",
+            "greatAwareness": "很好的觉察!",
+            "keepExploring": "继续探索...",
+            "back": "返回",
+            "next": "下一步",
+            "complete": "完成",
+            "youAreGrounded": "你已安定",
+            "groundedDescription": "通过调动你的五感,你已成功将自己锚定在当下此刻。",
+            "benefits": {
+                "immediateStability": {
+                    "title": "即时稳定",
+                    "description": "与环境连接,感受安定"
+                },
+                "mentalClarity": {
+                    "title": "思维清晰",
+                    "description": "中断纷乱的思绪,重获专注"
+                },
+                "calmPresence": {
+                    "title": "平静临在",
+                    "description": "感受更强的临在感和掌控感"
+                },
+                "stability": {
+                    "title": "稳定",
+                    "description": "你已连接并安定"
+                },
+                "clarity": {
+                    "title": "清晰",
+                    "description": "纷乱的思绪已放慢"
+                },
+                "presence": {
+                    "title": "临在",
+                    "description": "你在此时此刻"
+                }
+            },
+            "steps": {
+                "see": {
+                    "title": "环顾四周",
+                    "subtitle": "找到5样你能看到的事物",
+                    "items": [
+                        {
+                            "text": "颜色或图案有趣的东西",
+                            "guidance": "寻找吸引你目光的纹理、反射或色彩组合"
+                        },
+                        {
+                            "text": "表面光滑的物体",
+                            "guidance": "注意光线如何照射在表面上——是有光泽的、哑光的还是介于两者之间?"
+                        },
+                        {
+                            "text": "正在移动或有阴影的东西",
+                            "guidance": "观察运动如何创造不断变化的光影图案"
+                        },
+                        {
+                            "text": "之前没注意到的细节",
+                            "guidance": "仔细观察熟悉的物体——你错过了哪些小细节?"
+                        },
+                        {
+                            "text": "能带来安慰的东西",
+                            "guidance": "专注于为什么这个物体让人感到安慰——它的颜色、形状或承载的记忆"
+                        }
+                    ]
+                },
+                "touch": {
+                    "title": "感受周围",
+                    "subtitle": "找到4样你能触摸或感觉到的事物",
+                    "items": [
+                        {
+                            "text": "皮肤上空气的温度",
+                            "guidance": "注意它是温暖、凉爽还是中性——身体不同部位的感觉如何?"
+                        },
+                        {
+                            "text": "衣服的质地",
+                            "guidance": "用手指感受布料——是柔软、粗糙、光滑还是有纹理?"
+                        },
+                        {
+                            "text": "你坐着或站着的表面",
+                            "guidance": "轻轻按压——它对你的身体来说是坚硬、柔软、温暖还是凉爽?"
+                        },
+                        {
+                            "text": "附近光滑或粗糙的东西",
+                            "guidance": "用手指沿着表面滑动——注意质地的对比"
+                        }
+                    ]
+                },
+                "hear": {
+                    "title": "仔细聆听",
+                    "subtitle": "找到3样你能听到的事物",
+                    "items": [
+                        {
+                            "text": "你自己的呼吸或心跳",
+                            "guidance": "闭上眼睛向内专注——你能听到你的呼吸或脉搏吗?"
+                        },
+                        {
+                            "text": "外面的声音(交通、自然、人声)",
+                            "guidance": "倾听房间之外——你能辨认出哪些远处的声音?"
+                        },
+                        {
+                            "text": "通常被忽略的细微声音",
+                            "guidance": "注意安静的声音,如电子设备的嗡嗡声、空气流动或沉降的声音"
+                        }
+                    ]
+                },
+                "smell": {
+                    "title": "深呼吸",
+                    "subtitle": "找到2样你能闻到的事物",
+                    "items": [
+                        {
+                            "text": "这个房间的空气",
+                            "guidance": "缓慢深呼吸——它是清新、闷热、芳香还是中性的?"
+                        },
+                        {
+                            "text": "令人愉悦或熟悉的东西",
+                            "guidance": "寻找细微的气味——咖啡、肥皂、柔顺剂或自然气味"
+                        }
+                    ]
+                },
+                "taste": {
+                    "title": "注意味道",
+                    "subtitle": "找到1样你能尝到的事物",
+                    "items": [
+                        {
+                            "text": "口中当前的味道",
+                            "guidance": "用舌头在口中转一圈——是甜的、咸的、薄荷味还是只是唾液的味道?"
+                        }
+                    ]
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "5-4-3-2-1 正念觉察的工作原理",
+            "description1": "5-4-3-2-1技巧通过将大脑的注意力从焦虑思绪重新导向即时的感官体验来发挥作用。当焦虑激活大脑的威胁检测系统时,有意识地调动你的五种感官会产生相互竞争的神经信号,从而中断焦虑反应。",
+            "description2": "通过系统地识别你能看到、触摸、听到、闻到和尝到的事物,你将神经系统从过度激活状态转变为对当下时刻的觉察。这种感官参与激活了前额叶皮层——大脑的推理中心——帮助调节杏仁核,即触发焦虑的情绪警报系统。",
+            "description3": "倒数结构(5-4-3-2-1)提供了认知支架,给你的大脑一个具体的任务,防止它陷入担忧的漩涡,同时将你锚定在物理环境和当下时刻。",
+            "sensoryEngagement": {
+                "title": "感官参与",
+                "description": "同时激活多个感官会产生强大的神经信号,与大脑中的焦虑模式竞争并覆盖它们。"
+            },
+            "neuralInterruption": {
+                "title": "神经中断",
+                "description": "结构化的倒数任务调动你的前额叶皮层,中断杏仁核的焦虑反应并恢复理性思考。"
+            },
+            "presentMomentAnchoring": {
+                "title": "当下时刻锚定",
+                "description": "识别具体的感官细节将你的觉察扎根于此时此地,打破过去反刍或未来担忧的循环。"
+            }
+        },
+        "science": {
+            "title": "5-4-3-2-1 正念觉察背后的科学",
+            "description": "研究表明,感官正念技巧在不同人群中对焦虑症状产生可测量的改善。在一项<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12550066/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">针对121名图雷特综合征儿童的随机对照试验</a>中,正念练习使焦虑评分降低了36分——显著高于对照组——对分离焦虑(降低11.31分,效应量0.55)和社交焦虑(降低11.05分,效应量0.65)的效果尤其显著。",
+            "research": {
+                "anxietyReduction": {
+                    "title": "临床人群的焦虑减轻",
+                    "description": "在图雷特综合征儿童中,一项<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12550066/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">纳入感官正念的方案</a>使总焦虑评分降低了36.02分,其中分离焦虑降低了11.31分(效应量0.55),社交焦虑降低了11.05分(效应量0.65)。"
+                },
+                "mentalHealthImprovement": {
+                    "title": "心理健康和功能改善",
+                    "description": "使用<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10272915/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">5-4-3-2-1正念技巧</a>的功能性神经系统疾病患者显示心理健康评分增加了39分,情绪功能改善了35分,残疾量表上的损害水平从25.7降至13.2,减少了一半。"
+                },
+                "symptomFrequencyReduction": {
+                    "title": "症状频率减少",
+                    "description": "一项<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8515382/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">纳入感官正念的心理治疗荟萃分析</a>显示,82%的患者功能性癫痫发作频率至少减少50%,在6个月随访中保持改善,焦虑评分也相应降低。"
+                }
+            }
+        },
+        "whenToPractice": {
+            "title": "何时练习",
+            "items": [
+                "在恐慌发作或急性焦虑发作期间中断升级循环",
+                "当感到不知所措、分离或与周围环境脱节时",
+                "在压力事件(如演讲或困难对话)之前建立平静",
+                "在创伤触发或闪回之后重新连接当下时刻"
+            ]
+        },
+        "whatYoullNotice": {
+            "title": "你会注意到什么",
+            "items": [
+                "第一分钟内纷乱思绪和精神压倒感立即减轻",
+                "随着神经系统平静下来,心率减慢,身体紧张减少",
+                "思维更清晰,对情况的应对能力提高而不是自动反应",
+                "在压力期间定期练习时,控制感和稳定感更强"
+            ]
+        },
+        "tips": {
+            "title": "获得最佳效果的技巧",
+            "tip1": {
+                "title": "放慢速度",
+                "description": "花时间识别每个感官细节——匆忙会适得其反。花5-10秒真正观察你识别的每个项目。"
+            },
+            "tip2": {
+                "title": "具体化",
+                "description": "不要说\"我看到一把椅子\",而是尝试\"我看到一把带有弧形扶手和红色坐垫的木椅\"。详细的观察能增强正念效果。"
+            },
+            "tip3": {
+                "title": "需要时重复",
+                "description": "如果一轮练习后焦虑再次出现,立即再做一次。你可以根据需要多次练习这项技巧,直到感到安定。"
+            }
+        }
+    }
+}

@@ -1,0 +1,177 @@
+{
+  "thoughtLabeling": {
+    "interface": {
+      "title": "Thought Labeling",
+      "subtitle": "Observe and categorize your thoughts",
+      "beginExercise": "Begin Exercise",
+      "thoughtsLabeled": "thoughts labeled",
+      "labelingActiveThought": "Labeling active thought",
+      "readyForNextThought": "Ready for next thought",
+      "elapsed": "elapsed",
+      "yourLabeledThoughts": "Your Labeled Thoughts",
+      "whatsOnYourMind": "What's on Your Mind?",
+      "labelThisThought": "Label This Thought",
+      "chooseLabelsThatDescribe": "Choose the labels that best describe this thought:",
+      "writeAnxiousThought": "Write down an anxious thought you're having right now:",
+      "examplePlaceholder": "Example: 'I'm worried I'll mess up my presentation tomorrow...'",
+      "labelThisThoughtButton": "Label This Thought",
+      "yourThought": "Your Thought:",
+      "cancel": "Cancel",
+      "continue": "Continue",
+      "practiceAgain": "Practice Again"
+    },
+    "benefits": {
+      "awareness": {
+        "title": "Awareness",
+        "description": "Notice thoughts without being consumed by them"
+      },
+      "balance": {
+        "title": "Balance",
+        "description": "Create healthy distance from anxious thinking"
+      },
+      "clarity": {
+        "title": "Clarity",
+        "description": "Understand patterns in your thinking"
+      }
+    },
+    "completion": {
+      "title": "Excellent Self-Awareness",
+      "description": "You've successfully labeled {count} thought{plural} in {time}. This practice helps create healthy distance from anxious thinking.",
+      "sessionInsights": "Session Insights",
+      "benefits": {
+        "awarenessIncreased": "Awareness increased",
+        "thoughtsOrganized": "Thoughts organized",
+        "emotionalDistanceCreated": "Emotional distance created"
+      }
+    },
+    "insights": {
+      "commonPattern": {
+        "title": "Common Pattern Identified",
+        "description": "Most of your thoughts were labeled as \"{labelName}\" - recognizing this pattern is the first step to managing it."
+      },
+      "strongAwareness": {
+        "title": "Strong Self-Awareness",
+        "description": "You've shown excellent ability to observe and categorize your thoughts objectively."
+      }
+    },
+    "labels": {
+      "worry": {
+        "name": "Worry",
+        "description": "Concerns about future events or outcomes"
+      },
+      "catastrophic": {
+        "name": "Catastrophic",
+        "description": "Imagining worst-case scenarios"
+      },
+      "selfDoubt": {
+        "name": "Self-Doubt",
+        "description": "Questioning your abilities or worth"
+      },
+      "perfectionist": {
+        "name": "Perfectionist",
+        "description": "Setting unrealistically high standards"
+      },
+      "comparison": {
+        "name": "Comparison",
+        "description": "Measuring yourself against others"
+      },
+      "rumination": {
+        "name": "Rumination",
+        "description": "Repeatedly thinking about past events"
+      },
+      "control": {
+        "name": "Control",
+        "description": "Wanting to control uncontrollable situations"
+      },
+      "rejection": {
+        "name": "Rejection",
+        "description": "Fear of being rejected or abandoned"
+      },
+      "performance": {
+        "name": "Performance",
+        "description": "Anxiety about how you'll perform"
+      },
+      "health": {
+        "name": "Health",
+        "description": "Concerns about physical or mental health"
+      },
+      "social": {
+        "name": "Social",
+        "description": "Worries about social situations or relationships"
+      },
+      "financial": {
+        "name": "Financial",
+        "description": "Money-related stress and concerns"
+      }
+    },
+    "howItWorks": {
+      "title": "How Thought Labeling Works",
+      "description1": "When you're anxious, your thoughts can feel overwhelming and completely true. Thought labeling helps you step back and see thoughts as mental events—temporary patterns in your mind, not absolute truths. By simply naming what you're experiencing (\"worry,\" \"self-doubt,\" \"catastrophizing\"), you create a small but powerful gap between yourself and the thought.",
+      "description2": "This practice activates your prefrontal cortex—the rational, observing part of your brain—while reducing activity in the amygdala, the brain's alarm center. Instead of getting caught in a spiral of anxious thinking, you become the witness to your thoughts. This shift from \"I am anxious\" to \"I'm having anxious thoughts\" fundamentally changes your relationship with anxiety.",
+      "description3": "With regular practice, labeling helps you recognize thinking patterns before they spiral. You'll start noticing: \"This is that catastrophic thinking again\" or \"Here's my perfectionist pattern.\" Recognition becomes your first line of defense, allowing you to respond skillfully rather than react automatically.",
+      "cognitiveDefusion": {
+        "title": "Cognitive Defusion",
+        "description": "Labeling separates you from your thoughts, reducing their emotional grip and believability."
+      },
+      "emotionalRegulation": {
+        "title": "Emotional Regulation",
+        "description": "Naming activates your rational brain while calming the amygdala, lowering emotional reactivity."
+      },
+      "patternRecognition": {
+        "title": "Pattern Recognition",
+        "description": "Regular labeling reveals recurring thought patterns, making them easier to manage over time."
+      }
+    },
+    "science": {
+      "title": "The Science Behind Thought Labeling",
+      "description": "Research demonstrates that thought labeling produces measurable reductions in anxiety symptoms and emotional reactivity. A <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7270208/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">single-subject study with a vocalist</a> using thought labeling as part of cognitive defusion dropped anxiety believability scores from 94 to 28 at 3-month follow-up—a 70% improvement—with psychological inflexibility decreasing from 39 to 12 on the AAQ-2 scale.",
+      "research": {
+        "performanceAnxiety": {
+          "title": "Performance Anxiety Relief",
+          "description": "In a vocalist with severe music performance anxiety, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7270208/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">thought labeling intervention</a> reduced Believability in Anxious Thoughts from 94 to 28 (70% improvement) and psychological inflexibility from 39 to 12 (69% improvement) at 3-month follow-up, with reliable change indices of -8.74 and -10.92 respectively."
+        },
+        "mindfulnessEnhancement": {
+          "title": "Enhanced Mindfulness Skills",
+          "description": "An <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5801080/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">8-week meditation program</a> emphasizing thought labeling significantly increased participants' use of labeling (F(1,28)=58.00, p<0.001, d=2.88) and nonreactivity to inner experiences (F(1,29)=38.35, p<0.001, d=2.30), supporting better management of anxiety-provoking thoughts."
+        },
+        "attentionControl": {
+          "title": "Improved Attention Control",
+          "description": "Just <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5329004/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3 days of mindfulness training</a> with thought labeling reduced mind-wandering and improved sustained attention by 9.84 points (p=0.003), helping interrupt the rumination cycle that fuels anxiety."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "When To Practice",
+      "items": [
+        "When you notice repetitive or intrusive thoughts spinning in your mind.",
+        "Before high-pressure situations where self-doubt or worry typically arise.",
+        "During moments of overwhelm when thoughts feel chaotic and unmanageable.",
+        "As part of daily mindfulness practice to build awareness of thought patterns."
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "What You'll Notice",
+      "items": [
+        "Immediate reduction in the intensity and believability of anxious thoughts.",
+        "Greater emotional distance, making thoughts feel less personal and consuming.",
+        "Recognition of recurring patterns, helping you anticipate and manage them.",
+        "Improved ability to observe thoughts without automatically reacting to them."
+      ]
+    },
+    "tips": {
+      "title": "Tips For Best Results",
+      "observation": {
+        "title": "Observer Stance",
+        "description": "Approach your thoughts with curiosity, not judgment. You're a scientist studying your mind, not a critic condemning it."
+      },
+      "consistency": {
+        "title": "Build the Habit",
+        "description": "Practice labeling throughout the day, not just during anxiety spikes. Regular use strengthens your ability to create distance from thoughts."
+      },
+      "simplicity": {
+        "title": "Keep Labels Simple",
+        "description": "Use short, clear labels like \"worry,\" \"judgment,\" or \"catastrophizing.\" You're identifying patterns, not writing essays."
+      }
+    }
+  }
+}

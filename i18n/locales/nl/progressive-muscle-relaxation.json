@@ -1,0 +1,370 @@
+{
+  "progressiveMuscleRelaxation": {
+    "interface": {
+      "title": "Progressieve Spierontspanning",
+      "subtitle": "Systematische spanning en ontspanning",
+      "beginExercise": "Begin Oefening",
+      "start": "Start",
+      "stop": "Stop",
+      "pause": "Pauzeer",
+      "resume": "Hervat",
+      "back": "Terug",
+      "next": "Volgende",
+      "complete": "Voltooi",
+      "ofGroups": "van {count} groepen",
+      "prepare": "Bereid je voor om te beginnen",
+      "tenseFor10": "Span gedurende 10 seconden",
+      "releaseFor10": "Ontspan gedurende 10 seconden",
+      "tense": "Span",
+      "relax": "Ontspan",
+      "tensionSteps": "Spanningsstappen:",
+      "relaxationSteps": "Ontspanningsstappen:"
+    },
+    "completion": {
+      "title": "Diepe Ontspanning Bereikt",
+      "description": "Je hebt systematisch spanning vrijgelaten door je hele lichaam. Merk op hoe anders je spieren aanvoelen vergeleken met toen je begon.",
+      "benefits": {
+        "tensionReleased": "Spanning vrijgelaten",
+        "bodyRelaxed": "Lichaam ontspannen"
+      }
+    },
+    "muscleGroups": {
+      "rightHand": {
+        "name": "Rechterhand en Onderarm",
+        "shortName": "R Hand",
+        "tensionCue": [
+          "Maak een strakke vuist",
+          "Knijp hard",
+          "Voel de spanning in je vingers en onderarm"
+        ],
+        "relaxationCue": [
+          "Open je hand",
+          "Laat het volledig slap worden",
+          "Voel vingers natuurlijk gekromd en ontspannen"
+        ]
+      },
+      "leftHand": {
+        "name": "Linkerhand en Onderarm",
+        "shortName": "L Hand",
+        "tensionCue": [
+          "Maak een strakke vuist",
+          "Knijp hard",
+          "Voel de spanning in je vingers en onderarm"
+        ],
+        "relaxationCue": [
+          "Open je hand",
+          "Laat het volledig slap worden",
+          "Merk het warme, zware gevoel op"
+        ]
+      },
+      "rightUpperArm": {
+        "name": "Rechter Bovenarm",
+        "shortName": "R Biceps",
+        "tensionCue": [
+          "Buig elleboog",
+          "Span biceps hard aan",
+          "Druk onderarm tegen bovenarm",
+          "Voel de spier opbollen"
+        ],
+        "relaxationCue": [
+          "Laat je arm naar je zij zakken",
+          "Laat de spier zacht worden",
+          "Voel de verlichting en zwaarte"
+        ]
+      },
+      "leftUpperArm": {
+        "name": "Linker Bovenarm",
+        "shortName": "L Biceps",
+        "tensionCue": [
+          "Buig elleboog",
+          "Span biceps hard aan",
+          "Druk onderarm tegen bovenarm",
+          "Voel de kracht"
+        ],
+        "relaxationCue": [
+          "Laat je arm naar je zij zakken",
+          "Laat spanning wegvloeien",
+          "Voel de zwaarte"
+        ]
+      },
+      "forehead": {
+        "name": "Voorhoofd en Hoofdhuid",
+        "shortName": "Voorhoofd",
+        "tensionCue": [
+          "Trek wenkbrauwen hoog op",
+          "Rimpel voorhoofd",
+          "Voel de spanning over je hoofdhuid"
+        ],
+        "relaxationCue": [
+          "Laat wenkbrauwen natuurlijk zakken",
+          "Maak voorhoofd glad",
+          "Voel huid volledig ontspannen"
+        ]
+      },
+      "eyesNose": {
+        "name": "Ogen en Neus",
+        "shortName": "Gezicht",
+        "tensionCue": [
+          "Knijp ogen stijf dicht",
+          "Fronst neus",
+          "Laat je hele gezicht samenknippen"
+        ],
+        "relaxationCue": [
+          "Laat gezicht zacht worden",
+          "Ogen zachtjes gesloten",
+          "Neus en wangen glad en ontspannen"
+        ]
+      },
+      "mouthJaw": {
+        "name": "Mond en Kaak",
+        "shortName": "Kaak",
+        "tensionCue": [
+          "Bijt hard",
+          "Klem tanden op elkaar",
+          "Voel kaakspieren werken"
+        ],
+        "relaxationCue": [
+          "Laat kaak licht openvallen",
+          "Lippen nauwelijks rakend",
+          "Tong zacht rustend"
+        ]
+      },
+      "neckThroat": {
+        "name": "Nek en Keel",
+        "shortName": "Nek",
+        "tensionCue": [
+          "Kin naar borst",
+          "Duw hoofd naar achteren",
+          "Creëer spanning vanuit beide richtingen"
+        ],
+        "relaxationCue": [
+          "Laat hoofd natuurlijke positie vinden",
+          "Nek lang en los",
+          "Keel open"
+        ]
+      },
+      "shoulders": {
+        "name": "Schouders",
+        "shortName": "Schouders",
+        "tensionCue": [
+          "Trek schouders hoog op",
+          "Probeer je oren te raken",
+          "Voel de druk in bovenrug"
+        ],
+        "relaxationCue": [
+          "Laat schouders natuurlijk zakken",
+          "Voel ze lager zinken",
+          "Zwaar en los"
+        ]
+      },
+      "upperBackChest": {
+        "name": "Bovenrug en Borst",
+        "shortName": "Bovenrug",
+        "tensionCue": [
+          "Knijp schouderbladen samen",
+          "Welving in rug",
+          "Zet borst uit met diepe ademhaling"
+        ],
+        "relaxationCue": [
+          "Laat rug natuurlijk neerzetten",
+          "Schouderbladen uit elkaar",
+          "Borst zacht en open"
+        ]
+      },
+      "abdomen": {
+        "name": "Buik",
+        "shortName": "Buik",
+        "tensionCue": [
+          "Span buikspieren hard aan",
+          "Trek navel naar binnen",
+          "Maak buik als een rots"
+        ],
+        "relaxationCue": [
+          "Laat buik zacht worden",
+          "Adem in de buik",
+          "Voel het natuurlijk rijzen en dalen"
+        ]
+      },
+      "lowerBack": {
+        "name": "Onderrug",
+        "shortName": "Onderrug",
+        "tensionCue": [
+          "Welving onderrug voorzichtig",
+          "Duw buik naar buiten",
+          "Voel de kromming in ruggengraat"
+        ],
+        "relaxationCue": [
+          "Laat rug naar natuurlijke kromming zakken",
+          "Ondersteund en comfortabel",
+          "Spanning smelt weg"
+        ]
+      },
+      "hipsButtocks": {
+        "name": "Heupen en Billen",
+        "shortName": "Billen",
+        "tensionCue": [
+          "Knijp billen hard samen",
+          "Klem spieren strak",
+          "Voel spanning in heupen"
+        ],
+        "relaxationCue": [
+          "Laat billen zacht worden",
+          "Voel ze natuurlijk uitspreiden",
+          "Zwaar en ontspannen"
+        ]
+      },
+      "rightThigh": {
+        "name": "Rechterdij",
+        "shortName": "R Dij",
+        "tensionCue": [
+          "Strek rechterbeen",
+          "Span dijspier hard aan",
+          "Voel het stevig en sterk"
+        ],
+        "relaxationCue": [
+          "Laat been natuurlijk rusten",
+          "Dijspier zacht en los",
+          "Zwaar en comfortabel"
+        ]
+      },
+      "leftThigh": {
+        "name": "Linkerdij",
+        "shortName": "L Dij",
+        "tensionCue": [
+          "Strek linkerbeen",
+          "Span dijspier hard aan",
+          "Voel de kracht"
+        ],
+        "relaxationCue": [
+          "Laat been natuurlijk rusten",
+          "Dij volledig ontspannen",
+          "Merk het contrast op"
+        ]
+      },
+      "rightCalfShin": {
+        "name": "Rechterkuit en Scheenbeen",
+        "shortName": "R Kuit",
+        "tensionCue": [
+          "Wijs voet naar beneden hard",
+          "Buig dan omhoog naar scheenbeen",
+          "Voel beide kanten werken"
+        ],
+        "relaxationCue": [
+          "Laat voet natuurlijk rusten",
+          "Kuit en scheenbeen los",
+          "Volledig zacht"
+        ]
+      },
+      "leftCalfShin": {
+        "name": "Linkerkuit en Scheenbeen",
+        "shortName": "L Kuit",
+        "tensionCue": [
+          "Wijs voet naar beneden hard",
+          "Buig dan omhoog naar scheenbeen",
+          "Voel spieren aangaan"
+        ],
+        "relaxationCue": [
+          "Laat voet natuurlijk rusten",
+          "Alle onderbeen spieren ontspannen en zwaar"
+        ]
+      },
+      "rightFoot": {
+        "name": "Rechtervoet",
+        "shortName": "R Voet",
+        "tensionCue": [
+          "Krul tenen naar beneden strak",
+          "Krimp ze op",
+          "Voel spanning in voetboog"
+        ],
+        "relaxationCue": [
+          "Laat tenen natuurlijk ontkrullen",
+          "Voet volledig zacht",
+          "Warm en ontspannen"
+        ]
+      },
+      "leftFoot": {
+        "name": "Linkervoet",
+        "shortName": "L Voet",
+        "tensionCue": [
+          "Krul tenen naar beneden strak",
+          "Krimp ze op",
+          "Voel voetboog werken"
+        ],
+        "relaxationCue": [
+          "Laat tenen natuurlijk spreiden",
+          "Voet los en ontspannen",
+          "Spanning verdwenen"
+        ]
+      }
+    },
+    "howItWorks": {
+      "title": "Hoe Progressieve Spierontspanning Werkt",
+      "description1": "Progressieve spierontspanning leert je lichaam het verschil tussen spanning en ontspanning door systematisch spiergroepen aan te spannen en dan te ontspannen. Wanneer je opzettelijk een spier aanspant en dan loslaat, creëert de ontspanning een diepere staat van ontspanning dan de spier had voor het aanspannen.",
+      "description2": "Deze spanning-ontspanning cyclus activeert je parasympathische zenuwstelsel, dat de rust-en-verteringsreactie van je lichaam regelt. Naarmate elke spiergroep ontspant, vertraagt je hartslag, daalt de bloeddruk en nemen stresshormonen af, wat een cascade van kalmerende effecten door je hele lichaam creëert.",
+      "description3": "Met regelmatige oefening ontwikkel je een groter lichaamsbewustzijn en kun je spanning eerder herkennen. Dit stelt je in staat om fysieke stress los te laten voordat het zich ophoopt, wat je een krachtig hulpmiddel geeft voor het beheren van angst in real-time.",
+      "tensionContrast": {
+        "title": "Spanningscontrast",
+        "description": "Opzettelijk aanspannen van spieren maakt de daaropvolgende ontspanning merkbaarder en effectiever"
+      },
+      "nervousSystemShift": {
+        "title": "Zenuwstelsel Verschuiving",
+        "description": "Ontspanning triggert parasympathische activatie, vertraagt hartslag en vermindert stresshormonen"
+      },
+      "bodyAwareness": {
+        "title": "Lichaamsbewustzijn",
+        "description": "Oefening traint je om spanning automatisch te herkennen en los te laten gedurende je dag"
+      }
+    },
+    "science": {
+      "title": "De Wetenschap Achter Progressieve Spierontspanning",
+      "description": "Onderzoek toont consistent aan dat progressieve spierontspanning significante angstreductie produceert bij diverse populaties en settings. In een <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7102525/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">gerandomiseerde trial met 51 COVID-19 patiënten</a>, verlaagde 30 minuten dagelijkse oefening gedurende 5 dagen State-Trait Anxiety Inventory scores van 57.88 naar 44.96—een 22% reductie—terwijl controlegroep scores onveranderd bleven (p<0.001).",
+      "research": {
+        "nurseStress": {
+          "title": "Groot Effect in Hoge-Stress Omgevingen",
+          "description": "Onder <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10844009/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">46 verpleegkundigen in een 2022 gerandomiseerde gecontroleerde trial</a>, verminderde progressieve spierontspanning significant angstscores op de DASS-21 met een grote effectgrootte van Cohen's d=1.61 vergeleken met controles, wat aanhoudende voordelen aantoont in veeleisende werkomgevingen."
+        },
+        "studentAnxiety": {
+          "title": "Verschuiving Van Gematigd Naar Lage Angst",
+          "description": "Bij <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC4280725/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">49 verpleegkunde studenten</a>, verschoven vier begeleide sessies plus dagelijkse oefening 91.7% van de deelnemers van gematigde naar lage angst op de Sarason Test Anxiety Scale, zonder vergelijkbare verandering in de 25-persoons controlegroep (p=0.00)."
+        },
+        "clinicalTraining": {
+          "title": "Grote Vermindering in Klinische Settings",
+          "description": "Onder <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9047807/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">90 eerstejaars verpleegkunde studenten tijdens klinische training</a>, verminderden vijf 45-minuten sessies gericht op 13 spiergroepen State-Trait Anxiety Inventory scores van 55 naar 24.4—een 56% afname—zonder gerapporteerde bijwerkingen (t=30.783, p=0.001)."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Wanneer Te Oefenen",
+      "items": [
+        "Wanneer je voelt dat fysieke spanning opbouwt in je lichaam—strakke schouders, geklemde kaak of spierstijfheid",
+        "Voor stressvolle gebeurtenissen zoals presentaties, examens of medische afspraken om anticiperende spanning los te laten",
+        "Aan het einde van je werkdag om opgebouwde fysieke stress los te laten en over te gaan naar ontspanning",
+        "Voor het slapengaan om fysieke spanning los te laten die het in slaap vallen of slapen kan verstoren"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Wat Je Zult Merken",
+      "items": [
+        "Onmiddellijk bewustzijn van spanning waarvan je niet wist dat je die vasthield in verschillende spiergroepen",
+        "Diepe fysieke ontspanning terwijl elke spiergroep loslaat, wat een golf van kalmte door je lichaam creëert",
+        "Langzamere hartslag en diepere ademhaling terwijl je parasympathische zenuwstelsel activeert",
+        "Groter vermogen om spanning te herkennen en los te laten gedurende je dag met voortdurende oefening"
+      ]
+    },
+    "tips": {
+      "title": "Tips Voor Beste Resultaten",
+      "position": {
+        "title": "Positie",
+        "description": "Ga liggen of leun achterover in een comfortabele stoel waar je hele lichaam ondersteund kan worden. Verwijder strakke kleding en zorg ervoor dat je 12-15 minuten niet gestoord wordt."
+      },
+      "technique": {
+        "title": "Techniek",
+        "description": "Span elke spiergroep stevig aan maar niet tot het punt van pijn of krampen. Houd 10 seconden vast, laat dan volledig los en merk het contrast gedurende nog eens 10 seconden voordat je verdergaat."
+      },
+      "focus": {
+        "title": "Focus",
+        "description": "Let op het verschil tussen spanning en ontspanning in elke spiergroep. Dit bewustzijn is essentieel voor het herkennen en loslaten van spanning in het dagelijks leven."
+      }
+    }
+  }
+}

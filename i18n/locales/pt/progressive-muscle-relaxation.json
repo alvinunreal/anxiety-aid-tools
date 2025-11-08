@@ -1,0 +1,370 @@
+{
+  "progressiveMuscleRelaxation": {
+    "interface": {
+      "title": "Relaxamento Muscular Progressivo",
+      "subtitle": "Tensão e liberação sistemáticas",
+      "beginExercise": "Começar Exercício",
+      "start": "Iniciar",
+      "stop": "Parar",
+      "pause": "Pausar",
+      "resume": "Retomar",
+      "back": "Voltar",
+      "next": "Próximo",
+      "complete": "Concluir",
+      "ofGroups": "de {count} grupos",
+      "prepare": "Prepare-se para começar",
+      "tenseFor10": "Tensione por 10 segundos",
+      "releaseFor10": "Libere por 10 segundos",
+      "tense": "Tensionar",
+      "relax": "Relaxar",
+      "tensionSteps": "Passos de Tensão:",
+      "relaxationSteps": "Passos de Relaxamento:"
+    },
+    "completion": {
+      "title": "Relaxamento Profundo Alcançado",
+      "description": "Você liberou sistematicamente a tensão em todo o seu corpo. Note como seus músculos se sentem diferentes em comparação com quando você começou.",
+      "benefits": {
+        "tensionReleased": "Tensão liberada",
+        "bodyRelaxed": "Corpo relaxado"
+      }
+    },
+    "muscleGroups": {
+      "rightHand": {
+        "name": "Mão e Antebraço Direito",
+        "shortName": "Mão D",
+        "tensionCue": [
+          "Faça um punho apertado",
+          "Aperte forte",
+          "Sinta a tensão em seus dedos e antebraço"
+        ],
+        "relaxationCue": [
+          "Abra sua mão",
+          "Deixe-a completamente mole",
+          "Sinta os dedos naturalmente curvados e relaxados"
+        ]
+      },
+      "leftHand": {
+        "name": "Mão e Antebraço Esquerdo",
+        "shortName": "Mão E",
+        "tensionCue": [
+          "Faça um punho apertado",
+          "Aperte forte",
+          "Sinta a tensão em seus dedos e antebraço"
+        ],
+        "relaxationCue": [
+          "Abra sua mão",
+          "Deixe-a completamente mole",
+          "Note a sensação quente e pesada"
+        ]
+      },
+      "rightUpperArm": {
+        "name": "Braço Superior Direito",
+        "shortName": "Bíceps D",
+        "tensionCue": [
+          "Dobre o cotovelo",
+          "Flexione o bíceps forte",
+          "Pressione o antebraço contra o braço superior",
+          "Sinta o músculo inchar"
+        ],
+        "relaxationCue": [
+          "Abaixe seu braço para o lado",
+          "Deixe o músculo amolecer",
+          "Sinta o alívio e o peso"
+        ]
+      },
+      "leftUpperArm": {
+        "name": "Braço Superior Esquerdo",
+        "shortName": "Bíceps E",
+        "tensionCue": [
+          "Dobre o cotovelo",
+          "Flexione o bíceps forte",
+          "Pressione o antebraço contra o braço superior",
+          "Sinta a força"
+        ],
+        "relaxationCue": [
+          "Abaixe seu braço para o lado",
+          "Deixe a tensão drenar",
+          "Sinta o peso"
+        ]
+      },
+      "forehead": {
+        "name": "Testa e Couro Cabeludo",
+        "shortName": "Testa",
+        "tensionCue": [
+          "Levante as sobrancelhas alto",
+          "Enrugue a testa",
+          "Sinta a tensão pelo couro cabeludo"
+        ],
+        "relaxationCue": [
+          "Deixe as sobrancelhas caírem naturalmente",
+          "Alise a testa",
+          "Sinta a pele completamente relaxada"
+        ]
+      },
+      "eyesNose": {
+        "name": "Olhos e Nariz",
+        "shortName": "Rosto",
+        "tensionCue": [
+          "Aperte os olhos com força",
+          "Enrugue o nariz",
+          "Faça todo o rosto se contrair"
+        ],
+        "relaxationCue": [
+          "Deixe o rosto amolecer",
+          "Olhos suavemente fechados",
+          "Nariz e bochechas lisos e relaxados"
+        ]
+      },
+      "mouthJaw": {
+        "name": "Boca e Mandíbula",
+        "shortName": "Mandíbula",
+        "tensionCue": [
+          "Morda com força",
+          "Cerrar os dentes",
+          "Sinta os músculos da mandíbula trabalhando"
+        ],
+        "relaxationCue": [
+          "Deixe a mandíbula cair levemente aberta",
+          "Lábios mal se tocando",
+          "Língua descansando suavemente"
+        ]
+      },
+      "neckThroat": {
+        "name": "Pescoço e Garganta",
+        "shortName": "Pescoço",
+        "tensionCue": [
+          "Queixo para o peito",
+          "Empurre a cabeça para trás",
+          "Crie tensão de ambas as direções"
+        ],
+        "relaxationCue": [
+          "Deixe a cabeça encontrar posição natural",
+          "Pescoço longo e solto",
+          "Garganta aberta"
+        ]
+      },
+      "shoulders": {
+        "name": "Ombros",
+        "shortName": "Ombros",
+        "tensionCue": [
+          "Puxe os ombros para cima",
+          "Tente tocar suas orelhas",
+          "Sinta o aperto na parte superior das costas"
+        ],
+        "relaxationCue": [
+          "Deixe os ombros caírem naturalmente",
+          "Sinta-os afundar mais",
+          "Pesados e soltos"
+        ]
+      },
+      "upperBackChest": {
+        "name": "Costas Superiores e Peito",
+        "shortName": "Costas Altas",
+        "tensionCue": [
+          "Aperte as omoplatas juntas",
+          "Arqueie as costas",
+          "Expanda o peito com respiração profunda"
+        ],
+        "relaxationCue": [
+          "Deixe as costas se assentarem naturalmente",
+          "Omoplatas separadas",
+          "Peito macio e aberto"
+        ]
+      },
+      "abdomen": {
+        "name": "Abdômen",
+        "shortName": "Estômago",
+        "tensionCue": [
+          "Tensione os abdominais forte",
+          "Puxe o umbigo para dentro",
+          "Faça o estômago como uma pedra"
+        ],
+        "relaxationCue": [
+          "Deixe o estômago amolecer",
+          "Respire para a barriga",
+          "Sinta-a subir e descer naturalmente"
+        ]
+      },
+      "lowerBack": {
+        "name": "Costas Inferiores",
+        "shortName": "Costas Baixas",
+        "tensionCue": [
+          "Arqueie a parte inferior das costas suavemente",
+          "Empurre o estômago para fora",
+          "Sinta a curva na coluna"
+        ],
+        "relaxationCue": [
+          "Deixe as costas se assentarem na curva natural",
+          "Apoiada e confortável",
+          "Tensão derretendo"
+        ]
+      },
+      "hipsButtocks": {
+        "name": "Quadris e Nádegas",
+        "shortName": "Glúteos",
+        "tensionCue": [
+          "Aperte as nádegas com força",
+          "Contraia os músculos firme",
+          "Sinta a tensão nos quadris"
+        ],
+        "relaxationCue": [
+          "Deixe as nádegas amolecerem",
+          "Sinta-as se espalharem naturalmente",
+          "Pesadas e relaxadas"
+        ]
+      },
+      "rightThigh": {
+        "name": "Coxa Direita",
+        "shortName": "Coxa D",
+        "tensionCue": [
+          "Estique a perna direita",
+          "Flexione o músculo da coxa forte",
+          "Sinta-o firme e forte"
+        ],
+        "relaxationCue": [
+          "Deixe a perna descansar naturalmente",
+          "Músculo da coxa macio e solto",
+          "Pesado e confortável"
+        ]
+      },
+      "leftThigh": {
+        "name": "Coxa Esquerda",
+        "shortName": "Coxa E",
+        "tensionCue": [
+          "Estique a perna esquerda",
+          "Flexione o músculo da coxa forte",
+          "Sinta a força"
+        ],
+        "relaxationCue": [
+          "Deixe a perna descansar naturalmente",
+          "Coxa completamente relaxada",
+          "Note o contraste"
+        ]
+      },
+      "rightCalfShin": {
+        "name": "Panturrilha e Canela Direita",
+        "shortName": "Panturrilha D",
+        "tensionCue": [
+          "Aponte o pé para baixo forte",
+          "Depois flexione para cima em direção à canela",
+          "Sinta ambos os lados trabalhando"
+        ],
+        "relaxationCue": [
+          "Deixe o pé descansar naturalmente",
+          "Panturrilha e canela soltas",
+          "Completamente macio"
+        ]
+      },
+      "leftCalfShin": {
+        "name": "Panturrilha e Canela Esquerda",
+        "shortName": "Panturrilha E",
+        "tensionCue": [
+          "Aponte o pé para baixo forte",
+          "Depois flexione para cima em direção à canela",
+          "Sinta os músculos se engajarem"
+        ],
+        "relaxationCue": [
+          "Deixe o pé descansar naturalmente",
+          "Todos os músculos da perna inferior relaxados e pesados"
+        ]
+      },
+      "rightFoot": {
+        "name": "Pé Direito",
+        "shortName": "Pé D",
+        "tensionCue": [
+          "Curve os dedos para baixo forte",
+          "Enrugue-os",
+          "Sinta a tensão no arco do pé"
+        ],
+        "relaxationCue": [
+          "Deixe os dedos se desenrolarem naturalmente",
+          "Pé completamente macio",
+          "Quente e relaxado"
+        ]
+      },
+      "leftFoot": {
+        "name": "Pé Esquerdo",
+        "shortName": "Pé E",
+        "tensionCue": [
+          "Curve os dedos para baixo forte",
+          "Enrugue-os",
+          "Sinta o arco trabalhando"
+        ],
+        "relaxationCue": [
+          "Deixe os dedos se espalharem naturalmente",
+          "Pé solto e relaxado",
+          "Tensão sumiu"
+        ]
+      }
+    },
+    "howItWorks": {
+      "title": "Como Funciona o Relaxamento Muscular Progressivo",
+      "description1": "O relaxamento muscular progressivo ensina ao seu corpo a diferença entre tensão e relaxamento através da tensão e liberação sistemática de grupos musculares. Quando você tensiona deliberadamente um músculo e depois o solta, a liberação cria um estado de relaxamento mais profundo do que o músculo tinha antes de tensionar.",
+      "description2": "Este ciclo tensão-liberação ativa seu sistema nervoso parassimpático, que controla a resposta de descanso e digestão do seu corpo. À medida que cada grupo muscular relaxa, sua frequência cardíaca diminui, a pressão arterial diminui e os hormônios do estresse diminuem, criando uma cascata de efeitos calmantes por todo o seu corpo.",
+      "description3": "Com a prática regular, você desenvolve maior consciência corporal e pode reconhecer a tensão mais cedo. Isso permite que você libere o estresse físico antes que ele se acumule, dando-lhe uma ferramenta poderosa para gerenciar a ansiedade em tempo real.",
+      "tensionContrast": {
+        "title": "Contraste de Tensão",
+        "description": "Tensionar deliberadamente os músculos torna a liberação subsequente mais perceptível e eficaz"
+      },
+      "nervousSystemShift": {
+        "title": "Mudança do Sistema Nervoso",
+        "description": "A liberação desencadeia ativação parassimpática, diminuindo a frequência cardíaca e reduzindo hormônios do estresse"
+      },
+      "bodyAwareness": {
+        "title": "Consciência Corporal",
+        "description": "A prática treina você a reconhecer e liberar tensão automaticamente ao longo do dia"
+      }
+    },
+    "science": {
+      "title": "A Ciência Por Trás do Relaxamento Muscular Progressivo",
+      "description": "A pesquisa demonstra consistentemente que o relaxamento muscular progressivo produz redução significativa de ansiedade em diversas populações e ambientes. Em um <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7102525/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">ensaio randomizado com 51 pacientes de COVID-19</a>, 30 minutos de prática diária durante 5 dias reduziram as pontuações do Inventário de Ansiedade Estado-Traço de 57,88 para 44,96—uma redução de 22%—enquanto as pontuações do grupo controle permaneceram inalteradas (p<0,001).",
+      "research": {
+        "nurseStress": {
+          "title": "Grande Efeito em Ambientes de Alto Estresse",
+          "description": "Entre <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10844009/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">46 enfermeiras em um ensaio controlado randomizado de 2022</a>, o relaxamento muscular progressivo reduziu significativamente as pontuações de ansiedade no DASS-21 com um grande tamanho de efeito de d de Cohen=1,61 em comparação aos controles, demonstrando benefícios sustentados em ambientes de trabalho exigentes."
+        },
+        "studentAnxiety": {
+          "title": "Mudança de Ansiedade Moderada Para Baixa",
+          "description": "Em <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC4280725/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">49 estudantes de enfermagem</a>, quatro sessões supervisionadas mais prática diária mudaram 91,7% dos participantes de ansiedade moderada para baixa na Escala de Ansiedade de Teste de Sarason, sem mudança comparável no grupo controle de 25 pessoas (p=0,00)."
+        },
+        "clinicalTraining": {
+          "title": "Redução Significativa em Ambientes Clínicos",
+          "description": "Entre <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9047807/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">90 estudantes de enfermagem do primeiro ano durante treinamento clínico</a>, cinco sessões de 45 minutos visando 13 grupos musculares reduziram as pontuações do Inventário de Ansiedade Estado-Traço de 55 para 24,4—uma diminuição de 56%—sem efeitos adversos relatados (t=30,783, p=0,001)."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Quando Praticar",
+      "items": [
+        "Quando você sentir tensão física se acumulando em seu corpo—ombros tensos, mandíbula cerrada ou rigidez muscular",
+        "Antes de eventos estressantes como apresentações, exames ou consultas médicas para liberar tensão antecipatória",
+        "No final do seu dia de trabalho para liberar o estresse físico acumulado e fazer a transição para o relaxamento",
+        "Antes de dormir para liberar tensão física que pode interferir em adormecer ou permanecer dormindo"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "O Que Você Notará",
+      "items": [
+        "Consciência imediata de tensão que você não sabia que estava mantendo em vários grupos musculares",
+        "Relaxamento físico profundo à medida que cada grupo muscular libera, criando uma onda de calma pelo seu corpo",
+        "Frequência cardíaca mais lenta e respiração mais profunda à medida que seu sistema nervoso parassimpático se ativa",
+        "Maior capacidade de reconhecer e liberar tensão ao longo do dia com prática contínua"
+      ]
+    },
+    "tips": {
+      "title": "Dicas Para Melhores Resultados",
+      "position": {
+        "title": "Posição",
+        "description": "Deite-se ou recline-se em uma cadeira confortável onde todo o seu corpo possa ser apoiado. Remova roupas apertadas e garanta que não será interrompido por 12-15 minutos."
+      },
+      "technique": {
+        "title": "Técnica",
+        "description": "Tensione cada grupo muscular firmemente mas não ao ponto de dor ou cãibras. Segure por 10 segundos, depois libere completamente e note o contraste por mais 10 segundos antes de continuar."
+      },
+      "focus": {
+        "title": "Foco",
+        "description": "Preste atenção à diferença entre tensão e relaxamento em cada grupo muscular. Essa consciência é fundamental para reconhecer e liberar tensão na vida diária."
+      }
+    }
+  }
+}

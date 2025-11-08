@@ -1,0 +1,226 @@
+{
+  "peacefulVisualization": {
+    "interface": {
+      "play": "Afspelen",
+      "stop": "Stoppen",
+      "visitAnotherPlace": "Bezoek Een Andere Plaats",
+      "peacefulMoments": "vredige momenten",
+      "immersiveJourney": "Meeslepende visualisatiereis",
+      "closeEyesAndBreathe": "Sluit je ogen en adem"
+    },
+    "completion": {
+      "title": "Visualisatie Voltooid",
+      "description": "Je hebt met succes gereisd naar vredige plekken in je geest. Deze kalme staat is altijd voor je toegankelijk.",
+      "benefits": {
+        "mindCalmed": "Geest gekalmeerd",
+        "stressReduced": "Stress verminderd",
+        "innerPeaceAchieved": "Innerlijke vrede bereikt"
+      }
+    },
+    "scenes": {
+      "mountainPeakSunrise": {
+        "name": "Zonsopgang op Bergtop",
+        "description": "Staand op een zachte bergtop, kijkend naar de zon die opkomt boven eindeloze toppen",
+        "soundscape": "Bergwind",
+        "atmosphere": "Koele, frisse lucht",
+        "guidance": [
+          "Je bevindt je op een vredige bergtop, de wereld ligt voor je als een prachtig schilderij.",
+          "De zonsopgang schildert de hemel in zachte kleuren - zachte roze tinten, warme oranjes en gouden gelen die zich uitstrekken over de horizon.",
+          "Koele, frisse berglucht vult je longen. Elke ademhaling is zuiver en energiek, spoelt elke spanning of zorgen weg.",
+          "Onder je rollen lagen bergen in de verte als slapende reuzen, bedekt met een zachte ochtenddauw.",
+          "Je voelt je hier volledig veilig, staand op stevige grond, verbonden met de aarde onder je voeten.",
+          "De zachte warmte van de zon raakt je gezicht, vult je met vrede en stille kracht.",
+          "Dit is jouw vredige plek - je kunt hier altijd terugkeren door gewoon je ogen te sluiten en je dit moment te herinneren."
+        ]
+      },
+      "tranquilForestGrove": {
+        "name": "Rustig Bosgoed",
+        "description": "In een zonovergoten open plek omringd door oude, zachte bomen",
+        "soundscape": "Vogelgezang en bladeren",
+        "atmosphere": "Gevlekt zonlicht",
+        "guidance": [
+          "Je loopt een prachtige bosopen plek in, waar oude bomen een natuurlijke kathedraal om je heen creëren.",
+          "Zacht zonlicht filtert door de bladeren boven, creëert patronen van licht en schaduw op de bosgrond.",
+          "De lucht hier is gevuld met de frisse geur van groeiende dingen - mos, aarde en de schone geur van bladeren.",
+          "Zacht mos dempt je stappen, en je kunt de vredige geluiden horen van zingende vogels en ritselende bladeren in de zachte bries.",
+          "Je nestelt je naast een gladde boomstam, voelt je volledig ondersteund en veilig in de omhelzing van de natuur.",
+          "Elke ademhaling brengt je diepere vrede, alsof het bos zelf zijn oude rust met je deelt.",
+          "Dit bosje is jouw toevluchtsoord - een plek waar je altijd vrede en vernieuwing kunt vinden wanneer je het nodig hebt."
+        ]
+      },
+      "peacefulOceanBeach": {
+        "name": "Vredig Oceaanstrand",
+        "description": "Blootsvoets lopend op warm zand naast zachte, ritmische golven",
+        "soundscape": "Oceaangolven",
+        "atmosphere": "Zeebries",
+        "guidance": [
+          "Je loopt blootsvoets op een prachtig strand, voelt het warme, zachte zand tussen je tenen.",
+          "Zachte golven rollen op de kust in een vredig ritme, als de eigen ademhaling van de aarde, kalm en gestaag.",
+          "De oceaan strekt zich eindeloos voor je uit, het oppervlak schittert in het zonlicht als verspreide diamanten.",
+          "Een warme, zachte bries draagt de schone geur van zout water en raakt je huid met perfect comfort.",
+          "Je vindt de perfecte plek om uit te rusten, voelt je volledig in vrede met het eindeloze ritme van de golven.",
+          "Elke golf die binnenrolt neemt elke stress of zorgen mee, draagt het naar zee waar het volledig oplost.",
+          "Dit strand is jouw vredige toevlucht - de golven zullen er altijd zijn, klaar om je zorgen weg te spoelen wanneer je terugkeert."
+        ]
+      },
+      "sereneGardenParadise": {
+        "name": "Sereen Tuinparadijs",
+        "description": "In een prachtige tuin vol kleurrijke bloemen en zachte fonteinen",
+        "soundscape": "Stromend water",
+        "atmosphere": "Bloemgeuren",
+        "guidance": [
+          "Je betreedt een prachtige tuin waar elke bloem je lijkt te verwelkomen met levendige kleuren en zachte geuren.",
+          "Een kleine fontein creëert het meest vredige geluid terwijl helder water over gladde stenen stroomt in het midden van de tuin.",
+          "Zachte bloemblaadjes creëren een levende regenboog om je heen - diepe paars, heldere gelen, zachte roze tinten.",
+          "De lucht is gevuld met natuurlijke parfums, en alles voelt warm en uitnodigend.",
+          "Je vindt een comfortabele plek om uit te rusten tussen de bloemen, voelt je veilig en geliefd door de natuur.",
+          "Deze tuin wordt mooier met elke ademhaling die je neemt, alsof hij reageert op jouw vredige aanwezigheid.",
+          "Dit is jouw tuin van vrede - hij zal altijd in bloei zijn, wachtend op jou wanneer je schoonheid en rust nodig hebt."
+        ]
+      },
+      "starlitMeadowNight": {
+        "name": "Sterlichte Weide Nacht",
+        "description": "Liggend in een zachte weide onder een deken van talloze sterren",
+        "soundscape": "Nachtgeluiden",
+        "atmosphere": "Koele nachtlucht",
+        "guidance": [
+          "Je ligt comfortabel in een zachte weide, kijkend naar een hemel vol fonkelende sterren.",
+          "Het gras onder je is perfect zacht, als het eigen kussen van de natuur, ondersteunt je lichaam volledig.",
+          "Boven je strekt de Melkweg zich uit over de hemel als een rivier van licht, mooi voorbij beschrijving.",
+          "De nachtlucht is comfortabel, met een zachte bries die de zoete geur van 's nachts bloeiende bloemen draagt.",
+          "Je voelt je klein op de best mogelijke manier - verbonden met iets enorms en vredig dat je veilig vasthoudt.",
+          "Elke ster lijkt alleen voor jou te schijnen, stuurt licht dat je vult met verwondering en vrede.",
+          "Deze weide onder de sterren is jouw plek van oneindige rust - je kunt altijd omhoog kijken en vrede vinden in de uitgestrektheid."
+        ]
+      },
+      "cozyRainyCabin": {
+        "name": "Gezellige Regenachtige Hut",
+        "description": "Veilig rustend in een warme hut terwijl zachte regen op het dak tikt",
+        "soundscape": "Regen op dak",
+        "atmosphere": "Haardwarmte",
+        "guidance": [
+          "Je nestelt je in een zachte fauteuil naast het raam van een gezellige houten hut terwijl de avondregen begint te vallen.",
+          "Regendruppels trommelen een zacht ritme op het dak en druppelen langs het glas, creëren de meest kalmerende soundtrack.",
+          "Een kleine open haard gloeit nabij, vult de kamer met een gouden licht en het geruststellende geknetter van brandende houtblokken.",
+          "De lucht ruikt vaag naar dennenboom en warm cederhout, wikkelt je in de schone geur van het omringende bos.",
+          "Een dikke deken rust over je benen, en je voelt je perfect ondersteund door de stoel terwijl je hele lichaam ontspant.",
+          "Je houdt een warme mok tussen je handen, laat de stoom langzaam naar je gezicht stijgen terwijl de regen blijft zingen.",
+          "Deze hut is jouw privé toevluchtsoord - wanneer je vrede nodig hebt, kun je terugkeren naar deze gezellige, regenachtige avond en hier rusten."
+        ]
+      },
+      "mistyLakesideDawn": {
+        "name": "Mistige Ochtend aan het Meer",
+        "description": "Zittend bij een stil bergmeer terwijl de zonsopgang de mistige ochtend kleurt",
+        "soundscape": "Zacht kabbelend water",
+        "atmosphere": "Koele ochtenddauw",
+        "guidance": [
+          "Je zit op een gladde houten steiger naast een stil bergmeer net voor zonsopgang.",
+          "Dunne mist zweeft boven het water, drijft lui terwijl de dageraad begint de hemel te kleuren.",
+          "Elke ademhaling zuigt frisse ochtendlucht in met de geur van dennenboom en koude steen.",
+          "Aan de overkant van het meer gloeien bergen zacht als het eerste roze licht hun toppen raakt.",
+          "Het wateroppervlak van het meer weerspiegelt de ontwaakende hemel, rimpelt zacht met alleen de stilste golven.",
+          "Een verre duiker roept eens en het geluid weerklinkt zacht voordat het weer in stilte vervaagt.",
+          "Deze dageraad aan het meer is van jou - keer terug wanneer je rust nodig hebt, en het water zal wachten."
+        ]
+      },
+      "sunlitDesertOasis": {
+        "name": "Zonovergoten Woestijnoase",
+        "description": "Rustend naast een door palmbomen beschaduwde oasevijver in de gouden woestijn",
+        "soundscape": "Zachte bron en bries",
+        "atmosphere": "Warme zonsonderganggloed",
+        "guidance": [
+          "Je rust op een gladde steen bij een heldere oasevijver verscholen tussen gouden woestijnduinen.",
+          "Palmwedels wiegen boven je, verspreiden gevlekte schaduw terwijl zonlicht warm op je huid gloeit.",
+          "Een zachte bron voedt de vijver, het stille gekabbel harmonieert met de zachte woestijnbries.",
+          "De lucht ruikt zoet met bloeiende dadelpalmbloemen, rustgevend en stil.",
+          "Verre duinen glinsteren in het middaglicht, hun rondingen leiden je ogen vredig naar de horizon.",
+          "Je laat je vingers in het koele water glijden, voelt spanning smelten met elke cirkel die je trekt.",
+          "Deze oase is jouw toevluchtsoord - hoe heet de wereld ook aanvoelt, je kunt hier altijd je geest koelen."
+        ]
+      },
+      "floatingCloudSanctuary": {
+        "name": "Zwevend Wolkenheiligdom",
+        "description": "Glijdend door zachte, zonovergoten wolken hoog boven de aarde",
+        "soundscape": "Zachte hoogtewind",
+        "atmosphere": "Gewichtloze rust",
+        "guidance": [
+          "Je drijft gewichtloos tussen uitgestrekte, gloeiende wolken hoog boven de wereld.",
+          "Zonnestralen stromen door de wolken om je heen, schilderen ze met zacht goud en zilveren licht.",
+          "Een zachte bries wikkelt je in warmte, wiegelt je als een kalm en eindeloos slaapliedje.",
+          "Elke wolk voelt als fluweel onder je vingers, koel en zacht terwijl je erdoorheen glijdt.",
+          "Onder je ziet de wereld er vredig en klein uit, en elke zorg lijkt ver weg.",
+          "Met elke ademhaling wijken de wolken om eindeloze blauwe lucht te onthullen, herinnert je aan je eigen open ruimte vanbinnen.",
+          "Dit zwevende heiligdom tilt je altijd op - keer terug wanneer je boven alles wilt uitstijgen en in de lucht wilt rusten."
+        ]
+      }
+    },
+    "howItWorks": {
+      "title": "Hoe Begeleide Visualisatie Werkt",
+      "description1": "Begeleide visualisatie activeert dezelfde neurale paden in je hersenen als daadwerkelijke ervaringen. Wanneer je levendig vredige scènes voorstelt, maakt je brein kalmerende neurotransmitters vrij en vermindert het de productie van stresshormonen, wat echte fysiologische ontspanning creëert.",
+      "description2": "Door meerdere zintuigen in te zetten - zicht, gehoor, aanraking, geur - wordt de visualisatie meer meeslepend en effectief. Deze multisensorische betrokkenheid versterkt de ontspanningsreactie en helpt je zenuwstelsel te verschuiven van vecht-of-vlucht-modus naar rust-en-verteer-modus.",
+      "mentalImagery": {
+        "title": "Mentale Beeldvorming",
+        "description": "Het brein verwerkt voorgestelde ervaringen vergelijkbaar met echte, activeert echte ontspanningsreacties"
+      },
+      "sensoryEngagement": {
+        "title": "Zintuiglijke Betrokkenheid",
+        "description": "Meerdere zintuigen die samenwerken creëren diepere onderdompeling en effectievere stressvermindering"
+      },
+      "neuralPathways": {
+        "title": "Neurale Paden",
+        "description": "Herhaalde visualisatie versterkt kalmerende neurale circuits, maakt ontspanning gemakkelijker toegankelijk in de loop van de tijd"
+      }
+    },
+    "science": {
+      "title": "De Wetenschap Achter Begeleide Visualisatie",
+      "description": "Uitgebreid onderzoek toont aan dat begeleide beeldvorming meetbare verminderingen in angst produceert over diverse populaties. In een <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10871407/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">studie van 20 patiënten met gegeneraliseerde angststoornis</a>, verminderde begeleide beeldvorming gecombineerd met standaardbehandeling angstscores van 21,30 naar 5,90 - een verbetering van 72% - vergeleken met slechts 30% verbetering in de controlegroep die alleen behandeling ontving.",
+      "research": {
+        "covidAnxiety": {
+          "title": "Angstvermindering in Medische Settings",
+          "description": "Onder <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7982304/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">55 COVID-19-patiënten</a>, verminderden 10 sessies begeleide beeldvorming toestandsangstscores van 45,03 naar 38,27 (15% vermindering) en trekkingsangst van 47,34 naar 39,58 (16% vermindering), met grote effectgroottes (d=1,10 en d=1,07, P<0,001)."
+        },
+        "surgicalAnxiety": {
+          "title": "Chirurgische Angstverlichting",
+          "description": "Bij <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC4625990/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">75 gewrichtsvervangende patiënten</a>, ervoer 90,6% meer dan 50% afname in angst van baseline tot postoperatieve dag 2, met een gemiddelde vermindering van 78,7%. Preoperatieve sessies alleen verminderden angst met 42,8%, aanzienlijk beter dan gebruikelijke zorg (P<0,0001)."
+        },
+        "metaAnalysis": {
+          "title": "Breed Klinisch Bewijs",
+          "description": "Een <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC3718554/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">meta-analyse van 36 gerandomiseerde onderzoeken</a> met 1.608 observaties vond dat begeleide beeldvorming angstsymptomen verminderde met een gestandaardiseerd gemiddeld verschil van -0,52 versus wachtlijstcontroles (P<0,001) en -0,59 versus aandachtscontroles (P<0,001). Er werden geen bijwerkingen gemeld in 25 studies."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Wanneer Te Oefenen",
+      "items": [
+        "Tijdens momenten van hoge stress of overweldigende angst wanneer je onmiddellijke verlichting nodig hebt",
+        "Voor belangrijke gebeurtenissen zoals presentaties, vergaderingen of medische procedures om pre-evenement zenuwen te kalmeren",
+        "Bij bedtijd om racende gedachten te stillen en je geest en lichaam voor te bereiden op herstellende slaap",
+        "Tijdens pauzes gedurende je dag om je zenuwstelsel te resetten en emotioneel evenwicht te behouden"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Wat Je Zult Merken",
+      "items": [
+        "Mentale beeldvorming creëert echte gevoelens van kalmte terwijl je hersenen reageren op de vredige scènes",
+        "Langzamer hartritme en diepere ademhaling naarmate je parasympathische zenuwstelsel activeert",
+        "Fysieke spanning die wegsmelt terwijl je spieren reageren op de voorgestelde vredige omgeving",
+        "Grotere vaardigheid om kalme toestanden te bereiken met regelmatige oefening terwijl je deze neurale paden versterkt"
+      ]
+    },
+    "tips": {
+      "title": "Tips Voor Beste Resultaten",
+      "preparation": {
+        "title": "Voorbereiding",
+        "description": "Vind een comfortabele positie waar je 10-12 minuten stil kunt blijven. Gebruik een koptelefoon voor betere onderdompeling in de audiobegeleiding en geluidslandschappen."
+      },
+      "engagement": {
+        "title": "Betrokkenheid",
+        "description": "Betrek al je zintuigen bij de visualisatie - stel je niet alleen voor wat je ziet, maar ook wat je hoort, voelt, ruikt en zelfs proeft. Hoe levendiger, hoe effectiever."
+      },
+      "patience": {
+        "title": "Geduld",
+        "description": "Als je geest afdwaalt, leid deze dan zachtjes terug naar de visualisatie zonder oordeel. Dit is normaal en onderdeel van de oefening - je traint de focus van je brein."
+      }
+    }
+  }
+}

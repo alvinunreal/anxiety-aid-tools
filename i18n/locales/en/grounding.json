@@ -1,0 +1,206 @@
+{
+    "grounding": {
+        "exercise": {
+            "title": "5-4-3-2-1 Grounding",
+            "beginExercise": "Begin Exercise",
+            "practiceAgain": "Practice Again",
+            "ofSteps": "of 5 steps",
+            "itemsFound": "items found",
+            "found": "found",
+            "greatAwareness": "Great awareness!",
+            "keepExploring": "Keep exploring...",
+            "back": "Back",
+            "next": "Next",
+            "complete": "Complete",
+            "youAreGrounded": "You Are Grounded",
+            "groundedDescription": "By engaging your five senses, you've successfully anchored yourself in the present moment.",
+            "benefits": {
+                "immediateStability": {
+                    "title": "Immediate Stability",
+                    "description": "Connect with your environment and feel grounded"
+                },
+                "mentalClarity": {
+                    "title": "Mental Clarity",
+                    "description": "Interrupt racing thoughts and regain focus"
+                },
+                "calmPresence": {
+                    "title": "Calm Presence",
+                    "description": "Feel more present and in control"
+                },
+                "stability": {
+                    "title": "Stability",
+                    "description": "You're connected and grounded"
+                },
+                "clarity": {
+                    "title": "Clarity",
+                    "description": "Racing thoughts have slowed"
+                },
+                "presence": {
+                    "title": "Presence",
+                    "description": "You're here in this moment"
+                }
+            },
+            "steps": {
+                "see": {
+                    "title": "Look around you",
+                    "subtitle": "Find 5 things you can see",
+                    "items": [
+                        {
+                            "text": "Something with a interesting color or pattern",
+                            "guidance": "Look for textures, reflections, or color combinations that catch your eye"
+                        },
+                        {
+                            "text": "An object with smooth texture",
+                            "guidance": "Notice how light hits the surface - is it glossy, matte, or somewhere in between?"
+                        },
+                        {
+                            "text": "Something that's moving or has shadows",
+                            "guidance": "Watch how movement creates changing patterns of light and shadow"
+                        },
+                        {
+                            "text": "A detail you hadn't noticed before",
+                            "guidance": "Look closer at familiar objects - what small details have you missed?"
+                        },
+                        {
+                            "text": "Something that brings you comfort",
+                            "guidance": "Focus on why this object feels comforting - its colors, shape, or memories it holds"
+                        }
+                    ]
+                },
+                "touch": {
+                    "title": "Feel around you",
+                    "subtitle": "Find 4 things you can touch or feel",
+                    "items": [
+                        {
+                            "text": "The temperature of the air on your skin",
+                            "guidance": "Notice if it's warm, cool, or neutral - how does it feel on different parts of your body?"
+                        },
+                        {
+                            "text": "The texture of your clothes",
+                            "guidance": "Feel the fabric between your fingers - is it soft, rough, smooth, or textured?"
+                        },
+                        {
+                            "text": "The surface you're sitting or standing on",
+                            "guidance": "Press into it slightly - is it firm, soft, warm, or cool against your body?"
+                        },
+                        {
+                            "text": "Something smooth or rough near you",
+                            "guidance": "Run your fingers along the surface - notice the contrast in textures"
+                        }
+                    ]
+                },
+                "hear": {
+                    "title": "Listen carefully",
+                    "subtitle": "Find 3 things you can hear",
+                    "items": [
+                        {
+                            "text": "Your own breathing or heartbeat",
+                            "guidance": "Close your eyes and focus inward - can you hear your breath or pulse?"
+                        },
+                        {
+                            "text": "Sounds from outside (traffic, nature, people)",
+                            "guidance": "Listen beyond the room - what distant sounds can you identify?"
+                        },
+                        {
+                            "text": "Subtle sounds you usually ignore",
+                            "guidance": "Notice quiet sounds like humming electronics, air movement, or settling noises"
+                        }
+                    ]
+                },
+                "smell": {
+                    "title": "Take a breath",
+                    "subtitle": "Find 2 things you can smell",
+                    "items": [
+                        {
+                            "text": "The air in this room",
+                            "guidance": "Take a slow, deep breath - is it fresh, stale, scented, or neutral?"
+                        },
+                        {
+                            "text": "Something pleasant or familiar",
+                            "guidance": "Look for subtle scents - coffee, soap, fabric softener, or natural smells"
+                        }
+                    ]
+                },
+                "taste": {
+                    "title": "Notice the taste",
+                    "subtitle": "Find 1 thing you can taste",
+                    "items": [
+                        {
+                            "text": "The current taste in your mouth",
+                            "guidance": "Run your tongue around your mouth - sweet, salty, minty, or just the taste of saliva?"
+                        }
+                    ]
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "How 5-4-3-2-1 Grounding Works",
+            "description1": "The 5-4-3-2-1 technique works by redirecting your brain's attention from anxious thoughts to immediate sensory experiences. When anxiety activates your brain's threat-detection system, deliberately engaging each of your five senses creates competing neural signals that interrupt the anxiety response.",
+            "description2": "By systematically identifying things you can see, touch, hear, smell, and taste, you shift your nervous system from a state of hyperarousal to present-moment awareness. This sensory engagement activates the prefrontal cortex—your brain's reasoning center—which helps regulate the amygdala, the emotional alarm system that triggers anxiety.",
+            "description3": "The countdown structure (5-4-3-2-1) provides cognitive scaffolding that gives your mind a concrete task, preventing it from spiraling into worry while simultaneously anchoring you to your physical environment and the present moment.",
+            "sensoryEngagement": {
+                "title": "Sensory Engagement",
+                "description": "Activating multiple senses simultaneously creates strong neural signals that compete with and override anxiety patterns in the brain."
+            },
+            "neuralInterruption": {
+                "title": "Neural Interruption",
+                "description": "The structured countdown task engages your prefrontal cortex, interrupting the amygdala's anxiety response and restoring rational thought."
+            },
+            "presentMomentAnchoring": {
+                "title": "Present Moment Anchoring",
+                "description": "Identifying concrete sensory details roots your awareness in the here-and-now, breaking the cycle of past rumination or future worry."
+            }
+        },
+        "science": {
+            "title": "The Science Behind 5-4-3-2-1 Grounding",
+            "description": "Research demonstrates that sensory grounding techniques produce measurable improvements in anxiety symptoms across diverse populations. In a <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12550066/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">randomized controlled trial of 121 children with Tourette Syndrome</a>, grounding exercises led to a 36-point reduction in anxiety scores—significantly greater than controls—with particularly strong effects on separation anxiety (11.31-point reduction, effect size 0.55) and social anxiety (11.05-point reduction, effect size 0.65).",
+            "research": {
+                "anxietyReduction": {
+                    "title": "Anxiety Reduction in Clinical Populations",
+                    "description": "In children with Tourette Syndrome, a <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12550066/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">protocol incorporating sensory grounding</a> achieved a 36.02-point reduction in total anxiety scores, with separation anxiety dropping by 11.31 points (effect size 0.55) and social anxiety by 11.05 points (effect size 0.65)."
+                },
+                "mentalHealthImprovement": {
+                    "title": "Mental Health & Functioning Improvements",
+                    "description": "Patients with functional neurological disorder using the <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10272915/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">5-4-3-2-1 grounding technique</a> showed a 39-point increase in mental health scores, 35-point improvement in emotional functioning, and halved their impairment levels from 25.7 to 13.2 on disability scales."
+                },
+                "symptomFrequencyReduction": {
+                    "title": "Symptom Frequency Reduction",
+                    "description": "A <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8515382/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">meta-analysis of psychological treatments</a> incorporating sensory grounding showed 82% of patients achieved at least 50% reduction in functional seizure frequency, with sustained improvements at 6-month follow-up and accompanying anxiety score reductions."
+                }
+            }
+        },
+        "whenToPractice": {
+            "title": "When To Practice",
+            "items": [
+                "During panic attacks or acute anxiety episodes to interrupt the escalation cycle",
+                "When feeling overwhelmed, dissociated, or disconnected from your surroundings",
+                "Before stressful events like presentations or difficult conversations to establish calm",
+                "After traumatic triggers or flashbacks to reconnect with the present moment"
+            ]
+        },
+        "whatYoullNotice": {
+            "title": "What You'll Notice",
+            "items": [
+                "Immediate reduction in racing thoughts and mental overwhelm within the first minute",
+                "Slowed heart rate and decreased physical tension as your nervous system calms",
+                "Clearer thinking and improved ability to respond rather than react to situations",
+                "Greater sense of control and stability when practiced regularly during stress"
+            ]
+        },
+        "tips": {
+            "title": "Tips For Best Results",
+            "tip1": {
+                "title": "Go Slow",
+                "description": "Take your time identifying each sensory detail—rushing defeats the purpose. Spend 5-10 seconds really observing each item you identify."
+            },
+            "tip2": {
+                "title": "Be Specific",
+                "description": "Instead of \"I see a chair,\" try \"I see a wooden chair with curved armrests and a red cushion.\" Detailed observation strengthens the grounding effect."
+            },
+            "tip3": {
+                "title": "Repeat When Needed",
+                "description": "If anxiety returns after one round, immediately do another. You can practice this technique as many times as necessary until you feel grounded."
+            }
+        }
+    }
+}

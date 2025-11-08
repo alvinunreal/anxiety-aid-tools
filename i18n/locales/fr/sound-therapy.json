@@ -1,0 +1,165 @@
+{
+  "soundTherapy": {
+    "title": "Thérapie par le Son et Guérison par Fréquence",
+    "description": "Expérimentez des fréquences thérapeutiques et des battements binauraux pour favoriser une relaxation profonde, réduire l'anxiété et améliorer la concentration grâce à une thérapie sonore scientifiquement prouvée.",
+    "interface": {
+      "frequency": "Fréquence",
+      "binauralBeats": "Battements Binauraux",
+      "modulation": "Modulation",
+      "volume": "Volume",
+      "startSession": "Démarrer la Thérapie Sonore",
+      "stopSession": "Arrêter la Séance"
+    },
+    "playingState": {
+      "description": "Laissez les vibrations curatives vous envahir. Concentrez-vous sur votre respiration et laissez les fréquences vous guider vers une relaxation profonde.",
+      "instructions": "Fermez les yeux et permettez aux vibrations de pénétrer profondément, apportant la paix à votre esprit et à votre corps."
+    },
+    "frequencies": [
+      {
+        "name": "396Hz",
+        "description": "Libération de la peur et de la culpabilité"
+      },
+      {
+        "name": "417Hz",
+        "description": "Faciliter le changement et la transformation"
+      },
+      {
+        "name": "528Hz",
+        "description": "Fréquence de l'amour et réparation de l'ADN"
+      },
+      {
+        "name": "639Hz",
+        "description": "Relations harmonieuses"
+      },
+      {
+        "name": "741Hz",
+        "description": "Éveil de l'intuition et de l'expression"
+      },
+      {
+        "name": "852Hz",
+        "description": "Retour à l'ordre spirituel"
+      },
+      {
+        "name": "963Hz",
+        "description": "Connexion à la conscience universelle"
+      },
+      {
+        "name": "174Hz",
+        "description": "Anesthésique naturel et soulagement de la douleur"
+      }
+    ],
+    "binauralBeats": [
+      {
+        "name": "Aucun",
+        "description": "Fréquence pure"
+      },
+      {
+        "name": "Delta 2Hz",
+        "description": "Sommeil profond"
+      },
+      {
+        "name": "Theta 4Hz",
+        "description": "Méditation profonde"
+      },
+      {
+        "name": "Alpha 8Hz",
+        "description": "Concentration détendue"
+      },
+      {
+        "name": "Beta 15Hz",
+        "description": "Conscience alerte"
+      }
+    ],
+    "modulation": [
+      {
+        "name": "Désactivé",
+        "description": "Pas de modulation"
+      },
+      {
+        "name": "Très Subtil",
+        "description": "À peine perceptible"
+      },
+      {
+        "name": "Doux",
+        "description": "Effet de respiration douce"
+      },
+      {
+        "name": "Modéré",
+        "description": "Vagues perceptibles"
+      },
+      {
+        "name": "Fort",
+        "description": "Pulsation profonde"
+      }
+    ],
+    "howItWorks": {
+      "title": "Comment Fonctionne la Thérapie Sonore",
+      "description1": "La thérapie sonore utilise des fréquences spécifiques et des battements binauraux pour influencer directement l'activité électrique de votre cerveau. Lorsque vous écoutez deux tons légèrement différents dans chaque oreille, votre cerveau crée une troisième fréquence 'fantôme'—le battement binaural—qui peut guider vos ondes cérébrales vers des états de relaxation profonde, de concentration ou de calme.",
+      "description2": "Différentes fréquences résonnent avec différentes parties de votre système nerveux. Les ondes thêta (4-8 Hz) favorisent la méditation et le soulagement de l'anxiété, tandis que les ondes alpha (8-12 Hz) améliorent la vigilance détendue. Les tons purs créent également des vibrations sympathiques dans les tissus de votre corps, favorisant la relaxation physique en même temps que le calme mental.",
+      "description3": "Avec une utilisation régulière, la thérapie sonore peut aider à rééduquer l'état de base de votre système nerveux, facilitant l'accès au calme même sans l'audio. La recherche montre que ces effets sont mesurables dans les scanners cérébraux, la variabilité de la fréquence cardiaque et les niveaux d'hormones de stress.",
+      "brainwaveEntrainment": {
+        "title": "Entraînement des Ondes Cérébrales",
+        "description": "Votre cerveau se synchronise avec les stimuli rythmiques externes, guidant l'activité électrique vers des schémas thérapeutiques."
+      },
+      "autonomicBalance": {
+        "title": "Équilibre Autonome",
+        "description": "Des fréquences spécifiques activent le système nerveux parasympathique, abaissant la fréquence cardiaque et réduisant la production de cortisol."
+      },
+      "physiologicalResonance": {
+        "title": "Résonance Physiologique",
+        "description": "Les vibrations sonores créent des effets physiques subtils dans tout votre corps, libérant la tension musculaire et favorisant la circulation."
+      }
+    },
+    "science": {
+      "title": "La Science Derrière la Thérapie Sonore",
+      "description": "La thérapie sonore est soutenue par des recherches cliniques rigoureuses démontrant des réductions mesurables de l'anxiété, du stress et de la tension physiologique. Une <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5871151/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">étude portant sur 62 participants</a> a montré que la méditation avec des bols chantants tibétains réduisait les scores d'anxiété de 0,67 point en général et de 0,89 point chez les débutants, la tension diminuant de 1,12 point. Plusieurs essais confirment que les interventions sonores produisent des bénéfices cohérents et mesurables.",
+      "research": {
+        "proceduralAnxiety": {
+          "title": "Réduction de l'Anxiété Procédurale",
+          "description": "Chez 112 patients subissant une bronchoscopie, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9276398/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">l'audio de battements binauraux</a> a réduit les scores d'anxiété de 7,26 points et abaissé la pression artérielle systolique de 9,89 mmHg, surpassant significativement la musique ou l'absence d'intervention."
+        },
+        "thetaBeatsAddiction": {
+          "title": "Battements Thêta pour l'Anxiété Co-Occurrence",
+          "description": "Huit séances de 20 minutes de <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11811546/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">battements binauraux thêta de 7,5 Hz</a> chez 30 hommes dépendants aux opioïdes ont réduit les scores d'inventaire d'anxiété de 27,47 à 10,00—une amélioration de 64% avec une grande taille d'effet (η²=0,949)."
+        },
+        "emergencyStaff": {
+          "title": "Soulagement du Stress dans les Environnements à Haute Pression",
+          "description": "Parmi 54 infirmières d'urgence pendant la COVID-19, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9534204/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">15 minutes de musique à 432 Hz</a> ont abaissé les scores médians d'anxiété de 34 à 29, diminué la fréquence respiratoire de 2,7 respirations/min et réduit la pression artérielle systolique de 3,8 mmHg."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Quand Pratiquer",
+      "items": [
+        "Lorsque vous vous sentez dépassé, anxieux ou incapable de calmer votre esprit",
+        "Avant des procédures médicales, des événements stressants ou des conversations importantes pour calmer votre système nerveux",
+        "Pendant des épisodes d'anxiété aiguë ou de panique pour interrompre la réponse au stress",
+        "Au coucher pour favoriser une relaxation profonde et préparer un sommeil réparateur"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Ce Que Vous Remarquerez",
+      "items": [
+        "Effet calmant immédiat dans les 1 à 2 premières minutes alors que votre système nerveux commence à répondre",
+        "Fréquence cardiaque plus lente, respiration plus profonde et tension musculaire réduite dans tout votre corps",
+        "Clarté mentale accrue et distance émotionnelle par rapport aux pensées anxieuses",
+        "Résilience cumulative avec une pratique régulière—votre niveau de stress de base diminue progressivement au fil du temps"
+      ]
+    },
+    "tips": {
+      "title": "Conseils Pour de Meilleurs Résultats",
+      "headphones": {
+        "title": "Écouteurs",
+        "description": "Utilisez des écouteurs stéréo pour que les battements binauraux fonctionnent correctement. Chaque oreille doit entendre une fréquence distincte."
+      },
+      "environment": {
+        "title": "Environnement",
+        "description": "Trouvez un espace calme et confortable où vous ne serez pas interrompu. Un éclairage tamisé ou les yeux fermés améliorent la concentration sur les sons."
+      },
+      "consistency": {
+        "title": "Cohérence",
+        "description": "Pratiquez 10 à 20 minutes par jour pour de meilleurs résultats. L'entraînement des ondes cérébrales devient plus efficace avec une exposition régulière."
+      }
+    }
+  }
+}

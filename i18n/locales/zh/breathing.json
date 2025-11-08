@@ -1,0 +1,123 @@
+{
+    "breathing": {
+        "audio": {
+            "enableCues": "启用音频提示"
+        },
+        "benefits": {
+            "calm": {
+                "title": "平静",
+                "description": "降低心率和血压"
+            },
+            "focus": {
+                "title": "专注",
+                "description": "向大脑输送更多氧气,使思维更清晰"
+            },
+            "relax": {
+                "title": "放松",
+                "description": "激活自然放松反应"
+            }
+        },
+        "session": {
+            "title": "呼吸练习",
+            "subtitle": "4:6 舒缓节奏",
+            "elapsed": "已用时",
+            "inhaling": "吸气",
+            "exhaling": "呼气",
+            "breatheIn": "吸气",
+            "breatheOut": "呼气",
+            "fourSeconds": "4秒",
+            "sixSeconds": "6秒",
+            "sessionProgress": "练习进度",
+            "sessionProgressAriaLabel": "练习进度:{total}个呼吸循环中已完成{current}个",
+            "currentBreath": "当前呼吸",
+            "breathProgressAriaLabel": "当前呼吸进度:已完成{progress}%",
+            "breaths": "次呼吸"
+        },
+        "buttons": {
+            "begin": "开始练习",
+            "beginAriaLabel": "开始呼吸练习",
+            "stop": "停止",
+            "stopAriaLabel": "停止当前呼吸练习",
+            "practiceAgain": "再次练习",
+            "practiceAgainAriaLabel": "开始另一次呼吸练习"
+        },
+        "completion": {
+            "title": "做得很好",
+            "description": "您在{time}内完成了{count}个呼吸循环。您的副交感神经系统已被激活,促进放松。",
+            "benefits": {
+                "heartRate": "心率降低",
+                "mind": "心境平静",
+                "breathing": "呼吸调节"
+            }
+        },
+        "howItWorks": {
+            "title": "腹式呼吸的工作原理",
+            "description1": "通过强调较长呼气的4:6模式进行受控呼吸,可刺激迷走神经,这是副交感神经系统的主要组成部分。激活这一神经会发送信号,帮助身体从\"战斗或逃跑\"状态过渡到\"休息和修复\"模式。",
+            "description2": "这种转变带来几个可衡量的生理益处。它可以降低心率和血压。血管放松可改善循环,增加向大脑的氧气流动。此外,这种镇静反应积极影响消化,支持身体的免疫系统。",
+            "description3": "有意识地练习4:6呼吸技巧是管理压力和促进整体健康的有效方法。",
+            "vagalActivation": {
+                "title": "迷走神经激活",
+                "description": "缓慢深呼吸刺激迷走神经,将大脑与心脏和消化系统连接起来,促进平静状态。"
+            },
+            "gasExchange": {
+                "title": "最佳气体交换",
+                "description": "以每分钟4-6次的频率呼吸可优化氧气输送和CO2平衡,减少经常伴随焦虑的过度换气。"
+            },
+            "stressHormones": {
+                "title": "压力荷尔蒙减少",
+                "description": "定期练习可降低皮质醇和其他压力荷尔蒙,为身体的基线压力反应创造持久改善。"
+            }
+        },
+        "science": {
+            "title": "呼吸练习背后的科学",
+            "description": "研究一致表明,腹式呼吸可显著减少焦虑、压力荷尔蒙和生理唤醒。一项<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5455070/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">为期8周、包含20次15分钟腹式呼吸的计划</a>使健康成年人的负面情绪降低2.55分,皮质醇水平下降1.32-1.66纳克/毫升。",
+            "research": {
+                "anxietyReduction": {
+                    "title": "减少焦虑",
+                    "description": "在COVID-19患者中,<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11535222/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">5天的引导式深呼吸</a>(15-20分钟,每天4次)使DASS-21焦虑评分从14.86降至8.44——改善43%,而对照组没有变化。"
+                },
+                "panicDisorders": {
+                    "title": "惊恐障碍治疗",
+                    "description": "一项<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9954474/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">16项研究的综述</a>发现,在2-12个月内以每分钟8-10次的频率进行缓慢呼吸,可减少惊恐障碍和广场恐惧症患者的惊恐发作频率,并使CO2水平正常化。"
+                },
+                "gadImprovement": {
+                    "title": "广泛性焦虑改善",
+                    "description": "在41名广泛性焦虑症患者中,<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8989478/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3个月的每日呼吸练习</a>(15-20分钟,每周4天以上)使BAI焦虑评分从40.90降至13.24——改善68%。"
+                }
+            }
+        },
+        "whenToPractice": {
+            "title": "何时练习",
+            "items": [
+                "当您感到不知所措或压力大时",
+                "在重要对话或决定之前",
+                "在焦虑或恐慌发作期间",
+                "在压力事件后重置您的神经系统"
+            ]
+        },
+        "whatYoullNotice": {
+            "title": "您会注意到什么",
+            "items": [
+                "第一分钟内立即产生镇静效果",
+                "思维更清晰,决策能力提高",
+                "心率减慢,肌肉紧张减少",
+                "定期练习可提高抗压能力"
+            ]
+        },
+        "tips": {
+            "title": "获得最佳效果的提示",
+            "posture": {
+                "title": "姿势",
+                "description": "坐直或站直,以便肺部完全扩张。肩膀放松,不要弯腰驼背。"
+            },
+            "environment": {
+                "title": "环境",
+                "description": "找一个安静的地方,不会被打扰。舒适的温度有助于集中注意力。"
+            },
+            "consistency": {
+                "title": "坚持",
+                "description": "在更换前,先练习同一种技巧一周。建立熟悉感可提高效果。"
+            }
+        }
+    }
+}

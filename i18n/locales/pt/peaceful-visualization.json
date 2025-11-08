@@ -1,0 +1,226 @@
+{
+  "peacefulVisualization": {
+    "interface": {
+      "play": "Reproduzir",
+      "stop": "Parar",
+      "visitAnotherPlace": "Visitar Outro Lugar",
+      "peacefulMoments": "momentos de paz",
+      "immersiveJourney": "Jornada de visualização imersiva",
+      "closeEyesAndBreathe": "Feche os olhos e respire"
+    },
+    "completion": {
+      "title": "Visualização Completa",
+      "description": "Você viajou com sucesso para lugares pacíficos dentro de sua mente. Este estado calmo está sempre acessível para você.",
+      "benefits": {
+        "mindCalmed": "Mente acalmada",
+        "stressReduced": "Estresse reduzido",
+        "innerPeaceAchieved": "Paz interior alcançada"
+      }
+    },
+    "scenes": {
+      "mountainPeakSunrise": {
+        "name": "Nascer do Sol no Pico da Montanha",
+        "description": "De pé no topo de uma montanha suave, observando o sol nascer sobre picos infinitos",
+        "soundscape": "Vento da montanha",
+        "atmosphere": "Ar fresco e puro",
+        "guidance": [
+          "Você se encontra de pé no topo de uma montanha pacífica, o mundo se estende diante de você como uma bela pintura.",
+          "O nascer do sol pinta o céu com cores suaves - rosas delicados, laranjas quentes e amarelos dourados se estendendo pelo horizonte.",
+          "O ar fresco e puro da montanha enche seus pulmões. Cada respiração é pura e energizante, lavando qualquer tensão ou preocupação.",
+          "Abaixo de você, camadas de montanhas se estendem à distância como gigantes adormecidos, cobertas por uma névoa matinal suave.",
+          "Você se sente completamente seguro aqui, de pé sobre solo firme, conectado à terra sob seus pés.",
+          "O calor suave do sol toca seu rosto, enchendo você de paz e força tranquila.",
+          "Este é o seu lugar de paz - você pode retornar aqui a qualquer momento simplesmente fechando os olhos e lembrando deste momento."
+        ]
+      },
+      "tranquilForestGrove": {
+        "name": "Bosque Tranquilo da Floresta",
+        "description": "Em uma clareira iluminada pelo sol, cercada por árvores antigas e suaves",
+        "soundscape": "Canto de pássaros e folhas",
+        "atmosphere": "Luz solar manchada",
+        "guidance": [
+          "Você está caminhando para uma bela clareira na floresta, onde árvores antigas criam uma catedral natural ao seu redor.",
+          "A luz solar suave filtra através das folhas acima, criando padrões de luz e sombra no chão da floresta.",
+          "O ar aqui está cheio do aroma fresco de coisas crescendo - musgo, terra e o cheiro limpo de folhas.",
+          "Musgo macio amortece seus passos, e você pode ouvir os sons pacíficos de pássaros cantando e folhas sussurrando na brisa suave.",
+          "Você se acomoda ao lado de um tronco de árvore liso, sentindo-se completamente apoiado e seguro no abraço da natureza.",
+          "Cada respiração traz uma paz mais profunda, como se a floresta estivesse compartilhando sua calma antiga com você.",
+          "Este bosque é o seu santuário - um lugar onde você sempre pode encontrar paz e renovação quando precisar."
+        ]
+      },
+      "peacefulOceanBeach": {
+        "name": "Praia Oceânica Pacífica",
+        "description": "Caminhando descalço na areia quente ao lado de ondas suaves e rítmicas",
+        "soundscape": "Ondas do oceano",
+        "atmosphere": "Brisa marinha",
+        "guidance": [
+          "Você está caminhando descalço em uma bela praia, sentindo a areia quente e macia entre seus dedos dos pés.",
+          "Ondas suaves rolam para a costa em um ritmo pacífico, como a própria respiração da terra, calma e constante.",
+          "O oceano se estende infinitamente diante de você, sua superfície brilhando à luz do sol como diamantes dispersos.",
+          "Uma brisa quente e suave carrega o aroma limpo da água salgada e toca sua pele com conforto perfeito.",
+          "Você encontra o lugar perfeito para descansar, sentindo-se completamente em paz com o ritmo infinito das ondas.",
+          "Cada onda que chega leva embora qualquer estresse ou preocupação, carregando-os para o mar onde se dissolvem completamente.",
+          "Esta praia é o seu refúgio pacífico - as ondas sempre estarão aqui, prontas para lavar suas preocupações quando você retornar."
+        ]
+      },
+      "sereneGardenParadise": {
+        "name": "Paraíso do Jardim Sereno",
+        "description": "Em um belo jardim cheio de flores coloridas e fontes suaves",
+        "soundscape": "Água fluindo",
+        "atmosphere": "Fragrâncias de flores",
+        "guidance": [
+          "Você entra em um jardim magnífico onde cada flor parece recebê-lo com cores vibrantes e fragrâncias suaves.",
+          "Uma pequena fonte cria o som mais pacífico enquanto água clara flui sobre pedras lisas no centro do jardim.",
+          "Pétalas macias criam um arco-íris vivo ao seu redor - roxos profundos, amarelos brilhantes, rosas suaves.",
+          "O ar está cheio de perfumes naturais, e tudo parece quente e acolhedor.",
+          "Você encontra um lugar confortável para descansar entre as flores, sentindo-se seguro e amado pela natureza.",
+          "Este jardim fica mais bonito a cada respiração que você dá, como se estivesse respondendo à sua presença pacífica.",
+          "Este é o seu jardim de paz - ele sempre estará em flor, esperando por você quando precisar de beleza e calma."
+        ]
+      },
+      "starlitMeadowNight": {
+        "name": "Noite no Prado Estrelado",
+        "description": "Deitado em um prado macio sob um manto de inúmeras estrelas",
+        "soundscape": "Sons noturnos",
+        "atmosphere": "Ar fresco da noite",
+        "guidance": [
+          "Você está deitado confortavelmente em um prado macio, olhando para um céu cheio de estrelas cintilantes.",
+          "A grama sob você é perfeitamente macia, como o próprio travesseiro da natureza, sustentando seu corpo completamente.",
+          "Acima de você, a Via Láctea se estende pelos céus como um rio de luz, bela além de qualquer descrição.",
+          "O ar noturno é confortável, com uma brisa suave que carrega o aroma doce de flores que desabrocham à noite.",
+          "Você se sente pequeno da melhor maneira possível - conectado a algo vasto e pacífico que o mantém seguro.",
+          "Cada estrela parece brilhar apenas para você, enviando luz que o enche de admiração e paz.",
+          "Este prado sob as estrelas é o seu lugar de calma infinita - você sempre pode olhar para cima e encontrar paz na vastidão."
+        ]
+      },
+      "cozyRainyCabin": {
+        "name": "Cabana Aconchegante com Chuva",
+        "description": "Descansando seguro dentro de uma cabana quente enquanto chuva suave bate no telhado",
+        "soundscape": "Chuva no telhado",
+        "atmosphere": "Calor da lareira",
+        "guidance": [
+          "Você se acomoda em uma poltrona macia ao lado da janela de uma aconchegante cabana de madeira enquanto a chuva da noite começa a cair.",
+          "Gotas de chuva tamborilam um ritmo suave no telhado e escorrem pelo vidro, criando a trilha sonora mais relaxante.",
+          "Uma pequena lareira brilha por perto, enchendo o quarto com uma luz dourada e o crepitar reconfortante de toras queimando.",
+          "O ar cheira levemente a pinho e cedro quente, envolvendo você no aroma limpo da floresta circundante.",
+          "Um cobertor grosso descansa sobre suas pernas, e você se sente perfeitamente apoiado pela cadeira enquanto todo o seu corpo relaxa.",
+          "Você segura uma caneca quente entre as mãos, deixando o vapor subir lentamente em direção ao seu rosto enquanto a chuva continua a cantar.",
+          "Esta cabana é o seu refúgio privado - sempre que precisar de paz, você pode retornar a esta noite chuvosa e aconchegante e descansar aqui."
+        ]
+      },
+      "mistyLakesideDawn": {
+        "name": "Amanhecer Enevoado à Beira do Lago",
+        "description": "Sentado à beira de um lago de montanha tranquilo enquanto o amanhecer colore a manhã nebulosa",
+        "soundscape": "Água suavemente batendo",
+        "atmosphere": "Névoa matinal fresca",
+        "guidance": [
+          "Você está sentado em um píer de madeira lisa ao lado de um lago de montanha calmo pouco antes do nascer do sol.",
+          "Névoa fina flutua sobre a água, derivando preguiçosamente enquanto o amanhecer começa a colorir o céu.",
+          "Cada respiração aspira ar fresco da manhã com aroma de pinho e pedra fria.",
+          "Do outro lado do lago, montanhas brilham suavemente quando a primeira luz rosa toca seus picos.",
+          "A superfície do lago espelha o céu que desperta, ondulando suavemente com apenas as ondas mais silenciosas.",
+          "Um mergulhão distante chama uma vez e o som ecoa suavemente antes de desaparecer de volta ao silêncio.",
+          "Este amanhecer à beira do lago pertence a você - retorne quando precisar de calma, e a água estará esperando."
+        ]
+      },
+      "sunlitDesertOasis": {
+        "name": "Oásis do Deserto Iluminado pelo Sol",
+        "description": "Descansando ao lado de uma piscina de oásis sombreada por palmeiras no deserto dourado",
+        "soundscape": "Nascente suave e brisa",
+        "atmosphere": "Brilho quente do pôr do sol",
+        "guidance": [
+          "Você descansa sobre uma pedra lisa ao lado de uma piscina de oásis clara encravada entre dunas de deserto dourado.",
+          "Folhas de palmeira balançam acima de você, espalhando sombra manchada enquanto a luz do sol brilha quente em sua pele.",
+          "Uma nascente suave alimenta a piscina, seu gotejamento silencioso harmonizando com a brisa suave do deserto.",
+          "O ar cheira doce com flores de tâmaras florescendo, calmante e quieto.",
+          "Dunas distantes cintilam na luz da tarde, suas curvas guiando seus olhos pacificamente para o horizonte.",
+          "Você desliza os dedos na água fresca, sentindo a tensão derreter a cada círculo que você traça.",
+          "Este oásis é o seu santuário - não importa quão quente o mundo pareça, você sempre pode refrescar seu espírito aqui."
+        ]
+      },
+      "floatingCloudSanctuary": {
+        "name": "Santuário de Nuvens Flutuantes",
+        "description": "Deslizando através de nuvens macias e iluminadas pelo sol bem acima da terra",
+        "soundscape": "Brisa suave de alta altitude",
+        "atmosphere": "Calma sem peso",
+        "guidance": [
+          "Você flutua sem peso entre vastas nuvens brilhantes bem acima do mundo.",
+          "Raios de sol se derramam através das nuvens ao seu redor, pintando-as com luz dourada e prateada suave.",
+          "Uma brisa suave o envolve em calor, embalando você como uma canção de ninar calma e sem fim.",
+          "Cada nuvem parece veludo sob seus dedos, fresca e macia enquanto você desliza através delas.",
+          "Abaixo de você, o mundo parece pacífico e pequeno, e toda preocupação parece distante.",
+          "A cada respiração, as nuvens se separam para revelar um céu azul infinito, lembrando você de seu próprio espaço aberto interior.",
+          "Este santuário flutuante sempre o eleva - retorne quando quiser se elevar acima de tudo e descansar no céu."
+        ]
+      }
+    },
+    "howItWorks": {
+      "title": "Como Funciona a Visualização Guiada",
+      "description1": "A visualização guiada ativa os mesmos caminhos neurais em seu cérebro que experiências reais. Quando você imagina vividamente cenas pacíficas, seu cérebro libera neurotransmissores calmantes e reduz a produção de hormônios do estresse, criando relaxamento fisiológico genuíno.",
+      "description2": "Ao envolver múltiplos sentidos - visão, audição, tato, olfato - a visualização se torna mais imersiva e eficaz. Este engajamento multissensorial fortalece a resposta de relaxamento e ajuda seu sistema nervoso a mudar do modo luta-ou-fuga para o modo descanso-e-digestão.",
+      "mentalImagery": {
+        "title": "Imaginação Mental",
+        "description": "O cérebro processa experiências imaginadas de forma semelhante às reais, desencadeando respostas genuínas de relaxamento"
+      },
+      "sensoryEngagement": {
+        "title": "Engajamento Sensorial",
+        "description": "Múltiplos sentidos trabalhando juntos criam imersão mais profunda e redução de estresse mais eficaz"
+      },
+      "neuralPathways": {
+        "title": "Caminhos Neurais",
+        "description": "A visualização repetida fortalece circuitos neurais calmantes, tornando o relaxamento mais fácil de acessar com o tempo"
+      }
+    },
+    "science": {
+      "title": "A Ciência Por Trás da Visualização Guiada",
+      "description": "Pesquisas extensas demonstram que imagens guiadas produzem reduções mensuráveis na ansiedade em diversas populações. Em um <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10871407/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">estudo de 20 pacientes com transtorno de ansiedade generalizada</a>, imagens guiadas combinadas com tratamento padrão reduziram os escores de ansiedade de 21,30 para 5,90 - uma melhoria de 72% - em comparação com apenas 30% de melhoria no grupo controle que recebeu apenas tratamento.",
+      "research": {
+        "covidAnxiety": {
+          "title": "Redução de Ansiedade em Ambientes Médicos",
+          "description": "Entre <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7982304/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">55 pacientes com COVID-19</a>, 10 sessões de imagens guiadas diminuíram os escores de ansiedade de estado de 45,03 para 38,27 (redução de 15%) e ansiedade de traço de 47,34 para 39,58 (redução de 16%), com grandes tamanhos de efeito (d=1,10 e d=1,07, P<0,001)."
+        },
+        "surgicalAnxiety": {
+          "title": "Alívio da Ansiedade Cirúrgica",
+          "description": "Em <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC4625990/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">75 pacientes de substituição articular</a>, 90,6% experimentaram mais de 50% de diminuição na ansiedade da linha de base até o segundo dia pós-operatório, com uma redução média de 78,7%. Sessões pré-operatórias sozinhas reduziram a ansiedade em 42,8%, superando significativamente o cuidado habitual (P<0,0001)."
+        },
+        "metaAnalysis": {
+          "title": "Evidência Clínica Ampla",
+          "description": "Uma <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC3718554/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">meta-análise de 36 ensaios randomizados</a> com 1.608 observações descobriu que imagens guiadas reduziram os sintomas de ansiedade com uma diferença média padronizada de -0,52 versus controles de lista de espera (P<0,001) e -0,59 versus controles de atenção (P<0,001). Nenhum efeito adverso foi relatado em 25 estudos."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Quando Praticar",
+      "items": [
+        "Durante momentos de alto estresse ou ansiedade esmagadora quando você precisa de alívio imediato",
+        "Antes de eventos importantes como apresentações, reuniões ou procedimentos médicos para acalmar os nervos pré-evento",
+        "Na hora de dormir para acalmar pensamentos acelerados e preparar sua mente e corpo para um sono reparador",
+        "Durante pausas ao longo do dia para redefinir seu sistema nervoso e manter o equilíbrio emocional"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "O Que Você Notará",
+      "items": [
+        "Imaginação mental criando sentimentos genuínos de calma enquanto seu cérebro responde às cenas pacíficas",
+        "Frequência cardíaca mais lenta e respiração mais profunda à medida que seu sistema nervoso parassimpático se ativa",
+        "Tensão física derretendo enquanto seus músculos respondem ao ambiente pacífico imaginado",
+        "Maior capacidade de acessar estados calmos com prática regular à medida que você fortalece esses caminhos neurais"
+      ]
+    },
+    "tips": {
+      "title": "Dicas Para Melhores Resultados",
+      "preparation": {
+        "title": "Preparação",
+        "description": "Encontre uma posição confortável onde você possa permanecer imóvel por 10-12 minutos. Use fones de ouvido para melhor imersão na orientação de áudio e paisagens sonoras."
+      },
+      "engagement": {
+        "title": "Engajamento",
+        "description": "Envolva todos os seus sentidos na visualização - imagine não apenas o que você vê, mas também o que você ouve, sente, cheira e até prova. Quanto mais vívido, mais eficaz."
+      },
+      "patience": {
+        "title": "Paciência",
+        "description": "Se sua mente divagar, gentilmente guie-a de volta à visualização sem julgamento. Isso é normal e parte da prática - você está treinando o foco do seu cérebro."
+      }
+    }
+  }
+}

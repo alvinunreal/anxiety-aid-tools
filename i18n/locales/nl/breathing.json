@@ -1,0 +1,123 @@
+{
+    "breathing": {
+        "audio": {
+            "enableCues": "Audio signalen inschakelen"
+        },
+        "benefits": {
+            "calm": {
+                "title": "Kalmte",
+                "description": "Verlaag hartslag en bloeddruk"
+            },
+            "focus": {
+                "title": "Focus",
+                "description": "Meer zuurstof naar de hersenen voor helderder denken"
+            },
+            "relax": {
+                "title": "Ontspanning",
+                "description": "Activeer natuurlijke ontspanningsreactie"
+            }
+        },
+        "session": {
+            "title": "Ademoefening Sessie",
+            "subtitle": "4:6 Kalmerend Ritme",
+            "elapsed": "verstreken",
+            "inhaling": "Inademen",
+            "exhaling": "Uitademen",
+            "breatheIn": "adem in",
+            "breatheOut": "adem uit",
+            "fourSeconds": "4 seconden",
+            "sixSeconds": "6 seconden",
+            "sessionProgress": "Sessie Voortgang",
+            "sessionProgressAriaLabel": "Sessie voortgang: {current} van {total} ademhalingscycli voltooid",
+            "currentBreath": "Huidige Ademhaling",
+            "breathProgressAriaLabel": "Huidige ademhalingsvoortgang: {progress}% voltooid",
+            "breaths": "ademhalingen"
+        },
+        "buttons": {
+            "begin": "Begin Oefening",
+            "beginAriaLabel": "Start de ademoefening sessie",
+            "stop": "Stop",
+            "stopAriaLabel": "Stop de huidige ademoefening",
+            "practiceAgain": "Oefen Opnieuw",
+            "practiceAgainAriaLabel": "Start een andere ademoefening sessie"
+        },
+        "completion": {
+            "title": "Uitstekend Werk",
+            "description": "Je hebt {count} ademhalingscycli voltooid in {time}. Je parasympathische zenuwstelsel is geactiveerd, wat ontspanning bevordert.",
+            "benefits": {
+                "heartRate": "Hartslag verlaagd",
+                "mind": "Geest gekalmeerd",
+                "breathing": "Ademhaling gereguleerd"
+            }
+        },
+        "howItWorks": {
+            "title": "Hoe Diafragmatische Ademhaling Werkt",
+            "description1": "Gecontroleerde ademhaling via het 4:6 patroon dat de nadruk legt op een langere uitademing stimuleert de nervus vagus, een hoofdcomponent van het parasympathische zenuwstelsel. Het activeren van deze zenuw zendt signalen die helpen het lichaam over te laten gaan van een \"vecht of vlucht\" toestand naar een \"rust en herstel\" modus.",
+            "description2": "Deze verschuiving heeft verschillende meetbare fysiologische voordelen. Het kan leiden tot een lagere hartslag en verminderde bloeddruk. De ontspanning van bloedvaten zorgt voor verbeterde circulatie, waardoor de zuurstoftoevoer naar de hersenen toeneemt. Bovendien beïnvloedt deze kalmerende reactie de spijsvertering positief en ondersteunt het immuunsysteem van het lichaam.",
+            "description3": "Het bewust beoefenen van de 4:6 ademhalingstechniek is een effectieve manier om stress te beheersen en algemeen welzijn te bevorderen.",
+            "vagalActivation": {
+                "title": "Nervus Vagus Activatie",
+                "description": "Langzame, diepe ademhaling stimuleert de nervus vagus, die je hersenen verbindt met je hart en spijsverteringssysteem, wat een kalme toestand bevordert."
+            },
+            "gasExchange": {
+                "title": "Optimale Gasuitwisseling",
+                "description": "Ademhalen met 4-6 ademhalingen per minuut optimaliseert zuurstoftoevoer en CO2-balans, waardoor hyperventilatie die vaak gepaard gaat met angst wordt verminderd."
+            },
+            "stressHormones": {
+                "title": "Stresshormoon Vermindering",
+                "description": "Regelmatige oefening vermindert cortisol en andere stresshormonen, wat blijvende verbeteringen creëert in de basale stressreactie van je lichaam."
+            }
+        },
+        "science": {
+            "title": "De Wetenschap Achter Ademoefening",
+            "description": "Onderzoek toont consistent aan dat diafragmatische ademhaling meetbare verminderingen produceert in angst, stresshormonen en fysiologische opwinding. Een <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5455070/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">8-weekse programma met 20 sessies van 15 minuten diafragmatische ademhaling</a> verlaagde negatief affect met 2,55 punten en verminderde cortisolniveaus met 1,32-1,66 ng/mL bij gezonde volwassenen.",
+            "research": {
+                "anxietyReduction": {
+                    "title": "Angstreductie",
+                    "description": "Bij COVID-19 patiënten verminderde <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11535222/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">5 dagen begeleide diepe ademhaling</a> (15-20 minuten, 4x per dag) angstscores op DASS-21 van 14,86 naar 8,44 - een verbetering van 43% - terwijl controles geen verandering toonden."
+                },
+                "panicDisorders": {
+                    "title": "Behandeling van Paniekstoornis",
+                    "description": "Een <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9954474/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">review van 16 studies</a> vond dat langzame ademhaling met 8-10 ademhalingen per minuut gedurende 2-12 maanden de frequentie van paniekaanvallen verminderde en CO2-niveaus normaliseerde bij patiënten met paniekstoornis en agorafobie."
+                },
+                "gadImprovement": {
+                    "title": "Verbetering van Gegeneraliseerde Angst",
+                    "description": "Bij 41 GAD-patiënten verminderde <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8989478/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3 maanden dagelijkse ademhalingsoefening</a> (15-20 min, 4+ dagen/week) angstscores van 40,90 naar 13,24 op de BAI - een verbetering van 68%."
+                }
+            }
+        },
+        "whenToPractice": {
+            "title": "Wanneer Te Oefenen",
+            "items": [
+                "Wanneer je je overweldigd of gestrest voelt",
+                "Voor belangrijke gesprekken of beslissingen",
+                "Tijdens angst- of paniekaanvallen",
+                "Na stressvolle gebeurtenissen om je zenuwstelsel te resetten"
+            ]
+        },
+        "whatYoullNotice": {
+            "title": "Wat Je Zult Merken",
+            "items": [
+                "Onmiddellijk kalmerend effect binnen de eerste minuut",
+                "Helderder denken en verbeterde besluitvorming",
+                "Langzamere hartslag en verminderde spierspanning",
+                "Betere stressbestendigheid met regelmatige oefening"
+            ]
+        },
+        "tips": {
+            "title": "Tips Voor Beste Resultaten",
+            "posture": {
+                "title": "Houding",
+                "description": "Zit of sta rechtop om volledige longexpansie mogelijk te maken. Schouders ontspannen, niet gebogen."
+            },
+            "environment": {
+                "title": "Omgeving",
+                "description": "Vind een rustige ruimte waar je niet gestoord wordt. Comfortabele temperatuur helpt bij focus."
+            },
+            "consistency": {
+                "title": "Consistentie",
+                "description": "Oefen dezelfde techniek een week voordat je wisselt. Vertrouwdheid opbouwen verbetert effectiviteit."
+            }
+        }
+    }
+}
