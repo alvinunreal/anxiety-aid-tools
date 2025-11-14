@@ -2,6 +2,10 @@
   "navigation": {
     "techniques": "Alle Technieken",
     "github": "GitHub",
+    "mobile": "Mobiele App",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Sluit menu",
     "skipToMain": "Ga naar hoofdinhoud"
   },
   "header": {

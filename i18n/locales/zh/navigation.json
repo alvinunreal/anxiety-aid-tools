@@ -2,6 +2,10 @@
   "navigation": {
     "techniques": "舒缓技巧",
     "github": "GitHub",
+    "mobile": "移动应用",
+    "menu": "菜单",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
     "skipToMain": "跳转到主要内容"
   },
   "header": {

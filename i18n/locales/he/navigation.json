@@ -2,6 +2,10 @@
   "navigation": {
     "techniques": "כל הטכניקות",
     "github": "גיטהאב",
+    "mobile": "אפליקציה לנייד",
+    "menu": "תפריט",
+    "openMenu": "פתח תפריט",
+    "closeMenu": "סגור תפריט",
     "skipToMain": "דלג לתוכן הראשי"
   },
   "header": {

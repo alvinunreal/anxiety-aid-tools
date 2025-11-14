@@ -10,7 +10,7 @@
 [![Multilingual Support](https://img.shields.io/badge/Languages-4-blue?logo=google-translate)](https://github.com/alvinunreal/anxiety-aid-tools)
 [![GitHub Stars](https://img.shields.io/github/stars/alvinunreal/anxiety-aid-tools?style=social)](https://github.com/alvinunreal/anxiety-aid-tools/stargazers)
 
-[**Website**](https://anxietyaidtools.com/) · [**Contribute**](#contributing) · [**Star Us**](https://github.com/alvinunreal/anxiety-aid-tools)
+[**Website**](https://anxietyaidtools.com/) · [**Mobile Apps**](https://anxietyaidtools.com/mobile) · [**Community**](https://www.reddit.com/r/AnxietyAidTools/) · [**Contribute**](#contributing)
 
 *Transform anxious moments into opportunities for calm with scientifically-backed breathing exercises, grounding techniques, and mindfulness tools.*
 
@@ -26,6 +26,7 @@ A collection of anxiety management techniques built around four core principles.
 - **No signup required** - Open the website and start immediately
 - **No ads** - Clean interface focused on what matters
 - **Works offline** - Available when you need it, regardless of connection
+- **Native mobile apps** - [iOS and Android apps](https://anxietyaidtools.com/mobile) for on-the-go access
 
 ### 🔒 **Privacy First**
 - **Minimal analytics** - Privacy-focused Cloudflare Web Analytics only
@@ -91,18 +92,25 @@ A collection of anxiety management techniques built around four core principles.
 
 ## **Quick Start**
 
-### Docker (Recommended)
+### 🌐 Web & Mobile
+- **Web**: Visit [anxietyaidtools.com](https://anxietyaidtools.com/)
+- **Mobile Apps**: Download for [iOS or Android](https://anxietyaidtools.com/mobile)
+
+### 🐳 Docker (Self-Hosted)
 ```bash
 # Quick run from Docker Hub
 docker run -p 3000:3000 alvinunreal/anxiety-aid-tools:latest
 
-# Or with Build and run with Docker Compose
+# Or build and run with Docker Compose
 git clone https://github.com/alvinunreal/anxiety-aid-tools.git
+cd anxiety-aid-tools
 docker compose up
 ```
 
-### Local Development
+### 💻 Local Development
 ```bash
+git clone https://github.com/alvinunreal/anxiety-aid-tools.git
+cd anxiety-aid-tools
 pnpm install
 pnpm run dev
 ```
@@ -134,11 +142,12 @@ This tool provides general anxiety management techniques and is not a substitute
 We believe the best mental health tools are built by communities who understand the challenges firsthand.
 
 ### **Ways to Help**
-- **Report bugs** - Help us improve reliability
-- **Suggest features** - Share ideas for new techniques
+- **Report bugs** - Help us improve reliability ([GitHub Issues](https://github.com/alvinunreal/anxiety-aid-tools/issues))
+- **Suggest features** - Share ideas for new techniques ([r/AnxietyAidTools](https://www.reddit.com/r/AnxietyAidTools/))
 - **Add translations** - Make it accessible to more people
 - **Improve content** - Enhance educational materials
 - **Design contributions** - Better UX for people in distress
+- **Share your story** - Help others by sharing how these tools helped you on [our subreddit](https://www.reddit.com/r/AnxietyAidTools/)
 
 ### **Development Setup**
 ```bash
@@ -219,7 +228,7 @@ GPL License - feel free to use, modify, and distribute. Mental health tools shou
 
 **If this project helped you, consider starring it to help others discover these techniques.**
 
-[**Star on GitHub**](https://github.com/alvinunreal/anxiety-aid-tools) • [**Report Issues**](https://github.com/alvinunreal/anxiety-aid-tools/issues) • [**Join Discussions**](https://github.com/alvinunreal/anxiety-aid-tools/discussions)
+[**⭐ Star on GitHub**](https://github.com/alvinunreal/anxiety-aid-tools) • [**📱 Mobile Apps**](https://anxietyaidtools.com/mobile) • [**💬 r/AnxietyAidTools**](https://www.reddit.com/r/AnxietyAidTools/) • [**🐛 Report Issues**](https://github.com/alvinunreal/anxiety-aid-tools/issues)
 
 *Remember: You're stronger than your anxiety, and you're not alone in this journey.*
 
