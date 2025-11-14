@@ -91,33 +91,23 @@ A collection of anxiety management techniques built around four core principles.
 
 ## **Quick Start**
 
-### **For Users**
-
-#### Live Demo
-```bash
-# Visit the live website
-https://anxietyaidtools.com/
-```
-
-#### Docker (Recommended)
+### Docker (Recommended)
 ```bash
 # Quick run from Docker Hub
 docker run -p 3000:3000 alvinunreal/anxiety-aid-tools:latest
 
 # Or with Build and run with Docker Compose
+git clone https://github.com/alvinunreal/anxiety-aid-tools.git
 docker compose up
 ```
 
-#### Local Development
+### Local Development
 ```bash
-# Clone and run locally
-git clone https://github.com/alvinunreal/anxiety-aid-tools.git
-cd anxiety-aid-tools
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
-### **For Contributors**
+## **For Contributors**
 ```bash
 # Fork the repository
 gh repo fork alvinunreal/anxiety-aid-tools
