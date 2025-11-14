@@ -19,34 +19,34 @@
       </NuxtLink>
       
       <!-- Desktop navigation -->
-      <div class="hidden md:flex items-center space-x-2">
+      <nav class="hidden md:flex items-center gap-6">
         <NuxtLink
           :to="localePath('/mobile')"
-          class="flex items-center text-sm px-2 py-1 border border-blue-500 dark:border-blue-400 rounded text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-950 transition-colors duration-200"
+          class="flex items-center gap-1.5 text-sm font-medium text-gray-700 dark:text-slate-300 hover:text-gray-900 dark:hover:text-slate-100 hover:underline decoration-2 underline-offset-4 transition-all duration-200"
         >
-          <Icon name="mdi:cellphone" class="text-base mr-1" />
+          <Icon name="mdi:cellphone" class="text-lg" />
           <span>{{ $t('navigation.mobile') }}</span>
         </NuxtLink>
         <a
           href="https://www.reddit.com/r/AnxietyAidTools/"
           target="_blank"
           rel="noopener noreferrer nofollow"
-          class="flex items-center text-sm px-2 py-1 border border-gray-300 dark:border-slate-600 rounded text-gray-700 dark:text-slate-300 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors duration-200"
+          class="flex items-center gap-1.5 text-sm font-medium text-gray-700 dark:text-slate-300 hover:text-gray-900 dark:hover:text-slate-100 hover:underline decoration-2 underline-offset-4 transition-all duration-200"
           title="r/AnxietyAidTools"
         >
-          <Icon name="mdi:reddit" class="text-base mr-1" />
+          <Icon name="mdi:reddit" class="text-lg" />
           <span>r/AnxietyAidTools</span>
         </a>
         <a
           href="https://github.com/alvinunreal/anxiety-aid-tools"
           target="_blank"
           rel="noopener noreferrer nofollow"
-          class="flex items-center text-sm px-2 py-1 border border-gray-300 dark:border-slate-600 rounded text-gray-700 dark:text-slate-300 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors duration-200"
+          class="flex items-center gap-1.5 text-sm font-medium text-gray-700 dark:text-slate-300 hover:text-gray-900 dark:hover:text-slate-100 hover:underline decoration-2 underline-offset-4 transition-all duration-200"
         >
-          <Icon name="mdi:github" class="text-base mr-1" />
+          <Icon name="mdi:github" class="text-lg" />
           <span>{{ $t('navigation.github') }}</span>
         </a>
-      </div>
+      </nav>
 
       <!-- Mobile menu button -->
       <button
