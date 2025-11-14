@@ -1,0 +1,206 @@
+{
+    "grounding": {
+        "exercise": {
+            "title": "Técnica de Anclaje 5-4-3-2-1",
+            "beginExercise": "Comenzar Ejercicio",
+            "practiceAgain": "Practicar de Nuevo",
+            "ofSteps": "de 5 pasos",
+            "itemsFound": "elementos encontrados",
+            "found": "encontrado",
+            "greatAwareness": "¡Excelente atención!",
+            "keepExploring": "Sigue explorando...",
+            "back": "Atrás",
+            "next": "Siguiente",
+            "complete": "Completar",
+            "youAreGrounded": "Estás Anclado",
+            "groundedDescription": "Al activar tus cinco sentidos, te has anclado exitosamente en el momento presente.",
+            "benefits": {
+                "immediateStability": {
+                    "title": "Estabilidad Inmediata",
+                    "description": "Conéctate con tu entorno y siéntete anclado"
+                },
+                "mentalClarity": {
+                    "title": "Claridad Mental",
+                    "description": "Interrumpe los pensamientos acelerados y recupera el enfoque"
+                },
+                "calmPresence": {
+                    "title": "Presencia Calmada",
+                    "description": "Siéntete más presente y en control"
+                },
+                "stability": {
+                    "title": "Estabilidad",
+                    "description": "Estás conectado y anclado"
+                },
+                "clarity": {
+                    "title": "Claridad",
+                    "description": "Los pensamientos acelerados se han calmado"
+                },
+                "presence": {
+                    "title": "Presencia",
+                    "description": "Estás aquí en este momento"
+                }
+            },
+            "steps": {
+                "see": {
+                    "title": "Mira a tu alrededor",
+                    "subtitle": "Encuentra 5 cosas que puedas ver",
+                    "items": [
+                        {
+                            "text": "Algo con un color o patrón interesante",
+                            "guidance": "Busca texturas, reflejos o combinaciones de colores que capten tu atención"
+                        },
+                        {
+                            "text": "Un objeto con textura suave",
+                            "guidance": "Observa cómo la luz golpea la superficie - ¿es brillante, mate o algo intermedio?"
+                        },
+                        {
+                            "text": "Algo que se mueve o tiene sombras",
+                            "guidance": "Observa cómo el movimiento crea patrones cambiantes de luz y sombra"
+                        },
+                        {
+                            "text": "Un detalle que no habías notado antes",
+                            "guidance": "Mira más de cerca los objetos familiares - ¿qué pequeños detalles has pasado por alto?"
+                        },
+                        {
+                            "text": "Algo que te brinde consuelo",
+                            "guidance": "Concéntrate en por qué este objeto se siente reconfortante - sus colores, forma o los recuerdos que guarda"
+                        }
+                    ]
+                },
+                "touch": {
+                    "title": "Siente a tu alrededor",
+                    "subtitle": "Encuentra 4 cosas que puedas tocar o sentir",
+                    "items": [
+                        {
+                            "text": "La temperatura del aire en tu piel",
+                            "guidance": "Nota si es cálido, fresco o neutral - ¿cómo se siente en diferentes partes de tu cuerpo?"
+                        },
+                        {
+                            "text": "La textura de tu ropa",
+                            "guidance": "Siente la tela entre tus dedos - ¿es suave, áspera, lisa o texturizada?"
+                        },
+                        {
+                            "text": "La superficie en la que estás sentado o parado",
+                            "guidance": "Presiona ligeramente - ¿es firme, suave, cálida o fría contra tu cuerpo?"
+                        },
+                        {
+                            "text": "Algo liso o áspero cerca de ti",
+                            "guidance": "Pasa tus dedos por la superficie - nota el contraste en las texturas"
+                        }
+                    ]
+                },
+                "hear": {
+                    "title": "Escucha con atención",
+                    "subtitle": "Encuentra 3 cosas que puedas escuchar",
+                    "items": [
+                        {
+                            "text": "Tu propia respiración o latido del corazón",
+                            "guidance": "Cierra los ojos y concéntrate hacia adentro - ¿puedes escuchar tu respiración o pulso?"
+                        },
+                        {
+                            "text": "Sonidos del exterior (tráfico, naturaleza, gente)",
+                            "guidance": "Escucha más allá de la habitación - ¿qué sonidos distantes puedes identificar?"
+                        },
+                        {
+                            "text": "Sonidos sutiles que normalmente ignoras",
+                            "guidance": "Nota sonidos silenciosos como electrónicos zumbando, movimiento de aire o ruidos de asentamiento"
+                        }
+                    ]
+                },
+                "smell": {
+                    "title": "Respira profundo",
+                    "subtitle": "Encuentra 2 cosas que puedas oler",
+                    "items": [
+                        {
+                            "text": "El aire en esta habitación",
+                            "guidance": "Toma una respiración lenta y profunda - ¿es fresco, viciado, perfumado o neutral?"
+                        },
+                        {
+                            "text": "Algo agradable o familiar",
+                            "guidance": "Busca aromas sutiles - café, jabón, suavizante de telas o aromas naturales"
+                        }
+                    ]
+                },
+                "taste": {
+                    "title": "Nota el sabor",
+                    "subtitle": "Encuentra 1 cosa que puedas saborear",
+                    "items": [
+                        {
+                            "text": "El sabor actual en tu boca",
+                            "guidance": "Pasa tu lengua por tu boca - ¿dulce, salado, mentolado o solo el sabor de la saliva?"
+                        }
+                    ]
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "Cómo Funciona la Técnica 5-4-3-2-1",
+            "description1": "La técnica 5-4-3-2-1 funciona redirigiendo la atención de tu cerebro desde pensamientos ansiosos hacia experiencias sensoriales inmediatas. Cuando la ansiedad activa el sistema de detección de amenazas de tu cerebro, involucrar deliberadamente cada uno de tus cinco sentidos crea señales neurales competidoras que interrumpen la respuesta de ansiedad.",
+            "description2": "Al identificar sistemáticamente cosas que puedes ver, tocar, escuchar, oler y saborear, cambias tu sistema nervioso de un estado de hiperactivación a una conciencia del momento presente. Este compromiso sensorial activa la corteza prefrontal—el centro de razonamiento de tu cerebro—que ayuda a regular la amígdala, el sistema de alarma emocional que desencadena la ansiedad.",
+            "description3": "La estructura de cuenta regresiva (5-4-3-2-1) proporciona un andamiaje cognitivo que le da a tu mente una tarea concreta, evitando que se enrede en preocupaciones mientras te ancla simultáneamente a tu entorno físico y al momento presente.",
+            "sensoryEngagement": {
+                "title": "Compromiso Sensorial",
+                "description": "Activar múltiples sentidos simultáneamente crea señales neurales fuertes que compiten y anulan los patrones de ansiedad en el cerebro."
+            },
+            "neuralInterruption": {
+                "title": "Interrupción Neural",
+                "description": "La tarea estructurada de cuenta regresiva involucra tu corteza prefrontal, interrumpiendo la respuesta de ansiedad de la amígdala y restaurando el pensamiento racional."
+            },
+            "presentMomentAnchoring": {
+                "title": "Anclaje en el Momento Presente",
+                "description": "Identificar detalles sensoriales concretos arraiga tu conciencia en el aquí y ahora, rompiendo el ciclo de rumiación pasada o preocupación futura."
+            }
+        },
+        "science": {
+            "title": "La Ciencia Detrás de la Técnica 5-4-3-2-1",
+            "description": "La investigación demuestra que las técnicas de anclaje sensorial producen mejoras medibles en los síntomas de ansiedad en diversas poblaciones. En un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12550066/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">ensayo controlado aleatorizado de 121 niños con Síndrome de Tourette</a>, los ejercicios de anclaje llevaron a una reducción de 36 puntos en las puntuaciones de ansiedad—significativamente mayor que los controles—con efectos particularmente fuertes en la ansiedad de separación (reducción de 11.31 puntos, tamaño del efecto 0.55) y ansiedad social (reducción de 11.05 puntos, tamaño del efecto 0.65).",
+            "research": {
+                "anxietyReduction": {
+                    "title": "Reducción de Ansiedad en Poblaciones Clínicas",
+                    "description": "En niños con Síndrome de Tourette, un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12550066/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">protocolo que incorpora anclaje sensorial</a> logró una reducción de 36.02 puntos en las puntuaciones totales de ansiedad, con la ansiedad de separación disminuyendo 11.31 puntos (tamaño del efecto 0.55) y la ansiedad social 11.05 puntos (tamaño del efecto 0.65)."
+                },
+                "mentalHealthImprovement": {
+                    "title": "Mejoras en Salud Mental y Funcionamiento",
+                    "description": "Pacientes con trastorno neurológico funcional que usan la <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10272915/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">técnica de anclaje 5-4-3-2-1</a> mostraron un aumento de 39 puntos en las puntuaciones de salud mental, una mejora de 35 puntos en el funcionamiento emocional y redujeron a la mitad sus niveles de deterioro de 25.7 a 13.2 en escalas de discapacidad."
+                },
+                "symptomFrequencyReduction": {
+                    "title": "Reducción de Frecuencia de Síntomas",
+                    "description": "Un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8515382/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">meta-análisis de tratamientos psicológicos</a> que incorporan anclaje sensorial mostró que el 82% de los pacientes lograron al menos un 50% de reducción en la frecuencia de convulsiones funcionales, con mejoras sostenidas en el seguimiento a 6 meses y reducciones acompañantes en las puntuaciones de ansiedad."
+                }
+            }
+        },
+        "whenToPractice": {
+            "title": "Cuándo Practicar",
+            "items": [
+                "Durante ataques de pánico o episodios de ansiedad aguda para interrumpir el ciclo de escalada",
+                "Cuando te sientas abrumado, disociado o desconectado de tu entorno",
+                "Antes de eventos estresantes como presentaciones o conversaciones difíciles para establecer calma",
+                "Después de desencadenantes traumáticos o flashbacks para reconectar con el momento presente"
+            ]
+        },
+        "whatYoullNotice": {
+            "title": "Lo Que Notarás",
+            "items": [
+                "Reducción inmediata en pensamientos acelerados y abrumamiento mental dentro del primer minuto",
+                "Disminución del ritmo cardíaco y reducción de la tensión física a medida que tu sistema nervioso se calma",
+                "Pensamiento más claro y mejor capacidad para responder en lugar de reaccionar ante situaciones",
+                "Mayor sensación de control y estabilidad cuando se practica regularmente durante el estrés"
+            ]
+        },
+        "tips": {
+            "title": "Consejos Para Mejores Resultados",
+            "tip1": {
+                "title": "Ve Despacio",
+                "description": "Tómate tu tiempo identificando cada detalle sensorial—apresurarte derrota el propósito. Dedica 5-10 segundos realmente observando cada elemento que identifiques."
+            },
+            "tip2": {
+                "title": "Sé Específico",
+                "description": "En lugar de \"Veo una silla\", intenta \"Veo una silla de madera con apoyabrazos curvos y un cojín rojo\". La observación detallada fortalece el efecto de anclaje."
+            },
+            "tip3": {
+                "title": "Repite Cuando Sea Necesario",
+                "description": "Si la ansiedad regresa después de una ronda, haz otra inmediatamente. Puedes practicar esta técnica tantas veces como sea necesario hasta que te sientas anclado."
+            }
+        }
+    }
+}

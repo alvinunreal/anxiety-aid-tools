@@ -1,0 +1,177 @@
+{
+  "thoughtLabeling": {
+    "interface": {
+      "title": "Étiquetage des Pensées",
+      "subtitle": "Observez et catégorisez vos pensées",
+      "beginExercise": "Commencer l'Exercice",
+      "thoughtsLabeled": "pensées étiquetées",
+      "labelingActiveThought": "Étiquetage de la pensée active",
+      "readyForNextThought": "Prêt pour la prochaine pensée",
+      "elapsed": "écoulé",
+      "yourLabeledThoughts": "Vos Pensées Étiquetées",
+      "whatsOnYourMind": "À Quoi Pensez-Vous ?",
+      "labelThisThought": "Étiqueter Cette Pensée",
+      "chooseLabelsThatDescribe": "Choisissez les étiquettes qui décrivent le mieux cette pensée :",
+      "writeAnxiousThought": "Écrivez une pensée anxieuse que vous avez en ce moment :",
+      "examplePlaceholder": "Exemple : 'Je crains de rater ma présentation demain...'",
+      "labelThisThoughtButton": "Étiqueter Cette Pensée",
+      "yourThought": "Votre Pensée :",
+      "cancel": "Annuler",
+      "continue": "Continuer",
+      "practiceAgain": "Pratiquer à Nouveau"
+    },
+    "benefits": {
+      "awareness": {
+        "title": "Conscience",
+        "description": "Remarquer les pensées sans être consumé par elles"
+      },
+      "balance": {
+        "title": "Équilibre",
+        "description": "Créer une distance saine avec la pensée anxieuse"
+      },
+      "clarity": {
+        "title": "Clarté",
+        "description": "Comprendre les schémas dans votre pensée"
+      }
+    },
+    "completion": {
+      "title": "Excellente Conscience de Soi",
+      "description": "Vous avez étiqueté avec succès {count} pensée{plural} en {time}. Cette pratique aide à créer une distance saine avec la pensée anxieuse.",
+      "sessionInsights": "Aperçus de la Séance",
+      "benefits": {
+        "awarenessIncreased": "Conscience accrue",
+        "thoughtsOrganized": "Pensées organisées",
+        "emotionalDistanceCreated": "Distance émotionnelle créée"
+      }
+    },
+    "insights": {
+      "commonPattern": {
+        "title": "Schéma Commun Identifié",
+        "description": "La plupart de vos pensées ont été étiquetées comme \"{labelName}\" - reconnaître ce schéma est la première étape pour le gérer."
+      },
+      "strongAwareness": {
+        "title": "Forte Conscience de Soi",
+        "description": "Vous avez montré une excellente capacité à observer et catégoriser vos pensées objectivement."
+      }
+    },
+    "labels": {
+      "worry": {
+        "name": "Inquiétude",
+        "description": "Préoccupations concernant des événements ou résultats futurs"
+      },
+      "catastrophic": {
+        "name": "Catastrophique",
+        "description": "Imaginer les pires scénarios"
+      },
+      "selfDoubt": {
+        "name": "Doute de Soi",
+        "description": "Remettre en question vos capacités ou votre valeur"
+      },
+      "perfectionist": {
+        "name": "Perfectionniste",
+        "description": "Fixer des normes irréalistes"
+      },
+      "comparison": {
+        "name": "Comparaison",
+        "description": "Se mesurer aux autres"
+      },
+      "rumination": {
+        "name": "Rumination",
+        "description": "Penser à répétition aux événements passés"
+      },
+      "control": {
+        "name": "Contrôle",
+        "description": "Vouloir contrôler des situations incontrôlables"
+      },
+      "rejection": {
+        "name": "Rejet",
+        "description": "Peur d'être rejeté ou abandonné"
+      },
+      "performance": {
+        "name": "Performance",
+        "description": "Anxiété concernant votre performance"
+      },
+      "health": {
+        "name": "Santé",
+        "description": "Préoccupations concernant la santé physique ou mentale"
+      },
+      "social": {
+        "name": "Social",
+        "description": "Inquiétudes concernant les situations sociales ou les relations"
+      },
+      "financial": {
+        "name": "Financier",
+        "description": "Stress et préoccupations liés à l'argent"
+      }
+    },
+    "howItWorks": {
+      "title": "Comment Fonctionne l'Étiquetage des Pensées",
+      "description1": "Lorsque vous êtes anxieux, vos pensées peuvent sembler accablantes et complètement vraies. L'étiquetage des pensées vous aide à prendre du recul et à voir les pensées comme des événements mentaux—des schémas temporaires dans votre esprit, pas des vérités absolues. En nommant simplement ce que vous vivez (\"inquiétude\", \"doute de soi\", \"catastrophisme\"), vous créez un petit mais puissant écart entre vous et la pensée.",
+      "description2": "Cette pratique active votre cortex préfrontal—la partie rationnelle et observatrice de votre cerveau—tout en réduisant l'activité dans l'amygdale, le centre d'alarme du cerveau. Au lieu d'être pris dans une spirale de pensée anxieuse, vous devenez le témoin de vos pensées. Ce passage de \"Je suis anxieux\" à \"J'ai des pensées anxieuses\" change fondamentalement votre relation avec l'anxiété.",
+      "description3": "Avec une pratique régulière, l'étiquetage vous aide à reconnaître les schémas de pensée avant qu'ils ne s'aggravent. Vous commencerez à remarquer : \"C'est encore cette pensée catastrophique\" ou \"Voilà mon schéma perfectionniste\". La reconnaissance devient votre première ligne de défense, vous permettant de répondre habilement plutôt que de réagir automatiquement.",
+      "cognitiveDefusion": {
+        "title": "Défusion Cognitive",
+        "description": "L'étiquetage vous sépare de vos pensées, réduisant leur emprise émotionnelle et leur crédibilité."
+      },
+      "emotionalRegulation": {
+        "title": "Régulation Émotionnelle",
+        "description": "Nommer active votre cerveau rationnel tout en calmant l'amygdale, diminuant la réactivité émotionnelle."
+      },
+      "patternRecognition": {
+        "title": "Reconnaissance des Schémas",
+        "description": "L'étiquetage régulier révèle des schémas de pensée récurrents, les rendant plus faciles à gérer au fil du temps."
+      }
+    },
+    "science": {
+      "title": "La Science Derrière l'Étiquetage des Pensées",
+      "description": "La recherche démontre que l'étiquetage des pensées produit des réductions mesurables des symptômes d'anxiété et de la réactivité émotionnelle. Une <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7270208/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">étude sur un seul sujet avec une chanteuse</a> utilisant l'étiquetage des pensées dans le cadre de la défusion cognitive a réduit les scores de crédibilité des pensées anxieuses de 94 à 28 lors du suivi à 3 mois—une amélioration de 70%—avec une inflexibilité psychologique passant de 39 à 12 sur l'échelle AAQ-2.",
+      "research": {
+        "performanceAnxiety": {
+          "title": "Soulagement de l'Anxiété de Performance",
+          "description": "Chez une chanteuse souffrant d'anxiété de performance musicale sévère, l'<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7270208/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">intervention d'étiquetage des pensées</a> a réduit la Crédibilité des Pensées Anxieuses de 94 à 28 (amélioration de 70%) et l'inflexibilité psychologique de 39 à 12 (amélioration de 69%) lors du suivi à 3 mois, avec des indices de changement fiables de -8,74 et -10,92 respectivement."
+        },
+        "mindfulnessEnhancement": {
+          "title": "Amélioration des Compétences de Pleine Conscience",
+          "description": "Un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5801080/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">programme de méditation de 8 semaines</a> mettant l'accent sur l'étiquetage des pensées a augmenté de manière significative l'utilisation de l'étiquetage par les participants (F(1,28)=58,00, p<0,001, d=2,88) et la non-réactivité aux expériences intérieures (F(1,29)=38,35, p<0,001, d=2,30), favorisant une meilleure gestion des pensées provoquant l'anxiété."
+        },
+        "attentionControl": {
+          "title": "Contrôle de l'Attention Amélioré",
+          "description": "Seulement <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5329004/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3 jours d'entraînement à la pleine conscience</a> avec étiquetage des pensées ont réduit l'errance mentale et amélioré l'attention soutenue de 9,84 points (p=0,003), aidant à interrompre le cycle de rumination qui alimente l'anxiété."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Quand Pratiquer",
+      "items": [
+        "Lorsque vous remarquez des pensées répétitives ou intrusives tournant dans votre esprit.",
+        "Avant des situations à haute pression où le doute de soi ou l'inquiétude apparaissent typiquement.",
+        "Pendant des moments d'accablement lorsque les pensées semblent chaotiques et ingérables.",
+        "Dans le cadre d'une pratique quotidienne de pleine conscience pour développer la conscience des schémas de pensée."
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Ce Que Vous Remarquerez",
+      "items": [
+        "Réduction immédiate de l'intensité et de la crédibilité des pensées anxieuses.",
+        "Plus grande distance émotionnelle, rendant les pensées moins personnelles et moins dévorantes.",
+        "Reconnaissance de schémas récurrents, vous aidant à les anticiper et à les gérer.",
+        "Capacité améliorée à observer les pensées sans y réagir automatiquement."
+      ]
+    },
+    "tips": {
+      "title": "Conseils Pour de Meilleurs Résultats",
+      "observation": {
+        "title": "Position d'Observateur",
+        "description": "Approchez vos pensées avec curiosité, pas jugement. Vous êtes un scientifique étudiant votre esprit, pas un critique le condamnant."
+      },
+      "consistency": {
+        "title": "Construire l'Habitude",
+        "description": "Pratiquez l'étiquetage tout au long de la journée, pas seulement lors des pics d'anxiété. Une utilisation régulière renforce votre capacité à créer une distance avec les pensées."
+      },
+      "simplicity": {
+        "title": "Gardez les Étiquettes Simples",
+        "description": "Utilisez des étiquettes courtes et claires comme \"inquiétude\", \"jugement\" ou \"catastrophisme\". Vous identifiez des schémas, pas en train d'écrire des essais."
+      }
+    }
+  }
+}

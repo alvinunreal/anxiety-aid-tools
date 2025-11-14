@@ -59,6 +59,12 @@
     }
   },
 
+  "mobileAppBanner": {
+    "text": "Free mobile apps now available",
+    "cta": "Learn More",
+    "dismiss": "Dismiss"
+  },
+
   "footer": {
     "title": "Anxiety Aid Tools",
     "description": "Free open source tools to help you find calm when you need it most.",
@@ -67,6 +73,61 @@
       "title": "Contribute",
       "github": "GitHub",
       "discussions": "Discussions"
+    }
+  },
+
+  "mobile": {
+    "title": "Mobile Apps",
+    "description": "Take Anxiety Aid Tools with you anywhere. Download our mobile app for iOS and Android devices.",
+    "ios": {
+      "title": "iOS App",
+      "subtitle": "Available on the App Store",
+      "description": "Download our app from the Apple App Store for your iPhone or iPad. Get instant access to all anxiety relief techniques wherever you go.",
+      "button": "App Store"
+    },
+    "android": {
+      "title": "Android App",
+      "subtitle": "Direct APK Download",
+      "description": "Get the Android version of Anxiety Aid Tools. We're currently working on making the app available on Google Play Store.",
+      "status": {
+        "title": "Coming Soon to Play Store",
+        "description": "We're working on getting our app published on Google Play Store. In the meantime, you can download the APK file directly and install it on your Android device."
+      },
+      "button": "Get APK",
+      "instructions": {
+        "title": "How to install APK on Android",
+        "steps": [
+          "Download the APK file using the button above",
+          "Open your device Settings and navigate to Security or Privacy",
+          "Enable 'Install apps from unknown sources' or 'Allow from this source'",
+          "Open the downloaded APK file from your Downloads folder",
+          "Follow the on-screen instructions to complete installation",
+          "Once installed, you can disable 'unknown sources' for security"
+        ]
+      }
+    },
+    "features": {
+      "title": "Mobile App Features",
+      "items": [
+        "Access all anxiety relief techniques offline",
+        "Guided breathing exercises with haptic feedback",
+        "Interactive grounding and visualization tools",
+        "Track your progress and favorite techniques",
+        "Dark mode support for comfortable use anytime",
+        "No ads, no tracking, completely free and open source"
+      ]
+    },
+    "privacy": {
+      "title": "Your Privacy Matters",
+      "description": "All your data stays on your device. We don't collect, store, or share any personal information. No account required."
+    },
+    "support": {
+      "description": "Need help with the mobile app or have questions?",
+      "link": "Visit Support Page"
+    },
+    "screenshots": {
+      "title": "App Preview",
+      "hint": "Scroll to see more"
     }
   }
 }

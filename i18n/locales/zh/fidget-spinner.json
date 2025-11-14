@@ -1,0 +1,15 @@
+{
+  "fidgetSpinner": {
+    "audioMute": "静音",
+    "audioUnmute": "取消静音",
+    "aria": {
+      "spinnerLabel": "互动指尖陀螺。点击并拖动以旋转，或按空格键/回车键加速旋转。",
+      "muteAudio": "静音陀螺声音效果",
+      "unmuteAudio": "取消静音陀螺声音效果",
+      "status": {
+        "spinning": "陀螺正在旋转",
+        "still": "陀螺已停止"
+      }
+    }
+  }
+}

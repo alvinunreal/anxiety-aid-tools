@@ -1,0 +1,206 @@
+{
+    "grounding": {
+        "exercise": {
+            "title": "Ancoragem 5-4-3-2-1",
+            "beginExercise": "Começar Exercício",
+            "practiceAgain": "Praticar Novamente",
+            "ofSteps": "de 5 passos",
+            "itemsFound": "itens encontrados",
+            "found": "encontrado",
+            "greatAwareness": "Excelente consciência!",
+            "keepExploring": "Continue explorando...",
+            "back": "Voltar",
+            "next": "Próximo",
+            "complete": "Concluir",
+            "youAreGrounded": "Você Está Ancorado",
+            "groundedDescription": "Ao engajar seus cinco sentidos, você se ancorou com sucesso no momento presente.",
+            "benefits": {
+                "immediateStability": {
+                    "title": "Estabilidade Imediata",
+                    "description": "Conecte-se com seu ambiente e sinta-se ancorado"
+                },
+                "mentalClarity": {
+                    "title": "Clareza Mental",
+                    "description": "Interrompa pensamentos acelerados e recupere o foco"
+                },
+                "calmPresence": {
+                    "title": "Presença Calma",
+                    "description": "Sinta-se mais presente e no controle"
+                },
+                "stability": {
+                    "title": "Estabilidade",
+                    "description": "Você está conectado e ancorado"
+                },
+                "clarity": {
+                    "title": "Clareza",
+                    "description": "Pensamentos acelerados desaceleraram"
+                },
+                "presence": {
+                    "title": "Presença",
+                    "description": "Você está aqui neste momento"
+                }
+            },
+            "steps": {
+                "see": {
+                    "title": "Olhe ao seu redor",
+                    "subtitle": "Encontre 5 coisas que você pode ver",
+                    "items": [
+                        {
+                            "text": "Algo com uma cor ou padrão interessante",
+                            "guidance": "Procure texturas, reflexos ou combinações de cores que chamem sua atenção"
+                        },
+                        {
+                            "text": "Um objeto com textura lisa",
+                            "guidance": "Note como a luz atinge a superfície - é brilhante, fosca ou algo intermediário?"
+                        },
+                        {
+                            "text": "Algo que está se movendo ou tem sombras",
+                            "guidance": "Observe como o movimento cria padrões mutáveis de luz e sombra"
+                        },
+                        {
+                            "text": "Um detalhe que você não havia notado antes",
+                            "guidance": "Olhe mais de perto objetos familiares - quais pequenos detalhes você perdeu?"
+                        },
+                        {
+                            "text": "Algo que lhe traz conforto",
+                            "guidance": "Concentre-se no porquê deste objeto parecer reconfortante - suas cores, forma ou memórias que guarda"
+                        }
+                    ]
+                },
+                "touch": {
+                    "title": "Sinta ao seu redor",
+                    "subtitle": "Encontre 4 coisas que você pode tocar ou sentir",
+                    "items": [
+                        {
+                            "text": "A temperatura do ar em sua pele",
+                            "guidance": "Note se está quente, frio ou neutro - como se sente em diferentes partes do seu corpo?"
+                        },
+                        {
+                            "text": "A textura de suas roupas",
+                            "guidance": "Sinta o tecido entre seus dedos - é macio, áspero, liso ou texturizado?"
+                        },
+                        {
+                            "text": "A superfície em que você está sentado ou em pé",
+                            "guidance": "Pressione levemente - é firme, macia, quente ou fria contra seu corpo?"
+                        },
+                        {
+                            "text": "Algo liso ou áspero perto de você",
+                            "guidance": "Passe seus dedos pela superfície - note o contraste nas texturas"
+                        }
+                    ]
+                },
+                "hear": {
+                    "title": "Escute com atenção",
+                    "subtitle": "Encontre 3 coisas que você pode ouvir",
+                    "items": [
+                        {
+                            "text": "Sua própria respiração ou batimento cardíaco",
+                            "guidance": "Feche os olhos e concentre-se internamente - você consegue ouvir sua respiração ou pulso?"
+                        },
+                        {
+                            "text": "Sons de fora (trânsito, natureza, pessoas)",
+                            "guidance": "Ouça além do ambiente - quais sons distantes você consegue identificar?"
+                        },
+                        {
+                            "text": "Sons sutis que você normalmente ignora",
+                            "guidance": "Note sons silenciosos como zumbido eletrônico, movimento de ar ou ruídos de acomodação"
+                        }
+                    ]
+                },
+                "smell": {
+                    "title": "Respire fundo",
+                    "subtitle": "Encontre 2 coisas que você pode cheirar",
+                    "items": [
+                        {
+                            "text": "O ar neste ambiente",
+                            "guidance": "Respire lenta e profundamente - é fresco, abafado, perfumado ou neutro?"
+                        },
+                        {
+                            "text": "Algo agradável ou familiar",
+                            "guidance": "Procure aromas sutis - café, sabonete, amaciante ou cheiros naturais"
+                        }
+                    ]
+                },
+                "taste": {
+                    "title": "Note o sabor",
+                    "subtitle": "Encontre 1 coisa que você pode saborear",
+                    "items": [
+                        {
+                            "text": "O sabor atual em sua boca",
+                            "guidance": "Passe sua língua pela boca - doce, salgado, mentolado ou apenas o sabor da saliva?"
+                        }
+                    ]
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "Como Funciona a Ancoragem 5-4-3-2-1",
+            "description1": "A técnica 5-4-3-2-1 funciona redirecionando a atenção do seu cérebro de pensamentos ansiosos para experiências sensoriais imediatas. Quando a ansiedade ativa o sistema de detecção de ameaças do seu cérebro, engajar deliberadamente cada um dos seus cinco sentidos cria sinais neurais concorrentes que interrompem a resposta de ansiedade.",
+            "description2": "Ao identificar sistematicamente coisas que você pode ver, tocar, ouvir, cheirar e saborear, você muda seu sistema nervoso de um estado de hiperexcitação para consciência do momento presente. Este engajamento sensorial ativa o córtex pré-frontal—o centro de raciocínio do seu cérebro—que ajuda a regular a amígdala, o sistema de alarme emocional que desencadeia a ansiedade.",
+            "description3": "A estrutura de contagem regressiva (5-4-3-2-1) fornece uma estrutura cognitiva que dá à sua mente uma tarefa concreta, impedindo-a de espiralar em preocupações enquanto simultaneamente ancora você ao seu ambiente físico e ao momento presente.",
+            "sensoryEngagement": {
+                "title": "Engajamento Sensorial",
+                "description": "Ativar múltiplos sentidos simultaneamente cria sinais neurais fortes que competem e substituem padrões de ansiedade no cérebro."
+            },
+            "neuralInterruption": {
+                "title": "Interrupção Neural",
+                "description": "A tarefa estruturada de contagem regressiva engaja seu córtex pré-frontal, interrompendo a resposta de ansiedade da amígdala e restaurando o pensamento racional."
+            },
+            "presentMomentAnchoring": {
+                "title": "Ancoragem no Momento Presente",
+                "description": "Identificar detalhes sensoriais concretos enraíza sua consciência no aqui-e-agora, quebrando o ciclo de ruminação do passado ou preocupação com o futuro."
+            }
+        },
+        "science": {
+            "title": "A Ciência Por Trás da Ancoragem 5-4-3-2-1",
+            "description": "Pesquisas demonstram que técnicas de ancoragem sensorial produzem melhorias mensuráveis nos sintomas de ansiedade em populações diversas. Em um <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12550066/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">ensaio controlado randomizado de 121 crianças com Síndrome de Tourette</a>, exercícios de ancoragem levaram a uma redução de 36 pontos nas pontuações de ansiedade—significativamente maior do que controles—com efeitos particularmente fortes na ansiedade de separação (redução de 11,31 pontos, tamanho do efeito 0,55) e ansiedade social (redução de 11,05 pontos, tamanho do efeito 0,65).",
+            "research": {
+                "anxietyReduction": {
+                    "title": "Redução de Ansiedade em Populações Clínicas",
+                    "description": "Em crianças com Síndrome de Tourette, um <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12550066/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">protocolo incorporando ancoragem sensorial</a> alcançou uma redução de 36,02 pontos nas pontuações totais de ansiedade, com ansiedade de separação caindo 11,31 pontos (tamanho do efeito 0,55) e ansiedade social 11,05 pontos (tamanho do efeito 0,65)."
+                },
+                "mentalHealthImprovement": {
+                    "title": "Melhorias na Saúde Mental e Funcionamento",
+                    "description": "Pacientes com distúrbio neurológico funcional usando a <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10272915/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">técnica de ancoragem 5-4-3-2-1</a> mostraram um aumento de 39 pontos nas pontuações de saúde mental, melhoria de 35 pontos no funcionamento emocional e reduziram pela metade seus níveis de comprometimento de 25,7 para 13,2 nas escalas de incapacidade."
+                },
+                "symptomFrequencyReduction": {
+                    "title": "Redução da Frequência de Sintomas",
+                    "description": "Uma <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8515382/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">meta-análise de tratamentos psicológicos</a> incorporando ancoragem sensorial mostrou que 82% dos pacientes alcançaram pelo menos 50% de redução na frequência de convulsões funcionais, com melhorias sustentadas no acompanhamento de 6 meses e reduções acompanhantes nas pontuações de ansiedade."
+                }
+            }
+        },
+        "whenToPractice": {
+            "title": "Quando Praticar",
+            "items": [
+                "Durante ataques de pânico ou episódios de ansiedade aguda para interromper o ciclo de escalada",
+                "Quando se sentir sobrecarregado, dissociado ou desconectado do seu ambiente",
+                "Antes de eventos estressantes como apresentações ou conversas difíceis para estabelecer calma",
+                "Após gatilhos traumáticos ou flashbacks para reconectar com o momento presente"
+            ]
+        },
+        "whatYoullNotice": {
+            "title": "O Que Você Vai Notar",
+            "items": [
+                "Redução imediata de pensamentos acelerados e sobrecarga mental no primeiro minuto",
+                "Frequência cardíaca mais lenta e diminuição da tensão física conforme seu sistema nervoso se acalma",
+                "Pensamento mais claro e capacidade melhorada de responder em vez de reagir a situações",
+                "Maior sensação de controle e estabilidade quando praticado regularmente durante o estresse"
+            ]
+        },
+        "tips": {
+            "title": "Dicas Para Melhores Resultados",
+            "tip1": {
+                "title": "Vá Devagar",
+                "description": "Tome seu tempo identificando cada detalhe sensorial—apressar derrota o propósito. Passe 5-10 segundos realmente observando cada item que você identifica."
+            },
+            "tip2": {
+                "title": "Seja Específico",
+                "description": "Em vez de \"Eu vejo uma cadeira\", tente \"Eu vejo uma cadeira de madeira com braços curvos e uma almofada vermelha\". Observação detalhada fortalece o efeito de ancoragem."
+            },
+            "tip3": {
+                "title": "Repita Quando Necessário",
+                "description": "Se a ansiedade retornar após uma rodada, faça outra imediatamente. Você pode praticar esta técnica quantas vezes forem necessárias até se sentir ancorado."
+            }
+        }
+    }
+}

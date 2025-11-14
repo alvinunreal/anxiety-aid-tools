@@ -55,6 +55,10 @@
     "support": {
       "title": "支持 - Anxiety Aid Tools",
       "description": "获取 Anxiety Aid Tools 的帮助。常见问题、联系信息以及我们焦虑管理应用程序的故障排除。"
+    },
+    "mobile": {
+      "title": "移动应用 - 适用于 iOS 和 Android 的焦虑舒缓工具",
+      "description": "下载适用于 iOS 和 Android 的焦虑舒缓工具移动应用。随时随地免费使用焦虑缓解技巧 - 呼吸练习、接地技巧等。"
     }
   }
 }

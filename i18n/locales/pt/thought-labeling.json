@@ -1,0 +1,177 @@
+{
+  "thoughtLabeling": {
+    "interface": {
+      "title": "Rotulação de Pensamentos",
+      "subtitle": "Observe e categorize seus pensamentos",
+      "beginExercise": "Começar Exercício",
+      "thoughtsLabeled": "pensamentos rotulados",
+      "labelingActiveThought": "Rotulando pensamento ativo",
+      "readyForNextThought": "Pronto para o próximo pensamento",
+      "elapsed": "decorrido",
+      "yourLabeledThoughts": "Seus Pensamentos Rotulados",
+      "whatsOnYourMind": "O Que Está em Sua Mente?",
+      "labelThisThought": "Rotular Este Pensamento",
+      "chooseLabelsThatDescribe": "Escolha os rótulos que melhor descrevem este pensamento:",
+      "writeAnxiousThought": "Escreva um pensamento ansioso que você está tendo agora:",
+      "examplePlaceholder": "Exemplo: 'Estou preocupado que vou estragar minha apresentação amanhã...'",
+      "labelThisThoughtButton": "Rotular Este Pensamento",
+      "yourThought": "Seu Pensamento:",
+      "cancel": "Cancelar",
+      "continue": "Continuar",
+      "practiceAgain": "Praticar Novamente"
+    },
+    "benefits": {
+      "awareness": {
+        "title": "Consciência",
+        "description": "Notar pensamentos sem ser consumido por eles"
+      },
+      "balance": {
+        "title": "Equilíbrio",
+        "description": "Criar distância saudável do pensamento ansioso"
+      },
+      "clarity": {
+        "title": "Clareza",
+        "description": "Compreender padrões em seu pensamento"
+      }
+    },
+    "completion": {
+      "title": "Excelente Autoconsciência",
+      "description": "Você rotulou com sucesso {count} pensamento{plural} em {time}. Esta prática ajuda a criar distância saudável do pensamento ansioso.",
+      "sessionInsights": "Insights da Sessão",
+      "benefits": {
+        "awarenessIncreased": "Consciência aumentada",
+        "thoughtsOrganized": "Pensamentos organizados",
+        "emotionalDistanceCreated": "Distância emocional criada"
+      }
+    },
+    "insights": {
+      "commonPattern": {
+        "title": "Padrão Comum Identificado",
+        "description": "A maioria de seus pensamentos foi rotulada como \"{labelName}\" - reconhecer este padrão é o primeiro passo para gerenciá-lo."
+      },
+      "strongAwareness": {
+        "title": "Forte Autoconsciência",
+        "description": "Você demonstrou excelente capacidade de observar e categorizar seus pensamentos objetivamente."
+      }
+    },
+    "labels": {
+      "worry": {
+        "name": "Preocupação",
+        "description": "Preocupações sobre eventos ou resultados futuros"
+      },
+      "catastrophic": {
+        "name": "Catastrófico",
+        "description": "Imaginar cenários do pior caso"
+      },
+      "selfDoubt": {
+        "name": "Dúvida Pessoal",
+        "description": "Questionar suas habilidades ou valor"
+      },
+      "perfectionist": {
+        "name": "Perfeccionista",
+        "description": "Estabelecer padrões irrealisticamente altos"
+      },
+      "comparison": {
+        "name": "Comparação",
+        "description": "Medir-se contra outros"
+      },
+      "rumination": {
+        "name": "Ruminação",
+        "description": "Pensar repetidamente sobre eventos passados"
+      },
+      "control": {
+        "name": "Controle",
+        "description": "Querer controlar situações incontroláveis"
+      },
+      "rejection": {
+        "name": "Rejeição",
+        "description": "Medo de ser rejeitado ou abandonado"
+      },
+      "performance": {
+        "name": "Desempenho",
+        "description": "Ansiedade sobre como você se desempenhará"
+      },
+      "health": {
+        "name": "Saúde",
+        "description": "Preocupações sobre saúde física ou mental"
+      },
+      "social": {
+        "name": "Social",
+        "description": "Preocupações sobre situações sociais ou relacionamentos"
+      },
+      "financial": {
+        "name": "Financeiro",
+        "description": "Estresse e preocupações relacionadas ao dinheiro"
+      }
+    },
+    "howItWorks": {
+      "title": "Como a Rotulação de Pensamentos Funciona",
+      "description1": "Quando você está ansioso, seus pensamentos podem parecer avassaladores e completamente verdadeiros. A rotulação de pensamentos ajuda você a dar um passo atrás e ver pensamentos como eventos mentais—padrões temporários em sua mente, não verdades absolutas. Ao simplesmente nomear o que você está experimentando (\"preocupação\", \"dúvida pessoal\", \"catastrofização\"), você cria uma pequena mas poderosa lacuna entre você e o pensamento.",
+      "description2": "Esta prática ativa seu córtex pré-frontal—a parte racional e observadora de seu cérebro—enquanto reduz a atividade na amígdala, o centro de alarme do cérebro. Em vez de ficar preso em uma espiral de pensamento ansioso, você se torna a testemunha de seus pensamentos. Esta mudança de \"Estou ansioso\" para \"Estou tendo pensamentos ansiosos\" muda fundamentalmente seu relacionamento com a ansiedade.",
+      "description3": "Com prática regular, a rotulação ajuda você a reconhecer padrões de pensamento antes que eles se tornem espiral. Você começará a notar: \"Este é aquele pensamento catastrófico de novo\" ou \"Aqui está meu padrão perfeccionista\". O reconhecimento se torna sua primeira linha de defesa, permitindo que você responda habilmente em vez de reagir automaticamente.",
+      "cognitiveDefusion": {
+        "title": "Desfusão Cognitiva",
+        "description": "A rotulação separa você de seus pensamentos, reduzindo seu domínio emocional e credibilidade."
+      },
+      "emotionalRegulation": {
+        "title": "Regulação Emocional",
+        "description": "Nomear ativa seu cérebro racional enquanto acalma a amígdala, diminuindo a reatividade emocional."
+      },
+      "patternRecognition": {
+        "title": "Reconhecimento de Padrões",
+        "description": "A rotulação regular revela padrões de pensamento recorrentes, tornando-os mais fáceis de gerenciar ao longo do tempo."
+      }
+    },
+    "science": {
+      "title": "A Ciência Por Trás da Rotulação de Pensamentos",
+      "description": "Pesquisas demonstram que a rotulação de pensamentos produz reduções mensuráveis nos sintomas de ansiedade e reatividade emocional. Um <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7270208/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">estudo de sujeito único com uma vocalista</a> usando rotulação de pensamentos como parte da desfusão cognitiva reduziu as pontuações de credibilidade em pensamentos ansiosos de 94 para 28 no acompanhamento de 3 meses—uma melhoria de 70%—com inflexibilidade psicológica diminuindo de 39 para 12 na escala AAQ-2.",
+      "research": {
+        "performanceAnxiety": {
+          "title": "Alívio de Ansiedade de Desempenho",
+          "description": "Em uma vocalista com ansiedade severa de performance musical, a <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7270208/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">intervenção de rotulação de pensamentos</a> reduziu a Credibilidade em Pensamentos Ansiosos de 94 para 28 (melhoria de 70%) e inflexibilidade psicológica de 39 para 12 (melhoria de 69%) no acompanhamento de 3 meses, com índices de mudança confiável de -8,74 e -10,92 respectivamente."
+        },
+        "mindfulnessEnhancement": {
+          "title": "Melhoria das Habilidades de Mindfulness",
+          "description": "Um <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5801080/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">programa de meditação de 8 semanas</a> enfatizando a rotulação de pensamentos aumentou significativamente o uso de rotulação dos participantes (F(1,28)=58,00, p<0,001, d=2,88) e não reatividade a experiências internas (F(1,29)=38,35, p<0,001, d=2,30), apoiando melhor gestão de pensamentos que provocam ansiedade."
+        },
+        "attentionControl": {
+          "title": "Controle de Atenção Melhorado",
+          "description": "Apenas <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5329004/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3 dias de treinamento de mindfulness</a> com rotulação de pensamentos reduziram a divagação mental e melhoraram a atenção sustentada em 9,84 pontos (p=0,003), ajudando a interromper o ciclo de ruminação que alimenta a ansiedade."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Quando Praticar",
+      "items": [
+        "Quando você notar pensamentos repetitivos ou intrusivos girando em sua mente.",
+        "Antes de situações de alta pressão onde a dúvida pessoal ou preocupação tipicamente surgem.",
+        "Durante momentos de sobrecarga quando os pensamentos parecem caóticos e incontroláveis.",
+        "Como parte da prática diária de mindfulness para construir consciência de padrões de pensamento."
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "O Que Você Notará",
+      "items": [
+        "Redução imediata na intensidade e credibilidade de pensamentos ansiosos.",
+        "Maior distância emocional, fazendo os pensamentos parecerem menos pessoais e consumidores.",
+        "Reconhecimento de padrões recorrentes, ajudando você a antecipá-los e gerenciá-los.",
+        "Capacidade melhorada de observar pensamentos sem reagir automaticamente a eles."
+      ]
+    },
+    "tips": {
+      "title": "Dicas Para Melhores Resultados",
+      "observation": {
+        "title": "Postura de Observador",
+        "description": "Aborde seus pensamentos com curiosidade, não julgamento. Você é um cientista estudando sua mente, não um crítico condenando-a."
+      },
+      "consistency": {
+        "title": "Construir o Hábito",
+        "description": "Pratique a rotulação ao longo do dia, não apenas durante picos de ansiedade. O uso regular fortalece sua capacidade de criar distância dos pensamentos."
+      },
+      "simplicity": {
+        "title": "Manter Rótulos Simples",
+        "description": "Use rótulos curtos e claros como \"preocupação\", \"julgamento\" ou \"catastrofização\". Você está identificando padrões, não escrevendo ensaios."
+      }
+    }
+  }
+}

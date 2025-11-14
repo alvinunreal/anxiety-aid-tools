@@ -1,0 +1,123 @@
+{
+    "breathing": {
+        "audio": {
+            "enableCues": "Enable audio cues"
+        },
+        "benefits": {
+            "calm": {
+                "title": "Calm",
+                "description": "Lower heart rate and blood pressure"
+            },
+            "focus": {
+                "title": "Focus",
+                "description": "More oxygen to brain for clearer thinking"
+            },
+            "relax": {
+                "title": "Relax",
+                "description": "Activate natural relaxation response"
+            }
+        },
+        "session": {
+            "title": "Breathing Session",
+            "subtitle": "4:6 Calming Rhythm",
+            "elapsed": "elapsed",
+            "inhaling": "Inhaling",
+            "exhaling": "Exhaling",
+            "breatheIn": "breathe in",
+            "breatheOut": "breathe out",
+            "fourSeconds": "4 seconds",
+            "sixSeconds": "6 seconds",
+            "sessionProgress": "Session Progress",
+            "sessionProgressAriaLabel": "Session progress: {current} of {total} breathing cycles completed",
+            "currentBreath": "Current Breath",
+            "breathProgressAriaLabel": "Current breath progress: {progress}% complete",
+            "breaths": "breaths"
+        },
+        "buttons": {
+            "begin": "Begin Exercise",
+            "beginAriaLabel": "Start the breathing exercise session",
+            "stop": "Stop",
+            "stopAriaLabel": "Stop the current breathing exercise",
+            "practiceAgain": "Practice Again",
+            "practiceAgainAriaLabel": "Start another breathing exercise session"
+        },
+        "completion": {
+            "title": "Excellent Work",
+            "description": "You've completed {count} breathing cycles in {time}. Your parasympathetic nervous system has been activated, promoting relaxation.",
+            "benefits": {
+                "heartRate": "Heart rate lowered",
+                "mind": "Mind calmed",
+                "breathing": "Breathing regulated"
+            }
+        },
+        "howItWorks": {
+            "title": "How Diaphragmatic Breathing Works",
+            "description1": "Controlled breathing through the 4:6 pattern which emphasizes a longer exhalation stimulates the vagus nerve, a primary component of the parasympathetic nervous system. Activating this nerve sends signals that help transition the body from a \"fight or flight\" state to a \"rest and repair\" mode.",
+            "description2": "This shift has several measurable physiological benefits. It can lead to a lower heart rate and reduced blood pressure. The relaxation of blood vessels allows for improved circulation, increasing oxygen flow to the brain. Furthermore, this calming response positively influences digestion and supports the body's immune system.",
+            "description3": "Consciously practicing 4:6 breathing technique is an effective way to manage stress and promote overall well-being.",
+            "vagalActivation": {
+                "title": "Vagal Nerve Activation",
+                "description": "Slow, deep breathing stimulates the vagus nerve, which connects your brain to your heart and digestive system, promoting a calm state."
+            },
+            "gasExchange": {
+                "title": "Optimal Gas Exchange",
+                "description": "Breathing at 4-6 breaths per minute optimizes oxygen delivery and CO2 balance, reducing the hyperventilation that often accompanies anxiety."
+            },
+            "stressHormones": {
+                "title": "Stress Hormone Reduction",
+                "description": "Regular practice decreases cortisol and other stress hormones, creating lasting improvements in your body's baseline stress response."
+            }
+        },
+        "science": {
+            "title": "The Science Behind Breathing Exercise",
+            "description": "Research consistently demonstrates that diaphragmatic breathing produces measurable reductions in anxiety, stress hormones, and physiological arousal. An <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5455070/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">8-week program with 20 sessions of 15-minute diaphragmatic breathing</a> lowered negative affect by 2.55 points and decreased cortisol levels by 1.32-1.66 ng/mL in healthy adults.",
+            "research": {
+                "anxietyReduction": {
+                    "title": "Anxiety Reduction",
+                    "description": "In COVID-19 patients, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11535222/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">5 days of guided deep breathing</a> (15-20 minutes, 4x daily) reduced anxiety scores on DASS-21 from 14.86 to 8.44—a 43% improvement—while controls showed no change."
+                },
+                "panicDisorders": {
+                    "title": "Panic Disorder Treatment",
+                    "description": "A <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9954474/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">review of 16 studies</a> found slow breathing at 8-10 breaths per minute over 2-12 months reduced panic attack frequency and normalized CO2 levels in patients with panic disorder and agoraphobia."
+                },
+                "gadImprovement": {
+                    "title": "Generalized Anxiety Improvement",
+                    "description": "In 41 GAD patients, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8989478/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3 months of daily breathing practice</a> (15-20 min, 4+ days/week) reduced anxiety scores from 40.90 to 13.24 on the BAI—a 68% improvement."
+                }
+            }
+        },
+        "whenToPractice": {
+            "title": "When To Practice",
+            "items": [
+                "When you feel overwhelmed or stressed",
+                "Before important conversations or decisions",
+                "During anxiety or panic episodes",
+                "After stressful events to reset your nervous system"
+            ]
+        },
+        "whatYoullNotice": {
+            "title": "What You'll Notice",
+            "items": [
+                "Immediate calming effect within the first minute",
+                "Clearer thinking and improved decision-making",
+                "Slower heart rate and reduced muscle tension",
+                "Better stress resilience with regular practice"
+            ]
+        },
+        "tips": {
+            "title": "Tips For Best Results",
+            "posture": {
+                "title": "Posture",
+                "description": "Sit or stand straight to allow full lung expansion. Shoulders relaxed, not hunched."
+            },
+            "environment": {
+                "title": "Environment",
+                "description": "Find a quiet space where you won't be interrupted. Comfortable temperature helps focus."
+            },
+            "consistency": {
+                "title": "Consistency",
+                "description": "Practice the same technique for a week before switching. Building familiarity improves effectiveness."
+            }
+        }
+    }
+}

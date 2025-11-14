@@ -37,10 +37,22 @@ export const useTechniques = () => {
       iconColor: 'text-indigo-600',
       tags: ['moderate-anxiety', 'medium-time']
     },
+    'sound-therapy': {
+      id: 'soundTherapy',
+      icon: 'ph:waveform-fill',
+      iconColor: 'text-indigo-600',
+      tags: ['moderate-anxiety', 'medium-time', 'long-time']
+    },
     'stress-relief-bubbles': {
       id: 'stressReliefBubbles',
       icon: 'ph:circles-four-fill',
       iconColor: 'text-teal-600',
+      tags: ['high-anxiety', 'short-time']
+    },
+    'stress-ball': {
+      id: 'stressBall',
+      icon: 'ph:circle-fill',
+      iconColor: 'text-orange-600',
       tags: ['high-anxiety', 'short-time']
     },
     'fidget-spinner': {
@@ -49,18 +61,6 @@ export const useTechniques = () => {
       iconColor: 'text-lime-600',
       tags: ['high-anxiety', 'short-time'],
       isNew: true
-    },
-    'sound-therapy': {
-      id: 'soundTherapy',
-      icon: 'ph:waveform-fill',
-      iconColor: 'text-indigo-600',
-      tags: ['moderate-anxiety', 'medium-time', 'long-time']
-    },
-    'stress-ball': {
-      id: 'stressBall',
-      icon: 'ph:circle-fill',
-      iconColor: 'text-orange-600',
-      tags: ['high-anxiety', 'short-time']
     }
   }
 

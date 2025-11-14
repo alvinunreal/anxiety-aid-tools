@@ -1,0 +1,74 @@
+{
+  "stressReliefBubbles": {
+    "resetButton": "Reiniciar Burbujas",
+    "howItWorks": {
+      "title": "Cómo Funciona la Distracción Táctil",
+      "description1": "Las burbujas anti-estrés funcionan a través de un mecanismo simple pero poderoso: la distracción táctil. Cuando presionas y revientas las burbujas, tu cerebro cambia la atención de los pensamientos ansiosos a la sensación física inmediata. Este compromiso sensorial activa diferentes vías neuronales, interrumpiendo los patrones de rumiación.",
+      "description2": "El satisfactorio estallido crea un bucle de retroalimentación: realizas una acción, recibes una recompensa sensorial inmediata (el sonido y la sensación táctil del estallido), y experimentas una pequeña liberación de tensión. Repetir este proceso a través de múltiples burbujas proporciona una distracción sostenida mientras el movimiento rítmico y repetitivo tiene un efecto naturalmente calmante en el sistema nervioso.",
+      "description3": "Con un uso consistente, las herramientas táctiles como estas pueden ayudar a construir respuestas de estrés más saludables. Tu cerebro aprende a redirigir la energía ansiosa hacia una acción física y controlable en lugar de espiralar en la preocupación.",
+      "focusRedirection": {
+        "title": "Reorientación del Enfoque",
+        "description": "Cambia la atención de pensamientos ansiosos a sensación física inmediata"
+      },
+      "sensoryFeedback": {
+        "title": "Retroalimentación Sensorial",
+        "description": "Sonidos de estallido y sensación táctil crean bucle de retroalimentación gratificante"
+      },
+      "nervousSystemCalm": {
+        "title": "Calma del Sistema Nervioso",
+        "description": "El movimiento repetitivo desencadena respuesta de relajación natural"
+      }
+    },
+    "science": {
+      "title": "La Ciencia Detrás del Alivio Táctil del Estrés",
+      "description": "La investigación demuestra que las herramientas de distracción táctil pueden reducir significativamente la ansiedad en situaciones estresantes. Un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8488815/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">ensayo controlado aleatorizado de niños durante procedimientos dentales</a> encontró que usar un fidget spinner redujo las puntuaciones de ansiedad en 3 puntos y redujo la frecuencia del pulso en 15.54 latidos por minuto en comparación con los controles (p < 0.001).",
+      "research": {
+        "pediatricAnxiety": {
+          "title": "Alivio de Ansiedad Pediátrica",
+          "description": "En un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12381172/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">estudio de 90 niños de 6-12 años durante cateterización IV</a>, el uso de pelota anti-estrés redujo las puntuaciones medias de ansiedad de 4.9 a 1.0 en la Prueba de Imagen de Venham (p < 0.001)—una reducción del 80%. La percepción del dolor también cayó dramáticamente, con puntuaciones de 14.5 versus 50.5 en los controles."
+        },
+        "medicalProcedures": {
+          "title": "Estrés en Procedimientos Médicos",
+          "description": "Un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11366058/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">ensayo de 120 pacientes sometidos a angiografía</a> mostró que el uso de pelota anti-estrés redujo las puntuaciones del Inventario de Ansiedad Estado-Rasgo de 15.89 a 14.92, mientras que los controles aumentaron de 11.30 a 12.67 (p = 0.019). Los participantes masculinos vieron caer las puntuaciones de 16.59 a 11.93."
+        },
+        "attentionSupport": {
+          "title": "Atención Sostenida",
+          "description": "La investigación sobre <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11246969/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">70 adultos con TDAH realizando tareas cognitivas</a> encontró que niveles más altos de inquietud se correlacionaron con respuestas correctas (puntuación t de 10.72, p < 0.001). La inquietud aumentó de 2.3 a 3.5 instancias a través de los ensayos mientras se mantenía una precisión del 96.3%, lo que sugiere que ayuda a mantener la excitación sin perjudicar el rendimiento."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Cuándo Practicar",
+      "items": [
+        "Cuando sientas energía inquieta o necesites mantener tus manos ocupadas durante la ansiedad",
+        "Durante períodos de espera o antes de eventos estresantes cuando necesites distracción",
+        "Cuando los pensamientos ansiosos se aceleran y necesitas romper el ciclo",
+        "Como un reinicio rápido entre tareas para liberar la tensión acumulada"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Lo Que Notarás",
+      "items": [
+        "Satisfacción inmediata de cada estallido y retroalimentación sensorial",
+        "Cambio gradual del enfoque lejos de pensamientos ansiosos hacia la actividad",
+        "Liberación física de energía inquieta e impulsos de inquietud",
+        "Estado más tranquilo después de completar una ronda completa de reventar burbujas"
+      ]
+    },
+    "tips": {
+      "title": "Consejos Para Mejores Resultados",
+      "posture": {
+        "title": "Ritmo",
+        "description": "Revienta burbujas a tu propio ritmo: rápido para liberar energía, lento para calma metódica. No hay velocidad correcta."
+      },
+      "environment": {
+        "title": "Sonido",
+        "description": "El sonido del estallido añade a la experiencia. Úsalo donde te sientas cómodo o silencia si es necesario en espacios tranquilos."
+      },
+      "consistency": {
+        "title": "Repetición",
+        "description": "Múltiples rondas están bien. Reinicia y repite tantas veces como necesites para liberar completamente la tensión."
+      }
+    }
+  }
+}

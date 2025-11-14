@@ -1,0 +1,226 @@
+{
+  "peacefulVisualization": {
+    "interface": {
+      "play": "Play",
+      "stop": "Stop",
+      "visitAnotherPlace": "Visit Another Place",
+      "peacefulMoments": "peaceful moments",
+      "immersiveJourney": "Immersive visualization journey",
+      "closeEyesAndBreathe": "Close your eyes and breathe"
+    },
+    "completion": {
+      "title": "Visualization Complete",
+      "description": "You've successfully journeyed to peaceful places within your mind. This calm state is always accessible to you.",
+      "benefits": {
+        "mindCalmed": "Mind calmed",
+        "stressReduced": "Stress reduced",
+        "innerPeaceAchieved": "Inner peace achieved"
+      }
+    },
+    "scenes": {
+      "mountainPeakSunrise": {
+        "name": "Mountain Peak Sunrise",
+        "description": "Standing atop a gentle mountain, watching the sun rise over endless peaks",
+        "soundscape": "Mountain wind",
+        "atmosphere": "Cool, crisp air",
+        "guidance": [
+          "You find yourself standing on a peaceful mountain peak, the world spread out before you like a beautiful painting.",
+          "The sunrise paints the sky in gentle colors - soft pinks, warm oranges, and golden yellows stretching across the horizon.",
+          "Cool, fresh mountain air fills your lungs. Each breath is pure and energizing, washing away any tension or worry.",
+          "Below you, layers of mountains roll into the distance like sleeping giants, covered in a soft morning mist.",
+          "You feel completely safe here, standing on solid ground, connected to the earth beneath your feet.",
+          "The sun's gentle warmth touches your face, filling you with peace and quiet strength.",
+          "This is your peaceful place - you can return here anytime by simply closing your eyes and remembering this moment."
+        ]
+      },
+      "tranquilForestGrove": {
+        "name": "Tranquil Forest Grove",
+        "description": "In a sun-dappled clearing surrounded by ancient, gentle trees",
+        "soundscape": "Birdsong & leaves",
+        "atmosphere": "Dappled sunlight",
+        "guidance": [
+          "You're walking into a beautiful forest clearing, where ancient trees create a natural cathedral around you.",
+          "Gentle sunlight filters through the leaves above, creating patterns of light and shadow on the forest floor.",
+          "The air here is filled with the fresh scent of growing things - moss, earth, and the clean smell of leaves.",
+          "Soft moss cushions your steps, and you can hear the peaceful sounds of birds singing and leaves rustling in the gentle breeze.",
+          "You settle beside a smooth tree trunk, feeling completely supported and safe in nature's embrace.",
+          "Every breath brings you deeper peace, as if the forest itself is sharing its ancient calm with you.",
+          "This grove is your sanctuary - a place where you can always find peace and renewal whenever you need it."
+        ]
+      },
+      "peacefulOceanBeach": {
+        "name": "Peaceful Ocean Beach",
+        "description": "Walking barefoot on warm sand beside gentle, rhythmic waves",
+        "soundscape": "Ocean waves",
+        "atmosphere": "Sea breeze",
+        "guidance": [
+          "You're walking barefoot on a beautiful beach, feeling the warm, soft sand between your toes.",
+          "Gentle waves roll onto the shore in a peaceful rhythm, like the earth's own breathing, calm and steady.",
+          "The ocean stretches endlessly before you, its surface sparkling in the sunlight like scattered diamonds.",
+          "A warm, gentle breeze carries the clean scent of salt water and touches your skin with perfect comfort.",
+          "You find the perfect spot to rest, feeling completely at peace with the endless rhythm of the waves.",
+          "Each wave that rolls in takes away any stress or worry, carrying it out to sea where it dissolves completely.",
+          "This beach is your peaceful refuge - the waves will always be here, ready to wash away your cares whenever you return."
+        ]
+      },
+      "sereneGardenParadise": {
+        "name": "Serene Garden Paradise",
+        "description": "In a beautiful garden filled with colorful flowers and gentle fountains",
+        "soundscape": "Water flowing",
+        "atmosphere": "Flower fragrances",
+        "guidance": [
+          "You enter a magnificent garden where every flower seems to welcome you with vibrant colors and gentle fragrances.",
+          "A small fountain creates the most peaceful sound as clear water flows over smooth stones in the center of the garden.",
+          "Soft petals create a living rainbow around you - deep purples, bright yellows, soft pinks.",
+          "The air is filled with natural perfumes, and everything feels warm and welcoming.",
+          "You find a comfortable place to rest among the flowers, feeling safe and loved by nature.",
+          "This garden grows more beautiful with each breath you take, as if responding to your peaceful presence.",
+          "This is your garden of peace - it will always be in bloom, waiting for you whenever you need beauty and calm."
+        ]
+      },
+      "starlitMeadowNight": {
+        "name": "Starlit Meadow Night",
+        "description": "Lying in a soft meadow under a blanket of countless stars",
+        "soundscape": "Night sounds",
+        "atmosphere": "Cool night air",
+        "guidance": [
+          "You're lying comfortably in a soft meadow, looking up at a sky filled with sparkling stars.",
+          "The grass beneath you is perfectly soft, like nature's own cushion, supporting your body completely.",
+          "Above you, the Milky Way stretches across the heavens like a river of light, beautiful beyond description.",
+          "The night air is comfortable, with a gentle breeze that carries the sweet scent of night-blooming flowers.",
+          "You feel small in the best possible way - connected to something vast and peaceful that holds you safely.",
+          "Each star seems to shine just for you, sending down light that fills you with wonder and peace.",
+          "This meadow under the stars is your place of infinite calm - you can always look up and find peace in the vastness."
+        ]
+      },
+      "cozyRainyCabin": {
+        "name": "Cozy Rainy Cabin",
+        "description": "Resting safely inside a warm cabin while gentle rain taps on the roof",
+        "soundscape": "Rain on roof",
+        "atmosphere": "Fireplace warmth",
+        "guidance": [
+          "You settle into a soft armchair beside the window of a snug wooden cabin as evening rain begins to fall.",
+          "Raindrops drum a gentle rhythm on the roof and trickle down the glass, creating the most soothing soundtrack.",
+          "A small fireplace glows nearby, filling the room with a golden light and the comforting crackle of burning logs.",
+          "The air smells faintly of pine and warm cedar, wrapping you in the clean fragrance of the surrounding forest.",
+          "A thick blanket rests across your legs, and you feel perfectly supported by the chair as your entire body unwinds.",
+          "You cradle a warm mug between your hands, letting the steam rise slowly toward your face as the rain continues to sing.",
+          "This cabin is your private refuge—whenever you need peace, you can return to this cozy, rain-kissed evening and rest here."
+        ]
+      },
+      "mistyLakesideDawn": {
+        "name": "Misty Lakeside Dawn",
+        "description": "Sitting by a quiet mountain lake as sunrise colors the foggy morning",
+        "soundscape": "Gentle water lapping",
+        "atmosphere": "Cool morning mist",
+        "guidance": [
+          "You sit on a smooth wooden dock beside a still mountain lake just before sunrise.",
+          "Thin mist floats above the water, drifting lazily as dawn begins to color the sky.",
+          "Each breath draws in crisp morning air scented with pine and cool stone.",
+          "Across the lake, mountains glow softly as the first pink light touches their peaks.",
+          "The lake surface mirrors the awakening sky, rippling gently with only the quietest waves.",
+          "A distant loon calls once and the sound echoes softly before fading back into silence.",
+          "This lakeside dawn belongs to you—return to it whenever you need calm, and the water will be waiting."
+        ]
+      },
+      "sunlitDesertOasis": {
+        "name": "Sunlit Desert Oasis",
+        "description": "Resting beside a palm-shaded oasis pool in the golden desert",
+        "soundscape": "Soft spring and breeze",
+        "atmosphere": "Warm sunset glow",
+        "guidance": [
+          "You rest on a smooth stone by a clear oasis pool tucked within golden desert dunes.",
+          "Palm fronds sway above you, scattering dappled shade while sunlight glows warm on your skin.",
+          "A gentle spring feeds the pool, its quiet trickle harmonizing with the soft desert breeze.",
+          "The air smells sweet with blooming date flowers, soothing and still.",
+          "Far-off dunes shimmer in the afternoon light, their curves guiding your eyes peacefully to the horizon.",
+          "You trail your fingers in the cool water, feeling tension melt with every circle you trace.",
+          "This oasis is your sanctuary—no matter how hot the world feels, you can always cool your spirit here."
+        ]
+      },
+      "floatingCloudSanctuary": {
+        "name": "Floating Cloud Sanctuary",
+        "description": "Gliding through soft, sunlit clouds high above the earth",
+        "soundscape": "Soft high-altitude breeze",
+        "atmosphere": "Weightless calm",
+        "guidance": [
+          "You drift weightlessly among vast, glowing clouds high above the world.",
+          "Sunbeams pour through the clouds around you, painting them with soft gold and silver light.",
+          "A gentle breeze wraps you in warmth, rocking you like a calm and endless lullaby.",
+          "Each cloud feels like velvet beneath your fingers, cool and soft as you glide through them.",
+          "Below you, the world looks peaceful and small, and every worry seems far away.",
+          "With each breath, the clouds part to reveal endless blue sky, reminding you of your own open space within.",
+          "This floating sanctuary always lifts you—return whenever you want to rise above everything and rest in the sky."
+        ]
+      }
+    },
+    "howItWorks": {
+      "title": "How Guided Visualization Works",
+      "description1": "Guided visualization activates the same neural pathways in your brain as actual experiences. When you vividly imagine peaceful scenes, your brain releases calming neurotransmitters and reduces stress hormone production, creating genuine physiological relaxation.",
+      "description2": "By engaging multiple senses—sight, sound, touch, smell—the visualization becomes more immersive and effective. This multisensory engagement strengthens the relaxation response and helps your nervous system shift from fight-or-flight mode into rest-and-digest mode.",
+      "mentalImagery": {
+        "title": "Mental Imagery",
+        "description": "Brain processes imagined experiences similarly to real ones, triggering genuine relaxation responses"
+      },
+      "sensoryEngagement": {
+        "title": "Sensory Engagement",
+        "description": "Multiple senses working together create deeper immersion and more effective stress reduction"
+      },
+      "neuralPathways": {
+        "title": "Neural Pathways",
+        "description": "Repeated visualization strengthens calming neural circuits, making relaxation easier to access over time"
+      }
+    },
+    "science": {
+      "title": "The Science Behind Guided Visualization",
+      "description": "Extensive research demonstrates that guided imagery produces measurable reductions in anxiety across diverse populations. In a <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10871407/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">study of 20 generalized anxiety disorder patients</a>, guided imagery combined with standard treatment reduced anxiety scores from 21.30 to 5.90—a 72% improvement—compared to only 30% improvement in the control group receiving treatment alone.",
+      "research": {
+        "covidAnxiety": {
+          "title": "Anxiety Reduction In Medical Settings",
+          "description": "Among <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7982304/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">55 COVID-19 patients</a>, 10 sessions of guided imagery decreased state anxiety scores from 45.03 to 38.27 (15% reduction) and trait anxiety from 47.34 to 39.58 (16% reduction), with large effect sizes (d=1.10 and d=1.07, P<0.001)."
+        },
+        "surgicalAnxiety": {
+          "title": "Surgical Anxiety Relief",
+          "description": "In <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC4625990/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">75 joint replacement patients</a>, 90.6% experienced more than 50% decrease in anxiety from baseline to postoperative day 2, with an average reduction of 78.7%. Preoperative sessions alone reduced anxiety by 42.8%, significantly outperforming usual care (P<0.0001)."
+        },
+        "metaAnalysis": {
+          "title": "Broad Clinical Evidence",
+          "description": "A <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC3718554/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">meta-analysis of 36 randomized trials</a> with 1,608 observations found guided imagery reduced anxiety symptoms with a standardized mean difference of -0.52 versus waiting-list controls (P<0.001) and -0.59 versus attention controls (P<0.001). No adverse effects were reported across 25 studies."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "When To Practice",
+      "items": [
+        "During moments of high stress or overwhelming anxiety when you need immediate relief",
+        "Before important events like presentations, meetings, or medical procedures to calm pre-event nerves",
+        "At bedtime to quiet racing thoughts and prepare your mind and body for restful sleep",
+        "During breaks throughout your day to reset your nervous system and maintain emotional balance"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "What You'll Notice",
+      "items": [
+        "Mental imagery creating genuine feelings of calm as your brain responds to the peaceful scenes",
+        "Slower heart rate and deeper breathing as your parasympathetic nervous system activates",
+        "Physical tension melting away as your muscles respond to the imagined peaceful environment",
+        "Greater ability to access calm states with regular practice as you strengthen these neural pathways"
+      ]
+    },
+    "tips": {
+      "title": "Tips For Best Results",
+      "preparation": {
+        "title": "Preparation",
+        "description": "Find a comfortable position where you can remain still for 10-12 minutes. Use headphones for better immersion in the audio guidance and soundscapes."
+      },
+      "engagement": {
+        "title": "Engagement",
+        "description": "Engage all your senses in the visualization—imagine not just what you see, but also what you hear, feel, smell, and even taste. The more vivid, the more effective."
+      },
+      "patience": {
+        "title": "Patience",
+        "description": "If your mind wanders, gently guide it back to the visualization without judgment. This is normal and part of the practice—you're training your brain's focus."
+      }
+    }
+  }
+}

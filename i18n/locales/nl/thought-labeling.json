@@ -1,0 +1,177 @@
+{
+  "thoughtLabeling": {
+    "interface": {
+      "title": "Gedachte Labeling",
+      "subtitle": "Observeer en categoriseer je gedachten",
+      "beginExercise": "Begin Oefening",
+      "thoughtsLabeled": "gedachten gelabeld",
+      "labelingActiveThought": "Actieve gedachte labelen",
+      "readyForNextThought": "Klaar voor volgende gedachte",
+      "elapsed": "verstreken",
+      "yourLabeledThoughts": "Je Gelabelde Gedachten",
+      "whatsOnYourMind": "Wat Heb Je Op Je Hoofd?",
+      "labelThisThought": "Label Deze Gedachte",
+      "chooseLabelsThatDescribe": "Kies de labels die deze gedachte het beste beschrijven:",
+      "writeAnxiousThought": "Schrijf een angstige gedachte die je nu hebt:",
+      "examplePlaceholder": "Voorbeeld: 'Ik ben bang dat ik mijn presentatie morgen verpest...'",
+      "labelThisThoughtButton": "Label Deze Gedachte",
+      "yourThought": "Jouw Gedachte:",
+      "cancel": "Annuleren",
+      "continue": "Doorgaan",
+      "practiceAgain": "Opnieuw Oefenen"
+    },
+    "benefits": {
+      "awareness": {
+        "title": "Bewustzijn",
+        "description": "Gedachten opmerken zonder erdoor verteerd te worden"
+      },
+      "balance": {
+        "title": "Balans",
+        "description": "Gezonde afstand creëren van angstig denken"
+      },
+      "clarity": {
+        "title": "Helderheid",
+        "description": "Patronen in je denken begrijpen"
+      }
+    },
+    "completion": {
+      "title": "Uitstekend Zelfbewustzijn",
+      "description": "Je hebt succesvol {count} gedachte{plural} gelabeld in {time}. Deze oefening helpt gezonde afstand te creëren van angstig denken.",
+      "sessionInsights": "Sessie Inzichten",
+      "benefits": {
+        "awarenessIncreased": "Bewustzijn toegenomen",
+        "thoughtsOrganized": "Gedachten georganiseerd",
+        "emotionalDistanceCreated": "Emotionele afstand gecreëerd"
+      }
+    },
+    "insights": {
+      "commonPattern": {
+        "title": "Gemeenschappelijk Patroon Geïdentificeerd",
+        "description": "De meeste van je gedachten werden gelabeld als \"{labelName}\" - het herkennen van dit patroon is de eerste stap naar het beheersen ervan."
+      },
+      "strongAwareness": {
+        "title": "Sterk Zelfbewustzijn",
+        "description": "Je hebt uitstekend vermogen getoond om je gedachten objectief te observeren en te categoriseren."
+      }
+    },
+    "labels": {
+      "worry": {
+        "name": "Bezorgdheid",
+        "description": "Zorgen over toekomstige gebeurtenissen of uitkomsten"
+      },
+      "catastrophic": {
+        "name": "Catastrofaal",
+        "description": "Worst-case scenario's verbeelden"
+      },
+      "selfDoubt": {
+        "name": "Zelftwijfel",
+        "description": "Je capaciteiten of waarde in twijfel trekken"
+      },
+      "perfectionist": {
+        "name": "Perfectionistisch",
+        "description": "Onrealistisch hoge normen stellen"
+      },
+      "comparison": {
+        "name": "Vergelijking",
+        "description": "Jezelf afmeten tegen anderen"
+      },
+      "rumination": {
+        "name": "Piekeren",
+        "description": "Herhaaldelijk denken aan gebeurtenissen uit het verleden"
+      },
+      "control": {
+        "name": "Controle",
+        "description": "Willen controleren wat oncontroleerbaar is"
+      },
+      "rejection": {
+        "name": "Afwijzing",
+        "description": "Angst voor afgewezen of verlaten worden"
+      },
+      "performance": {
+        "name": "Prestatie",
+        "description": "Angst over hoe je zult presteren"
+      },
+      "health": {
+        "name": "Gezondheid",
+        "description": "Zorgen over fysieke of mentale gezondheid"
+      },
+      "social": {
+        "name": "Sociaal",
+        "description": "Zorgen over sociale situaties of relaties"
+      },
+      "financial": {
+        "name": "Financieel",
+        "description": "Geldgerelateerde stress en zorgen"
+      }
+    },
+    "howItWorks": {
+      "title": "Hoe Gedachte Labeling Werkt",
+      "description1": "Wanneer je angstig bent, kunnen je gedachten overweldigend en volledig waar aanvoelen. Gedachte labeling helpt je een stap terug te doen en gedachten te zien als mentale gebeurtenissen—tijdelijke patronen in je geest, geen absolute waarheden. Door simpelweg te benoemen wat je ervaart (\"bezorgdheid\", \"zelftwijfel\", \"catastroferen\"), creëer je een kleine maar krachtige kloof tussen jezelf en de gedachte.",
+      "description2": "Deze praktijk activeert je prefrontale cortex—het rationele, observerende deel van je hersenen—terwijl het de activiteit in de amygdala, het alarmcentrum van de hersenen, vermindert. In plaats van verstrikt te raken in een spiraal van angstig denken, word je de getuige van je gedachten. Deze verschuiving van \"Ik ben angstig\" naar \"Ik heb angstige gedachten\" verandert fundamenteel je relatie met angst.",
+      "description3": "Met regelmatige oefening helpt labeling je denkpatronen te herkennen voordat ze spiralen. Je zult beginnen op te merken: \"Dit is weer dat catastrofale denken\" of \"Daar is mijn perfectionistische patroon\". Herkenning wordt je eerste verdedigingslinie, waardoor je vaardig kunt reageren in plaats van automatisch te reageren.",
+      "cognitiveDefusion": {
+        "title": "Cognitieve Defusie",
+        "description": "Labeling scheidt je van je gedachten, vermindert hun emotionele greep en geloofwaardigheid."
+      },
+      "emotionalRegulation": {
+        "title": "Emotionele Regulatie",
+        "description": "Benoemen activeert je rationele brein terwijl het de amygdala kalmeert, emotionele reactiviteit verlaagt."
+      },
+      "patternRecognition": {
+        "title": "Patroonherkenning",
+        "description": "Regelmatig labelen onthult terugkerende denkpatronen, waardoor ze in de loop van de tijd gemakkelijker te beheren zijn."
+      }
+    },
+    "science": {
+      "title": "De Wetenschap Achter Gedachte Labeling",
+      "description": "Onderzoek toont aan dat gedachte labeling meetbare verminderingen in angstsymptomen en emotionele reactiviteit produceert. Een <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7270208/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">single-subject studie met een zangeres</a> die gedachte labeling gebruikt als onderdeel van cognitieve defusie, verlaagde de geloofwaardheidsscores van angstige gedachten van 94 naar 28 bij 3-maanden follow-up—een verbetering van 70%—met psychologische inflexibiliteit dalend van 39 naar 12 op de AAQ-2 schaal."
+    },
+    "research": {
+      "performanceAnxiety": {
+        "title": "Prestatie Angst Verlichting",
+        "description": "Bij een zangeres met ernstige muziekprestatie-angst, verminderde de <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7270208/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">gedachte labeling interventie</a> de Geloofwaardigheid in Angstige Gedachten van 94 naar 28 (70% verbetering) en psychologische inflexibiliteit van 39 naar 12 (69% verbetering) bij 3-maanden follow-up, met betrouwbare veranderingsindices van -8,74 en -10,92 respectievelijk."
+      },
+      "mindfulnessEnhancement": {
+        "title": "Mindfulness Vaardigheden Verbetering",
+        "description": "Een <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5801080/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">8-weken meditatieprogramma</a> met nadruk op gedachte labeling verhoogde het gebruik van labeling door deelnemers significant (F(1,28)=58,00, p<0,001, d=2,88) en niet-reactiviteit op innerlijke ervaringen (F(1,29)=38,35, p<0,001, d=2,30), ter ondersteuning van beter beheer van angst-opwekkende gedachten."
+      },
+      "attentionControl": {
+        "title": "Verbeterde Aandachtscontrole",
+        "description": "Slechts <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5329004/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3 dagen mindfulness training</a> met gedachte labeling verminderde mentaal dwalen en verbeterde volgehouden aandacht met 9,84 punten (p=0,003), helpend om de ruminatiecyclus die angst voedt te onderbreken."
+      }
+    },
+    "whenToPractice": {
+      "title": "Wanneer Te Oefenen",
+      "items": [
+        "Wanneer je repetitieve of opdringerige gedachten opmerkt die in je geest draaien.",
+        "Voor situaties met hoge druk waar zelftwijfel of zorgen typisch ontstaan.",
+        "Tijdens momenten van overweldiging wanneer gedachten chaotisch en onbeheersbaar aanvoelen.",
+        "Als onderdeel van dagelijkse mindfulness praktijk om bewustzijn van denkpatronen op te bouwen."
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Wat Je Zult Opmerken",
+      "items": [
+        "Onmiddellijke vermindering in de intensiteit en geloofwaardigheid van angstige gedachten.",
+        "Grotere emotionele afstand, waardoor gedachten minder persoonlijk en verteerbaar aanvoelen.",
+        "Herkenning van terugkerende patronen, je helpend ze te anticiperen en te beheren.",
+        "Verbeterd vermogen om gedachten te observeren zonder er automatisch op te reageren."
+      ]
+    },
+    "tips": {
+      "title": "Tips Voor Beste Resultaten",
+      "observation": {
+        "title": "Observeer Houding",
+        "description": "Benader je gedachten met nieuwsgierigheid, niet oordeel. Je bent een wetenschapper die je geest bestudeert, geen criticus die het veroordeelt."
+      },
+      "consistency": {
+        "title": "Bouw de Gewoonte",
+        "description": "Oefen labelen gedurende de dag, niet alleen tijdens angstpieken. Regelmatig gebruik versterkt je vermogen om afstand te creëren van gedachten."
+      },
+      "simplicity": {
+        "title": "Houd Labels Eenvoudig",
+        "description": "Gebruik korte, duidelijke labels zoals \"bezorgdheid\", \"oordeel\" of \"catastroferen\". Je identificeert patronen, schrijft geen essays."
+      }
+    }
+  }
+}

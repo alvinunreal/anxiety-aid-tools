@@ -1,0 +1,370 @@
+{
+  "progressiveMuscleRelaxation": {
+    "interface": {
+      "title": "渐进式肌肉放松",
+      "subtitle": "系统性的紧张和释放",
+      "beginExercise": "开始练习",
+      "start": "开始",
+      "stop": "停止",
+      "pause": "暂停",
+      "resume": "继续",
+      "back": "返回",
+      "next": "下一个",
+      "complete": "完成",
+      "ofGroups": "{count}个组中",
+      "prepare": "准备开始",
+      "tenseFor10": "紧张10秒",
+      "releaseFor10": "放松10秒",
+      "tense": "紧张",
+      "relax": "放松",
+      "tensionSteps": "紧张步骤:",
+      "relaxationSteps": "放松步骤:"
+    },
+    "completion": {
+      "title": "达到深度放松",
+      "description": "您已经系统性地释放了全身的紧张。注意与开始时相比,您的肌肉感觉有多么不同。",
+      "benefits": {
+        "tensionReleased": "紧张已释放",
+        "bodyRelaxed": "身体已放松"
+      }
+    },
+    "muscleGroups": {
+      "rightHand": {
+        "name": "右手和前臂",
+        "shortName": "右手",
+        "tensionCue": [
+          "握紧拳头",
+          "用力握紧",
+          "感受手指和前臂的紧张"
+        ],
+        "relaxationCue": [
+          "张开手",
+          "让它完全放松",
+          "感受手指自然弯曲和放松"
+        ]
+      },
+      "leftHand": {
+        "name": "左手和前臂",
+        "shortName": "左手",
+        "tensionCue": [
+          "握紧拳头",
+          "用力握紧",
+          "感受手指和前臂的紧张"
+        ],
+        "relaxationCue": [
+          "张开手",
+          "让它完全放松",
+          "注意温暖、沉重的感觉"
+        ]
+      },
+      "rightUpperArm": {
+        "name": "右上臂",
+        "shortName": "右二头肌",
+        "tensionCue": [
+          "弯曲肘部",
+          "用力收紧二头肌",
+          "将前臂压向上臂",
+          "感受肌肉隆起"
+        ],
+        "relaxationCue": [
+          "将手臂放到身侧",
+          "让肌肉变软",
+          "感受释放和沉重"
+        ]
+      },
+      "leftUpperArm": {
+        "name": "左上臂",
+        "shortName": "左二头肌",
+        "tensionCue": [
+          "弯曲肘部",
+          "用力收紧二头肌",
+          "将前臂压向上臂",
+          "感受力量"
+        ],
+        "relaxationCue": [
+          "将手臂放到身侧",
+          "让紧张消散",
+          "感受沉重"
+        ]
+      },
+      "forehead": {
+        "name": "额头和头皮",
+        "shortName": "额头",
+        "tensionCue": [
+          "高高抬起眉毛",
+          "皱起额头",
+          "感受头皮的紧张"
+        ],
+        "relaxationCue": [
+          "让眉毛自然下落",
+          "抚平额头",
+          "感受皮肤完全放松"
+        ]
+      },
+      "eyesNose": {
+        "name": "眼睛和鼻子",
+        "shortName": "面部",
+        "tensionCue": [
+          "紧闭双眼",
+          "皱起鼻子",
+          "让整个脸部紧缩在一起"
+        ],
+        "relaxationCue": [
+          "让面部变软",
+          "眼睛轻轻闭上",
+          "鼻子和脸颊光滑放松"
+        ]
+      },
+      "mouthJaw": {
+        "name": "嘴巴和下巴",
+        "shortName": "下巴",
+        "tensionCue": [
+          "用力咬合",
+          "咬紧牙关",
+          "感受下巴肌肉工作"
+        ],
+        "relaxationCue": [
+          "让下巴微微张开",
+          "嘴唇几乎不接触",
+          "舌头轻轻放松"
+        ]
+      },
+      "neckThroat": {
+        "name": "颈部和喉咙",
+        "shortName": "颈部",
+        "tensionCue": [
+          "下巴靠向胸部",
+          "头向后推",
+          "从两个方向产生紧张"
+        ],
+        "relaxationCue": [
+          "让头找到自然位置",
+          "颈部长而松弛",
+          "喉咙打开"
+        ]
+      },
+      "shoulders": {
+        "name": "肩膀",
+        "shortName": "肩膀",
+        "tensionCue": [
+          "高高耸起肩膀",
+          "试图触碰耳朵",
+          "感受上背部的挤压"
+        ],
+        "relaxationCue": [
+          "让肩膀自然下落",
+          "感受它们下沉",
+          "沉重而松弛"
+        ]
+      },
+      "upperBackChest": {
+        "name": "上背部和胸部",
+        "shortName": "上背部",
+        "tensionCue": [
+          "挤压肩胛骨",
+          "拱起背部",
+          "深呼吸扩张胸部"
+        ],
+        "relaxationCue": [
+          "让背部自然放松",
+          "肩胛骨分开",
+          "胸部柔软开放"
+        ]
+      },
+      "abdomen": {
+        "name": "腹部",
+        "shortName": "腹部",
+        "tensionCue": [
+          "用力收紧腹肌",
+          "肚脐向内收",
+          "让腹部像石头一样"
+        ],
+        "relaxationCue": [
+          "让腹部变软",
+          "向腹部呼吸",
+          "感受它自然起伏"
+        ]
+      },
+      "lowerBack": {
+        "name": "下背部",
+        "shortName": "下背部",
+        "tensionCue": [
+          "轻轻拱起下背部",
+          "向外推腹部",
+          "感受脊柱的弯曲"
+        ],
+        "relaxationCue": [
+          "让背部回到自然弯曲",
+          "支撑且舒适",
+          "紧张融化"
+        ]
+      },
+      "hipsButtocks": {
+        "name": "臀部和臀肌",
+        "shortName": "臀肌",
+        "tensionCue": [
+          "用力夹紧臀部",
+          "紧紧收缩肌肉",
+          "感受臀部的紧张"
+        ],
+        "relaxationCue": [
+          "让臀部变软",
+          "感受它们自然展开",
+          "沉重而放松"
+        ]
+      },
+      "rightThigh": {
+        "name": "右大腿",
+        "shortName": "右大腿",
+        "tensionCue": [
+          "伸直右腿",
+          "用力收紧大腿肌肉",
+          "感受它坚实有力"
+        ],
+        "relaxationCue": [
+          "让腿自然放松",
+          "大腿肌肉柔软松弛",
+          "沉重而舒适"
+        ]
+      },
+      "leftThigh": {
+        "name": "左大腿",
+        "shortName": "左大腿",
+        "tensionCue": [
+          "伸直左腿",
+          "用力收紧大腿肌肉",
+          "感受力量"
+        ],
+        "relaxationCue": [
+          "让腿自然放松",
+          "大腿完全放松",
+          "注意对比"
+        ]
+      },
+      "rightCalfShin": {
+        "name": "右小腿和胫骨",
+        "shortName": "右小腿",
+        "tensionCue": [
+          "用力向下指脚",
+          "然后向上弯曲朝向胫骨",
+          "感受两侧都在工作"
+        ],
+        "relaxationCue": [
+          "让脚自然放松",
+          "小腿和胫骨松弛",
+          "完全柔软"
+        ]
+      },
+      "leftCalfShin": {
+        "name": "左小腿和胫骨",
+        "shortName": "左小腿",
+        "tensionCue": [
+          "用力向下指脚",
+          "然后向上弯曲朝向胫骨",
+          "感受肌肉参与"
+        ],
+        "relaxationCue": [
+          "让脚自然放松",
+          "所有小腿肌肉放松沉重"
+        ]
+      },
+      "rightFoot": {
+        "name": "右脚",
+        "shortName": "右脚",
+        "tensionCue": [
+          "用力向下卷曲脚趾",
+          "蜷缩它们",
+          "感受足弓的紧张"
+        ],
+        "relaxationCue": [
+          "让脚趾自然展开",
+          "脚完全柔软",
+          "温暖而放松"
+        ]
+      },
+      "leftFoot": {
+        "name": "左脚",
+        "shortName": "左脚",
+        "tensionCue": [
+          "用力向下卷曲脚趾",
+          "蜷缩它们",
+          "感受足弓在工作"
+        ],
+        "relaxationCue": [
+          "让脚趾自然展开",
+          "脚松弛放松",
+          "紧张消失"
+        ]
+      }
+    },
+    "howItWorks": {
+      "title": "渐进式肌肉放松的工作原理",
+      "description1": "渐进式肌肉放松通过系统性地紧张然后释放肌肉群,教会您的身体区分紧张和放松。当您故意紧张一块肌肉然后放松时,释放会创造比紧张前更深的放松状态。",
+      "description2": "这种紧张-释放循环激活您的副交感神经系统,它控制着身体的休息和消化反应。随着每个肌肉群放松,您的心率减慢,血压下降,压力荷尔蒙减少,在整个身体中产生一连串的镇静效果。",
+      "description3": "通过定期练习,您会发展更强的身体意识,能够更早地识别紧张。这使您能够在身体压力积累之前释放它,为您提供实时管理焦虑的强大工具。",
+      "tensionContrast": {
+        "title": "紧张对比",
+        "description": "故意紧张肌肉使随后的释放更加明显和有效"
+      },
+      "nervousSystemShift": {
+        "title": "神经系统转变",
+        "description": "释放触发副交感激活,减慢心率并降低压力荷尔蒙"
+      },
+      "bodyAwareness": {
+        "title": "身体意识",
+        "description": "练习训练您在一天中自动识别和释放紧张"
+      }
+    },
+    "science": {
+      "title": "渐进式肌肉放松背后的科学",
+      "description": "研究一致表明,渐进式肌肉放松在不同人群和环境中产生显著的焦虑减轻效果。在一项<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7102525/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">包含51名COVID-19患者的随机试验</a>中,连续5天每天30分钟的练习将状态-特质焦虑量表分数从57.88降至44.96——降低了22%——而对照组分数保持不变(p<0.001)。",
+      "research": {
+        "nurseStress": {
+          "title": "高压环境中的显著效果",
+          "description": "在<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10844009/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">2022年一项包含46名护士的随机对照试验</a>中,渐进式肌肉放松显著降低了DASS-21焦虑评分,与对照组相比效应量达到Cohen's d=1.61,显示在要求苛刻的工作环境中的持续益处。"
+        },
+        "studentAnxiety": {
+          "title": "从中度焦虑转为低度焦虑",
+          "description": "在<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC4280725/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">49名护理学生</a>中,四次督导练习加上每日练习使91.7%的参与者在萨拉森考试焦虑量表上从中度焦虑转为低度焦虑,而25人的对照组没有可比变化(p=0.00)。"
+        },
+        "clinicalTraining": {
+          "title": "临床环境中的重大降低",
+          "description": "在<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9047807/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">90名一年级护理学生临床培训期间</a>,五次针对13个肌肉群的45分钟练习将状态-特质焦虑量表分数从55降至24.4——降低了56%——没有报告不良反应(t=30.783, p=0.001)。"
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "何时练习",
+      "items": [
+        "当您感到身体紧张积累时——肩膀紧绷、下巴紧咬或肌肉僵硬",
+        "在压力事件之前,如演讲、考试或医疗预约,以释放预期紧张",
+        "在工作日结束时,释放积累的身体压力并过渡到放松",
+        "睡前释放可能干扰入睡或保持睡眠的身体紧张"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "您会注意到什么",
+      "items": [
+        "立即意识到您没有意识到在各个肌肉群中持有的紧张",
+        "随着每个肌肉群释放,深度身体放松,在您的身体中创造一波平静",
+        "随着副交感神经系统激活,心率变慢,呼吸更深",
+        "通过持续练习,在一天中识别和释放紧张的能力增强"
+      ]
+    },
+    "tips": {
+      "title": "获得最佳效果的技巧",
+      "position": {
+        "title": "姿势",
+        "description": "躺下或靠在舒适的椅子上,让整个身体得到支撑。脱掉紧身衣物,确保12-15分钟内不会被打扰。"
+      },
+      "technique": {
+        "title": "技巧",
+        "description": "牢固地紧张每个肌肉群,但不要达到疼痛或抽筋的程度。保持10秒,然后完全释放,注意对比10秒后再继续。"
+      },
+      "focus": {
+        "title": "专注",
+        "description": "注意每个肌肉群中紧张和放松的区别。这种意识是识别和释放日常生活中紧张的关键。"
+      }
+    }
+  }
+}

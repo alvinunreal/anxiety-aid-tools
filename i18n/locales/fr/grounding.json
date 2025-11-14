@@ -1,0 +1,206 @@
+{
+    "grounding": {
+        "exercise": {
+            "title": "Ancrage 5-4-3-2-1",
+            "beginExercise": "Commencer l'Exercice",
+            "practiceAgain": "Pratiquer à Nouveau",
+            "ofSteps": "sur 5 étapes",
+            "itemsFound": "éléments trouvés",
+            "found": "trouvé",
+            "greatAwareness": "Excellente conscience !",
+            "keepExploring": "Continuez à explorer...",
+            "back": "Retour",
+            "next": "Suivant",
+            "complete": "Terminer",
+            "youAreGrounded": "Vous Êtes Ancré",
+            "groundedDescription": "En engageant vos cinq sens, vous vous êtes ancré avec succès dans le moment présent.",
+            "benefits": {
+                "immediateStability": {
+                    "title": "Stabilité Immédiate",
+                    "description": "Connectez-vous à votre environnement et sentez-vous ancré"
+                },
+                "mentalClarity": {
+                    "title": "Clarté Mentale",
+                    "description": "Interrompez les pensées qui s'emballent et retrouvez la concentration"
+                },
+                "calmPresence": {
+                    "title": "Présence Calme",
+                    "description": "Sentez-vous plus présent et en contrôle"
+                },
+                "stability": {
+                    "title": "Stabilité",
+                    "description": "Vous êtes connecté et ancré"
+                },
+                "clarity": {
+                    "title": "Clarté",
+                    "description": "Les pensées qui s'emballent ont ralenti"
+                },
+                "presence": {
+                    "title": "Présence",
+                    "description": "Vous êtes ici dans ce moment"
+                }
+            },
+            "steps": {
+                "see": {
+                    "title": "Regardez autour de vous",
+                    "subtitle": "Trouvez 5 choses que vous pouvez voir",
+                    "items": [
+                        {
+                            "text": "Quelque chose avec une couleur ou un motif intéressant",
+                            "guidance": "Recherchez des textures, des reflets ou des combinaisons de couleurs qui attirent votre regard"
+                        },
+                        {
+                            "text": "Un objet avec une texture lisse",
+                            "guidance": "Remarquez comment la lumière frappe la surface - est-elle brillante, mate ou quelque part entre les deux ?"
+                        },
+                        {
+                            "text": "Quelque chose qui bouge ou qui a des ombres",
+                            "guidance": "Observez comment le mouvement crée des motifs changeants de lumière et d'ombre"
+                        },
+                        {
+                            "text": "Un détail que vous n'aviez pas remarqué auparavant",
+                            "guidance": "Regardez de plus près les objets familiers - quels petits détails avez-vous manqués ?"
+                        },
+                        {
+                            "text": "Quelque chose qui vous apporte du réconfort",
+                            "guidance": "Concentrez-vous sur pourquoi cet objet vous semble réconfortant - ses couleurs, sa forme ou les souvenirs qu'il garde"
+                        }
+                    ]
+                },
+                "touch": {
+                    "title": "Sentez autour de vous",
+                    "subtitle": "Trouvez 4 choses que vous pouvez toucher ou sentir",
+                    "items": [
+                        {
+                            "text": "La température de l'air sur votre peau",
+                            "guidance": "Remarquez s'il fait chaud, frais ou neutre - comment se sent-il sur différentes parties de votre corps ?"
+                        },
+                        {
+                            "text": "La texture de vos vêtements",
+                            "guidance": "Sentez le tissu entre vos doigts - est-il doux, rugueux, lisse ou texturé ?"
+                        },
+                        {
+                            "text": "La surface sur laquelle vous êtes assis ou debout",
+                            "guidance": "Appuyez légèrement dessus - est-elle ferme, douce, chaude ou froide contre votre corps ?"
+                        },
+                        {
+                            "text": "Quelque chose de lisse ou de rugueux près de vous",
+                            "guidance": "Passez vos doigts le long de la surface - remarquez le contraste des textures"
+                        }
+                    ]
+                },
+                "hear": {
+                    "title": "Écoutez attentivement",
+                    "subtitle": "Trouvez 3 choses que vous pouvez entendre",
+                    "items": [
+                        {
+                            "text": "Votre propre respiration ou battement de cœur",
+                            "guidance": "Fermez les yeux et concentrez-vous vers l'intérieur - pouvez-vous entendre votre respiration ou votre pouls ?"
+                        },
+                        {
+                            "text": "Sons de l'extérieur (circulation, nature, gens)",
+                            "guidance": "Écoutez au-delà de la pièce - quels sons lointains pouvez-vous identifier ?"
+                        },
+                        {
+                            "text": "Sons subtils que vous ignorez habituellement",
+                            "guidance": "Remarquez les sons silencieux comme le bourdonnement électronique, le mouvement de l'air ou les bruits de tassement"
+                        }
+                    ]
+                },
+                "smell": {
+                    "title": "Prenez une respiration",
+                    "subtitle": "Trouvez 2 choses que vous pouvez sentir",
+                    "items": [
+                        {
+                            "text": "L'air dans cette pièce",
+                            "guidance": "Prenez une respiration lente et profonde - est-il frais, vicié, parfumé ou neutre ?"
+                        },
+                        {
+                            "text": "Quelque chose d'agréable ou de familier",
+                            "guidance": "Recherchez des odeurs subtiles - café, savon, adoucissant ou odeurs naturelles"
+                        }
+                    ]
+                },
+                "taste": {
+                    "title": "Remarquez le goût",
+                    "subtitle": "Trouvez 1 chose que vous pouvez goûter",
+                    "items": [
+                        {
+                            "text": "Le goût actuel dans votre bouche",
+                            "guidance": "Passez votre langue dans votre bouche - sucré, salé, mentholé ou juste le goût de la salive ?"
+                        }
+                    ]
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "Comment Fonctionne l'Ancrage 5-4-3-2-1",
+            "description1": "La technique 5-4-3-2-1 fonctionne en redirigeant l'attention de votre cerveau des pensées anxieuses vers les expériences sensorielles immédiates. Lorsque l'anxiété active le système de détection des menaces de votre cerveau, engager délibérément chacun de vos cinq sens crée des signaux neuronaux concurrents qui interrompent la réponse anxieuse.",
+            "description2": "En identifiant systématiquement les choses que vous pouvez voir, toucher, entendre, sentir et goûter, vous faites passer votre système nerveux d'un état d'hyperexcitation à une conscience du moment présent. Cet engagement sensoriel active le cortex préfrontal—le centre de raisonnement de votre cerveau—qui aide à réguler l'amygdale, le système d'alarme émotionnel qui déclenche l'anxiété.",
+            "description3": "La structure de compte à rebours (5-4-3-2-1) fournit un échafaudage cognitif qui donne à votre esprit une tâche concrète, l'empêchant de spiraler dans l'inquiétude tout en vous ancrant simultanément à votre environnement physique et au moment présent.",
+            "sensoryEngagement": {
+                "title": "Engagement Sensoriel",
+                "description": "Activer plusieurs sens simultanément crée de forts signaux neuronaux qui rivalisent avec et remplacent les schémas d'anxiété dans le cerveau."
+            },
+            "neuralInterruption": {
+                "title": "Interruption Neuronale",
+                "description": "La tâche de compte à rebours structurée engage votre cortex préfrontal, interrompant la réponse anxieuse de l'amygdale et restaurant la pensée rationnelle."
+            },
+            "presentMomentAnchoring": {
+                "title": "Ancrage dans le Moment Présent",
+                "description": "Identifier des détails sensoriels concrets enracine votre conscience dans l'ici et maintenant, brisant le cycle de la rumination passée ou de l'inquiétude future."
+            }
+        },
+        "science": {
+            "title": "La Science Derrière l'Ancrage 5-4-3-2-1",
+            "description": "La recherche démontre que les techniques d'ancrage sensoriel produisent des améliorations mesurables des symptômes d'anxiété dans diverses populations. Dans un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12550066/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">essai contrôlé randomisé de 121 enfants atteints du syndrome de Tourette</a>, les exercices d'ancrage ont conduit à une réduction de 36 points des scores d'anxiété—significativement supérieure aux témoins—avec des effets particulièrement forts sur l'anxiété de séparation (réduction de 11,31 points, taille d'effet 0,55) et l'anxiété sociale (réduction de 11,05 points, taille d'effet 0,65).",
+            "research": {
+                "anxietyReduction": {
+                    "title": "Réduction de l'Anxiété dans les Populations Cliniques",
+                    "description": "Chez les enfants atteints du syndrome de Tourette, un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12550066/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">protocole incorporant l'ancrage sensoriel</a> a atteint une réduction de 36,02 points des scores totaux d'anxiété, avec l'anxiété de séparation diminuant de 11,31 points (taille d'effet 0,55) et l'anxiété sociale de 11,05 points (taille d'effet 0,65)."
+                },
+                "mentalHealthImprovement": {
+                    "title": "Améliorations de la Santé Mentale et du Fonctionnement",
+                    "description": "Les patients atteints de troubles neurologiques fonctionnels utilisant la <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10272915/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">technique d'ancrage 5-4-3-2-1</a> ont montré une augmentation de 39 points des scores de santé mentale, une amélioration de 35 points du fonctionnement émotionnel et ont réduit de moitié leurs niveaux de déficience de 25,7 à 13,2 sur les échelles d'invalidité."
+                },
+                "symptomFrequencyReduction": {
+                    "title": "Réduction de la Fréquence des Symptômes",
+                    "description": "Une <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8515382/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">méta-analyse des traitements psychologiques</a> incorporant l'ancrage sensoriel a montré que 82% des patients ont atteint au moins 50% de réduction de la fréquence des crises fonctionnelles, avec des améliorations soutenues au suivi de 6 mois et des réductions accompagnantes des scores d'anxiété."
+                }
+            }
+        },
+        "whenToPractice": {
+            "title": "Quand Pratiquer",
+            "items": [
+                "Pendant les crises de panique ou les épisodes d'anxiété aiguë pour interrompre le cycle d'escalade",
+                "Lorsque vous vous sentez dépassé, dissocié ou déconnecté de votre environnement",
+                "Avant des événements stressants comme des présentations ou des conversations difficiles pour établir le calme",
+                "Après des déclencheurs traumatiques ou des flashbacks pour vous reconnecter au moment présent"
+            ]
+        },
+        "whatYoullNotice": {
+            "title": "Ce Que Vous Remarquerez",
+            "items": [
+                "Réduction immédiate des pensées qui s'emballent et du sentiment d'être submergé mentalement dans la première minute",
+                "Ralentissement du rythme cardiaque et diminution de la tension physique à mesure que votre système nerveux se calme",
+                "Pensée plus claire et capacité améliorée à répondre plutôt qu'à réagir aux situations",
+                "Plus grand sentiment de contrôle et de stabilité lorsque pratiqué régulièrement pendant le stress"
+            ]
+        },
+        "tips": {
+            "title": "Conseils Pour de Meilleurs Résultats",
+            "tip1": {
+                "title": "Allez Doucement",
+                "description": "Prenez votre temps pour identifier chaque détail sensoriel—se précipiter va à l'encontre du but. Passez 5-10 secondes à vraiment observer chaque élément que vous identifiez."
+            },
+            "tip2": {
+                "title": "Soyez Précis",
+                "description": "Au lieu de \"Je vois une chaise\", essayez \"Je vois une chaise en bois avec des accoudoirs courbés et un coussin rouge\". L'observation détaillée renforce l'effet d'ancrage."
+            },
+            "tip3": {
+                "title": "Répétez si Nécessaire",
+                "description": "Si l'anxiété revient après un tour, faites-en un autre immédiatement. Vous pouvez pratiquer cette technique autant de fois que nécessaire jusqu'à ce que vous vous sentiez ancré."
+            }
+        }
+    }
+}

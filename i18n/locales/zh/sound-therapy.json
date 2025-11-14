@@ -1,0 +1,165 @@
+{
+  "soundTherapy": {
+    "title": "声音疗法与频率疗愈",
+    "description": "体验治疗性频率和双耳节拍，通过科学支持的声音疗法促进深度放松、减少焦虑和增强专注力。",
+    "interface": {
+      "frequency": "频率",
+      "binauralBeats": "双耳节拍",
+      "modulation": "调制",
+      "volume": "音量",
+      "startSession": "开始声音疗法",
+      "stopSession": "停止会话"
+    },
+    "playingState": {
+      "description": "让治愈的振动包围你。专注于你的呼吸，让频率引导你进入深度放松。",
+      "instructions": "闭上眼睛，让振动深入渗透，为你的心灵和身体带来平静。"
+    },
+    "frequencies": [
+      {
+        "name": "396Hz",
+        "description": "从恐惧和内疚中解脱"
+      },
+      {
+        "name": "417Hz",
+        "description": "促进改变和转化"
+      },
+      {
+        "name": "528Hz",
+        "description": "爱的频率和DNA修复"
+      },
+      {
+        "name": "639Hz",
+        "description": "和谐关系"
+      },
+      {
+        "name": "741Hz",
+        "description": "唤醒直觉和表达"
+      },
+      {
+        "name": "852Hz",
+        "description": "回归精神秩序"
+      },
+      {
+        "name": "963Hz",
+        "description": "连接宇宙意识"
+      },
+      {
+        "name": "174Hz",
+        "description": "天然麻醉剂和疼痛缓解"
+      }
+    ],
+    "binauralBeats": [
+      {
+        "name": "无",
+        "description": "纯频率"
+      },
+      {
+        "name": "Delta 2Hz",
+        "description": "深度睡眠"
+      },
+      {
+        "name": "Theta 4Hz",
+        "description": "深度冥想"
+      },
+      {
+        "name": "Alpha 8Hz",
+        "description": "放松专注"
+      },
+      {
+        "name": "Beta 15Hz",
+        "description": "警觉意识"
+      }
+    ],
+    "modulation": [
+      {
+        "name": "关闭",
+        "description": "无调制"
+      },
+      {
+        "name": "非常微妙",
+        "description": "几乎察觉不到"
+      },
+      {
+        "name": "柔和",
+        "description": "柔和的呼吸效果"
+      },
+      {
+        "name": "中等",
+        "description": "明显的波动"
+      },
+      {
+        "name": "强烈",
+        "description": "深度脉动"
+      }
+    ],
+    "howItWorks": {
+      "title": "声音疗法的工作原理",
+      "description1": "声音疗法使用特定频率和双耳节拍直接影响大脑的电活动。当你在每只耳朵中听到两个略有不同的音调时，你的大脑会创造出第三个「幻影」频率——双耳节拍——它可以引导你的脑波进入深度放松、专注或平静的状态。",
+      "description2": "不同的频率与神经系统的不同部分产生共鸣。θ波（4-8赫兹）促进冥想和焦虑缓解，而α波（8-12赫兹）增强放松的警觉性。纯音调还在身体组织中产生共鸣振动，促进身体放松和精神平静。",
+      "description3": "通过持续使用，声音疗法可以帮助重新训练神经系统的基线状态，即使没有音频也能更容易地获得平静。研究表明，这些效果可在脑部扫描、心率变异性和压力激素水平中测量。",
+      "brainwaveEntrainment": {
+        "title": "脑波同步",
+        "description": "你的大脑与外部节律刺激同步，引导电活动进入治疗模式。"
+      },
+      "autonomicBalance": {
+        "title": "自主平衡",
+        "description": "特定频率激活副交感神经系统，降低心率并减少皮质醇产生。"
+      },
+      "physiologicalResonance": {
+        "title": "生理共振",
+        "description": "声音振动在整个身体中产生微妙的物理效应，释放肌肉紧张并促进循环。"
+      }
+    },
+    "science": {
+      "title": "声音疗法背后的科学",
+      "description": "声音疗法得到了严格临床研究的支持，这些研究证明了焦虑、压力和生理紧张的可测量减少。一项<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5871151/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">包含62名参与者的研究</a>显示，藏式颂钵冥想总体降低焦虑评分0.67分，初学者降低0.89分，紧张度降低1.12分。多项试验证实，基于声音的干预产生一致、可测量的益处。",
+      "research": {
+        "proceduralAnxiety": {
+          "title": "程序性焦虑减少",
+          "description": "在112名接受支气管镜检查的患者中，<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9276398/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">双耳节拍音频</a>将焦虑评分降低7.26分，收缩压降低9.89毫米汞柱——显著优于音乐或无干预。"
+        },
+        "thetaBeatsAddiction": {
+          "title": "θ节拍治疗共病焦虑",
+          "description": "对30名阿片类药物依赖男性进行的八次20分钟<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11811546/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">7.5赫兹θ双耳节拍</a>，将焦虑量表评分从27.47降至10.00——改善64%，效应量大（η²=0.949）。"
+        },
+        "emergencyStaff": {
+          "title": "高压环境中的压力缓解",
+          "description": "在COVID-19期间的54名急诊护士中，<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9534204/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">15分钟432赫兹音乐</a>将中位焦虑评分从34降至29，呼吸频率降低2.7次/分钟，收缩压降低3.8毫米汞柱。"
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "何时练习",
+      "items": [
+        "当你感到不知所措、焦虑或无法平静心灵时",
+        "在医疗程序、压力事件或重要对话之前，以平静你的神经系统",
+        "在急性焦虑或恐慌发作期间，以中断压力反应",
+        "在睡前促进深度放松并准备恢复性睡眠"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "你会注意到什么",
+      "items": [
+        "在最初1-2分钟内，随着神经系统开始反应，立即产生平静效果",
+        "全身心率减慢、呼吸加深、肌肉紧张减少",
+        "增强的精神清晰度和与焦虑想法的情感距离",
+        "定期练习的累积韧性——你的基线压力水平随着时间的推移逐渐降低"
+      ]
+    },
+    "tips": {
+      "title": "获得最佳效果的提示",
+      "headphones": {
+        "title": "耳机",
+        "description": "使用立体声耳机以使双耳节拍正常工作。每只耳朵必须听到不同的频率。"
+      },
+      "environment": {
+        "title": "环境",
+        "description": "找一个安静、舒适的空间，不会被打扰。昏暗的灯光或闭上眼睛可以增强对声音的专注。"
+      },
+      "consistency": {
+        "title": "一致性",
+        "description": "每天练习10-20分钟以获得最佳效果。脑波同步随着定期接触变得更加有效。"
+      }
+    }
+  }
+}

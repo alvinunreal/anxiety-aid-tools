@@ -1,0 +1,74 @@
+{
+  "stressReliefBubbles": {
+    "resetButton": "Réinitialiser les Bulles",
+    "howItWorks": {
+      "title": "Comment Fonctionne la Distraction Tactile",
+      "description1": "Les bulles anti-stress fonctionnent grâce à un mécanisme simple mais puissant : la distraction tactile. Lorsque vous appuyez et faites éclater les bulles, votre cerveau déplace son attention des pensées anxieuses vers la sensation physique immédiate. Cet engagement sensoriel active différentes voies neuronales, interrompant les schémas de rumination.",
+      "description2": "L'éclatement satisfaisant crée une boucle de rétroaction : vous effectuez une action, recevez une récompense sensorielle immédiate (le son d'éclatement et la sensation tactile), et ressentez une petite libération de tension. Répéter ce processus sur plusieurs bulles fournit une distraction soutenue tandis que le mouvement rythmique et répétitif a un effet naturellement calmant sur le système nerveux.",
+      "description3": "Avec une utilisation régulière, les outils tactiles comme ceux-ci peuvent aider à construire des réponses au stress plus saines. Votre cerveau apprend à rediriger l'énergie anxieuse vers une action physique et contrôlable plutôt que de spiraler dans l'inquiétude.",
+      "focusRedirection": {
+        "title": "Réorientation de l'Attention",
+        "description": "Déplace l'attention des pensées anxieuses vers la sensation physique immédiate"
+      },
+      "sensoryFeedback": {
+        "title": "Rétroaction Sensorielle",
+        "description": "Sons d'éclatement et sensation tactile créent une boucle de rétroaction gratifiante"
+      },
+      "nervousSystemCalm": {
+        "title": "Calme du Système Nerveux",
+        "description": "Le mouvement répétitif déclenche une réponse de relaxation naturelle"
+      }
+    },
+    "science": {
+      "title": "La Science Derrière le Soulagement Tactile du Stress",
+      "description": "La recherche démontre que les outils de distraction tactile peuvent réduire significativement l'anxiété dans des situations stressantes. Un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8488815/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">essai contrôlé randomisé d'enfants lors de procédures dentaires</a> a constaté que l'utilisation d'un fidget spinner réduisait les scores d'anxiété de 3 points et diminuait le pouls de 15,54 battements par minute par rapport aux témoins (p < 0,001).",
+      "research": {
+        "pediatricAnxiety": {
+          "title": "Soulagement de l'Anxiété Pédiatrique",
+          "description": "Dans une <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12381172/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">étude portant sur 90 enfants âgés de 6 à 12 ans lors d'une cathétérisation IV</a>, l'utilisation d'une balle anti-stress a réduit les scores moyens d'anxiété de 4,9 à 1,0 sur le test d'image de Venham (p < 0,001)—une réduction de 80%. La perception de la douleur a également chuté de façon spectaculaire, avec des scores de 14,5 contre 50,5 chez les témoins."
+        },
+        "medicalProcedures": {
+          "title": "Stress des Procédures Médicales",
+          "description": "Un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11366058/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">essai de 120 patients subissant une angiographie</a> a montré que l'utilisation d'une balle anti-stress réduisait les scores de l'Inventaire d'Anxiété État-Trait de 15,89 à 14,92, tandis que les témoins augmentaient de 11,30 à 12,67 (p = 0,019). Les participants masculins ont vu leurs scores chuter de 16,59 à 11,93."
+        },
+        "attentionSupport": {
+          "title": "Attention Soutenue",
+          "description": "Une recherche sur <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11246969/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">70 adultes atteints de TDAH effectuant des tâches cognitives</a> a constaté que des niveaux plus élevés d'agitation étaient corrélés avec des réponses correctes (score t de 10,72, p < 0,001). L'agitation passait de 2,3 à 3,5 occurrences à travers les essais tout en maintenant une précision de 96,3%, suggérant qu'elle aide à maintenir l'éveil sans nuire aux performances."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Quand Pratiquer",
+      "items": [
+        "Lorsque vous ressentez une énergie agitée ou avez besoin d'occuper vos mains pendant l'anxiété",
+        "Pendant les périodes d'attente ou avant des événements stressants lorsque vous avez besoin de distraction",
+        "Lorsque les pensées anxieuses s'accélèrent et que vous devez briser le cycle",
+        "Comme réinitialisation rapide entre les tâches pour libérer la tension accumulée"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Ce Que Vous Remarquerez",
+      "items": [
+        "Satisfaction immédiate de chaque éclatement et rétroaction sensorielle",
+        "Déplacement progressif de l'attention des pensées anxieuses vers l'activité",
+        "Libération physique de l'énergie agitée et des envies de bouger",
+        "État plus calme après avoir terminé une ronde complète d'éclatement de bulles"
+      ]
+    },
+    "tips": {
+      "title": "Conseils Pour de Meilleurs Résultats",
+      "posture": {
+        "title": "Rythme",
+        "description": "Faites éclater les bulles à votre propre rythme—rapide pour libérer l'énergie, lent pour un calme méthodique. Il n'y a pas de bonne vitesse."
+      },
+      "environment": {
+        "title": "Son",
+        "description": "Le son d'éclatement ajoute à l'expérience. Utilisez-le là où vous êtes à l'aise ou coupez le son si nécessaire dans les espaces calmes."
+      },
+      "consistency": {
+        "title": "Répétition",
+        "description": "Plusieurs rounds sont acceptables. Réinitialisez et répétez autant de fois que nécessaire pour libérer complètement la tension."
+      }
+    }
+  }
+}

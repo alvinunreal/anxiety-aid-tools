@@ -1,0 +1,74 @@
+{
+  "stressReliefBubbles": {
+    "resetButton": "重置气泡",
+    "howItWorks": {
+      "title": "触觉分散注意力的工作原理",
+      "description1": "减压气泡通过一个简单但强大的机制发挥作用：触觉分散注意力。当你按压和戳破气泡时，你的大脑会将注意力从焦虑的想法转移到立即的身体感觉上。这种感官参与激活了不同的神经通路，打断了反刍模式。",
+      "description2": "令人满意的爆裂声创造了一个反馈循环——你采取行动，获得立即的感官奖励（爆裂声和触觉感受），并体验到轻微的紧张释放。在多个气泡上重复这个过程提供了持续的分散注意力，而有节奏的重复运动对神经系统有天然的镇静作用。",
+      "description3": "通过持续使用，像这样的触觉工具可以帮助建立更健康的压力反应。你的大脑学会将焦虑的能量重新导向到一个可以控制的身体动作上，而不是陷入担忧的漩涡。",
+      "focusRedirection": {
+        "title": "焦点重新定向",
+        "description": "将注意力从焦虑想法转移到立即身体感觉"
+      },
+      "sensoryFeedback": {
+        "title": "感官反馈",
+        "description": "爆裂声和触觉感受创造出令人满意的反馈循环"
+      },
+      "nervousSystemCalm": {
+        "title": "神经系统平静",
+        "description": "重复运动触发自然放松反应"
+      }
+    },
+    "science": {
+      "title": "触觉减压背后的科学",
+      "description": "研究表明，触觉分散注意力工具可以显著减少压力情况下的焦虑。一项<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8488815/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">针对牙科治疗期间儿童的随机对照试验</a>发现，使用指尖陀螺将焦虑评分降低了3分，并将脉搏频率降低了每分钟15.54次，与对照组相比（p < 0.001）。",
+      "research": {
+        "pediatricAnxiety": {
+          "title": "儿科焦虑缓解",
+          "description": "在一项<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12381172/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">针对90名6-12岁儿童进行静脉置管的研究</a>中，使用压力球将平均焦虑评分从4.9降至1.0（Venham图片测试）（p < 0.001）——减少了80%。疼痛感知也大幅下降，评分为14.5对照组为50.5。"
+        },
+        "medicalProcedures": {
+          "title": "医疗程序压力",
+          "description": "一项<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11366058/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">包括120名接受血管造影患者的试验</a>显示，使用压力球将状态-特质焦虑量表评分从15.89降至14.92，而对照组从11.30增至12.67（p = 0.019）。男性参与者的评分从16.59降至11.93。"
+        },
+        "attentionSupport": {
+          "title": "持续注意力",
+          "description": "对<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11246969/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">70名患有ADHD的成年人进行认知任务的研究</a>发现，更高水平的坐立不安与正确答案相关（t值为10.72，p < 0.001）。坐立不安从2.3次增加到3.5次，同时保持96.3%的准确率，表明它有助于维持唤醒而不损害表现。"
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "何时练习",
+      "items": [
+        "当你感到不安的能量或在焦虑期间需要让手忙碌起来",
+        "在等待期间或在压力事件之前，当你需要分散注意力时",
+        "当焦虑的想法加速，你需要打破循环时",
+        "作为任务之间的快速重置，以释放累积的紧张"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "你会注意到什么",
+      "items": [
+        "每次爆裂和感官反馈带来的即时满足感",
+        "注意力逐渐从焦虑想法转移到活动上",
+        "不安能量和坐立不安冲动的身体释放",
+        "完成一整轮戳破气泡后更平静的状态"
+      ]
+    },
+    "tips": {
+      "title": "获得最佳效果的提示",
+      "posture": {
+        "title": "节奏",
+        "description": "以自己的节奏戳破气泡——快速释放能量，缓慢有条不紊地平静。没有正确的速度。"
+      },
+      "environment": {
+        "title": "声音",
+        "description": "爆裂声增加了体验。在你感到舒适的地方使用它，或在安静的空间中根据需要静音。"
+      },
+      "consistency": {
+        "title": "重复",
+        "description": "多轮完全没问题。根据需要重置和重复多次以完全释放紧张。"
+      }
+    }
+  }
+}

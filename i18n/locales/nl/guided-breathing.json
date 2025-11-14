@@ -1,0 +1,142 @@
+{
+  "guidedBreathing": {
+    "interface": {
+      "begin": "Beginnen",
+      "elapsed": "verstreken",
+      "sessionProgress": "Sessievoortgang",
+      "currentPhase": "Huidige Fase",
+      "beginExercise": "Begin Oefening",
+      "resume": "Hervatten",
+      "pause": "Pauzeren",
+      "stop": "Stoppen",
+      "exerciseComplete": "Oefening Voltooid",
+      "excellentWork": "Uitstekend werk! Je hebt {completedCycles} cycli van {techniqueName} voltooid in {totalTime}.",
+      "breathingOptimized": "Ademhaling geoptimaliseerd",
+      "mindCentered": "Geest gecentreerd",
+      "ready": "klaar",
+      "breatheIn": "inademen",
+      "breatheOut": "uitademen",
+      "hold": "vasthouden",
+      "seconds": "seconden",
+      "cycles": "cycli",
+      "pattern": "patroon"
+    },
+    "techniques": {
+      "boxBreathing": {
+        "name": "Boxademhaling",
+        "description": "Gelijke timing voor kalme focus",
+        "timing": "4-4-4-4",
+        "bestFor": "Focus & concentratie"
+      },
+      "calming": {
+        "name": "4-7-8 Techniek",
+        "description": "Verlengde vasthouden voor diepe ontspanning",
+        "timing": "4-7-8",
+        "bestFor": "Diepe ontspanning & slaap"
+      },
+      "energizing": {
+        "name": "Energiek 4-4-6",
+        "description": "Gebalanceerd patroon voor alertheid",
+        "timing": "4-4-6",
+        "bestFor": "Energie & mentale helderheid"
+      },
+      "quickReset": {
+        "name": "Snelle Reset",
+        "description": "Snelle techniek voor onmiddellijke verlichting",
+        "timing": "3-3-3",
+        "bestFor": "Snelle stressverlichting"
+      }
+    },
+    "techniquesOverview": {
+      "boxBreathing": {
+        "title": "Boxademhaling (4-4-4-4)",
+        "description": "Gelijke timing voor alle fasen creëert mentale helderheid en focus. Gebruikt door Navy SEALs en hulpdiensten om kalm te blijven onder druk. Het symmetrische patroon helpt je zenuwstelsel te reguleren en concentratie te verbeteren.",
+        "bestFor": "Het beste voor: Focus, concentratie, stressmanagement"
+      },
+      "calming": {
+        "title": "4-7-8 Kalmerend",
+        "description": "Verlengd vasthouden stelt zuurstof in staat je bloed volledig te verzadigen, terwijl de lange uitademing je parasympathische zenuwstelsel activeert. Deze techniek is bijzonder effectief voor het verminderen van angst en voorbereiding op slaap.",
+        "bestFor": "Het beste voor: Angstverlichting, slaapvoorbereiding, diepe ontspanning"
+      },
+      "energizing": {
+        "title": "4-4-6 Energiek",
+        "description": "Gebalanceerd patroon dat de zuurstofstroom verhoogt terwijl controle behouden blijft. De gematigde uitademing helpt mentale mist op te klaren en alertheid te verhogen zonder hyperventilatie te veroorzaken.",
+        "bestFor": "Het beste voor: Mentale helderheid, energieboost, middagreset"
+      },
+      "quickReset": {
+        "title": "3-3-3 Snelle Reset",
+        "description": "Sneller ritme voor onmiddellijke stressverlichting wanneer je slechts een minuut of twee hebt. Perfect voor momenten van acute angst of wanneer je snelle emotionele regulatie nodig hebt.",
+        "bestFor": "Het beste voor: Snelle stressverlichting, noodkalm, drukke agenda's"
+      }
+    },
+    "howItWorks": {
+      "title": "Hoe Begeleide Ademhaling Werkt",
+      "description1": "Gestructureerde ademhalingspatronen werken door je zenuwstelsel duidelijke, ritmische signalen te geven die je van stressmodus naar kalme modus brengen. Wanneer je een specifieke telling volgt—zoals 4-7-8 of boxademhaling—neem je controle over een automatisch proces, wat de nervus vagus activeert die je hersenen verbindt met je hart en spijsverteringssysteem.",
+      "description2": "Verschillende patronen dienen verschillende doeleinden. Gelijke timing (zoals boxademhaling) creëert mentale helderheid en focus door je zenuwstelsel in balans te brengen. Verlengde uitademingen (zoals 4-7-8) veroorzaken diepere ontspanning door je parasympathische zenuwstelsel sterker te activeren. Kortere patronen bieden snelle verlichting wanneer je onmiddellijke rust nodig hebt.",
+      "description3": "Het tellen zelf is therapeutisch—het geeft je geest iets concreets om op te focussen, onderbreekt angstige gedachten terwijl je lichaam natuurlijk het ritme volgt naar een kalmere staat.",
+      "rhythmicControl": {
+        "title": "Ritmische Controle",
+        "description": "Het volgen van een specifieke telling geeft je geest focus terwijl het je zenuwstelsel signaleert om van stress naar rust te gaan."
+      },
+      "patternVariety": {
+        "title": "Patroonvariëteit",
+        "description": "Verschillende ademhalingsverhoudingen dienen verschillende behoeften—gelijke timing voor focus, verlengde uitademingen voor diepe ontspanning, kortere patronen voor snelle verlichting."
+      },
+      "neuralRegulation": {
+        "title": "Neurale Regulatie",
+        "description": "Gestructureerde ademhaling activeert de nervus vagus, die je hartslag, spijsvertering en stressrespons regelt, en systematische kalmte bevordert."
+      }
+    },
+    "science": {
+      "title": "De Wetenschap Achter Begeleide Ademhaling",
+      "description": "Meerdere klinische onderzoeken tonen aan dat begeleide ademhalingstechnieken meetbare verminderingen in angst, stresshormonen en fysiologische opwinding produceren. Een <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5455070/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">8-weeksprogramma met 20 sessies van 15 minuten diafragmatische ademhaling</a> bij 4 ademhalingen per minuut verminderde negatief affect met 2,55 punten op de PANAS-schaal en verlaagde speekselcortisolniveaus met 1,32-1,66 ng/mL bij gezonde volwassenen.",
+      "research": {
+        "anxietyReduction": {
+          "title": "Snelle Angstvermindering",
+          "description": "Bij COVID-19-patiënten verminderde <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11535222/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">5 dagen begeleide diepe ademhaling</a> (4 dagelijkse sessies, 15-20 minuten elk) angstscores op DASS-21 van 14,86 naar 8,44—een verbetering van 43%—terwijl controles minimale verandering toonden."
+        },
+        "panicReduction": {
+          "title": "Paniekaaanval Beheer",
+          "description": "Een <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9954474/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">overzicht van 16 studies</a> vond dat langzame ademhaling bij 8-10 ademhalingen per minuut gedurende 2-12 maanden de frequentie van paniekaanvallen verminderde en CO2-niveaus normaliseerde van hypocapnisch naar 35-40 mmHg bij patiënten met paniekstoornis en agorafobie."
+        },
+        "gadImprovement": {
+          "title": "Gegeneraliseerde Angstverlichting",
+          "description": "Bij 41 GAD-patiënten verminderde <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8989478/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3 maanden dagelijkse ademhalingspraktijk</a> (15-20 minuten, 4+ dagen/week) BAI-scores van 40,90 naar 13,24—een verbetering van 68%—en GAD-7-scores van 19,33 naar 5,86."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Wanneer Te Oefenen",
+      "items": [
+        "Wanneer je je angstig of overweldigd voelt en onmiddellijke verlichting nodig hebt",
+        "Voor het slapen om racende gedachten te kalmeren en je voor te bereiden op rust",
+        "Tijdens stressvolle werksituaties of voor belangrijke gebeurtenissen",
+        "Als dagelijkse praktijk om langetermijn stressbestendigheid op te bouwen"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Wat Je Zult Merken",
+      "items": [
+        "Onmiddellijk kalmerend effect binnen de eerste 1-2 minuten van oefening",
+        "Langzamere hartslag en verminderde fysieke spanning door je hele lichaam",
+        "Helderder denken naarmate de zuurstofstroom verbetert en angstige gedachten kalmeren",
+        "Beter vermogen om met stress om te gaan met consistente dagelijkse praktijk"
+      ]
+    },
+    "tips": {
+      "title": "Tips Voor Beste Resultaten",
+      "technique": {
+        "title": "Techniek",
+        "description": "Begin met één patroon voor minstens een week voordat je andere probeert. Consistentie met een enkele techniek bouwt diepere vertrouwdheid en effectiviteit op."
+      },
+      "environment": {
+        "title": "Omgeving",
+        "description": "Vind een rustige ruimte waar je niet gestoord wordt. Zit comfortabel met je rug ondersteund en schouders ontspannen."
+      },
+      "progression": {
+        "title": "Progressie",
+        "description": "Begin met kortere sessies (2-3 minuten) en verleng geleidelijk naarmate het comfort toeneemt. Forceer de ademhaling niet—vind je natuurlijke ritme binnen het patroon."
+      }
+    }
+  }
+}

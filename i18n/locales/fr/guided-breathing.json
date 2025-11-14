@@ -1,0 +1,142 @@
+{
+  "guidedBreathing": {
+    "interface": {
+      "begin": "Commencer",
+      "elapsed": "écoulé",
+      "sessionProgress": "Progression de la Session",
+      "currentPhase": "Phase Actuelle",
+      "beginExercise": "Commencer l'Exercice",
+      "resume": "Reprendre",
+      "pause": "Pause",
+      "stop": "Arrêter",
+      "exerciseComplete": "Exercice Terminé",
+      "excellentWork": "Excellent travail ! Vous avez terminé {completedCycles} cycles de {techniqueName} en {totalTime}.",
+      "breathingOptimized": "Respiration optimisée",
+      "mindCentered": "Esprit centré",
+      "ready": "prêt",
+      "breatheIn": "inspirer",
+      "breatheOut": "expirer",
+      "hold": "retenir",
+      "seconds": "secondes",
+      "cycles": "cycles",
+      "pattern": "motif"
+    },
+    "techniques": {
+      "boxBreathing": {
+        "name": "Respiration Carrée",
+        "description": "Timing égal pour une concentration calme",
+        "timing": "4-4-4-4",
+        "bestFor": "Focus et concentration"
+      },
+      "calming": {
+        "name": "Technique 4-7-8",
+        "description": "Rétention prolongée pour une relaxation profonde",
+        "timing": "4-7-8",
+        "bestFor": "Relaxation profonde et sommeil"
+      },
+      "energizing": {
+        "name": "Énergisant 4-4-6",
+        "description": "Motif équilibré pour la vigilance",
+        "timing": "4-4-6",
+        "bestFor": "Énergie et clarté mentale"
+      },
+      "quickReset": {
+        "name": "Réinitialisation Rapide",
+        "description": "Technique rapide pour un soulagement immédiat",
+        "timing": "3-3-3",
+        "bestFor": "Soulagement rapide du stress"
+      }
+    },
+    "techniquesOverview": {
+      "boxBreathing": {
+        "title": "Respiration Carrée (4-4-4-4)",
+        "description": "Un timing égal pour toutes les phases crée clarté mentale et concentration. Utilisé par les Navy SEALs et les services d'urgence pour maintenir le calme sous pression. Le motif symétrique aide à réguler votre système nerveux et améliorer la concentration.",
+        "bestFor": "Idéal pour : Focus, concentration, gestion du stress"
+      },
+      "calming": {
+        "title": "4-7-8 Calmant",
+        "description": "La rétention prolongée permet à l'oxygène de saturer complètement votre sang, tandis que l'expiration longue active votre système nerveux parasympathique. Cette technique est particulièrement efficace pour réduire l'anxiété et préparer au sommeil.",
+        "bestFor": "Idéal pour : Soulagement de l'anxiété, préparation au sommeil, relaxation profonde"
+      },
+      "energizing": {
+        "title": "4-4-6 Énergisant",
+        "description": "Motif équilibré qui augmente le flux d'oxygène tout en maintenant le contrôle. L'expiration modérée aide à dissiper le brouillard mental et stimuler la vigilance sans provoquer d'hyperventilation.",
+        "bestFor": "Idéal pour : Clarté mentale, regain d'énergie, réinitialisation en milieu de journée"
+      },
+      "quickReset": {
+        "title": "3-3-3 Réinitialisation Rapide",
+        "description": "Rythme plus rapide pour un soulagement immédiat du stress lorsque vous n'avez qu'une ou deux minutes. Parfait pour les moments d'anxiété aiguë ou lorsque vous avez besoin d'une régulation émotionnelle rapide.",
+        "bestFor": "Idéal pour : Soulagement rapide du stress, calme d'urgence, emplois du temps chargés"
+      }
+    },
+    "howItWorks": {
+      "title": "Comment Fonctionne la Respiration Guidée",
+      "description1": "Les motifs de respiration structurés fonctionnent en donnant à votre système nerveux des signaux clairs et rythmiques qui vous font passer du mode stress au mode calme. Lorsque vous suivez un compte spécifique—comme 4-7-8 ou la respiration carrée—vous prenez le contrôle d'un processus automatique, ce qui active le nerf vague reliant votre cerveau à votre cœur et système digestif.",
+      "description2": "Différents motifs servent différents objectifs. Un timing égal (comme la respiration carrée) crée clarté mentale et concentration en équilibrant votre système nerveux. Les expirations prolongées (comme 4-7-8) déclenchent une relaxation plus profonde en activant plus fortement votre système nerveux parasympathique. Les motifs plus courts procurent un soulagement rapide lorsque vous avez besoin d'un calme immédiat.",
+      "description3": "Le comptage lui-même est thérapeutique—il donne à votre esprit quelque chose de concret sur lequel se concentrer, interrompant les pensées anxieuses tandis que votre corps suit naturellement le rythme vers un état plus calme.",
+      "rhythmicControl": {
+        "title": "Contrôle Rythmique",
+        "description": "Suivre un compte spécifique donne à votre esprit une concentration tout en signalant à votre système nerveux de passer du stress au calme."
+      },
+      "patternVariety": {
+        "title": "Variété de Motifs",
+        "description": "Différents rapports de respiration servent différents besoins—timing égal pour la concentration, expirations prolongées pour la relaxation profonde, motifs plus courts pour un soulagement rapide."
+      },
+      "neuralRegulation": {
+        "title": "Régulation Neurale",
+        "description": "La respiration structurée active le nerf vague, qui contrôle votre fréquence cardiaque, digestion et réponse au stress, favorisant un calme systématique."
+      }
+    },
+    "science": {
+      "title": "La Science Derrière la Respiration Guidée",
+      "description": "Plusieurs essais cliniques démontrent que les techniques de respiration guidée produisent des réductions mesurables de l'anxiété, des hormones du stress et de l'excitation physiologique. Un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5455070/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">programme de 8 semaines avec 20 séances de 15 minutes de respiration diaphragmatique</a> à 4 respirations par minute a réduit l'affect négatif de 2,55 points sur l'échelle PANAS et diminué les niveaux de cortisol salivaire de 1,32-1,66 ng/mL chez les adultes en bonne santé.",
+      "research": {
+        "anxietyReduction": {
+          "title": "Réduction Rapide de l'Anxiété",
+          "description": "Chez les patients COVID-19, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11535222/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">5 jours de respiration profonde guidée</a> (4 séances quotidiennes, 15-20 minutes chacune) ont réduit les scores d'anxiété sur DASS-21 de 14,86 à 8,44—une amélioration de 43%—tandis que les témoins ont montré un changement minime."
+        },
+        "panicReduction": {
+          "title": "Gestion des Attaques de Panique",
+          "description": "Une <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9954474/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">revue de 16 études</a> a révélé qu'une respiration lente à 8-10 respirations par minute pendant 2-12 mois a réduit la fréquence des attaques de panique et normalisé les niveaux de CO2 d'hypocapnique à 35-40 mmHg chez les patients atteints de trouble panique et d'agoraphobie."
+        },
+        "gadImprovement": {
+          "title": "Soulagement de l'Anxiété Généralisée",
+          "description": "Chez 41 patients TAG, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8989478/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3 mois de pratique quotidienne de respiration</a> (15-20 minutes, 4+ jours/semaine) ont réduit les scores BAI de 40,90 à 13,24—une amélioration de 68%—et les scores GAD-7 de 19,33 à 5,86."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Quand Pratiquer",
+      "items": [
+        "Lorsque vous vous sentez anxieux ou submergé et avez besoin d'un soulagement immédiat",
+        "Avant le sommeil pour calmer les pensées qui s'emballent et préparer au repos",
+        "Pendant des situations de travail stressantes ou avant des événements importants",
+        "Comme pratique quotidienne pour développer une résilience au stress à long terme"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Ce Que Vous Remarquerez",
+      "items": [
+        "Effet calmant immédiat dans les 1-2 premières minutes de pratique",
+        "Fréquence cardiaque plus lente et tension physique réduite dans tout votre corps",
+        "Pensée plus claire à mesure que le flux d'oxygène s'améliore et que les pensées anxieuses s'apaisent",
+        "Meilleure capacité à gérer le stress avec une pratique quotidienne régulière"
+      ]
+    },
+    "tips": {
+      "title": "Conseils Pour de Meilleurs Résultats",
+      "technique": {
+        "title": "Technique",
+        "description": "Commencez avec un motif pendant au moins une semaine avant d'en essayer d'autres. La cohérence avec une seule technique développe une familiarité et une efficacité plus profondes."
+      },
+      "environment": {
+        "title": "Environnement",
+        "description": "Trouvez un espace calme où vous ne serez pas interrompu. Asseyez-vous confortablement avec le dos soutenu et les épaules détendues."
+      },
+      "progression": {
+        "title": "Progression",
+        "description": "Commencez par des séances plus courtes (2-3 minutes) et prolongez progressivement à mesure que le confort augmente. Ne forcez pas la respiration—trouvez votre rythme naturel dans le motif."
+      }
+    }
+  }
+}

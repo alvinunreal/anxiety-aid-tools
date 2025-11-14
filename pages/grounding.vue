@@ -6,161 +6,60 @@
     <!-- Exercise Component -->
     <GroundingExercise />
 
-    <!-- Educational Content -->
     <!-- How It Works -->
-    <section>
-      <div class="border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-800/60 p-6 transition-colors duration-200">
-        <SectionHeader icon="ph:brain" color="green">
-          {{ $t("grounding.howItWorks.title") }}
-        </SectionHeader>
-        <div class="grid gap-6 md:grid-cols-2">
-          <div>
-            <h3 class="mb-2 font-semibold text-gray-800 dark:text-slate-100">{{ $t("grounding.howItWorks.neurological.title") }}</h3>
-            <p class="mb-3 text-sm leading-relaxed text-gray-700 dark:text-slate-300">
-              {{ $t("grounding.howItWorks.neurological.description") }}
-            </p>
-            <p class="text-sm leading-relaxed text-gray-700 dark:text-slate-300">
-              {{ $t("grounding.howItWorks.neurological.awareness") }}
-            </p>
-          </div>
-          <div>
-            <h3 class="mb-2 font-semibold text-gray-800 dark:text-slate-100">{{ $t("grounding.howItWorks.stability.title") }}</h3>
-            <p class="mb-3 text-sm leading-relaxed text-gray-700 dark:text-slate-300">
-              {{ $t("grounding.howItWorks.stability.description") }}
-            </p>
-            <p class="text-sm leading-relaxed text-gray-700 dark:text-slate-300">
-              {{ $t("grounding.howItWorks.stability.grounding") }}
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <InfoHowItWorks
+      i18n-key="grounding.howItWorks"
+      icon="ph:hand-eye"
+      color="gray"
+      :paragraphs="['description1', 'description2', 'description3']"
+      :items="[
+        { key: 'sensoryEngagement', icon: 'ph:eye' },
+        { key: 'neuralInterruption', icon: 'ph:brain' },
+        { key: 'presentMomentAnchoring', icon: 'ph:anchor' }
+      ]"
+      :columns="3"
+    />
 
-    <!-- Scientific Background -->
-    <section>
-      <div class="border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-800/60 p-6 transition-colors duration-200">
-        <SectionHeader icon="ph:flask" color="purple">
-          {{ $t("grounding.science.title") }}
-        </SectionHeader>
-        
-        <div class="mb-4">
-          <p class="text-sm leading-relaxed text-gray-700 dark:text-slate-300" v-html="$t('grounding.science.description')"></p>
-        </div>
+    <!-- Science Behind -->
+    <InfoScienceBehind
+      i18n-key="grounding.science"
+      :research-items="[
+        { key: 'anxietyReduction', icon: 'ph:trend-down' },
+        { key: 'mentalHealthImprovement', icon: 'ph:heart-half' },
+        { key: 'symptomFrequencyReduction', icon: 'ph:chart-line-down' }
+      ]"
+    />
 
-        <div class="grid gap-4 md:grid-cols-3">
-          <div class="border border-purple-200 dark:border-purple-600 bg-purple-50 dark:bg-purple-900/20 p-4 transition-colors duration-200">
-            <div class="mb-2 flex items-center">
-              <Icon name="ph:gear" class="mr-2 text-purple-600 dark:text-purple-400" />
-              <span class="text-sm font-medium text-gray-800 dark:text-slate-100">{{ $t("grounding.science.research.regulation.title") }}</span>
-            </div>
-            <p class="text-xs text-gray-600 dark:text-slate-300" v-html="$t('grounding.science.research.regulation.description')"></p>
-          </div>
-          
-          <div class="border border-purple-200 dark:border-purple-600 bg-purple-50 dark:bg-purple-900/20 p-4 transition-colors duration-200">
-            <div class="mb-2 flex items-center">
-              <Icon name="ph:heart" class="mr-2 text-purple-600 dark:text-purple-400" />
-              <span class="text-sm font-medium text-gray-800 dark:text-slate-100">{{ $t("grounding.science.research.anxiety.title") }}</span>
-            </div>
-            <p class="text-xs text-gray-600 dark:text-slate-300" v-html="$t('grounding.science.research.anxiety.description')"></p>
-          </div>
-          
-          <div class="border border-purple-200 dark:border-purple-600 bg-purple-50 dark:bg-purple-900/20 p-4 transition-colors duration-200">
-            <div class="mb-2 flex items-center">
-              <Icon name="ph:shield-check" class="mr-2 text-purple-600 dark:text-purple-400" />
-              <span class="text-sm font-medium text-gray-800 dark:text-slate-100">{{ $t("grounding.science.research.stability.title") }}</span>
-            </div>
-            <p class="text-xs text-gray-600 dark:text-slate-300" v-html="$t('grounding.science.research.stability.description')"></p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- When & What -->
+    <InfoWhenAndWhat
+      i18n-key="grounding"
+      :when-section="{
+        icon: 'ph:calendar-check',
+        color: 'blue',
+        items: [
+          { icon: 'ph:warning-circle', iconClass: 'text-red-500' },
+          { icon: 'ph:ghost', iconClass: 'text-gray-400' },
+          { icon: 'ph:presentation-chart', iconClass: 'text-blue-500' },
+          { icon: 'ph:lightning', iconClass: 'text-yellow-500' }
+        ]
+      }"
+      :what-section="{
+        icon: 'ph:trend-up',
+        color: 'green',
+        items: [
+          { icon: 'ph:timer', iconClass: 'text-blue-400' },
+          { icon: 'ph:heart-half', iconClass: 'text-red-400' },
+          { icon: 'ph:lightbulb', iconClass: 'text-yellow-400' },
+          { icon: 'ph:shield-check', iconClass: 'text-green-400' }
+        ]
+      }"
+    />
 
-    <section>
-      <div class="grid gap-8 md:grid-cols-2">
-        <!-- When to Use -->
-        <div class="border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-800/60 p-6 transition-colors duration-200">
-          <SectionHeader icon="ph:calendar-check" color="blue">
-            {{ $t("grounding.whenToPractice.title") }}
-          </SectionHeader>
-          <ul class="space-y-3 text-sm text-gray-700 dark:text-slate-300">
-            <li class="flex items-start">
-              <Icon name="ph:lightning-fill" class="mr-2 mt-0.5 flex-shrink-0 text-red-500" />
-              <span>{{ $t("grounding.whenToPractice.items.0") }}</span>
-            </li>
-            <li class="flex items-start">
-              <Icon
-                name="ph:cloud-lightning-fill"
-                class="mr-2 mt-0.5 flex-shrink-0 text-orange-500"
-              />
-              <span>{{ $t("grounding.whenToPractice.items.1") }}</span>
-            </li>
-            <li class="flex items-start">
-              <Icon name="ph:ghost-fill" class="mr-2 mt-0.5 flex-shrink-0 text-purple-500" />
-              <span>{{ $t("grounding.whenToPractice.items.2") }}</span>
-            </li>
-            <li class="flex items-start">
-              <Icon name="ph:warning-fill" class="mr-2 mt-0.5 flex-shrink-0 text-blue-500" />
-              <span>{{ $t("grounding.whenToPractice.items.3") }}</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- What You'll Experience -->
-        <div class="border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-800/60 p-6 transition-colors duration-200">
-          <SectionHeader icon="ph:trend-up" color="green">
-            {{ $t("grounding.whatYoullNotice.title") }}
-          </SectionHeader>
-          <ul class="space-y-3 text-sm text-gray-700 dark:text-slate-300">
-            <li class="flex items-start">
-              <Icon name="ph:timer-fill" class="mr-2 mt-0.5 flex-shrink-0 text-blue-400" />
-              <span>{{ $t("grounding.whatYoullNotice.items.0") }}</span>
-            </li>
-            <li class="flex items-start">
-              <Icon name="ph:brain" class="mr-2 mt-0.5 flex-shrink-0 text-purple-400" />
-              <span>{{ $t("grounding.whatYoullNotice.items.1") }}</span>
-            </li>
-            <li class="flex items-start">
-              <Icon name="ph:eye" class="mr-2 mt-0.5 flex-shrink-0 text-green-400" />
-              <span>{{ $t("grounding.whatYoullNotice.items.2") }}</span>
-            </li>
-            <li class="flex items-start">
-              <Icon name="ph:shield-check" class="mr-2 mt-0.5 flex-shrink-0 text-green-400" />
-              <span>{{ $t("grounding.whatYoullNotice.items.3") }}</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- Tips Section -->
-    <section>
-      <div class="border border-indigo-200 dark:border-indigo-600 bg-indigo-50 dark:bg-indigo-900/20 p-6 transition-colors duration-200">
-        <div class="mb-4 text-center">
-          <Icon name="ph:lightbulb" class="mx-auto mb-2 text-2xl text-indigo-600 dark:text-indigo-400" />
-          <h2 class="font-semibold text-gray-800 dark:text-slate-100">{{ $t("grounding.bestResults.title") }}</h2>
-        </div>
-        <div class="grid gap-4 text-sm md:grid-cols-3">
-          <div class="text-center">
-            <div class="mb-1 font-medium text-indigo-600 dark:text-indigo-400">{{ $t("grounding.bestResults.timing.title") }}</div>
-            <p class="text-gray-600 dark:text-slate-300">
-              {{ $t("grounding.bestResults.timing.description") }}
-            </p>
-          </div>
-          <div class="text-center">
-            <div class="mb-1 font-medium text-indigo-600 dark:text-indigo-400">{{ $t("grounding.bestResults.detail.title") }}</div>
-            <p class="text-gray-600 dark:text-slate-300">
-              {{ $t("grounding.bestResults.detail.description") }}
-            </p>
-          </div>
-          <div class="text-center">
-            <div class="mb-1 font-medium text-indigo-600 dark:text-indigo-400">{{ $t("grounding.bestResults.practice.title") }}</div>
-            <p class="text-gray-600 dark:text-slate-300">
-              {{ $t("grounding.bestResults.practice.description") }}
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- Tips -->
+    <InfoTips
+      i18n-key="grounding.tips"
+      :tips="['tip1', 'tip2', 'tip3']"
+    />
 
     <!-- Related Techniques -->
     <RelatedTechniques current-technique-id="grounding" />

@@ -11,129 +11,60 @@
     <!-- Exercise Component -->
     <PeacefulVisualizationExercise ref="exerciseComponent" />
 
-    <!-- Educational Content -->
-    <section>
-      <div class="border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-800/60 p-6 transition-colors duration-200">
-        <div>
-          <SectionHeader icon="ph:brain" color="gray">
-            {{ $t("peacefulVisualization.howItWorks.title") }}
-          </SectionHeader>
-          <div class="px-1">
-            <p class="mb-3 text-sm leading-relaxed text-gray-700 dark:text-slate-300">
-              {{ $t("peacefulVisualization.howItWorks.description") }}
-            </p>
-            <p class="text-sm leading-relaxed text-gray-700 dark:text-slate-300">
-              {{ $t("peacefulVisualization.howItWorks.multisensory") }}
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- How It Works -->
+    <InfoHowItWorks
+      i18n-key="peacefulVisualization.howItWorks"
+      icon="ph:brain"
+      color="gray"
+      :paragraphs="['description1', 'description2']"
+      :items="[
+        { key: 'mentalImagery', icon: 'ph:brain' },
+        { key: 'sensoryEngagement', icon: 'ph:eye' },
+        { key: 'neuralPathways', icon: 'ph:path' }
+      ]"
+      :columns="3"
+    />
 
-    <!-- Scientific Background -->
-    <section>
-      <div class="border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-800/60 p-6 transition-colors duration-200">
-        <SectionHeader icon="ph:flask" color="purple">
-          {{ $t("peacefulVisualization.science.title") }}
-        </SectionHeader>
-        
-        <div class="mb-4">
-          <p class="text-sm leading-relaxed text-gray-700 dark:text-slate-300" v-html="$t('peacefulVisualization.science.description')"></p>
-        </div>
+    <!-- Science Behind -->
+    <InfoScienceBehind
+      i18n-key="peacefulVisualization.science"
+      :research-items="[
+        { key: 'covidAnxiety', icon: 'ph:hospital' },
+        { key: 'surgicalAnxiety', icon: 'ph:first-aid-kit' },
+        { key: 'metaAnalysis', icon: 'ph:chart-line-up' }
+      ]"
+    />
 
-        <div class="grid gap-4 md:grid-cols-3">
-          <div class="border border-purple-200 dark:border-purple-600 bg-purple-50 dark:bg-purple-900/20 p-4 transition-colors duration-200">
-            <div class="mb-2 flex items-center">
-              <Icon name="ph:chart-line" class="mr-2 text-purple-600 dark:text-purple-400" />
-              <span class="text-sm font-medium text-gray-800 dark:text-slate-100">{{ $t("peacefulVisualization.science.research.effectiveness.title") }}</span>
-            </div>
-            <p class="text-xs text-gray-600 dark:text-slate-300" v-html="$t('peacefulVisualization.science.research.effectiveness.description')"></p>
-          </div>
-          
-          <div class="border border-purple-200 dark:border-purple-600 bg-purple-50 dark:bg-purple-900/20 p-4 transition-colors duration-200">
-            <div class="mb-2 flex items-center">
-              <Icon name="ph:hospital" class="mr-2 text-purple-600 dark:text-purple-400" />
-              <span class="text-sm font-medium text-gray-800 dark:text-slate-100">{{ $t("peacefulVisualization.science.research.medical.title") }}</span>
-            </div>
-            <p class="text-xs text-gray-600 dark:text-slate-300" v-html="$t('peacefulVisualization.science.research.medical.description')"></p>
-          </div>
-          
-          <div class="border border-purple-200 dark:border-purple-600 bg-purple-50 dark:bg-purple-900/20 p-4 transition-colors duration-200">
-            <div class="mb-2 flex items-center">
-              <Icon name="ph:heart" class="mr-2 text-purple-600 dark:text-purple-400" />
-              <span class="text-sm font-medium text-gray-800 dark:text-slate-100">{{ $t("peacefulVisualization.science.research.physiological.title") }}</span>
-            </div>
-            <p class="text-xs text-gray-600 dark:text-slate-300" v-html="$t('peacefulVisualization.science.research.physiological.description')"></p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- When & What -->
+    <InfoWhenAndWhat
+      i18n-key="peacefulVisualization"
+      :when-section="{
+        icon: 'ph:calendar-check',
+        color: 'blue',
+        items: [
+          { icon: 'ph:warning-circle', iconClass: 'text-orange-500' },
+          { icon: 'ph:presentation-chart', iconClass: 'text-blue-500' },
+          { icon: 'ph:moon-stars', iconClass: 'text-indigo-400' },
+          { icon: 'ph:coffee', iconClass: 'text-amber-600' }
+        ]
+      }"
+      :what-section="{
+        icon: 'ph:trend-up',
+        color: 'green',
+        items: [
+          { icon: 'ph:brain', iconClass: 'text-purple-400' },
+          { icon: 'ph:heart-half', iconClass: 'text-red-400' },
+          { icon: 'ph:hand-palm', iconClass: 'text-blue-400' },
+          { icon: 'ph:path', iconClass: 'text-green-400' }
+        ]
+      }"
+    />
 
-    <section>
-      <div class="grid gap-8 md:grid-cols-2">
-        <!-- When to Use -->
-        <div class="border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-800/60 p-6 transition-colors duration-200">
-          <SectionHeader icon="ph:calendar-check" color="blue">
-            {{ $t("peacefulVisualization.whenToPractice.title") }}
-          </SectionHeader>
-          <ul class="space-y-3 text-sm text-gray-700 dark:text-slate-300">
-            <li class="flex items-start" v-for="item in $tm('peacefulVisualization.whenToPractice.items')" :key="item">
-              <Icon name="ph:sun" class="mr-2 mt-0.5 flex-shrink-0 text-yellow-500" v-if="$tm('peacefulVisualization.whenToPractice.items').indexOf(item) === 0" />
-              <Icon name="ph:briefcase" class="mr-2 mt-0.5 flex-shrink-0 text-gray-500" v-else-if="$tm('peacefulVisualization.whenToPractice.items').indexOf(item) === 1" />
-              <Icon name="ph:clock-afternoon" class="mr-2 mt-0.5 flex-shrink-0 text-orange-400" v-else-if="$tm('peacefulVisualization.whenToPractice.items').indexOf(item) === 2" />
-              <Icon name="ph:moon" class="mr-2 mt-0.5 flex-shrink-0 text-blue-400" v-else />
-              <span>{{ $rt(item) }}</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- What You'll Experience -->
-        <div class="border border-gray-200 dark:border-slate-600 bg-white/60 dark:bg-slate-800/60 p-6 transition-colors duration-200">
-          <SectionHeader icon="ph:trend-up" color="green">
-            {{ $t("peacefulVisualization.whatYoullNotice.title") }}
-          </SectionHeader>
-          <ul class="space-y-3 text-sm text-gray-700 dark:text-slate-300">
-            <li class="flex items-start" v-for="item in $tm('peacefulVisualization.whatYoullNotice.items')" :key="item">
-              <Icon name="ph:brain" class="mr-2 mt-0.5 flex-shrink-0 text-purple-400" v-if="$tm('peacefulVisualization.whatYoullNotice.items').indexOf(item) === 0" />
-              <Icon name="ph:heart" class="mr-2 mt-0.5 flex-shrink-0 text-red-400" v-else-if="$tm('peacefulVisualization.whatYoullNotice.items').indexOf(item) === 1" />
-              <Icon name="ph:wind" class="mr-2 mt-0.5 flex-shrink-0 text-cyan-400" v-else-if="$tm('peacefulVisualization.whatYoullNotice.items').indexOf(item) === 2" />
-              <Icon name="ph:shield-check" class="mr-2 mt-0.5 flex-shrink-0 text-green-400" v-else />
-              <span>{{ $rt(item) }}</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- Tips Section -->
-    <section>
-      <div class="border border-indigo-200 dark:border-indigo-600 bg-indigo-50 dark:bg-indigo-900/20 p-6 transition-colors duration-200">
-        <div class="mb-4 text-center">
-          <Icon name="ph:lightbulb" class="mx-auto mb-2 text-2xl text-indigo-600 dark:text-indigo-400" />
-          <h2 class="font-semibold text-gray-800 dark:text-slate-100">{{ $t("peacefulVisualization.tips.title") }}</h2>
-        </div>
-        <div class="grid gap-4 text-sm md:grid-cols-3">
-          <div class="text-center">
-            <div class="mb-1 font-medium text-indigo-600 dark:text-indigo-400">{{ $t("peacefulVisualization.tips.preparation.title") }}</div>
-            <p class="text-gray-600 dark:text-slate-300">
-              {{ $t("peacefulVisualization.tips.preparation.description") }}
-            </p>
-          </div>
-          <div class="text-center">
-            <div class="mb-1 font-medium text-indigo-600 dark:text-indigo-400">{{ $t("peacefulVisualization.tips.engagement.title") }}</div>
-            <p class="text-gray-600 dark:text-slate-300">
-              {{ $t("peacefulVisualization.tips.engagement.description") }}
-            </p>
-          </div>
-          <div class="text-center">
-            <div class="mb-1 font-medium text-indigo-600 dark:text-indigo-400">{{ $t("peacefulVisualization.tips.patience.title") }}</div>
-            <p class="text-gray-600 dark:text-slate-300">
-              {{ $t("peacefulVisualization.tips.patience.description") }}
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- Tips -->
+    <InfoTips
+      i18n-key="peacefulVisualization.tips"
+      :tips="['preparation', 'engagement', 'patience']"
+    />
 
     <!-- Related Techniques -->
     <RelatedTechniques current-technique-id="peaceful-visualization" />
