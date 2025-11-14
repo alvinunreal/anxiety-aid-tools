@@ -3,7 +3,7 @@ services:
         # Option 1: Use pre-built image from Docker Hub (when published)
         # image: 'alvinunreal/anxiety-aid-tools:latest'
 
-        # Option 2: Build locally from Dockerfile
+        # # Option 2: Build locally from Dockerfile
         build:
             context: .
             dockerfile: Dockerfile
