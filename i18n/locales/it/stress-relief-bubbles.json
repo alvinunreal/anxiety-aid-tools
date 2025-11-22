@@ -1,0 +1,74 @@
+{
+  "stressReliefBubbles": {
+    "resetButton": "Ripristina Bolle",
+    "howItWorks": {
+      "title": "Come Funziona la Distrazione Tattile",
+      "description1": "Le bolle antistress funzionano attraverso un meccanismo semplice ma potente: la distrazione tattile. Quando preme e fa scoppiare le bolle, il Suo cervello sposta l'attenzione dai pensieri ansiosi alla sensazione fisica immediata. Questo coinvolgimento sensoriale attiva diverse vie neurali, interrompendo i pattern di ruminazione.",
+      "description2": "Lo scoppio soddisfacente crea un ciclo di feedback—compie un'azione, riceve una ricompensa sensoriale immediata (il suono dello scoppio e la sensazione tattile), e sperimenta un piccolo rilascio di tensione. Ripetere questo processo su più bolle fornisce una distrazione prolungata mentre il movimento ritmico e ripetitivo ha un effetto naturalmente calmante sul sistema nervoso.",
+      "description3": "Con un uso costante, strumenti tattili come questi possono aiutare a costruire risposte allo stress più sane. Il Suo cervello impara a reindirizzare l'energia ansiosa in un'azione fisica e controllabile piuttosto che sprofondare nella preoccupazione.",
+      "focusRedirection": {
+        "title": "Reindirizzamento dell'Attenzione",
+        "description": "Sposta l'attenzione dai pensieri ansiosi alla sensazione fisica immediata"
+      },
+      "sensoryFeedback": {
+        "title": "Feedback Sensoriale",
+        "description": "I suoni dello scoppio e la sensazione tattile creano un ciclo di feedback gratificante"
+      },
+      "nervousSystemCalm": {
+        "title": "Calma del Sistema Nervoso",
+        "description": "Il movimento ripetitivo innesca una risposta di rilassamento naturale"
+      }
+    },
+    "science": {
+      "title": "La Scienza dietro il Sollievo Tattile dallo Stress",
+      "description": "La ricerca dimostra che gli strumenti di distrazione tattile possono ridurre significativamente l'ansia in situazioni stressanti. Uno <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8488815/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">studio randomizzato controllato su bambini durante procedure dentistiche</a> ha rilevato che l'uso di un fidget spinner ha ridotto i punteggi di ansia di 3 punti e diminuito la frequenza cardiaca di 15,54 battiti al minuto rispetto ai controlli (p < 0,001).",
+      "research": {
+        "pediatricAnxiety": {
+          "title": "Sollievo dall'Ansia Pediatrica",
+          "description": "In uno <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12381172/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">studio su 90 bambini di età compresa tra 6 e 12 anni durante cateterizzazione endovenosa</a>, l'uso della pallina antistress ha ridotto i punteggi medi di ansia da 4,9 a 1,0 nel Venham Picture Test (p < 0,001)—una riduzione dell'80%. Anche la percezione del dolore è diminuita drasticamente, con punteggi di 14,5 rispetto a 50,5 nei controlli."
+        },
+        "medicalProcedures": {
+          "title": "Stress da Procedure Mediche",
+          "description": "Uno <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11366058/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">studio su 120 pazienti sottoposti ad angiografia</a> ha mostrato che l'uso della pallina antistress ha ridotto i punteggi dello State-Trait Anxiety Inventory da 15,89 a 14,92, mentre i controlli sono aumentati da 11,30 a 12,67 (p = 0,019). I partecipanti maschi hanno visto i punteggi scendere da 16,59 a 11,93."
+        },
+        "attentionSupport": {
+          "title": "Attenzione Sostenuta",
+          "description": "Una ricerca su <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11246969/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">70 adulti con ADHD durante compiti cognitivi</a> ha rilevato che livelli più elevati di agitazione motoria correlavano con risposte corrette (t-score di 10,72, p < 0,001). L'agitazione è aumentata da 2,3 a 3,5 istanze attraverso le prove mantenendo un'accuratezza del 96,3%, suggerendo che aiuta a mantenere l'attivazione senza compromettere le prestazioni."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Quando Praticare",
+      "items": [
+        "Quando sente energia irrequieta o ha bisogno di tenere le mani occupate durante l'ansia",
+        "Durante periodi di attesa o prima di eventi stressanti quando ha bisogno di distrazione",
+        "Quando i pensieri ansiosi si susseguono rapidamente e ha bisogno di interrompere il ciclo",
+        "Come rapido reset tra le attività per rilasciare la tensione accumulata"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Cosa Noterà",
+      "items": [
+        "Soddisfazione immediata da ogni scoppio e feedback sensoriale",
+        "Spostamento graduale dell'attenzione dai pensieri ansiosi all'attività",
+        "Rilascio fisico dell'energia irrequieta e degli impulsi di agitazione",
+        "Stato più calmo dopo aver completato un giro completo di scoppio delle bolle"
+      ]
+    },
+    "tips": {
+      "title": "Consigli per Risultati Ottimali",
+      "posture": {
+        "title": "Ritmo",
+        "description": "Faccia scoppiare le bolle al Suo ritmo—veloce per rilasciare energia, lento per un effetto calmante metodico. Non esiste una velocità giusta."
+      },
+      "environment": {
+        "title": "Suono",
+        "description": "Il suono dello scoppio aggiunge valore all'esperienza. Lo usi dove si sente a Suo agio o lo silenzi se necessario in spazi tranquilli."
+      },
+      "consistency": {
+        "title": "Ripetizione",
+        "description": "Più giri vanno bene. Ripristini e ripeta tutte le volte di cui ha bisogno per rilasciare completamente la tensione."
+      }
+    }
+  }
+}

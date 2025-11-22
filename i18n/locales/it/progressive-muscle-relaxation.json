@@ -1,0 +1,370 @@
+{
+  "progressiveMuscleRelaxation": {
+    "interface": {
+      "title": "Rilassamento Muscolare Progressivo",
+      "subtitle": "Tensione e rilascio sistematici",
+      "beginExercise": "Inizia Esercizio",
+      "start": "Inizia",
+      "stop": "Ferma",
+      "pause": "Pausa",
+      "resume": "Riprendi",
+      "back": "Indietro",
+      "next": "Avanti",
+      "complete": "Completa",
+      "ofGroups": "di {count} gruppi",
+      "prepare": "Si prepari a iniziare",
+      "tenseFor10": "Tenda per 10 secondi",
+      "releaseFor10": "Rilasci per 10 secondi",
+      "tense": "Tenda",
+      "relax": "Rilassi",
+      "tensionSteps": "Passaggi di Tensione:",
+      "relaxationSteps": "Passaggi di Rilassamento:"
+    },
+    "completion": {
+      "title": "Rilassamento Profondo Raggiunto",
+      "description": "Ha rilasciato sistematicamente la tensione in tutto il Suo corpo. Noti come i Suoi muscoli si sentano diversi rispetto a quando ha iniziato.",
+      "benefits": {
+        "tensionReleased": "Tensione rilasciata",
+        "bodyRelaxed": "Corpo rilassato"
+      }
+    },
+    "muscleGroups": {
+      "rightHand": {
+        "name": "Mano Destra e Avambraccio",
+        "shortName": "Mano D",
+        "tensionCue": [
+          "Chiuda il pugno stretto",
+          "Stringa forte",
+          "Senta la tensione nelle dita e nell'avambraccio"
+        ],
+        "relaxationCue": [
+          "Apra la mano",
+          "La lasci andare completamente inerte",
+          "Senta le dita naturalmente curve e rilassate"
+        ]
+      },
+      "leftHand": {
+        "name": "Mano Sinistra e Avambraccio",
+        "shortName": "Mano S",
+        "tensionCue": [
+          "Chiuda il pugno stretto",
+          "Stringa forte",
+          "Senta la tensione nelle dita e nell'avambraccio"
+        ],
+        "relaxationCue": [
+          "Apra la mano",
+          "La lasci andare completamente inerte",
+          "Noti la sensazione calda e pesante"
+        ]
+      },
+      "rightUpperArm": {
+        "name": "Braccio Destro Superiore",
+        "shortName": "Bicipite D",
+        "tensionCue": [
+          "Pieghi il gomito",
+          "Fletta il bicipite con forza",
+          "Prema l'avambraccio contro il braccio superiore",
+          "Senta il muscolo gonfiarsi"
+        ],
+        "relaxationCue": [
+          "Abbassi il braccio lungo il fianco",
+          "Lasci che il muscolo diventi morbido",
+          "Senta il sollievo e la pesantezza"
+        ]
+      },
+      "leftUpperArm": {
+        "name": "Braccio Sinistro Superiore",
+        "shortName": "Bicipite S",
+        "tensionCue": [
+          "Pieghi il gomito",
+          "Fletta il bicipite con forza",
+          "Prema l'avambraccio contro il braccio superiore",
+          "Senta la forza"
+        ],
+        "relaxationCue": [
+          "Abbassi il braccio lungo il fianco",
+          "Lasci che la tensione defluisca via",
+          "Senta la pesantezza"
+        ]
+      },
+      "forehead": {
+        "name": "Fronte e Cuoio Capelluto",
+        "shortName": "Fronte",
+        "tensionCue": [
+          "Sollevi le sopracciglia in alto",
+          "Corrugi la fronte",
+          "Senta la tensione attraverso il cuoio capelluto"
+        ],
+        "relaxationCue": [
+          "Lasci cadere naturalmente le sopracciglia",
+          "Distenda la fronte",
+          "Senta la pelle completamente rilassata"
+        ]
+      },
+      "eyesNose": {
+        "name": "Occhi e Naso",
+        "shortName": "Viso",
+        "tensionCue": [
+          "Stringa forte gli occhi",
+          "Arricci il naso",
+          "Faccia corrugare tutto il viso insieme"
+        ],
+        "relaxationCue": [
+          "Lasci che il viso diventi morbido",
+          "Occhi dolcemente chiusi",
+          "Naso e guance lisci e rilassati"
+        ]
+      },
+      "mouthJaw": {
+        "name": "Bocca e Mandibola",
+        "shortName": "Mandibola",
+        "tensionCue": [
+          "Morda con forza",
+          "Stringa i denti",
+          "Senta i muscoli della mandibola lavorare"
+        ],
+        "relaxationCue": [
+          "Lasci che la mandibola si apra leggermente",
+          "Labbra che si sfiorano appena",
+          "Lingua che riposa dolcemente"
+        ]
+      },
+      "neckThroat": {
+        "name": "Collo e Gola",
+        "shortName": "Collo",
+        "tensionCue": [
+          "Mento verso il petto",
+          "Spinga la testa indietro",
+          "Crei tensione da entrambe le direzioni"
+        ],
+        "relaxationCue": [
+          "Lasci che la testa trovi la posizione naturale",
+          "Collo lungo e sciolto",
+          "Gola aperta"
+        ]
+      },
+      "shoulders": {
+        "name": "Spalle",
+        "shortName": "Spalle",
+        "tensionCue": [
+          "Sollevi le spalle in alto",
+          "Cerchi di toccare le orecchie",
+          "Senta la compressione nella parte superiore della schiena"
+        ],
+        "relaxationCue": [
+          "Lasci cadere naturalmente le spalle",
+          "Le senta affondare più in basso",
+          "Pesanti e sciolte"
+        ]
+      },
+      "upperBackChest": {
+        "name": "Schiena Superiore e Petto",
+        "shortName": "Schiena Sup",
+        "tensionCue": [
+          "Stringa le scapole insieme",
+          "Inarca la schiena",
+          "Espanda il petto con un respiro profondo"
+        ],
+        "relaxationCue": [
+          "Lasci che la schiena si assesti naturalmente",
+          "Scapole distanti",
+          "Petto morbido e aperto"
+        ]
+      },
+      "abdomen": {
+        "name": "Addome",
+        "shortName": "Addome",
+        "tensionCue": [
+          "Contragga forte gli addominali",
+          "Ritiri l'ombelico verso dentro",
+          "Renda lo stomaco come una roccia"
+        ],
+        "relaxationCue": [
+          "Lasci che lo stomaco diventi morbido",
+          "Respiri nell'addome",
+          "Lo senta salire e scendere naturalmente"
+        ]
+      },
+      "lowerBack": {
+        "name": "Parte Bassa della Schiena",
+        "shortName": "Schiena Inf",
+        "tensionCue": [
+          "Inarca delicatamente la parte bassa della schiena",
+          "Spinga lo stomaco in fuori",
+          "Senta la curva nella colonna vertebrale"
+        ],
+        "relaxationCue": [
+          "Lasci che la schiena si assesti alla curva naturale",
+          "Sostenuta e confortevole",
+          "Tensione che si scioglie"
+        ]
+      },
+      "hipsButtocks": {
+        "name": "Fianchi e Glutei",
+        "shortName": "Glutei",
+        "tensionCue": [
+          "Stringa forte i glutei insieme",
+          "Contragga i muscoli saldamente",
+          "Senta la tensione nei fianchi"
+        ],
+        "relaxationCue": [
+          "Lasci che i glutei diventino morbidi",
+          "Li senta allargarsi naturalmente",
+          "Pesanti e rilassati"
+        ]
+      },
+      "rightThigh": {
+        "name": "Coscia Destra",
+        "shortName": "Coscia D",
+        "tensionCue": [
+          "Distenda la gamba destra",
+          "Fletta forte il muscolo della coscia",
+          "Lo senta saldo e forte"
+        ],
+        "relaxationCue": [
+          "Lasci che la gamba riposi naturalmente",
+          "Muscolo della coscia morbido e sciolto",
+          "Pesante e confortevole"
+        ]
+      },
+      "leftThigh": {
+        "name": "Coscia Sinistra",
+        "shortName": "Coscia S",
+        "tensionCue": [
+          "Distenda la gamba sinistra",
+          "Fletta forte il muscolo della coscia",
+          "Senta la forza"
+        ],
+        "relaxationCue": [
+          "Lasci che la gamba riposi naturalmente",
+          "Coscia completamente rilassata",
+          "Noti il contrasto"
+        ]
+      },
+      "rightCalfShin": {
+        "name": "Polpaccio e Stinco Destro",
+        "shortName": "Polpacc D",
+        "tensionCue": [
+          "Punti il piede verso il basso con forza",
+          "Poi fletta verso lo stinco",
+          "Senta entrambi i lati lavorare"
+        ],
+        "relaxationCue": [
+          "Lasci che il piede riposi naturalmente",
+          "Polpaccio e stinco sciolti",
+          "Completamente morbidi"
+        ]
+      },
+      "leftCalfShin": {
+        "name": "Polpaccio e Stinco Sinistro",
+        "shortName": "Polpacc S",
+        "tensionCue": [
+          "Punti il piede verso il basso con forza",
+          "Poi fletta verso lo stinco",
+          "Senta i muscoli attivarsi"
+        ],
+        "relaxationCue": [
+          "Lasci che il piede riposi naturalmente",
+          "Tutti i muscoli della parte inferiore della gamba rilassati e pesanti"
+        ]
+      },
+      "rightFoot": {
+        "name": "Piede Destro",
+        "shortName": "Piede D",
+        "tensionCue": [
+          "Arricci le dita dei piedi verso il basso stretto",
+          "Le corrughi",
+          "Senta la tensione nell'arco del piede"
+        ],
+        "relaxationCue": [
+          "Lasci che le dita si distendano naturalmente",
+          "Piede completamente morbido",
+          "Caldo e rilassato"
+        ]
+      },
+      "leftFoot": {
+        "name": "Piede Sinistro",
+        "shortName": "Piede S",
+        "tensionCue": [
+          "Arricci le dita dei piedi verso il basso stretto",
+          "Le corrughi",
+          "Senta l'arco lavorare"
+        ],
+        "relaxationCue": [
+          "Lasci che le dita si allarghino naturalmente",
+          "Piede sciolto e rilassato",
+          "Tensione sparita"
+        ]
+      }
+    },
+    "howItWorks": {
+      "title": "Come Funziona il Rilassamento Muscolare Progressivo",
+      "description1": "Il rilassamento muscolare progressivo insegna al Suo corpo la differenza tra tensione e rilassamento attraverso la tensione sistematica e il successivo rilascio dei gruppi muscolari. Quando tende deliberatamente un muscolo e poi lo lascia andare, il rilascio crea uno stato di rilassamento più profondo di quello che il muscolo aveva prima della tensione.",
+      "description2": "Questo ciclo di tensione-rilascio attiva il Suo sistema nervoso parasimpatico, che controlla la risposta di riposo e digestione del corpo. Man mano che ogni gruppo muscolare si rilassa, la frequenza cardiaca rallenta, la pressione sanguigna diminuisce e gli ormoni dello stress si riducono, creando una cascata di effetti calmanti in tutto il Suo corpo.",
+      "description3": "Con la pratica regolare, svilupperà una maggiore consapevolezza corporea e potrà riconoscere la tensione prima. Questo Le permette di rilasciare lo stress fisico prima che si accumuli, dandoLe uno strumento potente per gestire l'ansia in tempo reale.",
+      "tensionContrast": {
+        "title": "Contrasto di Tensione",
+        "description": "Tendere deliberatamente i muscoli rende il successivo rilascio più evidente ed efficace"
+      },
+      "nervousSystemShift": {
+        "title": "Cambiamento del Sistema Nervoso",
+        "description": "Il rilascio innesca l'attivazione parasimpatica, rallentando la frequenza cardiaca e riducendo gli ormoni dello stress"
+      },
+      "bodyAwareness": {
+        "title": "Consapevolezza Corporea",
+        "description": "La pratica La allena a riconoscere e rilasciare la tensione automaticamente durante la giornata"
+      }
+    },
+    "science": {
+      "title": "La Scienza Dietro il Rilassamento Muscolare Progressivo",
+      "description": "La ricerca dimostra costantemente che il rilassamento muscolare progressivo produce una significativa riduzione dell'ansia in diverse popolazioni e contesti. In uno <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7102525/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">studio randomizzato con 51 pazienti COVID-19</a>, 30 minuti di pratica giornaliera per 5 giorni hanno ridotto i punteggi dello State-Trait Anxiety Inventory da 57,88 a 44,96—una riduzione del 22%—mentre i punteggi del gruppo di controllo sono rimasti invariati (p<0,001).",
+      "research": {
+        "nurseStress": {
+          "title": "Grande Effetto in Ambienti ad Alto Stress",
+          "description": "Tra <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10844009/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">46 infermiere in uno studio controllato randomizzato del 2022</a>, il rilassamento muscolare progressivo ha ridotto significativamente i punteggi d'ansia sul DASS-21 con una grande dimensione dell'effetto di Cohen's d=1,61 rispetto ai controlli, dimostrando benefici sostenuti in contesti lavorativi impegnativi."
+        },
+        "studentAnxiety": {
+          "title": "Passaggio da Ansia Moderata a Bassa",
+          "description": "In <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC4280725/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">49 studenti di infermieristica</a>, quattro sessioni supervisionate più pratica quotidiana hanno spostato il 91,7% dei partecipanti da ansia moderata a bassa sulla Sarason Test Anxiety Scale, senza cambiamenti comparabili nel gruppo di controllo di 25 persone (p=0,00)."
+        },
+        "clinicalTraining": {
+          "title": "Riduzione Importante in Contesti Clinici",
+          "description": "Tra <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9047807/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">90 studenti di infermieristica del primo anno durante la formazione clinica</a>, cinque sessioni di 45 minuti mirate a 13 gruppi muscolari hanno ridotto i punteggi dello State-Trait Anxiety Inventory da 55 a 24,4—una diminuzione del 56%—senza effetti avversi segnalati (t=30,783, p=0,001)."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Quando Praticare",
+      "items": [
+        "Quando sente la tensione fisica accumularsi nel Suo corpo—spalle tese, mascella serrata o rigidità muscolare",
+        "Prima di eventi stressanti come presentazioni, esami o appuntamenti medici per rilasciare la tensione anticipatoria",
+        "Alla fine della Sua giornata lavorativa per rilasciare lo stress fisico accumulato e passare al rilassamento",
+        "Prima di dormire per rilasciare la tensione fisica che potrebbe interferire con l'addormentarsi o il rimanere addormentati"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Cosa Noterà",
+      "items": [
+        "Consapevolezza immediata della tensione che non si rendeva conto di tenere in vari gruppi muscolari",
+        "Rilassamento fisico profondo mentre ogni gruppo muscolare si rilascia, creando un'onda di calma attraverso il Suo corpo",
+        "Frequenza cardiaca più lenta e respirazione più profonda mentre il Suo sistema nervoso parasimpatico si attiva",
+        "Maggiore capacità di riconoscere e rilasciare la tensione durante la giornata con la pratica continuata"
+      ]
+    },
+    "tips": {
+      "title": "Consigli per i Migliori Risultati",
+      "position": {
+        "title": "Posizione",
+        "description": "Si sdrai o si reclini su una sedia confortevole dove tutto il Suo corpo possa essere sostenuto. Rimuova gli indumenti stretti e si assicuri di non essere interrotto per 12-15 minuti."
+      },
+      "technique": {
+        "title": "Tecnica",
+        "description": "Tenda ogni gruppo muscolare con fermezza ma non al punto di provare dolore o crampi. Mantenga per 10 secondi, poi rilasci completamente e noti il contrasto per altri 10 secondi prima di proseguire."
+      },
+      "focus": {
+        "title": "Concentrazione",
+        "description": "Presti attenzione alla differenza tra tensione e rilassamento in ogni gruppo muscolare. Questa consapevolezza è fondamentale per riconoscere e rilasciare la tensione nella vita quotidiana."
+      }
+    }
+  }
+}

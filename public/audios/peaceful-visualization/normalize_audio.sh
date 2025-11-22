@@ -1,4 +1,19 @@
-find . -type f -name "*.mp3" | while read -r file; do
+#!/usr/bin/env bash
+
+# Usage: ./normalize_audio.sh [directory]
+# If no directory is provided, uses current directory
+
+TARGET_DIR="${1:-.}"
+
+if [ ! -d "$TARGET_DIR" ]; then
+  echo "Error: Directory '$TARGET_DIR' does not exist"
+  exit 1
+fi
+
+echo "Normalizing audio files in: $TARGET_DIR"
+echo "-------------------------------------------"
+
+find "$TARGET_DIR" -type f -name "*.mp3" | while read -r file; do
   output="${file%.mp3}.norm.mp3"
   echo "Processing: $file -> $output"
 
@@ -9,3 +24,6 @@ find . -type f -name "*.mp3" | while read -r file; do
   
   mv "$output" "$file"
 done
+
+echo "-------------------------------------------"
+echo "Normalization complete!"

@@ -1,0 +1,15 @@
+{
+  "fidgetSpinner": {
+    "audioMute": "Disattiva Audio",
+    "audioUnmute": "Attiva Audio",
+    "aria": {
+      "spinnerLabel": "Fidget spinner interattivo. Clicchi e trascini per farlo girare, oppure prema Spazio/Invio per accelerare la rotazione.",
+      "muteAudio": "Disattiva gli effetti sonori dello spinner",
+      "unmuteAudio": "Attiva gli effetti sonori dello spinner",
+      "status": {
+        "spinning": "Lo spinner sta girando",
+        "still": "Lo spinner è fermo"
+      }
+    }
+  }
+}

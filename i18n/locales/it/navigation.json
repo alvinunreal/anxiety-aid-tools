@@ -1,0 +1,32 @@
+{
+  "navigation": {
+    "techniques": "Tutte le Tecniche",
+    "github": "GitHub",
+    "mobile": "App Mobile",
+    "menu": "Menu",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu",
+    "skipToMain": "Vai al contenuto principale"
+  },
+  "header": {
+    "title": "AnxietyAidTools",
+    "subtitle": "Toolkit open source per l'ansia"
+  },
+  "hero": {
+    "title": "Toolkit per l'Ansia",
+    "description": "Strumenti gratuiti per aiutarti quando ti senti ansioso. Questi esercizi sono semplici da seguire e non richiedono attrezzature speciali - usali ogni volta che la tua mente è troppo affollata o quando hai bisogno di un momento di calma."
+  },
+  "breadcrumb": {
+    "backToHome": "Torna alla Home",
+    "back": "Indietro"
+  },
+  "relatedTechniques": {
+    "title": "Prova Questi Successivamente",
+    "description": "Continua la tua pratica con queste tecniche complementari:"
+  },
+  "error": {
+    "page-not-found": "Pagina Non Trovata",
+    "return": "Torna alla Home",
+    "message": "La pagina che stai cercando non esiste o è stata spostata. Torniamo agli strumenti di sollievo dall'ansia."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "home": {
+      "title": "Toolkit Open Source per l'Ansia",
+      "description": "Strumenti creati dalla comunità per il sollievo dall'ansia inclusi tecniche di respirazione, grounding e rilassamento muscolare."
+    },
+    "breathing": {
+      "title": "Esercizio di Respirazione di 2 Minuti",
+      "description": "Esercizio di respirazione guidato gratuito con pattern respiratorio 4:6. Attiva il sistema nervoso parasimpatico per ridurre naturalmente ansia e stress."
+    },
+    "grounding": {
+      "title": "Tecnica di Grounding 5-4-3-2-1",
+      "description": "Esercizio di grounding gratuito usando i 5 sensi per calmare ansia e panico. Tecnica basata su evidenze per sollievo immediato dallo stress."
+    },
+    "guidedBreathing": {
+      "title": "Esercizio di Respirazione Guidata",
+      "description": "Esercizi di respirazione guidata estesi con guida delicata. Sessioni di 5-10 minuti per rilassamento profondo e gestione dell'ansia."
+    },
+    "progressiveMuscleRelaxation": {
+      "title": "Rilassamento Muscolare Progressivo",
+      "description": "Esercizio di rilassamento muscolare guidato gratuito. Rilascia tensione fisica e ansia attraverso tecniche sistematiche di rilassamento muscolare."
+    },
+    "peacefulVisualization": {
+      "title": "Visualizzazione Pacifica",
+      "description": "Esercizi di visualizzazione guidata per il sollievo dall'ansia. Viaggio verso luoghi calmanti nella tua mente per riduzione dello stress e rilassamento."
+    },
+    "thoughtLabeling": {
+      "title": "Etichettatura dei Pensieri",
+      "description": "Strumento interattivo di categorizzazione dei pensieri ansiosi. Identifica ed etichetta i pensieri ansiosi per ridurne l'impatto emotivo."
+    },
+    "stressReliefBubbles": {
+      "title": "Bolle Antistress - Gioco Interattivo",
+      "description": "Gioco interattivo di scoppio bolle per sollievo dallo stress e gestione dell'ansia. Esperienza sensoriale soddisfacente per il rilascio della tensione."
+    },
+    "fidgetSpinner": {
+      "title": "Fidget Spinner Online - Movimento Calmante per Energia Irrequieta",
+      "description": "Fidget spinner virtuale minimalista con slancio realistico. Trascina per girare, rilascia per stabilizzarsi e dai alle mani irrequiete uno sbocco stabile."
+    },
+    "soundTherapy": {
+      "title": "Terapia del Suono - Frequenze Curative per l'Ansia",
+      "description": "Terapia del suono gratuita con frequenze curative e battiti binaurali. Audio di rilassamento profondo per ansia e sollievo dallo stress."
+    },
+    "stressBall": {
+      "title": "Palla Antistress Interattiva - Trascina e Lancia per Sollievo dall'Ansia",
+      "description": "Gioco della palla antistress virtuale interattiva. Trascina, lancia e rimbalza per sollievo immediato dallo stress e gestione dell'ansia. Strumento terapeutico gratuito."
+    },
+    "privacy": {
+      "title": "Informativa sulla Privacy - Anxiety Aid Tools",
+      "description": "Informativa sulla privacy per Anxiety Aid Tools. Scopri come proteggiamo i tuoi dati con analisi minime e archiviazione solo locale."
+    },
+    "terms": {
+      "title": "Termini di Servizio - Anxiety Aid Tools",
+      "description": "Termini di servizio per Anxiety Aid Tools. Applicazione open source con licenza GPL per la gestione dell'ansia."
+    },
+    "support": {
+      "title": "Supporto - Anxiety Aid Tools",
+      "description": "Ottieni aiuto con Anxiety Aid Tools. FAQ, informazioni di contatto e risoluzione problemi per la nostra app di gestione dell'ansia."
+    },
+    "mobile": {
+      "title": "App Mobile - Anxiety Aid Tools per iOS e Android",
+      "description": "Scarica l'app mobile Anxiety Aid Tools per iOS e Android. Tecniche gratuite di sollievo dall'ansia in movimento - esercizi di respirazione, grounding e altro."
+    }
+  }
+}

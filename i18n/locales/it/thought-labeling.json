@@ -1,0 +1,177 @@
+{
+  "thoughtLabeling": {
+    "interface": {
+      "title": "Etichettatura dei Pensieri",
+      "subtitle": "Osservi e categorizzi i Suoi pensieri",
+      "beginExercise": "Inizi l'Esercizio",
+      "thoughtsLabeled": "pensieri etichettati",
+      "labelingActiveThought": "Etichettatura pensiero attivo",
+      "readyForNextThought": "Pronto per il pensiero successivo",
+      "elapsed": "trascorsi",
+      "yourLabeledThoughts": "I Suoi Pensieri Etichettati",
+      "whatsOnYourMind": "Cosa La Preoccupa?",
+      "labelThisThought": "Etichetti Questo Pensiero",
+      "chooseLabelsThatDescribe": "Scelga le etichette che descrivono meglio questo pensiero:",
+      "writeAnxiousThought": "Scriva un pensiero ansioso che sta avendo in questo momento:",
+      "examplePlaceholder": "Esempio: 'Sono preoccupato di fare brutta figura durante la presentazione di domani...'",
+      "labelThisThoughtButton": "Etichetti Questo Pensiero",
+      "yourThought": "Il Suo Pensiero:",
+      "cancel": "Annulla",
+      "continue": "Continua",
+      "practiceAgain": "Pratichi di Nuovo"
+    },
+    "benefits": {
+      "awareness": {
+        "title": "Consapevolezza",
+        "description": "Osservi i pensieri senza esserne sopraffatto"
+      },
+      "balance": {
+        "title": "Equilibrio",
+        "description": "Crei una sana distanza dal pensiero ansioso"
+      },
+      "clarity": {
+        "title": "Chiarezza",
+        "description": "Comprenda gli schemi del Suo pensiero"
+      }
+    },
+    "completion": {
+      "title": "Eccellente Autoconsapevolezza",
+      "description": "Ha etichettato con successo {count} pensier{plural} in {time}. Questa pratica aiuta a creare una sana distanza dal pensiero ansioso.",
+      "sessionInsights": "Intuizioni della Sessione",
+      "benefits": {
+        "awarenessIncreased": "Consapevolezza aumentata",
+        "thoughtsOrganized": "Pensieri organizzati",
+        "emotionalDistanceCreated": "Distanza emotiva creata"
+      }
+    },
+    "insights": {
+      "commonPattern": {
+        "title": "Schema Comune Identificato",
+        "description": "La maggior parte dei Suoi pensieri sono stati etichettati come \"{labelName}\" - riconoscere questo schema è il primo passo per gestirlo."
+      },
+      "strongAwareness": {
+        "title": "Forte Autoconsapevolezza",
+        "description": "Ha dimostrato un'eccellente capacità di osservare e categorizzare i Suoi pensieri in modo obiettivo."
+      }
+    },
+    "labels": {
+      "worry": {
+        "name": "Preoccupazione",
+        "description": "Preoccupazioni su eventi o risultati futuri"
+      },
+      "catastrophic": {
+        "name": "Catastrofico",
+        "description": "Immaginare scenari del caso peggiore"
+      },
+      "selfDoubt": {
+        "name": "Dubbio su di Sé",
+        "description": "Mettere in discussione le proprie capacità o il proprio valore"
+      },
+      "perfectionist": {
+        "name": "Perfezionista",
+        "description": "Stabilire standard irrealisticamente elevati"
+      },
+      "comparison": {
+        "name": "Confronto",
+        "description": "Confrontarsi con gli altri"
+      },
+      "rumination": {
+        "name": "Ruminazione",
+        "description": "Pensare ripetutamente a eventi passati"
+      },
+      "control": {
+        "name": "Controllo",
+        "description": "Voler controllare situazioni incontrollabili"
+      },
+      "rejection": {
+        "name": "Rifiuto",
+        "description": "Paura di essere rifiutati o abbandonati"
+      },
+      "performance": {
+        "name": "Prestazione",
+        "description": "Ansia su come si performerà"
+      },
+      "health": {
+        "name": "Salute",
+        "description": "Preoccupazioni sulla salute fisica o mentale"
+      },
+      "social": {
+        "name": "Sociale",
+        "description": "Preoccupazioni su situazioni sociali o relazioni"
+      },
+      "financial": {
+        "name": "Finanziario",
+        "description": "Stress e preoccupazioni legati al denaro"
+      }
+    },
+    "howItWorks": {
+      "title": "Come Funziona l'Etichettatura dei Pensieri",
+      "description1": "Quando è ansioso, i Suoi pensieri possono sembrare travolgenti e completamente veri. L'etichettatura dei pensieri La aiuta a fare un passo indietro e a vedere i pensieri come eventi mentali—schemi temporanei nella Sua mente, non verità assolute. Semplicemente nominando ciò che sta sperimentando (\"preoccupazione,\" \"dubbio su di sé,\" \"catastrofizzazione\"), crea un piccolo ma potente spazio tra Sé e il pensiero.",
+      "description2": "Questa pratica attiva la Sua corteccia prefrontale—la parte razionale e osservatrice del cervello—riducendo al contempo l'attività dell'amigdala, il centro di allarme del cervello. Invece di rimanere intrappolato in una spirale di pensiero ansioso, diventa il testimone dei Suoi pensieri. Questo passaggio da \"Sono ansioso\" a \"Sto avendo pensieri ansiosi\" cambia fondamentalmente il Suo rapporto con l'ansia.",
+      "description3": "Con una pratica regolare, l'etichettatura La aiuta a riconoscere gli schemi di pensiero prima che spiralizzino. Inizierà a notare: \"Questo è di nuovo quel pensiero catastrofico\" o \"Ecco il mio schema perfezionista.\" Il riconoscimento diventa la Sua prima linea di difesa, permettendoLe di rispondere con abilità piuttosto che reagire automaticamente.",
+      "cognitiveDefusion": {
+        "title": "Defusione Cognitiva",
+        "description": "L'etichettatura La separa dai Suoi pensieri, riducendo la loro presa emotiva e credibilità."
+      },
+      "emotionalRegulation": {
+        "title": "Regolazione Emotiva",
+        "description": "Nominare attiva il cervello razionale mentre calma l'amigdala, abbassando la reattività emotiva."
+      },
+      "patternRecognition": {
+        "title": "Riconoscimento degli Schemi",
+        "description": "L'etichettatura regolare rivela schemi di pensiero ricorrenti, rendendoli più facili da gestire nel tempo."
+      }
+    },
+    "science": {
+      "title": "La Scienza Dietro l'Etichettatura dei Pensieri",
+      "description": "La ricerca dimostra che l'etichettatura dei pensieri produce riduzioni misurabili nei sintomi di ansia e nella reattività emotiva. Uno <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7270208/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">studio su singolo soggetto con un cantante</a> che utilizzava l'etichettatura dei pensieri come parte della defusione cognitiva ha ridotto i punteggi di credibilità dell'ansia da 94 a 28 al follow-up di 3 mesi—un miglioramento del 70%—con l'inflessibilità psicologica che diminuiva da 39 a 12 sulla scala AAQ-2.",
+      "research": {
+        "performanceAnxiety": {
+          "title": "Sollievo dall'Ansia da Prestazione",
+          "description": "In un cantante con grave ansia da prestazione musicale, l'<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7270208/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">intervento di etichettatura dei pensieri</a> ha ridotto la Credibilità nei Pensieri Ansiosi da 94 a 28 (miglioramento del 70%) e l'inflessibilità psicologica da 39 a 12 (miglioramento del 69%) al follow-up di 3 mesi, con indici di cambiamento affidabili di -8,74 e -10,92 rispettivamente."
+        },
+        "mindfulnessEnhancement": {
+          "title": "Abilità di Mindfulness Migliorate",
+          "description": "Un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5801080/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">programma di meditazione di 8 settimane</a> che enfatizzava l'etichettatura dei pensieri ha aumentato significativamente l'uso dell'etichettatura da parte dei partecipanti (F(1,28)=58,00, p<0,001, d=2,88) e la non-reattività alle esperienze interiori (F(1,29)=38,35, p<0,001, d=2,30), supportando una migliore gestione dei pensieri ansiogeni."
+        },
+        "attentionControl": {
+          "title": "Controllo dell'Attenzione Migliorato",
+          "description": "Soli <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5329004/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3 giorni di allenamento alla mindfulness</a> con etichettatura dei pensieri hanno ridotto il vagare della mente e migliorato l'attenzione sostenuta di 9,84 punti (p=0,003), aiutando a interrompere il ciclo di ruminazione che alimenta l'ansia."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Quando Praticare",
+      "items": [
+        "Quando nota pensieri ripetitivi o intrusivi che girano nella Sua mente.",
+        "Prima di situazioni ad alta pressione dove il dubbio su di sé o la preoccupazione tipicamente emergono.",
+        "Durante momenti di sopraffazione quando i pensieri sembrano caotici e ingestibili.",
+        "Come parte della pratica quotidiana di mindfulness per costruire consapevolezza degli schemi di pensiero."
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Cosa Noterà",
+      "items": [
+        "Riduzione immediata nell'intensità e credibilità dei pensieri ansiosi.",
+        "Maggiore distanza emotiva, facendo sentire i pensieri meno personali e consumanti.",
+        "Riconoscimento di schemi ricorrenti, aiutandoLa ad anticiparli e gestirli.",
+        "Migliore capacità di osservare i pensieri senza reagire automaticamente ad essi."
+      ]
+    },
+    "tips": {
+      "title": "Consigli per i Migliori Risultati",
+      "observation": {
+        "title": "Posizione di Osservatore",
+        "description": "Si avvicini ai Suoi pensieri con curiosità, non con giudizio. È uno scienziato che studia la propria mente, non un critico che la condanna."
+      },
+      "consistency": {
+        "title": "Costruisca l'Abitudine",
+        "description": "Pratichi l'etichettatura durante tutta la giornata, non solo durante i picchi di ansia. L'uso regolare rafforza la Sua capacità di creare distanza dai pensieri."
+      },
+      "simplicity": {
+        "title": "Mantenga le Etichette Semplici",
+        "description": "Usi etichette brevi e chiare come \"preoccupazione,\" \"giudizio,\" o \"catastrofizzazione.\" Sta identificando schemi, non scrivendo saggi."
+      }
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+    "grounding": {
+        "exercise": {
+            "title": "Grounding 5-4-3-2-1",
+            "beginExercise": "Inizia l'Esercizio",
+            "practiceAgain": "Pratica di Nuovo",
+            "ofSteps": "di 5 passi",
+            "itemsFound": "elementi trovati",
+            "found": "trovato",
+            "greatAwareness": "Ottima consapevolezza!",
+            "keepExploring": "Continui ad esplorare...",
+            "back": "Indietro",
+            "next": "Avanti",
+            "complete": "Completa",
+            "youAreGrounded": "È Radicato nel Presente",
+            "groundedDescription": "Coinvolgendo i suoi cinque sensi, si è ancorato con successo al momento presente.",
+            "benefits": {
+                "immediateStability": {
+                    "title": "Stabilità Immediata",
+                    "description": "Si connetta con l'ambiente e si senta radicato"
+                },
+                "mentalClarity": {
+                    "title": "Chiarezza Mentale",
+                    "description": "Interrompa i pensieri accelerati e riacquisti la concentrazione"
+                },
+                "calmPresence": {
+                    "title": "Presenza Calma",
+                    "description": "Si senta più presente e in controllo"
+                },
+                "stability": {
+                    "title": "Stabilità",
+                    "description": "È connesso e radicato"
+                },
+                "clarity": {
+                    "title": "Chiarezza",
+                    "description": "I pensieri accelerati hanno rallentato"
+                },
+                "presence": {
+                    "title": "Presenza",
+                    "description": "È qui in questo momento"
+                }
+            },
+            "steps": {
+                "see": {
+                    "title": "Guardi intorno a sé",
+                    "subtitle": "Trovi 5 cose che può vedere",
+                    "items": [
+                        {
+                            "text": "Qualcosa con un colore o un motivo interessante",
+                            "guidance": "Cerchi texture, riflessi o combinazioni di colori che catturano la sua attenzione"
+                        },
+                        {
+                            "text": "Un oggetto con una superficie liscia",
+                            "guidance": "Noti come la luce colpisce la superficie - è lucida, opaca o una via di mezzo?"
+                        },
+                        {
+                            "text": "Qualcosa che si muove o che ha delle ombre",
+                            "guidance": "Osservi come il movimento crea schemi variabili di luce e ombra"
+                        },
+                        {
+                            "text": "Un dettaglio che non aveva notato prima",
+                            "guidance": "Guardi più da vicino gli oggetti familiari - quali piccoli dettagli le sono sfuggiti?"
+                        },
+                        {
+                            "text": "Qualcosa che le porta conforto",
+                            "guidance": "Si concentri sul perché questo oggetto le dà conforto - i suoi colori, la forma o i ricordi che custodisce"
+                        }
+                    ]
+                },
+                "touch": {
+                    "title": "Percepisca ciò che la circonda",
+                    "subtitle": "Trovi 4 cose che può toccare o sentire",
+                    "items": [
+                        {
+                            "text": "La temperatura dell'aria sulla sua pelle",
+                            "guidance": "Noti se è calda, fresca o neutra - come la sente su diverse parti del suo corpo?"
+                        },
+                        {
+                            "text": "La consistenza dei suoi vestiti",
+                            "guidance": "Senta il tessuto tra le dita - è morbido, ruvido, liscio o testurizzato?"
+                        },
+                        {
+                            "text": "La superficie su cui è seduto o in piedi",
+                            "guidance": "Prema leggermente - è solida, morbida, calda o fresca contro il suo corpo?"
+                        },
+                        {
+                            "text": "Qualcosa di liscio o ruvido vicino a lei",
+                            "guidance": "Passi le dita sulla superficie - noti il contrasto nelle texture"
+                        }
+                    ]
+                },
+                "hear": {
+                    "title": "Ascolti attentamente",
+                    "subtitle": "Trovi 3 cose che può sentire",
+                    "items": [
+                        {
+                            "text": "Il suo stesso respiro o battito cardiaco",
+                            "guidance": "Chiuda gli occhi e si concentri all'interno - riesce a sentire il suo respiro o il polso?"
+                        },
+                        {
+                            "text": "Suoni provenienti dall'esterno (traffico, natura, persone)",
+                            "guidance": "Ascolti oltre la stanza - quali suoni distanti riesce ad identificare?"
+                        },
+                        {
+                            "text": "Suoni sottili che di solito ignora",
+                            "guidance": "Noti suoni silenziosi come il ronzio di dispositivi elettronici, il movimento dell'aria o rumori di assestamento"
+                        }
+                    ]
+                },
+                "smell": {
+                    "title": "Respiri profondamente",
+                    "subtitle": "Trovi 2 cose che può odorare",
+                    "items": [
+                        {
+                            "text": "L'aria in questa stanza",
+                            "guidance": "Prenda un respiro lento e profondo - è fresca, stantia, profumata o neutra?"
+                        },
+                        {
+                            "text": "Qualcosa di piacevole o familiare",
+                            "guidance": "Cerchi profumi sottili - caffè, sapone, ammorbidente o odori naturali"
+                        }
+                    ]
+                },
+                "taste": {
+                    "title": "Noti il sapore",
+                    "subtitle": "Trovi 1 cosa che può gustare",
+                    "items": [
+                        {
+                            "text": "Il sapore attuale nella sua bocca",
+                            "guidance": "Passi la lingua nella bocca - dolce, salato, mentolato o solo il sapore della saliva?"
+                        }
+                    ]
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "Come Funziona il Grounding 5-4-3-2-1",
+            "description1": "La tecnica 5-4-3-2-1 funziona reindirizzando l'attenzione del cervello dai pensieri ansiosi alle esperienze sensoriali immediate. Quando l'ansia attiva il sistema di rilevamento delle minacce del cervello, coinvolgere deliberatamente ciascuno dei cinque sensi crea segnali neurali competitivi che interrompono la risposta ansiosa.",
+            "description2": "Identificando sistematicamente ciò che può vedere, toccare, sentire, odorare e gustare, sposta il suo sistema nervoso da uno stato di iperarousal alla consapevolezza del momento presente. Questo coinvolgimento sensoriale attiva la corteccia prefrontale—il centro del ragionamento del cervello—che aiuta a regolare l'amigdala, il sistema di allarme emotivo che innesca l'ansia.",
+            "description3": "La struttura del conto alla rovescia (5-4-3-2-1) fornisce un'impalcatura cognitiva che dà alla mente un compito concreto, impedendole di cadere in una spirale di preoccupazione mentre simultaneamente la ancora all'ambiente fisico e al momento presente.",
+            "sensoryEngagement": {
+                "title": "Coinvolgimento Sensoriale",
+                "description": "L'attivazione simultanea di molteplici sensi crea forti segnali neurali che competono con i pattern d'ansia nel cervello e li superano."
+            },
+            "neuralInterruption": {
+                "title": "Interruzione Neurale",
+                "description": "Il compito strutturato del conto alla rovescia coinvolge la corteccia prefrontale, interrompendo la risposta ansiosa dell'amigdala e ripristinando il pensiero razionale."
+            },
+            "presentMomentAnchoring": {
+                "title": "Ancoraggio al Momento Presente",
+                "description": "L'identificazione di dettagli sensoriali concreti radica la consapevolezza nel qui-e-ora, spezzando il ciclo di rimuginazione sul passato o preoccupazione per il futuro."
+            }
+        },
+        "science": {
+            "title": "La Scienza Dietro il Grounding 5-4-3-2-1",
+            "description": "La ricerca dimostra che le tecniche di grounding sensoriale producono miglioramenti misurabili nei sintomi d'ansia in popolazioni diverse. In uno <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12550066/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">studio controllato randomizzato su 121 bambini con Sindrome di Tourette</a>, gli esercizi di grounding hanno portato a una riduzione di 36 punti nei punteggi d'ansia—significativamente maggiore rispetto ai controlli—con effetti particolarmente forti sull'ansia da separazione (riduzione di 11,31 punti, dimensione dell'effetto 0,55) e sull'ansia sociale (riduzione di 11,05 punti, dimensione dell'effetto 0,65).",
+            "research": {
+                "anxietyReduction": {
+                    "title": "Riduzione dell'Ansia in Popolazioni Cliniche",
+                    "description": "Nei bambini con Sindrome di Tourette, un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12550066/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">protocollo che incorpora il grounding sensoriale</a> ha ottenuto una riduzione di 36,02 punti nei punteggi totali d'ansia, con l'ansia da separazione diminuita di 11,31 punti (dimensione dell'effetto 0,55) e l'ansia sociale di 11,05 punti (dimensione dell'effetto 0,65)."
+                },
+                "mentalHealthImprovement": {
+                    "title": "Miglioramenti nella Salute Mentale e nel Funzionamento",
+                    "description": "I pazienti con disturbo neurologico funzionale che utilizzano la <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10272915/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">tecnica di grounding 5-4-3-2-1</a> hanno mostrato un aumento di 39 punti nei punteggi di salute mentale, un miglioramento di 35 punti nel funzionamento emotivo e hanno dimezzato i loro livelli di compromissione da 25,7 a 13,2 sulle scale di disabilità."
+                },
+                "symptomFrequencyReduction": {
+                    "title": "Riduzione della Frequenza dei Sintomi",
+                    "description": "Una <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8515382/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">meta-analisi dei trattamenti psicologici</a> che incorporano il grounding sensoriale ha mostrato che l'82% dei pazienti ha raggiunto almeno il 50% di riduzione nella frequenza delle crisi funzionali, con miglioramenti sostenuti al follow-up di 6 mesi e riduzioni concomitanti dei punteggi d'ansia."
+                }
+            }
+        },
+        "whenToPractice": {
+            "title": "Quando Praticare",
+            "items": [
+                "Durante attacchi di panico o episodi di ansia acuta per interrompere il ciclo di escalation",
+                "Quando si sente sopraffatto, dissociato o disconnesso dall'ambiente circostante",
+                "Prima di eventi stressanti come presentazioni o conversazioni difficili per stabilire la calma",
+                "Dopo trigger traumatici o flashback per riconnettersi al momento presente"
+            ]
+        },
+        "whatYoullNotice": {
+            "title": "Cosa Noterà",
+            "items": [
+                "Riduzione immediata dei pensieri accelerati e del sovraccarico mentale entro il primo minuto",
+                "Rallentamento della frequenza cardiaca e diminuzione della tensione fisica mentre il sistema nervoso si calma",
+                "Pensiero più chiaro e migliore capacità di rispondere piuttosto che reagire alle situazioni",
+                "Maggiore senso di controllo e stabilità quando praticato regolarmente durante lo stress"
+            ]
+        },
+        "tips": {
+            "title": "Consigli per Risultati Ottimali",
+            "tip1": {
+                "title": "Proceda con Calma",
+                "description": "Si prenda il tempo necessario per identificare ogni dettaglio sensoriale—affrettarsi vanifica lo scopo. Dedichi 5-10 secondi per osservare davvero ogni elemento che identifica."
+            },
+            "tip2": {
+                "title": "Sia Specifico",
+                "description": "Invece di \"Vedo una sedia\", provi \"Vedo una sedia di legno con braccioli curvi e un cuscino rosso\". L'osservazione dettagliata rafforza l'effetto di grounding."
+            },
+            "tip3": {
+                "title": "Ripeta Quando Necessario",
+                "description": "Se l'ansia ritorna dopo un giro, ne faccia immediatamente un altro. Può praticare questa tecnica tutte le volte necessarie finché non si sente radicato."
+            }
+        }
+    }
+}

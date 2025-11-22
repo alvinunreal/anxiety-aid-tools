@@ -1,0 +1,133 @@
+{
+  "about": {
+    "title": "Comprendere l'Ansia",
+    "whatHappens": {
+      "title": "Cosa Accade Durante l'Ansia",
+      "description": "Il corpo attiva la risposta \"lotta o fuga\", aumentando la frequenza cardiaca, accelerando la respirazione e rilasciando ormoni dello stress come l'adrenalina. Questo si attiva spesso inutilmente durante situazioni quotidiane, lasciandoti in uno stato di tensione."
+    },
+    "howHelp": {
+      "title": "Come Aiutano Queste Tecniche",
+      "description": "Queste tecniche basate su evidenze scientifiche attivano il sistema nervoso parasimpatico, che contrasta naturalmente la risposta allo stress. La pratica regolare può ridurre sia la frequenza che l'intensità delle sensazioni ansiose."
+    },
+    "tips": {
+      "title": "Suggerimenti per Risultati Migliori",
+      "items": [
+        "Trova uno spazio tranquillo e confortevole dove non sarai interrotto",
+        "Inizia con tecniche più brevi (2-5 minuti) se ti senti molto ansioso",
+        "Pratica regolarmente, anche quando non sei ansioso, per sviluppare le tue capacità",
+        "Sii paziente con te stesso - queste tecniche diventano più facili con la pratica"
+      ]
+    }
+  },
+  "resources": {
+    "title": "Risorse Aggiuntive",
+    "professional": {
+      "title": "Quando Cercare Aiuto Professionale",
+      "description": "Se l'ansia sta impattando significativamente la tua vita quotidiana, il lavoro o le relazioni, considera di rivolgerti a un professionista della salute mentale.",
+      "signs": [
+        "Gli attacchi d'ansia sono frequenti o gravi",
+        "Stai evitando attività importanti",
+        "I sintomi fisici persistono",
+        "Il sonno o l'appetito sono significativamente compromessi"
+      ]
+    },
+    "organizations": {
+      "title": "Organizzazioni per la Salute Mentale",
+      "description": "Principali organizzazioni che forniscono informazioni e risorse basate su evidenze scientifiche per ansia e depressione:",
+      "list": [
+        {
+          "name": "Istituto Superiore di Sanità - Salute Mentale",
+          "url": "https://www.iss.it/salute-mentale",
+          "description": "Istituto nazionale italiano che fornisce informazioni autorevoli su disturbi d'ansia, depressione e altre condizioni di salute mentale, con risorse evidence-based e linee guida cliniche."
+        },
+        {
+          "name": "Società Italiana di Psichiatria (SIP)",
+          "url": "https://www.sip.it",
+          "description": "Associazione scientifica italiana che promuove la ricerca e la formazione in psichiatria, offrendo informazioni sui disturbi d'ansia e opzioni di trattamento."
+        },
+        {
+          "name": "Telefono Amico Italia",
+          "url": "https://www.telefonoamico.it",
+          "description": "Servizio di ascolto e supporto emotivo gratuito e anonimo per persone in difficoltà, disponibile 24 ore su 24."
+        },
+        {
+          "name": "Associazione per la Ricerca sulla Depressione (ARD)",
+          "url": "https://www.depressione-ansia.it",
+          "description": "Organizzazione italiana dedicata alla ricerca, informazione e supporto per persone con disturbi d'ansia e depressione, offrendo risorse educative e gruppi di supporto."
+        }
+      ]
+    }
+  },
+
+  "mobileAppBanner": {
+    "text": "App mobile gratuite ora disponibili",
+    "cta": "Scopri di Più",
+    "dismiss": "Chiudi"
+  },
+
+  "footer": {
+    "title": "Anxiety Aid Tools",
+    "description": "Strumenti open source gratuiti per aiutarti a trovare la calma quando ne hai più bisogno.",
+    "disclaimer": "Questo sito fornisce informazioni generali sull'ansia e non sostituisce consulenza, diagnosi o trattamento medico professionale. Consultare sempre un operatore sanitario per l'ansia persistente.",
+    "contribute": {
+      "title": "Contribuisci",
+      "github": "GitHub",
+      "discussions": "Discussioni"
+    }
+  },
+
+  "mobile": {
+    "title": "App Mobile",
+    "description": "Porta Anxiety Aid Tools con te ovunque. Scarica la nostra app mobile per dispositivi iOS e Android.",
+    "ios": {
+      "title": "App iOS",
+      "subtitle": "Disponibile su App Store",
+      "description": "Scarica la nostra app dall'Apple App Store per il tuo iPhone o iPad. Ottieni accesso immediato a tutte le tecniche di sollievo dall'ansia ovunque tu vada.",
+      "button": "App Store"
+    },
+    "android": {
+      "title": "App Android",
+      "subtitle": "Download Diretto APK",
+      "description": "Ottieni la versione Android di Anxiety Aid Tools. Stiamo lavorando per rendere l'app disponibile su Google Play Store.",
+      "status": {
+        "title": "Presto su Play Store",
+        "description": "Stiamo lavorando per pubblicare la nostra app su Google Play Store. Nel frattempo, puoi scaricare direttamente il file APK e installarlo sul tuo dispositivo Android."
+      },
+      "button": "Ottieni APK",
+      "instructions": {
+        "title": "Come installare APK su Android",
+        "steps": [
+          "Scarica il file APK usando il pulsante sopra",
+          "Apri le Impostazioni del dispositivo e vai a Sicurezza o Privacy",
+          "Abilita 'Installa app da fonti sconosciute' o 'Consenti da questa fonte'",
+          "Apri il file APK scaricato dalla cartella Download",
+          "Segui le istruzioni sullo schermo per completare l'installazione",
+          "Una volta installata, puoi disabilitare 'fonti sconosciute' per sicurezza"
+        ]
+      }
+    },
+    "features": {
+      "title": "Funzionalità dell'App Mobile",
+      "items": [
+        "Accedi a tutte le tecniche di sollievo dall'ansia offline",
+        "Esercizi di respirazione guidata con feedback aptico",
+        "Strumenti interattivi di grounding e visualizzazione",
+        "Monitora i tuoi progressi e le tecniche preferite",
+        "Supporto modalità scura per un uso confortevole in qualsiasi momento",
+        "Niente pubblicità, nessun tracciamento, completamente gratuita e open source"
+      ]
+    },
+    "privacy": {
+      "title": "La Tua Privacy è Importante",
+      "description": "Tutti i tuoi dati rimangono sul tuo dispositivo. Non raccogliamo, archiviamo o condividiamo alcuna informazione personale. Nessun account richiesto."
+    },
+    "support": {
+      "description": "Hai bisogno di aiuto con l'app mobile o hai domande?",
+      "link": "Visita la Pagina di Supporto"
+    },
+    "screenshots": {
+      "title": "Anteprima App",
+      "hint": "Scorri per vedere altro"
+    }
+  }
+}

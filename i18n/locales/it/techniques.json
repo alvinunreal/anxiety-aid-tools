@@ -1,0 +1,64 @@
+{
+  "techniques": {
+    "breathing": {
+      "name": "Respirazione di 2 Minuti",
+      "short_description": "Esercizio di respirazione semplice che calma il sistema nervoso e riduce l'ansia in pochi minuti",
+      "description": "Quando l'ansia colpisce, la respirazione diventa superficiale e rapida. Questa tecnica insegna semplici schemi respiratori che attivano la risposta naturale di rilassamento del corpo.",
+      "duration": "2-3 min"
+    },
+    "grounding": {
+      "name": "Grounding 5-4-3-2-1",
+      "short_description": "Una tecnica sensoriale che ti libera dai pensieri ansiosi concentrandoti su ciò che ti circonda ora",
+      "description": "La tecnica di grounding usa i cinque sensi per ancorarti al momento presente. Notare 5 cose che puoi vedere, 4 che puoi toccare, 3 che puoi sentire, 2 che puoi odorare e 1 che puoi gustare interrompe il ciclo dei pensieri ansiosi e ti riconnette con l'ambiente immediato.",
+      "duration": "3-5 min"
+    },
+    "guidedBreathing": {
+      "name": "Respirazione Guidata",
+      "short_description": "Schemi respiratori passo dopo passo per rallentare il battito cardiaco e alleviare la tensione",
+      "description": "Segui esercizi di respirazione strutturati progettati per regolare il sistema nervoso autonomo. Queste guide visive aiutano a mantenere tempi e ritmi corretti, rendendo più facile raggiungere lo stato di rilassamento profondo che deriva dalla pratica respiratoria controllata.",
+      "duration": "5-10 min"
+    },
+    "progressiveMuscleRelaxation": {
+      "name": "Rilassamento Muscolare Progressivo",
+      "short_description": "Rilascia la tensione fisica contraendo e rilassando sistematicamente i gruppi muscolari del corpo",
+      "description": "L'ansia crea spesso tensione fisica che potresti non notare nemmeno. Questa tecnica insegna a contrarre e poi rilasciare sistematicamente diversi gruppi muscolari, aiutandoti a diventare consapevole dello stress fisico e a imparare a lasciarlo andare. Il contrasto tra tensione e rilassamento aiuta il corpo a raggiungere uno stato di calma più profondo.",
+      "duration": "8-12 min"
+    },
+    "peacefulVisualization": {
+      "name": "Visualizzazione Pacifica",
+      "short_description": "Immagini mentali guidate che ti trasportano in ambienti rilassanti per ridurre stress e preoccupazioni",
+      "description": "La tua mente ha il potere di creare esperienze vivide e calmanti attraverso la visualizzazione. Questa tecnica ti guida attraverso scenari pacifici e ambienti sereni, aiutando il cervello a passare dai pensieri ansiosi a uno stato di tranquillità. La pratica regolare può aiutarti ad accedere più facilmente a questo stato di calma quando ne hai bisogno.",
+      "duration": "10-12 min"
+    },
+    "thoughtLabeling": {
+      "name": "Etichettatura dei Pensieri",
+      "short_description": "Una tecnica di mindfulness che ti aiuta a riconoscere i pensieri ansiosi come eventi mentali temporanei, non fatti",
+      "description": "I pensieri ansiosi possono sembrare opprimenti quando li tratti come verità assolute. Questa pratica di mindfulness insegna a osservare i pensieri con curiosità piuttosto che giudizio. Imparare a etichettare i pensieri come 'pensare', 'preoccuparsi' o 'pianificare' crea distanza tra te e la tua mente ansiosa, riducendone l'impatto emotivo.",
+      "duration": "5-15 min"
+    },
+    "stressReliefBubbles": {
+      "name": "Bolle Antistress",
+      "short_description": "Attività interattiva di scoppio bolle che reindirizza l'energia ansiosa in movimenti giocosi e ripetitivi",
+      "description": "A volte il modo migliore per affrontare l'ansia è attraverso una dolce distrazione e il gioco. Questa semplice attività interattiva aiuta a reindirizzare l'energia nervosa dando alla mente una pausa dai pensieri ansiosi.",
+      "duration": "2-5 min"
+    },
+    "fidgetSpinner": {
+      "name": "Fidget Spinner Online",
+      "short_description": "Calma le mani irrequiete con un movimento rotatorio tranquillo e ripetibile su qualsiasi dispositivo.",
+      "description": "Gira, rilascia e guarda lo slancio rallentare. La semplice concentrazione tattile dà alle mani qualcosa di costante da fare mentre la mente segue un pattern visivo semplice—utile quando hai bisogno di uno sbocco tranquillo per l'energia in eccesso.",
+      "duration": "1-3 min"
+    },
+    "soundTherapy": {
+      "name": "Terapia del Suono",
+      "short_description": "Frequenze curative che promuovono rilassamento e chiarezza mentale",
+      "description": "Specifiche frequenze sonore hanno dimostrato di influenzare i pattern delle onde cerebrali e promuovere il rilassamento. Queste frequenze curative accuratamente selezionate aiutano a quietare il chiacchiericcio mentale e guidare il cervello verso stati più pacifici. Usa questa terapia per creare un ambiente calmante che supporta il rilassamento profondo e il sollievo dallo stress.",
+      "duration": "5-30 min"
+    },
+    "stressBall": {
+      "name": "Palla Antistress",
+      "short_description": "Palla antistress interattiva per spremere via la tensione e reindirizzare l'energia ansiosa attraverso il contatto tattile",
+      "description": "A volte la tensione fisica ha bisogno di un rilascio fisico. Questa palla antistress virtuale offre un'esperienza tattile soddisfacente che aiuta a canalizzare l'energia nervosa e l'ansia in movimenti di spremitura intenzionali. L'azione ripetitiva aiuta a calmare la mente dando al corpo un modo per rilasciare stress e tensione accumulati.",
+      "duration": "1-5 min"
+    }
+  }
+}

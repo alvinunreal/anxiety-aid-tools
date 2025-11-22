@@ -1,0 +1,123 @@
+{
+    "breathing": {
+        "audio": {
+            "enableCues": "Attiva segnali audio"
+        },
+        "benefits": {
+            "calm": {
+                "title": "Calma",
+                "description": "Riduce la frequenza cardiaca e la pressione arteriosa"
+            },
+            "focus": {
+                "title": "Concentrazione",
+                "description": "Maggiore ossigenazione cerebrale per un pensiero più lucido"
+            },
+            "relax": {
+                "title": "Rilassamento",
+                "description": "Attiva la risposta naturale di rilassamento"
+            }
+        },
+        "session": {
+            "title": "Sessione di Respirazione",
+            "subtitle": "Ritmo Calmante 4:6",
+            "elapsed": "trascorsi",
+            "inhaling": "Inspirazione",
+            "exhaling": "Espirazione",
+            "breatheIn": "inspira",
+            "breatheOut": "espira",
+            "fourSeconds": "4 secondi",
+            "sixSeconds": "6 secondi",
+            "sessionProgress": "Progresso della Sessione",
+            "sessionProgressAriaLabel": "Progresso della sessione: {current} di {total} cicli respiratori completati",
+            "currentBreath": "Respiro Attuale",
+            "breathProgressAriaLabel": "Progresso del respiro attuale: {progress}% completato",
+            "breaths": "respiri"
+        },
+        "buttons": {
+            "begin": "Inizia l'Esercizio",
+            "beginAriaLabel": "Avvia la sessione di esercizio respiratorio",
+            "stop": "Interrompi",
+            "stopAriaLabel": "Interrompi l'esercizio respiratorio in corso",
+            "practiceAgain": "Pratica di Nuovo",
+            "practiceAgainAriaLabel": "Avvia un'altra sessione di esercizio respiratorio"
+        },
+        "completion": {
+            "title": "Eccellente Lavoro",
+            "description": "Ha completato {count} cicli respiratori in {time}. Il Suo sistema nervoso parasimpatico è stato attivato, favorendo il rilassamento.",
+            "benefits": {
+                "heartRate": "Frequenza cardiaca ridotta",
+                "mind": "Mente calmata",
+                "breathing": "Respirazione regolata"
+            }
+        },
+        "howItWorks": {
+            "title": "Come Funziona la Respirazione Diaframmatica",
+            "description1": "La respirazione controllata attraverso il pattern 4:6, che enfatizza un'espirazione più lunga, stimola il nervo vago, un componente primario del sistema nervoso parasimpatico. L'attivazione di questo nervo invia segnali che aiutano a far transitare il corpo da uno stato di \"combattimento o fuga\" a una modalità di \"riposo e riparazione\".",
+            "description2": "Questo cambiamento produce diversi benefici fisiologici misurabili. Può portare a una riduzione della frequenza cardiaca e della pressione arteriosa. Il rilassamento dei vasi sanguigni consente una migliore circolazione, aumentando il flusso di ossigeno al cervello. Inoltre, questa risposta calmante influenza positivamente la digestione e sostiene il sistema immunitario.",
+            "description3": "Praticare consapevolmente la tecnica di respirazione 4:6 è un modo efficace per gestire lo stress e promuovere il benessere generale.",
+            "vagalActivation": {
+                "title": "Attivazione del Nervo Vago",
+                "description": "La respirazione lenta e profonda stimola il nervo vago, che collega il cervello al cuore e al sistema digestivo, promuovendo uno stato di calma."
+            },
+            "gasExchange": {
+                "title": "Scambio Gassoso Ottimale",
+                "description": "Respirare a 4-6 respiri al minuto ottimizza l'apporto di ossigeno e l'equilibrio di CO2, riducendo l'iperventilazione che spesso accompagna l'ansia."
+            },
+            "stressHormones": {
+                "title": "Riduzione degli Ormoni dello Stress",
+                "description": "La pratica regolare diminuisce il cortisolo e altri ormoni dello stress, creando miglioramenti duraturi nella risposta allo stress basale del corpo."
+            }
+        },
+        "science": {
+            "title": "La Scienza della Respirazione Diaframmatica",
+            "description": "La ricerca dimostra costantemente che la respirazione diaframmatica produce riduzioni misurabili dell'ansia, degli ormoni dello stress e dell'attivazione fisiologica. Un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5455070/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">programma di 8 settimane con 20 sessioni di respirazione diaframmatica di 15 minuti</a> ha ridotto l'affetto negativo di 2,55 punti e diminuito i livelli di cortisolo di 1,32-1,66 ng/mL in adulti sani.",
+            "research": {
+                "anxietyReduction": {
+                    "title": "Riduzione dell'Ansia",
+                    "description": "In pazienti con COVID-19, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11535222/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">5 giorni di respirazione profonda guidata</a> (15-20 minuti, 4 volte al giorno) hanno ridotto i punteggi di ansia sul DASS-21 da 14,86 a 8,44—un miglioramento del 43%—mentre i controlli non hanno mostrato alcun cambiamento."
+                },
+                "panicDisorders": {
+                    "title": "Trattamento del Disturbo da Attacchi di Panico",
+                    "description": "Una <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9954474/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">revisione di 16 studi</a> ha rilevato che la respirazione lenta a 8-10 respiri al minuto per 2-12 mesi ha ridotto la frequenza degli attacchi di panico e normalizzato i livelli di CO2 in pazienti con disturbo da attacchi di panico e agorafobia."
+                },
+                "gadImprovement": {
+                    "title": "Miglioramento del Disturbo d'Ansia Generalizzato",
+                    "description": "In 41 pazienti con DAG, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8989478/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3 mesi di pratica respiratoria quotidiana</a> (15-20 min, 4+ giorni/settimana) hanno ridotto i punteggi di ansia da 40,90 a 13,24 sul BAI—un miglioramento del 68%."
+                }
+            }
+        },
+        "whenToPractice": {
+            "title": "Quando Praticare",
+            "items": [
+                "Quando si sente sopraffatto o stressato",
+                "Prima di conversazioni o decisioni importanti",
+                "Durante episodi di ansia o attacchi di panico",
+                "Dopo eventi stressanti per resettare il sistema nervoso"
+            ]
+        },
+        "whatYoullNotice": {
+            "title": "Cosa Noterà",
+            "items": [
+                "Effetto calmante immediato entro il primo minuto",
+                "Pensiero più chiaro e migliore capacità decisionale",
+                "Frequenza cardiaca più lenta e riduzione della tensione muscolare",
+                "Migliore resilienza allo stress con la pratica regolare"
+            ]
+        },
+        "tips": {
+            "title": "Consigli per i Migliori Risultati",
+            "posture": {
+                "title": "Postura",
+                "description": "Si sieda o stia in piedi con la schiena dritta per consentire la piena espansione polmonare. Spalle rilassate, non ingobbite."
+            },
+            "environment": {
+                "title": "Ambiente",
+                "description": "Trovi uno spazio tranquillo dove non sarà interrotto. Una temperatura confortevole aiuta la concentrazione."
+            },
+            "consistency": {
+                "title": "Costanza",
+                "description": "Pratichi la stessa tecnica per una settimana prima di cambiarla. Acquisire familiarità migliora l'efficacia."
+            }
+        }
+    }
+}

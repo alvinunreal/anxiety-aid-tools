@@ -1,0 +1,142 @@
+{
+  "guidedBreathing": {
+    "interface": {
+      "begin": "Inizia",
+      "elapsed": "trascorsi",
+      "sessionProgress": "Progresso della Sessione",
+      "currentPhase": "Fase Attuale",
+      "beginExercise": "Inizia Esercizio",
+      "resume": "Riprendi",
+      "pause": "Pausa",
+      "stop": "Interrompi",
+      "exerciseComplete": "Esercizio Completato",
+      "excellentWork": "Ottimo lavoro! Ha completato {completedCycles} cicli di {techniqueName} in {totalTime}.",
+      "breathingOptimized": "Respirazione ottimizzata",
+      "mindCentered": "Mente centrata",
+      "ready": "pronto",
+      "breatheIn": "inspiri",
+      "breatheOut": "espiri",
+      "hold": "trattenga",
+      "seconds": "secondi",
+      "cycles": "cicli",
+      "pattern": "schema"
+    },
+    "techniques": {
+      "boxBreathing": {
+        "name": "Respirazione Quadrata",
+        "description": "Tempi uguali per una concentrazione calma",
+        "timing": "4-4-4-4",
+        "bestFor": "Concentrazione e focus"
+      },
+      "calming": {
+        "name": "Tecnica 4-7-8",
+        "description": "Ritenzione prolungata per un rilassamento profondo",
+        "timing": "4-7-8",
+        "bestFor": "Rilassamento profondo e sonno"
+      },
+      "energizing": {
+        "name": "Energizzante 4-4-6",
+        "description": "Schema equilibrato per la vigilanza",
+        "timing": "4-4-6",
+        "bestFor": "Energia e chiarezza mentale"
+      },
+      "quickReset": {
+        "name": "Reset Rapido",
+        "description": "Tecnica veloce per un sollievo immediato",
+        "timing": "3-3-3",
+        "bestFor": "Rapido sollievo dallo stress"
+      }
+    },
+    "techniquesOverview": {
+      "boxBreathing": {
+        "title": "Respirazione Quadrata (4-4-4-4)",
+        "description": "Tempi uguali per tutte le fasi creano chiarezza mentale e concentrazione. Utilizzata dai Navy SEALs e dai soccorritori d'emergenza per mantenere la calma sotto pressione. Lo schema simmetrico aiuta a regolare il sistema nervoso e a migliorare la concentrazione.",
+        "bestFor": "Ideale per: Focus, concentrazione, gestione dello stress"
+      },
+      "calming": {
+        "title": "Calmante 4-7-8",
+        "description": "La ritenzione prolungata permette all'ossigeno di saturare completamente il sangue, mentre l'espirazione lunga attiva il sistema nervoso parasimpatico. Questa tecnica è particolarmente efficace per ridurre l'ansia e preparare al sonno.",
+        "bestFor": "Ideale per: Sollievo dall'ansia, preparazione al sonno, rilassamento profondo"
+      },
+      "energizing": {
+        "title": "Energizzante 4-4-6",
+        "description": "Schema equilibrato che aumenta il flusso di ossigeno mantenendo il controllo. L'espirazione moderata aiuta a dissipare la nebbia mentale e aumentare la vigilanza senza causare iperventilazione.",
+        "bestFor": "Ideale per: Chiarezza mentale, aumento di energia, reset pomeridiano"
+      },
+      "quickReset": {
+        "title": "Reset Rapido 3-3-3",
+        "description": "Ritmo più veloce per un sollievo immediato dallo stress quando ha solo uno o due minuti. Perfetto per momenti di ansia acuta o quando necessita di una rapida regolazione emotiva.",
+        "bestFor": "Ideale per: Rapido sollievo dallo stress, calma d'emergenza, agende impegnate"
+      }
+    },
+    "howItWorks": {
+      "title": "Come Funziona la Respirazione Guidata",
+      "description1": "Gli schemi di respirazione strutturati funzionano fornendo al sistema nervoso segnali ritmici chiari che La spostano dalla modalità stress alla modalità calma. Quando segue un conteggio specifico—come 4-7-8 o respirazione quadrata—sta assumendo il controllo di un processo automatico, che attiva il nervo vago che collega il cervello al cuore e al sistema digestivo.",
+      "description2": "Schemi diversi servono scopi differenti. Tempi uguali (come la respirazione quadrata) creano chiarezza mentale e concentrazione equilibrando il sistema nervoso. Espirazioni prolungate (come 4-7-8) innescano un rilassamento più profondo attivando più intensamente il sistema nervoso parasimpatico. Schemi più brevi forniscono un sollievo rapido quando necessita di calma immediata.",
+      "description3": "Il conteggio stesso è terapeutico—offre alla mente qualcosa di concreto su cui concentrarsi, interrompendo i pensieri ansiosi mentre il corpo segue naturalmente il ritmo verso uno stato più calmo.",
+      "rhythmicControl": {
+        "title": "Controllo Ritmico",
+        "description": "Seguire un conteggio specifico offre alla mente concentrazione mentre segnala al sistema nervoso di passare dallo stress alla calma."
+      },
+      "patternVariety": {
+        "title": "Varietà di Schemi",
+        "description": "Diversi rapporti respiratori servono esigenze diverse—tempi uguali per la concentrazione, espirazioni prolungate per il rilassamento profondo, schemi più brevi per un sollievo rapido."
+      },
+      "neuralRegulation": {
+        "title": "Regolazione Neurale",
+        "description": "La respirazione strutturata attiva il nervo vago, che controlla la frequenza cardiaca, la digestione e la risposta allo stress, promuovendo una calma sistematica."
+      }
+    },
+    "science": {
+      "title": "La Scienza Dietro la Respirazione Guidata",
+      "description": "Molteplici studi clinici dimostrano che le tecniche di respirazione guidata producono riduzioni misurabili dell'ansia, degli ormoni dello stress e dell'attivazione fisiologica. Un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5455070/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">programma di 8 settimane con 20 sessioni di respirazione diaframmatica di 15 minuti</a> a 4 respiri al minuto ha ridotto l'affettività negativa di 2,55 punti sulla scala PANAS e diminuito i livelli di cortisolo salivare di 1,32-1,66 ng/mL in adulti sani.",
+      "research": {
+        "anxietyReduction": {
+          "title": "Rapida Riduzione dell'Ansia",
+          "description": "In pazienti COVID-19, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11535222/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">5 giorni di respirazione profonda guidata</a> (4 sessioni giornaliere, 15-20 minuti ciascuna) hanno ridotto i punteggi di ansia sulla DASS-21 da 14,86 a 8,44—un miglioramento del 43%—mentre i controlli hanno mostrato cambiamenti minimi."
+        },
+        "panicReduction": {
+          "title": "Gestione degli Attacchi di Panico",
+          "description": "Una <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9954474/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">revisione di 16 studi</a> ha rilevato che la respirazione lenta a 8-10 respiri al minuto per 2-12 mesi ha ridotto la frequenza degli attacchi di panico e normalizzato i livelli di CO2 da ipocapnici a 35-40 mmHg in pazienti con disturbo di panico e agorafobia."
+        },
+        "gadImprovement": {
+          "title": "Sollievo dall'Ansia Generalizzata",
+          "description": "In 41 pazienti con GAD, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8989478/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3 mesi di pratica respiratoria quotidiana</a> (15-20 minuti, 4+ giorni/settimana) hanno ridotto i punteggi BAI da 40,90 a 13,24—un miglioramento del 68%—e i punteggi GAD-7 da 19,33 a 5,86."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Quando Praticare",
+      "items": [
+        "Quando si sente ansioso o sopraffatto e necessita di un sollievo immediato",
+        "Prima di dormire per calmare i pensieri affollati e prepararsi al riposo",
+        "Durante situazioni lavorative stressanti o prima di eventi importanti",
+        "Come pratica quotidiana per sviluppare una resilienza allo stress a lungo termine"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Cosa Noterà",
+      "items": [
+        "Effetto calmante immediato entro i primi 1-2 minuti di pratica",
+        "Frequenza cardiaca più lenta e ridotta tensione fisica in tutto il corpo",
+        "Pensiero più chiaro mentre il flusso di ossigeno migliora e i pensieri ansiosi si calmano",
+        "Migliore capacità di gestire lo stress con una pratica quotidiana costante"
+      ]
+    },
+    "tips": {
+      "title": "Consigli per Risultati Ottimali",
+      "technique": {
+        "title": "Tecnica",
+        "description": "Inizi con uno schema per almeno una settimana prima di provarne altri. La coerenza con una singola tecnica costruisce una familiarità ed efficacia più profonde."
+      },
+      "environment": {
+        "title": "Ambiente",
+        "description": "Trovi uno spazio tranquillo dove non sarà interrotto. Si sieda comodamente con la schiena sostenuta e le spalle rilassate."
+      },
+      "progression": {
+        "title": "Progressione",
+        "description": "Inizi con sessioni più brevi (2-3 minuti) e le estenda gradualmente man mano che aumenta il comfort. Non forzi il respiro—trovi il Suo ritmo naturale all'interno dello schema."
+      }
+    }
+  }
+}
