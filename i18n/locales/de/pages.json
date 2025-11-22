@@ -1,0 +1,133 @@
+{
+  "about": {
+    "title": "Angst verstehen",
+    "whatHappens": {
+      "title": "Was während der Angst passiert",
+      "description": "Ihr Körper aktiviert die \"Kampf-oder-Flucht\"-Reaktion, erhöht die Herzfrequenz, beschleunigt die Atmung und setzt Stresshormone wie Adrenalin frei. Dies wird oft unnötigerweise während alltäglicher Situationen ausgelöst und hinterlässt bei Ihnen ein angespanntes Gefühl."
+    },
+    "howHelp": {
+      "title": "Wie diese Techniken helfen",
+      "description": "Diese evidenzbasierten Techniken aktivieren Ihr parasympathisches Nervensystem, das die Stressreaktion auf natürliche Weise ausgleicht. Regelmäßiges Üben kann sowohl die Häufigkeit als auch die Intensität ängstlicher Gefühle reduzieren."
+    },
+    "tips": {
+      "title": "Tipps für beste Ergebnisse",
+      "items": [
+        "Finden Sie einen ruhigen, komfortablen Ort, an dem Sie nicht gestört werden",
+        "Beginnen Sie mit kürzeren Techniken (2-5 Minuten), wenn Sie sich sehr ängstlich fühlen",
+        "Üben Sie regelmäßig, auch wenn Sie nicht ängstlich sind, um Ihre Fähigkeiten aufzubauen",
+        "Seien Sie geduldig mit sich selbst – diese Techniken werden mit der Übung leichter"
+      ]
+    }
+  },
+  "resources": {
+    "title": "Zusätzliche Ressourcen",
+    "professional": {
+      "title": "Wann professionelle Hilfe suchen",
+      "description": "Wenn Angst Ihr tägliches Leben, Ihre Arbeit oder Ihre Beziehungen erheblich beeinträchtigt, sollten Sie sich an einen Psychologen oder Psychiater wenden.",
+      "signs": [
+        "Angstattacken sind häufig oder schwerwiegend",
+        "Sie vermeiden wichtige Aktivitäten",
+        "Körperliche Symptome bleiben bestehen",
+        "Schlaf oder Appetit ist erheblich beeinträchtigt"
+      ]
+    },
+    "organizations": {
+      "title": "Organisationen für psychische Gesundheit",
+      "description": "Führende Organisationen, die evidenzbasierte Informationen und Ressourcen für Angst und Depression bereitstellen:",
+      "list": [
+        {
+          "name": "Deutsche Gesellschaft für Psychiatrie und Psychotherapie (DGPPN)",
+          "url": "https://www.dgppn.de",
+          "description": "Fachgesellschaft für Psychiatrie und Psychotherapie mit umfassenden Informationen zu Angststörungen, Behandlungsmöglichkeiten und Therapeutensuche."
+        },
+        {
+          "name": "Deutsche Angst-Hilfe e.V. (DASH)",
+          "url": "https://www.angstselbsthilfe.de",
+          "description": "Bundesverband der Selbsthilfegruppen für Menschen mit Angst- und Panikstörungen. Bietet Informationen, Selbsthilfegruppen und Beratung."
+        },
+        {
+          "name": "Stiftung Deutsche Depressionshilfe",
+          "url": "https://www.deutsche-depressionshilfe.de",
+          "description": "Umfassende Informationen zu Depression und Angststörungen, Online-Forum, Krisenhilfe und Expertenrat."
+        },
+        {
+          "name": "Bundespsychotherapeutenkammer (BPtK)",
+          "url": "https://www.bptk.de",
+          "description": "Berufsvertretung der Psychotherapeuten mit Patienteninformationen, Therapeutensuche und Informationen zu psychischen Erkrankungen."
+        }
+      ]
+    }
+  },
+
+  "mobileAppBanner": {
+    "text": "Kostenlose mobile Apps jetzt verfügbar",
+    "cta": "Mehr erfahren",
+    "dismiss": "Schließen"
+  },
+
+  "footer": {
+    "title": "Anxiety Aid Tools",
+    "description": "Kostenlose Open-Source-Tools, die Ihnen helfen, Ruhe zu finden, wenn Sie sie am meisten brauchen.",
+    "disclaimer": "Diese Website bietet allgemeine Informationen über Angst und ist kein Ersatz für professionelle medizinische Beratung, Diagnose oder Behandlung. Konsultieren Sie bei anhaltender Angst immer einen Arzt.",
+    "contribute": {
+      "title": "Beitragen",
+      "github": "GitHub",
+      "discussions": "Diskussionen"
+    }
+  },
+
+  "mobile": {
+    "title": "Mobile Apps",
+    "description": "Nehmen Sie Anxiety Aid Tools überall mit hin. Laden Sie unsere mobile App für iOS- und Android-Geräte herunter.",
+    "ios": {
+      "title": "iOS App",
+      "subtitle": "Verfügbar im App Store",
+      "description": "Laden Sie unsere App aus dem Apple App Store für Ihr iPhone oder iPad herunter. Erhalten Sie sofortigen Zugriff auf alle Angstbewältigungstechniken, wo immer Sie sind.",
+      "button": "App Store"
+    },
+    "android": {
+      "title": "Android App",
+      "subtitle": "Direkter APK-Download",
+      "description": "Holen Sie sich die Android-Version von Anxiety Aid Tools. Wir arbeiten daran, die App im Google Play Store verfügbar zu machen.",
+      "status": {
+        "title": "Bald im Play Store",
+        "description": "Wir arbeiten daran, unsere App im Google Play Store zu veröffentlichen. In der Zwischenzeit können Sie die APK-Datei direkt herunterladen und auf Ihrem Android-Gerät installieren."
+      },
+      "button": "APK herunterladen",
+      "instructions": {
+        "title": "So installieren Sie APK auf Android",
+        "steps": [
+          "Laden Sie die APK-Datei mit der Schaltfläche oben herunter",
+          "Öffnen Sie die Geräteeinstellungen und navigieren Sie zu Sicherheit oder Datenschutz",
+          "Aktivieren Sie 'Apps aus unbekannten Quellen installieren' oder 'Von dieser Quelle zulassen'",
+          "Öffnen Sie die heruntergeladene APK-Datei aus Ihrem Downloads-Ordner",
+          "Folgen Sie den Anweisungen auf dem Bildschirm, um die Installation abzuschließen",
+          "Nach der Installation können Sie 'Unbekannte Quellen' aus Sicherheitsgründen deaktivieren"
+        ]
+      }
+    },
+    "features": {
+      "title": "Mobile App Funktionen",
+      "items": [
+        "Zugriff auf alle Angstbewältigungstechniken offline",
+        "Geführte Atemübungen mit haptischem Feedback",
+        "Interaktive Erdungs- und Visualisierungstools",
+        "Verfolgen Sie Ihren Fortschritt und Ihre Lieblingstechniken",
+        "Dark-Mode-Unterstützung für komfortable Nutzung jederzeit",
+        "Keine Werbung, kein Tracking, völlig kostenlos und Open Source"
+      ]
+    },
+    "privacy": {
+      "title": "Ihre Privatsphäre ist wichtig",
+      "description": "Alle Ihre Daten bleiben auf Ihrem Gerät. Wir sammeln, speichern oder teilen keine persönlichen Informationen. Kein Konto erforderlich."
+    },
+    "support": {
+      "description": "Benötigen Sie Hilfe mit der mobilen App oder haben Sie Fragen?",
+      "link": "Support-Seite besuchen"
+    },
+    "screenshots": {
+      "title": "App-Vorschau",
+      "hint": "Scrollen Sie, um mehr zu sehen"
+    }
+  }
+}

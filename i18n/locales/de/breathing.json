@@ -1,0 +1,123 @@
+{
+    "breathing": {
+        "audio": {
+            "enableCues": "Audio-Hinweise aktivieren"
+        },
+        "benefits": {
+            "calm": {
+                "title": "Ruhe",
+                "description": "Niedrigere Herzfrequenz und Blutdruck"
+            },
+            "focus": {
+                "title": "Fokus",
+                "description": "Mehr Sauerstoff zum Gehirn für klareres Denken"
+            },
+            "relax": {
+                "title": "Entspannung",
+                "description": "Aktivierung der natürlichen Entspannungsreaktion"
+            }
+        },
+        "session": {
+            "title": "Atemsitzung",
+            "subtitle": "4:6 Beruhigender Rhythmus",
+            "elapsed": "vergangen",
+            "inhaling": "Einatmen",
+            "exhaling": "Ausatmen",
+            "breatheIn": "einatmen",
+            "breatheOut": "ausatmen",
+            "fourSeconds": "4 Sekunden",
+            "sixSeconds": "6 Sekunden",
+            "sessionProgress": "Sitzungsfortschritt",
+            "sessionProgressAriaLabel": "Sitzungsfortschritt: {current} von {total} Atemzyklen abgeschlossen",
+            "currentBreath": "Aktueller Atemzug",
+            "breathProgressAriaLabel": "Aktueller Atemzug Fortschritt: {progress}% abgeschlossen",
+            "breaths": "Atemzüge"
+        },
+        "buttons": {
+            "begin": "Übung beginnen",
+            "beginAriaLabel": "Atemsitzung starten",
+            "stop": "Stoppen",
+            "stopAriaLabel": "Aktuelle Atemübung stoppen",
+            "practiceAgain": "Erneut üben",
+            "practiceAgainAriaLabel": "Weitere Atemsitzung starten"
+        },
+        "completion": {
+            "title": "Ausgezeichnete Arbeit",
+            "description": "Sie haben {count} Atemzyklen in {time} abgeschlossen. Ihr parasympathisches Nervensystem wurde aktiviert und fördert die Entspannung.",
+            "benefits": {
+                "heartRate": "Herzfrequenz gesenkt",
+                "mind": "Geist beruhigt",
+                "breathing": "Atmung reguliert"
+            }
+        },
+        "howItWorks": {
+            "title": "Wie Zwerchfellatmung funktioniert",
+            "description1": "Kontrollierte Atmung durch das 4:6-Muster, das eine längere Ausatmung betont, stimuliert den Vagusnerv, eine Hauptkomponente des parasympathischen Nervensystems. Die Aktivierung dieses Nervs sendet Signale, die dem Körper helfen, vom \"Kampf-oder-Flucht\"-Zustand in einen \"Ruhe-und-Erholungs\"-Modus überzugehen.",
+            "description2": "Diese Verschiebung hat mehrere messbare physiologische Vorteile. Sie kann zu einer niedrigeren Herzfrequenz und reduziertem Blutdruck führen. Die Entspannung der Blutgefäße ermöglicht eine verbesserte Durchblutung und erhöht den Sauerstofffluss zum Gehirn. Darüber hinaus beeinflusst diese beruhigende Reaktion positiv die Verdauung und unterstützt das Immunsystem des Körpers.",
+            "description3": "Das bewusste Üben der 4:6-Atemtechnik ist ein effektiver Weg, Stress zu bewältigen und das allgemeine Wohlbefinden zu fördern.",
+            "vagalActivation": {
+                "title": "Vagusnerv-Aktivierung",
+                "description": "Langsame, tiefe Atmung stimuliert den Vagusnerv, der Ihr Gehirn mit Ihrem Herzen und Verdauungssystem verbindet und einen ruhigen Zustand fördert."
+            },
+            "gasExchange": {
+                "title": "Optimaler Gasaustausch",
+                "description": "Atmung mit 4-6 Atemzügen pro Minute optimiert die Sauerstoffzufuhr und das CO2-Gleichgewicht und reduziert die Hyperventilation, die oft mit Angst einhergeht."
+            },
+            "stressHormones": {
+                "title": "Reduktion von Stresshormonen",
+                "description": "Regelmäßige Praxis senkt Cortisol und andere Stresshormone und schafft dauerhafte Verbesserungen in der Basis-Stressreaktion Ihres Körpers."
+            }
+        },
+        "science": {
+            "title": "Die Wissenschaft hinter der Atemübung",
+            "description": "Forschung zeigt durchgehend, dass Zwerchfellatmung messbare Reduktionen von Angst, Stresshormonen und physiologischer Erregung bewirkt. Ein <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5455070/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">8-wöchiges Programm mit 20 Sitzungen von 15-minütiger Zwerchfellatmung</a> senkte die negative Stimmung um 2,55 Punkte und verringerte den Cortisolspiegel um 1,32-1,66 ng/mL bei gesunden Erwachsenen.",
+            "research": {
+                "anxietyReduction": {
+                    "title": "Angstreduktion",
+                    "description": "Bei COVID-19-Patienten reduzierten <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11535222/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">5 Tage geführter tiefer Atmung</a> (15-20 Minuten, 4x täglich) die Angstwerte auf DASS-21 von 14,86 auf 8,44 – eine Verbesserung von 43% – während Kontrollgruppen keine Veränderung zeigten."
+                },
+                "panicDisorders": {
+                    "title": "Behandlung von Panikstörungen",
+                    "description": "Eine <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9954474/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">Übersicht von 16 Studien</a> fand heraus, dass langsame Atmung mit 8-10 Atemzügen pro Minute über 2-12 Monate die Häufigkeit von Panikattacken reduzierte und CO2-Werte bei Patienten mit Panikstörung und Agoraphobie normalisierte."
+                },
+                "gadImprovement": {
+                    "title": "Verbesserung generalisierter Angst",
+                    "description": "Bei 41 GAD-Patienten reduzierten <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8989478/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3 Monate täglicher Atempraxis</a> (15-20 Min., 4+ Tage/Woche) die Angstwerte von 40,90 auf 13,24 auf der BAI – eine Verbesserung von 68%."
+                }
+            }
+        },
+        "whenToPractice": {
+            "title": "Wann üben",
+            "items": [
+                "Wenn Sie sich überfordert oder gestresst fühlen",
+                "Vor wichtigen Gesprächen oder Entscheidungen",
+                "Während Angst- oder Panikepisoden",
+                "Nach stressigen Ereignissen, um Ihr Nervensystem zurückzusetzen"
+            ]
+        },
+        "whatYoullNotice": {
+            "title": "Was Sie bemerken werden",
+            "items": [
+                "Sofortige beruhigende Wirkung innerhalb der ersten Minute",
+                "Klareres Denken und verbesserte Entscheidungsfindung",
+                "Langsamere Herzfrequenz und reduzierte Muskelspannung",
+                "Bessere Stressresistenz durch regelmäßige Praxis"
+            ]
+        },
+        "tips": {
+            "title": "Tipps für beste Ergebnisse",
+            "posture": {
+                "title": "Körperhaltung",
+                "description": "Sitzen oder stehen Sie aufrecht, um eine vollständige Lungenausdehnung zu ermöglichen. Schultern entspannt, nicht hochgezogen."
+            },
+            "environment": {
+                "title": "Umgebung",
+                "description": "Finden Sie einen ruhigen Ort, an dem Sie nicht gestört werden. Eine angenehme Temperatur hilft beim Fokussieren."
+            },
+            "consistency": {
+                "title": "Beständigkeit",
+                "description": "Üben Sie die gleiche Technik eine Woche lang, bevor Sie wechseln. Der Aufbau von Vertrautheit verbessert die Wirksamkeit."
+            }
+        }
+    }
+}

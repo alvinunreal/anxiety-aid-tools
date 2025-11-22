@@ -1,0 +1,32 @@
+{
+  "navigation": {
+    "techniques": "Alle Techniken",
+    "github": "GitHub",
+    "mobile": "Mobile App",
+    "menu": "Menü",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "skipToMain": "Zum Hauptinhalt springen"
+  },
+  "header": {
+    "title": "AnxietyAidTools",
+    "subtitle": "Open-Source-Toolkit gegen Angst"
+  },
+  "hero": {
+    "title": "Angst-Toolkit",
+    "description": "Kostenlose Tools, die Ihnen helfen, wenn Sie sich ängstlich fühlen. Diese Übungen sind einfach zu befolgen und benötigen keine spezielle Ausrüstung – nutzen Sie sie, wann immer Ihr Kopf zu beschäftigt ist oder Sie einen Moment der Ruhe brauchen."
+  },
+  "breadcrumb": {
+    "backToHome": "Zurück zur Startseite",
+    "back": "Zurück"
+  },
+  "relatedTechniques": {
+    "title": "Als Nächstes Ausprobieren",
+    "description": "Setzen Sie Ihre Praxis mit diesen ergänzenden Techniken fort:"
+  },
+  "error": {
+    "page-not-found": "Seite nicht gefunden",
+    "return": "Zur Startseite",
+    "message": "Die gesuchte Seite existiert nicht oder wurde verschoben. Lassen Sie uns zu den Angstbewältigungstools zurückkehren."
+  }
+}

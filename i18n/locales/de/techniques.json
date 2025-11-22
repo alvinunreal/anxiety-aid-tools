@@ -1,0 +1,64 @@
+{
+  "techniques": {
+    "breathing": {
+      "name": "2-Minuten-Atmung",
+      "short_description": "Einfache Atemübung, die Ihr Nervensystem beruhigt und Angst in wenigen Minuten reduziert",
+      "description": "Wenn Angst zuschlägt, wird Ihre Atmung flach und schnell. Diese Technik lehrt Sie einfache Atemmuster, die die natürliche Entspannungsreaktion Ihres Körpers aktivieren.",
+      "duration": "2-3 Min."
+    },
+    "grounding": {
+      "name": "5-4-3-2-1 Erdung",
+      "short_description": "Eine sensorische Technik, die Sie aus ängstlichen Gedanken herausholt, indem sie sich auf Ihre aktuelle Umgebung konzentriert",
+      "description": "Die Erdungstechnik nutzt Ihre fünf Sinne, um Sie im gegenwärtigen Moment zu verankern. Wenn Sie 5 Dinge bemerken, die Sie sehen, 4, die Sie berühren, 3, die Sie hören, 2, die Sie riechen und 1, das Sie schmecken können, unterbrechen Sie den Kreislauf ängstlicher Gedanken und verbinden sich wieder mit Ihrer unmittelbaren Umgebung.",
+      "duration": "3-5 Min."
+    },
+    "guidedBreathing": {
+      "name": "Geführte Atmung",
+      "short_description": "Schritt-für-Schritt-Atemmuster, um Ihre Herzfrequenz zu verlangsamen und Spannungen zu lösen",
+      "description": "Folgen Sie strukturierten Atemübungen, die darauf ausgelegt sind, Ihr autonomes Nervensystem zu regulieren. Diese visuellen Anleitungen helfen Ihnen, das richtige Timing und den richtigen Rhythmus beizubehalten, wodurch es einfacher wird, den tiefen Entspannungszustand zu erreichen, der durch kontrollierte Atempraxis entsteht.",
+      "duration": "5-10 Min."
+    },
+    "progressiveMuscleRelaxation": {
+      "name": "Progressive Muskelentspannung",
+      "short_description": "Lösen Sie körperliche Spannungen, indem Sie systematisch Muskelgruppen im ganzen Körper anspannen und entspannen",
+      "description": "Angst erzeugt oft körperliche Spannungen, die Sie möglicherweise nicht einmal bemerken. Diese Technik lehrt Sie, verschiedene Muskelgruppen systematisch anzuspannen und dann zu lösen, wodurch Sie sich körperlicher Belastung bewusst werden und lernen, sie loszulassen. Der Kontrast zwischen Spannung und Entspannung hilft Ihrem Körper, einen tieferen Ruhezustand zu erreichen.",
+      "duration": "8-12 Min."
+    },
+    "peacefulVisualization": {
+      "name": "Friedliche Visualisierung",
+      "short_description": "Geführte mentale Bilder, die Sie in beruhigende Umgebungen versetzen, um Stress und Sorgen zu reduzieren",
+      "description": "Ihr Geist hat die Kraft, durch Visualisierung lebendige, beruhigende Erfahrungen zu schaffen. Diese Technik führt Sie durch friedliche Szenarien und ruhige Umgebungen und hilft Ihrem Gehirn, von ängstlichen Gedanken in einen Zustand der Ruhe zu wechseln. Regelmäßiges Üben kann Ihnen helfen, diesen ruhigen Zustand leichter zu erreichen, wenn Sie ihn brauchen.",
+      "duration": "10-12 Min."
+    },
+    "thoughtLabeling": {
+      "name": "Gedanken-Etikettierung",
+      "short_description": "Eine Achtsamkeitstechnik, die Ihnen hilft, ängstliche Gedanken als vorübergehende mentale Ereignisse zu erkennen, nicht als Fakten",
+      "description": "Ängstliche Gedanken können überwältigend wirken, wenn Sie sie als absolute Wahrheiten behandeln. Diese Achtsamkeitspraxis lehrt Sie, Ihre Gedanken mit Neugier statt Urteil zu beobachten. Zu lernen, Gedanken als 'Denken', 'Sorgen' oder 'Planen' zu etikettieren, schafft Distanz zwischen Ihnen und Ihrem ängstlichen Geist und reduziert deren emotionale Wirkung.",
+      "duration": "5-15 Min."
+    },
+    "stressReliefBubbles": {
+      "name": "Stressabbau-Blasen",
+      "short_description": "Interaktive Blasen-Aktivität, die ängstliche Energie in spielerische, sich wiederholende Bewegung umleitet",
+      "description": "Manchmal ist der beste Weg, mit Angst umzugehen, durch sanfte Ablenkung und Spiel. Diese einfache interaktive Aktivität hilft, nervöse Energie umzuleiten, während sie Ihrem Geist eine Pause von ängstlichen Gedanken gibt.",
+      "duration": "2-5 Min."
+    },
+    "fidgetSpinner": {
+      "name": "Online Fidget Spinner",
+      "short_description": "Beruhigen Sie unruhige Hände mit einer ruhigen, wiederholbaren Drehbewegung auf jedem Gerät.",
+      "description": "Drehen, loslassen und beobachten Sie, wie das Momentum sich entfaltet. Der einfache taktile Fokus gibt Ihren Händen etwas Konstantes zu tun, während Ihr Geist einem unaufgeregten visuellen Muster folgt – nützlich, wenn Sie ein ruhiges Ventil für überschüssige Energie brauchen.",
+      "duration": "1-3 Min."
+    },
+    "soundTherapy": {
+      "name": "Klangtherapie",
+      "short_description": "Heilende Frequenzen, die Entspannung und geistige Klarheit fördern",
+      "description": "Bestimmte Klangfrequenzen beeinflussen nachweislich Gehirnwellenmuster und fördern Entspannung. Diese sorgfältig ausgewählten Heilfrequenzen helfen, mentales Geschwätz zu beruhigen und Ihr Gehirn in friedlichere Zustände zu führen. Nutzen Sie diese Therapie, um eine beruhigende Umgebung zu schaffen, die tiefe Entspannung und Stressabbau unterstützt.",
+      "duration": "5-30 Min."
+    },
+    "stressBall": {
+      "name": "Stressball",
+      "short_description": "Interaktiver Stressball zum Wegdrücken von Spannungen und Umleiten ängstlicher Energie durch taktiles Engagement",
+      "description": "Manchmal braucht körperliche Spannung eine körperliche Lösung. Dieser virtuelle Stressball bietet ein befriedigendes taktiles Erlebnis, das hilft, nervöse Energie und Angst in gezielte Drückbewegungen zu kanalisieren. Die wiederholte Aktion hilft, Ihren Geist zu beruhigen, während sie Ihrem Körper eine Möglichkeit gibt, aufgebauten Stress und Spannung abzubauen.",
+      "duration": "1-5 Min."
+    }
+  }
+}

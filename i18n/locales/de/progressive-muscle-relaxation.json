@@ -1,0 +1,370 @@
+{
+  "progressiveMuscleRelaxation": {
+    "interface": {
+      "title": "Progressive Muskelentspannung",
+      "subtitle": "Systematische Anspannung und Entspannung",
+      "beginExercise": "Übung beginnen",
+      "start": "Starten",
+      "stop": "Stoppen",
+      "pause": "Pausieren",
+      "resume": "Fortsetzen",
+      "back": "Zurück",
+      "next": "Weiter",
+      "complete": "Abschließen",
+      "ofGroups": "von {count} Gruppen",
+      "prepare": "Vorbereiten zum Beginnen",
+      "tenseFor10": "10 Sekunden anspannen",
+      "releaseFor10": "10 Sekunden entspannen",
+      "tense": "Anspannen",
+      "relax": "Entspannen",
+      "tensionSteps": "Anspannungsschritte:",
+      "relaxationSteps": "Entspannungsschritte:"
+    },
+    "completion": {
+      "title": "Tiefe Entspannung erreicht",
+      "description": "Sie haben systematisch Anspannung in Ihrem gesamten Körper gelöst. Bemerken Sie, wie anders sich Ihre Muskeln im Vergleich zum Beginn anfühlen.",
+      "benefits": {
+        "tensionReleased": "Spannung gelöst",
+        "bodyRelaxed": "Körper entspannt"
+      }
+    },
+    "muscleGroups": {
+      "rightHand": {
+        "name": "Rechte Hand & Unterarm",
+        "shortName": "R Hand",
+        "tensionCue": [
+          "Machen Sie eine feste Faust",
+          "Drücken Sie fest",
+          "Spüren Sie die Spannung in Ihren Fingern und Ihrem Unterarm"
+        ],
+        "relaxationCue": [
+          "Öffnen Sie Ihre Hand",
+          "Lassen Sie sie völlig schlaff werden",
+          "Spüren Sie die Finger natürlich gekrümmt und entspannt"
+        ]
+      },
+      "leftHand": {
+        "name": "Linke Hand & Unterarm",
+        "shortName": "L Hand",
+        "tensionCue": [
+          "Machen Sie eine feste Faust",
+          "Drücken Sie fest",
+          "Spüren Sie die Spannung in Ihren Fingern und Ihrem Unterarm"
+        ],
+        "relaxationCue": [
+          "Öffnen Sie Ihre Hand",
+          "Lassen Sie sie völlig schlaff werden",
+          "Bemerken Sie das warme, schwere Gefühl"
+        ]
+      },
+      "rightUpperArm": {
+        "name": "Rechter Oberarm",
+        "shortName": "R Bizeps",
+        "tensionCue": [
+          "Beugen Sie den Ellbogen",
+          "Spannen Sie den Bizeps fest an",
+          "Drücken Sie Unterarm gegen Oberarm",
+          "Spüren Sie, wie der Muskel sich wölbt"
+        ],
+        "relaxationCue": [
+          "Senken Sie Ihren Arm zur Seite",
+          "Lassen Sie den Muskel weich werden",
+          "Spüren Sie die Erleichterung und Schwere"
+        ]
+      },
+      "leftUpperArm": {
+        "name": "Linker Oberarm",
+        "shortName": "L Bizeps",
+        "tensionCue": [
+          "Beugen Sie den Ellbogen",
+          "Spannen Sie den Bizeps fest an",
+          "Drücken Sie Unterarm gegen Oberarm",
+          "Spüren Sie die Kraft"
+        ],
+        "relaxationCue": [
+          "Senken Sie Ihren Arm zur Seite",
+          "Lassen Sie die Spannung abfließen",
+          "Spüren Sie die Schwere"
+        ]
+      },
+      "forehead": {
+        "name": "Stirn & Kopfhaut",
+        "shortName": "Stirn",
+        "tensionCue": [
+          "Heben Sie die Augenbrauen hoch",
+          "Runzeln Sie die Stirn",
+          "Spüren Sie die Spannung über Ihre Kopfhaut"
+        ],
+        "relaxationCue": [
+          "Lassen Sie die Augenbrauen natürlich fallen",
+          "Glätten Sie die Stirn",
+          "Spüren Sie, wie die Haut sich vollständig entspannt"
+        ]
+      },
+      "eyesNose": {
+        "name": "Augen & Nase",
+        "shortName": "Gesicht",
+        "tensionCue": [
+          "Kneifen Sie die Augen fest zusammen",
+          "Rümpfen Sie die Nase",
+          "Lassen Sie Ihr ganzes Gesicht sich zusammenziehen"
+        ],
+        "relaxationCue": [
+          "Lassen Sie das Gesicht weich werden",
+          "Augen sanft geschlossen",
+          "Nase und Wangen glatt und entspannt"
+        ]
+      },
+      "mouthJaw": {
+        "name": "Mund & Kiefer",
+        "shortName": "Kiefer",
+        "tensionCue": [
+          "Beißen Sie fest zusammen",
+          "Pressen Sie die Zähne aufeinander",
+          "Spüren Sie, wie die Kiefermuskeln arbeiten"
+        ],
+        "relaxationCue": [
+          "Lassen Sie den Kiefer leicht offen fallen",
+          "Lippen berühren sich kaum",
+          "Zunge ruht weich"
+        ]
+      },
+      "neckThroat": {
+        "name": "Nacken & Hals",
+        "shortName": "Nacken",
+        "tensionCue": [
+          "Kinn zur Brust",
+          "Drücken Sie den Kopf nach hinten",
+          "Erzeugen Sie Spannung aus beiden Richtungen"
+        ],
+        "relaxationCue": [
+          "Lassen Sie den Kopf eine natürliche Position finden",
+          "Nacken lang und locker",
+          "Hals offen"
+        ]
+      },
+      "shoulders": {
+        "name": "Schultern",
+        "shortName": "Schultern",
+        "tensionCue": [
+          "Ziehen Sie die Schultern hoch",
+          "Versuchen Sie, Ihre Ohren zu berühren",
+          "Spüren Sie die Spannung im oberen Rücken"
+        ],
+        "relaxationCue": [
+          "Lassen Sie die Schultern natürlich fallen",
+          "Spüren Sie, wie sie tiefer sinken",
+          "Schwer und locker"
+        ]
+      },
+      "upperBackChest": {
+        "name": "Oberer Rücken & Brust",
+        "shortName": "Oberer Rücken",
+        "tensionCue": [
+          "Drücken Sie die Schulterblätter zusammen",
+          "Wölben Sie den Rücken",
+          "Weiten Sie die Brust mit einem tiefen Atemzug"
+        ],
+        "relaxationCue": [
+          "Lassen Sie den Rücken sich natürlich setzen",
+          "Schulterblätter auseinander",
+          "Brust weich und offen"
+        ]
+      },
+      "abdomen": {
+        "name": "Bauch",
+        "shortName": "Bauch",
+        "tensionCue": [
+          "Spannen Sie die Bauchmuskeln fest an",
+          "Ziehen Sie den Bauchnabel ein",
+          "Machen Sie den Bauch wie einen Stein"
+        ],
+        "relaxationCue": [
+          "Lassen Sie den Bauch weich werden",
+          "Atmen Sie in den Bauch",
+          "Spüren Sie, wie er sich natürlich hebt und senkt"
+        ]
+      },
+      "lowerBack": {
+        "name": "Unterer Rücken",
+        "shortName": "U Rücken",
+        "tensionCue": [
+          "Wölben Sie den unteren Rücken sanft",
+          "Drücken Sie den Bauch heraus",
+          "Spüren Sie die Kurve in der Wirbelsäule"
+        ],
+        "relaxationCue": [
+          "Lassen Sie den Rücken sich in die natürliche Kurve setzen",
+          "Gestützt und bequem",
+          "Spannung schmilzt"
+        ]
+      },
+      "hipsButtocks": {
+        "name": "Hüften & Gesäß",
+        "shortName": "Gesäß",
+        "tensionCue": [
+          "Drücken Sie das Gesäß fest zusammen",
+          "Spannen Sie die Muskeln fest an",
+          "Spüren Sie die Spannung in den Hüften"
+        ],
+        "relaxationCue": [
+          "Lassen Sie das Gesäß weich werden",
+          "Spüren Sie, wie es sich natürlich ausbreitet",
+          "Schwer und entspannt"
+        ]
+      },
+      "rightThigh": {
+        "name": "Rechter Oberschenkel",
+        "shortName": "R Oberschenkel",
+        "tensionCue": [
+          "Strecken Sie das rechte Bein",
+          "Spannen Sie den Oberschenkelmuskel fest an",
+          "Spüren Sie, wie er fest und stark ist"
+        ],
+        "relaxationCue": [
+          "Lassen Sie das Bein natürlich ruhen",
+          "Oberschenkelmuskel weich und locker",
+          "Schwer und bequem"
+        ]
+      },
+      "leftThigh": {
+        "name": "Linker Oberschenkel",
+        "shortName": "L Oberschenkel",
+        "tensionCue": [
+          "Strecken Sie das linke Bein",
+          "Spannen Sie den Oberschenkelmuskel fest an",
+          "Spüren Sie die Kraft"
+        ],
+        "relaxationCue": [
+          "Lassen Sie das Bein natürlich ruhen",
+          "Oberschenkel völlig entspannt",
+          "Bemerken Sie den Kontrast"
+        ]
+      },
+      "rightCalfShin": {
+        "name": "Rechte Wade & Schienbein",
+        "shortName": "R Wade",
+        "tensionCue": [
+          "Strecken Sie den Fuß fest nach unten",
+          "Dann beugen Sie ihn zum Schienbein hoch",
+          "Spüren Sie, wie beide Seiten arbeiten"
+        ],
+        "relaxationCue": [
+          "Lassen Sie den Fuß natürlich ruhen",
+          "Wade und Schienbein locker",
+          "Völlig weich"
+        ]
+      },
+      "leftCalfShin": {
+        "name": "Linke Wade & Schienbein",
+        "shortName": "L Wade",
+        "tensionCue": [
+          "Strecken Sie den Fuß fest nach unten",
+          "Dann beugen Sie ihn zum Schienbein hoch",
+          "Spüren Sie, wie die Muskeln sich anspannen"
+        ],
+        "relaxationCue": [
+          "Lassen Sie den Fuß natürlich ruhen",
+          "Alle Unterschenkelmuskeln entspannt und schwer"
+        ]
+      },
+      "rightFoot": {
+        "name": "Rechter Fuß",
+        "shortName": "R Fuß",
+        "tensionCue": [
+          "Krümmen Sie die Zehen fest nach unten",
+          "Ziehen Sie sie zusammen",
+          "Spüren Sie die Spannung im Fußgewölbe"
+        ],
+        "relaxationCue": [
+          "Lassen Sie die Zehen sich natürlich entkrümmen",
+          "Fuß völlig weich",
+          "Warm und entspannt"
+        ]
+      },
+      "leftFoot": {
+        "name": "Linker Fuß",
+        "shortName": "L Fuß",
+        "tensionCue": [
+          "Krümmen Sie die Zehen fest nach unten",
+          "Ziehen Sie sie zusammen",
+          "Spüren Sie, wie das Gewölbe arbeitet"
+        ],
+        "relaxationCue": [
+          "Lassen Sie die Zehen sich natürlich spreizen",
+          "Fuß locker und entspannt",
+          "Spannung verschwunden"
+        ]
+      }
+    },
+    "howItWorks": {
+      "title": "Wie progressive Muskelentspannung funktioniert",
+      "description1": "Progressive Muskelentspannung lehrt Ihren Körper den Unterschied zwischen Spannung und Entspannung, indem systematisch Muskelgruppen angespannt und dann gelöst werden. Wenn Sie bewusst einen Muskel anspannen und ihn dann loslassen, erzeugt die Entspannung einen tieferen Entspannungszustand, als der Muskel vor dem Anspannen hatte.",
+      "description2": "Dieser Spannungs-Entspannungs-Zyklus aktiviert Ihr parasympathisches Nervensystem, das die Ruhe-und-Verdauungs-Reaktion Ihres Körpers steuert. Während sich jede Muskelgruppe entspannt, verlangsamt sich Ihre Herzfrequenz, der Blutdruck sinkt und Stresshormone nehmen ab, wodurch eine Kaskade beruhigender Effekte durch Ihren gesamten Körper entsteht.",
+      "description3": "Mit regelmäßiger Übung entwickeln Sie ein größeres Körperbewusstsein und können Spannung früher erkennen. Dies ermöglicht es Ihnen, körperlichen Stress zu lösen, bevor er sich ansammelt, und gibt Ihnen ein mächtiges Werkzeug zur Bewältigung von Angst in Echtzeit.",
+      "tensionContrast": {
+        "title": "Spannungskontrast",
+        "description": "Bewusstes Anspannen der Muskeln macht die anschließende Entspannung bemerkbarer und effektiver"
+      },
+      "nervousSystemShift": {
+        "title": "Nervensystemwechsel",
+        "description": "Entspannung löst parasympathische Aktivierung aus, verlangsamt die Herzfrequenz und reduziert Stresshormone"
+      },
+      "bodyAwareness": {
+        "title": "Körperbewusstsein",
+        "description": "Übung trainiert Sie, Spannung automatisch den ganzen Tag über zu erkennen und zu lösen"
+      }
+    },
+    "science": {
+      "title": "Die Wissenschaft hinter progressiver Muskelentspannung",
+      "description": "Forschung zeigt konsistent, dass progressive Muskelentspannung signifikante Angstreduktion bei verschiedenen Bevölkerungsgruppen und Umgebungen bewirkt. In einer <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7102525/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">randomisierten Studie mit 51 COVID-19-Patienten</a> senkte tägliche 30-minütige Praxis über 5 Tage die State-Trait Anxiety Inventory-Werte von 57,88 auf 44,96 - eine Reduktion um 22% - während die Werte der Kontrollgruppe unverändert blieben (p<0,001).",
+      "research": {
+        "nurseStress": {
+          "title": "Großer Effekt in Hochstress-Umgebungen",
+          "description": "Bei <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10844009/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">46 Krankenschwestern in einer randomisierten kontrollierten Studie von 2022</a> reduzierte progressive Muskelentspannung die Angstwerte auf dem DASS-21 signifikant mit einer großen Effektstärke von Cohen's d=1,61 im Vergleich zu Kontrollen, was anhaltende Vorteile in anspruchsvollen Arbeitsumgebungen zeigt."
+        },
+        "studentAnxiety": {
+          "title": "Wechsel von moderater zu niedriger Angst",
+          "description": "Bei <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC4280725/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">49 Pflegestudenten</a> verschoben vier betreute Sitzungen plus tägliche Praxis 91,7% der Teilnehmer von moderater zu niedriger Angst auf der Sarason Test Anxiety Scale, ohne vergleichbare Veränderung in der 25-Personen-Kontrollgruppe (p=0,00)."
+        },
+        "clinicalTraining": {
+          "title": "Große Reduktion in klinischen Umgebungen",
+          "description": "Bei <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9047807/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">90 Pflegestudenten im ersten Jahr während der klinischen Ausbildung</a> reduzierten fünf 45-minütige Sitzungen, die 13 Muskelgruppen ansprachen, die State-Trait Anxiety Inventory-Werte von 55 auf 24,4 - eine Abnahme um 56% - ohne gemeldete Nebenwirkungen (t=30,783, p=0,001)."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Wann Sie üben sollten",
+      "items": [
+        "Wenn Sie spüren, wie sich körperliche Spannung in Ihrem Körper aufbaut - verspannte Schultern, verkrampfter Kiefer oder Muskelsteifheit",
+        "Vor stressigen Ereignissen wie Präsentationen, Prüfungen oder medizinischen Terminen, um vorauseilende Spannung zu lösen",
+        "Am Ende Ihres Arbeitstages, um angesammelte körperliche Belastung zu lösen und in die Entspannung überzugehen",
+        "Vor dem Schlafengehen, um körperliche Spannung zu lösen, die das Einschlafen oder Durchschlafen stören könnte"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Was Sie bemerken werden",
+      "items": [
+        "Sofortiges Bewusstsein für Spannung, von der Sie nicht wussten, dass Sie sie in verschiedenen Muskelgruppen hielten",
+        "Tiefe körperliche Entspannung, während jede Muskelgruppe loslässt und eine Welle der Ruhe durch Ihren Körper erzeugt",
+        "Langsamere Herzfrequenz und tieferes Atmen, während Ihr parasympathisches Nervensystem aktiviert wird",
+        "Größere Fähigkeit, Spannung den ganzen Tag über zu erkennen und zu lösen mit fortgesetzter Übung"
+      ]
+    },
+    "tips": {
+      "title": "Tipps für beste Ergebnisse",
+      "position": {
+        "title": "Position",
+        "description": "Legen Sie sich hin oder lehnen Sie sich in einem bequemen Stuhl zurück, wo Ihr ganzer Körper gestützt werden kann. Entfernen Sie enge Kleidung und stellen Sie sicher, dass Sie 12-15 Minuten lang nicht unterbrochen werden."
+      },
+      "technique": {
+        "title": "Technik",
+        "description": "Spannen Sie jede Muskelgruppe fest an, aber nicht bis zum Punkt von Schmerz oder Krämpfen. Halten Sie 10 Sekunden, entspannen Sie dann vollständig und bemerken Sie den Kontrast für weitere 10 Sekunden, bevor Sie weitermachen."
+      },
+      "focus": {
+        "title": "Fokus",
+        "description": "Achten Sie auf den Unterschied zwischen Spannung und Entspannung in jeder Muskelgruppe. Dieses Bewusstsein ist der Schlüssel zum Erkennen und Lösen von Spannung im täglichen Leben."
+      }
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "guidedBreathing": {
+    "interface": {
+      "begin": "Beginnen",
+      "elapsed": "vergangen",
+      "sessionProgress": "Sitzungsfortschritt",
+      "currentPhase": "Aktuelle Phase",
+      "beginExercise": "Übung beginnen",
+      "resume": "Fortsetzen",
+      "pause": "Pause",
+      "stop": "Stoppen",
+      "exerciseComplete": "Übung abgeschlossen",
+      "excellentWork": "Ausgezeichnete Arbeit! Sie haben {completedCycles} Zyklen von {techniqueName} in {totalTime} abgeschlossen.",
+      "breathingOptimized": "Atmung optimiert",
+      "mindCentered": "Geist zentriert",
+      "ready": "bereit",
+      "breatheIn": "einatmen",
+      "breatheOut": "ausatmen",
+      "hold": "halten",
+      "seconds": "Sekunden",
+      "cycles": "Zyklen",
+      "pattern": "Muster"
+    },
+    "techniques": {
+      "boxBreathing": {
+        "name": "Box-Atmung",
+        "description": "Gleiches Timing für ruhigen Fokus",
+        "timing": "4-4-4-4",
+        "bestFor": "Fokus & Konzentration"
+      },
+      "calming": {
+        "name": "4-7-8 Technik",
+        "description": "Verlängertes Halten für tiefe Entspannung",
+        "timing": "4-7-8",
+        "bestFor": "Tiefe Entspannung & Schlaf"
+      },
+      "energizing": {
+        "name": "Energetisierende 4-4-6",
+        "description": "Ausgewogenes Muster für Wachheit",
+        "timing": "4-4-6",
+        "bestFor": "Energie & mentale Klarheit"
+      },
+      "quickReset": {
+        "name": "Schnelles Zurücksetzen",
+        "description": "Schnelle Technik für sofortige Linderung",
+        "timing": "3-3-3",
+        "bestFor": "Schnelle Stresslinderung"
+      }
+    },
+    "techniquesOverview": {
+      "boxBreathing": {
+        "title": "Box-Atmung (4-4-4-4)",
+        "description": "Gleiches Timing für alle Phasen schafft mentale Klarheit und Fokus. Wird von Navy SEALs und Rettungskräften verwendet, um unter Druck ruhig zu bleiben. Das symmetrische Muster hilft, Ihr Nervensystem zu regulieren und die Konzentration zu verbessern.",
+        "bestFor": "Am besten für: Fokus, Konzentration, Stressbewältigung"
+      },
+      "calming": {
+        "title": "4-7-8 Beruhigung",
+        "description": "Verlängertes Halten ermöglicht es dem Sauerstoff, Ihr Blut vollständig zu sättigen, während die lange Ausatmung Ihr parasympathisches Nervensystem aktiviert. Diese Technik ist besonders effektiv zur Reduktion von Angst und Vorbereitung auf den Schlaf.",
+        "bestFor": "Am besten für: Angstlinderung, Schlafvorbereitung, tiefe Entspannung"
+      },
+      "energizing": {
+        "title": "4-4-6 Energetisierend",
+        "description": "Ausgewogenes Muster, das den Sauerstofffluss erhöht und gleichzeitig die Kontrolle beibehält. Die moderate Ausatmung hilft, mentalen Nebel zu klären und Wachheit zu steigern, ohne Hyperventilation zu verursachen.",
+        "bestFor": "Am besten für: Mentale Klarheit, Energieschub, Mittags-Reset"
+      },
+      "quickReset": {
+        "title": "3-3-3 Schnelles Zurücksetzen",
+        "description": "Schnellerer Rhythmus für sofortige Stresslinderung, wenn Sie nur ein oder zwei Minuten haben. Perfekt für Momente akuter Angst oder wenn Sie schnelle emotionale Regulierung brauchen.",
+        "bestFor": "Am besten für: Schnelle Stresslinderung, Notfall-Ruhe, volle Terminkalender"
+      }
+    },
+    "howItWorks": {
+      "title": "Wie geführte Atmung funktioniert",
+      "description1": "Strukturierte Atemmuster funktionieren, indem sie Ihrem Nervensystem klare, rhythmische Signale geben, die Sie vom Stressmodus in den Ruhemodus versetzen. Wenn Sie einem bestimmten Zählmuster folgen – wie 4-7-8 oder Box-Atmung – übernehmen Sie die Kontrolle über einen automatischen Prozess, der den Vagusnerv aktiviert, der Ihr Gehirn mit Ihrem Herzen und Verdauungssystem verbindet.",
+      "description2": "Verschiedene Muster dienen unterschiedlichen Zwecken. Gleiches Timing (wie Box-Atmung) schafft mentale Klarheit und Fokus durch Ausbalancierung Ihres Nervensystems. Verlängerte Ausatmungen (wie 4-7-8) lösen tiefere Entspannung aus, indem sie Ihr parasympathisches Nervensystem stärker aktivieren. Kürzere Muster bieten schnelle Linderung, wenn Sie sofortige Ruhe brauchen.",
+      "description3": "Das Zählen selbst ist therapeutisch – es gibt Ihrem Geist etwas Konkretes, worauf er sich konzentrieren kann, unterbricht ängstliche Gedanken, während Ihr Körper natürlich dem Rhythmus in einen ruhigeren Zustand folgt.",
+      "rhythmicControl": {
+        "title": "Rhythmische Kontrolle",
+        "description": "Das Befolgen eines bestimmten Zählmusters gibt Ihrem Geist Fokus und signalisiert Ihrem Nervensystem, von Stress zu Ruhe zu wechseln."
+      },
+      "patternVariety": {
+        "title": "Mustervielfalt",
+        "description": "Verschiedene Atemverhältnisse dienen unterschiedlichen Bedürfnissen – gleiches Timing für Fokus, verlängerte Ausatmungen für tiefe Entspannung, kürzere Muster für schnelle Linderung."
+      },
+      "neuralRegulation": {
+        "title": "Neuronale Regulierung",
+        "description": "Strukturierte Atmung aktiviert den Vagusnerv, der Ihre Herzfrequenz, Verdauung und Stressreaktion kontrolliert und systematische Ruhe fördert."
+      }
+    },
+    "science": {
+      "title": "Die Wissenschaft hinter geführter Atmung",
+      "description": "Mehrere klinische Studien zeigen, dass geführte Atemtechniken messbare Reduktionen von Angst, Stresshormonen und physiologischer Erregung bewirken. Ein <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5455070/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">8-wöchiges Programm mit 20 Sitzungen von 15-minütiger Zwerchfellatmung</a> mit 4 Atemzügen pro Minute senkte die negative Stimmung um 2,55 Punkte auf der PANAS-Skala und verringerte den Speichel-Cortisolspiegel um 1,32-1,66 ng/mL bei gesunden Erwachsenen.",
+      "research": {
+        "anxietyReduction": {
+          "title": "Schnelle Angstreduktion",
+          "description": "Bei COVID-19-Patienten reduzierten <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11535222/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">5 Tage geführter tiefer Atmung</a> (4 Sitzungen täglich, je 15-20 Minuten) die Angstwerte auf DASS-21 von 14,86 auf 8,44 – eine Verbesserung von 43% – während Kontrollgruppen minimale Veränderung zeigten."
+        },
+        "panicReduction": {
+          "title": "Panikattacken-Management",
+          "description": "Eine <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9954474/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">Übersicht von 16 Studien</a> fand heraus, dass langsame Atmung mit 8-10 Atemzügen pro Minute über 2-12 Monate die Häufigkeit von Panikattacken reduzierte und CO2-Werte von hypokapnisch auf 35-40 mmHg bei Patienten mit Panikstörung und Agoraphobie normalisierte."
+        },
+        "gadImprovement": {
+          "title": "Linderung generalisierter Angst",
+          "description": "Bei 41 GAD-Patienten reduzierten <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8989478/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3 Monate täglicher Atempraxis</a> (15-20 Minuten, 4+ Tage/Woche) die BAI-Werte von 40,90 auf 13,24 – eine Verbesserung von 68% – und GAD-7-Werte von 19,33 auf 5,86."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Wann üben",
+      "items": [
+        "Wenn Sie sich ängstlich oder überfordert fühlen und sofortige Linderung brauchen",
+        "Vor dem Schlaf, um rasende Gedanken zu beruhigen und sich auf Ruhe vorzubereiten",
+        "Während stressiger Arbeitssituationen oder vor wichtigen Ereignissen",
+        "Als tägliche Praxis zum Aufbau langfristiger Stressresistenz"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Was Sie bemerken werden",
+      "items": [
+        "Sofortige beruhigende Wirkung innerhalb der ersten 1-2 Minuten der Praxis",
+        "Langsamere Herzfrequenz und reduzierte körperliche Spannung in Ihrem ganzen Körper",
+        "Klareres Denken, wenn der Sauerstofffluss sich verbessert und ängstliche Gedanken ruhiger werden",
+        "Bessere Fähigkeit, mit Stress umzugehen, durch konsequente tägliche Praxis"
+      ]
+    },
+    "tips": {
+      "title": "Tipps für beste Ergebnisse",
+      "technique": {
+        "title": "Technik",
+        "description": "Beginnen Sie mit einem Muster für mindestens eine Woche, bevor Sie andere ausprobieren. Beständigkeit mit einer einzelnen Technik baut tiefere Vertrautheit und Wirksamkeit auf."
+      },
+      "environment": {
+        "title": "Umgebung",
+        "description": "Finden Sie einen ruhigen Ort, an dem Sie nicht gestört werden. Sitzen Sie bequem mit gestütztem Rücken und entspannten Schultern."
+      },
+      "progression": {
+        "title": "Fortschritt",
+        "description": "Beginnen Sie mit kürzeren Sitzungen (2-3 Minuten) und verlängern Sie allmählich, wenn der Komfort zunimmt. Erzwingen Sie die Atmung nicht – finden Sie Ihren natürlichen Rhythmus innerhalb des Musters."
+      }
+    }
+  }
+}

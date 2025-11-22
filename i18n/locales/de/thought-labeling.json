@@ -1,0 +1,177 @@
+{
+  "thoughtLabeling": {
+    "interface": {
+      "title": "Gedanken-Etikettierung",
+      "subtitle": "Beobachten und kategorisieren Sie Ihre Gedanken",
+      "beginExercise": "Übung beginnen",
+      "thoughtsLabeled": "Gedanken etikettiert",
+      "labelingActiveThought": "Aktiven Gedanken etikettieren",
+      "readyForNextThought": "Bereit für nächsten Gedanken",
+      "elapsed": "vergangen",
+      "yourLabeledThoughts": "Ihre etikettierten Gedanken",
+      "whatsOnYourMind": "Was beschäftigt Sie?",
+      "labelThisThought": "Diesen Gedanken etikettieren",
+      "chooseLabelsThatDescribe": "Wählen Sie die Etiketten, die diesen Gedanken am besten beschreiben:",
+      "writeAnxiousThought": "Schreiben Sie einen ängstlichen Gedanken auf, den Sie gerade haben:",
+      "examplePlaceholder": "Beispiel: 'Ich mache mir Sorgen, dass ich morgen meine Präsentation vermassle...'",
+      "labelThisThoughtButton": "Diesen Gedanken etikettieren",
+      "yourThought": "Ihr Gedanke:",
+      "cancel": "Abbrechen",
+      "continue": "Fortfahren",
+      "practiceAgain": "Erneut üben"
+    },
+    "benefits": {
+      "awareness": {
+        "title": "Bewusstsein",
+        "description": "Bemerken Sie Gedanken, ohne von ihnen verzehrt zu werden"
+      },
+      "balance": {
+        "title": "Balance",
+        "description": "Schaffen Sie gesunde Distanz zu ängstlichem Denken"
+      },
+      "clarity": {
+        "title": "Klarheit",
+        "description": "Verstehen Sie Muster in Ihrem Denken"
+      }
+    },
+    "completion": {
+      "title": "Ausgezeichnete Selbstwahrnehmung",
+      "description": "Sie haben erfolgreich {count} Gedanken{plural} in {time} etikettiert. Diese Praxis hilft, gesunde Distanz zu ängstlichem Denken zu schaffen.",
+      "sessionInsights": "Sitzungs-Einblicke",
+      "benefits": {
+        "awarenessIncreased": "Bewusstsein gesteigert",
+        "thoughtsOrganized": "Gedanken organisiert",
+        "emotionalDistanceCreated": "Emotionale Distanz geschaffen"
+      }
+    },
+    "insights": {
+      "commonPattern": {
+        "title": "Gemeinsames Muster identifiziert",
+        "description": "Die meisten Ihrer Gedanken wurden als \"{labelName}\" etikettiert – dieses Muster zu erkennen ist der erste Schritt, es zu bewältigen."
+      },
+      "strongAwareness": {
+        "title": "Starke Selbstwahrnehmung",
+        "description": "Sie haben ausgezeichnete Fähigkeit gezeigt, Ihre Gedanken objektiv zu beobachten und zu kategorisieren."
+      }
+    },
+    "labels": {
+      "worry": {
+        "name": "Sorge",
+        "description": "Bedenken über zukünftige Ereignisse oder Ergebnisse"
+      },
+      "catastrophic": {
+        "name": "Katastrophal",
+        "description": "Sich die schlimmsten Szenarien vorstellen"
+      },
+      "selfDoubt": {
+        "name": "Selbstzweifel",
+        "description": "Ihre Fähigkeiten oder Ihren Wert in Frage stellen"
+      },
+      "perfectionist": {
+        "name": "Perfektionistisch",
+        "description": "Unrealistisch hohe Standards setzen"
+      },
+      "comparison": {
+        "name": "Vergleich",
+        "description": "Sich mit anderen messen"
+      },
+      "rumination": {
+        "name": "Grübeln",
+        "description": "Wiederholt über vergangene Ereignisse nachdenken"
+      },
+      "control": {
+        "name": "Kontrolle",
+        "description": "Unkontrollierbare Situationen kontrollieren wollen"
+      },
+      "rejection": {
+        "name": "Ablehnung",
+        "description": "Angst vor Ablehnung oder Verlassen werden"
+      },
+      "performance": {
+        "name": "Leistung",
+        "description": "Angst darüber, wie Sie abschneiden werden"
+      },
+      "health": {
+        "name": "Gesundheit",
+        "description": "Bedenken über körperliche oder mentale Gesundheit"
+      },
+      "social": {
+        "name": "Sozial",
+        "description": "Sorgen über soziale Situationen oder Beziehungen"
+      },
+      "financial": {
+        "name": "Finanziell",
+        "description": "Geldbezogener Stress und Bedenken"
+      }
+    },
+    "howItWorks": {
+      "title": "Wie Gedanken-Etikettierung funktioniert",
+      "description1": "Wenn Sie ängstlich sind, können Ihre Gedanken überwältigend und völlig wahr erscheinen. Gedanken-Etikettierung hilft Ihnen, zurückzutreten und Gedanken als mentale Ereignisse zu sehen – vorübergehende Muster in Ihrem Geist, nicht absolute Wahrheiten. Indem Sie einfach benennen, was Sie erleben (\"Sorge\", \"Selbstzweifel\", \"Katastrophisieren\"), schaffen Sie eine kleine, aber kraftvolle Lücke zwischen sich und dem Gedanken.",
+      "description2": "Diese Praxis aktiviert Ihren präfrontalen Kortex – den rationalen, beobachtenden Teil Ihres Gehirns – während sie die Aktivität in der Amygdala reduziert, dem Alarmzentrum des Gehirns. Anstatt in einer Spirale ängstlichen Denkens gefangen zu sein, werden Sie zum Zeugen Ihrer Gedanken. Diese Verschiebung von \"Ich bin ängstlich\" zu \"Ich habe ängstliche Gedanken\" verändert grundlegend Ihre Beziehung zur Angst.",
+      "description3": "Mit regelmäßiger Praxis hilft Etikettierung, Denkmuster zu erkennen, bevor sie spiralen. Sie werden anfangen zu bemerken: \"Das ist wieder dieses katastrophale Denken\" oder \"Hier ist mein perfektionistisches Muster.\" Erkennung wird Ihre erste Verteidigungslinie und ermöglicht es Ihnen, geschickt zu reagieren, anstatt automatisch zu reagieren.",
+      "cognitiveDefusion": {
+        "title": "Kognitive Defusion",
+        "description": "Etikettierung trennt Sie von Ihren Gedanken und reduziert deren emotionalen Griff und Glaubwürdigkeit."
+      },
+      "emotionalRegulation": {
+        "title": "Emotionale Regulierung",
+        "description": "Benennung aktiviert Ihr rationales Gehirn und beruhigt gleichzeitig die Amygdala, senkt emotionale Reaktivität."
+      },
+      "patternRecognition": {
+        "title": "Mustererkennung",
+        "description": "Regelmäßiges Etikettieren enthüllt wiederkehrende Gedankenmuster und macht sie im Laufe der Zeit leichter zu bewältigen."
+      }
+    },
+    "science": {
+      "title": "Die Wissenschaft hinter Gedanken-Etikettierung",
+      "description": "Forschung zeigt, dass Gedanken-Etikettierung messbare Reduktionen von Angstsymptomen und emotionaler Reaktivität bewirkt. Eine <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7270208/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">Einzelfallstudie mit einem Sänger</a>, der Gedanken-Etikettierung als Teil kognitiver Defusion verwendete, senkte die Glaubwürdigkeitswerte ängstlicher Gedanken von 94 auf 28 bei der 3-Monats-Nachuntersuchung – eine Verbesserung von 70% – wobei psychologische Unflexibilität von 39 auf 12 auf der AAQ-2-Skala sank.",
+      "research": {
+        "performanceAnxiety": {
+          "title": "Leistungsangst-Linderung",
+          "description": "Bei einem Sänger mit schwerer Musikaufführungsangst reduzierte die <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7270208/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">Gedanken-Etikettierungs-Intervention</a> die Glaubwürdigkeit ängstlicher Gedanken von 94 auf 28 (70% Verbesserung) und psychologische Unflexibilität von 39 auf 12 (69% Verbesserung) bei der 3-Monats-Nachuntersuchung, mit zuverlässigen Änderungsindizes von -8,74 bzw. -10,92."
+        },
+        "mindfulnessEnhancement": {
+          "title": "Verbesserte Achtsamkeitsfähigkeiten",
+          "description": "Ein <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5801080/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">8-wöchiges Meditationsprogramm</a>, das Gedanken-Etikettierung betonte, erhöhte signifikant die Verwendung von Etikettierung durch Teilnehmer (F(1,28)=58,00, p<0,001, d=2,88) und Nicht-Reaktivität auf innere Erfahrungen (F(1,29)=38,35, p<0,001, d=2,30), was besseres Management angstauslösender Gedanken unterstützt."
+        },
+        "attentionControl": {
+          "title": "Verbesserte Aufmerksamkeitskontrolle",
+          "description": "Nur <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5329004/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3 Tage Achtsamkeitstraining</a> mit Gedanken-Etikettierung reduzierten Gedankenwandern und verbesserten die Daueraufmerksamkeit um 9,84 Punkte (p=0,003), was half, den Grübelkreislauf zu unterbrechen, der Angst nährt."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Wann üben",
+      "items": [
+        "Wenn Sie sich wiederholende oder aufdringliche Gedanken bemerken, die in Ihrem Geist kreisen.",
+        "Vor Hochdruck-Situationen, in denen typischerweise Selbstzweifel oder Sorge auftreten.",
+        "Während Momenten der Überwältigung, wenn Gedanken chaotisch und unhandhabbar erscheinen.",
+        "Als Teil täglicher Achtsamkeitspraxis zum Aufbau von Bewusstsein für Gedankenmuster."
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Was Sie bemerken werden",
+      "items": [
+        "Sofortige Reduktion der Intensität und Glaubwürdigkeit ängstlicher Gedanken.",
+        "Größere emotionale Distanz, wodurch Gedanken weniger persönlich und verzehrend erscheinen.",
+        "Erkennung wiederkehrender Muster, die Ihnen helfen, sie zu antizipieren und zu bewältigen.",
+        "Verbesserte Fähigkeit, Gedanken zu beobachten, ohne automatisch auf sie zu reagieren."
+      ]
+    },
+    "tips": {
+      "title": "Tipps für beste Ergebnisse",
+      "observation": {
+        "title": "Beobachter-Haltung",
+        "description": "Nähern Sie sich Ihren Gedanken mit Neugier, nicht Urteil. Sie sind ein Wissenschaftler, der Ihren Geist studiert, kein Kritiker, der ihn verurteilt."
+      },
+      "consistency": {
+        "title": "Gewohnheit aufbauen",
+        "description": "Üben Sie Etikettierung den ganzen Tag über, nicht nur während Angstspitzen. Regelmäßige Nutzung stärkt Ihre Fähigkeit, Distanz zu Gedanken zu schaffen."
+      },
+      "simplicity": {
+        "title": "Etiketten einfach halten",
+        "description": "Verwenden Sie kurze, klare Etiketten wie \"Sorge\", \"Urteil\" oder \"Katastrophisieren\". Sie identifizieren Muster, schreiben keine Essays."
+      }
+    }
+  }
+}

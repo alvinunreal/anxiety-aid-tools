@@ -1,0 +1,226 @@
+{
+  "peacefulVisualization": {
+    "interface": {
+      "play": "Abspielen",
+      "stop": "Stoppen",
+      "visitAnotherPlace": "Einen anderen Ort besuchen",
+      "peacefulMoments": "friedliche Momente",
+      "immersiveJourney": "Immersive Visualisierungsreise",
+      "closeEyesAndBreathe": "Schließen Sie Ihre Augen und atmen Sie"
+    },
+    "completion": {
+      "title": "Visualisierung abgeschlossen",
+      "description": "Sie haben erfolgreich friedliche Orte in Ihrem Geist bereist. Dieser ruhige Zustand ist Ihnen jederzeit zugänglich.",
+      "benefits": {
+        "mindCalmed": "Geist beruhigt",
+        "stressReduced": "Stress reduziert",
+        "innerPeaceAchieved": "Innerer Frieden erreicht"
+      }
+    },
+    "scenes": {
+      "mountainPeakSunrise": {
+        "name": "Sonnenaufgang auf dem Berggipfel",
+        "description": "Auf einem sanften Berg stehend, den Sonnenaufgang über endlosen Gipfeln beobachtend",
+        "soundscape": "Bergwind",
+        "atmosphere": "Kühle, frische Luft",
+        "guidance": [
+          "Sie befinden sich auf einem friedlichen Berggipfel, die Welt vor Ihnen ausgebreitet wie ein wunderschönes Gemälde.",
+          "Der Sonnenaufgang malt den Himmel in sanften Farben - zartes Rosa, warmes Orange und goldenes Gelb, die sich über den Horizont erstrecken.",
+          "Kühle, frische Bergluft füllt Ihre Lungen. Jeder Atemzug ist rein und energetisierend und wäscht jegliche Anspannung oder Sorge fort.",
+          "Unter Ihnen rollen sich Bergschichten in die Ferne wie schlafende Riesen, bedeckt von einem sanften Morgennebel.",
+          "Sie fühlen sich hier völlig sicher, auf festem Boden stehend, verbunden mit der Erde unter Ihren Füßen.",
+          "Die sanfte Wärme der Sonne berührt Ihr Gesicht und erfüllt Sie mit Frieden und stiller Stärke.",
+          "Dies ist Ihr friedlicher Ort - Sie können jederzeit hierher zurückkehren, indem Sie einfach Ihre Augen schließen und sich an diesen Moment erinnern."
+        ]
+      },
+      "tranquilForestGrove": {
+        "name": "Ruhiger Waldhain",
+        "description": "In einer sonnenbeschienenen Lichtung, umgeben von uralten, sanften Bäumen",
+        "soundscape": "Vogelgesang & Blätter",
+        "atmosphere": "Gesprenkeltes Sonnenlicht",
+        "guidance": [
+          "Sie gehen in eine wunderschöne Waldlichtung, wo uralte Bäume eine natürliche Kathedrale um Sie herum bilden.",
+          "Sanftes Sonnenlicht filtert durch die Blätter darüber und erzeugt Muster aus Licht und Schatten auf dem Waldboden.",
+          "Die Luft hier ist erfüllt vom frischen Duft wachsender Dinge - Moos, Erde und dem sauberen Geruch von Blättern.",
+          "Weiches Moos dämpft Ihre Schritte, und Sie können die friedlichen Klänge singender Vögel und im sanften Wind rauschender Blätter hören.",
+          "Sie lassen sich neben einem glatten Baumstamm nieder und fühlen sich vollkommen gestützt und sicher in der Umarmung der Natur.",
+          "Jeder Atemzug bringt Ihnen tieferen Frieden, als würde der Wald selbst seine uralte Ruhe mit Ihnen teilen.",
+          "Dieser Hain ist Ihr Heiligtum - ein Ort, an dem Sie immer Frieden und Erneuerung finden können, wann immer Sie es brauchen."
+        ]
+      },
+      "peacefulOceanBeach": {
+        "name": "Friedlicher Meeresstrand",
+        "description": "Barfuß auf warmem Sand gehend, neben sanften, rhythmischen Wellen",
+        "soundscape": "Meereswellen",
+        "atmosphere": "Meeresbrise",
+        "guidance": [
+          "Sie gehen barfuß an einem wunderschönen Strand und spüren den warmen, weichen Sand zwischen Ihren Zehen.",
+          "Sanfte Wellen rollen in einem friedlichen Rhythmus ans Ufer, wie der eigene Atem der Erde, ruhig und stetig.",
+          "Das Meer erstreckt sich endlos vor Ihnen, seine Oberfläche funkelt im Sonnenlicht wie verstreute Diamanten.",
+          "Eine warme, sanfte Brise trägt den sauberen Duft von Salzwasser und berührt Ihre Haut mit perfektem Komfort.",
+          "Sie finden den perfekten Platz zum Ausruhen und fühlen sich vollkommen im Frieden mit dem endlosen Rhythmus der Wellen.",
+          "Jede Welle, die hereinrollt, nimmt jeden Stress oder jede Sorge mit und trägt sie aufs Meer hinaus, wo sie sich vollständig auflöst.",
+          "Dieser Strand ist Ihr friedlicher Zufluchtsort - die Wellen werden immer hier sein, bereit, Ihre Sorgen fortzuspülen, wann immer Sie zurückkehren."
+        ]
+      },
+      "sereneGardenParadise": {
+        "name": "Heiteres Gartenparadies",
+        "description": "In einem wunderschönen Garten voller bunter Blumen und sanfter Springbrunnen",
+        "soundscape": "Fließendes Wasser",
+        "atmosphere": "Blumendüfte",
+        "guidance": [
+          "Sie betreten einen prächtigen Garten, in dem jede Blume Sie mit leuchtenden Farben und sanften Düften zu begrüßen scheint.",
+          "Ein kleiner Springbrunnen erzeugt den friedlichsten Klang, während klares Wasser über glatte Steine in der Mitte des Gartens fließt.",
+          "Weiche Blütenblätter bilden einen lebendigen Regenbogen um Sie herum - tiefe Lilatöne, leuchtende Gelbtöne, sanfte Rosatöne.",
+          "Die Luft ist erfüllt von natürlichen Parfümen, und alles fühlt sich warm und einladend an.",
+          "Sie finden einen bequemen Platz zum Ausruhen zwischen den Blumen und fühlen sich sicher und geliebt von der Natur.",
+          "Dieser Garten wird mit jedem Atemzug, den Sie nehmen, schöner, als würde er auf Ihre friedliche Gegenwart reagieren.",
+          "Dies ist Ihr Garten des Friedens - er wird immer in voller Blüte stehen und auf Sie warten, wann immer Sie Schönheit und Ruhe brauchen."
+        ]
+      },
+      "starlitMeadowNight": {
+        "name": "Sternenhelle Wiese bei Nacht",
+        "description": "Auf einer weichen Wiese liegend unter einer Decke aus unzähligen Sternen",
+        "soundscape": "Nachtgeräusche",
+        "atmosphere": "Kühle Nachtluft",
+        "guidance": [
+          "Sie liegen bequem auf einer weichen Wiese und blicken zu einem Himmel voller funkelnder Sterne auf.",
+          "Das Gras unter Ihnen ist vollkommen weich, wie das eigene Kissen der Natur, das Ihren Körper vollständig stützt.",
+          "Über Ihnen erstreckt sich die Milchstraße über den Himmel wie ein Fluss aus Licht, unbeschreiblich schön.",
+          "Die Nachtluft ist angenehm, mit einer sanften Brise, die den süßen Duft nachtblühender Blumen trägt.",
+          "Sie fühlen sich klein auf die bestmögliche Weise - verbunden mit etwas Großem und Friedlichem, das Sie sicher hält.",
+          "Jeder Stern scheint nur für Sie zu leuchten und sendet Licht herab, das Sie mit Staunen und Frieden erfüllt.",
+          "Diese Wiese unter den Sternen ist Ihr Ort unendlicher Ruhe - Sie können immer aufblicken und Frieden in der Weite finden."
+        ]
+      },
+      "cozyRainyCabin": {
+        "name": "Gemütliche Regenhütte",
+        "description": "Sicher in einer warmen Hütte ruhend, während sanfter Regen auf das Dach trommelt",
+        "soundscape": "Regen auf dem Dach",
+        "atmosphere": "Kaminwärme",
+        "guidance": [
+          "Sie lassen sich in einem weichen Sessel neben dem Fenster einer gemütlichen Holzhütte nieder, als abendlicher Regen zu fallen beginnt.",
+          "Regentropfen trommeln einen sanften Rhythmus auf das Dach und rinnen das Glas hinunter, erzeugen den beruhigendsten Soundtrack.",
+          "Ein kleiner Kamin glüht in der Nähe und füllt den Raum mit goldenem Licht und dem tröstenden Knistern brennender Holzscheite.",
+          "Die Luft riecht schwach nach Kiefer und warmem Zedernholz und hüllt Sie in den sauberen Duft des umgebenden Waldes ein.",
+          "Eine dicke Decke liegt über Ihren Beinen, und Sie fühlen sich perfekt gestützt vom Stuhl, während Ihr ganzer Körper sich entspannt.",
+          "Sie halten eine warme Tasse zwischen Ihren Händen und lassen den Dampf langsam zu Ihrem Gesicht aufsteigen, während der Regen weiter singt.",
+          "Diese Hütte ist Ihr privater Zufluchtsort - wann immer Sie Frieden brauchen, können Sie zu diesem gemütlichen, regenverhangenen Abend zurückkehren und hier ruhen."
+        ]
+      },
+      "mistyLakesideDawn": {
+        "name": "Neblige Seeufer-Dämmerung",
+        "description": "An einem stillen Bergsee sitzend, während der Sonnenaufgang den nebligen Morgen färbt",
+        "soundscape": "Sanftes Wasserplätschern",
+        "atmosphere": "Kühler Morgennebel",
+        "guidance": [
+          "Sie sitzen auf einem glatten Holzsteg neben einem stillen Bergsee kurz vor Sonnenaufgang.",
+          "Dünner Nebel schwebt über dem Wasser und treibt träge dahin, während die Dämmerung beginnt, den Himmel zu färben.",
+          "Jeder Atemzug zieht frische Morgenluft ein, die nach Kiefer und kühlem Stein duftet.",
+          "Über dem See leuchten die Berge sanft, während das erste rosa Licht ihre Gipfel berührt.",
+          "Die Seeoberfläche spiegelt den erwachenden Himmel wider und kräuselt sich sanft mit nur den leisesten Wellen.",
+          "Ein entfernter Seetaucher ruft einmal und der Klang hallt sanft nach, bevor er wieder in die Stille verblasst.",
+          "Diese Seeufer-Dämmerung gehört Ihnen - kehren Sie dazu zurück, wann immer Sie Ruhe brauchen, und das Wasser wird warten."
+        ]
+      },
+      "sunlitDesertOasis": {
+        "name": "Sonnenbeschienene Wüstenoase",
+        "description": "Neben einem palmenüberschatteten Oasenteich in der goldenen Wüste ruhend",
+        "soundscape": "Sanfte Quelle und Brise",
+        "atmosphere": "Warmes Sonnenuntergangsleuchten",
+        "guidance": [
+          "Sie ruhen auf einem glatten Stein neben einem klaren Oasenteich, eingebettet in goldene Wüstendünen.",
+          "Palmwedel schwanken über Ihnen und streuen gesprenkelten Schatten, während das Sonnenlicht warm auf Ihrer Haut leuchtet.",
+          "Eine sanfte Quelle speist den Teich, ihr leises Plätschern harmoniert mit der sanften Wüstenbrise.",
+          "Die Luft duftet süß nach blühenden Dattelblüten, beruhigend und still.",
+          "Ferne Dünen schimmern im Nachmittagslicht, ihre Kurven führen Ihre Augen friedlich zum Horizont.",
+          "Sie lassen Ihre Finger ins kühle Wasser gleiten und spüren, wie sich Anspannung mit jedem Kreis auflöst, den Sie ziehen.",
+          "Diese Oase ist Ihr Heiligtum - egal wie heiß sich die Welt anfühlt, Sie können Ihren Geist hier immer abkühlen."
+        ]
+      },
+      "floatingCloudSanctuary": {
+        "name": "Schwebendes Wolkenheiligtum",
+        "description": "Durch weiche, sonnenbeschienene Wolken hoch über der Erde gleitend",
+        "soundscape": "Sanfte Höhenbrise",
+        "atmosphere": "Schwerelose Ruhe",
+        "guidance": [
+          "Sie treiben schwerelos zwischen riesigen, leuchtenden Wolken hoch über der Welt.",
+          "Sonnenstrahlen strömen durch die Wolken um Sie herum und bemalen sie mit sanftem Gold- und Silberlicht.",
+          "Eine sanfte Brise umhüllt Sie mit Wärme und wiegt Sie wie ein ruhiges und endloses Wiegenlied.",
+          "Jede Wolke fühlt sich wie Samt unter Ihren Fingern an, kühl und weich, während Sie durch sie gleiten.",
+          "Unter Ihnen sieht die Welt friedlich und klein aus, und jede Sorge scheint weit entfernt.",
+          "Mit jedem Atemzug teilen sich die Wolken und enthüllen endlosen blauen Himmel, der Sie an Ihren eigenen offenen Raum im Inneren erinnert.",
+          "Dieses schwebende Heiligtum hebt Sie immer empor - kehren Sie zurück, wann immer Sie über allem schweben und im Himmel ruhen möchten."
+        ]
+      }
+    },
+    "howItWorks": {
+      "title": "Wie geführte Visualisierung funktioniert",
+      "description1": "Geführte Visualisierung aktiviert dieselben neuronalen Bahnen in Ihrem Gehirn wie tatsächliche Erfahrungen. Wenn Sie sich lebhaft friedliche Szenen vorstellen, setzt Ihr Gehirn beruhigende Neurotransmitter frei und reduziert die Produktion von Stresshormonen, wodurch echte physiologische Entspannung entsteht.",
+      "description2": "Durch die Einbeziehung mehrerer Sinne - Sehen, Hören, Tasten, Riechen - wird die Visualisierung immersiver und effektiver. Diese multisensorische Einbindung verstärkt die Entspannungsreaktion und hilft Ihrem Nervensystem, vom Kampf-oder-Flucht-Modus in den Ruhe-und-Verdauungs-Modus zu wechseln.",
+      "mentalImagery": {
+        "title": "Mentale Vorstellungsbilder",
+        "description": "Das Gehirn verarbeitet imaginierte Erfahrungen ähnlich wie echte und löst echte Entspannungsreaktionen aus"
+      },
+      "sensoryEngagement": {
+        "title": "Sensorische Einbindung",
+        "description": "Mehrere Sinne, die zusammenarbeiten, schaffen tiefere Immersion und effektivere Stressreduktion"
+      },
+      "neuralPathways": {
+        "title": "Neuronale Bahnen",
+        "description": "Wiederholte Visualisierung stärkt beruhigende neuronale Schaltkreise und macht Entspannung im Laufe der Zeit leichter zugänglich"
+      }
+    },
+    "science": {
+      "title": "Die Wissenschaft hinter geführter Visualisierung",
+      "description": "Umfangreiche Forschung zeigt, dass geführte Vorstellungsbilder messbare Angstreduktion bei verschiedenen Bevölkerungsgruppen bewirken. In einer <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10871407/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">Studie mit 20 Patienten mit generalisierter Angststörung</a> reduzierte geführte Vorstellung in Kombination mit Standardbehandlung die Angstwerte von 21,30 auf 5,90 - eine Verbesserung um 72% - verglichen mit nur 30% Verbesserung in der Kontrollgruppe, die nur die Behandlung erhielt.",
+      "research": {
+        "covidAnxiety": {
+          "title": "Angstreduktion in medizinischen Umgebungen",
+          "description": "Bei <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7982304/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">55 COVID-19-Patienten</a> verringerten 10 Sitzungen geführter Vorstellung die Zustandsangst-Scores von 45,03 auf 38,27 (15% Reduktion) und die Eigenschaftsangst von 47,34 auf 39,58 (16% Reduktion), mit großen Effektstärken (d=1,10 und d=1,07, P<0,001)."
+        },
+        "surgicalAnxiety": {
+          "title": "Linderung chirurgischer Angst",
+          "description": "Bei <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC4625990/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">75 Patienten mit Gelenkersatz</a> erlebten 90,6% eine Abnahme der Angst um mehr als 50% vom Ausgangswert bis zum zweiten postoperativen Tag, mit einer durchschnittlichen Reduktion von 78,7%. Präoperative Sitzungen allein reduzierten die Angst um 42,8% und übertrafen damit signifikant die übliche Pflege (P<0,0001)."
+        },
+        "metaAnalysis": {
+          "title": "Breite klinische Evidenz",
+          "description": "Eine <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC3718554/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">Meta-Analyse von 36 randomisierten Studien</a> mit 1.608 Beobachtungen fand, dass geführte Vorstellung Angstsymptome mit einer standardisierten mittleren Differenz von -0,52 gegenüber Wartelisten-Kontrollen (P<0,001) und -0,59 gegenüber Aufmerksamkeits-Kontrollen (P<0,001) reduzierte. Keine Nebenwirkungen wurden in 25 Studien berichtet."
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Wann Sie üben sollten",
+      "items": [
+        "In Momenten hohen Stresses oder überwältigender Angst, wenn Sie sofortige Linderung benötigen",
+        "Vor wichtigen Ereignissen wie Präsentationen, Meetings oder medizinischen Eingriffen, um Nervosität vor dem Ereignis zu beruhigen",
+        "Vor dem Schlafengehen, um rasende Gedanken zu beruhigen und Geist und Körper auf erholsamen Schlaf vorzubereiten",
+        "Während Pausen im Laufe Ihres Tages, um Ihr Nervensystem zurückzusetzen und emotionales Gleichgewicht zu bewahren"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Was Sie bemerken werden",
+      "items": [
+        "Mentale Vorstellungsbilder erzeugen echte Gefühle der Ruhe, während Ihr Gehirn auf die friedlichen Szenen reagiert",
+        "Langsamere Herzfrequenz und tieferes Atmen, während Ihr parasympathisches Nervensystem aktiviert wird",
+        "Körperliche Anspannung schmilzt dahin, während Ihre Muskeln auf die imaginierte friedliche Umgebung reagieren",
+        "Größere Fähigkeit, ruhige Zustände mit regelmäßiger Übung zu erreichen, während Sie diese neuronalen Bahnen stärken"
+      ]
+    },
+    "tips": {
+      "title": "Tipps für beste Ergebnisse",
+      "preparation": {
+        "title": "Vorbereitung",
+        "description": "Finden Sie eine bequeme Position, in der Sie 10-12 Minuten still bleiben können. Verwenden Sie Kopfhörer für bessere Immersion in die Audio-Anleitung und Klanglandschaften."
+      },
+      "engagement": {
+        "title": "Einbindung",
+        "description": "Beziehen Sie alle Ihre Sinne in die Visualisierung ein - stellen Sie sich nicht nur vor, was Sie sehen, sondern auch, was Sie hören, fühlen, riechen und sogar schmecken. Je lebhafter, desto effektiver."
+      },
+      "patience": {
+        "title": "Geduld",
+        "description": "Wenn Ihre Gedanken abschweifen, lenken Sie sie sanft ohne Urteil zurück zur Visualisierung. Dies ist normal und Teil der Übung - Sie trainieren den Fokus Ihres Gehirns."
+      }
+    }
+  }
+}

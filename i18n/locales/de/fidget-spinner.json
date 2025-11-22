@@ -1,0 +1,15 @@
+{
+  "fidgetSpinner": {
+    "audioMute": "Ton stumm schalten",
+    "audioUnmute": "Ton aktivieren",
+    "aria": {
+      "spinnerLabel": "Interaktiver Fidget Spinner. Klicken und ziehen zum Drehen oder Leertaste/Enter drücken, um Drehung zu verstärken.",
+      "muteAudio": "Spinner-Soundeffekte stumm schalten",
+      "unmuteAudio": "Spinner-Soundeffekte aktivieren",
+      "status": {
+        "spinning": "Spinner dreht sich",
+        "still": "Spinner steht still"
+      }
+    }
+  }
+}

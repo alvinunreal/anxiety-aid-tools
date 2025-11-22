@@ -1,0 +1,206 @@
+{
+    "grounding": {
+        "exercise": {
+            "title": "5-4-3-2-1 Erdung",
+            "beginExercise": "Übung beginnen",
+            "practiceAgain": "Erneut üben",
+            "ofSteps": "von 5 Schritten",
+            "itemsFound": "Gegenstände gefunden",
+            "found": "gefunden",
+            "greatAwareness": "Großartige Aufmerksamkeit!",
+            "keepExploring": "Weiter erforschen...",
+            "back": "Zurück",
+            "next": "Weiter",
+            "complete": "Abschließen",
+            "youAreGrounded": "Sie sind geerdet",
+            "groundedDescription": "Durch die Einbeziehung Ihrer fünf Sinne haben Sie sich erfolgreich im gegenwärtigen Moment verankert.",
+            "benefits": {
+                "immediateStability": {
+                    "title": "Sofortige Stabilität",
+                    "description": "Verbinden Sie sich mit Ihrer Umgebung und fühlen Sie sich geerdet"
+                },
+                "mentalClarity": {
+                    "title": "Mentale Klarheit",
+                    "description": "Unterbrechen Sie rasende Gedanken und gewinnen Sie Fokus zurück"
+                },
+                "calmPresence": {
+                    "title": "Ruhige Präsenz",
+                    "description": "Fühlen Sie sich präsenter und in Kontrolle"
+                },
+                "stability": {
+                    "title": "Stabilität",
+                    "description": "Sie sind verbunden und geerdet"
+                },
+                "clarity": {
+                    "title": "Klarheit",
+                    "description": "Rasende Gedanken haben sich verlangsamt"
+                },
+                "presence": {
+                    "title": "Präsenz",
+                    "description": "Sie sind hier in diesem Moment"
+                }
+            },
+            "steps": {
+                "see": {
+                    "title": "Schauen Sie sich um",
+                    "subtitle": "Finden Sie 5 Dinge, die Sie sehen können",
+                    "items": [
+                        {
+                            "text": "Etwas mit einer interessanten Farbe oder einem Muster",
+                            "guidance": "Suchen Sie nach Texturen, Reflexionen oder Farbkombinationen, die Ihr Auge fangen"
+                        },
+                        {
+                            "text": "Ein Objekt mit glatter Oberfläche",
+                            "guidance": "Beachten Sie, wie Licht auf die Oberfläche fällt - ist sie glänzend, matt oder irgendwo dazwischen?"
+                        },
+                        {
+                            "text": "Etwas, das sich bewegt oder Schatten wirft",
+                            "guidance": "Beobachten Sie, wie Bewegung sich verändernde Muster von Licht und Schatten erzeugt"
+                        },
+                        {
+                            "text": "Ein Detail, das Sie vorher nicht bemerkt haben",
+                            "guidance": "Schauen Sie genauer auf vertraute Objekte - welche kleinen Details haben Sie übersehen?"
+                        },
+                        {
+                            "text": "Etwas, das Ihnen Trost bringt",
+                            "guidance": "Konzentrieren Sie sich darauf, warum dieses Objekt tröstend wirkt - seine Farben, Form oder Erinnerungen, die es birgt"
+                        }
+                    ]
+                },
+                "touch": {
+                    "title": "Fühlen Sie um sich herum",
+                    "subtitle": "Finden Sie 4 Dinge, die Sie berühren oder fühlen können",
+                    "items": [
+                        {
+                            "text": "Die Temperatur der Luft auf Ihrer Haut",
+                            "guidance": "Bemerken Sie, ob sie warm, kühl oder neutral ist - wie fühlt sie sich an verschiedenen Körperteilen an?"
+                        },
+                        {
+                            "text": "Die Textur Ihrer Kleidung",
+                            "guidance": "Fühlen Sie den Stoff zwischen Ihren Fingern - ist er weich, rau, glatt oder strukturiert?"
+                        },
+                        {
+                            "text": "Die Oberfläche, auf der Sie sitzen oder stehen",
+                            "guidance": "Drücken Sie leicht hinein - ist sie fest, weich, warm oder kühl gegen Ihren Körper?"
+                        },
+                        {
+                            "text": "Etwas Glattes oder Raues in Ihrer Nähe",
+                            "guidance": "Fahren Sie mit Ihren Fingern entlang der Oberfläche - bemerken Sie den Kontrast in den Texturen"
+                        }
+                    ]
+                },
+                "hear": {
+                    "title": "Hören Sie aufmerksam zu",
+                    "subtitle": "Finden Sie 3 Dinge, die Sie hören können",
+                    "items": [
+                        {
+                            "text": "Ihre eigene Atmung oder Ihren Herzschlag",
+                            "guidance": "Schließen Sie die Augen und konzentrieren Sie sich nach innen - können Sie Ihren Atem oder Puls hören?"
+                        },
+                        {
+                            "text": "Geräusche von draußen (Verkehr, Natur, Menschen)",
+                            "guidance": "Hören Sie über den Raum hinaus - welche entfernten Geräusche können Sie identifizieren?"
+                        },
+                        {
+                            "text": "Subtile Geräusche, die Sie normalerweise ignorieren",
+                            "guidance": "Beachten Sie leise Geräusche wie summende Elektronik, Luftbewegung oder Setzgeräusche"
+                        }
+                    ]
+                },
+                "smell": {
+                    "title": "Atmen Sie durch",
+                    "subtitle": "Finden Sie 2 Dinge, die Sie riechen können",
+                    "items": [
+                        {
+                            "text": "Die Luft in diesem Raum",
+                            "guidance": "Nehmen Sie einen langsamen, tiefen Atemzug - ist sie frisch, abgestanden, parfümiert oder neutral?"
+                        },
+                        {
+                            "text": "Etwas Angenehmes oder Vertrautes",
+                            "guidance": "Suchen Sie nach subtilen Düften - Kaffee, Seife, Weichspüler oder natürliche Gerüche"
+                        }
+                    ]
+                },
+                "taste": {
+                    "title": "Bemerken Sie den Geschmack",
+                    "subtitle": "Finden Sie 1 Ding, das Sie schmecken können",
+                    "items": [
+                        {
+                            "text": "Der aktuelle Geschmack in Ihrem Mund",
+                            "guidance": "Bewegen Sie Ihre Zunge in Ihrem Mund - süß, salzig, minzig oder nur der Geschmack von Speichel?"
+                        }
+                    ]
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "Wie 5-4-3-2-1 Erdung funktioniert",
+            "description1": "Die 5-4-3-2-1-Technik funktioniert, indem sie die Aufmerksamkeit Ihres Gehirns von ängstlichen Gedanken auf unmittelbare sensorische Erfahrungen umlenkt. Wenn Angst das Bedrohungserkennungssystem Ihres Gehirns aktiviert, erzeugt die bewusste Einbeziehung jedes Ihrer fünf Sinne konkurrierende neuronale Signale, die die Angstreaktion unterbrechen.",
+            "description2": "Indem Sie systematisch Dinge identifizieren, die Sie sehen, berühren, hören, riechen und schmecken können, verschieben Sie Ihr Nervensystem von einem Zustand der Übererregung zur Gegenwartsbewusstheit. Diese sensorische Einbeziehung aktiviert den präfrontalen Kortex – das Vernunftzentrum Ihres Gehirns – der hilft, die Amygdala zu regulieren, das emotionale Alarmsystem, das Angst auslöst.",
+            "description3": "Die Countdown-Struktur (5-4-3-2-1) bietet ein kognitives Gerüst, das Ihrem Geist eine konkrete Aufgabe gibt, verhindert, dass er in Sorgen spiralt, und verankert Sie gleichzeitig in Ihrer physischen Umgebung und im gegenwärtigen Moment.",
+            "sensoryEngagement": {
+                "title": "Sensorische Einbeziehung",
+                "description": "Die gleichzeitige Aktivierung mehrerer Sinne erzeugt starke neuronale Signale, die mit Angstmustern im Gehirn konkurrieren und diese überschreiben."
+            },
+            "neuralInterruption": {
+                "title": "Neuronale Unterbrechung",
+                "description": "Die strukturierte Countdown-Aufgabe aktiviert Ihren präfrontalen Kortex und unterbricht die Angstreaktion der Amygdala, wodurch rationales Denken wiederhergestellt wird."
+            },
+            "presentMomentAnchoring": {
+                "title": "Verankerung im gegenwärtigen Moment",
+                "description": "Das Identifizieren konkreter sensorischer Details verwurzelt Ihr Bewusstsein im Hier und Jetzt und durchbricht den Kreislauf von Grübeln über die Vergangenheit oder Sorgen über die Zukunft."
+            }
+        },
+        "science": {
+            "title": "Die Wissenschaft hinter 5-4-3-2-1 Erdung",
+            "description": "Forschung zeigt, dass sensorische Erdungstechniken messbare Verbesserungen der Angstsymptome in verschiedenen Bevölkerungsgruppen bewirken. In einer <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12550066/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">randomisierten kontrollierten Studie mit 121 Kindern mit Tourette-Syndrom</a> führten Erdungsübungen zu einer 36-Punkte-Reduktion der Angstwerte – signifikant größer als bei Kontrollgruppen – mit besonders starken Effekten auf Trennungsangst (11,31-Punkte-Reduktion, Effektgröße 0,55) und soziale Angst (11,05-Punkte-Reduktion, Effektgröße 0,65).",
+            "research": {
+                "anxietyReduction": {
+                    "title": "Angstreduktion in klinischen Populationen",
+                    "description": "Bei Kindern mit Tourette-Syndrom erreichte ein <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12550066/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">Protokoll mit sensorischer Erdung</a> eine 36,02-Punkte-Reduktion der Gesamt-Angstwerte, wobei Trennungsangst um 11,31 Punkte (Effektgröße 0,55) und soziale Angst um 11,05 Punkte (Effektgröße 0,65) sank."
+                },
+                "mentalHealthImprovement": {
+                    "title": "Verbesserungen der psychischen Gesundheit und Funktionsfähigkeit",
+                    "description": "Patienten mit funktioneller neurologischer Störung, die die <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10272915/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">5-4-3-2-1 Erdungstechnik</a> verwendeten, zeigten eine 39-Punkte-Erhöhung der psychischen Gesundheitswerte, 35-Punkte-Verbesserung der emotionalen Funktionsfähigkeit und halbierten ihre Beeinträchtigungsniveaus von 25,7 auf 13,2 auf Behinderungsskalen."
+                },
+                "symptomFrequencyReduction": {
+                    "title": "Reduktion der Symptomhäufigkeit",
+                    "description": "Eine <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8515382/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">Meta-Analyse psychologischer Behandlungen</a> mit sensorischer Erdung zeigte, dass 82% der Patienten eine mindestens 50%ige Reduktion der funktionellen Anfallshäufigkeit erreichten, mit anhaltenden Verbesserungen bei der 6-Monats-Nachuntersuchung und begleitenden Angstwert-Reduktionen."
+                }
+            }
+        },
+        "whenToPractice": {
+            "title": "Wann üben",
+            "items": [
+                "Während Panikattacken oder akuten Angstepisoden, um den Eskalationszyklus zu unterbrechen",
+                "Wenn Sie sich überfordert, dissoziiert oder von Ihrer Umgebung getrennt fühlen",
+                "Vor stressigen Ereignissen wie Präsentationen oder schwierigen Gesprächen, um Ruhe zu etablieren",
+                "Nach traumatischen Auslösern oder Flashbacks, um sich mit dem gegenwärtigen Moment zu verbinden"
+            ]
+        },
+        "whatYoullNotice": {
+            "title": "Was Sie bemerken werden",
+            "items": [
+                "Sofortige Reduktion rasender Gedanken und mentaler Überwältigung innerhalb der ersten Minute",
+                "Verlangsamte Herzfrequenz und verringerte körperliche Spannung, während sich Ihr Nervensystem beruhigt",
+                "Klareres Denken und verbesserte Fähigkeit, auf Situationen zu reagieren statt zu reagieren",
+                "Größeres Gefühl von Kontrolle und Stabilität bei regelmäßiger Praxis während Stress"
+            ]
+        },
+        "tips": {
+            "title": "Tipps für beste Ergebnisse",
+            "tip1": {
+                "title": "Langsam gehen",
+                "description": "Nehmen Sie sich Zeit, jedes sensorische Detail zu identifizieren – Eile verfehlt den Zweck. Verbringen Sie 5-10 Sekunden damit, jedes identifizierte Element wirklich zu beobachten."
+            },
+            "tip2": {
+                "title": "Seien Sie spezifisch",
+                "description": "Statt \"Ich sehe einen Stuhl\" versuchen Sie \"Ich sehe einen Holzstuhl mit gebogenen Armlehnen und einem roten Kissen.\" Detaillierte Beobachtung verstärkt den Erdungseffekt."
+            },
+            "tip3": {
+                "title": "Bei Bedarf wiederholen",
+                "description": "Wenn die Angst nach einer Runde zurückkehrt, führen Sie sofort eine weitere durch. Sie können diese Technik so oft praktizieren, wie nötig, bis Sie sich geerdet fühlen."
+            }
+        }
+    }
+}

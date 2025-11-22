@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "home": {
+      "title": "Open-Source-Toolkit gegen Angst",
+      "description": "Von der Community entwickelte Tools zur Angstbewältigung mit Atemtechniken, Erdung und Muskelentspannung."
+    },
+    "breathing": {
+      "title": "2-Minuten-Atemübung",
+      "description": "Kostenlose geführte Atemübung mit 4:6-Atemmuster. Aktiviert das parasympathische Nervensystem, um Angst und Stress natürlich zu reduzieren."
+    },
+    "grounding": {
+      "title": "5-4-3-2-1 Erdungstechnik",
+      "description": "Kostenlose Erdungsübung mit Ihren 5 Sinnen zur Beruhigung von Angst und Panik. Evidenzbasierte Technik für sofortige Stresslinderung."
+    },
+    "guidedBreathing": {
+      "title": "Geführte Atemübung",
+      "description": "Erweiterte geführte Atemübungen mit sanfter Anleitung. 5-10-Minuten-Sitzungen für tiefere Entspannung und Angstbewältigung."
+    },
+    "progressiveMuscleRelaxation": {
+      "title": "Progressive Muskelentspannung",
+      "description": "Kostenlose geführte Muskelentspannungsübung. Lösen Sie körperliche Spannungen und Angst durch systematische Muskelentspannungstechniken."
+    },
+    "peacefulVisualization": {
+      "title": "Friedliche Visualisierung",
+      "description": "Geführte Visualisierungsübungen zur Angstbewältigung. Reisen Sie zu beruhigenden Orten in Ihrem Geist für Stressabbau und Entspannung."
+    },
+    "thoughtLabeling": {
+      "title": "Gedanken-Etikettierung",
+      "description": "Interaktives Tool zur Kategorisierung ängstlicher Gedanken. Identifizieren und etikettieren Sie ängstliche Gedanken, um deren emotionale Wirkung zu reduzieren."
+    },
+    "stressReliefBubbles": {
+      "title": "Stressabbau-Blasen - Interaktives Spiel",
+      "description": "Interaktives Blasen-Spiel zum Stressabbau und zur Angstbewältigung. Befriedigendes sensorisches Erlebnis zur Spannungslösung."
+    },
+    "fidgetSpinner": {
+      "title": "Online Fidget Spinner - Beruhigende Bewegung für unruhige Energie",
+      "description": "Minimaler virtueller Fidget Spinner mit realistischem Momentum. Ziehen zum Drehen, loslassen zum Beruhigen und geben Sie unruhigen Händen ein stetiges Ventil."
+    },
+    "soundTherapy": {
+      "title": "Klangtherapie - Heilende Frequenzen gegen Angst",
+      "description": "Kostenlose Klangtherapie mit heilenden Frequenzen und binauralen Beats. Tiefenentspannungs-Audio für Angst und Stressabbau."
+    },
+    "stressBall": {
+      "title": "Interaktiver Stressball - Ziehen & Werfen zur Angstlinderung",
+      "description": "Interaktives virtuelles Stressball-Spiel. Ziehen, werfen und springen für sofortige Stresslinderung und Angstbewältigung. Kostenloses therapeutisches Tool."
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung - Anxiety Aid Tools",
+      "description": "Datenschutzerklärung für Anxiety Aid Tools. Erfahren Sie, wie wir Ihre Daten mit minimaler Analyse und lokaler Speicherung schützen."
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen - Anxiety Aid Tools",
+      "description": "Nutzungsbedingungen für Anxiety Aid Tools. Open-Source-GPL-lizenzierte Angstbewältigungsanwendung."
+    },
+    "support": {
+      "title": "Support - Anxiety Aid Tools",
+      "description": "Erhalten Sie Hilfe bei Anxiety Aid Tools. FAQ, Kontaktinformationen und Fehlerbehebung für unsere Angstbewältigungs-App."
+    },
+    "mobile": {
+      "title": "Mobile Apps - Anxiety Aid Tools für iOS & Android",
+      "description": "Laden Sie die Anxiety Aid Tools Mobile App für iOS und Android herunter. Kostenlose Angstbewältigungstechniken unterwegs - Atemübungen, Erdung und mehr."
+    }
+  }
+}

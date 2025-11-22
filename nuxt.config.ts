@@ -313,6 +313,27 @@ export default defineNuxtConfig({
           'es/fidget-spinner.json'
         ]
       },
+      {
+        code: 'de',
+        language: 'de-DE',
+        name: 'Deutsch',
+        files: [
+          'de/navigation.json',
+          'de/techniques.json',
+          'de/pages.json',
+          'de/meta.json',
+          'en/legal.json',
+          'de/breathing.json',
+          'de/guided-breathing.json',
+          'de/grounding.json',
+          'de/peaceful-visualization.json',
+          'de/progressive-muscle-relaxation.json',
+          'de/sound-therapy.json',
+          'de/stress-relief-bubbles.json',
+          'de/thought-labeling.json',
+          'de/fidget-spinner.json'
+        ]
+      },
     ],
     defaultLocale: 'en',
     strategy: 'prefix_except_default'

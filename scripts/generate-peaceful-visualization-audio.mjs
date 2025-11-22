@@ -101,8 +101,8 @@ const listLocales = async () => {
   const localeCodes = [];
   for (const entry of entries) {
     if (!entry.isDirectory()) continue;
-    const exercisesPath = path.join(localesDir, entry.name, 'exercises.json');
-    if (existsSync(exercisesPath)) {
+    const pvPath = path.join(localesDir, entry.name, 'peaceful-visualization.json');
+    if (existsSync(pvPath)) {
       localeCodes.push(entry.name);
     }
   }
@@ -110,10 +110,10 @@ const listLocales = async () => {
 };
 
 const loadLocaleData = async (locale) => {
-  const exercisesPath = path.join(localesDir, locale, 'exercises.json');
-  const data = JSON.parse(await readFile(exercisesPath, 'utf8'));
+  const pvPath = path.join(localesDir, locale, 'peaceful-visualization.json');
+  const data = JSON.parse(await readFile(pvPath, 'utf8'));
   if (!data.peacefulVisualization?.scenes) {
-    throw new Error(`Locale "${locale}" does not define peacefulVisualization.scenes in exercises.json`);
+    throw new Error(`Locale "${locale}" does not define peacefulVisualization.scenes in peaceful-visualization.json`);
   }
   return data.peacefulVisualization.scenes;
 };
