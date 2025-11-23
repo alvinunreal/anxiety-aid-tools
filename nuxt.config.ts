@@ -146,6 +146,27 @@ export default defineNuxtConfig({
     },
     locales: [
       {
+        code: 'de',
+        language: 'de-DE',
+        name: 'Deutsch',
+        files: [
+          'de/navigation.json',
+          'de/techniques.json',
+          'de/pages.json',
+          'de/meta.json',
+          'en/legal.json',
+          'de/breathing.json',
+          'de/guided-breathing.json',
+          'de/grounding.json',
+          'de/peaceful-visualization.json',
+          'de/progressive-muscle-relaxation.json',
+          'de/sound-therapy.json',
+          'de/stress-relief-bubbles.json',
+          'de/thought-labeling.json',
+          'de/fidget-spinner.json'
+        ]
+      },
+      {
         code: 'en',
         language: 'en-US',
         name: 'English',
@@ -164,6 +185,27 @@ export default defineNuxtConfig({
           'en/stress-relief-bubbles.json',
           'en/thought-labeling.json',
           'en/fidget-spinner.json'
+        ]
+      },
+      {
+        code: 'es',
+        language: 'es-ES',
+        name: 'Español',
+        files: [
+          'es/navigation.json',
+          'es/techniques.json',
+          'es/pages.json',
+          'es/meta.json',
+          'en/legal.json',
+          'es/breathing.json',
+          'es/guided-breathing.json',
+          'es/grounding.json',
+          'es/peaceful-visualization.json',
+          'es/progressive-muscle-relaxation.json',
+          'es/sound-therapy.json',
+          'es/stress-relief-bubbles.json',
+          'es/thought-labeling.json',
+          'es/fidget-spinner.json'
         ]
       },
       {
@@ -188,72 +230,9 @@ export default defineNuxtConfig({
         ]
       },
       {
-        code: 'pt',
-        language: 'pt-BR',
-        name: 'Português Brasileiro',
-        files: [
-          'pt/navigation.json',
-          'pt/techniques.json',
-          'pt/pages.json',
-          'pt/meta.json',
-          'en/legal.json',
-          'pt/breathing.json',
-          'pt/guided-breathing.json',
-          'pt/grounding.json',
-          'pt/peaceful-visualization.json',
-          'pt/progressive-muscle-relaxation.json',
-          'pt/sound-therapy.json',
-          'pt/stress-relief-bubbles.json',
-          'pt/thought-labeling.json',
-          'pt/fidget-spinner.json'
-        ]
-      },
-      {
-        code: 'zh',
-        language: 'zh-CN',
-        name: '简体中文',
-        files: [
-          'zh/navigation.json',
-          'zh/techniques.json',
-          'zh/pages.json',
-          'zh/meta.json',
-          'en/legal.json',
-          'zh/breathing.json',
-          'zh/guided-breathing.json',
-          'zh/grounding.json',
-          'zh/peaceful-visualization.json',
-          'zh/progressive-muscle-relaxation.json',
-          'zh/sound-therapy.json',
-          'zh/stress-relief-bubbles.json',
-          'zh/thought-labeling.json',
-          'zh/fidget-spinner.json'
-        ]
-      },
-      {
-        code: 'ru',
-        language: 'ru',
-        name: 'Русский',
-        files: [
-          'ru/navigation.json',
-          'ru/techniques.json',
-          'ru/pages.json',
-          'ru/meta.json',
-          'en/legal.json',
-          'ru/breathing.json',
-          'ru/guided-breathing.json',
-          'ru/grounding.json',
-          'ru/peaceful-visualization.json',
-          'ru/progressive-muscle-relaxation.json',
-          'ru/sound-therapy.json',
-          'ru/stress-relief-bubbles.json',
-          'ru/thought-labeling.json',
-          'ru/fidget-spinner.json'
-        ]
-      },
-      {
         code: 'he',
         language: 'he',
-        name: 'Hebrew',
+        name: 'עברית',
         files: [
           'he/navigation.json',
           'he/techniques.json',
@@ -314,45 +293,66 @@ export default defineNuxtConfig({
         ]
       },
       {
-        code: 'es',
-        language: 'es-ES',
-        name: 'Español',
+        code: 'pt',
+        language: 'pt-BR',
+        name: 'Português Brasileiro',
         files: [
-          'es/navigation.json',
-          'es/techniques.json',
-          'es/pages.json',
-          'es/meta.json',
+          'pt/navigation.json',
+          'pt/techniques.json',
+          'pt/pages.json',
+          'pt/meta.json',
           'en/legal.json',
-          'es/breathing.json',
-          'es/guided-breathing.json',
-          'es/grounding.json',
-          'es/peaceful-visualization.json',
-          'es/progressive-muscle-relaxation.json',
-          'es/sound-therapy.json',
-          'es/stress-relief-bubbles.json',
-          'es/thought-labeling.json',
-          'es/fidget-spinner.json'
+          'pt/breathing.json',
+          'pt/guided-breathing.json',
+          'pt/grounding.json',
+          'pt/peaceful-visualization.json',
+          'pt/progressive-muscle-relaxation.json',
+          'pt/sound-therapy.json',
+          'pt/stress-relief-bubbles.json',
+          'pt/thought-labeling.json',
+          'pt/fidget-spinner.json'
         ]
       },
       {
-        code: 'de',
-        language: 'de-DE',
-        name: 'Deutsch',
+        code: 'ru',
+        language: 'ru',
+        name: 'Русский',
         files: [
-          'de/navigation.json',
-          'de/techniques.json',
-          'de/pages.json',
-          'de/meta.json',
+          'ru/navigation.json',
+          'ru/techniques.json',
+          'ru/pages.json',
+          'ru/meta.json',
           'en/legal.json',
-          'de/breathing.json',
-          'de/guided-breathing.json',
-          'de/grounding.json',
-          'de/peaceful-visualization.json',
-          'de/progressive-muscle-relaxation.json',
-          'de/sound-therapy.json',
-          'de/stress-relief-bubbles.json',
-          'de/thought-labeling.json',
-          'de/fidget-spinner.json'
+          'ru/breathing.json',
+          'ru/guided-breathing.json',
+          'ru/grounding.json',
+          'ru/peaceful-visualization.json',
+          'ru/progressive-muscle-relaxation.json',
+          'ru/sound-therapy.json',
+          'ru/stress-relief-bubbles.json',
+          'ru/thought-labeling.json',
+          'ru/fidget-spinner.json'
+        ]
+      },
+      {
+        code: 'zh',
+        language: 'zh-CN',
+        name: '简体中文',
+        files: [
+          'zh/navigation.json',
+          'zh/techniques.json',
+          'zh/pages.json',
+          'zh/meta.json',
+          'en/legal.json',
+          'zh/breathing.json',
+          'zh/guided-breathing.json',
+          'zh/grounding.json',
+          'zh/peaceful-visualization.json',
+          'zh/progressive-muscle-relaxation.json',
+          'zh/sound-therapy.json',
+          'zh/stress-relief-bubbles.json',
+          'zh/thought-labeling.json',
+          'zh/fidget-spinner.json'
         ]
       },
     ],
