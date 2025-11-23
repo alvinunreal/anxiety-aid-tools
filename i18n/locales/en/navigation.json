@@ -6,7 +6,9 @@
     "menu": "Menu",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
-    "skipToMain": "Skip to main content"
+    "skipToMain": "Skip to main content",
+    "language": "Language",
+    "selectLanguage": "Select Language"
   },
   "header": {
     "title": "AnxietyAidTools",

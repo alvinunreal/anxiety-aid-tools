@@ -46,6 +46,38 @@
           <Icon name="mdi:github" class="text-lg" />
           <span>{{ $t('navigation.github') }}</span>
         </a>
+        
+        <!-- Language Dropdown -->
+        <div class="relative" ref="langDropdownRef">
+          <button
+            @click="isLangDropdownOpen = !isLangDropdownOpen"
+            class="flex items-center gap-1.5 text-sm font-medium text-gray-700 dark:text-slate-300 hover:text-gray-900 dark:hover:text-slate-100 hover:underline decoration-2 underline-offset-4 transition-all duration-200"
+            :aria-label="$t('navigation.selectLanguage') || 'Select Language'"
+            aria-haspopup="true"
+            :aria-expanded="isLangDropdownOpen"
+          >
+            <Icon name="mdi:translate" class="text-lg" />
+            <span>{{ currentLocale?.name }}</span>
+            <Icon name="mdi:chevron-down" class="text-base transition-transform duration-200" :class="{ 'rotate-180': isLangDropdownOpen }" />
+          </button>
+          
+          <Transition name="dropdown">
+            <div
+              v-if="isLangDropdownOpen"
+              class="absolute right-0 mt-2 w-48 bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-600 rounded shadow-lg py-1 z-50"
+            >
+              <button
+                v-for="locale in availableLocales"
+                :key="locale.code"
+                @click="switchLanguage(locale.code)"
+                class="w-full text-left px-4 py-2 text-sm text-gray-700 dark:text-slate-300 hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors duration-200"
+                :class="{ 'bg-blue-50 dark:bg-blue-950 text-blue-600 dark:text-blue-400 font-medium': locale.code === $i18n.locale }"
+              >
+                {{ locale.name }}
+              </button>
+            </div>
+          </Transition>
+        </div>
       </nav>
 
       <!-- Mobile menu button -->
@@ -88,7 +120,7 @@
           <NuxtLink
             :to="localePath('/mobile')"
             @click="isMenuOpen = false"
-            class="flex items-center px-4 py-3 mb-2 rounded text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950 hover:bg-blue-100 dark:hover:bg-blue-900 transition-colors duration-200"
+            class="flex items-center px-4 py-3 mb-2 rounded text-gray-700 dark:text-slate-300 hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors duration-200"
           >
             <Icon name="mdi:cellphone" class="text-xl mr-3" />
             <span>{{ $t('navigation.mobile') }}</span>
@@ -108,11 +140,30 @@
             href="https://github.com/alvinunreal/anxiety-aid-tools"
             target="_blank"
             rel="noopener noreferrer nofollow"
-            class="flex items-center px-4 py-3 rounded text-gray-700 dark:text-slate-300 hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors duration-200"
+            class="flex items-center px-4 py-3 mb-2 rounded text-gray-700 dark:text-slate-300 hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors duration-200"
           >
             <Icon name="mdi:github" class="text-xl mr-3" />
             <span>{{ $t('navigation.github') }}</span>
           </a>
+
+          <!-- Language Section -->
+          <div class="mt-4 pt-4 border-t border-gray-200 dark:border-slate-700">
+            <div class="flex items-center px-4 py-2 text-xs font-semibold text-gray-500 dark:text-slate-400 uppercase tracking-wider">
+              <Icon name="mdi:translate" class="text-base mr-2" />
+              <span>{{ $t('navigation.language') || 'Language' }}</span>
+            </div>
+            <button
+              v-for="locale in availableLocales"
+              :key="locale.code"
+              @click="switchLanguage(locale.code)"
+              class="flex items-center w-full px-4 py-3 rounded text-gray-700 dark:text-slate-300 hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors duration-200"
+              :class="{ 'bg-blue-50 dark:bg-blue-950 text-blue-600 dark:text-blue-400 font-medium': locale.code === $i18n.locale }"
+            >
+              <Icon v-if="locale.code === $i18n.locale" name="mdi:check" class="text-xl mr-3" />
+              <span class="ml-8" v-else></span>
+              <span>{{ locale.name }}</span>
+            </button>
+          </div>
         </nav>
       </div>
     </div>
@@ -121,7 +172,16 @@
 
 <script setup>
 const localePath = useLocalePath()
+const switchLocalePath = useSwitchLocalePath()
+const { locale, locales } = useI18n()
+const router = useRouter()
+
 const isMenuOpen = ref(false)
+const isLangDropdownOpen = ref(false)
+const langDropdownRef = ref(null)
+
+const availableLocales = computed(() => locales.value)
+const currentLocale = computed(() => locales.value.find(l => l.code === locale.value))
 
 const skipToMain = () => {
   const mainContent = document.getElementById('main-content')
@@ -130,6 +190,27 @@ const skipToMain = () => {
     mainContent.scrollIntoView({ behavior: 'smooth' })
   }
 }
+
+const switchLanguage = async (code) => {
+  isLangDropdownOpen.value = false
+  isMenuOpen.value = false
+  await router.push(switchLocalePath(code))
+}
+
+// Close dropdown when clicking outside
+const handleClickOutside = (event) => {
+  if (langDropdownRef.value && !langDropdownRef.value.contains(event.target)) {
+    isLangDropdownOpen.value = false
+  }
+}
+
+onMounted(() => {
+  document.addEventListener('click', handleClickOutside)
+})
+
+onUnmounted(() => {
+  document.removeEventListener('click', handleClickOutside)
+})
 
 // Close menu on route change
 watch(() => localePath('/'), () => {
@@ -156,5 +237,16 @@ watch(() => localePath('/'), () => {
 .sidebar-enter-from .absolute.right-0,
 .sidebar-leave-to .absolute.right-0 {
   transform: translateX(100%);
+}
+
+.dropdown-enter-active,
+.dropdown-leave-active {
+  transition: all 0.2s ease;
+}
+
+.dropdown-enter-from,
+.dropdown-leave-to {
+  opacity: 0;
+  transform: translateY(-8px);
 }
 </style>

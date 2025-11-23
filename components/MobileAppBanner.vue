@@ -19,7 +19,7 @@
 
         <button
           @click="dismissBanner"
-          class="absolute right-0 p-1 text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 hover:bg-blue-100 dark:hover:bg-blue-900/40 rounded-full transition-all duration-200 hover:rotate-90"
+          class="absolute right-0 p-1 flex items-center justify-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 hover:bg-blue-100 dark:hover:bg-blue-900/40 rounded"
           :aria-label="$t('mobileAppBanner.dismiss')"
         >
           <Icon name="ph:x" class="text-sm" />
