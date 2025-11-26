@@ -208,19 +208,18 @@ Repeat step 2 for each supported locale once you have suitable voices configured
 
 ---
 
-## **Acknowledgments**
-
-Built with gratitude for:
-- **Mental health researchers** whose studies inform our techniques
-- **Open source community** providing the tools to build accessible software
-- **Beta testers** who provided feedback during anxious moments
-- **Contributors** who help make this tool better for everyone
+## **Asset Attribution**
+- **Illustrations** - Generated using ChatGPT
+- **Audio Narration** - Generated using ElevenLabs Text-to-Speech API
 
 ---
 
 ## **License**
 
 GPL License - feel free to use, modify, and distribute. Mental health tools should be open and accessible.
+
+### **Using Our Assets**
+All assets in this project (illustrations, audio, etc.) are included under the same GPL v3 license as the code. You're welcome to use them in your own projects. **Attribution is appreciated** — if you use our assets, please credit Anxiety Aid Tools.
 
 ---
 
