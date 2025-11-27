@@ -18,7 +18,7 @@ find "$TARGET_DIR" -type f -name "*.mp3" | while read -r file; do
   echo "Processing: $file -> $output"
 
   ffmpeg -i "$file" \
-    -af "loudnorm=I=-16:TP=-1.5:LRA=7,acompressor=threshold=-25dB:ratio=6:attack=5:release=200:makeup=8dB,alimiter=limit=-1.5dB:attack=5:release=50" \
+    -af "alimiter=limit=-2.5dB:attack=1:release=20,acompressor=threshold=-25dB:ratio=3:attack=5:release=400:makeup=5dB,loudnorm=I=-18:TP=-2.0:LRA=6" \
     -q:a 5 \
     "$output" 2>&1 | grep -E "(error|Error)" || echo "  ✓ Done"
   
