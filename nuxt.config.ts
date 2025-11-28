@@ -251,6 +251,27 @@ export default defineNuxtConfig({
         ]
       },
       {
+        code: 'hi',
+        language: 'hi-IN',
+        name: 'हिन्दी',
+        files: [
+          'hi/navigation.json',
+          'hi/techniques.json',
+          'hi/pages.json',
+          'hi/meta.json',
+          'en/legal.json',
+          'hi/breathing.json',
+          'hi/guided-breathing.json',
+          'hi/grounding.json',
+          'hi/peaceful-visualization.json',
+          'hi/progressive-muscle-relaxation.json',
+          'hi/sound-therapy.json',
+          'hi/stress-relief-bubbles.json',
+          'hi/thought-labeling.json',
+          'hi/fidget-spinner.json'
+        ]
+      },
+      {
         code: 'it',
         language: 'it-IT',
         name: 'Italiano',

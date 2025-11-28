@@ -25,7 +25,7 @@
               />
             </div>
             <p class="mb-2 font-semibold text-gray-800 dark:text-slate-100 transition-colors duration-200">{{ scene.name }}</p>
-            <p class="mb-3 text-sm text-gray-600 dark:text-slate-300 transition-colors duration-200">{{ scene.description }}</p>
+            <p class="mb-3 line-clamp-2 h-10 text-sm text-gray-600 dark:text-slate-300 transition-colors duration-200">{{ scene.description }}</p>
             <div class="text-xs font-medium text-blue-600 dark:text-blue-400 transition-colors duration-200">
               {{ scene.soundscape }}
             </div>
