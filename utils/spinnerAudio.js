@@ -1,19 +1,31 @@
 /**
- * Audio utility for fidget spinner - generates discrete click sounds based on rotation
+ * Audio utility for fidget spinner - plays click sounds based on rotation
  */
 
 export class SpinnerAudio {
   constructor() {
     this.audioContext = null
+    this.clickBuffer = null
     this.isMuted = false
     this.lastRotation = 0
     this.clickThreshold = 15 // Degrees of rotation per click
     this.accumulatedRotation = 0
   }
 
-  init() {
+  async init() {
     if (!this.audioContext) {
       this.audioContext = new (window.AudioContext || window.webkitAudioContext)()
+      await this.loadClickSound()
+    }
+  }
+
+  async loadClickSound() {
+    try {
+      const response = await fetch('/audios/fidget-spinner/click.mp3')
+      const arrayBuffer = await response.arrayBuffer()
+      this.clickBuffer = await this.audioContext.decodeAudioData(arrayBuffer)
+    } catch (error) {
+      console.warn('Failed to load click sound:', error)
     }
   }
 
@@ -53,57 +65,27 @@ export class SpinnerAudio {
   }
 
   /**
-   * Play a single metallic click sound
-   * @param {number} velocity - Current velocity for pitch/volume variation
+   * Play a single click sound
+   * @param {number} velocity - Current velocity for volume variation
    */
   playClick(velocity) {
-    if (!this.audioContext) return
+    if (!this.audioContext || !this.clickBuffer) return
 
-    const now = this.audioContext.currentTime
-
-    // Create a short burst of white noise for click
-    const duration = 0.02 // Very short click
-    const bufferSize = this.audioContext.sampleRate * duration
-    const noiseBuffer = this.audioContext.createBuffer(1, bufferSize, this.audioContext.sampleRate)
-    const output = noiseBuffer.getChannelData(0)
-    
-    for (let i = 0; i < bufferSize; i++) {
-      output[i] = (Math.random() * 2 - 1) * (1 - i / bufferSize) // Decay envelope
-    }
-
-    // Create buffer source
     const source = this.audioContext.createBufferSource()
-    source.buffer = noiseBuffer
+    source.buffer = this.clickBuffer
 
-    // Create gain for volume control
+    // Create gain for volume control based on velocity
     const gainNode = this.audioContext.createGain()
-    const volume = Math.min(0.1 + velocity * 0.015, 0.3)
-    gainNode.gain.setValueAtTime(volume, now)
-    gainNode.gain.exponentialRampToValueAtTime(0.001, now + duration)
+    const volume = Math.min(0.3 + velocity * 0.02, 0.7)
+    gainNode.gain.value = volume
 
-    // Create high-pass filter for metallic character
-    const highpass = this.audioContext.createBiquadFilter()
-    highpass.type = 'highpass'
-    const filterFreq = 2000 + velocity * 100
-    highpass.frequency.setValueAtTime(filterFreq, now)
-    highpass.Q.value = 1
+    // Slight playback rate variation for more natural feel
+    source.playbackRate.value = 0.95 + Math.random() * 0.1
 
-    // Create bandpass filter for click sharpness
-    const bandpass = this.audioContext.createBiquadFilter()
-    bandpass.type = 'bandpass'
-    const clickFreq = 3000 + velocity * 150
-    bandpass.frequency.setValueAtTime(clickFreq, now)
-    bandpass.Q.value = 15
-
-    // Connect audio graph
-    source.connect(highpass)
-    highpass.connect(bandpass)
-    bandpass.connect(gainNode)
+    // Connect and play
+    source.connect(gainNode)
     gainNode.connect(this.audioContext.destination)
-
-    // Play the click
-    source.start(now)
-    source.stop(now + duration)
+    source.start()
   }
 
   reset() {
